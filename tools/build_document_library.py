@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 from pathlib import Path
 
 
@@ -34,9 +35,11 @@ def slugify(value: str) -> str:
 def ensure_document_link(pdf_path: Path) -> str:
     DOC_DIR.mkdir(parents=True, exist_ok=True)
     target = DOC_DIR / slugify(pdf_path.name)
-    if target.exists() or target.is_symlink():
+    if target.is_symlink():
+        target.unlink()
+    if target.exists():
         return f"documents/{target.name}"
-    target.symlink_to(pdf_path)
+    shutil.copy2(pdf_path, target)
     return f"documents/{target.name}"
 
 
@@ -142,7 +145,22 @@ def extract_current_site_rows(text: str, source: str, page_number: int) -> list[
     return rows
 
 
-def gallery_images_for(pdf_path: Path) -> list[dict[str, str]]:
+def visual_category(text: str) -> tuple[str, str]:
+    value = clean(text).lower()
+    if not value or len(value) < 25:
+        return ("Photo / Visual Reference", "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.")
+    if re.search(r"\b(good|better|best|ultimate|deluxe|package|price|\$|wax|shine|tire|wheel|foam|ceramic|wash menu)\b", value):
+        return ("Menu & Pricing", "Package boards, service levels, pricing, wax/tire add-ons, and customer-facing wash menus.")
+    if re.search(r"\b(equipment|tunnel|conveyor|vacuum|pump|dryer|pre-?wash|scrubber|rinse|simoniz|touchless|automatic)\b", value):
+        return ("Equipment & Operations", "Tunnel/equipment visuals, wash process details, vendor references, and operating setup clues.")
+    if re.search(r"\b(site|building|exterior|entrance|exit|lane|road|street|parking|lot|sign|canopy|aerial|location)\b", value):
+        return ("Site & Exterior", "Location/site visuals, signage, access, frontage, building views, and exterior context.")
+    if re.search(r"\b(ebitda|revenue|sales|traffic|acres|cars|volume|count|financial|note|memo|asking)\b", value):
+        return ("Deal & Operating Notes", "Pages that appear to contain operating, financial, traffic, or deal-context notes.")
+    return ("Partial OCR Visuals", "Image pages with partial readable text; use the thumbnail and full PDF page together for interpretation.")
+
+
+def gallery_images_for(pdf_path: Path, pages: list[str]) -> list[dict[str, str]]:
     folder = GALLERY_DIR / slugify(pdf_path.stem)
     if not folder.exists():
         return []
@@ -151,9 +169,14 @@ def gallery_images_for(pdf_path: Path) -> list[dict[str, str]]:
     for image_path in image_paths:
         match = re.search(r"page-(\d+)", image_path.stem)
         page = str(int(match.group(1))) if match else ""
+        page_index = int(page) - 1 if page else -1
+        page_text = pages[page_index] if 0 <= page_index < len(pages) else ""
+        group, interpretation = visual_category(page_text)
         images.append(
             {
                 "page": page,
+                "group": group,
+                "interpretation": interpretation,
                 "image_url": f"documents/gallery/{folder.name}/{image_path.name}",
                 "pdf_page_url": f"documents/{slugify(pdf_path.name)}#page={page}" if page else f"documents/{slugify(pdf_path.name)}",
             }
@@ -185,7 +208,7 @@ def build() -> list[dict[str, object]]:
                         "terms": [term for term in ["car wash", "traffic", "EBITDA", "revenue", "acres", "site list", "development"] if re.search(term, page, re.I)],
                     }
                 )
-        gallery_images = gallery_images_for(pdf_path)
+        gallery_images = gallery_images_for(pdf_path, pages)
         is_image_scan = bool(gallery_images) or re.search(r"\bimage|photo|picture|scan\b", pdf_path.stem, re.I)
         documents.append(
             {
@@ -199,7 +222,7 @@ def build() -> list[dict[str, object]]:
                 "evidence_row_count": len(evidence_rows),
                 "pages": page_cards[:180],
                 "evidence_rows": evidence_rows[:300],
-                "gallery_images": gallery_images[:120],
+                "gallery_images": gallery_images,
             }
         )
     return documents

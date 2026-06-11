@@ -11097,311 +11097,435 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "gallery_images": [
       {
         "page": "1",
+        "group": "Menu & Pricing",
+        "interpretation": "Package boards, service levels, pricing, wax/tire add-ons, and customer-facing wash menus.",
         "image_url": "documents/gallery/Images-Scanned/page-001.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=1"
       },
       {
         "page": "2",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-002.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=2"
       },
       {
         "page": "3",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-003.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=3"
       },
       {
         "page": "4",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-004.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=4"
       },
       {
         "page": "5",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-005.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=5"
       },
       {
         "page": "6",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-006.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=6"
       },
       {
         "page": "7",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-007.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=7"
       },
       {
         "page": "8",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-008.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=8"
       },
       {
         "page": "9",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-009.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=9"
       },
       {
         "page": "10",
+        "group": "Menu & Pricing",
+        "interpretation": "Package boards, service levels, pricing, wax/tire add-ons, and customer-facing wash menus.",
         "image_url": "documents/gallery/Images-Scanned/page-010.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=10"
       },
       {
         "page": "11",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-011.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=11"
       },
       {
         "page": "12",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-012.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=12"
       },
       {
         "page": "13",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-013.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=13"
       },
       {
         "page": "14",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-014.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=14"
       },
       {
         "page": "15",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-015.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=15"
       },
       {
         "page": "16",
+        "group": "Menu & Pricing",
+        "interpretation": "Package boards, service levels, pricing, wax/tire add-ons, and customer-facing wash menus.",
         "image_url": "documents/gallery/Images-Scanned/page-016.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=16"
       },
       {
         "page": "17",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-017.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=17"
       },
       {
         "page": "18",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-018.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=18"
       },
       {
         "page": "19",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-019.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=19"
       },
       {
         "page": "20",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-020.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=20"
       },
       {
         "page": "21",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-021.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=21"
       },
       {
         "page": "22",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-022.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=22"
       },
       {
         "page": "23",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-023.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=23"
       },
       {
         "page": "24",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-024.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=24"
       },
       {
         "page": "25",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-025.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=25"
       },
       {
         "page": "26",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-026.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=26"
       },
       {
         "page": "27",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-027.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=27"
       },
       {
         "page": "28",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-028.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=28"
       },
       {
         "page": "29",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-029.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=29"
       },
       {
         "page": "30",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-030.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=30"
       },
       {
         "page": "31",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-031.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=31"
       },
       {
         "page": "32",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-032.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=32"
       },
       {
         "page": "33",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-033.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=33"
       },
       {
         "page": "34",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-034.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=34"
       },
       {
         "page": "35",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-035.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=35"
       },
       {
         "page": "36",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-036.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=36"
       },
       {
         "page": "37",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-037.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=37"
       },
       {
         "page": "38",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-038.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=38"
       },
       {
         "page": "39",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-039.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=39"
       },
       {
         "page": "40",
+        "group": "Menu & Pricing",
+        "interpretation": "Package boards, service levels, pricing, wax/tire add-ons, and customer-facing wash menus.",
         "image_url": "documents/gallery/Images-Scanned/page-040.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=40"
       },
       {
         "page": "41",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-041.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=41"
       },
       {
         "page": "42",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-042.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=42"
       },
       {
         "page": "43",
+        "group": "Partial OCR Visuals",
+        "interpretation": "Image pages with partial readable text; use the thumbnail and full PDF page together for interpretation.",
         "image_url": "documents/gallery/Images-Scanned/page-043.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=43"
       },
       {
         "page": "44",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-044.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=44"
       },
       {
         "page": "45",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-045.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=45"
       },
       {
         "page": "46",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-046.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=46"
       },
       {
         "page": "47",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-047.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=47"
       },
       {
         "page": "48",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-048.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=48"
       },
       {
         "page": "49",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-049.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=49"
       },
       {
         "page": "50",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-050.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=50"
       },
       {
         "page": "51",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-051.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=51"
       },
       {
         "page": "52",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-052.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=52"
       },
       {
         "page": "53",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-053.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=53"
       },
       {
         "page": "54",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-054.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=54"
       },
       {
         "page": "55",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-055.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=55"
       },
       {
         "page": "56",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-056.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=56"
       },
       {
         "page": "57",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-057.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=57"
       },
       {
         "page": "58",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-058.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=58"
       },
       {
         "page": "59",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-059.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=59"
       },
       {
         "page": "60",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-060.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=60"
       },
       {
         "page": "61",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-061.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=61"
       },
       {
         "page": "62",
+        "group": "Photo / Visual Reference",
+        "interpretation": "Image-heavy pages with little readable OCR; review the thumbnail or full PDF page for site, signage, equipment, or visual context.",
         "image_url": "documents/gallery/Images-Scanned/page-062.jpg",
         "pdf_page_url": "documents/Images-Scanned.pdf#page=62"
       }

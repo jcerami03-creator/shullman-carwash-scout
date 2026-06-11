@@ -1433,7 +1433,7 @@ function documentMatchesQuery(doc, query) {
     ...doc.pages.map((page) => page.summary),
     ...doc.pages.flatMap((page) => page.addresses || []),
     ...doc.evidence_rows.map((row) => `${row.type} ${row.name} ${row.location} ${row.status} ${row.note}`),
-    ...doc.gallery_images.map((image) => `image scan photo page ${image.page}`),
+    ...doc.gallery_images.map((image) => `image scan photo page ${image.page} ${image.group || ""} ${image.interpretation || ""}`),
   ]
     .join(" ")
     .toLowerCase();
@@ -1476,13 +1476,13 @@ function renderDocumentCard(doc) {
   const textHref = !isImageScan && doc.text_url ? encodeURI(doc.text_url) : "";
   const evidenceRows = doc.evidence_rows.slice(0, 14);
   const pages = doc.pages.slice(0, 8);
-  const galleryImages = doc.gallery_images.slice(0, 18);
+  const galleryImages = doc.gallery_images;
   return `
     <article class="document-card${isImageScan ? " image-scan-card" : ""}">
       <div class="document-card-head">
         <div>
           <h3>${escapeHtml(doc.title)}</h3>
-          <p>${isImageScan ? `${galleryImages.length.toLocaleString()} preview pages` : `${Number(doc.page_count || 0).toLocaleString()} pages • ${Number(doc.evidence_page_count || 0).toLocaleString()} evidence pages • ${Number(doc.evidence_row_count || 0).toLocaleString()} structured rows`}</p>
+          <p>${isImageScan ? `${galleryImages.length.toLocaleString()} preview pages grouped by interpretation` : `${Number(doc.page_count || 0).toLocaleString()} pages • ${Number(doc.evidence_page_count || 0).toLocaleString()} evidence pages • ${Number(doc.evidence_row_count || 0).toLocaleString()} structured rows`}</p>
         </div>
         <div class="document-actions">
           ${pdfHref ? `<a class="source-link" href="${escapeHtml(pdfHref)}" target="_blank" rel="noreferrer">Open PDF</a>` : ""}
@@ -1511,18 +1511,7 @@ function renderDocumentCard(doc) {
       }
       ${
         galleryImages.length
-          ? `<div class="image-gallery-grid">
-              ${galleryImages
-                .map(
-                  (image) => `
-                    <a href="${escapeHtml(image.pdf_page_url || pdfHref)}" target="_blank" rel="noreferrer">
-                      <img src="${escapeHtml(image.image_url)}" alt="${escapeHtml(`${doc.title} page ${image.page}`)}" loading="lazy" />
-                      <span>Page ${escapeHtml(image.page)}</span>
-                    </a>
-                  `
-                )
-                .join("")}
-            </div>`
+          ? renderImageGalleryGroups(doc, galleryImages, pdfHref)
           : ""
       }
       <div class="page-chip-list">
@@ -1539,6 +1528,44 @@ function renderDocumentCard(doc) {
       </div>
     </article>
   `;
+}
+
+function renderImageGalleryGroups(doc, galleryImages, pdfHref) {
+  const groups = new Map();
+  galleryImages.forEach((image) => {
+    const group = image.group || "General Image Evidence";
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push(image);
+  });
+
+  return [...groups.entries()]
+    .map(([group, images]) => {
+      const interpretation = images.find((image) => image.interpretation)?.interpretation || "Visual pages from the scanned PDF.";
+      return `
+        <section class="image-gallery-group">
+          <div class="image-gallery-head">
+            <div>
+              <h4>${escapeHtml(group)}</h4>
+              <p>${escapeHtml(interpretation)}</p>
+            </div>
+            <span>${images.length.toLocaleString()} page${images.length === 1 ? "" : "s"}</span>
+          </div>
+          <div class="image-gallery-grid">
+            ${images
+              .map(
+                (image) => `
+                  <a href="${escapeHtml(image.pdf_page_url || pdfHref)}" target="_blank" rel="noreferrer">
+                    <img src="${escapeHtml(image.image_url)}" alt="${escapeHtml(`${doc.title} page ${image.page}`)}" loading="lazy" />
+                    <span>Page ${escapeHtml(image.page)}</span>
+                  </a>
+                `
+              )
+              .join("")}
+          </div>
+        </section>
+      `;
+    })
+    .join("");
 }
 
 function clearSearchInputs() {

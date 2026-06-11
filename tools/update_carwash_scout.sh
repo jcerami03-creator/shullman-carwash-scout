@@ -61,6 +61,23 @@ PY
   fi
 done
 
+echo "Rendering image galleries..."
+for input_pdf in "$pdf_dir"/*.pdf; do
+  base="$(basename "$input_pdf" .pdf)"
+  lower_base="${base:l}"
+  if [[ "$lower_base" != *image* && "$lower_base" != *photo* && "$lower_base" != *picture* && "$lower_base" != *gallery* && "$lower_base" != *visual* ]]; then
+    continue
+  fi
+
+  gallery_slug="$(printf "%s" "$base" | sed -E 's/[^A-Za-z0-9._-]+/-/g; s/^-+//; s/-+$//')"
+  if [[ -z "$gallery_slug" ]]; then
+    gallery_slug="document"
+  fi
+
+  echo "Rendering gallery: $base"
+  swift tools/render_pdf_gallery.swift "$input_pdf" "$project_dir/documents/gallery/$gallery_slug" 420
+done
+
 echo "Rebuilding Carwash Scout records..."
 python3 tools/build_carwash_records.py
 
