@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: shullman-carwash-scout
+    runtime: node
+    plan: starter
+    buildCommand: ""
+    startCommand: npm start
+    envVars:
+      - key: SCOUT_USER
+        value: shullman
+      - key: HOST
+        value: 0.0.0.0
+      - key: SCOUT_PASSWORD
+        sync: false

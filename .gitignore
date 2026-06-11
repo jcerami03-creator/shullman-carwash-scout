@@ -1,0 +1,13 @@
+.DS_Store
+.venv-ocr/
+mamba-ocr/
+cache/
+node_modules
+__pycache__/
+*.pyc
+tools/bin/
+tools/micromamba-extract/
+tools/ocr_carwash
+ocr-output/*_ocr.pdf
+ocr-output-test/
+outputs/*.png
