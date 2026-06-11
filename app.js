@@ -1378,27 +1378,11 @@ function closeLibrary() {
 function renderDocumentLibrary(filter = "") {
   if (!els.libraryContent) return;
   const query = String(filter || "").trim().toLowerCase();
-  const docs = documentLibrary
-    .map((doc) => ({
-      ...doc,
-      pages: Array.isArray(doc.pages) ? doc.pages : [],
-      evidence_rows: Array.isArray(doc.evidence_rows) ? doc.evidence_rows : [],
-    }))
-    .filter((doc) => {
-      if (!query) return true;
-      const haystack = [
-        doc.title,
-        doc.file_name,
-        ...doc.pages.slice(0, 40).map((page) => page.summary),
-        ...doc.evidence_rows.slice(0, 80).map((row) => `${row.name} ${row.location} ${row.note}`),
-      ]
-        .join(" ")
-        .toLowerCase();
-      return haystack.includes(query);
-    });
+  const docs = normalizedDocumentLibrary().filter((doc) => documentMatchesQuery(doc, query));
   const totalPages = documentLibrary.reduce((sum, doc) => sum + Number(doc.page_count || 0), 0);
   const evidencePages = documentLibrary.reduce((sum, doc) => sum + Number(doc.evidence_page_count || 0), 0);
   const evidenceRows = documentLibrary.reduce((sum, doc) => sum + Number(doc.evidence_row_count || 0), 0);
+  const galleryPages = documentLibrary.reduce((sum, doc) => sum + (Array.isArray(doc.gallery_images) ? doc.gallery_images.length : 0), 0);
 
   els.libraryContent.innerHTML = `
     <div class="library-tools">
@@ -1407,10 +1391,11 @@ function renderDocumentLibrary(filter = "") {
         <span><b>${totalPages.toLocaleString()}</b> pages</span>
         <span><b>${evidencePages.toLocaleString()}</b> evidence pages</span>
         <span><b>${evidenceRows.toLocaleString()}</b> portfolio rows</span>
+        <span><b>${galleryPages.toLocaleString()}</b> image pages</span>
       </div>
       <label>
         <span>Search documents</span>
-        <input id="librarySearchInput" type="search" value="${escapeHtml(filter)}" placeholder="Super Star, EBITDA, traffic, Scottsdale..." autocomplete="off" />
+        <input id="librarySearchInput" type="search" value="${escapeHtml(filter)}" placeholder="Search documents, locations, traffic, EBITDA, photos..." autocomplete="off" />
       </label>
     </div>
     <div id="libraryResults" class="library-list">${renderDocumentResults(docs)}</div>
@@ -1425,45 +1410,79 @@ function updateDocumentLibraryResults(event) {
   const query = String(event.target.value || "").trim().toLowerCase();
   const results = document.getElementById("libraryResults");
   if (!results) return;
-  const docs = documentLibrary
-    .map((doc) => ({
-      ...doc,
-      pages: Array.isArray(doc.pages) ? doc.pages : [],
-      evidence_rows: Array.isArray(doc.evidence_rows) ? doc.evidence_rows : [],
-    }))
-    .filter((doc) => {
-      if (!query) return true;
-      const haystack = [
-        doc.title,
-        doc.file_name,
-        ...doc.pages.map((page) => page.summary),
-        ...doc.pages.flatMap((page) => page.addresses || []),
-        ...doc.evidence_rows.map((row) => `${row.name} ${row.location} ${row.status} ${row.note}`),
-      ]
-        .join(" ")
-        .toLowerCase();
-      return haystack.includes(query);
-    });
+  const docs = normalizedDocumentLibrary().filter((doc) => documentMatchesQuery(doc, query));
   results.innerHTML = renderDocumentResults(docs);
 }
 
+function normalizedDocumentLibrary() {
+  return documentLibrary.map((doc) => ({
+    ...doc,
+    category: doc.category || (Array.isArray(doc.gallery_images) && doc.gallery_images.length ? "Image Scans" : "Deal Records"),
+    pages: Array.isArray(doc.pages) ? doc.pages : [],
+    evidence_rows: Array.isArray(doc.evidence_rows) ? doc.evidence_rows : [],
+    gallery_images: Array.isArray(doc.gallery_images) ? doc.gallery_images : [],
+  }));
+}
+
+function documentMatchesQuery(doc, query) {
+  if (!query) return true;
+  const haystack = [
+    doc.title,
+    doc.file_name,
+    doc.category,
+    ...doc.pages.map((page) => page.summary),
+    ...doc.pages.flatMap((page) => page.addresses || []),
+    ...doc.evidence_rows.map((row) => `${row.type} ${row.name} ${row.location} ${row.status} ${row.note}`),
+    ...doc.gallery_images.map((image) => `image scan photo page ${image.page}`),
+  ]
+    .join(" ")
+    .toLowerCase();
+  return haystack.includes(query);
+}
+
 function renderDocumentResults(docs) {
-  return docs.length
-    ? docs.map(renderDocumentCard).join("")
-    : `<div class="empty-state">No document pages matched that search.</div>`;
+  if (!docs.length) return `<div class="empty-state">No document pages matched that search.</div>`;
+  const dealDocs = docs.filter((doc) => doc.category !== "Image Scans");
+  const imageDocs = docs.filter((doc) => doc.category === "Image Scans");
+  return [
+    renderDocumentSection("Deal Records", "Structured PDFs with searchable car wash evidence, locations, traffic counts, EBITDA, asking prices, and portfolio rows.", dealDocs),
+    renderDocumentSection("Image Scans", "Photo-heavy scan packets grouped separately so signage, menus, site photos, and visual notes are easy to review.", imageDocs),
+  ]
+    .filter(Boolean)
+    .join("");
+}
+
+function renderDocumentSection(title, summary, docs) {
+  if (!docs.length) return "";
+  return `
+    <section class="document-section">
+      <div class="document-section-head">
+        <div>
+          <h3>${escapeHtml(title)}</h3>
+          <p>${escapeHtml(summary)}</p>
+        </div>
+        <span>${docs.length.toLocaleString()} file${docs.length === 1 ? "" : "s"}</span>
+      </div>
+      <div class="document-section-list">
+        ${docs.map(renderDocumentCard).join("")}
+      </div>
+    </section>
+  `;
 }
 
 function renderDocumentCard(doc) {
   const pdfHref = encodeURI(doc.pdf_url || "");
-  const textHref = doc.text_url ? encodeURI(doc.text_url) : "";
+  const isImageScan = doc.category === "Image Scans";
+  const textHref = !isImageScan && doc.text_url ? encodeURI(doc.text_url) : "";
   const evidenceRows = doc.evidence_rows.slice(0, 14);
   const pages = doc.pages.slice(0, 8);
+  const galleryImages = doc.gallery_images.slice(0, 18);
   return `
-    <article class="document-card">
+    <article class="document-card${isImageScan ? " image-scan-card" : ""}">
       <div class="document-card-head">
         <div>
           <h3>${escapeHtml(doc.title)}</h3>
-          <p>${Number(doc.page_count || 0).toLocaleString()} pages • ${Number(doc.evidence_page_count || 0).toLocaleString()} evidence pages • ${Number(doc.evidence_row_count || 0).toLocaleString()} structured rows</p>
+          <p>${isImageScan ? `${galleryImages.length.toLocaleString()} preview pages` : `${Number(doc.page_count || 0).toLocaleString()} pages • ${Number(doc.evidence_page_count || 0).toLocaleString()} evidence pages • ${Number(doc.evidence_row_count || 0).toLocaleString()} structured rows`}</p>
         </div>
         <div class="document-actions">
           ${pdfHref ? `<a class="source-link" href="${escapeHtml(pdfHref)}" target="_blank" rel="noreferrer">Open PDF</a>` : ""}
@@ -1483,6 +1502,22 @@ function renderDocumentCard(doc) {
                       <span>${escapeHtml(row.location)}</span>
                       <span>${escapeHtml(row.traffic_count)}</span>
                       <span>${escapeHtml(row.ebitda)}</span>
+                    </a>
+                  `
+                )
+                .join("")}
+            </div>`
+          : ""
+      }
+      ${
+        galleryImages.length
+          ? `<div class="image-gallery-grid">
+              ${galleryImages
+                .map(
+                  (image) => `
+                    <a href="${escapeHtml(image.pdf_page_url || pdfHref)}" target="_blank" rel="noreferrer">
+                      <img src="${escapeHtml(image.image_url)}" alt="${escapeHtml(`${doc.title} page ${image.page}`)}" loading="lazy" />
+                      <span>Page ${escapeHtml(image.page)}</span>
                     </a>
                   `
                 )

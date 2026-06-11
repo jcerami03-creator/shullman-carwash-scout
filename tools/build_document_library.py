@@ -9,6 +9,7 @@ ROOT = Path("/Users/josephcerami/Documents/LLM For Shullman Paperwork")
 PDF_DIR = Path("/Users/josephcerami/PDF FOR CAR WASH SCOUt")
 OCR_DIR = ROOT / "ocr-output"
 DOC_DIR = ROOT / "documents"
+GALLERY_DIR = DOC_DIR / "gallery"
 OUT = ROOT / "generated" / "document_library.js"
 
 KEY_TERMS = re.compile(
@@ -141,6 +142,25 @@ def extract_current_site_rows(text: str, source: str, page_number: int) -> list[
     return rows
 
 
+def gallery_images_for(pdf_path: Path) -> list[dict[str, str]]:
+    folder = GALLERY_DIR / slugify(pdf_path.stem)
+    if not folder.exists():
+        return []
+    images = []
+    image_paths = sorted(folder.glob("page-*.jpg")) or sorted(folder.glob("page-*.png"))
+    for image_path in image_paths:
+        match = re.search(r"page-(\d+)", image_path.stem)
+        page = str(int(match.group(1))) if match else ""
+        images.append(
+            {
+                "page": page,
+                "image_url": f"documents/gallery/{folder.name}/{image_path.name}",
+                "pdf_page_url": f"documents/{slugify(pdf_path.name)}#page={page}" if page else f"documents/{slugify(pdf_path.name)}",
+            }
+        )
+    return images
+
+
 def build() -> list[dict[str, object]]:
     documents: list[dict[str, object]] = []
     for pdf_path in sorted(PDF_DIR.glob("*.pdf")):
@@ -165,10 +185,13 @@ def build() -> list[dict[str, object]]:
                         "terms": [term for term in ["car wash", "traffic", "EBITDA", "revenue", "acres", "site list", "development"] if re.search(term, page, re.I)],
                     }
                 )
+        gallery_images = gallery_images_for(pdf_path)
+        is_image_scan = bool(gallery_images) or re.search(r"\bimage|photo|picture|scan\b", pdf_path.stem, re.I)
         documents.append(
             {
                 "title": pdf_path.stem,
                 "file_name": pdf_path.name,
+                "category": "Image Scans" if is_image_scan else "Deal Records",
                 "pdf_url": ensure_document_link(pdf_path),
                 "text_url": f"ocr-output/{txt_path.name}" if txt_path.exists() else "",
                 "page_count": len(pages),
@@ -176,6 +199,7 @@ def build() -> list[dict[str, object]]:
                 "evidence_row_count": len(evidence_rows),
                 "pages": page_cards[:180],
                 "evidence_rows": evidence_rows[:300],
+                "gallery_images": gallery_images[:120],
             }
         )
     return documents

@@ -2,6 +2,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
   {
     "title": "Doc Scanned Bin 4",
     "file_name": "Doc Scanned Bin 4.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Doc-Scanned-Bin-4.pdf",
     "text_url": "ocr-output/Doc Scanned Bin 4.txt",
     "page_count": 136,
@@ -1088,11 +1089,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document bin 5",
     "file_name": "Document bin 5.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document-bin-5.pdf",
     "text_url": "ocr-output/Document bin 5.txt",
     "page_count": 64,
@@ -1635,11 +1638,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20160628_0001",
     "file_name": "Document_20160628_0001.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20160628_0001.pdf",
     "text_url": "ocr-output/Document_20160628_0001.txt",
     "page_count": 112,
@@ -2667,11 +2672,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20180531_0001",
     "file_name": "Document_20180531_0001.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20180531_0001.pdf",
     "text_url": "ocr-output/Document_20180531_0001.txt",
     "page_count": 39,
@@ -2970,11 +2977,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20250701_0001",
     "file_name": "Document_20250701_0001.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20250701_0001.pdf",
     "text_url": "ocr-output/Document_20250701_0001.txt",
     "page_count": 7,
@@ -3043,11 +3052,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20260603_0001",
     "file_name": "Document_20260603_0001.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20260603_0001.pdf",
     "text_url": "ocr-output/Document_20260603_0001.txt",
     "page_count": 14,
@@ -3213,11 +3224,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20260603_0002",
     "file_name": "Document_20260603_0002.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20260603_0002.pdf",
     "text_url": "ocr-output/Document_20260603_0002.txt",
     "page_count": 31,
@@ -3482,11 +3495,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20260603_0003",
     "file_name": "Document_20260603_0003.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20260603_0003.pdf",
     "text_url": "ocr-output/Document_20260603_0003.txt",
     "page_count": 31,
@@ -3707,11 +3722,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20260603_0004",
     "file_name": "Document_20260603_0004.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20260603_0004.pdf",
     "text_url": "ocr-output/Document_20260603_0004.txt",
     "page_count": 179,
@@ -5312,11 +5329,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Document_20260603_0005",
     "file_name": "Document_20260603_0005.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Document_20260603_0005.pdf",
     "text_url": "ocr-output/Document_20260603_0005.txt",
     "page_count": 207,
@@ -7247,11 +7266,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Documents Scanned File Bin 3",
     "file_name": "Documents Scanned File Bin 3.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Documents-Scanned-File-Bin-3.pdf",
     "text_url": "ocr-output/Documents Scanned File Bin 3.txt",
     "page_count": 137,
@@ -8393,11 +8414,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "terms": []
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   },
   {
     "title": "Documents Scanned Most Recent",
     "file_name": "Documents Scanned Most Recent.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Documents-Scanned-Most-Recent.pdf",
     "text_url": "ocr-output/Documents Scanned Most Recent.txt",
     "page_count": 265,
@@ -11057,11 +11080,337 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "ebitda": "$1,611,504",
         "note": "In Escrow Super Star development site with 0.7 acres lot, 41,119 traffic count, and stabilized EBITDA listed at $1,611,504."
       }
+    ],
+    "gallery_images": []
+  },
+  {
+    "title": "Images Scanned",
+    "file_name": "Images Scanned.pdf",
+    "category": "Image Scans",
+    "pdf_url": "documents/Images-Scanned.pdf",
+    "text_url": "ocr-output/Images Scanned.txt",
+    "page_count": 47,
+    "evidence_page_count": 0,
+    "evidence_row_count": 0,
+    "pages": [],
+    "evidence_rows": [],
+    "gallery_images": [
+      {
+        "page": "1",
+        "image_url": "documents/gallery/Images-Scanned/page-001.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=1"
+      },
+      {
+        "page": "2",
+        "image_url": "documents/gallery/Images-Scanned/page-002.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=2"
+      },
+      {
+        "page": "3",
+        "image_url": "documents/gallery/Images-Scanned/page-003.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=3"
+      },
+      {
+        "page": "4",
+        "image_url": "documents/gallery/Images-Scanned/page-004.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=4"
+      },
+      {
+        "page": "5",
+        "image_url": "documents/gallery/Images-Scanned/page-005.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=5"
+      },
+      {
+        "page": "6",
+        "image_url": "documents/gallery/Images-Scanned/page-006.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=6"
+      },
+      {
+        "page": "7",
+        "image_url": "documents/gallery/Images-Scanned/page-007.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=7"
+      },
+      {
+        "page": "8",
+        "image_url": "documents/gallery/Images-Scanned/page-008.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=8"
+      },
+      {
+        "page": "9",
+        "image_url": "documents/gallery/Images-Scanned/page-009.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=9"
+      },
+      {
+        "page": "10",
+        "image_url": "documents/gallery/Images-Scanned/page-010.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=10"
+      },
+      {
+        "page": "11",
+        "image_url": "documents/gallery/Images-Scanned/page-011.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=11"
+      },
+      {
+        "page": "12",
+        "image_url": "documents/gallery/Images-Scanned/page-012.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=12"
+      },
+      {
+        "page": "13",
+        "image_url": "documents/gallery/Images-Scanned/page-013.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=13"
+      },
+      {
+        "page": "14",
+        "image_url": "documents/gallery/Images-Scanned/page-014.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=14"
+      },
+      {
+        "page": "15",
+        "image_url": "documents/gallery/Images-Scanned/page-015.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=15"
+      },
+      {
+        "page": "16",
+        "image_url": "documents/gallery/Images-Scanned/page-016.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=16"
+      },
+      {
+        "page": "17",
+        "image_url": "documents/gallery/Images-Scanned/page-017.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=17"
+      },
+      {
+        "page": "18",
+        "image_url": "documents/gallery/Images-Scanned/page-018.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=18"
+      },
+      {
+        "page": "19",
+        "image_url": "documents/gallery/Images-Scanned/page-019.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=19"
+      },
+      {
+        "page": "20",
+        "image_url": "documents/gallery/Images-Scanned/page-020.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=20"
+      },
+      {
+        "page": "21",
+        "image_url": "documents/gallery/Images-Scanned/page-021.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=21"
+      },
+      {
+        "page": "22",
+        "image_url": "documents/gallery/Images-Scanned/page-022.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=22"
+      },
+      {
+        "page": "23",
+        "image_url": "documents/gallery/Images-Scanned/page-023.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=23"
+      },
+      {
+        "page": "24",
+        "image_url": "documents/gallery/Images-Scanned/page-024.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=24"
+      },
+      {
+        "page": "25",
+        "image_url": "documents/gallery/Images-Scanned/page-025.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=25"
+      },
+      {
+        "page": "26",
+        "image_url": "documents/gallery/Images-Scanned/page-026.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=26"
+      },
+      {
+        "page": "27",
+        "image_url": "documents/gallery/Images-Scanned/page-027.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=27"
+      },
+      {
+        "page": "28",
+        "image_url": "documents/gallery/Images-Scanned/page-028.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=28"
+      },
+      {
+        "page": "29",
+        "image_url": "documents/gallery/Images-Scanned/page-029.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=29"
+      },
+      {
+        "page": "30",
+        "image_url": "documents/gallery/Images-Scanned/page-030.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=30"
+      },
+      {
+        "page": "31",
+        "image_url": "documents/gallery/Images-Scanned/page-031.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=31"
+      },
+      {
+        "page": "32",
+        "image_url": "documents/gallery/Images-Scanned/page-032.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=32"
+      },
+      {
+        "page": "33",
+        "image_url": "documents/gallery/Images-Scanned/page-033.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=33"
+      },
+      {
+        "page": "34",
+        "image_url": "documents/gallery/Images-Scanned/page-034.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=34"
+      },
+      {
+        "page": "35",
+        "image_url": "documents/gallery/Images-Scanned/page-035.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=35"
+      },
+      {
+        "page": "36",
+        "image_url": "documents/gallery/Images-Scanned/page-036.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=36"
+      },
+      {
+        "page": "37",
+        "image_url": "documents/gallery/Images-Scanned/page-037.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=37"
+      },
+      {
+        "page": "38",
+        "image_url": "documents/gallery/Images-Scanned/page-038.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=38"
+      },
+      {
+        "page": "39",
+        "image_url": "documents/gallery/Images-Scanned/page-039.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=39"
+      },
+      {
+        "page": "40",
+        "image_url": "documents/gallery/Images-Scanned/page-040.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=40"
+      },
+      {
+        "page": "41",
+        "image_url": "documents/gallery/Images-Scanned/page-041.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=41"
+      },
+      {
+        "page": "42",
+        "image_url": "documents/gallery/Images-Scanned/page-042.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=42"
+      },
+      {
+        "page": "43",
+        "image_url": "documents/gallery/Images-Scanned/page-043.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=43"
+      },
+      {
+        "page": "44",
+        "image_url": "documents/gallery/Images-Scanned/page-044.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=44"
+      },
+      {
+        "page": "45",
+        "image_url": "documents/gallery/Images-Scanned/page-045.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=45"
+      },
+      {
+        "page": "46",
+        "image_url": "documents/gallery/Images-Scanned/page-046.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=46"
+      },
+      {
+        "page": "47",
+        "image_url": "documents/gallery/Images-Scanned/page-047.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=47"
+      },
+      {
+        "page": "48",
+        "image_url": "documents/gallery/Images-Scanned/page-048.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=48"
+      },
+      {
+        "page": "49",
+        "image_url": "documents/gallery/Images-Scanned/page-049.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=49"
+      },
+      {
+        "page": "50",
+        "image_url": "documents/gallery/Images-Scanned/page-050.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=50"
+      },
+      {
+        "page": "51",
+        "image_url": "documents/gallery/Images-Scanned/page-051.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=51"
+      },
+      {
+        "page": "52",
+        "image_url": "documents/gallery/Images-Scanned/page-052.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=52"
+      },
+      {
+        "page": "53",
+        "image_url": "documents/gallery/Images-Scanned/page-053.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=53"
+      },
+      {
+        "page": "54",
+        "image_url": "documents/gallery/Images-Scanned/page-054.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=54"
+      },
+      {
+        "page": "55",
+        "image_url": "documents/gallery/Images-Scanned/page-055.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=55"
+      },
+      {
+        "page": "56",
+        "image_url": "documents/gallery/Images-Scanned/page-056.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=56"
+      },
+      {
+        "page": "57",
+        "image_url": "documents/gallery/Images-Scanned/page-057.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=57"
+      },
+      {
+        "page": "58",
+        "image_url": "documents/gallery/Images-Scanned/page-058.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=58"
+      },
+      {
+        "page": "59",
+        "image_url": "documents/gallery/Images-Scanned/page-059.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=59"
+      },
+      {
+        "page": "60",
+        "image_url": "documents/gallery/Images-Scanned/page-060.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=60"
+      },
+      {
+        "page": "61",
+        "image_url": "documents/gallery/Images-Scanned/page-061.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=61"
+      },
+      {
+        "page": "62",
+        "image_url": "documents/gallery/Images-Scanned/page-062.jpg",
+        "pdf_page_url": "documents/Images-Scanned.pdf#page=62"
+      }
     ]
   },
   {
     "title": "Scanned Documents Bin 2",
     "file_name": "Scanned Documents Bin 2.pdf",
+    "category": "Deal Records",
     "pdf_url": "documents/Scanned-Documents-Bin-2.pdf",
     "text_url": "ocr-output/Scanned Documents Bin 2.txt",
     "page_count": 156,
@@ -12193,6 +12542,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       }
     ],
-    "evidence_rows": []
+    "evidence_rows": [],
+    "gallery_images": []
   }
 ];

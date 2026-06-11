@@ -45,9 +45,9 @@ if len(text) < 100:
 target.write_text(text, encoding="utf-8")
 print(f"Extracted embedded text from {len(reader.pages)} pages.")
 PY
-  status=$?
+  ocr_status=$?
   set -e
-  if [[ "$status" -eq 2 ]]; then
+  if [[ "$ocr_status" -eq 2 ]]; then
     echo "Embedded text was weak; running OCR: $base"
     ocrmypdf \
       --output-type pdf \
@@ -56,8 +56,8 @@ PY
       --sidecar "$sidecar_txt" \
       "$input_pdf" \
       "$output_pdf"
-  elif [[ "$status" -ne 0 ]]; then
-    exit "$status"
+  elif [[ "$ocr_status" -ne 0 ]]; then
+    exit "$ocr_status"
   fi
 done
 
