@@ -3,10 +3,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Doc Scanned Bin 4",
     "file_name": "Doc Scanned Bin 4.pdf",
     "category": "Deal Records",
+    "group": "Scanned Deal Bins",
     "pdf_url": "documents/Doc-Scanned-Bin-4.pdf",
     "text_url": "ocr-output/Doc Scanned Bin 4.txt",
     "page_count": 136,
-    "evidence_page_count": 102,
+    "evidence_page_count": 101,
     "evidence_row_count": 0,
     "pages": [
       {
@@ -233,14 +234,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "27",
-        "summary": "251Ackey Med. tff 10301 T-(718) 3904184 F-(718) 3904704 CORPORATIO Isp",
-        "addresses": [
-          "1 tolOG . LI Ss-co 1 vg id"
-        ],
-        "terms": []
-      },
-      {
         "page": "28",
         "summary": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20060302&bn=13... 3/3/2006 Inventory: $2000 (included in the asking price) $150,000 (included in the asking price)",
         "addresses": [],
@@ -250,7 +243,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "30",
-        "summary": "Speedpass at the Car Wash Car Wash Car Wash",
+        "summary": "Speedpass at the Car Wash 0 Copyright 2003 ExxonMobil Inc. All Rights Reserved.",
         "addresses": [
           "1 VERNON HILLS MOBIL EXXONMOBIL CORP 294 E RTE 60 VERNON HILLS, IL 60061"
         ],
@@ -569,7 +562,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "71",
-        "summary": "Washworks Car Wash Power Wash Car Wash 'car wash",
+        "summary": "Washworks Car Wash Power Wash Car Wash Results sorted by distance in miles from, 8007 south 84th street la vista, NE",
         "addresses": [
           "8007 south 84th street la vista, NE",
           "8007 South 84th Street, La Vista, NE 68128",
@@ -586,7 +579,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "72",
-        "summary": "Washworks Car Wash 'car wash 8210 Harrison Street, La Vista, NE 68128 driving directions",
+        "summary": "Washworks Car Wash 8210 Harrison Street, La Vista, NE 68128 driving directions 8007 South 84th Street, La Vista, NE",
         "addresses": [
           "8007 South 84th Street, La Vista, NE 68128",
           "6920 South 108th Street, La Vista, NE 68128",
@@ -777,7 +770,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "95",
-        "summary": "August 31, 2004. 9/5/2004",
+        "summary": "August 31, 2004.",
         "addresses": [
           "34 i 11Kwik Ownorship. COM INDUSTRIES, ma"
         ],
@@ -921,7 +914,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "113",
-        "summary": "$950,000 $88,404 $850,000",
+        "summary": "$6,000,000 Approved for sale/Industrial $6,000,000 Approved for sale $5,700,000 Approved for sale",
         "addresses": [
           "000 Approved for sale/Industrial Lisle, IL",
           "000 Approved for sale/Office/Industrial 404 - Taylor, MI",
@@ -932,7 +925,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "115",
-        "summary": "7.0 Acres Yes 4.4 Acres 4.0 Acres",
+        "summary": "7.0 Acres Yes 17.0 Acres No 12.0 Acres Yes",
         "addresses": [],
         "terms": [
           "acres"
@@ -951,7 +944,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "120",
-        "summary": "3 acres 2.5 Acres 2.0 acres",
+        "summary": "1.5 acres yes 1.0 acres yes",
         "addresses": [
           "2 to 2.5 Acres yes yes yes yes Vacant or"
         ],
@@ -1033,7 +1026,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "129",
-        "summary": "\u2022 2000 D.O.T. Traffic Counts 1.75 Acres \u2022 Former Equipment Dealer-15,000 S",
+        "summary": "\u2022 2000 D.O.T. Traffic Counts \u2022 Former Equipment Dealer-15,000 S Median HH Income: $34,169",
         "addresses": [],
         "terms": [
           "traffic",
@@ -1042,7 +1035,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "130",
-        "summary": "1.06 acre lot Improved with a 5,000 square foot carwash and detail si 5,000 4/23/2003",
+        "summary": "1.06 acre lot Improved with a 5,000 square foot carwash and detail si",
         "addresses": [
           "3479 Mercer University Drive Macon, GA 31204"
         ],
@@ -1096,6 +1089,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document bin 5",
     "file_name": "Document bin 5.pdf",
     "category": "Deal Records",
+    "group": "Scanned Deal Bins",
     "pdf_url": "documents/Document-bin-5.pdf",
     "text_url": "ocr-output/Document bin 5.txt",
     "page_count": 64,
@@ -1171,7 +1165,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "8",
-        "summary": "\u2022 STRATEGIC LOCATION NEAR MAJOR RETAIL NODES \u2014 Gold Car Wash is located visibility to over \u00b132,500 vehicles per day, enhancing drive-by exposure and accessibility. 2012",
+        "summary": "\u2022 STRATEGIC LOCATION NEAR MAJOR RETAIL NODES \u2014 Gold Car Wash is located visibility to over \u00b132,500 vehicles per day, enhancing drive-by exposure and accessibility.",
         "addresses": [],
         "terms": [
           "car wash",
@@ -1290,7 +1284,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "22",
-        "summary": "225k EBITDA The other 51 actually sold to this operator a couple years back. They are seriously going to look at selling in the 6050 Wade Hampton Blvd, Taylors, SC 29687",
+        "summary": "The other 51 actually sold to this operator a couple years back. They are seriously going to look at selling in the 6050 Wade Hampton Blvd, Taylors, SC 29687 3107 N Pleasantburg Dr, Greenville, SC 29609",
         "addresses": [
           "51 actually sold to this operator a couple years back. They are seriously going to look at selling in",
           "1405 Woodruff Rd, Greenville, Sc 29607",
@@ -1355,7 +1349,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "29",
-        "summary": "EASI Census 2020 Site Selection Reports & Analysis Address: 14615 East Jefferson Ave, Detroit, MI 48215 data \u00a92025",
+        "summary": "EASI Census 2020 Site Selection Reports & Analysis Address: 14615 East Jefferson Ave, Detroit, MI 48215 Total Personal Income ($) 660,292,922 3,244,727,999 6,268,647,436",
         "addresses": [
           "14615 East Jefferson Ave, Detroit, MI 48215"
         ],
@@ -1471,7 +1465,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "43",
-        "summary": "101 Haag Avenue, BplIntawc NJ 0 1/5/2021",
+        "summary": "101 Haag Avenue, BplIntawc NJ 0",
         "addresses": [
           "101 Haag Avenue, BplIntawc NJ"
         ],
@@ -1487,7 +1481,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "45",
-        "summary": "101 Haag Avenue, BeIlmawr, NJ 08031 \u2022 $35,000 to $49,999 T..-- 40,081",
+        "summary": "101 Haag Avenue, BeIlmawr, NJ 08031 \u2022 $35,000 to $49,999 Less,chan $1.5,000",
         "addresses": [
           "101 Haag Avenue, BeIlmawr, NJ 08031"
         ],
@@ -1515,7 +1509,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "49",
-        "summary": "101 Haag Avenue, Bellmawr, NJ 08031 s $35,000 to 549,999 r 83,667",
+        "summary": "101 Haag Avenue, Bellmawr, NJ 08031 s $35,000 to 549,999 a 2020 Easy A' nalytic software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data 0",
         "addresses": [
           "101 Haag Avenue, Bellmawr, NJ 08031"
         ],
@@ -1531,7 +1525,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "51",
-        "summary": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2010 unless otherwise stated. 88,402",
+        "summary": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2010 unless otherwise stated. 2020 Easy Analytic Software, Inc1Easy Analytic Software, Inc. (EAST) is the source of all updated estimates. All other data",
         "addresses": [
           "101 Haag Avenue, Bellmawr, NJ 08031"
         ],
@@ -1607,7 +1601,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "61",
-        "summary": "offering consists of a 6,674 sq. ft. car wash on \u00b1-1.41 CAR WASH Acres.",
+        "summary": "offering consists of a 6,674 sq. ft. car wash on \u00b1-1.41 the sale of 357 Route 59, West Nyack, NY. The 357 RT. 59, WEST NYACK NY 10994",
         "addresses": [
           "357 Route 59, West Nyack, NY",
           "357 RT. 59, WEST NYACK NY 10994"
@@ -1645,10 +1639,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20160628_0001",
     "file_name": "Document_20160628_0001.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20160628_0001.pdf",
     "text_url": "ocr-output/Document_20160628_0001.txt",
     "page_count": 112,
-    "evidence_page_count": 100,
+    "evidence_page_count": 97,
     "evidence_row_count": 0,
     "pages": [
       {
@@ -1667,14 +1662,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "car wash",
           "traffic"
         ]
-      },
-      {
-        "page": "3",
-        "summary": "ot Tipaengpstonegseny 1 Yao AGENT: SOHAILA WILLIS AGENT: RADLEY HENDRIXSON, CCIM COLLIERS INTERNATIONAL",
-        "addresses": [
-          "300 Broadway NASHVILLE, TN NASHVILLE, TN"
-        ],
-        "terms": []
       },
       {
         "page": "4",
@@ -1736,7 +1723,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "10",
-        "summary": "Asking Price: $1,795,000 Apple Valley Carwash 8/25/2018",
+        "summary": "Asking Price: $1,795,000 Apple Valley Carwash",
         "addresses": [],
         "terms": []
       },
@@ -1762,7 +1749,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "16",
-        "summary": "foam car wash, wax, hand dry, full interior/exterior This full service car wash is located on busy main Revenue:",
+        "summary": "foam car wash, wax, hand dry, full interior/exterior This full service car wash is located on busy main EBITDA: N/A saver\u2019",
         "addresses": [],
         "terms": [
           "car wash",
@@ -1773,7 +1760,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "19",
-        "summary": "Revenue: Inventory: \u2014 Included in asking price Car Wash With Added Potential",
+        "summary": "Inventory: \u2014 Included in asking price Car Wash With Added Potential eras Nv Established: 2008",
         "addresses": [],
         "terms": [
           "car wash",
@@ -1799,7 +1786,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "23",
-        "summary": "Revenue: Norwalk Express Car Wash EBITDA: N/A",
+        "summary": "Norwalk Express Car Wash Asset Express Car Wash Sale with land Two Apn: 10,684 sf",
         "addresses": [],
         "terms": [
           "car wash",
@@ -1826,14 +1813,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "terms": [
           "car wash"
         ]
-      },
-      {
-        "page": "26",
-        "summary": "KW COMMERCIAL 917 Auraria Pkwy Denver, CO 80204 Fi",
-        "addresses": [
-          "917 Auraria Pkwy Denver, CO 80204"
-        ],
-        "terms": []
       },
       {
         "page": "28",
@@ -1866,7 +1845,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "31",
-        "summary": "EBITDA: $149,000 eal Golees: Revenue: Full service tunnel car wash for sale in a growing",
+        "summary": "EBITDA: $149,000 eal Golees: Full service tunnel car wash for sale in a growing Real Estate: $600,000",
         "addresses": [
           "000 a Business Description Full service tunnel car wash for sale in"
         ],
@@ -2010,7 +1989,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "46",
-        "summary": "EBITDA: N/A stablished 1999 + 2018 Increase in car wash average of $3 Revenue:",
+        "summary": "EBITDA: N/A stablished 1999 + 2018 Increase in car wash average of $3 Full Service Car Wash - Hard Corner Traffic",
         "addresses": [],
         "terms": [
           "car wash",
@@ -2021,7 +2000,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "47",
-        "summary": "7/16/2018 3450 W Bethany Home Rd, Phoenix, AZ, 85017 - Car Wash Property For Sale on LoopNet.com Car Wash W Bethany Home Rd N 3ist Ave, W 37,854 2017 0.53 mi",
+        "summary": "7/16/2018 3450 W Bethany Home Rd, Phoenix, AZ, 85017 - Car Wash Property For Sale on LoopNet.com W Bethany Home Rd N 3ist Ave, W 37,854 2017 0.53 mi W Bethany Home Rd N 36th Dr, E 28,819 2017 0.24 mi",
         "addresses": [
           "3450 W Bethany Home Rd, Phoenix, AZ",
           "808 W Washington St 1201 E Missouri Ave Centralia, WA 98531",
@@ -2118,7 +2097,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "56",
-        "summary": "a \\ eal of J 1.6079 Acres os 1997 ed % 2 y Hi Richland Bill Rent $11,500/month NNN",
+        "summary": "a \\ eal of J 1.6079 Acres ed % 2 y Hi Richland Bill Rent $11,500/month NNN ec Back Building - +/- 1,000 SF",
         "addresses": [
           "000 Fort Worth . pee Nature Gente es mn"
         ],
@@ -2136,7 +2115,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "58",
-        "summary": "13495 Telegraph Rd, Whittier, CA, 90605 - Car Wash Property For Sale on LoopNet.com 10/31/2017",
+        "summary": "13495 Telegraph Rd, Whittier, CA, 90605 - Car Wash Property For Sale on LoopNet.com",
         "addresses": [
           "13495 Telegraph Rd, Whittier, CA"
         ],
@@ -2185,7 +2164,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "63",
-        "summary": "Revenue: EBITDA: N/A ease Rate \u2018tio th Burbank Pit Stop (Carwash w/Mechanic",
+        "summary": "EBITDA: N/A ease Rate \u2018tio th Burbank Pit Stop (Carwash w/Mechanic *not included in asking price.",
         "addresses": [],
         "terms": [
           "EBITDA",
@@ -2265,7 +2244,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "72",
-        "summary": "7501 E Indian School Rd, Scottsdale, AZ, 60201 - Var Wasn Fropelly Pl oan eee \u00a9 2017 CoStar Group, Inc 10/31/2017",
+        "summary": "7501 E Indian School Rd, Scottsdale, AZ, 60201 - Var Wasn Fropelly Pl oan eee \u00a9 2017 CoStar Group, Inc",
         "addresses": [
           "7501 E Indian School Rd, Scottsdale, AZ"
         ],
@@ -2336,14 +2315,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "79",
-        "summary": "1173 Fortune Blvd. BARBER Shiloh, IL 62269 _ #EEY Office (618) 277-4400 Tony Smallmon en Vv COMMERCIAL - INDUSTRIAL \u00abINVESTMENT PROPERTIES FAX (618) 277-4407 C: 618.407.4240 SIOR",
-        "addresses": [
-          "1173 Fortune Blvd. BARBER Shiloh, IL 62269"
-        ],
-        "terms": []
-      },
-      {
         "page": "80",
         "summary": "10/31/2017 6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com \u00a9 2017 CoStar Group, Inc.",
         "addresses": [
@@ -2391,7 +2362,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "84",
-        "summary": "5100 Plank Road, Fredericksburg, VA 22407 | Route 3 Car Wash - NOI @ $300k +",
+        "summary": "5100 Plank Road, Fredericksburg, VA 22407 | Route 3 Car Wash",
         "addresses": [
           "5100 Plank Road, Fredericksburg, VA 22407"
         ],
@@ -2470,7 +2441,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "92",
-        "summary": "EBITDA: $100,000 \u201coes Gane, 008 Revenue: Profitable Car Wash, Low Labor Biz: Business For Sale in Mableton, Cobb County, Georgia, United States on BizBuySell.com 7/7/17, 12:46 PM",
+        "summary": "EBITDA: $100,000 \u201coes Gane, 008 Profitable Car Wash, Low Labor Biz: Business For Sale in Mableton, Cobb County, Georgia, United States on BizBuySell.com 7/7/17, 12:46 PM Profitable Car Wash, Low Labor Biz",
         "addresses": [],
         "terms": [
           "car wash",
@@ -2679,20 +2650,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20180531_0001",
     "file_name": "Document_20180531_0001.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20180531_0001.pdf",
     "text_url": "ocr-output/Document_20180531_0001.txt",
     "page_count": 39,
-    "evidence_page_count": 27,
+    "evidence_page_count": 26,
     "evidence_row_count": 0,
     "pages": [
-      {
-        "page": "1",
-        "summary": "Car Wash Car Wash 9,317",
-        "addresses": [],
-        "terms": [
-          "car wash"
-        ]
-      },
       {
         "page": "3",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 8 Marbledale Rd Tuckahoe, NY 10707 gle Map data \u00a92018 Googl",
@@ -2769,7 +2733,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "13",
-        "summary": "Asking Price: \u201cEBITDA: *not included in asking price. 2003",
+        "summary": "Asking Price: \u201cEBITDA: *not included in asking price. $150,000% | Established:",
         "addresses": [],
         "terms": [
           "EBITDA"
@@ -2954,7 +2918,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "34",
-        "summary": "High Traffic Counts 0.9 Acres Built in 2008",
+        "summary": "High Traffic Counts Built in 2008 6,994 Square Foot Tunnel Wash",
         "addresses": [
           "994 Square Foot Tunnel Wash 0.9 Acres Built in"
         ],
@@ -2984,6 +2948,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20250701_0001",
     "file_name": "Document_20250701_0001.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20250701_0001.pdf",
     "text_url": "ocr-output/Document_20250701_0001.txt",
     "page_count": 7,
@@ -3059,6 +3024,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20260603_0001",
     "file_name": "Document_20260603_0001.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20260603_0001.pdf",
     "text_url": "ocr-output/Document_20260603_0001.txt",
     "page_count": 14,
@@ -3217,7 +3183,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "14",
-        "summary": "Clearwater Car Wash| Murray Site | 635 W 3900S | New Purchase 2022 2023",
+        "summary": "Clearwater Car Wash| Murray Site | 635 W 3900S | New Purchase",
         "addresses": [],
         "terms": [
           "car wash"
@@ -3231,6 +3197,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20260603_0002",
     "file_name": "Document_20260603_0002.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20260603_0002.pdf",
     "text_url": "ocr-output/Document_20260603_0002.txt",
     "page_count": 31,
@@ -3502,6 +3469,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20260603_0003",
     "file_name": "Document_20260603_0003.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20260603_0003.pdf",
     "text_url": "ocr-output/Document_20260603_0003.txt",
     "page_count": 31,
@@ -3510,7 +3478,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pages": [
       {
         "page": "1",
-        "summary": "Total Car Wash Expense Expenses - Car Wash Car Wash",
+        "summary": "Total Car Wash Expense Expenses - Car Wash 82,622.95 97,472.95",
         "addresses": [],
         "terms": [
           "car wash"
@@ -3638,7 +3606,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "20",
-        "summary": "a = Division of RE/MAX 2000 Office: S09-269-3000 Building Size: 4,406 SF $4,670 NNN",
+        "summary": "a = Division of RE/MAX 2000 Office: S09-269-3000 Building Size: 4,406 SF",
         "addresses": [
           "406 SF 3 P72 www.BashirRealtor.com BESYINC IDEA, L S AVA iN",
           "790 Ferrari Lane RE/MAX COMMERCIAL Ontario, CA 91764"
@@ -3729,10 +3697,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20260603_0004",
     "file_name": "Document_20260603_0004.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20260603_0004.pdf",
     "text_url": "ocr-output/Document_20260603_0004.txt",
     "page_count": 179,
-    "evidence_page_count": 153,
+    "evidence_page_count": 152,
     "evidence_row_count": 0,
     "pages": [
       {
@@ -3770,7 +3739,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "4",
-        "summary": "OWNER / OPERATOR, Excellent Opportunity, Well established Delaware County, Carwash. Features: Public Water, Car Wash 3100 Edgmont Ave, Brookhaven, PA 19015",
+        "summary": "OWNER / OPERATOR, Excellent Opportunity, Well established Delaware County, Carwash. Features: Public Water, 3100 Edgmont Ave, Brookhaven, PA 19015 Price: $250,000",
         "addresses": [
           "613-3301 Retail Property For Sale Car Wash 3100 Edgmont Ave, Brookhaven, PA 19015",
           "14 AC Last Updated 1 day ago Listing ID 18130"
@@ -4028,7 +3997,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "32",
-        "summary": "Land Area: 49,048 Square Feet/1.126 Acres Price: $290,000.00 All Cash 7/3/2011",
+        "summary": "Land Area: 49,048 Square Feet/1.126 Acres Price: $290,000.00 All Cash",
         "addresses": [],
         "terms": [
           "acres"
@@ -4060,7 +4029,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "36",
-        "summary": "Land Area: 43,893 Square Feet/1.01 Acres Price: $550,000.00 All Cash 7/3/2011",
+        "summary": "Land Area: 43,893 Square Feet/1.01 Acres Price: $550,000.00 All Cash",
         "addresses": [],
         "terms": [
           "acres"
@@ -4068,7 +4037,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "37",
-        "summary": "for their car to be cleaned either in the comfy waiting area or outside on the covered patio. Carwash offers multiple Tum Key Established Carwash & Latte business opportunity, Sale includes Real Estate and all Business Fixtures. Car Wash",
+        "summary": "for their car to be cleaned either in the comfy waiting area or outside on the covered patio. Carwash offers multiple Tum Key Established Carwash & Latte business opportunity, Sale includes Real Estate and all Business Fixtures. 5075 Hwy 95, Fort Mohave, AZ 86426",
         "addresses": [
           "16 of S00 Next Result Car Wash 5075 Hwy 95, Fort Mohave, AZ 86426",
           "5575 Hwy 95... 4 Fort Mohave, AZ",
@@ -4131,7 +4100,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "45",
-        "summary": "rd FORMER CAR WASH AVAILABLE e 2,430 SF . + 2,430 SF $325,000",
+        "summary": "rd FORMER CAR WASH AVAILABLE e 2,430 SF .",
         "addresses": [
           "893 Cox Creek Parkway Florence, AL",
           "355 Quality Circle TEL 256.382.9010 Graham&Co ae peace Huntsville, AL 35806"
@@ -4154,7 +4123,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "47",
-        "summary": "* Car wash Price: $ 0 Span : ila Evew a0 0 Prtarnby hte,",
+        "summary": "Price: $ 0 Span : ila Evew a0 0 Prtarnby hte,",
         "addresses": [
           "200 Cassandra Chandler Birmingham, AL 35223"
         ],
@@ -4234,14 +4203,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "59",
-        "summary": "Car Wash",
-        "addresses": [],
-        "terms": [
-          "car wash"
-        ]
-      },
-      {
         "page": "60",
         "summary": "Established: 1994 _| Owner: 1994 Business: Attended Tunnel Carwash only (Mexico Rd.) Year Business Was Years This Type of Attended Tunnel Carwash & Express Lube(Jung) Headquarters: 953 Gardenview Office Parkway, St. Louis, MO 63141 * Phone: (314) 567-7040 \u00ab Fax: (3 14) 567-7642",
         "addresses": [
@@ -4292,7 +4253,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "65",
-        "summary": "[car wash 3.6Concord Village Car Wash 3.2 Oakville Gateway Car Wash & Detailing",
+        "summary": "3.6Concord Village Car Wash 3.2 Oakville Gateway Car Wash & Detailing 1.7J & D Express Car Wash",
         "addresses": [
           "4020 lemay ferry rd, lemay, mo",
           "6 Reavis Barracks Car Wash 3941 Reavis Barracks Road, Saint Louis, MO 63125",
@@ -4391,7 +4352,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "75",
-        "summary": "$250,000 EBITDA: N/A Real Estate: N/A revenue. leading trend in the fast growing car wash industry??",
+        "summary": "$250,000 EBITDA: N/A Real Estate: N/A leading trend in the fast growing car wash industry?? Included in asking price",
         "addresses": [],
         "terms": [
           "car wash",
@@ -4489,7 +4450,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "86",
-        "summary": "Asking Price: $410,000 EBITDA : N/A Real Estate: N/A revenue. leading trend in the fast growing car wash industry??",
+        "summary": "Asking Price: $410,000 EBITDA : N/A Real Estate: N/A leading trend in the fast growing car wash industry?? Real Estate: Included in asking price",
         "addresses": [],
         "terms": [
           "car wash",
@@ -4572,7 +4533,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "93",
-        "summary": "Currently Royal Touch Carwash. Looking for committed buyerfesser. 542 Buttermilk Pike, Crescent Springs, KY 41017 | $12/SFear",
+        "summary": "Currently Royal Touch Carwash. Looking for committed buyerfesser. 542 Buttermilk Pike, Crescent Springs, KY 41017 htip:/Avww.loopnet.com/xNet/MainSite/Listing/P rofite/Protile.aspx?LID=19351409&SRID=6229860873&StepID=101",
         "addresses": [
           "542 Buttermilk Pike 542 Buttermilk Pike, Crescent Springs, KY 41017",
           "9 days ago 542 Buttermilk Pik... Crescent Springs, KY"
@@ -4936,7 +4897,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "133",
-        "summary": "$ Revenue $ Revenue $ Revenue",
+        "summary": "55,023 72,680 55,023 54,568 320,962 585,410",
         "addresses": [],
         "terms": [
           "traffic",
@@ -5156,7 +5117,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "159",
-        "summary": "Existing business car wash. Car wash for lease or sale , Mountain View 4114/2016",
+        "summary": "Existing business car wash. Car wash for lease or sale , Mountain View",
         "addresses": [],
         "terms": [
           "car wash"
@@ -5218,7 +5179,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "165",
-        "summary": ". wy as Station Car Wash Lube and CStore- 22764: Business For Sale in Kings County, New York United States on BizBuySell janging:, 450,000.00 Down 20/2015 G",
+        "summary": ". wy as Station Car Wash Lube and CStore- 22764: Business For Sale in Kings County, New York United States on BizBuySell janging:, 450,000.00 Down",
         "addresses": [],
         "terms": [
           "car wash"
@@ -5336,10 +5297,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Document_20260603_0005",
     "file_name": "Document_20260603_0005.pdf",
     "category": "Deal Records",
+    "group": "Dated Source PDFs",
     "pdf_url": "documents/Document_20260603_0005.pdf",
     "text_url": "ocr-output/Document_20260603_0005.txt",
     "page_count": 207,
-    "evidence_page_count": 192,
+    "evidence_page_count": 191,
     "evidence_row_count": 0,
     "pages": [
       {
@@ -5917,7 +5879,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "57",
-        "summary": "Here is chance to own a car wash on a prime location. Located on the comer of Lincolnway East and Bittersweet. Car Wash 4506 Lincolnway East, Mishawaka, IN 46544",
+        "summary": "Here is chance to own a car wash on a prime location. Located on the comer of Lincolnway East and Bittersweet. 4506 Lincolnway East, Mishawaka, IN 46544 Price\u201d $849,000 Property Use Type:",
         "addresses": [
           "4506 Lincolnway East, Mishawaka, IN 46544",
           "293-1010 Please send me additional Information about this property. You can reach me"
@@ -6001,7 +5963,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "68",
-        "summary": "This car wash facility has been a successful business for many years. Good Car Wash / Redevelopment Car Wash",
+        "summary": "This car wash facility has been a successful business for many years. Good Car Wash / Redevelopment -Car Wash Entry Door: 16'W x 8'H / Exit Door: 10'W x 8'H",
         "addresses": [
           "441 West Ave., Tallmadge, OH 44278",
           "787 White Pond Drive Suite A, Akron, OH 44320"
@@ -6441,14 +6403,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "terms": []
       },
       {
-        "page": "114",
-        "summary": "$850,000.00",
-        "addresses": [
-          "1000 S Florissant St. Louis, MO 63135"
-        ],
-        "terms": []
-      },
-      {
         "page": "116",
         "summary": "Excellent Opportunity consisting of 2,400 Sq.Ft. Freestanding Tunnel Car Wash Building located on .3030 Acres. Great Ir as Car Wash, also ideal for conversion to Drive Thru Beverage. Building contains two service detail bays and tunnel wast Lot Size: 0.30 Acres",
         "addresses": [
@@ -6642,7 +6596,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "134",
-        "summary": "Asking Price: $840,000 Facilities: Single Bay Automated Car Wash with Istobal M18 Equipment; Four (4) Vacuum stations; EBITDA: N/A",
+        "summary": "Asking Price: $840,000 Facilities: Single Bay Automated Car Wash with Istobal M18 Equipment; Four (4) Vacuum stations; Automated Car Wash - Ken's Car Wash @ Kroger",
         "addresses": [
           "646835 The information in this listing has been provided by the business seller or"
         ],
@@ -6902,7 +6856,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "158",
-        "summary": "2/14/2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 @Pineyisss Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 85,740",
+        "summary": "2/14/2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 @Pineyisss Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 2012 White alone",
         "addresses": [
           "2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226",
           "5950 W Alameda Ave, Lakewood, CO 80226",
@@ -7141,7 +7095,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "184",
-        "summary": "i Piineypoe\u00ab Demographics for 3986 Indianola Avenue, Columbus, OH 43201 1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201 95,517",
+        "summary": "i Piineypoe\u00ab Demographics for 3986 Indianola Avenue, Columbus, OH 43201 1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201 2042 Total population: 80 to 84 years",
         "addresses": [
           "1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201",
           "3986 Indianola Avenue, Columbus, OH 43201",
@@ -7264,6 +7218,21 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "car wash",
           "acres"
         ]
+      },
+      {
+        "page": "195",
+        "summary": "Mr. Goodwash Car Wash $645,000 Capitol Equities Realty Fully Automated free-standing tunnel car wash offering full detailing services. Price includes all F.F. & E 3820 Sullivant Avenue, Columbus, OH 43228 3,190 SF | Retail",
+        "addresses": [
+          "000 Capitol Equities Realty 3820 Sullivant Avenue, Columbus, OH 43228",
+          "760-5660 Please send me additional information about this property. You can reach me",
+          "5 East Long Street Columbus, OH",
+          "211 East Fifth Sw... Marysville, OH",
+          "780 SF Bldg S. Hamilton Road . Groveport, OH",
+          "88 AC 1890 Nothwest Blvd... Columbus, OH"
+        ],
+        "terms": [
+          "car wash"
+        ]
       }
     ],
     "evidence_rows": [],
@@ -7273,6 +7242,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Documents Scanned File Bin 3",
     "file_name": "Documents Scanned File Bin 3.pdf",
     "category": "Deal Records",
+    "group": "Scanned Deal Bins",
     "pdf_url": "documents/Documents-Scanned-File-Bin-3.pdf",
     "text_url": "ocr-output/Documents Scanned File Bin 3.txt",
     "page_count": 137,
@@ -7338,7 +7308,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "7",
-        "summary": "Property Type: Car Wash seri Oml rtai\u00a7biElialligq30MaTaPirate20309 3,239 +/- sf",
+        "summary": "Property Type: Car Wash seri Oml rtai\u00a7biElialligq30MaTaPirate20309",
         "addresses": [
           "5690 W. Peoria Ave., Glendale, AZ 85302"
         ],
@@ -7348,7 +7318,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "8",
-        "summary": "Gross Revenue: EBITDA: Car Wash and Lube Center",
+        "summary": "Gross Revenue: Car Wash and Lube Center Asking Price:",
         "addresses": [],
         "terms": [
           "car wash",
@@ -7378,7 +7348,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "11",
-        "summary": "2828 S Four Wheel Or, Lawrence, KS, 66047 - Car Wash Property For Sale on LoopNet.com Car Wash Parking Ratio 2.61/1,000 SF",
+        "summary": "2828 S Four Wheel Or, Lawrence, KS, 66047 - Car Wash Property For Sale on LoopNet.com Parking Ratio 2.61/1,000 SF 5,751 SF Specialty Building Offered at $1,100,000 in Lawrence, KS",
         "addresses": [
           "2828 S Four Wheel Or, Lawrence, KS",
           "2828 S FOUR WHEEL DR LAWRENCE, KS 66047",
@@ -7419,7 +7389,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "15",
-        "summary": "and Faulkner drive revenue into the local economy. Montgomery 8,795 8,621",
+        "summary": "and Faulkner drive revenue into the local economy. Montgomery 2024 Projection 2024 Projection",
         "addresses": [],
         "terms": [
           "revenue"
@@ -7427,7 +7397,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "20",
-        "summary": "se to Growing Car Wash \u2022 Sacramento MSA Location - MSA Population of 2,324,884 7,233,0",
+        "summary": "se to Growing Car Wash \u2022 Sacramento MSA Location - MSA Population of 2,324,884 2,880 SF Retail Building Offered at $7,233,000 at a 6% Cap Rate in Elk Grove, C",
         "addresses": [],
         "terms": [
           "car wash",
@@ -7436,7 +7406,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "21",
-        "summary": "Staff-Run Car Wash &Auto Detailer Gross Revenue: EBITDA:",
+        "summary": "Staff-Run Car Wash &Auto Detailer Gross Revenue: Asking Price:",
         "addresses": [],
         "terms": [
           "car wash",
@@ -7446,7 +7416,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "22",
-        "summary": "Car Wash 100' CONVEYOR CAR WASH FOR SALE/LEASE CENTERED BETWEEN 100,000+ POPULATION WITH",
+        "summary": "100' CONVEYOR CAR WASH FOR SALE/LEASE CENTERED BETWEEN 100,000+ POPULATION WITH 40,000 POPULATION TOWN",
         "addresses": [],
         "terms": [
           "car wash",
@@ -7472,7 +7442,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "25",
-        "summary": "TRAFFIC COUNTS .58 Acres 5A46 SF 75,221",
+        "summary": "TRAFFIC COUNTS .58 Acres 5A46 SF 6,648 100,096 342,493",
         "addresses": [],
         "terms": [
           "traffic",
@@ -7503,7 +7473,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "28",
-        "summary": "Gross Revenue: Express Car Wash EBITDA:",
+        "summary": "Gross Revenue: Express Car Wash Car Wash Express",
         "addresses": [],
         "terms": [
           "car wash",
@@ -7633,7 +7603,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "43",
-        "summary": "Revenue Gold Car Wash and Detail Center Car Wash Supplies",
+        "summary": "Gold Car Wash and Detail Center Car Wash Supplies FY 2018 decrease in salaried wages of $33,542 due to elimination of GM making 591k per year",
         "addresses": [
           "207 FY 2018 decrease in"
         ],
@@ -7872,7 +7842,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "72",
-        "summary": "EASI Census 2010 Site Selection Reports & Analysis Total Household Income ($) 207,102,490 696,921,017 1,828,423,794 87,608",
+        "summary": "EASI Census 2010 Site Selection Reports & Analysis Total Household Income ($) 207,102,490 696,921,017 1,828,423,794",
         "addresses": [],
         "terms": []
       },
@@ -7924,7 +7894,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "78",
-        "summary": "210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNetoom Map data @2021 6/1/2021",
+        "summary": "210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNetoom Map data @2021 2,400 SF Specialty Building Offered at $13,300,000 in Anaheim, CA",
         "addresses": [
           "210 N Euclid Way, Anaheim, CA 92801",
           "0 Olive Villa Park Fullerton 0 Placentia La"
@@ -7933,7 +7903,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "79",
-        "summary": "famous Car Wash equipment Car Wash Built, Express Car Wash opened in",
+        "summary": "famous Car Wash equipment Built, Express Car Wash opened in *Great opportunity for Car Wash",
         "addresses": [
           "2020 Opportunity Zone No ABOUT 210 N EUCLID WAY, ANAHEIM, CA 92801"
         ],
@@ -7991,7 +7961,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "86",
-        "summary": "\u2022 High traffic count, population sales within the car wash, car wash",
+        "summary": "\u2022 High traffic count, population sales within the car wash, Pelican Car Wash Site!",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8077,7 +8047,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "97",
-        "summary": "Furniture, Fixtures, Included in asking price Full Support &Training Offered By Sonny's Car Wash 6,131",
+        "summary": "Furniture, Fixtures, Included in asking price Full Support &Training Offered By Sonny's Car Wash",
         "addresses": [],
         "terms": [
           "car wash"
@@ -8094,7 +8064,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "99",
-        "summary": "Gross Revenue: EBITDA: Asking Price:",
+        "summary": "Gross Revenue: Asking Price: $10,000,000*",
         "addresses": [],
         "terms": [
           "EBITDA",
@@ -8103,7 +8073,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "100",
-        "summary": "Car Wash 4,320 SF 2.31/1,000 SF",
+        "summary": "2.31/1,000 SF",
         "addresses": [
           "03 PM 248W Grand River Ave East Lansing, MI 48823"
         ],
@@ -8166,7 +8136,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "106",
-        "summary": "Revenue: EBITDA: Car Wash & Lube Location For Sale",
+        "summary": "Car Wash & Lube Location For Sale with cash flow potential of up to $500,000 NOI Established: 2010",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8186,13 +8156,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "108",
-        "summary": "EASI Census 2010 Site Selection Reports & Analysis Total Household Income ($) 590,054,603 4,987,142,999 10,901,930,364 96,099",
+        "summary": "EASI Census 2010 Site Selection Reports & Analysis Total Household Income ($) 590,054,603 4,987,142,999 10,901,930,364 2Map data \u00a92019",
         "addresses": [],
         "terms": []
       },
       {
         "page": "109",
-        "summary": "13328 S MARKET CENTER DR, RIVERTON, UT 84065 11643 S REDWOOD RD, SOUTH JORDAN, UT 84065 \u00b166,211 SF",
+        "summary": "13328 S MARKET CENTER DR, RIVERTON, UT 84065 11643 S REDWOOD RD, SOUTH JORDAN, UT 84065",
         "addresses": [
           "750000 LIST PRICE INVESTMENT SUMMARY 11643 S REDWOOD RD, SOUTH JORDAN, UT 84065",
           "13328 S MARKET CENTER DR, RIVERTON, UT 84065"
@@ -8245,7 +8215,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "115",
-        "summary": "101 Haag Avenue, Sellmawr, NJ MUM All estimates are as of 4/1/2010 unless otherwise stated. 1/5/2021",
+        "summary": "101 Haag Avenue, Sellmawr, NJ MUM All estimates are as of 4/1/2010 unless otherwise stated.",
         "addresses": [
           "101 Haag Avenue, Sellmawr, NJ",
           "535-0 into 2- to in"
@@ -8346,7 +8316,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "127",
-        "summary": "0.87 Acres 0.62 Acres 0.37 Acres",
+        "summary": "LEGACY COMMERCIAL GROUP //2300 GENOA BUSINESS PARK DRIVE SUITE 160/I BRIGHTON, MI 48114/I 810.206.3500/I LEGACYIPG.COM",
         "addresses": [
           "2300 GENOA BUSINESS PARK DRIVE SUITE 160/I BRIGHTON, MI 48114"
         ],
@@ -8421,10 +8391,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Documents Scanned Most Recent",
     "file_name": "Documents Scanned Most Recent.pdf",
     "category": "Deal Records",
+    "group": "Recent Traffic & Site Packet",
     "pdf_url": "documents/Documents-Scanned-Most-Recent.pdf",
     "text_url": "ocr-output/Documents Scanned Most Recent.txt",
     "page_count": 265,
-    "evidence_page_count": 202,
+    "evidence_page_count": 194,
     "evidence_row_count": 63,
     "pages": [
       {
@@ -8439,7 +8410,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "2",
-        "summary": "ora billing service, and is intended to be indicative of the direction of the Subscription Economy as a whole; chart represents annual sales revenue growth _n_ 62 car wash sector offers significant upside opportunity 2020",
+        "summary": "ora billing service, and is intended to be indicative of the direction of the Subscription Economy as a whole; chart represents annual sales revenue growth _n_ 62 car wash sector offers significant upside opportunity",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8513,7 +8484,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "9",
-        "summary": "grAbea -CAR WASH \u2022 $30.9 of revepuiftwough 2027 due to the shift towards express",
+        "summary": "grAbea -CAR WASH of revepuiftwough 2027 due to the shift towards express Site -Level Operating Expenses Composition 2022E vs. 2027P (1)",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8587,14 +8558,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "16",
-        "summary": "CAR WASH",
-        "addresses": [],
-        "terms": [
-          "car wash"
-        ]
-      },
-      {
         "page": "17",
         "summary": "II WELL-DEFINED PATH TO 200+ SITES BY 2027 CAR WASH Clear vision and strategy to operate more than 200 sites by 2027, generating more than $160 million of EBITDA 2022E to 2027P Site Bridge 2022E to 2027P EBITDA Bridge",
         "addresses": [
@@ -8629,7 +8592,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "21",
-        "summary": "CAR WASH 7.8% Organic Revenue CAGR 2022[ 2023P 2024P 20251' 2026P 20271'",
+        "summary": "7.8% Organic Revenue CAGR 2022[ 2023P 2024P 20251' 2026P 20271'",
         "addresses": [
           "3 years of operation Maturing Sites 3 Opened in"
         ],
@@ -8651,14 +8614,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "23",
-        "summary": "CAR WASH",
-        "addresses": [],
-        "terms": [
-          "car wash"
-        ]
-      },
-      {
         "page": "24",
         "summary": "6 development sites as of June 30, 2022",
         "addresses": [],
@@ -8668,7 +8623,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "25",
-        "summary": "\u2022 Strict criteria for site selection, including competitive dynamics and Splash's focused M&A strategy is rooted in a systematic approach to site selection, best-in-class CAR WASH",
+        "summary": "\u2022 Strict criteria for site selection, including competitive dynamics and Splash's focused M&A strategy is rooted in a systematic approach to site selection, best-in-class",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8693,7 +8648,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "27",
-        "summary": "Strategic partnerships with industry -leading car wash solution providers enhance Splash's consistent CAR WASH",
+        "summary": "Strategic partnerships with industry -leading car wash solution providers enhance Splash's consistent",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8702,7 +8657,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "28",
-        "summary": "CAR WASH customer data and produces customizable reports; expected to go-live in Q3 2022",
+        "summary": "customer data and produces customizable reports; expected to go-live in Q3 2022",
         "addresses": [],
         "terms": [
           "car wash"
@@ -8740,7 +8695,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "33",
-        "summary": "progress of in-development sites and acquisitions CAR WASH",
+        "summary": "progress of in-development sites and acquisitions",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8766,7 +8721,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "37",
-        "summary": "II NEW JERSEY AND PENNSYLVANIA REGIONAL OVERVIEWS CAR WASH 32M114 $44K 13.0mm 26m1N $64K Addressable",
+        "summary": "II NEW JERSEY AND PENNSYLVANIA REGIONAL OVERVIEWS CAR WASH 13.0mm 26m1N $64K Addressable",
         "addresses": [],
         "terms": [
           "car wash"
@@ -8774,7 +8729,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "38",
-        "summary": "among car wash operators provides an exceptional strategic 0.6mm 16mIN $62K 4.9mm 26PAIN $861(",
+        "summary": "among car wash operators provides an exceptional strategic 0.6mm 16mIN $62K 4.9mm 26PAIN",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8783,7 +8738,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "39",
-        "summary": "CAR WASH The Long Island region was established in 2022 through the 5 $1.9",
+        "summary": "The Long Island region was established in 2022 through the (4) Reflects 2022E metrics for 2 sites; site count includes operating and in development locations, $72K Average",
         "addresses": [
           "2022 through the acquisition of two operating sites and one in"
         ],
@@ -8823,7 +8778,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "42",
-        "summary": "II PLATFORM-WIDE KPIS AND UNIT-LEVEL ECONOMICS egMal CAR WASH Disciplined site selection, targeted consumer marketing, thoughtful pricing strategy and data-driven 97,103",
+        "summary": "II PLATFORM-WIDE KPIS AND UNIT-LEVEL ECONOMICS egMal CAR WASH Disciplined site selection, targeted consumer marketing, thoughtful pricing strategy and data-driven 80,000 2,063",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8832,7 +8787,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "43",
-        "summary": "CAR WASH 15M CAR WASH (1) Development sites represent units that are expected to open in Ow rico IS month, plea,. ri lit 1p page 2 int( r",
+        "summary": "15M CAR WASH (1) Development sites represent units that are expected to open in Ow rico IS month, plea,. ri lit 1p page 2 int( r Total 81 $1.7 44%",
         "addresses": [
           "51 Total Operating Sites Network Summary Sites in"
         ],
@@ -8853,14 +8808,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "45",
-        "summary": "CAR WASH",
-        "addresses": [],
-        "terms": [
-          "car wash"
-        ]
-      },
-      {
         "page": "46",
         "summary": "\u2022 As of June 30, 2022, Splash owns the real estate for 16 operating sites and 6 development sites through",
         "addresses": [],
@@ -8870,7 +8817,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "47",
-        "summary": "e a l 4 - CAR WASH Leading, express -oriented car wash platform with an entrenched leadership position CAR WASH",
+        "summary": "e a l 4 - CAR WASH Leading, express -oriented car wash platform with an entrenched leadership position",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8892,7 +8839,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "49",
-        "summary": "Coverage EBITDA Target CAR WASH strategy create the foundation for growth to 200+ sites by 2027",
+        "summary": "Coverage EBITDA Target strategy create the foundation for growth to 200+ sites by 2027 Splash Network 20271' Platform",
         "addresses": [],
         "terms": [
           "car wash",
@@ -8954,15 +8901,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "56",
-        "summary": "CAR WASH",
-        "addresses": [],
-        "terms": [
-          "car wash",
-          "development"
-        ]
-      },
-      {
         "page": "57",
         "summary": "drive strong EBITDA growth through relatively minor Subscription -Based Memberships and Revenues Exceptional Revenue and Earnings Visibilitym 43Y 2022E Platform Revenues Locked -In via",
         "addresses": [],
@@ -9006,7 +8944,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "62",
-        "summary": "Repeatable site selection II eaM CAR WASH CAR WASH \\",
+        "summary": "Repeatable site selection II eaM CAR WASH",
         "addresses": [],
         "terms": [
           "car wash",
@@ -9022,14 +8960,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "EBITDA",
           "revenue",
           "development"
-        ]
-      },
-      {
-        "page": "64",
-        "summary": "CAR WASH",
-        "addresses": [],
-        "terms": [
-          "car wash"
         ]
       },
       {
@@ -9100,7 +9030,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "72",
-        "summary": "Focused Site Selection & 2021 2020",
+        "summary": "Focused Site Selection &",
         "addresses": [],
         "terms": [
           "EBITDA"
@@ -9126,7 +9056,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "76",
-        "summary": "of Car Wash Flagstop's seasoned car wash veterans have unique \u2022 Remodeled and replaced equipment in February 2020 to ensure quality was",
+        "summary": "Flagstop's seasoned car wash veterans have unique \u2022 Remodeled and replaced equipment in February 2020 to ensure quality was \u2022 Express location acquired by Flagstop in October 2019",
         "addresses": [],
         "terms": [
           "car wash"
@@ -9185,7 +9115,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "83",
-        "summary": "Revenue and Total Sites ($ in millions) NM Revenue 80-foot car wash",
+        "summary": "Revenue and Total Sites ($ in millions) 80-foot car wash 2017 I Sliding Hill and",
         "addresses": [
           "1981 New Site Opening / Conversion Flagstop is founded in Chester, VA",
           "2020 Iron Bridge and Coloni Heights converted trot in"
@@ -9208,7 +9138,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "85",
-        "summary": "\u2014 On track to generate $22.8m in Revenue and operations management, site selection, and brand YoY Revenue",
+        "summary": "\u2014 On track to generate $22.8m in Revenue and operations management, site selection, and brand Flagstop Car Wash: A Platform Built for Growth",
         "addresses": [
           "5 greenfield locations scheduled to open in",
           "3 As Existing Sites OW Sites Under Construction Central VA",
@@ -9274,7 +9204,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "93",
-        "summary": "3 Successful track record of expansion with roadmap in place for units by 2025 by 2021E",
+        "summary": "3 Successful track record of expansion with roadmap in place for units by 2025 Under construction Under contract 2020 2021",
         "addresses": [
           "3 Successful track record of expansion with roadmap in",
           "2021 State Total open units 2018 2019 2020 YID Locations in",
@@ -9382,7 +9312,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "109",
-        "summary": "\u2022 Revenue revenue diversification and",
+        "summary": "revenue diversification and",
         "addresses": [],
         "terms": [
           "revenue",
@@ -9410,7 +9340,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "118",
-        "summary": "\u2022 30+ year car wash Q.P.91,418",
+        "summary": "\u2022 30+ year car wash",
         "addresses": [
           "15 years of soft line retail leadership in"
         ],
@@ -9479,7 +9409,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "127",
-        "summary": "Soapy Joe's is a leading car wash plafform due to its -75% membership model and seasoned site market penetration 2018 2019 2020 2021 $286 $310",
+        "summary": "Soapy Joe's is a leading car wash plafform due to its -75% membership model and seasoned site market penetration 2018 2019 2020 2021 $15 single use",
         "addresses": [],
         "terms": [
           "car wash"
@@ -9487,7 +9417,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "129",
-        "summary": "since 2019' By unaided awareness in 2021 By aided awareness in 2021' #",
+        "summary": "By unaided awareness in 2021 By aided awareness in 2021' #",
         "addresses": [
           "8 By aided awareness in",
           "6 By unaided awareness in",
@@ -9497,7 +9427,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "130",
-        "summary": "\u2022CAR WASH OPERATORS.... express car wash $79k median",
+        "summary": "\u2022CAR WASH OPERATORS.... express car wash",
         "addresses": [],
         "terms": [
           "car wash"
@@ -9524,7 +9454,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "135",
-        "summary": "Year -over -year car wash unit growth for the top 10 players THE CAR WASH INDUSTRY IS POISED FOR SIGNIFICANT GROWTH 5'1118 2019",
+        "summary": "Year -over -year car wash unit growth for the top 10 players THE CAR WASH INDUSTRY IS POISED FOR SIGNIFICANT GROWTH",
         "addresses": [],
         "terms": [
           "car wash"
@@ -9532,7 +9462,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "136",
-        "summary": "recurring revenue Recurring revenue through subscription Car wash",
+        "summary": "recurring revenue Recurring revenue through subscription",
         "addresses": [],
         "terms": [
           "car wash",
@@ -9570,7 +9500,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "141",
-        "summary": "car wash to the express wash model and 2010",
+        "summary": "car wash to the express wash model and",
         "addresses": [],
         "terms": [
           "car wash"
@@ -9662,7 +9592,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "159",
-        "summary": "Super Star Car Wash presents one of the few opportunities to acquire a Top 20 national chain and a high quality leader in the burgeoning car wash market. Management sees significant growth opportunities available for Super Star Car Wash, many of which are achievable given the current level of operation and 5,000,000",
+        "summary": "Super Star Car Wash presents one of the few opportunities to acquire a Top 20 national chain and a high quality leader in the burgeoning car wash market. Management sees significant growth opportunities available for Super Star Car Wash, many of which are achievable given the current level of operation and 2019 2020 2021 2022 2023",
         "addresses": [
           "20 national chain and a high quality leader in"
         ],
@@ -9768,7 +9698,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "172",
-        "summary": "siting, acquisition, development, and construction, employing the multi-faceted site selection methodology perfected over years by Founder Reza Amirrezvani. CAR WASH With the size and capabilities of the current team, Super Star is poised for the next stage of growth through 2021-2022 development and beyond.",
+        "summary": "siting, acquisition, development, and construction, employing the multi-faceted site selection methodology perfected over years by Founder Reza Amirrezvani. With the size and capabilities of the current team, Super Star is poised for the next stage of growth through 2021-2022 development and beyond.",
         "addresses": [
           "7 vies Brit Sock G al-Express & New Sites cites Additional organizational chart detail provided in"
         ],
@@ -9911,7 +9841,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "187",
-        "summary": "Revenue Mix Note: Totals don't take into consideration other revenue lines not featured here. Car Wash",
+        "summary": "Note: Totals don't take into consideration other revenue lines not featured here. convenience store, and fuel services. The below graphics summarize the mix of offerings in 2021 LTM through May, for all Super",
         "addresses": [],
         "terms": [
           "car wash",
@@ -10086,14 +10016,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "203",
-        "summary": "CAR WASH",
-        "addresses": [],
-        "terms": [
-          "car wash"
-        ]
-      },
-      {
         "page": "204",
         "summary": "As noted previously, each car wash LLC has a different equity structure, with varying numbers of investors. Reza Amirrezvani is the majority stakeholder of",
         "addresses": [],
@@ -10254,6 +10176,63 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "225",
         "summary": "Old Greenwich Car Wash & Shell Station Rental Comps Averages $358,176 $90 415-17 Greenwich Ave Greenwich 2016 3,450 $348,450 $101",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "226",
+        "summary": "Old Greenwich Car Wash & Shell Station I+E I 5-Year Cash Flow Projections Vacancy / Credit Loss2 5.0% ($80,000) ($80,000) ($80,00) ($80,000) ($80,000) Total Expenses $91,200 $91,200 $91,200 $91,200 $91,200",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "228",
+        "summary": "conveyorized-car wash. Generating an additional $2,688,000 per year, the asset will conclude 2021 $20,000,000 purchase price). revenue accounts for approximately 85% of total wash revenue across their portfolio.",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic",
+          "revenue",
+          "development"
+        ]
+      },
+      {
+        "page": "229",
+        "summary": "around 6,100 according to the 2010 census, it maintains a small-town feel for locals and visitors alike. There are plenty of offerings",
+        "addresses": [
+          "1000 corporations stationed within Fairfield County. There are multiple public and private colleges and universities settled in"
+        ],
+        "terms": []
+      },
+      {
+        "page": "230",
+        "summary": "conveyorized-tunnel car wash and Shell gasoline station located at 1429 East Putnam Avenue, Old Greenwich, CT 06870 (\"The portfolio in a significant manner since 2016. In 2019, Russell Speeder's ranked #19 on Carwash.com's 'Top 50 U.S. Conveyor Chain' conveyorized-car wash. Generating an additional $2,688,000 per year, the asset will conc",
+        "addresses": [
+          "1429 East Putnam Avenue, Old Greenwich, CT 06870"
+        ],
+        "terms": [
+          "car wash",
+          "traffic",
+          "EBITDA",
+          "revenue",
+          "development"
+        ]
+      },
+      {
+        "page": "240",
+        "summary": "Leading Car Wash Investment Bank ttpte(s)I Pennsylvania 12013 sttecs) I Virginu12021",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "241",
+        "summary": "rn 1,000+ Carwash company valuations >$1B Carwash Transaction Value \u25aa everything running smoothly at Car Wash Advisory.",
         "addresses": [],
         "terms": [
           "car wash"
@@ -11087,6 +11066,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Images Scanned",
     "file_name": "Images Scanned.pdf",
     "category": "Image Scans",
+    "group": "Image Scans",
     "pdf_url": "documents/Images-Scanned.pdf",
     "text_url": "ocr-output/Images Scanned.txt",
     "page_count": 47,
@@ -11535,10 +11515,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "title": "Scanned Documents Bin 2",
     "file_name": "Scanned Documents Bin 2.pdf",
     "category": "Deal Records",
+    "group": "Scanned Deal Bins",
     "pdf_url": "documents/Scanned-Documents-Bin-2.pdf",
     "text_url": "ocr-output/Scanned Documents Bin 2.txt",
     "page_count": 156,
-    "evidence_page_count": 128,
+    "evidence_page_count": 117,
     "evidence_row_count": 0,
     "pages": [
       {
@@ -11576,38 +11557,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "terms": []
       },
       {
-        "page": "3",
-        "summary": "40 Nichols Street Spencerport, NY, 14559",
-        "addresses": [
-          "40 Nichols Street Spencerport, NY"
-        ],
-        "terms": []
-      },
-      {
-        "page": "6",
-        "summary": "al if i (f Lire",
-        "addresses": [
-          "1400 Kings Hwy Cutoff Fairfield, CT"
-        ],
-        "terms": []
-      },
-      {
-        "page": "7",
-        "summary": "' 251 Post Road Darien, CT, 06802",
-        "addresses": [
-          "251 Post Road Darien, CT"
-        ],
-        "terms": []
-      },
-      {
-        "page": "8",
-        "summary": "2 7 6273 Brockport-Spencerport Rd Brockport, NY, 14420",
-        "addresses": [
-          "6273 Brockport-Spencerport Rd Brockport, NY"
-        ],
-        "terms": []
-      },
-      {
         "page": "11",
         "summary": "791 Post Rd E, Westport, CT 06880",
         "addresses": [
@@ -11636,65 +11585,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "570 Bedford Road Bedford Hills, NY, 10507",
         "addresses": [
           "570 Bedford Road Bedford Hills, NY"
-        ],
-        "terms": []
-      },
-      {
-        "page": "16",
-        "summary": "POP VIAHIN Tncome ADT 382 Danbury Road Wilton, CT, 06897 2\\ 20\\ 53 500\\ 5\\ 12 \\7, 500",
-        "addresses": [
-          "382 Danbury Road Wilton, CT"
-        ],
-        "terms": []
-      },
-      {
-        "page": "17",
-        "summary": "170 S. Kensico Ave. White Plains, NY, 10601",
-        "addresses": [
-          "170 S. Kensico Ave. White Plains, NY"
-        ],
-        "terms": []
-      },
-      {
-        "page": "18",
-        "summary": "SMES pe gO ed",
-        "addresses": [
-          "340 Central Avenue White Plains, NY"
-        ],
-        "terms": []
-      },
-      {
-        "page": "20",
-        "summary": "VoOV~Vihon Tn come. ACY 649 Hope Street Stamford, CT, 06907",
-        "addresses": [
-          "649 Hope Street Stamford, CT"
-        ],
-        "terms": []
-      },
-      {
-        "page": "21",
-        "summary": "53 Bullet Hill Road Southbury, CT, 06488",
-        "addresses": [
-          "53 Bullet Hill Road Southbury, CT"
-        ],
-        "terms": []
-      },
-      {
-        "page": "22",
-        "summary": "376 Bridgeport Ave. Shelton, CT, 06484",
-        "addresses": [
-          "376 Bridgeport Ave. Shelton, CT"
-        ],
-        "terms": []
-      },
-      {
-        "page": "23",
-        "summary": "625 W. Putnam Ave Greenwich, CT, 06830 Locations that do not show a building in google maps 51 Amity Road 780 Canandaigua Road",
-        "addresses": [
-          "625 W. Putnam Ave Greenwich, CT",
-          "06830 Locations that do not show a building in",
-          "51 Amity Road 780 Canandaigua Road New Haven, CT",
-          "186 Westport Ave. Norwalk, CT"
         ],
         "terms": []
       },
@@ -11823,7 +11713,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "48",
-        "summary": "ASKING PRICE $6,800,000",
+        "summary": "ASKING PRICE",
         "addresses": [],
         "terms": []
       },
@@ -12088,7 +11978,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "87",
-        "summary": "PURCHASE PRICE | estimate in 2 years 4000 subscribers at $33 and Ebita of $900,000 $800,000",
+        "summary": "PURCHASE PRICE | estimate in 2 years 4000 subscribers at $33 and Ebita of $900,000 $1,100,000 Land",
         "addresses": [],
         "terms": []
       },
@@ -12108,7 +11998,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "90",
-        "summary": "PURCHASE PRICE Uono Ug |. 6 230 FLANDERS RD, NIANTIC, CT 06357 | estimate in 2 years 4000 subscribers at $33 and $900,000 in Ebita $800,000",
+        "summary": "PURCHASE PRICE Uono Ug |. 6 230 FLANDERS RD, NIANTIC, CT 06357 | estimate in 2 years 4000 subscribers at $33 and $900,000 in Ebita $1,500,000 Land",
         "addresses": [
           "230 FLANDERS RD, NIANTIC, CT 06357"
         ],
@@ -12495,7 +12385,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       },
       {
         "page": "139",
-        "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 354 Hamilton Ave, Brooklyn NY 11231 V16/2016",
+        "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 354 Hamilton Ave, Brooklyn NY 11231 Map data \u00a92016 Google",
         "addresses": [
           "354 Hamilton Ave, Brooklyn NY 11231"
         ],

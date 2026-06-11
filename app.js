@@ -1418,6 +1418,7 @@ function normalizedDocumentLibrary() {
   return documentLibrary.map((doc) => ({
     ...doc,
     category: doc.category || (Array.isArray(doc.gallery_images) && doc.gallery_images.length ? "Image Scans" : "Deal Records"),
+    group: doc.group || doc.category || "Supporting Source PDFs",
     pages: Array.isArray(doc.pages) ? doc.pages : [],
     evidence_rows: Array.isArray(doc.evidence_rows) ? doc.evidence_rows : [],
     gallery_images: Array.isArray(doc.gallery_images) ? doc.gallery_images : [],
@@ -1430,6 +1431,7 @@ function documentMatchesQuery(doc, query) {
     doc.title,
     doc.file_name,
     doc.category,
+    doc.group,
     ...doc.pages.map((page) => page.summary),
     ...doc.pages.flatMap((page) => page.addresses || []),
     ...doc.evidence_rows.map((row) => `${row.type} ${row.name} ${row.location} ${row.status} ${row.note}`),
@@ -1442,12 +1444,15 @@ function documentMatchesQuery(doc, query) {
 
 function renderDocumentResults(docs) {
   if (!docs.length) return `<div class="empty-state">No document pages matched that search.</div>`;
-  const dealDocs = docs.filter((doc) => doc.category !== "Image Scans");
-  const imageDocs = docs.filter((doc) => doc.category === "Image Scans");
-  return [
-    renderDocumentSection("Deal Records", "Structured PDFs with searchable car wash evidence, locations, traffic counts, EBITDA, asking prices, and portfolio rows.", dealDocs),
-    renderDocumentSection("Image Scans", "Photo-heavy scan packets grouped separately so signage, menus, site photos, and visual notes are easy to review.", imageDocs),
-  ]
+  const groups = [
+    ["Image Scans", "Photo-heavy scan packets shown as full visual galleries with every page preview.", docs.filter((doc) => doc.category === "Image Scans")],
+    ["Recent Traffic & Site Packet", "The most recent scanned packet with traffic, site, and portfolio evidence pulled forward first.", docs.filter((doc) => doc.group === "Recent Traffic & Site Packet")],
+    ["Scanned Deal Bins", "Bin scans grouped together for quick review of older deal files and source paperwork.", docs.filter((doc) => doc.group === "Scanned Deal Bins")],
+    ["Dated Source PDFs", "Date-stamped scanned source files organized separately from the bin packets.", docs.filter((doc) => doc.group === "Dated Source PDFs")],
+    ["Supporting Source PDFs", "Additional imported source documents that support the Scout records.", docs.filter((doc) => doc.group === "Supporting Source PDFs")],
+  ];
+  return groups
+    .map(([title, summary, groupDocs]) => renderDocumentSection(title, summary, groupDocs))
     .filter(Boolean)
     .join("");
 }
@@ -1464,7 +1469,7 @@ function renderDocumentSection(title, summary, docs) {
         <span>${docs.length.toLocaleString()} file${docs.length === 1 ? "" : "s"}</span>
       </div>
       <div class="document-section-list">
-        ${docs.map(renderDocumentCard).join("")}
+        ${docs.map((doc) => renderDocumentCard(doc)).join("")}
       </div>
     </section>
   `;
@@ -1514,19 +1519,25 @@ function renderDocumentCard(doc) {
           ? renderImageGalleryGroups(doc, galleryImages, pdfHref)
           : ""
       }
-      <div class="page-chip-list">
-        ${pages
-          .map(
-            (page) => `
-              <a href="${escapeHtml(`${pdfHref}#page=${encodeURIComponent(page.page)}`)}" target="_blank" rel="noreferrer">
-                <b>Page ${escapeHtml(page.page)}</b>
-                <span>${escapeHtml(page.summary)}</span>
-              </a>
-            `
-          )
-          .join("")}
-      </div>
+      ${pages.length ? renderPageEvidenceList(pages, pdfHref) : ""}
     </article>
+  `;
+}
+
+function renderPageEvidenceList(pages, pdfHref) {
+  return `
+    <div class="page-chip-list">
+      ${pages
+        .map(
+          (page) => `
+            <a href="${escapeHtml(`${pdfHref}#page=${encodeURIComponent(page.page)}`)}" target="_blank" rel="noreferrer">
+              <b>Page ${escapeHtml(page.page)}</b>
+              <span>${escapeHtml(page.summary)}</span>
+            </a>
+          `
+        )
+        .join("")}
+    </div>
   `;
 }
 

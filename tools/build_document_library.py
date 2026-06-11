@@ -27,6 +27,24 @@ def clean(value: str) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
+def readable_line(value: str) -> bool:
+    line = clean(value)
+    if len(line) < 12:
+        return False
+    letters = sum(ch.isalpha() for ch in line)
+    numbers = sum(ch.isdigit() for ch in line)
+    useful = letters + numbers
+    if useful < 8:
+        return False
+    if useful / max(len(line), 1) < 0.42:
+        return False
+    if re.search(r"(?:\b[A-Z]\b[\s|,.-]*){5,}", line):
+        return False
+    if re.search(r"(?:V\s*){6,}|(?:I\s*){6,}|(?:[^\w\s]\s*){8,}", line, re.I):
+        return False
+    return True
+
+
 def slugify(value: str) -> str:
     slug = re.sub(r"[^A-Za-z0-9._-]+", "-", value).strip("-")
     return slug or "document.pdf"
@@ -44,7 +62,7 @@ def ensure_document_link(pdf_path: Path) -> str:
 
 
 def page_summary(page: str, max_chars: int = 340) -> str:
-    lines = [clean(line) for line in page.splitlines() if clean(line)]
+    lines = [clean(line) for line in page.splitlines() if readable_line(line)]
     scored: list[tuple[int, str]] = []
     for line in lines:
         score = 0
@@ -59,7 +77,20 @@ def page_summary(page: str, max_chars: int = 340) -> str:
     if scored:
         scored.sort(reverse=True)
         return clean(" ".join(line for _, line in scored[:3]))[:max_chars]
-    return clean(" ".join(lines[:4]))[:max_chars]
+    return ""
+
+
+def document_group(pdf_path: Path, is_image_scan: bool) -> str:
+    title = pdf_path.stem.lower()
+    if is_image_scan:
+        return "Image Scans"
+    if "most recent" in title:
+        return "Recent Traffic & Site Packet"
+    if "bin" in title:
+        return "Scanned Deal Bins"
+    if re.search(r"document_\d{8}", title):
+        return "Dated Source PDFs"
+    return "Supporting Source PDFs"
 
 
 def extract_development_rows(text: str, source: str, page_number: int) -> list[dict[str, str]]:
@@ -200,10 +231,13 @@ def build() -> list[dict[str, object]]:
             evidence_rows.extend(extract_current_site_rows(page, txt_path.name if txt_path.exists() else pdf_path.name, index))
             evidence_rows.extend(extract_development_rows(page, txt_path.name if txt_path.exists() else pdf_path.name, index))
             if has_evidence:
+                summary = page_summary(page)
+                if not summary:
+                    continue
                 page_cards.append(
                     {
                         "page": str(index),
-                        "summary": page_summary(page),
+                        "summary": summary,
                         "addresses": list(dict.fromkeys(addresses[:10])),
                         "terms": [term for term in ["car wash", "traffic", "EBITDA", "revenue", "acres", "site list", "development"] if re.search(term, page, re.I)],
                     }
@@ -215,6 +249,7 @@ def build() -> list[dict[str, object]]:
                 "title": pdf_path.stem,
                 "file_name": pdf_path.name,
                 "category": "Image Scans" if is_image_scan else "Deal Records",
+                "group": document_group(pdf_path, is_image_scan),
                 "pdf_url": ensure_document_link(pdf_path),
                 "text_url": f"ocr-output/{txt_path.name}" if txt_path.exists() else "",
                 "page_count": len(pages),

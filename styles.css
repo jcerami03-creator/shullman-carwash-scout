@@ -1286,10 +1286,10 @@ textarea {
 .image-gallery-group {
   display: grid;
   gap: 12px;
-  padding: 14px;
+  padding: 12px;
   border: 1px solid #d6e2dc;
   border-radius: 8px;
-  background: rgba(247, 250, 248, 0.75);
+  background: #fff;
 }
 
 .image-gallery-head {
@@ -1341,9 +1341,9 @@ textarea {
 .image-gallery-grid img {
   width: 100%;
   aspect-ratio: 4 / 5;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 5px;
-  background: #eef4f1;
+  background: #f3f6f4;
 }
 
 .image-gallery-grid span {
