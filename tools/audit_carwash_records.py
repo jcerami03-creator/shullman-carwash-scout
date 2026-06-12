@@ -35,6 +35,15 @@ def load_records() -> list[dict[str, object]]:
 
 def normalized_address(value: object) -> str:
     text = str(value or "").lower()
+    state_match = re.findall(r"\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)\b", str(value or ""))
+    state = state_match[-1].lower() if state_match else ""
+    address_match = re.search(
+        r"\b\d{1,6}(?:-\d{1,6})?\s+[A-Za-z0-9][A-Za-z0-9 .'/#-]{1,70}?\s+(?:Street|St|Road|Rd|Avenue|Ave|Highway|Hwy|Pike|Lane|Ln|Drive|Dr|Boulevard|Blvd|Court|Ct|Way|Parkway|Pkwy|Circle|Cir|Trail|Terrace|Place|Pl|Route|Rt|Expressway|Expy|Square|Sq)\b",
+        str(value or ""),
+        re.I,
+    )
+    if address_match:
+        text = f"{address_match.group(0)} {state}".lower()
     text = re.sub(r"\b\d{5}(?:-\d{4})?\b", "", text)
     replacements = {
         "street": "st",
@@ -48,6 +57,8 @@ def normalized_address(value: object) -> str:
         "circle": "cir",
         "court": "ct",
         "route": "rt",
+        "terrace": "ter",
+        "place": "pl",
     }
     for long, short in replacements.items():
         text = re.sub(rf"\b{long}\b", short, text)

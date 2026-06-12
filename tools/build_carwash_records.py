@@ -391,6 +391,35 @@ def market_key(value: str) -> str:
     return re.sub(r"\W+", "", text)
 
 
+def canonical_location_key(value: str) -> str:
+    text = clean_line(value)
+    state = state_from_text(text)
+    address_match = ADDRESS_RE.search(text)
+    if not address_match:
+        return market_key(text)
+    address = address_match.group(0).lower()
+    address = re.sub(r"\b\d{5}(?:-\d{4})?\b", "", address)
+    replacements = {
+        "street": "st",
+        "road": "rd",
+        "avenue": "ave",
+        "boulevard": "blvd",
+        "drive": "dr",
+        "lane": "ln",
+        "parkway": "pkwy",
+        "highway": "hwy",
+        "circle": "cir",
+        "court": "ct",
+        "route": "rt",
+        "terrace": "ter",
+        "place": "pl",
+    }
+    for long, short in replacements.items():
+        address = re.sub(rf"\b{long}\b", short, address)
+    address = re.sub(r"\b(?:north|south|east|west)\b", lambda match: match.group(0)[0], address)
+    return re.sub(r"[^a-z0-9]+", "", f"{address} {state}")
+
+
 def money_value_or_blank(value: str) -> str:
     value = clean_line(value)
     value = re.sub(r"\$(\d{1,2})\.(\d{3}),(\d{3})", r"$\1,\2,\3", value)
@@ -2413,7 +2442,7 @@ def public_coverage_records(existing_records: list[dict[str, str]]) -> list[dict
 
     counts = {code: 0 for code in LOWER_48_STATE_CODES}
     seen_markets = {
-        market_key(record.get("market", ""))
+        canonical_location_key(record.get("market", ""))
         for record in existing_records
         if record.get("market")
     }
@@ -2426,7 +2455,7 @@ def public_coverage_records(existing_records: list[dict[str, str]]) -> list[dict
             market = clean_market(str(item.get("market", "")))
             if not has_specific_location(market):
                 return None
-            clean_market_key = market_key(market)
+            clean_market_key = canonical_location_key(market)
             if not clean_market_key or clean_market_key in seen_markets:
                 return None
             seen_markets.add(clean_market_key)
@@ -2496,7 +2525,7 @@ def dedupe_records(records: list[dict[str, str]]) -> list[dict[str, str]]:
     deduped: list[dict[str, str]] = []
     seen_market: dict[str, int] = {}
     for record in records:
-        clean_market_key = market_key(record.get("market", ""))
+        clean_market_key = canonical_location_key(record.get("market", ""))
         if clean_market_key and clean_market_key in seen_market:
             existing_index = seen_market[clean_market_key]
             existing = deduped[existing_index]

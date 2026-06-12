@@ -22,6 +22,26 @@ ADDRESS_RE = re.compile(
     re.I,
 )
 
+IMAGE_SCAN_PAGE_GROUPS = {
+    "Images Scanned": {
+        "Wash Menu & Service Pricing": {13, 22, 52},
+        "Fuel & Promo Signage": {40},
+        "Roadside Signs & Branding": {11, 12, 15, 21, 25, 26, 33, 34, 37, 46, 55, 57, 58},
+        "Site Exterior & Building": {1, 4, 5, 9, 14, 16, 17, 19, 20, 23, 24, 27, 28, 29, 30, 31, 32, 35, 36, 39, 45, 48, 51, 62},
+        "Street Frontage & Access Views": {2, 3, 7, 8, 10, 18, 38, 47, 53, 54, 56, 59, 60, 61},
+        "Interior, Tunnel & Equipment": {6, 41, 42, 43, 44, 49, 50},
+    }
+}
+
+IMAGE_SCAN_INTERPRETATIONS = {
+    "Wash Menu & Service Pricing": "Pages with visible wash package boards or service-price signage.",
+    "Fuel & Promo Signage": "Fuel price boards, promotional signs, and non-wash price signage near the site.",
+    "Roadside Signs & Branding": "Pylon signs, brand signs, directional signs, and customer-facing exterior signage.",
+    "Site Exterior & Building": "Building, bay, lot, canopy, and exterior site condition views.",
+    "Street Frontage & Access Views": "Drive-by, roadway, frontage, ingress/egress, and visibility views.",
+    "Interior, Tunnel & Equipment": "Interior bay, tunnel, wash equipment, utility, and operating-condition photos.",
+}
+
 
 def clean(value: str) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
@@ -176,6 +196,14 @@ def extract_current_site_rows(text: str, source: str, page_number: int) -> list[
     return rows
 
 
+def manual_visual_category(pdf_stem: str, page_number: int) -> tuple[str, str] | None:
+    groups = IMAGE_SCAN_PAGE_GROUPS.get(pdf_stem, {})
+    for group, pages in groups.items():
+        if page_number in pages:
+            return group, IMAGE_SCAN_INTERPRETATIONS[group]
+    return None
+
+
 def visual_category(text: str) -> tuple[str, str]:
     value = clean(text).lower()
     if not value or len(value) < 25:
@@ -202,7 +230,8 @@ def gallery_images_for(pdf_path: Path, pages: list[str]) -> list[dict[str, str]]
         page = str(int(match.group(1))) if match else ""
         page_index = int(page) - 1 if page else -1
         page_text = pages[page_index] if 0 <= page_index < len(pages) else ""
-        group, interpretation = visual_category(page_text)
+        manual_category = manual_visual_category(pdf_path.stem, int(page) if page else 0)
+        group, interpretation = manual_category or visual_category(page_text)
         images.append(
             {
                 "page": page,
