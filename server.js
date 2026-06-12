@@ -7,6 +7,9 @@ const port = Number(process.env.PORT || 8080);
 const host = process.env.HOST || "127.0.0.1";
 const username = process.env.SCOUT_USER || "shullman";
 const password = process.env.SCOUT_PASSWORD || "";
+const uploadRoot = path.resolve(process.env.UPLOAD_DIR || path.join(root, "runtime-uploads"));
+const uploadMetaPath = path.join(uploadRoot, "metadata.json");
+const maxUploadBytes = Number(process.env.UPLOAD_MAX_BYTES || 100 * 1024 * 1024);
 
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
@@ -18,6 +21,7 @@ const mimeTypes = {
   ".pdf": "application/pdf",
   ".png": "image/png",
   ".txt": "text/plain; charset=utf-8",
+  ".webp": "image/webp",
   ".xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 };
 
@@ -64,9 +68,202 @@ function safePath(urlPath) {
   return resolved;
 }
 
+function sendJson(res, status, payload) {
+  const body = JSON.stringify(payload, null, 2);
+  res.writeHead(status, {
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": Buffer.byteLength(body),
+    "Cache-Control": "no-cache",
+    "X-Content-Type-Options": "nosniff",
+  });
+  res.end(body);
+}
+
+function sendText(res, status, text) {
+  res.writeHead(status, { "Content-Type": "text/plain; charset=utf-8" });
+  res.end(text);
+}
+
+function ensureUploadRoot() {
+  fs.mkdirSync(uploadRoot, { recursive: true });
+}
+
+function readUploadMetadata() {
+  try {
+    ensureUploadRoot();
+    const parsed = JSON.parse(fs.readFileSync(uploadMetaPath, "utf8"));
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeUploadMetadata(items) {
+  ensureUploadRoot();
+  fs.writeFileSync(uploadMetaPath, JSON.stringify(items, null, 2), "utf8");
+}
+
+function cleanFilename(filename) {
+  const ext = path.extname(filename || "").toLowerCase();
+  const base = path.basename(filename || "upload", ext).replace(/[^A-Za-z0-9._-]+/g, "-").replace(/^-+|-+$/g, "") || "upload";
+  return `${base}${ext || ".bin"}`;
+}
+
+function uploadDocForFile(item) {
+  const isImage = /^image\//i.test(item.mime || "") || /\.(?:png|jpe?g|webp)$/i.test(item.filename);
+  const url = `/uploads/${encodeURIComponent(item.storedName)}`;
+  return {
+    title: item.title || item.filename,
+    file_name: item.filename,
+    category: isImage ? "Image Scans" : "Deal Records",
+    group: isImage ? "Admin Phone Uploads" : "Admin Uploaded Documents",
+    pdf_url: url,
+    text_url: "",
+    page_count: 1,
+    evidence_page_count: 0,
+    evidence_row_count: 0,
+    pages: [],
+    evidence_rows: [],
+    uploaded_at: item.uploadedAt,
+    gallery_images: isImage
+      ? [
+          {
+            page: "1",
+            group: "Admin Phone Uploads",
+            interpretation: "Image uploaded through the admin page. Review visually; OCR/AI extraction requires the processing worker.",
+            image_url: url,
+            pdf_page_url: url,
+          },
+        ]
+      : [],
+  };
+}
+
+function parseMultipart(buffer, contentType) {
+  const boundaryMatch = String(contentType || "").match(/boundary=(?:"([^"]+)"|([^;]+))/i);
+  if (!boundaryMatch) return [];
+  const boundary = Buffer.from(`--${boundaryMatch[1] || boundaryMatch[2]}`);
+  const parts = [];
+  let start = buffer.indexOf(boundary);
+  while (start !== -1) {
+    start += boundary.length;
+    if (buffer[start] === 45 && buffer[start + 1] === 45) break;
+    if (buffer[start] === 13 && buffer[start + 1] === 10) start += 2;
+    const headerEnd = buffer.indexOf(Buffer.from("\r\n\r\n"), start);
+    if (headerEnd === -1) break;
+    const header = buffer.slice(start, headerEnd).toString("utf8");
+    let bodyStart = headerEnd + 4;
+    let next = buffer.indexOf(boundary, bodyStart);
+    if (next === -1) break;
+    let bodyEnd = next;
+    if (buffer[bodyEnd - 2] === 13 && buffer[bodyEnd - 1] === 10) bodyEnd -= 2;
+    const name = (header.match(/name="([^"]+)"/i) || [])[1] || "";
+    const filename = (header.match(/filename="([^"]*)"/i) || [])[1] || "";
+    const mime = (header.match(/content-type:\s*([^\r\n]+)/i) || [])[1] || "application/octet-stream";
+    parts.push({ name, filename, mime, data: buffer.slice(bodyStart, bodyEnd) });
+    start = next;
+  }
+  return parts;
+}
+
+function handleApiUploads(req, res) {
+  if (req.method === "GET") {
+    const uploads = readUploadMetadata().map(uploadDocForFile);
+    sendJson(res, 200, { uploads });
+    return;
+  }
+
+  if (req.method !== "POST") {
+    sendJson(res, 405, { error: "Method not allowed" });
+    return;
+  }
+
+  const chunks = [];
+  let total = 0;
+  req.on("data", (chunk) => {
+    total += chunk.length;
+    if (total > maxUploadBytes) {
+      req.destroy();
+      return;
+    }
+    chunks.push(chunk);
+  });
+  req.on("end", () => {
+    if (total > maxUploadBytes) {
+      sendJson(res, 413, { error: "Upload is too large." });
+      return;
+    }
+
+    const body = Buffer.concat(chunks);
+    const parts = parseMultipart(body, req.headers["content-type"]);
+    const files = parts.filter((part) => part.filename && part.data.length);
+    if (!files.length) {
+      sendJson(res, 400, { error: "No file was uploaded." });
+      return;
+    }
+
+    ensureUploadRoot();
+    const metadata = readUploadMetadata();
+    const saved = files.map((file) => {
+      const original = cleanFilename(file.filename);
+      const storedName = `${new Date().toISOString().replace(/[:.]/g, "-")}-${original}`;
+      const target = path.join(uploadRoot, storedName);
+      fs.writeFileSync(target, file.data);
+      const item = {
+        id: storedName,
+        filename: original,
+        storedName,
+        mime: file.mime,
+        size: file.data.length,
+        uploadedAt: new Date().toISOString(),
+        title: original.replace(/\.[^.]+$/, ""),
+      };
+      metadata.unshift(item);
+      return uploadDocForFile(item);
+    });
+    writeUploadMetadata(metadata);
+    sendJson(res, 201, { uploads: saved });
+  });
+  req.on("error", () => sendJson(res, 500, { error: "Upload failed." }));
+}
+
+function serveUpload(req, res) {
+  const pathname = decodeURIComponent((req.url || "").split("?")[0]);
+  const relative = pathname.replace(/^\/uploads\/?/, "");
+  const filePath = path.resolve(uploadRoot, relative);
+  if (!filePath.startsWith(uploadRoot)) {
+    sendText(res, 403, "Forbidden");
+    return;
+  }
+  fs.stat(filePath, (error, stat) => {
+    if (error || !stat.isFile()) {
+      sendText(res, 404, "Not found");
+      return;
+    }
+    const ext = path.extname(filePath).toLowerCase();
+    res.writeHead(200, {
+      "Content-Type": mimeTypes[ext] || "application/octet-stream",
+      "Content-Length": stat.size,
+      "Cache-Control": "public, max-age=300",
+      "X-Content-Type-Options": "nosniff",
+    });
+    fs.createReadStream(filePath).pipe(res);
+  });
+}
+
 const server = http.createServer((req, res) => {
   if (!authorized(req)) {
     sendAuth(res);
+    return;
+  }
+
+  if ((req.url || "").startsWith("/api/uploads")) {
+    handleApiUploads(req, res);
+    return;
+  }
+
+  if ((req.url || "").startsWith("/uploads/")) {
+    serveUpload(req, res);
     return;
   }
 

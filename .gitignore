@@ -11,3 +11,4 @@ tools/ocr_carwash
 ocr-output/*_ocr.pdf
 ocr-output-test/
 outputs/*.png
+runtime-uploads/

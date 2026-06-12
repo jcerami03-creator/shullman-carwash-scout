@@ -5,10 +5,16 @@ services:
     plan: starter
     buildCommand: ""
     startCommand: npm start
+    disk:
+      name: scout-uploads
+      mountPath: /var/data
+      sizeGB: 5
     envVars:
       - key: SCOUT_USER
         value: shullman
       - key: HOST
         value: 0.0.0.0
+      - key: UPLOAD_DIR
+        value: /var/data/uploads
       - key: SCOUT_PASSWORD
         sync: false

@@ -1,6 +1,6 @@
 const STORAGE_KEY = "shullmanCarWashKnowledge:v20";
 const importedRows = Array.isArray(window.CARWASH_IMPORTED_RECORDS) ? window.CARWASH_IMPORTED_RECORDS : [];
-const documentLibrary = Array.isArray(window.CARWASH_DOCUMENT_LIBRARY) ? window.CARWASH_DOCUMENT_LIBRARY : [];
+let documentLibrary = Array.isArray(window.CARWASH_DOCUMENT_LIBRARY) ? [...window.CARWASH_DOCUMENT_LIBRARY] : [];
 const STATE_NAME_TO_CODE = {
   alabama: "AL",
   alaska: "AK",
@@ -1364,7 +1364,27 @@ function sourceActionsHtml(record) {
     .join("");
 }
 
-function openLibrary() {
+async function loadAdminUploads() {
+  try {
+    const response = await fetch("/api/uploads", { cache: "no-store" });
+    if (!response.ok) return;
+    const data = await response.json();
+    const uploads = Array.isArray(data.uploads) ? data.uploads : [];
+    const existing = new Set(documentLibrary.map((doc) => `${doc.group || ""}:${doc.file_name || doc.title || ""}:${doc.pdf_url || ""}`));
+    uploads.forEach((doc) => {
+      const key = `${doc.group || ""}:${doc.file_name || doc.title || ""}:${doc.pdf_url || ""}`;
+      if (!existing.has(key)) {
+        existing.add(key);
+        documentLibrary.push(doc);
+      }
+    });
+  } catch {
+    // Uploads are optional; the built-in document library still works if the backend is unavailable.
+  }
+}
+
+async function openLibrary() {
+  await loadAdminUploads();
   renderDocumentLibrary();
   els.libraryModal.hidden = false;
   document.body.classList.add("modal-open");
@@ -1445,7 +1465,9 @@ function documentMatchesQuery(doc, query) {
 function renderDocumentResults(docs) {
   if (!docs.length) return `<div class="empty-state">No document pages matched that search.</div>`;
   const groups = [
-    ["Image Scans", "Photo-heavy scan packets shown as full visual galleries with every page preview.", docs.filter((doc) => doc.category === "Image Scans")],
+    ["Admin Uploaded Documents", "Files uploaded from the admin page. These appear immediately on the hosted site without a GitHub push.", docs.filter((doc) => doc.group === "Admin Uploaded Documents")],
+    ["Admin Phone Uploads", "Photos and screenshots uploaded from a phone, grouped as visual evidence for quick review.", docs.filter((doc) => doc.group === "Admin Phone Uploads")],
+    ["Image Scans", "Photo-heavy scan packets shown as full visual galleries with every page preview.", docs.filter((doc) => doc.category === "Image Scans" && doc.group !== "Admin Phone Uploads")],
     ["Recent Traffic & Site Packet", "The most recent scanned packet with traffic, site, and portfolio evidence pulled forward first.", docs.filter((doc) => doc.group === "Recent Traffic & Site Packet")],
     ["Scanned Deal Bins", "Bin scans grouped together for quick review of older deal files and source paperwork.", docs.filter((doc) => doc.group === "Scanned Deal Bins")],
     ["Dated Source PDFs", "Date-stamped scanned source files organized separately from the bin packets.", docs.filter((doc) => doc.group === "Dated Source PDFs")],
