@@ -1785,35 +1785,9 @@ if (els.loadSampleBtn) els.loadSampleBtn.addEventListener("click", loadSample);
 if (els.clearDataBtn) els.clearDataBtn.addEventListener("click", clearData);
 const introEnterBtn = document.getElementById("introEnterBtn");
 const scoutApp = document.getElementById("scoutApp");
-const cinematicIntro = document.querySelector(".cinematic-intro");
 if (introEnterBtn && scoutApp) {
   introEnterBtn.addEventListener("click", () => {
     scoutApp.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
-}
-if (cinematicIntro) {
-  cinematicIntro.addEventListener("pointerenter", () => {
-    cinematicIntro.classList.add("is-driving");
-  });
-  cinematicIntro.addEventListener("pointerleave", () => {
-    cinematicIntro.classList.remove("is-driving");
-    cinematicIntro.style.setProperty("--mx", "50%");
-    cinematicIntro.style.setProperty("--my", "50%");
-    cinematicIntro.style.setProperty("--tilt-x", "0deg");
-    cinematicIntro.style.setProperty("--tilt-y", "0deg");
-    cinematicIntro.style.setProperty("--parallax-x", "0px");
-    cinematicIntro.style.setProperty("--parallax-y", "0px");
-  });
-  cinematicIntro.addEventListener("pointermove", (event) => {
-    const rect = cinematicIntro.getBoundingClientRect();
-    const x = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
-    const y = Math.max(0, Math.min(1, (event.clientY - rect.top) / rect.height));
-    cinematicIntro.style.setProperty("--mx", `${(x * 100).toFixed(2)}%`);
-    cinematicIntro.style.setProperty("--my", `${(y * 100).toFixed(2)}%`);
-    cinematicIntro.style.setProperty("--tilt-x", `${((0.5 - y) * 7).toFixed(2)}deg`);
-    cinematicIntro.style.setProperty("--tilt-y", `${((x - 0.5) * 9).toFixed(2)}deg`);
-    cinematicIntro.style.setProperty("--parallax-x", `${((0.5 - x) * 26).toFixed(1)}px`);
-    cinematicIntro.style.setProperty("--parallax-y", `${((0.5 - y) * 16).toFixed(1)}px`);
   });
 }
 els.searchBtn.addEventListener("click", runSearch);
