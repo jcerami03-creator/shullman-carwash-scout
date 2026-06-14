@@ -1783,6 +1783,13 @@ function escapeHtml(value) {
 if (els.fileInput) els.fileInput.addEventListener("change", (event) => handleFiles(event.target.files));
 if (els.loadSampleBtn) els.loadSampleBtn.addEventListener("click", loadSample);
 if (els.clearDataBtn) els.clearDataBtn.addEventListener("click", clearData);
+const introEnterBtn = document.getElementById("introEnterBtn");
+const scoutApp = document.getElementById("scoutApp");
+if (introEnterBtn && scoutApp) {
+  introEnterBtn.addEventListener("click", () => {
+    scoutApp.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
 els.searchBtn.addEventListener("click", runSearch);
 if (els.documentLibraryBtn) els.documentLibraryBtn.addEventListener("click", openLibrary);
 [els.yearInput, els.marketInput, els.askingPriceInput, els.salesInput, els.ebitdaInput, els.carsInput, els.acresInput, els.noteInput].forEach((input) => {

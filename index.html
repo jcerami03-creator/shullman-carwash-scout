@@ -4,10 +4,36 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Shullman Car Wash Knowledge Base</title>
-    <link rel="stylesheet" href="styles.css?v=32" />
+    <link rel="stylesheet" href="styles.css?v=33" />
   </head>
   <body>
-    <main class="app-shell">
+    <section class="cinematic-intro" aria-label="Shullman Car Wash Scout introduction">
+      <div class="intro-visual" aria-hidden="true">
+        <div class="wash-tunnel">
+          <span class="tunnel-ring ring-1"></span>
+          <span class="tunnel-ring ring-2"></span>
+          <span class="tunnel-ring ring-3"></span>
+          <span class="tunnel-ring ring-4"></span>
+          <span class="tunnel-ring ring-5"></span>
+          <span class="spray spray-1"></span>
+          <span class="spray spray-2"></span>
+          <span class="spray spray-3"></span>
+          <span class="brush brush-left"></span>
+          <span class="brush brush-right"></span>
+          <span class="wash-floor"></span>
+          <span class="scout-vehicle"></span>
+        </div>
+      </div>
+      <div class="intro-copy">
+        <span class="intro-eyebrow">Private market intelligence</span>
+        <h1>Drive into the deal flow</h1>
+        <p>Scanned evidence, site records, and acquisition signals shaped into one search-ready car wash scout.</p>
+        <button id="introEnterBtn" type="button">Enter Scout</button>
+      </div>
+      <div class="intro-meter" aria-hidden="true"><span></span></div>
+    </section>
+
+    <main id="scoutApp" class="app-shell">
       <section class="workspace">
         <header class="app-header">
           <div class="brand-block">

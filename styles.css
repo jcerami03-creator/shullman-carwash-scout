@@ -2468,3 +2468,416 @@ button.ghost,
     background-position: 7% 0, 0 18px;
   }
 }
+
+/* Cinematic car-wash entry sequence. */
+html {
+  scroll-behavior: smooth;
+}
+
+.cinematic-intro {
+  position: relative;
+  display: grid;
+  min-height: 100vh;
+  overflow: hidden;
+  place-items: center;
+  padding: 38px;
+  color: #f5fff9;
+  background:
+    linear-gradient(120deg, rgba(5, 18, 15, 0.92), rgba(11, 40, 34, 0.82) 46%, rgba(6, 18, 25, 0.96)),
+    #07120f;
+  isolation: isolate;
+}
+
+.cinematic-intro::before,
+.cinematic-intro::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  content: "";
+}
+
+.cinematic-intro::before {
+  background:
+    linear-gradient(90deg, rgba(77, 223, 192, 0.12) 1px, transparent 1px),
+    linear-gradient(rgba(157, 199, 255, 0.09) 1px, transparent 1px);
+  background-size: 84px 84px;
+  transform: perspective(760px) rotateX(64deg) translateY(26%);
+  transform-origin: bottom;
+  animation: introGrid 9s linear infinite;
+}
+
+.cinematic-intro::after {
+  background:
+    linear-gradient(105deg, transparent 0 36%, rgba(77, 223, 192, 0.16) 46%, transparent 58% 100%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 6px);
+  opacity: 0.78;
+  animation: introScan 7s ease-in-out infinite alternate;
+}
+
+.intro-visual {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  perspective: 1100px;
+}
+
+.wash-tunnel {
+  position: absolute;
+  inset: 7vh 4vw 7vh;
+  transform-style: preserve-3d;
+}
+
+.tunnel-ring {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  display: block;
+  width: min(70vw, 880px);
+  height: min(44vw, 520px);
+  border: 1px solid rgba(132, 240, 219, 0.46);
+  border-radius: 34px;
+  box-shadow:
+    0 0 30px rgba(77, 223, 192, 0.14),
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  transform: translate(-50%, -50%) translateZ(0) scale(1);
+  animation: tunnelRush 4.8s linear infinite;
+}
+
+.ring-2 {
+  animation-delay: -0.96s;
+}
+
+.ring-3 {
+  animation-delay: -1.92s;
+}
+
+.ring-4 {
+  animation-delay: -2.88s;
+}
+
+.ring-5 {
+  animation-delay: -3.84s;
+}
+
+.spray {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  display: block;
+  width: min(52vw, 640px);
+  height: 170px;
+  border-radius: 50%;
+  background:
+    repeating-linear-gradient(100deg, transparent 0 20px, rgba(183, 255, 241, 0.28) 21px 23px, transparent 24px 36px);
+  filter: blur(0.4px);
+  opacity: 0.36;
+  transform: translateX(-50%) rotate(-5deg);
+  animation: waterSweep 3.2s ease-in-out infinite;
+}
+
+.spray-2 {
+  top: 36%;
+  animation-delay: -1.05s;
+  transform: translateX(-50%) rotate(7deg);
+}
+
+.spray-3 {
+  top: 56%;
+  opacity: 0.22;
+  animation-delay: -2.1s;
+}
+
+.brush {
+  position: absolute;
+  top: 19%;
+  bottom: 17%;
+  width: 92px;
+  border-radius: 999px;
+  background:
+    repeating-linear-gradient(90deg, #4ddfc0 0 8px, #0d5344 8px 15px, #dffdf5 15px 18px);
+  box-shadow:
+    0 0 28px rgba(77, 223, 192, 0.22),
+    0 0 0 1px rgba(255, 255, 255, 0.12) inset;
+  opacity: 0.72;
+  animation: brushPulse 1.85s ease-in-out infinite;
+}
+
+.brush-left {
+  left: clamp(18px, 13vw, 210px);
+  --brush-rotation: -2deg;
+  transform: rotate(-2deg);
+}
+
+.brush-right {
+  right: clamp(18px, 13vw, 210px);
+  --brush-rotation: 2deg;
+  transform: rotate(2deg);
+  animation-delay: -0.92s;
+}
+
+.wash-floor {
+  position: absolute;
+  right: 9%;
+  bottom: 6%;
+  left: 9%;
+  height: 26%;
+  border-radius: 50% 50% 0 0;
+  background:
+    linear-gradient(90deg, transparent, rgba(77, 223, 192, 0.44), transparent),
+    repeating-linear-gradient(90deg, transparent 0 54px, rgba(255, 255, 255, 0.14) 55px 56px),
+    linear-gradient(180deg, rgba(225, 255, 248, 0.22), rgba(7, 20, 17, 0));
+  transform: perspective(600px) rotateX(64deg);
+  transform-origin: bottom;
+  animation: floorFlow 1.8s linear infinite;
+}
+
+.scout-vehicle {
+  position: absolute;
+  right: 50%;
+  bottom: 16%;
+  display: block;
+  width: min(22vw, 260px);
+  height: min(9vw, 96px);
+  border-radius: 38px 38px 20px 20px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(157, 199, 255, 0.78) 48%, rgba(20, 95, 76, 0.9)),
+    #dffdf5;
+  box-shadow:
+    0 24px 54px rgba(0, 0, 0, 0.46),
+    0 0 40px rgba(77, 223, 192, 0.18);
+  transform: translateX(50%);
+  animation: carFloat 2.6s ease-in-out infinite;
+}
+
+.scout-vehicle::before,
+.scout-vehicle::after {
+  position: absolute;
+  bottom: -11px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  content: "";
+  background: #081613;
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.22) inset;
+}
+
+.scout-vehicle::before {
+  left: 17%;
+}
+
+.scout-vehicle::after {
+  right: 17%;
+}
+
+.intro-copy {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 18px;
+  width: min(760px, 100%);
+  margin-right: auto;
+  margin-left: clamp(0px, 6vw, 92px);
+  padding: clamp(24px, 4vw, 42px);
+  border: 1px solid rgba(185, 244, 229, 0.22);
+  border-radius: 14px;
+  background:
+    linear-gradient(145deg, rgba(9, 27, 23, 0.72), rgba(9, 31, 42, 0.58)),
+    rgba(7, 19, 16, 0.52);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.14) inset,
+    0 34px 88px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(14px);
+  animation: introRise 720ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.intro-eyebrow {
+  color: #a9fff0;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.intro-copy h1 {
+  max-width: 620px;
+  color: #f6fff9;
+  font-size: clamp(48px, 8vw, 104px);
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+}
+
+.intro-copy p {
+  max-width: 610px;
+  color: rgba(238, 255, 249, 0.76);
+  font-size: clamp(17px, 2.1vw, 22px);
+  line-height: 1.38;
+}
+
+.intro-copy button {
+  justify-self: start;
+  min-height: 54px;
+  border: 1px solid rgba(184, 255, 239, 0.32);
+  padding: 0 22px;
+  color: #08211b;
+  background:
+    linear-gradient(135deg, #e2fff6, #4ddfc0 58%, #9dc7ff);
+  box-shadow:
+    0 16px 34px rgba(77, 223, 192, 0.22),
+    0 1px 0 rgba(255, 255, 255, 0.52) inset;
+}
+
+.intro-copy button:hover {
+  background:
+    linear-gradient(135deg, #ffffff, #65f0d1 58%, #b7d5ff);
+}
+
+.intro-meter {
+  position: absolute;
+  right: 34px;
+  bottom: 30px;
+  left: 34px;
+  height: 2px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.intro-meter span {
+  display: block;
+  width: 36%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, transparent, #4ddfc0, #c99a43, transparent);
+  animation: meterRun 2.8s ease-in-out infinite;
+}
+
+@keyframes introGrid {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 84px;
+  }
+}
+
+@keyframes introScan {
+  from {
+    transform: translateX(-4%);
+  }
+  to {
+    transform: translateX(4%);
+  }
+}
+
+@keyframes tunnelRush {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.26);
+  }
+  16% {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.38);
+  }
+}
+
+@keyframes waterSweep {
+  0%,
+  100% {
+    opacity: 0.18;
+    transform: translateX(-54%) rotate(-5deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-46%) rotate(6deg);
+  }
+}
+
+@keyframes brushPulse {
+  0%,
+  100% {
+    filter: saturate(1);
+    transform: translateY(0) rotate(var(--brush-rotation, 0deg));
+  }
+  50% {
+    filter: saturate(1.28);
+    transform: translateY(-8px) rotate(var(--brush-rotation, 0deg));
+  }
+}
+
+@keyframes floorFlow {
+  from {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  to {
+    background-position: 140px 0, 112px 0, 0 0;
+  }
+}
+
+@keyframes carFloat {
+  0%,
+  100% {
+    transform: translateX(50%) translateY(0);
+  }
+  50% {
+    transform: translateX(50%) translateY(-8px);
+  }
+}
+
+@keyframes introRise {
+  from {
+    opacity: 0;
+    transform: translateY(22px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes meterRun {
+  from {
+    transform: translateX(-110%);
+  }
+  to {
+    transform: translateX(320%);
+  }
+}
+
+@media (max-width: 780px) {
+  .cinematic-intro {
+    min-height: 92vh;
+    padding: 20px;
+  }
+
+  .wash-tunnel {
+    inset: 10vh -28vw 8vh;
+    opacity: 0.82;
+  }
+
+  .brush {
+    width: 54px;
+  }
+
+  .intro-copy {
+    margin: 0;
+    padding: 22px;
+  }
+
+  .intro-copy h1 {
+    font-size: clamp(46px, 15vw, 76px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
