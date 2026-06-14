@@ -2209,3 +2209,262 @@ button:active,
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Future-realistic studio layer inspired by premium futuristic web examples, tuned for a serious acquisition dashboard. */
+:root {
+  --ink: #111f1b;
+  --muted: #60746d;
+  --line: #cddbd5;
+  --paper: #e9efeb;
+  --panel: rgba(255, 255, 255, 0.96);
+  --soft: #f4f8f5;
+  --green: #11654f;
+  --green-dark: #092f27;
+  --gold: #c99a43;
+  --blue: #1d6584;
+  --red: #a8413a;
+  --aqua: #4ddfc0;
+  --steel: #243833;
+}
+
+body {
+  position: relative;
+  isolation: isolate;
+  background:
+    repeating-linear-gradient(90deg, rgba(20, 95, 76, 0.055) 0 1px, transparent 1px 92px),
+    repeating-linear-gradient(0deg, rgba(29, 101, 132, 0.045) 0 1px, transparent 1px 92px),
+    linear-gradient(180deg, #0d1c19 0, #1c302b 185px, #e8efeb 186px, #f4f7f4 100%);
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  content: "";
+  background:
+    linear-gradient(115deg, transparent 0 34%, rgba(77, 223, 192, 0.12) 45%, transparent 56% 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 100%);
+  background-size: 100% 100%, 100% 7px;
+  opacity: 0.66;
+  animation: quietSweep 11s ease-in-out infinite alternate;
+}
+
+.app-shell,
+.admin-shell {
+  max-width: 1600px;
+}
+
+.workspace,
+.admin-panel {
+  overflow: hidden;
+  border-color: rgba(190, 211, 202, 0.78);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(248, 251, 249, 0.96)),
+    rgba(255, 255, 255, 0.92);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.86) inset,
+    0 34px 86px rgba(3, 20, 15, 0.22);
+}
+
+.app-header {
+  color: #f4fff9;
+  border-bottom-color: rgba(159, 197, 184, 0.26);
+  background:
+    linear-gradient(120deg, rgba(16, 63, 51, 0.98), rgba(18, 47, 55, 0.96) 58%, rgba(12, 30, 36, 0.98)),
+    #10251f;
+}
+
+.app-header::before {
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  left: 24px;
+  height: 1px;
+  content: "";
+  background: linear-gradient(90deg, transparent, rgba(77, 223, 192, 0.72), rgba(201, 154, 67, 0.54), transparent);
+}
+
+.brand-block p,
+.app-header p {
+  color: rgba(236, 252, 246, 0.74);
+}
+
+.brand-mark {
+  color: #0c241e;
+  background:
+    linear-gradient(135deg, #e2fff6 0%, #4ddfc0 48%, #9dc7ff 100%);
+  box-shadow:
+    0 18px 34px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(255, 255, 255, 0.36) inset;
+}
+
+.header-actions .library-btn {
+  color: #ecfff8;
+  border-color: rgba(181, 230, 215, 0.26);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.16),
+    0 1px 0 rgba(255, 255, 255, 0.15) inset;
+  backdrop-filter: blur(10px);
+}
+
+.header-actions .library-btn:hover {
+  border-color: rgba(77, 223, 192, 0.5);
+  background: rgba(77, 223, 192, 0.13);
+}
+
+.query-card,
+.results-list,
+.library-tools,
+.document-card,
+.image-gallery-group,
+.upload-card,
+.price-box,
+.detail-field,
+.verified-card,
+.metric-card,
+.metric-tile {
+  border-color: rgba(186, 207, 198, 0.9);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 253, 251, 0.94)),
+    rgba(255, 255, 255, 0.92);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.95) inset,
+    0 12px 30px rgba(17, 31, 27, 0.075);
+}
+
+.results-list,
+.image-gallery-group {
+  position: relative;
+  overflow: hidden;
+}
+
+.query-card::before,
+.results-list::before,
+.document-card::before,
+.image-gallery-group::before,
+.detail-field::before,
+.verified-card::before,
+.metric-card::before {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  left: 12px;
+  height: 1px;
+  pointer-events: none;
+  content: "";
+  background: linear-gradient(90deg, transparent, rgba(77, 223, 192, 0.42), transparent);
+  opacity: 0;
+  transition: opacity var(--motion);
+}
+
+.query-card:hover::before,
+.results-list:hover::before,
+.document-card:hover::before,
+.image-gallery-group:hover::before,
+.detail-field:hover::before,
+.verified-card:hover::before,
+.metric-card:hover::before {
+  opacity: 1;
+}
+
+.query-label span:first-child,
+.section-heading h2,
+.document-section-head h3,
+.image-gallery-head h4 {
+  color: #10231e;
+}
+
+.table-search {
+  border-color: rgba(153, 178, 168, 0.95);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.96) inset,
+    0 14px 30px rgba(17, 31, 27, 0.08);
+}
+
+.table-search label {
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfdfc 100%);
+}
+
+.table-search label:focus-within {
+  background:
+    linear-gradient(180deg, #f7fffc 0%, #ffffff 100%);
+  box-shadow:
+    inset 0 -3px 0 rgba(77, 223, 192, 0.58),
+    0 0 0 1px rgba(77, 223, 192, 0.12) inset;
+}
+
+button,
+.source-link,
+.library-btn {
+  background:
+    linear-gradient(135deg, #0e5a48, #15745d);
+}
+
+button:hover,
+.source-link:hover {
+  background:
+    linear-gradient(135deg, #093f34, #11654f);
+}
+
+button.ghost,
+.ghost {
+  color: #103f33;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f3faf6 100%);
+}
+
+.result-card {
+  border-left-color: rgba(17, 101, 79, 0.18);
+}
+
+.result-card:hover,
+.result-card.is-active {
+  border-color: rgba(77, 223, 192, 0.42);
+  border-left-color: var(--green);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.95) inset,
+    0 20px 42px rgba(17, 31, 27, 0.13),
+    0 0 0 4px rgba(77, 223, 192, 0.055);
+}
+
+.opportunity-bar span:first-child,
+.memo-strip span:first-child,
+.score-pill {
+  background:
+    linear-gradient(135deg, #0f604e, #23a181 76%, #4ddfc0);
+}
+
+.modal-shell:not([hidden]) .record-modal {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.95) inset,
+    0 34px 90px rgba(3, 20, 15, 0.28);
+}
+
+.record-modal {
+  border-color: rgba(184, 207, 198, 0.92);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 251, 249, 0.97));
+}
+
+.image-gallery-grid a:hover {
+  border-color: rgba(77, 223, 192, 0.48);
+  box-shadow:
+    0 18px 34px rgba(17, 31, 27, 0.12),
+    0 0 0 4px rgba(77, 223, 192, 0.06);
+}
+
+.drop-zone:hover {
+  border-color: rgba(77, 223, 192, 0.66);
+}
+
+@keyframes quietSweep {
+  from {
+    background-position: -7% 0, 0 0;
+  }
+  to {
+    background-position: 7% 0, 0 18px;
+  }
+}
