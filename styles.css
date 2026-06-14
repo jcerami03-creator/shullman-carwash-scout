@@ -1629,3 +1629,307 @@ textarea {
     text-align: left;
   }
 }
+
+/* Realistic professional polish: keeps the original product feel, but gives it a more finished boardroom-ready surface. */
+:root {
+  --ink: #13211d;
+  --muted: #5f706a;
+  --line: #d3dfd9;
+  --paper: #eef3ef;
+  --panel: #ffffff;
+  --soft: #f5f7f4;
+  --green: #145f4c;
+  --green-dark: #0d4134;
+  --gold: #c2923e;
+  --blue: #245d78;
+  --red: #a9423c;
+  --shadow: 0 22px 58px rgba(19, 34, 28, 0.13);
+  --shadow-soft: 0 14px 32px rgba(19, 34, 28, 0.1);
+}
+
+body {
+  background:
+    linear-gradient(180deg, #e2ebe5 0, #f6f8f5 270px, #eef3ef 100%),
+    var(--paper);
+  text-rendering: optimizeLegibility;
+}
+
+button,
+.library-btn,
+.source-link {
+  box-shadow: 0 8px 18px rgba(20, 95, 76, 0.13);
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease,
+    background 150ms ease,
+    border-color 150ms ease;
+}
+
+button:hover,
+.library-btn:hover,
+.source-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(20, 95, 76, 0.18);
+}
+
+button.ghost,
+.ghost {
+  border: 1px solid #cfe0d8;
+  color: #123f34;
+  background: #f5faf7;
+  box-shadow: 0 6px 16px rgba(19, 34, 28, 0.06);
+}
+
+input,
+select,
+textarea {
+  border-color: #c6d4ce;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #74a897;
+  outline: 3px solid rgba(20, 95, 76, 0.13);
+}
+
+.app-shell,
+.admin-shell {
+  padding: 28px;
+}
+
+.workspace,
+.admin-panel,
+.record-modal {
+  border-color: rgba(174, 194, 184, 0.9);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 252, 250, 0.96)),
+    var(--panel);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 26px 70px rgba(19, 34, 28, 0.14);
+}
+
+.app-header {
+  padding: 26px 28px;
+  border-bottom-color: #d6e2dc;
+  background:
+    linear-gradient(90deg, rgba(20, 95, 76, 0.13), rgba(36, 93, 120, 0.08)),
+    #ffffff;
+}
+
+.brand-mark {
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, #0f4c3d 0%, #176d57 52%, #245d78 100%);
+  box-shadow:
+    0 14px 28px rgba(20, 95, 76, 0.22),
+    0 1px 0 rgba(255, 255, 255, 0.25) inset;
+}
+
+h1 {
+  letter-spacing: -0.01em;
+}
+
+.brand-block p {
+  color: #60716b;
+}
+
+.search-panel {
+  gap: 18px;
+  padding: 24px 28px 28px;
+}
+
+.query-card,
+.results-list,
+.library-tools,
+.document-card,
+.image-gallery-group,
+.upload-card,
+.price-box {
+  border-color: #d6e2dc;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfdfb 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.88) inset,
+    0 12px 30px rgba(19, 34, 28, 0.07);
+}
+
+.query-card {
+  padding: 20px;
+}
+
+.query-label,
+.section-heading,
+.document-section-head {
+  letter-spacing: 0;
+}
+
+.table-search {
+  border-color: #b7c7bf;
+  background: #fff;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 10px 24px rgba(19, 34, 28, 0.05);
+}
+
+.table-search label {
+  border-right-color: #c7d5ce;
+  background: #fff;
+}
+
+.table-search label span,
+.library-tools label span,
+.detail-field span,
+.verified-card b,
+.metric-card b,
+.modal-kicker {
+  color: #586963;
+}
+
+.table-search input,
+.table-search select,
+.table-search textarea {
+  color: #14221e;
+  background: #fff;
+}
+
+.table-actions {
+  border-left: 1px solid #c7d5ce;
+  background: #f3f7f4;
+}
+
+.result-card {
+  border-color: #d5e0da;
+  border-left-color: #d5e0da;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfcfb 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 10px 24px rgba(19, 34, 28, 0.06);
+}
+
+.result-card:hover,
+.result-card.is-active {
+  border-color: #abc4b8;
+  border-left-color: var(--green);
+  background: #f9fcfa;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 18px 38px rgba(19, 34, 28, 0.12);
+}
+
+.opportunity-bar span,
+.memo-strip span,
+.signal-row span,
+.library-stats span,
+.document-section-head span,
+.image-gallery-head span {
+  border-color: #d5e2dc;
+  color: #254a40;
+  background: #f2f7f4;
+}
+
+.opportunity-bar span:first-child,
+.memo-strip span:first-child,
+.score-pill {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--green), #257f68);
+}
+
+.detail-field,
+.verified-card,
+.metric-card,
+.metric-tile {
+  border-color: #d5e0da;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfcfb 100%);
+  box-shadow: 0 8px 20px rgba(19, 34, 28, 0.05);
+}
+
+.detail-field.is-note,
+.notes-block {
+  border-color: #e5d9bc;
+  background: #fffdf8;
+}
+
+.notes-block.wisdom {
+  border-color: #c9ded4;
+  background: #f4faf6;
+}
+
+.modal-backdrop {
+  background: rgba(10, 20, 17, 0.58);
+  backdrop-filter: blur(3px);
+}
+
+.record-modal {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom-color: #d7e2dc;
+}
+
+.close-btn {
+  border: 1px solid #d2dfd8;
+}
+
+.library-tools input,
+.drop-zone {
+  border-color: #c4d5cd;
+}
+
+.document-card h3,
+.image-gallery-head h4,
+.modal-header h2,
+.result-title strong {
+  letter-spacing: -0.005em;
+}
+
+.image-gallery-grid a {
+  border-color: #d5e0da;
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(19, 34, 28, 0.05);
+}
+
+.image-gallery-grid a:hover {
+  box-shadow: 0 14px 28px rgba(19, 34, 28, 0.11);
+}
+
+.image-gallery-grid img {
+  background: #eef3ef;
+}
+
+.admin-panel {
+  align-content: start;
+}
+
+.drop-zone {
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f8fbf9 100%);
+}
+
+.drop-zone:hover {
+  border-color: #7fae9e;
+  background: #fbfefc;
+}
+
+@media (max-width: 680px) {
+  .app-shell,
+  .admin-shell {
+    padding: 0;
+  }
+
+  .search-panel {
+    padding: 18px;
+  }
+
+  .app-header {
+    padding: 20px;
+  }
+}
