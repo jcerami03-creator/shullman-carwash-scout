@@ -2475,6 +2475,12 @@ html {
 }
 
 .cinematic-intro {
+  --mx: 50%;
+  --my: 50%;
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  --parallax-x: 0px;
+  --parallax-y: 0px;
   position: relative;
   display: grid;
   min-height: 100vh;
@@ -2486,6 +2492,7 @@ html {
     linear-gradient(120deg, rgba(5, 18, 15, 0.92), rgba(11, 40, 34, 0.82) 46%, rgba(6, 18, 25, 0.96)),
     #07120f;
   isolation: isolate;
+  cursor: crosshair;
 }
 
 .cinematic-intro::before,
@@ -2509,10 +2516,12 @@ html {
 
 .cinematic-intro::after {
   background:
+    radial-gradient(circle at var(--mx) var(--my), rgba(77, 223, 192, 0.22), transparent 22vw),
     linear-gradient(105deg, transparent 0 36%, rgba(77, 223, 192, 0.16) 46%, transparent 58% 100%),
     repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 6px);
   opacity: 0.78;
   animation: introScan 7s ease-in-out infinite alternate;
+  transition: opacity 180ms ease;
 }
 
 .intro-visual {
@@ -2520,12 +2529,16 @@ html {
   inset: 0;
   overflow: hidden;
   perspective: 1100px;
+  transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y));
+  transition: transform 180ms ease;
 }
 
 .wash-tunnel {
   position: absolute;
   inset: 7vh 4vw 7vh;
   transform-style: preserve-3d;
+  transform: translate3d(var(--parallax-x), var(--parallax-y), 0);
+  transition: transform 180ms ease;
 }
 
 .tunnel-ring {
@@ -2540,7 +2553,9 @@ html {
     0 0 30px rgba(77, 223, 192, 0.14),
     0 0 0 1px rgba(255, 255, 255, 0.04) inset;
   transform: translate(-50%, -50%) translateZ(0) scale(1);
-  animation: tunnelRush 4.8s linear infinite;
+  opacity: 0.28;
+  animation: tunnelRush 5.8s linear infinite;
+  animation-play-state: paused;
 }
 
 .ring-2 {
@@ -2573,6 +2588,7 @@ html {
   opacity: 0.36;
   transform: translateX(-50%) rotate(-5deg);
   animation: waterSweep 3.2s ease-in-out infinite;
+  animation-play-state: paused;
 }
 
 .spray-2 {
@@ -2600,6 +2616,90 @@ html {
     0 0 0 1px rgba(255, 255, 255, 0.12) inset;
   opacity: 0.72;
   animation: brushPulse 1.85s ease-in-out infinite;
+  animation-play-state: paused;
+}
+
+.foam-field {
+  position: absolute;
+  inset: 16% 17% 18%;
+  display: block;
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at 18% 34%, rgba(225, 255, 248, 0.72) 0 4px, transparent 5px 100%),
+    radial-gradient(circle at 72% 22%, rgba(225, 255, 248, 0.56) 0 5px, transparent 6px 100%),
+    radial-gradient(circle at 56% 68%, rgba(225, 255, 248, 0.46) 0 3px, transparent 4px 100%),
+    radial-gradient(circle at 38% 52%, rgba(157, 199, 255, 0.46) 0 4px, transparent 5px 100%);
+  background-size: 86px 72px, 112px 88px, 68px 58px, 96px 74px;
+  filter: blur(0.4px);
+  opacity: 0;
+  transform: translateY(18px) scale(0.96);
+  transition:
+    opacity 220ms ease,
+    transform 320ms ease;
+  animation: foamDrift 2.4s linear infinite;
+  animation-play-state: paused;
+}
+
+.sensor-beam {
+  position: absolute;
+  top: 13%;
+  bottom: 13%;
+  display: block;
+  width: 3px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, transparent, rgba(77, 223, 192, 0.95), transparent);
+  box-shadow: 0 0 22px rgba(77, 223, 192, 0.48);
+  opacity: 0;
+  transform: translateY(18px) scaleY(0.72);
+  transition:
+    opacity 160ms ease,
+    transform 220ms ease;
+  animation: beamScan 1.5s ease-in-out infinite;
+  animation-play-state: paused;
+}
+
+.beam-1 {
+  left: 34%;
+}
+
+.beam-2 {
+  left: 50%;
+  animation-delay: -0.5s;
+}
+
+.beam-3 {
+  left: 66%;
+  animation-delay: -1s;
+}
+
+.bay-light {
+  position: absolute;
+  top: 8%;
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #4ddfc0;
+  box-shadow:
+    0 0 18px rgba(77, 223, 192, 0.7),
+    0 0 52px rgba(77, 223, 192, 0.36);
+  opacity: 0.28;
+  animation: lightPing 1.6s ease-in-out infinite;
+  animation-play-state: paused;
+}
+
+.light-1 {
+  left: 35%;
+}
+
+.light-2 {
+  left: 50%;
+  animation-delay: -0.55s;
+}
+
+.light-3 {
+  left: 65%;
+  animation-delay: -1.1s;
 }
 
 .brush-left {
@@ -2629,6 +2729,7 @@ html {
   transform: perspective(600px) rotateX(64deg);
   transform-origin: bottom;
   animation: floorFlow 1.8s linear infinite;
+  animation-play-state: paused;
 }
 
 .scout-vehicle {
@@ -2647,6 +2748,11 @@ html {
     0 0 40px rgba(77, 223, 192, 0.18);
   transform: translateX(50%);
   animation: carFloat 2.6s ease-in-out infinite;
+  animation-play-state: paused;
+  transition:
+    filter 200ms ease,
+    box-shadow 200ms ease,
+    transform 200ms ease;
 }
 
 .scout-vehicle::before,
@@ -2688,6 +2794,11 @@ html {
     0 34px 88px rgba(0, 0, 0, 0.34);
   backdrop-filter: blur(14px);
   animation: introRise 720ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  transition:
+    transform 220ms ease,
+    border-color 220ms ease,
+    background 220ms ease,
+    box-shadow 220ms ease;
 }
 
 .intro-eyebrow {
@@ -2751,6 +2862,89 @@ html {
   animation: meterRun 2.8s ease-in-out infinite;
 }
 
+.cinematic-intro.is-driving::after,
+.cinematic-intro:hover::after {
+  opacity: 0.95;
+}
+
+.cinematic-intro.is-driving .intro-visual,
+.cinematic-intro:hover .intro-visual {
+  transition-duration: 70ms;
+}
+
+.cinematic-intro.is-driving .tunnel-ring,
+.cinematic-intro:hover .tunnel-ring {
+  border-color: rgba(141, 255, 232, 0.74);
+  box-shadow:
+    0 0 42px rgba(77, 223, 192, 0.28),
+    0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+  animation-duration: 1.38s;
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .spray,
+.cinematic-intro:hover .spray {
+  opacity: 0.72;
+  animation-duration: 1.35s;
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .foam-field,
+.cinematic-intro:hover .foam-field {
+  opacity: 0.62;
+  transform: translateY(0) scale(1);
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .sensor-beam,
+.cinematic-intro:hover .sensor-beam {
+  opacity: 0.9;
+  transform: translateY(0) scaleY(1);
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .bay-light,
+.cinematic-intro:hover .bay-light {
+  opacity: 1;
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .brush,
+.cinematic-intro:hover .brush {
+  opacity: 0.98;
+  animation-duration: 0.55s;
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .wash-floor,
+.cinematic-intro:hover .wash-floor {
+  animation-duration: 0.62s;
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .scout-vehicle,
+.cinematic-intro:hover .scout-vehicle {
+  filter: saturate(1.16) brightness(1.08);
+  box-shadow:
+    0 28px 62px rgba(0, 0, 0, 0.48),
+    0 0 62px rgba(77, 223, 192, 0.34);
+  animation-duration: 1.05s;
+  animation-play-state: running;
+}
+
+.cinematic-intro.is-driving .intro-copy,
+.cinematic-intro:hover .intro-copy {
+  border-color: rgba(185, 244, 229, 0.44);
+  background:
+    linear-gradient(145deg, rgba(9, 27, 23, 0.62), rgba(9, 31, 42, 0.48)),
+    rgba(7, 19, 16, 0.42);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.18) inset,
+    0 38px 96px rgba(0, 0, 0, 0.36),
+    0 0 90px rgba(77, 223, 192, 0.08);
+  transform: translateX(-10px) scale(0.992);
+}
+
 @keyframes introGrid {
   from {
     background-position: 0 0;
@@ -2792,6 +2986,39 @@ html {
   50% {
     opacity: 0.5;
     transform: translateX(-46%) rotate(6deg);
+  }
+}
+
+@keyframes foamDrift {
+  from {
+    background-position: 0 0, 22px 0, 0 18px, 18px 12px;
+  }
+  to {
+    background-position: 86px 72px, 134px 88px, 68px 76px, 114px 86px;
+  }
+}
+
+@keyframes beamScan {
+  0%,
+  100% {
+    opacity: 0.28;
+    transform: translateY(24px) scaleY(0.72);
+  }
+  50% {
+    opacity: 0.95;
+    transform: translateY(-14px) scaleY(1.08);
+  }
+}
+
+@keyframes lightPing {
+  0%,
+  100% {
+    transform: scale(0.84);
+    opacity: 0.44;
+  }
+  50% {
+    transform: scale(1.28);
+    opacity: 1;
   }
 }
 
