@@ -1933,3 +1933,279 @@ h1 {
     padding: 20px;
   }
 }
+
+/* Interactive premium motion: subtle enough for a real investor tool, lively enough to feel modern. */
+:root {
+  --motion: 180ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  --motion-slow: 520ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.workspace,
+.admin-panel,
+.query-card,
+.results-list,
+.result-card,
+.detail-field,
+.verified-card,
+.metric-card,
+.document-card,
+.image-gallery-group,
+.image-gallery-grid a,
+.library-tools,
+.upload-card,
+.price-box,
+.drop-zone {
+  transition:
+    transform var(--motion),
+    box-shadow var(--motion),
+    border-color var(--motion),
+    background var(--motion);
+}
+
+.app-header,
+.brand-mark,
+.result-card,
+.query-card,
+.document-card,
+.image-gallery-grid a,
+.detail-field,
+.metric-card,
+.verified-card,
+.drop-zone {
+  position: relative;
+  overflow: hidden;
+}
+
+.app-header::after,
+.result-card::after,
+.query-card::after,
+.document-card::after,
+.image-gallery-grid a::after,
+.drop-zone::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background: linear-gradient(115deg, transparent 0 35%, rgba(255, 255, 255, 0.55) 48%, transparent 62% 100%);
+  opacity: 0;
+  transform: translateX(-38%);
+  transition:
+    opacity var(--motion),
+    transform var(--motion-slow);
+}
+
+.app-header:hover::after,
+.result-card:hover::after,
+.query-card:hover::after,
+.document-card:hover::after,
+.image-gallery-grid a:hover::after,
+.drop-zone:hover::after {
+  opacity: 0.45;
+  transform: translateX(38%);
+}
+
+.workspace:hover,
+.admin-panel:hover {
+  border-color: #b9cec4;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 30px 78px rgba(19, 34, 28, 0.16);
+}
+
+.brand-mark {
+  isolation: isolate;
+  transition:
+    transform var(--motion),
+    box-shadow var(--motion),
+    filter var(--motion);
+}
+
+.brand-mark::after {
+  position: absolute;
+  inset: -40%;
+  z-index: -1;
+  content: "";
+  background: conic-gradient(from 120deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0));
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: opacity var(--motion);
+}
+
+.brand-mark:hover {
+  filter: saturate(1.12);
+  transform: translateY(-2px) scale(1.035);
+  box-shadow:
+    0 18px 34px rgba(20, 95, 76, 0.28),
+    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.brand-mark:hover::after {
+  opacity: 1;
+  animation: softSpin 1.7s linear infinite;
+}
+
+button:active,
+.library-btn:active,
+.source-link:active,
+.result-card:active {
+  transform: translateY(0) scale(0.985);
+}
+
+.query-card:hover,
+.document-card:hover,
+.image-gallery-group:hover,
+.library-tools:hover,
+.upload-card:hover {
+  border-color: #b8cec4;
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 18px 38px rgba(19, 34, 28, 0.11);
+}
+
+.table-search label {
+  transition:
+    background var(--motion),
+    box-shadow var(--motion);
+}
+
+.table-search label:focus-within {
+  background: #f7fcfa;
+  box-shadow: inset 0 -3px 0 rgba(20, 95, 76, 0.28);
+}
+
+.table-search label:focus-within span {
+  color: var(--green);
+}
+
+.query-row input:focus,
+.library-tools input:focus,
+.table-search input:focus,
+.table-search select:focus,
+.table-search textarea:focus {
+  box-shadow: 0 0 0 4px rgba(20, 95, 76, 0.1);
+}
+
+.result-card:hover,
+.result-card.is-active {
+  transform: translateY(-4px);
+}
+
+.result-card:hover .score-pill,
+.result-card.is-active .score-pill,
+.opportunity-bar span:first-child:hover,
+.memo-strip span:first-child:hover {
+  box-shadow: 0 10px 22px rgba(20, 95, 76, 0.24);
+  transform: translateY(-1px);
+}
+
+.opportunity-bar span,
+.memo-strip span,
+.signal-row span,
+.library-stats span,
+.document-section-head span,
+.image-gallery-head span,
+.score-pill {
+  transition:
+    transform var(--motion),
+    box-shadow var(--motion),
+    background var(--motion);
+}
+
+.opportunity-bar span:hover,
+.memo-strip span:hover,
+.signal-row span:hover,
+.library-stats span:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(19, 34, 28, 0.08);
+}
+
+.detail-field:hover,
+.verified-card:hover,
+.metric-card:hover,
+.metric-tile:hover,
+.price-box:hover {
+  border-color: #b9cec4;
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 14px 30px rgba(19, 34, 28, 0.1);
+}
+
+.modal-shell:not([hidden]) .record-modal {
+  animation: modalLift 220ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.close-btn:hover {
+  transform: rotate(90deg) scale(1.04);
+}
+
+.document-card:hover h3,
+.result-card:hover .result-title strong,
+.image-gallery-grid a:hover span {
+  color: var(--green-dark);
+}
+
+.image-gallery-grid a {
+  isolation: isolate;
+}
+
+.image-gallery-grid img {
+  transition:
+    transform var(--motion-slow),
+    filter var(--motion);
+}
+
+.image-gallery-grid a:hover img {
+  filter: contrast(1.03) saturate(1.04);
+  transform: scale(1.035);
+}
+
+.drop-zone:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 18px 38px rgba(19, 34, 28, 0.1),
+    0 0 0 5px rgba(20, 95, 76, 0.06);
+}
+
+.upload-row {
+  transition:
+    transform var(--motion),
+    border-color var(--motion),
+    box-shadow var(--motion);
+}
+
+.upload-row:hover {
+  border-color: #b8cec4;
+  transform: translateX(2px);
+  box-shadow: 0 10px 24px rgba(19, 34, 28, 0.08);
+}
+
+@keyframes softSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes modalLift {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
