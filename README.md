@@ -57,6 +57,13 @@ Open `Document Library` and use the document search box. For scanned image pages
 
 The Document Library also has quick search chips for common image searches.
 
-## LoopNet / BizBuySell Agent Note
+## Daily LoopNet / BizBuySell Agent
 
-The safe workflow is to paste listing URLs/details into `Research Queue`. Some listing sites limit automated scraping or require login, so the Scout does not try to bypass those controls. The queue still gives you the practical result: new leads become searchable, compared against existing Scout records, and stored on the hosted Render disk.
+The automatic workflow is:
+
+1. Create saved searches/alerts for car washes on LoopNet, BizBuySell, broker sites, or approved listing feeds.
+2. Send those alert emails/exports into a parser such as Zapier, Make, or a custom approved feed.
+3. Post each new lead into the Scout endpoint: `/api/manual-records`.
+4. The Scout loads those records automatically and compares them against existing records by URL, map link, website, phone, name, market, and state.
+
+Do not build this as a bot that bypasses site login, scraping limits, or terms of use. Use alerts, approved exports, broker emails, or licensed feeds for the daily intake. That still gives the practical result: new car wash leads are added to the Scout automatically every day.

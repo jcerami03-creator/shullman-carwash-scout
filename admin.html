@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Scout Admin Upload</title>
-    <link rel="stylesheet" href="styles.css?v=36" />
+    <link rel="stylesheet" href="styles.css?v=37" />
   </head>
   <body>
     <main class="admin-shell">
@@ -20,11 +20,30 @@
           <label class="drop-zone">
             <span>Choose files</span>
             <strong>Photos, PDFs, scans, or screenshots</strong>
-            <input id="uploadInput" name="files" type="file" accept="image/*,.pdf,.txt,.csv,.json" multiple />
+            <input id="uploadInput" name="files" type="file" accept="image/*,.pdf,.txt,.csv,.json,.xlsx,.xls,.doc,.docx,.zip" multiple />
           </label>
           <button id="uploadButton" type="submit">Upload Files</button>
-          <p id="uploadStatus" class="upload-status">Ready for upload.</p>
+          <p id="uploadStatus" class="upload-status">Ready for upload. You can tap Choose Files on a phone, bulk-select files from Finder, or upload a ZIP backup.</p>
         </form>
+
+        <section class="upload-card agent-setup-card">
+          <div class="section-heading">
+            <h2>Daily Listing Agent</h2>
+            <span>Automatic lead intake</span>
+          </div>
+          <p class="admin-helper">For LoopNet and BizBuySell, use saved-search alerts, approved exports, broker emails, or a tool like Zapier/Make to send new car wash listings into the Scout every day. The Scout dedupes against existing records when it loads.</p>
+          <div class="agent-flow">
+            <span>Saved Search Alert</span>
+            <span>Email / Export Parser</span>
+            <span>Scout API</span>
+            <span>Searchable Record</span>
+          </div>
+          <div class="agent-endpoint">
+            <b>Post new leads to:</b>
+            <code>/api/manual-records</code>
+            <span>Use the same Scout username/password as Basic Auth. Send JSON with a single <code>record</code> or a list of <code>records</code>.</span>
+          </div>
+        </section>
 
         <form id="manualRecordForm" class="upload-card manual-record-card">
           <div class="section-heading">

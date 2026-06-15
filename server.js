@@ -23,7 +23,11 @@ const mimeTypes = {
   ".png": "image/png",
   ".txt": "text/plain; charset=utf-8",
   ".webp": "image/webp",
+  ".doc": "application/msword",
+  ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  ".xls": "application/vnd.ms-excel",
   ".xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  ".zip": "application/zip",
 };
 
 function timingSafeEqualString(left, right) {

@@ -1522,6 +1522,58 @@ textarea {
   line-height: 1.4;
 }
 
+.agent-setup-card {
+  border-color: #c4ded4;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f4fbf8 100%);
+}
+
+.agent-flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.agent-flow span {
+  display: grid;
+  min-height: 64px;
+  place-items: center;
+  border: 1px solid #cfe0d8;
+  border-radius: 8px;
+  padding: 10px;
+  color: var(--green-dark);
+  background: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.agent-endpoint {
+  display: grid;
+  gap: 8px;
+  border: 1px solid #d4e1db;
+  border-radius: 8px;
+  padding: 12px;
+  color: var(--muted);
+  background: #fff;
+  font-weight: 650;
+}
+
+.agent-endpoint b {
+  color: var(--green-dark);
+}
+
+.agent-endpoint code {
+  display: inline-block;
+  width: fit-content;
+  border: 1px solid #d4e1db;
+  border-radius: 6px;
+  padding: 6px 8px;
+  color: var(--green-dark);
+  background: #f5faf7;
+  font-weight: 900;
+}
+
 .drop-zone {
   display: grid;
   gap: 8px;
@@ -1682,6 +1734,10 @@ textarea {
   }
 
   .admin-field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .agent-flow {
     grid-template-columns: 1fr;
   }
 
