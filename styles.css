@@ -1079,6 +1079,13 @@ textarea {
   gap: 8px;
 }
 
+.library-search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: end;
+}
+
 .library-tools label span {
   color: var(--muted);
   font-size: 12px;
@@ -1094,6 +1101,13 @@ textarea {
   color: var(--ink);
   background: #fff;
   font-weight: 700;
+}
+
+.library-search-row button {
+  min-height: 48px;
+  border-radius: 6px;
+  padding: 0 20px;
+  white-space: nowrap;
 }
 
 .library-search-help {
@@ -1501,6 +1515,15 @@ textarea {
   min-height: 150px;
   border-color: #9ccbbb;
   background: #ffffff;
+}
+
+.drop-zone.drag-over {
+  border-color: var(--green);
+  background: #eefbf5;
+  box-shadow:
+    0 0 0 4px rgba(40, 112, 86, 0.12),
+    0 18px 36px rgba(19, 34, 28, 0.12);
+  transform: translateY(-1px);
 }
 
 .screenshot-lead-card .section-heading span {

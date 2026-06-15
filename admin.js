@@ -17,6 +17,8 @@ const screenshotLeadInput = document.getElementById("screenshotLeadInput");
 const screenshotLeadNote = document.getElementById("screenshotLeadNote");
 const screenshotLeadButton = document.getElementById("screenshotLeadButton");
 const screenshotLeadStatus = document.getElementById("screenshotLeadStatus");
+let screenshotLeadFiles = [];
+let uploadFilesPending = [];
 
 function escapeHtml(value) {
   return String(value || "")
@@ -75,6 +77,87 @@ async function uploadFiles(files) {
   return Array.isArray(data.uploads) ? data.uploads : [];
 }
 
+function fileSummary(files, singularLabel = "file") {
+  if (!files.length) return "";
+  if (files.length === 1) return `${files[0].name} ready.`;
+  return `${files.length.toLocaleString()} ${singularLabel}s ready.`;
+}
+
+function setInputFiles(input, files) {
+  try {
+    const transfer = new DataTransfer();
+    files.forEach((file) => transfer.items.add(file));
+    input.files = transfer.files;
+  } catch {
+    // Some older browsers do not allow assigning file inputs. The saved file list is still used.
+  }
+}
+
+function enableDropZone({ input, form, status, multiple = true, onFiles }) {
+  const zone = form?.querySelector(".drop-zone");
+  if (!zone || !input) return;
+
+  input.addEventListener("change", () => {
+    const files = [...input.files];
+    onFiles(files);
+  });
+
+  ["dragenter", "dragover"].forEach((eventName) => {
+    zone.addEventListener(eventName, (event) => {
+      event.preventDefault();
+      zone.classList.add("drag-over");
+    });
+  });
+
+  ["dragleave", "drop"].forEach((eventName) => {
+    zone.addEventListener(eventName, () => {
+      zone.classList.remove("drag-over");
+    });
+  });
+
+  zone.addEventListener("drop", (event) => {
+    event.preventDefault();
+    const droppedFiles = [...(event.dataTransfer?.files || [])];
+    if (!droppedFiles.length) return;
+    const files = multiple ? droppedFiles : droppedFiles.slice(0, 1);
+    setInputFiles(input, files);
+    onFiles(files);
+    if (status) status.textContent = fileSummary(files, "file");
+  });
+}
+
+["dragover", "drop"].forEach((eventName) => {
+  document.addEventListener(eventName, (event) => {
+    if (event.dataTransfer?.types?.includes("Files")) event.preventDefault();
+  });
+});
+
+enableDropZone({
+  input: screenshotLeadInput,
+  form: screenshotLeadForm,
+  status: screenshotLeadStatus,
+  multiple: false,
+  onFiles(files) {
+    screenshotLeadFiles = files;
+    if (screenshotLeadStatus && files.length) {
+      screenshotLeadStatus.textContent = `${fileSummary(files)} Add a link or note if you have one, then press Save Screenshot Lead.`;
+    }
+  },
+});
+
+enableDropZone({
+  input: uploadInput,
+  form: uploadForm,
+  status: uploadStatus,
+  multiple: true,
+  onFiles(files) {
+    uploadFilesPending = files;
+    if (uploadStatus && files.length) {
+      uploadStatus.textContent = `${fileSummary(files)} Press Upload Files to save them.`;
+    }
+  },
+});
+
 async function loadUploads() {
   const response = await fetch("/api/uploads", { cache: "no-store" });
   if (!response.ok) throw new Error("Could not load uploads.");
@@ -126,7 +209,7 @@ async function loadManualRecords() {
 
 uploadForm.addEventListener("submit", async (event) => {
   event.preventDefault();
-  const files = [...uploadInput.files];
+  const files = uploadFilesPending.length ? uploadFilesPending : [...uploadInput.files];
   if (!files.length) {
     uploadStatus.textContent = "Choose at least one file first.";
     return;
@@ -137,6 +220,7 @@ uploadForm.addEventListener("submit", async (event) => {
 
   try {
     await uploadFiles(files);
+    uploadFilesPending = [];
     uploadInput.value = "";
     uploadStatus.textContent = "Upload complete. The files are now in the Document Library.";
     await loadUploads();
@@ -150,7 +234,7 @@ uploadForm.addEventListener("submit", async (event) => {
 if (screenshotLeadForm) {
   screenshotLeadForm.addEventListener("submit", async (event) => {
     event.preventDefault();
-    const files = [...screenshotLeadInput.files];
+    const files = screenshotLeadFiles.length ? screenshotLeadFiles : [...screenshotLeadInput.files];
     const note = String(screenshotLeadNote.value || "").trim();
     if (!files.length) {
       screenshotLeadStatus.textContent = "Choose one screenshot or photo first.";
@@ -178,6 +262,7 @@ if (screenshotLeadForm) {
         source: "Screenshot Lead",
       };
       await postManualRecord(record);
+      screenshotLeadFiles = [];
       screenshotLeadForm.reset();
       screenshotLeadStatus.textContent = "Saved. Screenshot and lead are now in Scout.";
       await loadUploads();

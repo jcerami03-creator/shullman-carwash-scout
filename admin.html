@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Scout Admin</title>
-    <link rel="stylesheet" href="styles.css?v=40" />
+    <link rel="stylesheet" href="styles.css?v=41" />
   </head>
   <body>
     <main class="admin-shell">
@@ -22,8 +22,8 @@
             <span>Easiest</span>
           </div>
           <label class="drop-zone">
-            <span>Choose screenshot or photo</span>
-            <strong>Tap here, pick the screenshot, then save</strong>
+            <span>Screenshot, photo, or PDF</span>
+            <strong>Tap here or drag it into this box, then save</strong>
             <input id="screenshotLeadInput" name="files" type="file" accept="image/*,.pdf" />
           </label>
           <div class="admin-field-grid easy-site-grid">
@@ -112,7 +112,7 @@
           <form id="uploadForm" class="upload-card">
             <label class="drop-zone">
               <span>Choose files</span>
-              <strong>Photos, PDFs, scans, spreadsheets, or ZIP backups</strong>
+              <strong>Tap here or drag files into this box</strong>
               <input id="uploadInput" name="files" type="file" accept="image/*,.pdf,.txt,.csv,.json,.xlsx,.xls,.doc,.docx,.zip" multiple />
             </label>
             <button id="uploadButton" type="submit">Upload Files</button>
@@ -167,6 +167,6 @@
       </section>
     </main>
 
-    <script src="admin.js?v=2"></script>
+    <script src="admin.js?v=3"></script>
   </body>
 </html>

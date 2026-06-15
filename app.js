@@ -1457,10 +1457,13 @@ function renderDocumentLibrary(filter = "") {
         <span><b>${evidenceRows.toLocaleString()}</b> portfolio rows</span>
         <span><b>${galleryPages.toLocaleString()}</b> image pages</span>
       </div>
-      <label>
-        <span>Search documents</span>
-        <input id="librarySearchInput" type="search" value="${escapeHtml(filter)}" placeholder="Search documents, locations, traffic, EBITDA, photos..." autocomplete="off" />
-      </label>
+      <div class="library-search-row">
+        <label>
+          <span>Search images and documents</span>
+          <input id="librarySearchInput" type="search" value="${escapeHtml(filter)}" placeholder="Search city, state, address, pricing, traffic, EBITDA, photos..." autocomplete="off" />
+        </label>
+        <button id="librarySearchButton" type="button">Search</button>
+      </div>
       <div class="library-search-help">
         <b>Image search:</b>
         <span>Try terms like menu, pricing, traffic, census, aerial, photo, address, city, state, page number, or a car wash name.</span>
@@ -1472,8 +1475,18 @@ function renderDocumentLibrary(filter = "") {
     <div id="libraryResults" class="library-list">${renderDocumentResults(docs)}</div>
   `;
   const searchInput = document.getElementById("librarySearchInput");
+  const searchButton = document.getElementById("librarySearchButton");
   if (searchInput) {
     searchInput.addEventListener("input", updateDocumentLibraryResults);
+    searchInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        renderDocumentLibrary(searchInput.value);
+      }
+    });
+  }
+  if (searchButton && searchInput) {
+    searchButton.addEventListener("click", () => renderDocumentLibrary(searchInput.value));
   }
   document.querySelectorAll("[data-library-query]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -1504,19 +1517,21 @@ function normalizedDocumentLibrary() {
 
 function documentMatchesQuery(doc, query) {
   if (!query) return true;
+  const terms = query.split(/\s+/).filter(Boolean);
   const haystack = [
     doc.title,
     doc.file_name,
     doc.category,
     doc.group,
     ...doc.pages.map((page) => page.summary),
+    ...doc.pages.flatMap((page) => page.terms || []),
     ...doc.pages.flatMap((page) => page.addresses || []),
     ...doc.evidence_rows.map((row) => `${row.type} ${row.name} ${row.location} ${row.status} ${row.note}`),
     ...doc.gallery_images.map((image) => `image scan photo page ${image.page} ${image.group || ""} ${image.interpretation || ""}`),
   ]
     .join(" ")
     .toLowerCase();
-  return haystack.includes(query);
+  return terms.every((term) => haystack.includes(term));
 }
 
 function renderDocumentResults(docs) {
