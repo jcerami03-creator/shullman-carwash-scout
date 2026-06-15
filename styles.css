@@ -1522,6 +1522,83 @@ textarea {
   line-height: 1.4;
 }
 
+.admin-expander {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(19, 34, 28, 0.05);
+}
+
+.admin-expander > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  min-height: 64px;
+  padding: 0 16px;
+  color: var(--green-dark);
+  cursor: pointer;
+  font-weight: 900;
+  list-style: none;
+}
+
+.admin-expander > summary::-webkit-details-marker {
+  display: none;
+}
+
+.admin-expander > summary::after {
+  content: "+";
+  display: grid;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--green);
+  background: #eef7f3;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.admin-expander[open] > summary::after {
+  content: "-";
+}
+
+.admin-expander summary span,
+.admin-expander summary small {
+  display: block;
+}
+
+.admin-expander summary small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.admin-expander > .upload-card,
+.admin-expander > .admin-list-block {
+  margin: 0 14px 14px;
+}
+
+.nested-expander {
+  border: 1px solid #d8e4de;
+  border-radius: 8px;
+  padding: 12px;
+  background: #f8fbf9;
+}
+
+.nested-expander > summary {
+  cursor: pointer;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.nested-grid {
+  margin-top: 12px;
+}
+
 .agent-setup-card {
   border-color: #c4ded4;
   background:
@@ -1532,6 +1609,27 @@ textarea {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
+}
+
+.agent-source-list {
+  display: grid;
+  gap: 8px;
+}
+
+.agent-source-list a {
+  display: block;
+  border: 1px solid #d4e1db;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--green);
+  background: #fff;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.agent-source-list a:hover {
+  border-color: var(--green);
+  background: #f7fcfa;
 }
 
 .agent-flow span {
