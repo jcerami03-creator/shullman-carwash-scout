@@ -1488,6 +1488,28 @@ textarea {
     0 18px 38px rgba(19, 34, 28, 0.1);
 }
 
+.screenshot-lead-card {
+  border-color: #a9d9cb;
+  background:
+    linear-gradient(180deg, #f9fffc 0%, #eef9f4 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.92) inset,
+    0 20px 42px rgba(19, 34, 28, 0.12);
+}
+
+.screenshot-lead-card .drop-zone {
+  min-height: 150px;
+  border-color: #9ccbbb;
+  background: #ffffff;
+}
+
+.screenshot-lead-card .section-heading span {
+  color: #fff;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: var(--green);
+}
+
 .easy-site-grid {
   grid-template-columns: 1fr;
 }

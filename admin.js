@@ -12,6 +12,11 @@ const manualRecordCount = document.getElementById("manualRecordCount");
 const researchQueueForm = document.getElementById("researchQueueForm");
 const researchQueueButton = document.getElementById("researchQueueButton");
 const researchQueueStatus = document.getElementById("researchQueueStatus");
+const screenshotLeadForm = document.getElementById("screenshotLeadForm");
+const screenshotLeadInput = document.getElementById("screenshotLeadInput");
+const screenshotLeadNote = document.getElementById("screenshotLeadNote");
+const screenshotLeadButton = document.getElementById("screenshotLeadButton");
+const screenshotLeadStatus = document.getElementById("screenshotLeadStatus");
 
 function escapeHtml(value) {
   return String(value || "")
@@ -59,6 +64,15 @@ async function postManualRecord(record) {
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data.error || "Could not save record.");
   return data;
+}
+
+async function uploadFiles(files) {
+  const body = new FormData();
+  files.forEach((file) => body.append("files", file));
+  const response = await fetch("/api/uploads", { method: "POST", body });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || "Upload failed.");
+  return Array.isArray(data.uploads) ? data.uploads : [];
 }
 
 async function loadUploads() {
@@ -118,15 +132,11 @@ uploadForm.addEventListener("submit", async (event) => {
     return;
   }
 
-  const body = new FormData();
-  files.forEach((file) => body.append("files", file));
   uploadButton.disabled = true;
   uploadStatus.textContent = `Uploading ${files.length} file${files.length === 1 ? "" : "s"}...`;
 
   try {
-    const response = await fetch("/api/uploads", { method: "POST", body });
-    const data = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(data.error || "Upload failed.");
+    await uploadFiles(files);
     uploadInput.value = "";
     uploadStatus.textContent = "Upload complete. The files are now in the Document Library.";
     await loadUploads();
@@ -136,6 +146,49 @@ uploadForm.addEventListener("submit", async (event) => {
     uploadButton.disabled = false;
   }
 });
+
+if (screenshotLeadForm) {
+  screenshotLeadForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const files = [...screenshotLeadInput.files];
+    const note = String(screenshotLeadNote.value || "").trim();
+    if (!files.length) {
+      screenshotLeadStatus.textContent = "Choose one screenshot or photo first.";
+      return;
+    }
+
+    screenshotLeadButton.disabled = true;
+    screenshotLeadStatus.textContent = "Saving screenshot lead...";
+    try {
+      const uploads = await uploadFiles(files);
+      const uploaded = uploads[0] || {};
+      const fileName = uploaded.title || uploaded.file_name || files[0].name || "Screenshot lead";
+      const noteIsUrl = /^https?:\/\//i.test(note);
+      const record = {
+        name: fileName.replace(/\.[^.]+$/, ""),
+        market: noteIsUrl ? "" : note,
+        note: [
+          note,
+          "Screenshot/photo lead uploaded from Admin. Review the linked image/PDF for full listing details.",
+          uploaded.pdf_url ? `Uploaded file: ${uploaded.pdf_url}` : "",
+        ]
+          .filter(Boolean)
+          .join(" "),
+        research_url: noteIsUrl ? note : uploaded.pdf_url || "",
+        source: "Screenshot Lead",
+      };
+      await postManualRecord(record);
+      screenshotLeadForm.reset();
+      screenshotLeadStatus.textContent = "Saved. Screenshot and lead are now in Scout.";
+      await loadUploads();
+      await loadManualRecords();
+    } catch (error) {
+      screenshotLeadStatus.textContent = error.message || "Could not save screenshot lead.";
+    } finally {
+      screenshotLeadButton.disabled = false;
+    }
+  });
+}
 
 if (manualRecordForm) {
   manualRecordForm.addEventListener("submit", async (event) => {
