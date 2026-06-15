@@ -9,6 +9,7 @@ const username = process.env.SCOUT_USER || "shullman";
 const password = process.env.SCOUT_PASSWORD || "";
 const uploadRoot = path.resolve(process.env.UPLOAD_DIR || path.join(root, "runtime-uploads"));
 const uploadMetaPath = path.join(uploadRoot, "metadata.json");
+const manualRecordsPath = path.join(uploadRoot, "manual-records.json");
 const maxUploadBytes = Number(process.env.UPLOAD_MAX_BYTES || 100 * 1024 * 1024);
 
 const mimeTypes = {
@@ -101,6 +102,84 @@ function readUploadMetadata() {
 function writeUploadMetadata(items) {
   ensureUploadRoot();
   fs.writeFileSync(uploadMetaPath, JSON.stringify(items, null, 2), "utf8");
+}
+
+function readManualRecords() {
+  try {
+    ensureUploadRoot();
+    const parsed = JSON.parse(fs.readFileSync(manualRecordsPath, "utf8"));
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeManualRecords(records) {
+  ensureUploadRoot();
+  fs.writeFileSync(manualRecordsPath, JSON.stringify(records, null, 2), "utf8");
+}
+
+function cleanText(value, maxLength = 8000) {
+  return String(value == null ? "" : value).replace(/\s+/g, " ").trim().slice(0, maxLength);
+}
+
+function cleanRecordPayload(payload) {
+  const record = {};
+  const allowed = [
+    "name",
+    "year",
+    "market",
+    "state",
+    "asking_price",
+    "sales",
+    "ebitda",
+    "cars_per_year",
+    "acres",
+    "phone",
+    "website",
+    "research_url",
+    "maps_url",
+    "traffic_count",
+    "note",
+    "source",
+    "full_text",
+  ];
+  allowed.forEach((key) => {
+    if (payload && payload[key] != null) record[key] = cleanText(payload[key], key === "full_text" || key === "note" ? 12000 : 1000);
+  });
+  const hasContent = Object.values(record).some(Boolean);
+  if (!hasContent) return null;
+  record.name = record.name || record.market || "New car wash listing";
+  record.source = record.source || "Admin Added Listing";
+  record.added_at = new Date().toISOString();
+  record.id = `manual-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  return record;
+}
+
+function readJsonBody(req, maxBytes, callback) {
+  const chunks = [];
+  let total = 0;
+  req.on("data", (chunk) => {
+    total += chunk.length;
+    if (total > maxBytes) {
+      req.destroy();
+      return;
+    }
+    chunks.push(chunk);
+  });
+  req.on("end", () => {
+    if (total > maxBytes) {
+      callback(new Error("Request is too large."));
+      return;
+    }
+    try {
+      const text = Buffer.concat(chunks).toString("utf8") || "{}";
+      callback(null, JSON.parse(text));
+    } catch {
+      callback(new Error("Could not read the submitted record."));
+    }
+  });
+  req.on("error", () => callback(new Error("Request failed.")));
 }
 
 function cleanFilename(filename) {
@@ -227,6 +306,35 @@ function handleApiUploads(req, res) {
   req.on("error", () => sendJson(res, 500, { error: "Upload failed." }));
 }
 
+function handleManualRecords(req, res) {
+  if (req.method === "GET") {
+    sendJson(res, 200, { records: readManualRecords() });
+    return;
+  }
+
+  if (req.method !== "POST") {
+    sendJson(res, 405, { error: "Method not allowed" });
+    return;
+  }
+
+  readJsonBody(req, 2 * 1024 * 1024, (error, payload) => {
+    if (error) {
+      sendJson(res, 400, { error: error.message });
+      return;
+    }
+    const incoming = Array.isArray(payload?.records) ? payload.records : [payload?.record || payload];
+    const cleaned = incoming.map(cleanRecordPayload).filter(Boolean);
+    if (!cleaned.length) {
+      sendJson(res, 400, { error: "Add at least a name, address, URL, or note." });
+      return;
+    }
+    const records = readManualRecords();
+    cleaned.reverse().forEach((record) => records.unshift(record));
+    writeManualRecords(records);
+    sendJson(res, 201, { records: cleaned, total: records.length });
+  });
+}
+
 function serveUpload(req, res) {
   const pathname = decodeURIComponent((req.url || "").split("?")[0]);
   const relative = pathname.replace(/^\/uploads\/?/, "");
@@ -259,6 +367,11 @@ const server = http.createServer((req, res) => {
 
   if ((req.url || "").startsWith("/api/uploads")) {
     handleApiUploads(req, res);
+    return;
+  }
+
+  if ((req.url || "").startsWith("/api/manual-records")) {
+    handleManualRecords(req, res);
     return;
   }
 

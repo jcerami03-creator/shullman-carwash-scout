@@ -33,3 +33,30 @@ year,market,asking_price,sales,ebitda,cars_per_year,acres,note,wisdom_layer,deci
 ```
 
 Scanned PDFs should be OCR'd into CSV, JSON, or text before uploading.
+
+## Easiest Future Workflow
+
+1. Open the hosted Scout site and log in.
+2. Click `Admin Upload`.
+3. Use `Upload Files` for PDFs, scans, photos, screenshots, CSVs, or notes.
+4. Use `Add One Car Wash` when you already know the location/details and just want it searchable fast.
+5. Use `Research Queue` for LoopNet, BizBuySell, broker pages, or other online leads: copy the listing URL and visible listing text, paste it there, and save.
+6. Go back to the Scout and search. Admin-added washes and pasted research leads load automatically from the hosted backend.
+
+## Searching Images
+
+Open `Document Library` and use the document search box. For scanned image pages, search terms like:
+
+- `image`
+- `menu`
+- `pricing`
+- `traffic`
+- `census`
+- `aerial`
+- city, state, address, page number, or car wash name
+
+The Document Library also has quick search chips for common image searches.
+
+## LoopNet / BizBuySell Agent Note
+
+The safe workflow is to paste listing URLs/details into `Research Queue`. Some listing sites limit automated scraping or require login, so the Scout does not try to bypass those controls. The queue still gives you the practical result: new leads become searchable, compared against existing Scout records, and stored on the hosted Render disk.

@@ -4,6 +4,14 @@ const uploadButton = document.getElementById("uploadButton");
 const uploadStatus = document.getElementById("uploadStatus");
 const uploadList = document.getElementById("uploadList");
 const uploadCount = document.getElementById("uploadCount");
+const manualRecordForm = document.getElementById("manualRecordForm");
+const manualRecordButton = document.getElementById("manualRecordButton");
+const manualRecordStatus = document.getElementById("manualRecordStatus");
+const manualRecordList = document.getElementById("manualRecordList");
+const manualRecordCount = document.getElementById("manualRecordCount");
+const researchQueueForm = document.getElementById("researchQueueForm");
+const researchQueueButton = document.getElementById("researchQueueButton");
+const researchQueueStatus = document.getElementById("researchQueueStatus");
 
 function escapeHtml(value) {
   return String(value || "")
@@ -16,6 +24,41 @@ function escapeHtml(value) {
 
 function fileIcon(doc) {
   return doc.gallery_images && doc.gallery_images.length ? "Image" : "File";
+}
+
+function formObject(form) {
+  const data = new FormData(form);
+  const record = {};
+  for (const [key, value] of data.entries()) {
+    const clean = String(value || "").trim();
+    if (clean) record[key] = clean;
+  }
+  return record;
+}
+
+function inferListingName(text, url) {
+  const firstLine = String(text || "")
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .find(Boolean);
+  if (firstLine) return firstLine.slice(0, 120);
+  try {
+    const parsed = new URL(url);
+    return `${parsed.hostname.replace(/^www\./, "")} car wash lead`;
+  } catch {
+    return "New car wash research lead";
+  }
+}
+
+async function postManualRecord(record) {
+  const response = await fetch("/api/manual-records", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ record }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || "Could not save record.");
+  return data;
 }
 
 async function loadUploads() {
@@ -40,6 +83,31 @@ async function loadUploads() {
         )
         .join("")
     : `<div class="empty-state">No admin uploads yet.</div>`;
+}
+
+async function loadManualRecords() {
+  const response = await fetch("/api/manual-records", { cache: "no-store" });
+  if (!response.ok) throw new Error("Could not load added records.");
+  const data = await response.json();
+  const records = Array.isArray(data.records) ? data.records : [];
+  manualRecordCount.textContent = `${records.length.toLocaleString()} record${records.length === 1 ? "" : "s"}`;
+  manualRecordList.innerHTML = records.length
+    ? records
+        .slice(0, 80)
+        .map(
+          (record) => `
+            <article class="upload-row">
+              <span>${escapeHtml(/loopnet/i.test(record.source) ? "LN" : /bizbuysell/i.test(record.source) ? "BBS" : "Wash")}</span>
+              <div>
+                <strong>${escapeHtml(record.name || record.market || "Car wash record")}</strong>
+                <small>${escapeHtml([record.market, record.state, record.asking_price, record.ebitda].filter(Boolean).join(" | ") || record.source || "Added record")}</small>
+              </div>
+              ${record.research_url ? `<a href="${escapeHtml(record.research_url)}" target="_blank" rel="noreferrer">Open</a>` : `<a href="/">Scout</a>`}
+            </article>
+          `
+        )
+        .join("")
+    : `<div class="empty-state">No manually added washes yet.</div>`;
 }
 
 uploadForm.addEventListener("submit", async (event) => {
@@ -69,6 +137,58 @@ uploadForm.addEventListener("submit", async (event) => {
   }
 });
 
+if (manualRecordForm) {
+  manualRecordForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const record = formObject(manualRecordForm);
+    if (!record.name && !record.market && !record.research_url && !record.note) {
+      manualRecordStatus.textContent = "Add a name, address, URL, or note first.";
+      return;
+    }
+    record.source = "Admin Added Listing";
+    manualRecordButton.disabled = true;
+    manualRecordStatus.textContent = "Saving to Scout...";
+    try {
+      await postManualRecord(record);
+      manualRecordForm.reset();
+      manualRecordStatus.textContent = "Saved. It will now appear in Scout search.";
+      await loadManualRecords();
+    } catch (error) {
+      manualRecordStatus.textContent = error.message || "Could not save record.";
+    } finally {
+      manualRecordButton.disabled = false;
+    }
+  });
+}
+
+if (researchQueueForm) {
+  researchQueueForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const record = formObject(researchQueueForm);
+    if (!record.research_url && !record.full_text) {
+      researchQueueStatus.textContent = "Paste a listing URL or listing text first.";
+      return;
+    }
+    record.name = inferListingName(record.full_text, record.research_url);
+    record.note = record.full_text || record.research_url;
+    researchQueueButton.disabled = true;
+    researchQueueStatus.textContent = "Saving research lead...";
+    try {
+      await postManualRecord(record);
+      researchQueueForm.reset();
+      researchQueueStatus.textContent = "Saved. The lead is now searchable in Scout.";
+      await loadManualRecords();
+    } catch (error) {
+      researchQueueStatus.textContent = error.message || "Could not save research lead.";
+    } finally {
+      researchQueueButton.disabled = false;
+    }
+  });
+}
+
 loadUploads().catch((error) => {
   uploadStatus.textContent = error.message || "Could not load uploads.";
+});
+loadManualRecords().catch((error) => {
+  if (manualRecordStatus) manualRecordStatus.textContent = error.message || "Could not load added records.";
 });

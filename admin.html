@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Scout Admin Upload</title>
-    <link rel="stylesheet" href="styles.css?v=28" />
+    <link rel="stylesheet" href="styles.css?v=36" />
   </head>
   <body>
     <main class="admin-shell">
@@ -14,7 +14,7 @@
           <span>Admin Upload</span>
         </div>
         <h1>Add New Source Files</h1>
-        <p>Upload photos, screenshots, scans, PDFs, or documents from a phone or computer. New uploads appear in the Document Library after the upload finishes.</p>
+        <p>Upload files, add a single car wash by hand, or paste a LoopNet/BizBuySell-style listing into the research queue. New records appear in the Scout automatically after saving.</p>
 
         <form id="uploadForm" class="upload-card">
           <label class="drop-zone">
@@ -26,6 +26,97 @@
           <p id="uploadStatus" class="upload-status">Ready for upload.</p>
         </form>
 
+        <form id="manualRecordForm" class="upload-card manual-record-card">
+          <div class="section-heading">
+            <h2>Add One Car Wash</h2>
+            <span>Fast record entry</span>
+          </div>
+          <div class="admin-field-grid">
+            <label>
+              <span>Name</span>
+              <input id="manualName" name="name" type="text" placeholder="AquaShine Express Car Wash" autocomplete="off" />
+            </label>
+            <label>
+              <span>State</span>
+              <input id="manualState" name="state" type="text" placeholder="FL" maxlength="2" autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Address / Market</span>
+              <input id="manualMarket" name="market" type="text" placeholder="1555 N Washington Blvd, Sarasota, FL 34236" autocomplete="off" />
+            </label>
+            <label>
+              <span>Year</span>
+              <input id="manualYear" name="year" type="text" placeholder="2026" inputmode="numeric" autocomplete="off" />
+            </label>
+            <label>
+              <span>Asking Price</span>
+              <input id="manualAskingPrice" name="asking_price" type="text" placeholder="$2.4M" autocomplete="off" />
+            </label>
+            <label>
+              <span>Sales</span>
+              <input id="manualSales" name="sales" type="text" placeholder="$1.8M" autocomplete="off" />
+            </label>
+            <label>
+              <span>EBITDA</span>
+              <input id="manualEbitda" name="ebitda" type="text" placeholder="$326K" autocomplete="off" />
+            </label>
+            <label>
+              <span>Cars/Yr</span>
+              <input id="manualCars" name="cars_per_year" type="text" placeholder="120,000" autocomplete="off" />
+            </label>
+            <label>
+              <span>Acres</span>
+              <input id="manualAcres" name="acres" type="text" placeholder="0.85" autocomplete="off" />
+            </label>
+            <label>
+              <span>Phone</span>
+              <input id="manualPhone" name="phone" type="text" placeholder="(941) 613-5391" autocomplete="off" />
+            </label>
+            <label>
+              <span>Website</span>
+              <input id="manualWebsite" name="website" type="url" placeholder="https://example.com" autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Listing / Source URL</span>
+              <input id="manualResearchUrl" name="research_url" type="url" placeholder="LoopNet, BizBuySell, broker page, or map link" autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Notes</span>
+              <textarea id="manualNote" name="note" placeholder="Paste listing details, seller notes, traffic count, package info, or anything useful."></textarea>
+            </label>
+          </div>
+          <button id="manualRecordButton" type="submit">Add To Scout</button>
+          <p id="manualRecordStatus" class="upload-status">Ready to add a new wash.</p>
+        </form>
+
+        <form id="researchQueueForm" class="upload-card manual-record-card">
+          <div class="section-heading">
+            <h2>Research Queue</h2>
+            <span>LoopNet / BizBuySell helper</span>
+          </div>
+          <p class="admin-helper">Open LoopNet or BizBuySell in your browser, copy the car wash listing link/details, paste them here, and save. The Scout will keep it as a research record and compare it in search with the existing files.</p>
+          <div class="admin-field-grid">
+            <label>
+              <span>Source</span>
+              <select id="researchSource" name="source">
+                <option value="LoopNet Research Queue">LoopNet</option>
+                <option value="BizBuySell Research Queue">BizBuySell</option>
+                <option value="Broker Research Queue">Broker / Other</option>
+              </select>
+            </label>
+            <label class="wide-field">
+              <span>Listing URL</span>
+              <input id="researchUrl" name="research_url" type="url" placeholder="Paste listing URL" autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Listing Text</span>
+              <textarea id="researchText" name="full_text" placeholder="Paste the listing title, city/state, price, EBITDA, description, broker notes, and anything else shown."></textarea>
+            </label>
+          </div>
+          <button id="researchQueueButton" type="submit">Save Research Lead</button>
+          <p id="researchQueueStatus" class="upload-status">Ready for pasted listing research.</p>
+        </form>
+
         <section class="admin-list-block">
           <div class="section-heading">
             <h2>Uploaded Files</h2>
@@ -33,9 +124,17 @@
           </div>
           <div id="uploadList" class="upload-list"></div>
         </section>
+
+        <section class="admin-list-block">
+          <div class="section-heading">
+            <h2>Added Washes & Research Leads</h2>
+            <span id="manualRecordCount">0 records</span>
+          </div>
+          <div id="manualRecordList" class="upload-list"></div>
+        </section>
       </section>
     </main>
 
-    <script src="admin.js?v=1"></script>
+    <script src="admin.js?v=2"></script>
   </body>
 </html>

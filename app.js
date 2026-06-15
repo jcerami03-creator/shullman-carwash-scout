@@ -1383,6 +1383,50 @@ async function loadAdminUploads() {
   }
 }
 
+function recordIdentity(record) {
+  return [
+    record.researchUrl,
+    record.mapsUrl,
+    record.website,
+    record.phone,
+    record.name,
+    record.market,
+    record.state,
+  ]
+    .filter(Boolean)
+    .join("|")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+async function loadManualRecords() {
+  try {
+    const response = await fetch("/api/manual-records", { cache: "no-store" });
+    if (!response.ok) return;
+    const data = await response.json();
+    const manualRows = Array.isArray(data.records) ? data.records : [];
+    if (!manualRows.length) return;
+    const existing = new Set(records.map(recordIdentity));
+    const additions = manualRows
+      .map((item, index) => standardizeRecord(item, item.source || "Admin Added Listing", index))
+      .filter((record) => {
+        const key = recordIdentity(record);
+        if (!key || existing.has(key)) return false;
+        existing.add(key);
+        return true;
+      });
+    if (!additions.length) return;
+    records = [...additions, ...records];
+    setupFilterOptions();
+    saveRecords();
+    updateStats();
+    runSearch();
+  } catch {
+    // Manually added records are optional; the bundled Scout still works without the backend.
+  }
+}
+
 async function openLibrary() {
   await loadAdminUploads();
   renderDocumentLibrary();
@@ -1417,6 +1461,13 @@ function renderDocumentLibrary(filter = "") {
         <span>Search documents</span>
         <input id="librarySearchInput" type="search" value="${escapeHtml(filter)}" placeholder="Search documents, locations, traffic, EBITDA, photos..." autocomplete="off" />
       </label>
+      <div class="library-search-help">
+        <b>Image search:</b>
+        <span>Try terms like menu, pricing, traffic, census, aerial, photo, address, city, state, page number, or a car wash name.</span>
+        <div class="library-query-chips">
+          ${["image", "menu", "pricing", "traffic", "census", "aerial", "address"].map((term) => `<button type="button" data-library-query="${term}">${term}</button>`).join("")}
+        </div>
+      </div>
     </div>
     <div id="libraryResults" class="library-list">${renderDocumentResults(docs)}</div>
   `;
@@ -1424,6 +1475,12 @@ function renderDocumentLibrary(filter = "") {
   if (searchInput) {
     searchInput.addEventListener("input", updateDocumentLibraryResults);
   }
+  document.querySelectorAll("[data-library-query]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const value = button.getAttribute("data-library-query") || "";
+      renderDocumentLibrary(value);
+    });
+  });
 }
 
 function updateDocumentLibraryResults(event) {
@@ -1808,3 +1865,4 @@ document.addEventListener("keydown", (event) => {
 
 setupVoice();
 loadRecords();
+loadManualRecords();

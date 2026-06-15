@@ -1096,6 +1096,40 @@ textarea {
   font-weight: 700;
 }
 
+.library-search-help {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #d4e1db;
+  border-radius: 8px;
+  color: var(--muted);
+  background: #ffffff;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.library-search-help b {
+  color: var(--green-dark);
+}
+
+.library-query-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.library-query-chips button {
+  min-height: 34px;
+  border: 1px solid #cfe0d8;
+  border-radius: 999px;
+  padding: 0 12px;
+  color: var(--green);
+  background: #f5faf7;
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: capitalize;
+}
+
 .library-stats {
   display: flex;
   flex-wrap: wrap;
@@ -1440,6 +1474,54 @@ textarea {
   background: #f7faf8;
 }
 
+.manual-record-card {
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f8fbf9 100%);
+}
+
+.admin-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.admin-field-grid label {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+
+.admin-field-grid label span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.admin-field-grid input,
+.admin-field-grid select,
+.admin-field-grid textarea {
+  width: 100%;
+  min-height: 46px;
+}
+
+.admin-field-grid textarea {
+  min-height: 118px;
+  padding-top: 12px;
+  line-height: 1.35;
+}
+
+.wide-field {
+  grid-column: 1 / -1;
+}
+
+.admin-helper {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 650;
+  line-height: 1.4;
+}
+
 .drop-zone {
   display: grid;
   gap: 8px;
@@ -1596,6 +1678,10 @@ textarea {
   }
 
   .upload-row {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-field-grid {
     grid-template-columns: 1fr;
   }
 
