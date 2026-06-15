@@ -1479,6 +1479,28 @@ textarea {
     linear-gradient(180deg, #ffffff 0%, #f8fbf9 100%);
 }
 
+.primary-add-card {
+  border-color: #b9d8cc;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f2faf6 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 18px 38px rgba(19, 34, 28, 0.1);
+}
+
+.easy-site-grid {
+  grid-template-columns: 1fr;
+}
+
+.primary-add-card textarea {
+  min-height: 150px;
+}
+
+.primary-add-card > button {
+  min-height: 52px;
+  font-size: 16px;
+}
+
 .admin-field-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
