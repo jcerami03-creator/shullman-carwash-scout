@@ -9,9 +9,6 @@ const manualRecordButton = document.getElementById("manualRecordButton");
 const manualRecordStatus = document.getElementById("manualRecordStatus");
 const manualRecordList = document.getElementById("manualRecordList");
 const manualRecordCount = document.getElementById("manualRecordCount");
-const researchQueueForm = document.getElementById("researchQueueForm");
-const researchQueueButton = document.getElementById("researchQueueButton");
-const researchQueueStatus = document.getElementById("researchQueueStatus");
 const screenshotLeadForm = document.getElementById("screenshotLeadForm");
 const screenshotLeadInput = document.getElementById("screenshotLeadInput");
 const screenshotLeadNote = document.getElementById("screenshotLeadNote");
@@ -41,20 +38,6 @@ function formObject(form) {
     if (clean) record[key] = clean;
   }
   return record;
-}
-
-function inferListingName(text, url) {
-  const firstLine = String(text || "")
-    .split(/\n+/)
-    .map((line) => line.trim())
-    .find(Boolean);
-  if (firstLine) return firstLine.slice(0, 120);
-  try {
-    const parsed = new URL(url);
-    return `${parsed.hostname.replace(/^www\./, "")} car wash lead`;
-  } catch {
-    return "New car wash research lead";
-  }
 }
 
 async function postManualRecord(record) {
@@ -194,7 +177,7 @@ async function loadManualRecords() {
         .map(
           (record) => `
             <article class="upload-row">
-              <span>${escapeHtml(/loopnet/i.test(record.source) ? "LN" : /bizbuysell/i.test(record.source) ? "BBS" : "Wash")}</span>
+              <span>Wash</span>
               <div>
                 <strong>${escapeHtml(record.name || record.market || "Car wash record")}</strong>
                 <small>${escapeHtml([record.market, record.state, record.asking_price, record.ebitda].filter(Boolean).join(" | ") || record.source || "Added record")}</small>
@@ -295,31 +278,6 @@ if (manualRecordForm) {
       manualRecordStatus.textContent = error.message || "Could not save record.";
     } finally {
       manualRecordButton.disabled = false;
-    }
-  });
-}
-
-if (researchQueueForm) {
-  researchQueueForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const record = formObject(researchQueueForm);
-    if (!record.research_url && !record.full_text) {
-      researchQueueStatus.textContent = "Paste a listing URL or listing text first.";
-      return;
-    }
-    record.name = inferListingName(record.full_text, record.research_url);
-    record.note = record.full_text || record.research_url;
-    researchQueueButton.disabled = true;
-    researchQueueStatus.textContent = "Saving research lead...";
-    try {
-      await postManualRecord(record);
-      researchQueueForm.reset();
-      researchQueueStatus.textContent = "Saved. The lead is now searchable in Scout.";
-      await loadManualRecords();
-    } catch (error) {
-      researchQueueStatus.textContent = error.message || "Could not save research lead.";
-    } finally {
-      researchQueueButton.disabled = false;
     }
   });
 }

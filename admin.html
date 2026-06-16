@@ -4,22 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Scout Admin</title>
-    <link rel="stylesheet" href="styles.css?v=41" />
+    <link rel="stylesheet" href="styles.css?v=42" />
   </head>
   <body>
     <main class="admin-shell">
       <section class="admin-panel">
         <div class="admin-head">
           <a href="/">Back to Scout</a>
-          <span>Admin Upload</span>
+          <span>Admin</span>
         </div>
-        <h1>Add To Scout</h1>
-        <p>Add a new car wash site in under a minute. The easiest way is uploading a screenshot or photo.</p>
+        <h1>Add a New Wash</h1>
+        <p>Upload one screenshot, photo, or PDF. Scout saves it as a lead and keeps the file in the library.</p>
 
         <form id="screenshotLeadForm" class="upload-card screenshot-lead-card">
           <div class="section-heading">
-            <h2>Add From Screenshot</h2>
-            <span>Easiest</span>
+            <h2>Screenshot Lead</h2>
+            <span>Best</span>
           </div>
           <label class="drop-zone">
             <span>Screenshot, photo, or PDF</span>
@@ -33,81 +33,83 @@
             </label>
           </div>
           <button id="screenshotLeadButton" type="submit">Save Screenshot Lead</button>
-          <p id="screenshotLeadStatus" class="upload-status">Best for non-technical users: screenshot first, details later.</p>
-        </form>
-
-        <form id="manualRecordForm" class="upload-card manual-record-card primary-add-card">
-          <div class="section-heading">
-            <h2>Add New Site</h2>
-            <span>Simple entry</span>
-          </div>
-          <div class="admin-field-grid easy-site-grid">
-            <label class="wide-field">
-              <span>Name</span>
-              <input id="manualName" name="name" type="text" placeholder="AquaShine Express Car Wash" autocomplete="off" />
-            </label>
-            <label class="wide-field">
-              <span>Address / City / State</span>
-              <input id="manualMarket" name="market" type="text" placeholder="1555 N Washington Blvd, Sarasota, FL 34236" autocomplete="off" />
-            </label>
-            <label class="wide-field">
-              <span>Listing Link</span>
-              <input id="manualResearchUrl" name="research_url" type="url" placeholder="LoopNet, BizBuySell, broker page, or website link" autocomplete="off" />
-            </label>
-            <label class="wide-field">
-              <span>Paste Details</span>
-              <textarea id="manualNote" name="note" placeholder="Paste the listing text, price, EBITDA, broker notes, traffic count, phone, website, or anything useful."></textarea>
-            </label>
-            <details class="nested-expander wide-field">
-              <summary>Optional numbers</summary>
-              <div class="admin-field-grid nested-grid">
-                <label>
-                  <span>State</span>
-                  <input id="manualState" name="state" type="text" placeholder="FL" maxlength="2" autocomplete="off" />
-                </label>
-                <label>
-                  <span>Asking Price</span>
-                  <input id="manualAskingPrice" name="asking_price" type="text" placeholder="$2.4M" autocomplete="off" />
-                </label>
-                <label>
-                  <span>EBITDA</span>
-                  <input id="manualEbitda" name="ebitda" type="text" placeholder="$326K" autocomplete="off" />
-                </label>
-                <label>
-                  <span>Acres</span>
-                  <input id="manualAcres" name="acres" type="text" placeholder="0.85" autocomplete="off" />
-                </label>
-                <label>
-                  <span>Phone</span>
-                  <input id="manualPhone" name="phone" type="text" placeholder="(941) 613-5391" autocomplete="off" />
-                </label>
-                <label>
-                  <span>Website</span>
-                  <input id="manualWebsite" name="website" type="url" placeholder="https://example.com" autocomplete="off" />
-                </label>
-                <label>
-                  <span>Year</span>
-                  <input id="manualYear" name="year" type="text" placeholder="2026" inputmode="numeric" autocomplete="off" />
-                </label>
-                <label>
-                  <span>Sales</span>
-                  <input id="manualSales" name="sales" type="text" placeholder="$1.8M" autocomplete="off" />
-                </label>
-                <label>
-                  <span>Cars/Yr</span>
-                  <input id="manualCars" name="cars_per_year" type="text" placeholder="120,000" autocomplete="off" />
-                </label>
-              </div>
-            </details>
-          </div>
-          <button id="manualRecordButton" type="submit">Add Site</button>
-          <p id="manualRecordStatus" class="upload-status">Ready to add a new site.</p>
+          <p id="screenshotLeadStatus" class="upload-status">Ready for one screenshot or photo.</p>
         </form>
 
         <details class="admin-expander">
           <summary>
-            <span>Upload Documents</span>
-            <small>PDFs, photos, scans, Excel, Word, ZIP.</small>
+            <span>Type Details Instead</span>
+            <small>Optional</small>
+          </summary>
+          <form id="manualRecordForm" class="upload-card manual-record-card">
+            <div class="admin-field-grid easy-site-grid">
+              <label class="wide-field">
+                <span>Name</span>
+                <input id="manualName" name="name" type="text" placeholder="AquaShine Express Car Wash" autocomplete="off" />
+              </label>
+              <label class="wide-field">
+                <span>Address / City / State</span>
+                <input id="manualMarket" name="market" type="text" placeholder="1555 N Washington Blvd, Sarasota, FL 34236" autocomplete="off" />
+              </label>
+              <label class="wide-field">
+                <span>Link</span>
+                <input id="manualResearchUrl" name="research_url" type="url" placeholder="Listing, broker page, or website link" autocomplete="off" />
+              </label>
+              <label class="wide-field">
+                <span>Notes</span>
+                <textarea id="manualNote" name="note" placeholder="Paste price, EBITDA, traffic count, phone, website, or anything useful."></textarea>
+              </label>
+              <details class="nested-expander wide-field">
+                <summary>Optional numbers</summary>
+                <div class="admin-field-grid nested-grid">
+                  <label>
+                    <span>State</span>
+                    <input id="manualState" name="state" type="text" placeholder="FL" maxlength="2" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>Asking Price</span>
+                    <input id="manualAskingPrice" name="asking_price" type="text" placeholder="$2.4M" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>EBITDA</span>
+                    <input id="manualEbitda" name="ebitda" type="text" placeholder="$326K" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>Acres</span>
+                    <input id="manualAcres" name="acres" type="text" placeholder="0.85" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>Phone</span>
+                    <input id="manualPhone" name="phone" type="text" placeholder="(941) 613-5391" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>Website</span>
+                    <input id="manualWebsite" name="website" type="url" placeholder="https://example.com" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>Year</span>
+                    <input id="manualYear" name="year" type="text" placeholder="2026" inputmode="numeric" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>Sales</span>
+                    <input id="manualSales" name="sales" type="text" placeholder="$1.8M" autocomplete="off" />
+                  </label>
+                  <label>
+                    <span>Cars/Yr</span>
+                    <input id="manualCars" name="cars_per_year" type="text" placeholder="120,000" autocomplete="off" />
+                  </label>
+                </div>
+              </details>
+            </div>
+            <button id="manualRecordButton" type="submit">Add Site</button>
+            <p id="manualRecordStatus" class="upload-status">Ready to add a typed site.</p>
+          </form>
+        </details>
+
+        <details class="admin-expander">
+          <summary>
+            <span>Upload Many Files</span>
+            <small>PDFs, photos, scans, ZIP</small>
           </summary>
           <form id="uploadForm" class="upload-card">
             <label class="drop-zone">
@@ -116,57 +118,25 @@
               <input id="uploadInput" name="files" type="file" accept="image/*,.pdf,.txt,.csv,.json,.xlsx,.xls,.doc,.docx,.zip" multiple />
             </label>
             <button id="uploadButton" type="submit">Upload Files</button>
-            <p id="uploadStatus" class="upload-status">Tap Choose Files on a phone, bulk-select files from Finder, or upload a ZIP backup.</p>
+            <p id="uploadStatus" class="upload-status">Ready for PDFs, photos, scans, spreadsheets, or ZIP backups.</p>
           </form>
         </details>
 
         <details class="admin-expander">
           <summary>
-            <span>Daily Listing Agent</span>
-            <small>Daily intake from alerts or approved feeds.</small>
-          </summary>
-          <section class="upload-card agent-setup-card">
-            <p class="admin-helper">It will not directly scrape LoopNet/BizBuySell pages. Use saved-search alerts, exports, broker emails, or an approved feed to send new car wash leads into Scout every day.</p>
-            <div class="agent-source-list">
-              <a href="https://www.loopnet.com/search/car-washes/usa/for-sale/" target="_blank" rel="noreferrer">LoopNet: US car washes for sale</a>
-              <a href="https://www.bizbuysell.com/texas/fort-worth/car-washes-for-sale/" target="_blank" rel="noreferrer">BizBuySell: Fort Worth car washes</a>
-            </div>
-            <div class="agent-flow">
-              <span>Daily Alert</span>
-              <span>Parser</span>
-              <span>Scout API</span>
-              <span>New Lead</span>
-            </div>
-            <div class="agent-endpoint">
-              <b>Post new leads to:</b>
-              <code>/api/manual-records</code>
-              <span>Use Scout username/password as Basic Auth. Send JSON with one <code>record</code> or multiple <code>records</code>.</span>
-            </div>
-          </section>
-        </details>
-
-        <details class="admin-expander">
-          <summary>
-            <span>Uploaded Files</span>
-            <small id="uploadCount">0 files</small>
+            <span>Library</span>
+            <small><span id="uploadCount">0 files</span> / <span id="manualRecordCount">0 records</span></small>
           </summary>
           <section class="admin-list-block">
+            <h2>Uploaded Files</h2>
             <div id="uploadList" class="upload-list"></div>
-          </section>
-        </details>
-
-        <details class="admin-expander">
-          <summary>
-            <span>Added Washes & Research Leads</span>
-            <small id="manualRecordCount">0 records</small>
-          </summary>
-          <section class="admin-list-block">
+            <h2>Added Washes</h2>
             <div id="manualRecordList" class="upload-list"></div>
           </section>
         </details>
       </section>
     </main>
 
-    <script src="admin.js?v=3"></script>
+    <script src="admin.js?v=4"></script>
   </body>
 </html>
