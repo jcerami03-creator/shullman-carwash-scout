@@ -16,6 +16,15 @@ const uploadMetaPath = path.join(uploadRoot, "metadata.json");
 const manualRecordsPath = path.join(uploadRoot, "manual-records.json");
 const maxUploadBytes = Number(process.env.UPLOAD_MAX_BYTES || 100 * 1024 * 1024);
 
+// --- Permanent storage (Upstash Redis REST) ---
+// When these env vars are set, manual records are saved to Upstash so they
+// survive Render restarts/redeploys. If not set, falls back to the local file.
+const upstashUrl = process.env.UPSTASH_REDIS_REST_URL || "";
+const upstashToken = process.env.UPSTASH_REDIS_REST_TOKEN || "";
+const usePersistentStore = Boolean(upstashUrl && upstashToken);
+const manualRecordsKey = process.env.MANUAL_RECORDS_KEY || "manual-records";
+let manualRecordsCache = [];
+
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
@@ -112,7 +121,23 @@ function writeUploadMetadata(items) {
   fs.writeFileSync(uploadMetaPath, JSON.stringify(items, null, 2), "utf8");
 }
 
-function readManualRecords() {
+async function redisCommand(args) {
+  const response = await fetch(upstashUrl, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${upstashToken}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(args),
+  });
+  if (!response.ok) {
+    throw new Error(`Upstash ${response.status}: ${await response.text()}`);
+  }
+  const data = await response.json();
+  return data.result;
+}
+
+function readManualRecordsFile() {
   try {
     ensureUploadRoot();
     const parsed = JSON.parse(fs.readFileSync(manualRecordsPath, "utf8"));
@@ -122,9 +147,78 @@ function readManualRecords() {
   }
 }
 
-function writeManualRecords(records) {
-  ensureUploadRoot();
-  fs.writeFileSync(manualRecordsPath, JSON.stringify(records, null, 2), "utf8");
+// Dedup key: prefer the stable BizBuySell listing id (?q=), then the full
+// research url, then name|state. Keeps saves idempotent so retries/re-runs
+// can never create duplicate listings.
+function recordKey(r) {
+  const url = String((r && r.research_url) || "").toLowerCase();
+  const m = url.match(/[?&]q=(\d+)/);
+  if (m) return "q:" + m[1];
+  if (url) return "u:" + url;
+  const name = String((r && r.name) || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const state = String((r && r.state) || "").toLowerCase();
+  return "n:" + name + "|" + state;
+}
+
+function dedupeRecords(records) {
+  const seen = new Set();
+  const out = [];
+  for (const r of Array.isArray(records) ? records : []) {
+    const key = recordKey(r);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(r);
+  }
+  return out;
+}
+
+// Hydrate the in-memory cache once at startup (from Upstash if configured).
+async function loadManualRecords() {
+  let records = [];
+  if (usePersistentStore) {
+    try {
+      const raw = await redisCommand(["GET", manualRecordsKey]);
+      records = raw ? JSON.parse(raw) : [];
+    } catch (error) {
+      console.error("Upstash load failed, using local file:", error.message);
+      records = readManualRecordsFile();
+    }
+  } else {
+    records = readManualRecordsFile();
+    console.log("Persistent store not configured - using local file (temporary).");
+  }
+  const deduped = dedupeRecords(records);
+  manualRecordsCache = deduped;
+  // One-time cleanup: if old duplicates exist, persist the deduped list back.
+  if (usePersistentStore && deduped.length !== records.length) {
+    try {
+      await redisCommand(["SET", manualRecordsKey, JSON.stringify(deduped)]);
+      console.log(`Cleaned ${records.length - deduped.length} duplicate record(s).`);
+    } catch (error) {
+      console.error("Dedup cleanup failed:", error.message);
+    }
+  }
+  console.log(`Loaded ${deduped.length} manual record(s).`);
+  return manualRecordsCache;
+}
+
+function readManualRecords() {
+  return manualRecordsCache;
+}
+
+async function writeManualRecords(records) {
+  const deduped = dedupeRecords(records);
+  manualRecordsCache = deduped;
+  // Keep a local file copy too (helps local dev; harmless on Render)
+  try {
+    ensureUploadRoot();
+    fs.writeFileSync(manualRecordsPath, JSON.stringify(deduped, null, 2), "utf8");
+  } catch {
+    // ephemeral/read-only filesystem - fine when Upstash is the source of truth
+  }
+  if (usePersistentStore) {
+    await redisCommand(["SET", manualRecordsKey, JSON.stringify(deduped)]);
+  }
 }
 
 function cleanText(value, maxLength = 8000) {
@@ -720,20 +814,30 @@ function handleManualRecords(req, res) {
       return;
     }
     Promise.all(cleaned.map(enrichRecord))
-      .then((enriched) => {
+      .then(
+        (enriched) => {
+          enriched.reverse();
+          return { items: enriched, warning: "" };
+        },
+        (enrichError) => {
+          cleaned.forEach((record) => {
+            record.enrichment_status = enrichError.message || "Automatic enrichment failed.";
+          });
+          cleaned.reverse();
+          return { items: cleaned, warning: enrichError.message || "Automatic enrichment failed." };
+        }
+      )
+      .then(({ items, warning }) => {
         const records = readManualRecords();
-        enriched.reverse().forEach((record) => records.unshift(record));
-        writeManualRecords(records);
-        sendJson(res, 201, { records: enriched, total: records.length });
-      })
-      .catch((enrichError) => {
-        const records = readManualRecords();
-        cleaned.forEach((record) => {
-          record.enrichment_status = enrichError.message || "Automatic enrichment failed.";
+        items.forEach((record) => records.unshift(record));
+        return writeManualRecords(records).then(() => {
+          const body = { records: items, total: records.length };
+          if (warning) body.warning = warning;
+          sendJson(res, 201, body);
         });
-        cleaned.reverse().forEach((record) => records.unshift(record));
-        writeManualRecords(records);
-        sendJson(res, 201, { records: cleaned, total: records.length, warning: enrichError.message || "Automatic enrichment failed." });
+      })
+      .catch((writeError) => {
+        sendJson(res, 500, { error: `Could not save listing: ${writeError.message}` });
       });
   });
 }
@@ -894,6 +998,10 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(port, host, () => {
-  console.log(`Carwash Scout running on ${host}:${port}`);
-});
+loadManualRecords()
+  .catch((error) => console.error("Initial records load failed:", error.message))
+  .finally(() => {
+    server.listen(port, host, () => {
+      console.log(`Carwash Scout running on ${host}:${port}`);
+    });
+  });
