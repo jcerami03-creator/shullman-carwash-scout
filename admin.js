@@ -225,7 +225,7 @@ if (screenshotLeadForm) {
     }
 
     screenshotLeadButton.disabled = true;
-    screenshotLeadStatus.textContent = "Saving screenshot lead...";
+    screenshotLeadStatus.textContent = "Analyzing and saving screenshot lead...";
     try {
       const uploads = await uploadFiles(files);
       const uploaded = uploads[0] || {};
@@ -242,6 +242,7 @@ if (screenshotLeadForm) {
           .filter(Boolean)
           .join(" "),
         research_url: noteIsUrl ? note : uploaded.pdf_url || "",
+        uploaded_url: uploaded.pdf_url || "",
         source: "Screenshot Lead",
       };
       await postManualRecord(record);

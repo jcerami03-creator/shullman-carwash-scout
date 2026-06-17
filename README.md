@@ -38,10 +38,21 @@ Scanned PDFs should be OCR'd into CSV, JSON, or text before uploading.
 
 1. Open the hosted Scout site and log in.
 2. Click `Admin Upload`.
-3. Use `Upload Files` for PDFs, scans, photos, screenshots, CSVs, or notes.
-4. Use `Add One Car Wash` when you already know the location/details and just want it searchable fast.
-5. Use `Research Queue` for LoopNet, BizBuySell, broker pages, or other online leads: copy the listing URL and visible listing text, paste it there, and save.
-6. Go back to the Scout and search. Admin-added washes and pasted research leads load automatically from the hosted backend.
+3. Use `Screenshot Lead` for one screenshot, photo, or PDF. This is the easiest option.
+4. Use `Type Details Instead` only when you already know the location/details.
+5. Use `Upload Many Files` for bulk PDFs, scans, photos, spreadsheets, or ZIP backups.
+6. Go back to the Scout and search. Admin-added washes load automatically from the hosted backend.
+
+## Automatic Enrichment
+
+Admin-added records can be enriched automatically when API keys are configured on the server:
+
+- `OPENAI_API_KEY`: reads uploaded screenshot/photo images and extracts visible listing fields.
+- `OPENAI_VISION_MODEL`: optional model override for image reading.
+- `GOOGLE_PLACES_API_KEY` or `GOOGLE_MAPS_API_KEY`: looks up the address and fills public contact fields such as current business name, phone, website, Google Maps link, and coordinates.
+- `TRAFFIC_API_URL`: optional traffic-count provider URL. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them.
+
+Scout does not invent financials or traffic counts. EBITDA, asking price, sales, and cars/year are filled only when visible in the uploaded material or supplied by an approved data source. Phone, website, Google Maps link, and coordinates can be filled from Google Places when an address is found.
 
 ## Searching Images
 

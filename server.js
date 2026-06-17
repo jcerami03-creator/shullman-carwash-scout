@@ -7,6 +7,10 @@ const port = Number(process.env.PORT || 8080);
 const host = process.env.HOST || "127.0.0.1";
 const username = process.env.SCOUT_USER || "shullman";
 const password = process.env.SCOUT_PASSWORD || "";
+const openaiApiKey = process.env.OPENAI_API_KEY || "";
+const openaiVisionModel = process.env.OPENAI_VISION_MODEL || "gpt-4.1-mini";
+const googlePlacesApiKey = process.env.GOOGLE_PLACES_API_KEY || process.env.GOOGLE_MAPS_API_KEY || "";
+const trafficApiUrl = process.env.TRAFFIC_API_URL || "";
 const uploadRoot = path.resolve(process.env.UPLOAD_DIR || path.join(root, "runtime-uploads"));
 const uploadMetaPath = path.join(uploadRoot, "metadata.json");
 const manualRecordsPath = path.join(uploadRoot, "manual-records.json");
@@ -142,11 +146,19 @@ function cleanRecordPayload(payload) {
     "phone",
     "website",
     "research_url",
+    "uploaded_url",
     "maps_url",
+    "latitude",
+    "longitude",
     "traffic_count",
     "note",
     "source",
     "full_text",
+    "public_summary",
+    "verification_status",
+    "source_urls",
+    "enrichment_status",
+    "enrichment_note",
   ];
   allowed.forEach((key) => {
     if (payload && payload[key] != null) record[key] = cleanText(payload[key], key === "full_text" || key === "note" ? 12000 : 1000);
@@ -158,6 +170,219 @@ function cleanRecordPayload(payload) {
   record.added_at = new Date().toISOString();
   record.id = `manual-${Date.now()}-${Math.random().toString(16).slice(2)}`;
   return record;
+}
+
+function mergeIfMissing(record, additions = {}) {
+  Object.entries(additions).forEach(([key, value]) => {
+    const clean = cleanText(value, key === "note" || key === "full_text" || key === "public_summary" ? 12000 : 1000);
+    if (clean && !record[key]) record[key] = clean;
+  });
+}
+
+function weakRecordName(record) {
+  const name = String(record.name || "").trim();
+  if (!name) return true;
+  if (/^(screenshot|image|img|document|scan|new car wash listing)/i.test(name)) return true;
+  return /\.(?:png|jpe?g|webp|pdf)$/i.test(name);
+}
+
+function extractState(value) {
+  const match = String(value || "").match(/\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b/i);
+  return match ? match[1].toUpperCase() : "";
+}
+
+function extractAddressCandidate(record) {
+  const fields = [record.market, record.note, record.full_text, record.name].filter(Boolean);
+  for (const field of fields) {
+    const text = String(field || "");
+    const address = text.match(/\b\d{2,6}\s+[A-Za-z0-9 .'-]+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Drive|Dr|Lane|Ln|Highway|Hwy|Pike|Parkway|Pkwy|Way|Court|Ct|Circle|Cir|Trail|Trl|Place|Pl|Terrace|Ter|Turnpike|Tpke)\b[^.\n]{0,90}/i);
+    if (address) return cleanText(address[0].replace(/\s+/g, " "), 300);
+  }
+  return "";
+}
+
+function localUploadPath(uploadUrl) {
+  const value = String(uploadUrl || "");
+  if (!value.startsWith("/uploads/")) return "";
+  const relative = decodeURIComponent(value.replace(/^\/uploads\/?/, ""));
+  const resolved = path.resolve(uploadRoot, relative);
+  return resolved.startsWith(uploadRoot) ? resolved : "";
+}
+
+function mimeForFile(filePath) {
+  return mimeTypes[path.extname(filePath).toLowerCase()] || "application/octet-stream";
+}
+
+function parseJsonFromText(text) {
+  const clean = String(text || "").trim();
+  if (!clean) return {};
+  try {
+    return JSON.parse(clean);
+  } catch {
+    const match = clean.match(/\{[\s\S]*\}/);
+    if (!match) return {};
+    try {
+      return JSON.parse(match[0]);
+    } catch {
+      return {};
+    }
+  }
+}
+
+function responseText(payload) {
+  if (payload?.output_text) return payload.output_text;
+  const chunks = [];
+  (payload?.output || []).forEach((item) => {
+    (item?.content || []).forEach((content) => {
+      if (content?.text) chunks.push(content.text);
+    });
+  });
+  return chunks.join("\n");
+}
+
+async function extractRecordFromImage(record) {
+  if (!openaiApiKey || !record.uploaded_url) return {};
+  const filePath = localUploadPath(record.uploaded_url);
+  if (!filePath || !fs.existsSync(filePath)) return {};
+  const mime = mimeForFile(filePath);
+  if (!/^image\//i.test(mime)) return {};
+  const dataUrl = `data:${mime};base64,${fs.readFileSync(filePath).toString("base64")}`;
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${openaiApiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: openaiVisionModel,
+      input: [
+        {
+          role: "user",
+          content: [
+            {
+              type: "input_text",
+              text:
+                "Read this car wash listing screenshot/photo. Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, note. Use null for missing fields. Do not guess financial numbers.",
+            },
+            {
+              type: "input_image",
+              image_url: dataUrl,
+              detail: "high",
+            },
+          ],
+        },
+      ],
+    }),
+  });
+  if (!response.ok) throw new Error(`Image analysis failed (${response.status}).`);
+  const payload = await response.json();
+  const parsed = parseJsonFromText(responseText(payload));
+  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "note"];
+  return Object.fromEntries(allowed.map((key) => [key, parsed[key]]).filter(([, value]) => value));
+}
+
+async function lookupGooglePlace(record) {
+  if (!googlePlacesApiKey) return {};
+  const address = extractAddressCandidate(record);
+  if (!address) return {};
+  const response = await fetch("https://places.googleapis.com/v1/places:searchText", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Goog-Api-Key": googlePlacesApiKey,
+      "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress,places.nationalPhoneNumber,places.websiteUri,places.googleMapsUri,places.location,places.businessStatus,places.types",
+    },
+    body: JSON.stringify({
+      textQuery: `${address} car wash`,
+      includedType: "car_wash",
+    }),
+  });
+  if (!response.ok) throw new Error(`Google Places lookup failed (${response.status}).`);
+  const payload = await response.json();
+  const place = Array.isArray(payload.places) ? payload.places[0] : null;
+  if (!place) return {};
+  const displayName = place.displayName?.text || "";
+  const formattedAddress = place.formattedAddress || "";
+  const lat = place.location?.latitude;
+  const lng = place.location?.longitude;
+  return {
+    name: weakRecordName(record) ? displayName : "",
+    market: formattedAddress,
+    state: extractState(formattedAddress),
+    phone: place.nationalPhoneNumber || "",
+    website: place.websiteUri || "",
+    maps_url: place.googleMapsUri || "",
+    latitude: lat == null ? "" : String(lat),
+    longitude: lng == null ? "" : String(lng),
+    public_summary: formattedAddress
+      ? `${displayName || "Car wash"} matched by address at ${formattedAddress}. Public contact fields were added from Google Places when available.`
+      : "",
+    source_urls: place.googleMapsUri || "",
+    verification_status: "Address contact lookup",
+  };
+}
+
+async function lookupTrafficCount(record) {
+  if (!trafficApiUrl || record.traffic_count) return {};
+  const address = record.market || extractAddressCandidate(record);
+  const url = trafficApiUrl
+    .replace(/\{lat\}/g, encodeURIComponent(record.latitude || ""))
+    .replace(/\{lng\}/g, encodeURIComponent(record.longitude || ""))
+    .replace(/\{address\}/g, encodeURIComponent(address || ""));
+  if (!/^https?:\/\//i.test(url)) return {};
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Traffic lookup failed (${response.status}).`);
+  const data = await response.json();
+  const value = data.traffic_count || data.aadt || data.vpd || data.count || "";
+  const source = data.source_url || data.source || "";
+  return value
+    ? {
+        traffic_count: String(value),
+        source_urls: [record.source_urls, source].filter(Boolean).join(" | "),
+      }
+    : {};
+}
+
+async function enrichRecord(record) {
+  const enriched = { ...record };
+  const notes = [];
+  try {
+    const imageFields = await extractRecordFromImage(enriched);
+    if (Object.keys(imageFields).length) {
+      if (weakRecordName(enriched) && imageFields.name) enriched.name = cleanText(imageFields.name, 1000);
+      mergeIfMissing(enriched, imageFields);
+      notes.push("image read");
+    }
+  } catch (error) {
+    notes.push(error.message);
+  }
+
+  try {
+    const placeFields = await lookupGooglePlace(enriched);
+    if (Object.keys(placeFields).length) {
+      mergeIfMissing(enriched, placeFields);
+      if (placeFields.market && !extractAddressCandidate(record)) enriched.market = cleanText(placeFields.market, 1000);
+      notes.push("map/contact lookup");
+    }
+  } catch (error) {
+    notes.push(error.message);
+  }
+
+  try {
+    const trafficFields = await lookupTrafficCount(enriched);
+    if (Object.keys(trafficFields).length) {
+      mergeIfMissing(enriched, trafficFields);
+      notes.push("traffic lookup");
+    }
+  } catch (error) {
+    notes.push(error.message);
+  }
+
+  enriched.enrichment_status = notes.length ? notes.join(" | ") : "saved without automatic enrichment";
+  if (!enriched.traffic_count && (enriched.latitude || enriched.market)) {
+    enriched.enrichment_note = "Traffic count requires a configured traffic data source; Scout does not invent traffic counts.";
+  }
+  return enriched;
 }
 
 function readJsonBody(req, maxBytes, callback) {
@@ -332,10 +557,22 @@ function handleManualRecords(req, res) {
       sendJson(res, 400, { error: "Add at least a name, address, URL, or note." });
       return;
     }
-    const records = readManualRecords();
-    cleaned.reverse().forEach((record) => records.unshift(record));
-    writeManualRecords(records);
-    sendJson(res, 201, { records: cleaned, total: records.length });
+    Promise.all(cleaned.map(enrichRecord))
+      .then((enriched) => {
+        const records = readManualRecords();
+        enriched.reverse().forEach((record) => records.unshift(record));
+        writeManualRecords(records);
+        sendJson(res, 201, { records: enriched, total: records.length });
+      })
+      .catch((enrichError) => {
+        const records = readManualRecords();
+        cleaned.forEach((record) => {
+          record.enrichment_status = enrichError.message || "Automatic enrichment failed.";
+        });
+        cleaned.reverse().forEach((record) => records.unshift(record));
+        writeManualRecords(records);
+        sendJson(res, 201, { records: cleaned, total: records.length, warning: enrichError.message || "Automatic enrichment failed." });
+      });
   });
 }
 
