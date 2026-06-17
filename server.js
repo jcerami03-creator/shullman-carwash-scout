@@ -147,21 +147,58 @@ function readManualRecordsFile() {
   }
 }
 
+// Dedup key: prefer the stable BizBuySell listing id (?q=), then the full
+// research url, then name|state. Keeps saves idempotent so retries/re-runs
+// can never create duplicate listings.
+function recordKey(r) {
+  const url = String((r && r.research_url) || "").toLowerCase();
+  const m = url.match(/[?&]q=(\d+)/);
+  if (m) return "q:" + m[1];
+  if (url) return "u:" + url;
+  const name = String((r && r.name) || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const state = String((r && r.state) || "").toLowerCase();
+  return "n:" + name + "|" + state;
+}
+
+function dedupeRecords(records) {
+  const seen = new Set();
+  const out = [];
+  for (const r of Array.isArray(records) ? records : []) {
+    const key = recordKey(r);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(r);
+  }
+  return out;
+}
+
 // Hydrate the in-memory cache once at startup (from Upstash if configured).
 async function loadManualRecords() {
+  let records = [];
   if (usePersistentStore) {
     try {
       const raw = await redisCommand(["GET", manualRecordsKey]);
-      manualRecordsCache = raw ? JSON.parse(raw) : [];
-      console.log(`Loaded ${manualRecordsCache.length} manual record(s) from Upstash.`);
+      records = raw ? JSON.parse(raw) : [];
     } catch (error) {
       console.error("Upstash load failed, using local file:", error.message);
-      manualRecordsCache = readManualRecordsFile();
+      records = readManualRecordsFile();
     }
   } else {
-    manualRecordsCache = readManualRecordsFile();
-    console.log("Persistent store not configured — using local file (temporary).");
+    records = readManualRecordsFile();
+    console.log("Persistent store not configured - using local file (temporary).");
   }
+  const deduped = dedupeRecords(records);
+  manualRecordsCache = deduped;
+  // One-time cleanup: if old duplicates exist, persist the deduped list back.
+  if (usePersistentStore && deduped.length !== records.length) {
+    try {
+      await redisCommand(["SET", manualRecordsKey, JSON.stringify(deduped)]);
+      console.log(`Cleaned ${records.length - deduped.length} duplicate record(s).`);
+    } catch (error) {
+      console.error("Dedup cleanup failed:", error.message);
+    }
+  }
+  console.log(`Loaded ${deduped.length} manual record(s).`);
   return manualRecordsCache;
 }
 
@@ -170,16 +207,17 @@ function readManualRecords() {
 }
 
 async function writeManualRecords(records) {
-  manualRecordsCache = records;
+  const deduped = dedupeRecords(records);
+  manualRecordsCache = deduped;
   // Keep a local file copy too (helps local dev; harmless on Render)
   try {
     ensureUploadRoot();
-    fs.writeFileSync(manualRecordsPath, JSON.stringify(records, null, 2), "utf8");
+    fs.writeFileSync(manualRecordsPath, JSON.stringify(deduped, null, 2), "utf8");
   } catch {
-    // ephemeral/read-only filesystem — fine when Upstash is the source of truth
+    // ephemeral/read-only filesystem - fine when Upstash is the source of truth
   }
   if (usePersistentStore) {
-    await redisCommand(["SET", manualRecordsKey, JSON.stringify(records)]);
+    await redisCommand(["SET", manualRecordsKey, JSON.stringify(deduped)]);
   }
 }
 
