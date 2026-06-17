@@ -887,7 +887,7 @@ function selectRecord(id, rerender = true) {
 
   const detailFields = [
     ["Year", metricValue(record.year)],
-    ["Address", metricValue(record.market)],
+    ["Market", metricValue(record.market)],
     ["Asking Price", metricValue(record.askingPrice, "money")],
     ["Sales", metricValue(record.sales, "money")],
     ["EBITDA", metricValue(record.ebitda, "money")],
