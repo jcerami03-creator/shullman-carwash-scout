@@ -805,7 +805,7 @@ function runSearch() {
   const query = combinedSearchText(criteria);
   const selectedMarket = criteria.market || inferMarketFromQuery(query);
   const selectedYear = criteria.year || inferYearFromQuery(query);
-  const limit = 10;
+  const limit = 50;
   const queryTokens = tokenize(query).filter(
     (token) => !["find", "show", "what", "which", "did", "the", "and", "with", "car", "wash", "washes"].includes(token)
   );
@@ -1581,7 +1581,7 @@ function renderDocumentCard(doc) {
       <div class="document-card-head">
         <div>
           <h3>${escapeHtml(doc.title)}</h3>
-          <p>${isImageScan ? `${galleryImages.length.toLocaleString()} preview pages grouped by interpretation` : `${Number(doc.page_count || 0).toLocaleString()} pages • ${Number(doc.evidence_page_count || 0).toLocaleString()} evidence pages • ${Number(doc.evidence_row_count || 0).toLocaleString()} structured rows`}</p>
+          <p>${isImageScan ? `${galleryImages.length.toLocaleString()} preview pages grouped by interpretation` : `${Number(doc.page_count || 0).toLocaleString()} pages &bull; ${Number(doc.evidence_page_count || 0).toLocaleString()} evidence pages &bull; ${Number(doc.evidence_row_count || 0).toLocaleString()} structured rows`}</p>
         </div>
         <div class="document-actions">
           ${pdfHref ? `<a class="source-link" href="${escapeHtml(pdfHref)}" target="_blank" rel="noreferrer">Open PDF</a>` : ""}
