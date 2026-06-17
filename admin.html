@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Scout Admin</title>
-    <link rel="stylesheet" href="styles.css?v=42" />
+    <link rel="stylesheet" href="styles.css?v=43" />
   </head>
   <body>
     <main class="admin-shell">
@@ -34,6 +34,25 @@
           </div>
           <button id="screenshotLeadButton" type="submit">Save Screenshot Lead</button>
           <p id="screenshotLeadStatus" class="upload-status">Ready for one screenshot or photo.</p>
+        </form>
+
+        <form id="linkRecordForm" class="upload-card link-record-card">
+          <div class="section-heading">
+            <h2>Paste a Listing Link</h2>
+            <span>Quick</span>
+          </div>
+          <div class="admin-field-grid easy-site-grid">
+            <label class="wide-field">
+              <span>Listing URL</span>
+              <input id="linkRecordUrl" type="url" placeholder="https://www.loopnet.com/..." autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Note</span>
+              <input id="linkRecordNote" type="text" placeholder="Optional: city/state, price, or anything you already know" autocomplete="off" />
+            </label>
+          </div>
+          <button id="linkRecordButton" type="submit">Import Link</button>
+          <p id="linkRecordStatus" class="upload-status">Paste a public listing link and Scout will save what it can read.</p>
         </form>
 
         <details class="admin-expander">
@@ -137,6 +156,6 @@
       </section>
     </main>
 
-    <script src="admin.js?v=4"></script>
+    <script src="admin.js?v=5"></script>
   </body>
 </html>

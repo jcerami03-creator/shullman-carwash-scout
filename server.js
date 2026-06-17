@@ -182,7 +182,7 @@ function mergeIfMissing(record, additions = {}) {
 function weakRecordName(record) {
   const name = String(record.name || "").trim();
   if (!name) return true;
-  if (/^(screenshot|image|img|document|scan|new car wash listing)/i.test(name)) return true;
+  if (/^(screenshot|image|img|document|scan|new car wash listing|imported listing link)/i.test(name)) return true;
   return /\.(?:png|jpe?g|webp|pdf)$/i.test(name);
 }
 
@@ -227,6 +227,136 @@ function parseJsonFromText(text) {
       return {};
     }
   }
+}
+
+function normalizePublicUrl(value) {
+  const clean = cleanText(value, 2000);
+  try {
+    const parsed = new URL(clean);
+    if (!["http:", "https:"].includes(parsed.protocol)) return "";
+    return parsed.toString();
+  } catch {
+    return "";
+  }
+}
+
+function decodeHtmlEntities(value) {
+  return String(value || "")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">");
+}
+
+function stripHtmlToText(html) {
+  return decodeHtmlEntities(
+    String(html || "")
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+  ).trim();
+}
+
+function htmlMeta(html, name) {
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const patterns = [
+    new RegExp(`<meta[^>]+(?:name|property)=["']${escaped}["'][^>]+content=["']([^"']+)["'][^>]*>`, "i"),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:name|property)=["']${escaped}["'][^>]*>`, "i"),
+  ];
+  for (const pattern of patterns) {
+    const match = String(html || "").match(pattern);
+    if (match) return decodeHtmlEntities(match[1]);
+  }
+  return "";
+}
+
+function htmlTitle(html) {
+  const match = String(html || "").match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+  return match ? cleanText(decodeHtmlEntities(match[1]), 240) : "";
+}
+
+function cleanListingTitle(value) {
+  return cleanText(value, 240)
+    .replace(/\s+\|\s+Listing$/i, "")
+    .replace(/\s+\|\s+(LoopNet|BizBuySell|Crexi|BusinessesForSale|Google Maps).*$/i, "")
+    .replace(/\s+-\s+(LoopNet|BizBuySell|Crexi|BusinessesForSale|Google Maps).*$/i, "")
+    .replace(/\bBusinesses?\s+For\s+Sale\b.*$/i, "")
+    .replace(/\bCommercial\s+Real\s+Estate\b.*$/i, "")
+    .trim();
+}
+
+function firstMatch(text, pattern) {
+  const match = String(text || "").match(pattern);
+  return match ? cleanText(match[1] || match[0], 500) : "";
+}
+
+function extractMoneyNear(text, labelPattern) {
+  const match = String(text || "").match(new RegExp(`(?:${labelPattern})[^$]{0,80}(\\$\\s?[0-9][0-9,.]*(?:\\s?(?:M|MM|K|million|thousand))?)`, "i"));
+  return match ? cleanText(match[1].replace(/\s+/g, ""), 80).replace(/\$([0-9])/, "$$$1") : "";
+}
+
+function extractJsonLdText(html) {
+  const chunks = [];
+  const scripts = String(html || "").matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi);
+  function collect(value) {
+    if (!value) return;
+    if (typeof value === "string" || typeof value === "number") {
+      chunks.push(String(value));
+      return;
+    }
+    if (Array.isArray(value)) {
+      value.forEach(collect);
+      return;
+    }
+    if (typeof value === "object") {
+      ["name", "description", "streetAddress", "addressLocality", "addressRegion", "postalCode", "telephone", "url"].forEach((key) => collect(value[key]));
+      collect(value.address);
+      collect(value.offers);
+    }
+  }
+  for (const script of scripts) {
+    try {
+      collect(JSON.parse(decodeHtmlEntities(script[1])));
+    } catch {
+      // Listing pages often contain malformed tracking JSON. Ignore and continue.
+    }
+  }
+  return cleanText(chunks.join(" "), 12000);
+}
+
+function inferRecordFromListingPage(url, html) {
+  const title = htmlMeta(html, "og:title") || htmlTitle(html);
+  const description = htmlMeta(html, "og:description") || htmlMeta(html, "description");
+  const jsonLd = extractJsonLdText(html);
+  const text = cleanText([title, description, jsonLd, stripHtmlToText(html)].filter(Boolean).join(" "), 50000);
+  const address = firstMatch(
+    text,
+    /\b\d{2,6}\s+[A-Za-z0-9 .'-]+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Drive|Dr|Lane|Ln|Highway|Hwy|Pike|Parkway|Pkwy|Way|Court|Ct|Circle|Cir|Trail|Trl|Place|Pl|Terrace|Ter|Turnpike|Tpke)\b[^,.\n]{0,90}(?:,\s*[A-Za-z .'-]+)?(?:,\s*(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b)?(?:\s+\d{5})?/i
+  );
+  const name = cleanListingTitle(title) || firstMatch(text, /\b([A-Z][A-Za-z0-9 &'’-]{2,80}(?:Car Wash|Express Wash|Auto Spa|Wash Club|Wash Center))\b/i);
+  const phone = firstMatch(text, /\(?\b\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b/);
+  const acres = firstMatch(text, /\b([0-9]+(?:\.[0-9]+)?)\s*(?:acre|acres)\b/i);
+  const carsPerYear = firstMatch(text, /\b([0-9][0-9,]{2,})\s*(?:cars|vehicles)\s*(?:\/|per)?\s*(?:yr|year|annually|annual)\b/i);
+  const trafficCount = firstMatch(text, /\b(?:traffic|AADT|vehicles per day|VPD)[^0-9]{0,60}([0-9][0-9,]{2,})\b/i);
+  const state = extractState(address || text);
+  return {
+    name: name || "Imported car wash listing",
+    market: address,
+    state,
+    asking_price: extractMoneyNear(text, "asking price|list price|price|sale price|asking") || "",
+    sales: extractMoneyNear(text, "sales|revenue|gross sales|gross revenue") || "",
+    ebitda: extractMoneyNear(text, "EBITDA|cash flow|SDE|owner benefit|owner earnings") || "",
+    cars_per_year: carsPerYear,
+    acres,
+    phone,
+    traffic_count: trafficCount,
+    note: cleanText(description || `Listing imported from ${new URL(url).hostname}.`, 1200),
+    full_text: text,
+  };
 }
 
 function responseText(payload) {
@@ -277,6 +407,38 @@ async function extractRecordFromImage(record) {
   if (!response.ok) throw new Error(`Image analysis failed (${response.status}).`);
   const payload = await response.json();
   const parsed = parseJsonFromText(responseText(payload));
+  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "note"];
+  return Object.fromEntries(allowed.map((key) => [key, parsed[key]]).filter(([, value]) => value));
+}
+
+async function extractRecordFromText(text, sourceUrl) {
+  if (!openaiApiKey || !text) return {};
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${openaiApiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: openaiVisionModel,
+      input: [
+        {
+          role: "user",
+          content: [
+            {
+              type: "input_text",
+              text:
+                `Extract a car wash listing from this public listing page text. Source URL: ${sourceUrl}\n` +
+                "Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, note. Use null for missing fields. Do not guess financial numbers.\n\n" +
+                cleanText(text, 30000),
+            },
+          ],
+        },
+      ],
+    }),
+  });
+  if (!response.ok) throw new Error(`Listing analysis failed (${response.status}).`);
+  const parsed = parseJsonFromText(responseText(await response.json()));
   const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "note"];
   return Object.fromEntries(allowed.map((key) => [key, parsed[key]]).filter(([, value]) => value));
 }
@@ -576,6 +738,87 @@ function handleManualRecords(req, res) {
   });
 }
 
+async function fetchListingHtml(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  try {
+    const response = await fetch(url, {
+      redirect: "follow",
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; ShullmanCarwashScout/1.0; +https://render.com)",
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      },
+    });
+    if (!response.ok) throw new Error(`Listing page returned ${response.status}.`);
+    const contentType = response.headers.get("content-type") || "";
+    if (!/text\/html|application\/xhtml\+xml|text\/plain/i.test(contentType)) {
+      throw new Error("That link is not a readable web page.");
+    }
+    const buffer = Buffer.from(await response.arrayBuffer());
+    const maxBytes = 2 * 1024 * 1024;
+    return buffer.subarray(0, maxBytes).toString("utf8");
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function handleLinkRecords(req, res) {
+  if (req.method !== "POST") {
+    sendJson(res, 405, { error: "Method not allowed" });
+    return;
+  }
+
+  readJsonBody(req, 256 * 1024, async (error, payload) => {
+    if (error) {
+      sendJson(res, 400, { error: error.message });
+      return;
+    }
+
+    const url = normalizePublicUrl(payload?.url);
+    const note = cleanText(payload?.note || "", 2000);
+    if (!url) {
+      sendJson(res, 400, { error: "Paste a full public link that starts with http or https." });
+      return;
+    }
+
+    const baseRecord = cleanRecordPayload({
+      name: "Imported listing link",
+      research_url: url,
+      note: [note, "Listing link imported from Admin."].filter(Boolean).join(" "),
+      source: "Listing Link",
+    });
+    let record = baseRecord;
+    let warning = "";
+
+    try {
+      const html = await fetchListingHtml(url);
+      const inferred = inferRecordFromListingPage(url, html);
+      if (weakRecordName(record) && inferred.name) record.name = cleanText(inferred.name, 1000);
+      mergeIfMissing(record, inferred);
+
+      try {
+        const aiFields = await extractRecordFromText(record.full_text, url);
+        if (weakRecordName(record) && aiFields.name) record.name = cleanText(aiFields.name, 1000);
+        mergeIfMissing(record, aiFields);
+      } catch (aiError) {
+        warning = aiError.message || "";
+      }
+
+      record = await enrichRecord(record);
+    } catch (fetchError) {
+      warning = `${fetchError.message || "The listing page could not be read automatically."} Saved the link for review.`;
+      record.enrichment_status = "link saved; page not readable from server";
+      record.enrichment_note = "If the listing page blocks server reading, upload a screenshot or PDF of the listing and Scout can process that file instead.";
+    }
+
+    const records = readManualRecords();
+    records.unshift(record);
+    writeManualRecords(records);
+    sendJson(res, 201, { records: [record], total: records.length, warning });
+  });
+}
+
 function serveUpload(req, res) {
   const pathname = decodeURIComponent((req.url || "").split("?")[0]);
   const relative = pathname.replace(/^\/uploads\/?/, "");
@@ -613,6 +856,11 @@ const server = http.createServer((req, res) => {
 
   if ((req.url || "").startsWith("/api/manual-records")) {
     handleManualRecords(req, res);
+    return;
+  }
+
+  if ((req.url || "").startsWith("/api/link-records")) {
+    handleLinkRecords(req, res);
     return;
   }
 

@@ -39,9 +39,10 @@ Scanned PDFs should be OCR'd into CSV, JSON, or text before uploading.
 1. Open the hosted Scout site and log in.
 2. Click `Admin Upload`.
 3. Use `Screenshot Lead` for one screenshot, photo, or PDF. This is the easiest option.
-4. Use `Type Details Instead` only when you already know the location/details.
-5. Use `Upload Many Files` for bulk PDFs, scans, photos, spreadsheets, or ZIP backups.
-6. Go back to the Scout and search. Admin-added washes load automatically from the hosted backend.
+4. Use `Paste a Listing Link` when you have a public LoopNet, BizBuySell, broker, or listing page URL.
+5. Use `Type Details Instead` only when you already know the location/details.
+6. Use `Upload Many Files` for bulk PDFs, scans, photos, spreadsheets, or ZIP backups.
+7. Go back to the Scout and search. Admin-added washes load automatically from the hosted backend.
 
 ## Automatic Enrichment
 
@@ -53,6 +54,12 @@ Admin-added records can be enriched automatically when API keys are configured o
 - `TRAFFIC_API_URL`: optional traffic-count provider URL. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them.
 
 Scout does not invent financials or traffic counts. EBITDA, asking price, sales, and cars/year are filled only when visible in the uploaded material or supplied by an approved data source. Phone, website, Google Maps link, and coordinates can be filled from Google Places when an address is found.
+
+## Importing Listing Links
+
+The Admin page has a `Paste a Listing Link` form. When a public listing page is readable by the server, Scout pulls visible page text such as title, address, price, acres, phone, and deal notes, then saves the record into search. If `OPENAI_API_KEY` is configured, Scout can understand messier listing text more accurately. If `GOOGLE_PLACES_API_KEY` is configured, Scout can use the extracted address to add current public contact fields.
+
+Some listing sites may block server-side reading, require login, or hide information behind scripts. In that case Scout still saves the URL as a lead, and the best fallback is to upload a screenshot or PDF of the listing.
 
 ## Searching Images
 

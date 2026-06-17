@@ -1533,6 +1533,20 @@ textarea {
   background: var(--green);
 }
 
+.link-record-card {
+  border-color: #c7d8d1;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f5fbf8 100%);
+}
+
+.link-record-card .section-heading span {
+  color: var(--green);
+  border: 1px solid #bfd4cc;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: #eef7f3;
+}
+
 .easy-site-grid {
   grid-template-columns: 1fr;
 }

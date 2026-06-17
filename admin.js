@@ -14,6 +14,11 @@ const screenshotLeadInput = document.getElementById("screenshotLeadInput");
 const screenshotLeadNote = document.getElementById("screenshotLeadNote");
 const screenshotLeadButton = document.getElementById("screenshotLeadButton");
 const screenshotLeadStatus = document.getElementById("screenshotLeadStatus");
+const linkRecordForm = document.getElementById("linkRecordForm");
+const linkRecordUrl = document.getElementById("linkRecordUrl");
+const linkRecordNote = document.getElementById("linkRecordNote");
+const linkRecordButton = document.getElementById("linkRecordButton");
+const linkRecordStatus = document.getElementById("linkRecordStatus");
 let screenshotLeadFiles = [];
 let uploadFilesPending = [];
 
@@ -48,6 +53,17 @@ async function postManualRecord(record) {
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data.error || "Could not save record.");
+  return data;
+}
+
+async function postLinkRecord(url, note) {
+  const response = await fetch("/api/link-records", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ url, note }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || "Could not import link.");
   return data;
 }
 
@@ -279,6 +295,33 @@ if (manualRecordForm) {
       manualRecordStatus.textContent = error.message || "Could not save record.";
     } finally {
       manualRecordButton.disabled = false;
+    }
+  });
+}
+
+if (linkRecordForm) {
+  linkRecordForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const url = String(linkRecordUrl.value || "").trim();
+    const note = String(linkRecordNote.value || "").trim();
+    if (!/^https?:\/\//i.test(url)) {
+      linkRecordStatus.textContent = "Paste a full link that starts with http or https.";
+      return;
+    }
+
+    linkRecordButton.disabled = true;
+    linkRecordStatus.textContent = "Importing listing link...";
+    try {
+      const data = await postLinkRecord(url, note);
+      linkRecordForm.reset();
+      linkRecordStatus.textContent = data.warning
+        ? `Saved link. ${data.warning}`
+        : "Imported. The listing is now in Scout search.";
+      await loadManualRecords();
+    } catch (error) {
+      linkRecordStatus.textContent = error.message || "Could not import link.";
+    } finally {
+      linkRecordButton.disabled = false;
     }
   });
 }
