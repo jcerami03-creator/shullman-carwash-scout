@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path("/Users/josephcerami/Documents/LLM For Shullman Paperwork")
 OUT = ROOT / "data" / "public_carwashes.json"
+MAX_RECORDS_PER_STATE = 80
 ENDPOINTS = [
     "https://overpass-api.de/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
@@ -37,9 +38,9 @@ STATE_NAMES = {
 
 def query_state(code: str) -> dict:
     query = (
-        f'[out:json][timeout:25];'
+        f'[out:json][timeout:60];'
         f'nwr["amenity"="car_wash"]["addr:state"="{code}"];'
-        f'out tags center 40;'
+        f'out tags center {MAX_RECORDS_PER_STATE * 3};'
     )
     last_error = ""
     for endpoint in ENDPOINTS:
@@ -49,7 +50,7 @@ def query_state(code: str) -> dict:
                 check=True,
                 capture_output=True,
                 text=True,
-                timeout=45,
+                timeout=90,
             )
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as exc:
             last_error = str(exc)
@@ -137,14 +138,17 @@ def record_from_element(code: str, element: dict) -> dict | None:
 
 
 def main() -> None:
-    by_state: dict[str, list[dict]] = {}
+    try:
+        by_state: dict[str, list[dict]] = json.loads(OUT.read_text())
+    except Exception:
+        by_state = {}
     for index, code in enumerate(STATE_CODES, start=1):
         print(f"{index:02d}/50 {code}", flush=True)
         try:
             payload = query_state(code)
         except RuntimeError as exc:
             print(f"  skipped {code}: {exc}", flush=True)
-            by_state[code] = []
+            by_state.setdefault(code, [])
             continue
         records: list[dict] = []
         seen: set[str] = set()
@@ -157,7 +161,7 @@ def main() -> None:
                 continue
             seen.add(key)
             records.append(record)
-            if len(records) >= 12:
+            if len(records) >= MAX_RECORDS_PER_STATE:
                 break
         by_state[code] = records
         time.sleep(0.35)

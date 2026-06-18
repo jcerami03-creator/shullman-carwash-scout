@@ -480,6 +480,10 @@ function standardizeRecord(raw, source, index) {
   const phone = pick(normalized, ["phone", "telephone"]);
   const sourceUrls = pick(normalized, ["source_urls", "public_sources"]);
   const trafficCount = pick(normalized, ["traffic_count", "traffic", "vpd", "aadt"]);
+  const population1Mile = pick(normalized, ["population_1_mile", "pop_1_mile", "one_mile_population", "1_mile_population"]);
+  const population3Mile = pick(normalized, ["population_3_mile", "pop_3_mile", "three_mile_population", "3_mile_population"]);
+  const population5Mile = pick(normalized, ["population_5_mile", "pop_5_mile", "five_mile_population", "5_mile_population"]);
+  const demographicsSource = pick(normalized, ["demographics_source", "demographic_source", "population_source"]);
   const mapsUrl = pick(normalized, ["maps_url", "google_maps_url", "maps"]);
   const latitude = pick(normalized, ["latitude", "lat"]);
   const longitude = pick(normalized, ["longitude", "lon", "lng"]);
@@ -511,6 +515,10 @@ function standardizeRecord(raw, source, index) {
     phone,
     source_urls: sourceUrls,
     traffic_count: trafficCount,
+    population_1_mile: population1Mile,
+    population_3_mile: population3Mile,
+    population_5_mile: population5Mile,
+    demographics_source: demographicsSource,
     maps_url: mapsUrl,
     latitude,
     longitude,
@@ -547,6 +555,10 @@ function standardizeRecord(raw, source, index) {
     phone,
     sourceUrls,
     trafficCount,
+    population1Mile,
+    population3Mile,
+    population5Mile,
+    demographicsSource,
     mapsUrl,
     latitude,
     longitude,
@@ -885,6 +897,15 @@ function selectRecord(id, rerender = true) {
   const record = records.find((item) => item.id === id);
   if (!record) return;
 
+  const demographicSummary = [
+    record.population1Mile ? `1-mile ${record.population1Mile}` : "1-mile not available",
+    record.population3Mile ? `3-mile ${record.population3Mile}` : "3-mile not available",
+    record.population5Mile ? `5-mile ${record.population5Mile}` : "5-mile not available",
+    record.demographicsSource ? `Source: ${record.demographicsSource}` : "",
+  ]
+    .filter(Boolean)
+    .join(" | ");
+
   const detailFields = [
     ["Year", metricValue(record.year)],
     ["Market", metricValue(record.market)],
@@ -894,11 +915,11 @@ function selectRecord(id, rerender = true) {
     ["Cars/Yr", metricValue(record.carsWk)],
     ["Traffic", metricValue(record.trafficCount)],
     ["Acres", metricValue(record.acres)],
-    ["Note", record.publicSummary || record.note || "Review the address, contact fields, and seller-provided record before outreach."],
+    ["Demographic Support", demographicSummary],
   ]
     .map(
       ([label, value]) => `
-        <div class="detail-field${label === "Note" ? " is-note" : ""}">
+        <div class="detail-field${label === "Demographic Support" ? " is-note" : ""}">
           <span>${escapeHtml(label)}</span>
           <strong>${escapeHtml(value || "Not provided")}</strong>
         </div>
@@ -1021,6 +1042,9 @@ function buildScoutInsight(record) {
   if (record.acreageStatus) facts.push(record.acreageStatus);
   if (record.carsWk) facts.push(`Cars/Yr: ${record.carsWk}`);
   if (record.trafficCount) facts.push(record.trafficCount);
+  if (record.population1Mile) facts.push(`1-mi pop: ${record.population1Mile}`);
+  if (record.population3Mile) facts.push(`3-mi pop: ${record.population3Mile}`);
+  if (record.population5Mile) facts.push(`5-mi pop: ${record.population5Mile}`);
 
   const location = record.publicSummary
     ? record.publicSummary

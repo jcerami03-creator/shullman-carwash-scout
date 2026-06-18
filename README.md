@@ -52,8 +52,9 @@ Admin-added records can be enriched automatically when API keys are configured o
 - `OPENAI_VISION_MODEL`: optional model override for image reading.
 - `GOOGLE_PLACES_API_KEY` or `GOOGLE_MAPS_API_KEY`: looks up the address and fills public contact fields such as current business name, phone, website, Google Maps link, and coordinates.
 - `TRAFFIC_API_URL`: optional traffic-count provider URL. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them.
+- `DEMOGRAPHICS_API_URL`: optional demographic provider URL for 1-mile, 3-mile, and 5-mile population rings. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them.
 
-Scout does not invent financials or traffic counts. EBITDA, asking price, sales, and cars/year are filled only when visible in the uploaded material or supplied by an approved data source. Phone, website, Google Maps link, and coordinates can be filled from Google Places when an address is found.
+Scout does not invent financials, traffic counts, or demographic rings. EBITDA, asking price, sales, cars/year, and 1/3/5-mile population are filled only when visible in the uploaded material or supplied by an approved data source. Phone, website, Google Maps link, and coordinates can be filled from Google Places when an address is found.
 
 ## Importing Listing Links
 

@@ -11,6 +11,7 @@ const openaiApiKey = process.env.OPENAI_API_KEY || "";
 const openaiVisionModel = process.env.OPENAI_VISION_MODEL || "gpt-4.1-mini";
 const googlePlacesApiKey = process.env.GOOGLE_PLACES_API_KEY || process.env.GOOGLE_MAPS_API_KEY || "";
 const trafficApiUrl = process.env.TRAFFIC_API_URL || "";
+const demographicsApiUrl = process.env.DEMOGRAPHICS_API_URL || "";
 const uploadRoot = path.resolve(process.env.UPLOAD_DIR || path.join(root, "runtime-uploads"));
 const uploadMetaPath = path.join(uploadRoot, "metadata.json");
 const manualRecordsPath = path.join(uploadRoot, "manual-records.json");
@@ -245,6 +246,10 @@ function cleanRecordPayload(payload) {
     "latitude",
     "longitude",
     "traffic_count",
+    "population_1_mile",
+    "population_3_mile",
+    "population_5_mile",
+    "demographics_source",
     "note",
     "source",
     "full_text",
@@ -388,6 +393,27 @@ function firstMatch(text, pattern) {
   return match ? cleanText(match[1] || match[0], 500) : "";
 }
 
+function normalizePopulationValue(value) {
+  const clean = cleanText(value, 80).replace(/[^\d]/g, "");
+  return clean ? Number(clean).toLocaleString() : "";
+}
+
+function extractDemographicsFromText(text) {
+  const value = String(text || "");
+  const population1 = firstMatch(value, /\b1\s*[- ]?mile[^0-9]{0,80}([0-9][0-9,]{2,})/i);
+  const population3 = firstMatch(value, /\b3\s*[- ]?mile[^0-9]{0,80}([0-9][0-9,]{2,})/i);
+  const population5 = firstMatch(value, /\b5\s*[- ]?mile[^0-9]{0,80}([0-9][0-9,]{2,})/i);
+  const extracted = {
+    population_1_mile: normalizePopulationValue(population1),
+    population_3_mile: normalizePopulationValue(population3),
+    population_5_mile: normalizePopulationValue(population5),
+  };
+  if (extracted.population_1_mile || extracted.population_3_mile || extracted.population_5_mile) {
+    extracted.demographics_source = "Imported demographic support page";
+  }
+  return extracted;
+}
+
 function extractMoneyNear(text, labelPattern) {
   const match = String(text || "").match(new RegExp(`(?:${labelPattern})[^$]{0,80}(\\$\\s?[0-9][0-9,.]*(?:\\s?(?:M|MM|K|million|thousand))?)`, "i"));
   return match ? cleanText(match[1].replace(/\s+/g, ""), 80).replace(/\$([0-9])/, "$$$1") : "";
@@ -437,6 +463,7 @@ function inferRecordFromListingPage(url, html) {
   const carsPerYear = firstMatch(text, /\b([0-9][0-9,]{2,})\s*(?:cars|vehicles)\s*(?:\/|per)?\s*(?:yr|year|annually|annual)\b/i);
   const trafficCount = firstMatch(text, /\b(?:traffic|AADT|vehicles per day|VPD)[^0-9]{0,60}([0-9][0-9,]{2,})\b/i);
   const state = extractState(address || text);
+  const demographics = extractDemographicsFromText(text);
   return {
     name: name || "Imported car wash listing",
     market: address,
@@ -448,6 +475,7 @@ function inferRecordFromListingPage(url, html) {
     acres,
     phone,
     traffic_count: trafficCount,
+    ...demographics,
     note: cleanText(description || `Listing imported from ${new URL(url).hostname}.`, 1200),
     full_text: text,
   };
@@ -486,7 +514,7 @@ async function extractRecordFromImage(record) {
             {
               type: "input_text",
               text:
-                "Read this car wash listing screenshot/photo. Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, note. Use null for missing fields. Do not guess financial numbers.",
+                "Read this car wash listing screenshot/photo. Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, population_1_mile, population_3_mile, population_5_mile, demographics_source, note. Use null for missing fields. Do not guess financial numbers or demographics.",
             },
             {
               type: "input_image",
@@ -501,7 +529,7 @@ async function extractRecordFromImage(record) {
   if (!response.ok) throw new Error(`Image analysis failed (${response.status}).`);
   const payload = await response.json();
   const parsed = parseJsonFromText(responseText(payload));
-  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "note"];
+  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "population_1_mile", "population_3_mile", "population_5_mile", "demographics_source", "note"];
   return Object.fromEntries(allowed.map((key) => [key, parsed[key]]).filter(([, value]) => value));
 }
 
@@ -523,7 +551,7 @@ async function extractRecordFromText(text, sourceUrl) {
               type: "input_text",
               text:
                 `Extract a car wash listing from this public listing page text. Source URL: ${sourceUrl}\n` +
-                "Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, note. Use null for missing fields. Do not guess financial numbers.\n\n" +
+                "Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, population_1_mile, population_3_mile, population_5_mile, demographics_source, note. Use null for missing fields. Do not guess financial numbers or demographics.\n\n" +
                 cleanText(text, 30000),
             },
           ],
@@ -533,7 +561,7 @@ async function extractRecordFromText(text, sourceUrl) {
   });
   if (!response.ok) throw new Error(`Listing analysis failed (${response.status}).`);
   const parsed = parseJsonFromText(responseText(await response.json()));
-  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "note"];
+  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "population_1_mile", "population_3_mile", "population_5_mile", "demographics_source", "note"];
   return Object.fromEntries(allowed.map((key) => [key, parsed[key]]).filter(([, value]) => value));
 }
 
@@ -599,6 +627,30 @@ async function lookupTrafficCount(record) {
     : {};
 }
 
+async function lookupDemographics(record) {
+  if (!demographicsApiUrl || (record.population_1_mile && record.population_3_mile && record.population_5_mile)) return {};
+  const address = record.market || extractAddressCandidate(record);
+  const url = demographicsApiUrl
+    .replace(/\{lat\}/g, encodeURIComponent(record.latitude || ""))
+    .replace(/\{lng\}/g, encodeURIComponent(record.longitude || ""))
+    .replace(/\{address\}/g, encodeURIComponent(address || ""));
+  if (!/^https?:\/\//i.test(url)) return {};
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Demographics lookup failed (${response.status}).`);
+  const data = await response.json();
+  const one = data.population_1_mile || data.pop_1_mile || data.one_mile_population || data["1_mile_population"] || "";
+  const three = data.population_3_mile || data.pop_3_mile || data.three_mile_population || data["3_mile_population"] || "";
+  const five = data.population_5_mile || data.pop_5_mile || data.five_mile_population || data["5_mile_population"] || "";
+  const source = data.demographics_source || data.source_url || data.source || "";
+  return {
+    population_1_mile: normalizePopulationValue(one),
+    population_3_mile: normalizePopulationValue(three),
+    population_5_mile: normalizePopulationValue(five),
+    demographics_source: source || "Demographics provider",
+    source_urls: [record.source_urls, data.source_url].filter(Boolean).join(" | "),
+  };
+}
+
 async function enrichRecord(record) {
   const enriched = { ...record };
   const notes = [];
@@ -634,9 +686,23 @@ async function enrichRecord(record) {
     notes.push(error.message);
   }
 
+  try {
+    const demographicFields = await lookupDemographics(enriched);
+    if (Object.keys(demographicFields).length) {
+      mergeIfMissing(enriched, demographicFields);
+      notes.push("demographics lookup");
+    }
+  } catch (error) {
+    notes.push(error.message);
+  }
+
   enriched.enrichment_status = notes.length ? notes.join(" | ") : "saved without automatic enrichment";
   if (!enriched.traffic_count && (enriched.latitude || enriched.market)) {
     enriched.enrichment_note = "Traffic count requires a configured traffic data source; Scout does not invent traffic counts.";
+  }
+  if (!(enriched.population_1_mile && enriched.population_3_mile && enriched.population_5_mile) && (enriched.latitude || enriched.market)) {
+    const demographicNote = "1/3/5-mile demographics require a configured demographic data source or an imported demographic support page.";
+    enriched.enrichment_note = [enriched.enrichment_note, demographicNote].filter(Boolean).join(" ");
   }
   return enriched;
 }
