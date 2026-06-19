@@ -30,6 +30,7 @@ let manualRecordsCache = [];
 let censusPopulationCache = null;
 const censusGeocodeCache = new Map();
 const censusRingCache = new Map();
+const placeGeocodeCache = new Map();
 
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
@@ -479,6 +480,30 @@ async function censusGeocode(address) {
   return geo;
 }
 
+async function placeCenterGeocode(place) {
+  const cleanPlace = cleanText(place, 500);
+  if (!cleanPlace) return null;
+  if (placeGeocodeCache.has(cleanPlace)) return placeGeocodeCache.get(cleanPlace);
+  const url = new URL("https://nominatim.openstreetmap.org/search");
+  url.searchParams.set("q", cleanPlace);
+  url.searchParams.set("format", "jsonv2");
+  url.searchParams.set("limit", "1");
+  url.searchParams.set("countrycodes", "us");
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent": "ShullmanCarwashScout/1.0 demographics maintenance",
+      Accept: "application/json",
+    },
+  });
+  if (!response.ok) throw new Error(`Place center geocode failed (${response.status}).`);
+  const item = (await response.json())?.[0];
+  const lat = Number(item?.lat);
+  const lon = Number(item?.lon);
+  const geo = Number.isFinite(lat) && Number.isFinite(lon) ? { lat, lon, approximate: true } : null;
+  placeGeocodeCache.set(cleanPlace, geo);
+  return geo;
+}
+
 async function censusPopulationMap() {
   if (censusPopulationCache) return censusPopulationCache;
   const url = `https://www2.census.gov/programs-surveys/acs/summary_file/${censusAcsYear}/table-based-SF/data/5YRData/acsdt5y${censusAcsYear}-b01003.dat`;
@@ -520,14 +545,18 @@ async function censusBlockGroupsNear(lat, lon, miles) {
 
 async function lookupCensusDemographics(record) {
   if (hasCompleteDemographics(record)) return {};
-  const address = record.market || extractAddressCandidate(record);
+  const exactAddress = extractAddressCandidate(record);
+  const address = exactAddress || record.market;
   let lat = Number(record.latitude);
   let lon = Number(record.longitude);
+  let approximate = !exactAddress;
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
-    const geo = await censusGeocode(address);
+    let geo = exactAddress ? await censusGeocode(address) : null;
+    if (!geo) geo = await placeCenterGeocode(address);
     if (!geo) return {};
     lat = geo.lat;
     lon = geo.lon;
+    approximate = Boolean(geo.approximate || !exactAddress);
   }
   const populationByBlockGroup = await censusPopulationMap();
   const values = {};
@@ -539,7 +568,9 @@ async function lookupCensusDemographics(record) {
   if (!Object.keys(values).length) return {};
   return {
     ...values,
-    demographics_source: `Estimated from Census ACS ${censusAcsYear} block groups within radius`,
+    demographics_source: approximate
+      ? `Estimated from Census ACS ${censusAcsYear} block groups around city/market center; street address needed for exact rings`
+      : `Estimated from Census ACS ${censusAcsYear} block groups within radius`,
     latitude: String(lat),
     longitude: String(lon),
   };
