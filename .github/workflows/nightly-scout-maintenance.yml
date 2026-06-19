@@ -1,0 +1,100 @@
+name: Nightly Scout Maintenance
+
+on:
+  schedule:
+    # GitHub uses UTC. These two runs cover 8:00 PM Eastern in daylight and standard time.
+    - cron: "0 0,1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  maintain:
+    name: Check and enrich Scout records
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Confirm it is 8 PM Eastern
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "RUN_MAINTENANCE=true" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          python - <<'PY' >> "$GITHUB_ENV"
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo("America/New_York"))
+          print(f"RUN_MAINTENANCE={'true' if now.hour == 20 else 'false'}")
+          PY
+
+      - name: Set up Python
+        if: env.RUN_MAINTENANCE == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node
+        if: env.RUN_MAINTENANCE == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Python dependencies
+        if: env.RUN_MAINTENANCE == 'true'
+        run: python -m pip install --upgrade requests
+
+      - name: Restore demographic cache
+        if: env.RUN_MAINTENANCE == 'true'
+        uses: actions/cache@v4
+        with:
+          path: cache/demographics_cache.json
+          key: scout-demographics-${{ hashFiles('generated/carwash_records.js') }}
+          restore-keys: |
+            scout-demographics-
+
+      - name: Rebuild screened records
+        if: env.RUN_MAINTENANCE == 'true'
+        run: python tools/build_carwash_records.py
+
+      - name: Fill missing 1/3/5-mile demographics
+        if: env.RUN_MAINTENANCE == 'true'
+        run: python tools/enrich_demographics.py
+
+      - name: Audit record quality
+        if: env.RUN_MAINTENANCE == 'true'
+        run: python tools/audit_carwash_records.py
+
+      - name: Bump browser cache when records changed
+        if: env.RUN_MAINTENANCE == 'true'
+        run: python tools/bump_asset_version.py
+
+      - name: Check JavaScript syntax
+        if: env.RUN_MAINTENANCE == 'true'
+        run: |
+          node --check app.js
+          node --check server.js
+
+      - name: Maintain live admin records on Render
+        if: env.RUN_MAINTENANCE == 'true'
+        env:
+          SCOUT_SITE_URL: ${{ secrets.SCOUT_SITE_URL }}
+          MAINTENANCE_SECRET: ${{ secrets.MAINTENANCE_SECRET }}
+          SCOUT_BASIC_AUTH: ${{ secrets.SCOUT_BASIC_AUTH }}
+        run: python tools/call_maintenance_endpoint.py
+
+      - name: Commit maintenance updates
+        if: env.RUN_MAINTENANCE == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No Scout maintenance changes to commit."
+          else
+            git add generated/carwash_records.js index.html data/public_carwashes.json
+            git commit -m "Nightly scout maintenance"
+            git push
+          fi

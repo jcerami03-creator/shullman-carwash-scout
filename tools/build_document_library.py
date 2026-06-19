@@ -6,7 +6,7 @@ import shutil
 from pathlib import Path
 
 
-ROOT = Path("/Users/josephcerami/Documents/LLM For Shullman Paperwork")
+ROOT = Path(__file__).resolve().parents[1]
 PDF_DIR = Path("/Users/josephcerami/PDF FOR CAR WASH SCOUt")
 OCR_DIR = ROOT / "ocr-output"
 DOC_DIR = ROOT / "documents"

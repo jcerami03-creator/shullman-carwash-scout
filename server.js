@@ -12,6 +12,8 @@ const openaiVisionModel = process.env.OPENAI_VISION_MODEL || "gpt-4.1-mini";
 const googlePlacesApiKey = process.env.GOOGLE_PLACES_API_KEY || process.env.GOOGLE_MAPS_API_KEY || "";
 const trafficApiUrl = process.env.TRAFFIC_API_URL || "";
 const demographicsApiUrl = process.env.DEMOGRAPHICS_API_URL || "";
+const maintenanceSecret = process.env.MAINTENANCE_SECRET || "";
+const censusAcsYear = process.env.CENSUS_ACS_YEAR || "2024";
 const uploadRoot = path.resolve(process.env.UPLOAD_DIR || path.join(root, "runtime-uploads"));
 const uploadMetaPath = path.join(uploadRoot, "metadata.json");
 const manualRecordsPath = path.join(uploadRoot, "manual-records.json");
@@ -25,6 +27,9 @@ const upstashToken = process.env.UPSTASH_REDIS_REST_TOKEN || "";
 const usePersistentStore = Boolean(upstashUrl && upstashToken);
 const manualRecordsKey = process.env.MANUAL_RECORDS_KEY || "manual-records";
 let manualRecordsCache = [];
+let censusPopulationCache = null;
+const censusGeocodeCache = new Map();
+const censusRingCache = new Map();
 
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
@@ -69,6 +74,12 @@ function authorized(req) {
   const user = decoded.slice(0, splitAt);
   const pass = decoded.slice(splitAt + 1);
   return timingSafeEqualString(user, username) && timingSafeEqualString(pass, password);
+}
+
+function maintenanceAuthorized(req) {
+  if (!maintenanceSecret) return false;
+  const supplied = req.headers["x-scout-maintenance-secret"] || "";
+  return timingSafeEqualString(String(supplied), maintenanceSecret);
 }
 
 function sendAuth(res) {
@@ -226,6 +237,26 @@ function cleanText(value, maxLength = 8000) {
   return String(value == null ? "" : value).replace(/\s+/g, " ").trim().slice(0, maxLength);
 }
 
+function isMissingValue(value) {
+  const clean = cleanText(value, 240).toLowerCase();
+  return (
+    !clean ||
+    clean === "-" ||
+    clean === "n/a" ||
+    clean === "na" ||
+    clean === "none" ||
+    clean === "unknown" ||
+    clean === "not listed" ||
+    clean === "not listed in file" ||
+    clean === "not available" ||
+    clean.includes("needs source")
+  );
+}
+
+function hasCompleteDemographics(record) {
+  return ["population_1_mile", "population_3_mile", "population_5_mile"].every((key) => !isMissingValue(record[key]));
+}
+
 function cleanRecordPayload(payload) {
   const record = {};
   const allowed = [
@@ -274,7 +305,7 @@ function cleanRecordPayload(payload) {
 function mergeIfMissing(record, additions = {}) {
   Object.entries(additions).forEach(([key, value]) => {
     const clean = cleanText(value, key === "note" || key === "full_text" || key === "public_summary" ? 12000 : 1000);
-    if (clean && !record[key]) record[key] = clean;
+    if (clean && isMissingValue(record[key])) record[key] = clean;
   });
 }
 
@@ -396,6 +427,89 @@ function firstMatch(text, pattern) {
 function normalizePopulationValue(value) {
   const clean = cleanText(value, 80).replace(/[^\d]/g, "");
   return clean ? Number(clean).toLocaleString() : "";
+}
+
+async function censusGeocode(address) {
+  const cleanAddress = cleanText(address, 500);
+  if (!cleanAddress) return null;
+  if (censusGeocodeCache.has(cleanAddress)) return censusGeocodeCache.get(cleanAddress);
+  const url = new URL("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress");
+  url.searchParams.set("address", cleanAddress);
+  url.searchParams.set("benchmark", "Public_AR_Current");
+  url.searchParams.set("format", "json");
+  const response = await fetch(url, { headers: { "User-Agent": "ShullmanCarwashScout/1.0" } });
+  if (!response.ok) throw new Error(`Census geocode failed (${response.status}).`);
+  const match = (await response.json())?.result?.addressMatches?.[0];
+  const coordinates = match?.coordinates;
+  const geo = coordinates?.x && coordinates?.y ? { lat: Number(coordinates.y), lon: Number(coordinates.x) } : null;
+  censusGeocodeCache.set(cleanAddress, geo);
+  return geo;
+}
+
+async function censusPopulationMap() {
+  if (censusPopulationCache) return censusPopulationCache;
+  const url = `https://www2.census.gov/programs-surveys/acs/summary_file/${censusAcsYear}/table-based-SF/data/5YRData/acsdt5y${censusAcsYear}-b01003.dat`;
+  const response = await fetch(url, { headers: { "User-Agent": "ShullmanCarwashScout/1.0" } });
+  if (!response.ok) throw new Error(`ACS ${censusAcsYear} population table failed (${response.status}).`);
+  const text = await response.text();
+  const out = new Map();
+  text.split(/\r?\n/).slice(1).forEach((line) => {
+    const [geoid, pop] = line.split("|");
+    if (!geoid || !geoid.startsWith("1500000US")) return;
+    const value = Number(pop);
+    if (Number.isFinite(value)) out.set(geoid.replace("1500000US", ""), value);
+  });
+  censusPopulationCache = out;
+  return out;
+}
+
+async function censusBlockGroupsNear(lat, lon, miles) {
+  const key = `${censusAcsYear}:${Number(lat).toFixed(6)},${Number(lon).toFixed(6)}:${miles}`;
+  if (censusRingCache.has(key)) return censusRingCache.get(key);
+  const meters = { 1: 1609.344, 3: 4828.032, 5: 8046.72 }[miles];
+  const url = new URL(`https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS${censusAcsYear}/MapServer/10/query`);
+  url.searchParams.set("f", "json");
+  url.searchParams.set("geometry", `${lon},${lat}`);
+  url.searchParams.set("geometryType", "esriGeometryPoint");
+  url.searchParams.set("inSR", "4326");
+  url.searchParams.set("spatialRel", "esriSpatialRelIntersects");
+  url.searchParams.set("distance", String(meters));
+  url.searchParams.set("units", "esriSRUnit_Meter");
+  url.searchParams.set("outFields", "GEOID");
+  url.searchParams.set("returnGeometry", "false");
+  const response = await fetch(url, { headers: { "User-Agent": "ShullmanCarwashScout/1.0" } });
+  if (!response.ok) throw new Error(`TIGERweb ${miles}-mile lookup failed (${response.status}).`);
+  const features = (await response.json())?.features || [];
+  const geoids = [...new Set(features.map((feature) => cleanText(feature?.attributes?.GEOID, 40)).filter(Boolean))];
+  censusRingCache.set(key, geoids);
+  return geoids;
+}
+
+async function lookupCensusDemographics(record) {
+  if (hasCompleteDemographics(record)) return {};
+  const address = record.market || extractAddressCandidate(record);
+  let lat = Number(record.latitude);
+  let lon = Number(record.longitude);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    const geo = await censusGeocode(address);
+    if (!geo) return {};
+    lat = geo.lat;
+    lon = geo.lon;
+  }
+  const populationByBlockGroup = await censusPopulationMap();
+  const values = {};
+  for (const miles of [1, 3, 5]) {
+    const geoids = await censusBlockGroupsNear(lat, lon, miles);
+    const total = geoids.reduce((sum, geoid) => sum + (populationByBlockGroup.get(geoid) || 0), 0);
+    if (total) values[`population_${miles}_mile`] = Number(total).toLocaleString();
+  }
+  if (!Object.keys(values).length) return {};
+  return {
+    ...values,
+    demographics_source: `Estimated from Census ACS ${censusAcsYear} block groups within radius`,
+    latitude: String(lat),
+    longitude: String(lon),
+  };
 }
 
 function extractDemographicsFromText(text) {
@@ -607,7 +721,7 @@ async function lookupGooglePlace(record) {
 }
 
 async function lookupTrafficCount(record) {
-  if (!trafficApiUrl || record.traffic_count) return {};
+  if (!trafficApiUrl || !isMissingValue(record.traffic_count)) return {};
   const address = record.market || extractAddressCandidate(record);
   const url = trafficApiUrl
     .replace(/\{lat\}/g, encodeURIComponent(record.latitude || ""))
@@ -628,27 +742,32 @@ async function lookupTrafficCount(record) {
 }
 
 async function lookupDemographics(record) {
-  if (!demographicsApiUrl || (record.population_1_mile && record.population_3_mile && record.population_5_mile)) return {};
+  if (hasCompleteDemographics(record)) return {};
   const address = record.market || extractAddressCandidate(record);
-  const url = demographicsApiUrl
-    .replace(/\{lat\}/g, encodeURIComponent(record.latitude || ""))
-    .replace(/\{lng\}/g, encodeURIComponent(record.longitude || ""))
-    .replace(/\{address\}/g, encodeURIComponent(address || ""));
-  if (!/^https?:\/\//i.test(url)) return {};
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`Demographics lookup failed (${response.status}).`);
-  const data = await response.json();
-  const one = data.population_1_mile || data.pop_1_mile || data.one_mile_population || data["1_mile_population"] || "";
-  const three = data.population_3_mile || data.pop_3_mile || data.three_mile_population || data["3_mile_population"] || "";
-  const five = data.population_5_mile || data.pop_5_mile || data.five_mile_population || data["5_mile_population"] || "";
-  const source = data.demographics_source || data.source_url || data.source || "";
-  return {
-    population_1_mile: normalizePopulationValue(one),
-    population_3_mile: normalizePopulationValue(three),
-    population_5_mile: normalizePopulationValue(five),
-    demographics_source: source || "Demographics provider",
-    source_urls: [record.source_urls, data.source_url].filter(Boolean).join(" | "),
-  };
+  if (demographicsApiUrl) {
+    const url = demographicsApiUrl
+      .replace(/\{lat\}/g, encodeURIComponent(record.latitude || ""))
+      .replace(/\{lng\}/g, encodeURIComponent(record.longitude || ""))
+      .replace(/\{address\}/g, encodeURIComponent(address || ""));
+    if (/^https?:\/\//i.test(url)) {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`Demographics lookup failed (${response.status}).`);
+      const data = await response.json();
+      const one = data.population_1_mile || data.pop_1_mile || data.one_mile_population || data["1_mile_population"] || "";
+      const three = data.population_3_mile || data.pop_3_mile || data.three_mile_population || data["3_mile_population"] || "";
+      const five = data.population_5_mile || data.pop_5_mile || data.five_mile_population || data["5_mile_population"] || "";
+      const source = data.demographics_source || data.source_url || data.source || "";
+      const values = {
+        population_1_mile: normalizePopulationValue(one),
+        population_3_mile: normalizePopulationValue(three),
+        population_5_mile: normalizePopulationValue(five),
+        demographics_source: source || "Demographics provider",
+        source_urls: [record.source_urls, data.source_url].filter(Boolean).join(" | "),
+      };
+      if (values.population_1_mile || values.population_3_mile || values.population_5_mile) return values;
+    }
+  }
+  return lookupCensusDemographics(record);
 }
 
 async function enrichRecord(record) {
@@ -697,14 +816,75 @@ async function enrichRecord(record) {
   }
 
   enriched.enrichment_status = notes.length ? notes.join(" | ") : "saved without automatic enrichment";
-  if (!enriched.traffic_count && (enriched.latitude || enriched.market)) {
+  if (isMissingValue(enriched.traffic_count) && (enriched.latitude || enriched.market)) {
     enriched.enrichment_note = "Traffic count requires a configured traffic data source; Scout does not invent traffic counts.";
   }
-  if (!(enriched.population_1_mile && enriched.population_3_mile && enriched.population_5_mile) && (enriched.latitude || enriched.market)) {
+  if (!hasCompleteDemographics(enriched) && (enriched.latitude || enriched.market)) {
     const demographicNote = "1/3/5-mile demographics require a configured demographic data source or an imported demographic support page.";
     enriched.enrichment_note = [enriched.enrichment_note, demographicNote].filter(Boolean).join(" ");
   }
   return enriched;
+}
+
+function needsMaintenance(record) {
+  return (
+    weakRecordName(record) ||
+    isMissingValue(record.state) ||
+    isMissingValue(record.maps_url) ||
+    isMissingValue(record.latitude) ||
+    isMissingValue(record.longitude) ||
+    isMissingValue(record.phone) ||
+    isMissingValue(record.website) ||
+    isMissingValue(record.traffic_count) ||
+    !hasCompleteDemographics(record)
+  );
+}
+
+async function handleMaintenance(req, res) {
+  if (req.method !== "POST") {
+    sendJson(res, 405, { error: "Method not allowed" });
+    return;
+  }
+  if (!maintenanceAuthorized(req)) {
+    sendJson(res, 403, { error: "Maintenance secret is missing or incorrect." });
+    return;
+  }
+
+  const records = readManualRecords();
+  const maxRecords = Number(process.env.MAINTENANCE_MAX_RECORDS || records.length || 0);
+  const recordsNeedingMaintenance = records.filter(needsMaintenance);
+  let checked = 0;
+  let updated = 0;
+  const errors = [];
+  const maintained = [];
+
+  for (const record of recordsNeedingMaintenance) {
+    if (checked >= maxRecords) break;
+    checked += 1;
+    try {
+      const before = JSON.stringify(record);
+      const enriched = await enrichRecord(record);
+      Object.assign(record, enriched, {
+        last_maintenance_at: new Date().toISOString(),
+      });
+      if (JSON.stringify(record) !== before) updated += 1;
+      maintained.push({ id: record.id, name: record.name, market: record.market });
+    } catch (error) {
+      errors.push({ id: record.id, name: record.name, error: error.message || "maintenance failed" });
+    }
+  }
+
+  if (checked || updated) await writeManualRecords(records);
+  sendJson(res, 200, {
+    total_manual_records: records.length,
+    needing_maintenance: recordsNeedingMaintenance.length,
+    checked,
+    updated,
+    skipped_complete: records.length - recordsNeedingMaintenance.length,
+    deferred_by_limit: Math.max(recordsNeedingMaintenance.length - checked, 0),
+    maintained,
+    errors,
+  });
 }
 
 function readJsonBody(req, maxBytes, callback) {
@@ -1014,7 +1194,7 @@ function serveUpload(req, res) {
 }
 
 const server = http.createServer((req, res) => {
-  if (!authorized(req)) {
+  if (!authorized(req) && !((req.url || "").startsWith("/api/maintenance") && maintenanceAuthorized(req))) {
     sendAuth(res);
     return;
   }
@@ -1031,6 +1211,11 @@ const server = http.createServer((req, res) => {
 
   if ((req.url || "").startsWith("/api/link-records")) {
     handleLinkRecords(req, res);
+    return;
+  }
+
+  if ((req.url || "").startsWith("/api/maintenance/enrich")) {
+    handleMaintenance(req, res);
     return;
   }
 

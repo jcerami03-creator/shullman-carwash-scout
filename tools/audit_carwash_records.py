@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 
-ROOT = Path("/Users/josephcerami/Documents/LLM For Shullman Paperwork")
+ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "generated" / "carwash_records.js"
 
 BAD_VISIBLE_TERMS = [

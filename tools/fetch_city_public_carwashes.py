@@ -8,7 +8,7 @@ from pathlib import Path
 
 import requests
 
-ROOT = Path("/Users/josephcerami/Documents/LLM For Shullman Paperwork")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "public_carwashes.json"
 USER_AGENT = "ShullmanCarwashScout/1.0"
 

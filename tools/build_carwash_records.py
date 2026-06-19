@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 
-ROOT = Path("/Users/josephcerami/Documents/LLM For Shullman Paperwork")
+ROOT = Path(__file__).resolve().parents[1]
 OCR_DIR = ROOT / "ocr-output"
 OUT = ROOT / "generated" / "carwash_records.js"
 PUBLIC_RESEARCH_PATH = ROOT / "data" / "public_research.json"

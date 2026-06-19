@@ -18,3 +18,5 @@ services:
         value: /var/data/uploads
       - key: SCOUT_PASSWORD
         sync: false
+      - key: MAINTENANCE_SECRET
+        sync: false

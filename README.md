@@ -52,9 +52,38 @@ Admin-added records can be enriched automatically when API keys are configured o
 - `OPENAI_VISION_MODEL`: optional model override for image reading.
 - `GOOGLE_PLACES_API_KEY` or `GOOGLE_MAPS_API_KEY`: looks up the address and fills public contact fields such as current business name, phone, website, Google Maps link, and coordinates.
 - `TRAFFIC_API_URL`: optional traffic-count provider URL. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them.
-- `DEMOGRAPHICS_API_URL`: optional demographic provider URL for 1-mile, 3-mile, and 5-mile population rings. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them.
+- `DEMOGRAPHICS_API_URL`: optional demographic provider URL for 1-mile, 3-mile, and 5-mile population rings. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them. If this is not set, live maintenance falls back to public Census ACS/TIGER population estimates.
+- `MAINTENANCE_SECRET`: private token used by the nightly maintenance agent to update live admin records.
 
-Scout does not invent financials, traffic counts, or demographic rings. EBITDA, asking price, sales, cars/year, and 1/3/5-mile population are filled only when visible in the uploaded material or supplied by an approved data source. Phone, website, Google Maps link, and coordinates can be filled from Google Places when an address is found.
+Scout does not invent financials or traffic counts. EBITDA, asking price, sales, cars/year, and traffic are filled only when visible in the uploaded material or supplied by an approved data source. The 1/3/5-mile population fields can be filled from imported demographic pages or estimated from public Census ACS/TIGER block groups. Phone, website, Google Maps link, and coordinates can be filled from Google Places when an address is found.
+
+## Nightly Maintenance Agent
+
+The repo includes a GitHub Actions agent at `.github/workflows/nightly-scout-maintenance.yml`.
+
+What it does every night:
+
+- Runs at 8:00 PM Eastern time.
+- Rebuilds the screened Scout records from the repo data.
+- Fills missing 1-mile, 3-mile, and 5-mile demographics with Census ACS 2024/TIGER data where possible.
+- Audits duplicates, bad addresses, and missing core fields.
+- Calls the live Render site to re-check admin/Claude-added records.
+- Commits updates back to GitHub, which lets Render redeploy automatically.
+
+This works when your computer is closed because GitHub runs it in the cloud.
+
+GitHub repo secrets to add:
+
+- `SCOUT_SITE_URL`: your Render URL, for example `https://shullman-carwash-scout.onrender.com`
+- `MAINTENANCE_SECRET`: the same private value you put in Render.
+- `SCOUT_BASIC_AUTH`: optional, in this exact format: `shullman:yourRenderPassword`
+
+Render environment variables to add:
+
+- `MAINTENANCE_SECRET`: same value as the GitHub secret.
+- Keep `SCOUT_PASSWORD` set so the site stays private.
+
+Important: if another agent adds records by committing them to GitHub, the nightly job catches them in the repo. If another agent adds records through the live Admin page, the Render maintenance endpoint catches those live admin records.
 
 ## Importing Listing Links
 

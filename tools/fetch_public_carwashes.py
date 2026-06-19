@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 
 
-ROOT = Path("/Users/josephcerami/Documents/LLM For Shullman Paperwork")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "public_carwashes.json"
 MAX_RECORDS_PER_STATE = 80
 ENDPOINTS = [
