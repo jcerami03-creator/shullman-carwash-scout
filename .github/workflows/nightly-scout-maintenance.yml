@@ -28,7 +28,10 @@ jobs:
           from datetime import datetime
           from zoneinfo import ZoneInfo
           now = datetime.now(ZoneInfo("America/New_York"))
-          print(f"RUN_MAINTENANCE={'true' if now.hour == 17 else 'false'}")
+          schedule = "${{ github.event.schedule }}"
+          is_dst = bool(now.dst())
+          should_run = (schedule == "45 21 * * *" and is_dst) or (schedule == "45 22 * * *" and not is_dst)
+          print(f"RUN_MAINTENANCE={'true' if should_run else 'false'}")
           PY
 
       - name: Set up Python
