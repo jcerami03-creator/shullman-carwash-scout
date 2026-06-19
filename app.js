@@ -1341,6 +1341,11 @@ function contactActionsHtml(record) {
   if (mapsUrl) {
     actions.push(`<a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noreferrer">Open Maps</a>`);
   }
+  const listingUrl = String(record.researchUrl || "").trim();
+  if (/^https?:\/\//i.test(listingUrl)) {
+    const label = /bizbuysell\.com/i.test(listingUrl) ? "View on BizBuySell" : "View Listing";
+    actions.push(`<a href="${escapeHtml(listingUrl)}" target="_blank" rel="noreferrer">${label}</a>`);
+  }
   return actions.length ? actions.join("") : `<span class="contact-empty">Contact not listed</span>`;
 }
 
