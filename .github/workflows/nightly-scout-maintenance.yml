@@ -2,8 +2,8 @@ name: Nightly Scout Maintenance
 
 on:
   schedule:
-    # GitHub uses UTC. These two runs cover 8:00 PM Eastern in daylight and standard time.
-    - cron: "0 0,1 * * *"
+    # GitHub uses UTC. These two runs cover 5:45 PM Eastern in daylight and standard time.
+    - cron: "45 21,22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,7 +18,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Confirm it is 8 PM Eastern
+      - name: Confirm it is 5:45 PM Eastern
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "RUN_MAINTENANCE=true" >> "$GITHUB_ENV"
@@ -28,7 +28,7 @@ jobs:
           from datetime import datetime
           from zoneinfo import ZoneInfo
           now = datetime.now(ZoneInfo("America/New_York"))
-          print(f"RUN_MAINTENANCE={'true' if now.hour == 20 else 'false'}")
+          print(f"RUN_MAINTENANCE={'true' if now.hour == 17 else 'false'}")
           PY
 
       - name: Set up Python

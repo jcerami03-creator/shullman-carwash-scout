@@ -246,6 +246,7 @@ function isMissingValue(value) {
     clean === "na" ||
     clean === "none" ||
     clean === "unknown" ||
+    clean === "not provided" ||
     clean === "not listed" ||
     clean === "not listed in file" ||
     clean === "not available" ||
@@ -255,6 +256,38 @@ function isMissingValue(value) {
 
 function hasCompleteDemographics(record) {
   return ["population_1_mile", "population_3_mile", "population_5_mile"].every((key) => !isMissingValue(record[key]));
+}
+
+function moneyToNumber(value) {
+  const raw = cleanText(value, 120).toLowerCase().replace(/,/g, "");
+  const match = raw.match(/([0-9]+(?:\.[0-9]+)?)\s*(mm|m|million|k|thousand)?/);
+  if (!match) return 0;
+  let number = Number(match[1]);
+  if (!Number.isFinite(number)) return 0;
+  const suffix = match[2] || "";
+  if (["m", "mm", "million"].includes(suffix)) number *= 1_000_000;
+  else if (["k", "thousand"].includes(suffix)) number *= 1_000;
+  else if (raw.includes("$") && number < 1000 && /\.\d/.test(match[1])) number *= 1_000_000;
+  return Math.round(number);
+}
+
+function numericValue(value) {
+  const raw = cleanText(value, 120).replace(/,/g, "");
+  const match = raw.match(/([0-9]+(?:\.[0-9]+)?)/);
+  return match ? Number(match[1]) : 0;
+}
+
+function formatMoneyShort(value) {
+  const number = typeof value === "number" ? value : moneyToNumber(value);
+  if (!number) return "";
+  if (number >= 1_000_000) return `$${(number / 1_000_000).toFixed(number >= 10_000_000 ? 0 : 1).replace(/\.0$/, "")}M`;
+  if (number >= 1_000) return `$${Math.round(number / 1_000)}K`;
+  return `$${Math.round(number).toLocaleString()}`;
+}
+
+function formatNumber(value) {
+  const number = Math.round(Number(value) || 0);
+  return number ? number.toLocaleString() : "";
 }
 
 function cleanRecordPayload(payload) {
@@ -533,6 +566,11 @@ function extractMoneyNear(text, labelPattern) {
   return match ? cleanText(match[1].replace(/\s+/g, ""), 80).replace(/\$([0-9])/, "$$$1") : "";
 }
 
+function extractNumberNear(text, labelPattern) {
+  const match = String(text || "").match(new RegExp(`(?:${labelPattern})[^0-9]{0,90}([0-9][0-9,]{2,})`, "i"));
+  return match ? normalizePopulationValue(match[1]) : "";
+}
+
 function extractJsonLdText(html) {
   const chunks = [];
   const scripts = String(html || "").matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi);
@@ -574,8 +612,12 @@ function inferRecordFromListingPage(url, html) {
   const name = cleanListingTitle(title) || firstMatch(text, /\b([A-Z][A-Za-z0-9 &'’-]{2,80}(?:Car Wash|Express Wash|Auto Spa|Wash Club|Wash Center))\b/i);
   const phone = firstMatch(text, /\(?\b\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b/);
   const acres = firstMatch(text, /\b([0-9]+(?:\.[0-9]+)?)\s*(?:acre|acres)\b/i);
-  const carsPerYear = firstMatch(text, /\b([0-9][0-9,]{2,})\s*(?:cars|vehicles)\s*(?:\/|per)?\s*(?:yr|year|annually|annual)\b/i);
-  const trafficCount = firstMatch(text, /\b(?:traffic|AADT|vehicles per day|VPD)[^0-9]{0,60}([0-9][0-9,]{2,})\b/i);
+  const carsPerYear =
+    firstMatch(text, /\b([0-9][0-9,]{2,})\s*(?:cars|vehicles|washes)\s*(?:\/|per)?\s*(?:yr|year|annually|annual)\b/i) ||
+    extractNumberNear(text, "annual car count|annual wash count|annual wash volume|cars per year|washes per year|car count|wash volume");
+  const trafficCount =
+    firstMatch(text, /\b(?:traffic|AADT|ADT|vehicles per day|VPD|daily traffic|traffic count|traffic volume)[^0-9]{0,90}([0-9][0-9,]{2,})\b/i) ||
+    firstMatch(text, /\b([0-9][0-9,]{2,})\s*(?:VPD|AADT|ADT|vehicles per day|cars per day|daily vehicles)\b/i);
   const state = extractState(address || text);
   const demographics = extractDemographicsFromText(text);
   return {
@@ -682,7 +724,9 @@ async function extractRecordFromText(text, sourceUrl) {
 async function lookupGooglePlace(record) {
   if (!googlePlacesApiKey) return {};
   const address = extractAddressCandidate(record);
-  if (!address) return {};
+  const fallbackQuery = cleanText([record.name, record.market, record.state].filter(Boolean).join(" "), 500);
+  const textQuery = address ? `${address} car wash` : fallbackQuery;
+  if (!textQuery) return {};
   const response = await fetch("https://places.googleapis.com/v1/places:searchText", {
     method: "POST",
     headers: {
@@ -691,7 +735,7 @@ async function lookupGooglePlace(record) {
       "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress,places.nationalPhoneNumber,places.websiteUri,places.googleMapsUri,places.location,places.businessStatus,places.types",
     },
     body: JSON.stringify({
-      textQuery: `${address} car wash`,
+      textQuery,
       includedType: "car_wash",
     }),
   });
@@ -770,9 +814,108 @@ async function lookupDemographics(record) {
   return lookupCensusDemographics(record);
 }
 
+function needsListingRefresh(record) {
+  return Boolean(
+    normalizePublicUrl(record.research_url) &&
+      (!extractAddressCandidate(record) ||
+        isMissingValue(record.maps_url) ||
+        isMissingValue(record.latitude) ||
+        isMissingValue(record.longitude) ||
+        isMissingValue(record.sales) ||
+        isMissingValue(record.cars_per_year) ||
+        isMissingValue(record.traffic_count) ||
+        !hasCompleteDemographics(record))
+  );
+}
+
+function operatingEstimateFields(record) {
+  const additions = {};
+  const ask = moneyToNumber(record.asking_price);
+  const sales = moneyToNumber(record.sales);
+  const ebitda = moneyToNumber(record.ebitda);
+  const cars = numericValue(record.cars_per_year);
+  const acres = numericValue(record.acres);
+  const text = [record.name, record.market, record.full_text, record.note].filter(Boolean).join(" ").toLowerCase();
+
+  if (isMissingValue(record.ebitda)) {
+    let estimatedEbitda = 0;
+    if (sales) estimatedEbitda = sales * 0.24;
+    else if (ask) estimatedEbitda = ask / 6.5;
+    else if (cars) estimatedEbitda = cars * 3.25;
+    else if (/express|tunnel|conveyor|membership/.test(text)) estimatedEbitda = 360000;
+    else if (/self[\s-]?serve|coin|hand wash|detail/.test(text)) estimatedEbitda = 140000;
+    else if (acres >= 1.4) estimatedEbitda = 320000;
+    if (estimatedEbitda) additions.ebitda = `Est. ${formatMoneyShort(estimatedEbitda)}`;
+  }
+
+  const resolvedEbitda = ebitda || moneyToNumber(additions.ebitda);
+  if (isMissingValue(record.sales)) {
+    let estimatedSales = 0;
+    if (resolvedEbitda) estimatedSales = resolvedEbitda / 0.24;
+    else if (ask) estimatedSales = ask * 0.42;
+    if (estimatedSales) additions.sales = `Est. ${formatMoneyShort(estimatedSales)}`;
+  }
+
+  const resolvedSales = sales || moneyToNumber(additions.sales);
+  if (isMissingValue(record.cars_per_year)) {
+    let estimatedCars = 0;
+    if (resolvedSales) estimatedCars = resolvedSales / 18;
+    else if (resolvedEbitda) estimatedCars = resolvedEbitda / 3.25;
+    else if (/express|tunnel|conveyor|membership/.test(text)) estimatedCars = 145000;
+    else if (/self[\s-]?serve|coin|hand wash|detail/.test(text)) estimatedCars = 45000;
+    if (estimatedCars) additions.cars_per_year = `Est. ${formatNumber(estimatedCars)}`;
+  }
+
+  if (isMissingValue(record.traffic_count)) {
+    const resolvedCars = cars || numericValue(additions.cars_per_year);
+    let estimatedTraffic = 0;
+    if (resolvedCars) estimatedTraffic = Math.max(12000, Math.min(65000, (resolvedCars / 365) * 90));
+    else if (/highway|hwy|interstate|freeway|turnpike|expressway/.test(text)) estimatedTraffic = 42000;
+    else if (/boulevard|blvd|avenue|ave|road|rd|street|st/.test(text)) estimatedTraffic = 24000;
+    if (estimatedTraffic) additions.traffic_count = `Est. ${formatNumber(estimatedTraffic)} VPD`;
+  }
+
+  if (Object.keys(additions).length) {
+    additions.enrichment_note = [
+      record.enrichment_note,
+      "Some operating fields are Scout estimates from available listing/site signals; verify against seller financials, DOT traffic counts, and source documents.",
+    ]
+      .filter(Boolean)
+      .join(" ");
+  }
+  return additions;
+}
+
+async function refreshRecordFromListingUrl(record) {
+  const url = normalizePublicUrl(record.research_url);
+  if (!url || !needsListingRefresh(record)) return {};
+  const html = await fetchListingHtml(url);
+  const inferred = inferRecordFromListingPage(url, html);
+  const mergedText = [inferred.full_text, record.full_text].filter(Boolean).join("\n\n");
+  let aiFields = {};
+  try {
+    aiFields = await extractRecordFromText(mergedText, url);
+  } catch {
+    aiFields = {};
+  }
+  return { ...inferred, ...aiFields };
+}
+
 async function enrichRecord(record) {
   const enriched = { ...record };
   const notes = [];
+  try {
+    const listingFields = await refreshRecordFromListingUrl(enriched);
+    if (Object.keys(listingFields).length) {
+      if (weakRecordName(enriched) && listingFields.name) enriched.name = cleanText(listingFields.name, 1000);
+      if (listingFields.market && !extractAddressCandidate(enriched)) enriched.market = cleanText(listingFields.market, 1000);
+      mergeIfMissing(enriched, listingFields);
+      notes.push("listing refresh");
+    }
+  } catch (error) {
+    notes.push(error.message);
+  }
+
   try {
     const imageFields = await extractRecordFromImage(enriched);
     if (Object.keys(imageFields).length) {
@@ -813,6 +956,12 @@ async function enrichRecord(record) {
     }
   } catch (error) {
     notes.push(error.message);
+  }
+
+  const estimateFields = operatingEstimateFields(enriched);
+  if (Object.keys(estimateFields).length) {
+    mergeIfMissing(enriched, estimateFields);
+    notes.push("operating estimates");
   }
 
   enriched.enrichment_status = notes.length ? notes.join(" | ") : "saved without automatic enrichment";

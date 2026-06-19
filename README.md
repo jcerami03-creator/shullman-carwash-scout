@@ -63,11 +63,12 @@ The repo includes a GitHub Actions agent at `.github/workflows/nightly-scout-mai
 
 What it does every night:
 
-- Runs at 8:00 PM Eastern time.
+- Runs at 5:45 PM Eastern time.
 - Rebuilds the screened Scout records from the repo data.
 - Fills missing 1-mile, 3-mile, and 5-mile demographics with Census ACS 2024/TIGER data where possible.
 - Audits duplicates, bad addresses, and missing core fields.
 - Calls the live Render site to re-check admin/Claude-added records.
+- Re-opens saved listing links when possible, so city-only Claude/email leads can be upgraded to street-address leads if the source page exposes the address.
 - Commits updates back to GitHub, which lets Render redeploy automatically.
 
 This works when your computer is closed because GitHub runs it in the cloud.

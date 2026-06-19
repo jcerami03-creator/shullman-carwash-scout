@@ -1217,10 +1217,10 @@ function hasExactStreetAddress(value) {
 }
 
 function mapsSearchUrl(record) {
-  if (record.mapsUrl && /^https?:\/\//i.test(record.mapsUrl)) return record.mapsUrl;
   if (record.latitude && record.longitude) {
     return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${record.latitude},${record.longitude}`)}`;
   }
+  if (record.mapsUrl && /^https?:\/\//i.test(record.mapsUrl) && hasExactStreetAddress(record.market)) return record.mapsUrl;
   if (!hasExactStreetAddress(record.market)) return "";
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(record.market)}`;
 }
