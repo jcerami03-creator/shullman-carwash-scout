@@ -1539,19 +1539,19 @@ function renderDocumentLibrary(filter = "") {
       <div class="library-search-row">
         <label>
           <span>Search images and documents</span>
-          <input id="librarySearchInput" type="search" value="${escapeHtml(filter)}" placeholder="Search city, state, address, pricing, traffic, EBITDA, photos..." autocomplete="off" />
+          <input id="librarySearchInput" type="search" value="${escapeHtml(filter)}" placeholder="Search any PDF text: city, address, file name, price, traffic, EBITDA, page..." autocomplete="off" />
         </label>
         <button id="librarySearchButton" type="button">Search</button>
       </div>
       <div class="library-search-help">
         <b>Image search:</b>
-        <span>Try terms like menu, pricing, traffic, census, aerial, photo, address, city, state, page number, or a car wash name.</span>
+        <span>Searches scan names, OCR text, page summaries, addresses, traffic, financials, and image categories. Matching PDF pages show first.</span>
         <div class="library-query-chips">
-          ${["image", "menu", "pricing", "traffic", "census", "aerial", "address"].map((term) => `<button type="button" data-library-query="${term}">${term}</button>`).join("")}
+          ${["image", "menu", "pricing", "traffic", "census", "aerial", "address", "EBITDA"].map((term) => `<button type="button" data-library-query="${term}">${term}</button>`).join("")}
         </div>
       </div>
     </div>
-    <div id="libraryResults" class="library-list">${renderDocumentResults(docs)}</div>
+    <div id="libraryResults" class="library-list">${renderDocumentResults(docs, query)}</div>
   `;
   const searchInput = document.getElementById("librarySearchInput");
   const searchButton = document.getElementById("librarySearchButton");
@@ -1580,7 +1580,7 @@ function updateDocumentLibraryResults(event) {
   const results = document.getElementById("libraryResults");
   if (!results) return;
   const docs = normalizedDocumentLibrary().filter((doc) => documentMatchesQuery(doc, query));
-  results.innerHTML = renderDocumentResults(docs);
+  results.innerHTML = renderDocumentResults(docs, query);
 }
 
 function normalizedDocumentLibrary() {
@@ -1589,14 +1589,23 @@ function normalizedDocumentLibrary() {
     category: doc.category || (Array.isArray(doc.gallery_images) && doc.gallery_images.length ? "Image Scans" : "Deal Records"),
     group: doc.group || doc.category || "Supporting Source PDFs",
     pages: Array.isArray(doc.pages) ? doc.pages : [],
+    search_pages: Array.isArray(doc.search_pages) ? doc.search_pages : [],
     evidence_rows: Array.isArray(doc.evidence_rows) ? doc.evidence_rows : [],
     gallery_images: Array.isArray(doc.gallery_images) ? doc.gallery_images : [],
   }));
 }
 
+function libraryQueryTerms(query) {
+  return String(query || "")
+    .toLowerCase()
+    .split(/\s+/)
+    .map((term) => term.trim())
+    .filter(Boolean);
+}
+
 function documentMatchesQuery(doc, query) {
   if (!query) return true;
-  const terms = query.split(/\s+/).filter(Boolean);
+  const terms = libraryQueryTerms(query);
   const haystack = [
     doc.title,
     doc.file_name,
@@ -1605,6 +1614,7 @@ function documentMatchesQuery(doc, query) {
     ...doc.pages.map((page) => page.summary),
     ...doc.pages.flatMap((page) => page.terms || []),
     ...doc.pages.flatMap((page) => page.addresses || []),
+    ...doc.search_pages.map((page) => page.text || ""),
     ...doc.evidence_rows.map((row) => `${row.type} ${row.name} ${row.location} ${row.status} ${row.note}`),
     ...doc.gallery_images.map((image) => `image scan photo page ${image.page} ${image.group || ""} ${image.interpretation || ""}`),
   ]
@@ -1613,7 +1623,7 @@ function documentMatchesQuery(doc, query) {
   return terms.every((term) => haystack.includes(term));
 }
 
-function renderDocumentResults(docs) {
+function renderDocumentResults(docs, query = "") {
   if (!docs.length) return `<div class="empty-state">No document pages matched that search.</div>`;
   const groups = [
     ["Admin Uploaded Documents", "Files uploaded from the admin page. These appear immediately on the hosted site without a GitHub push.", docs.filter((doc) => doc.group === "Admin Uploaded Documents")],
@@ -1625,12 +1635,12 @@ function renderDocumentResults(docs) {
     ["Supporting Source PDFs", "Additional imported source documents that support the Scout records.", docs.filter((doc) => doc.group === "Supporting Source PDFs")],
   ];
   return groups
-    .map(([title, summary, groupDocs]) => renderDocumentSection(title, summary, groupDocs))
+    .map(([title, summary, groupDocs]) => renderDocumentSection(title, summary, groupDocs, query))
     .filter(Boolean)
     .join("");
 }
 
-function renderDocumentSection(title, summary, docs) {
+function renderDocumentSection(title, summary, docs, query = "") {
   if (!docs.length) return "";
   return `
     <section class="document-section">
@@ -1642,18 +1652,18 @@ function renderDocumentSection(title, summary, docs) {
         <span>${docs.length.toLocaleString()} file${docs.length === 1 ? "" : "s"}</span>
       </div>
       <div class="document-section-list">
-        ${docs.map((doc) => renderDocumentCard(doc)).join("")}
+        ${docs.map((doc) => renderDocumentCard(doc, query)).join("")}
       </div>
     </section>
   `;
 }
 
-function renderDocumentCard(doc) {
+function renderDocumentCard(doc, query = "") {
   const pdfHref = encodeURI(doc.pdf_url || "");
   const isImageScan = doc.category === "Image Scans";
   const textHref = !isImageScan && doc.text_url ? encodeURI(doc.text_url) : "";
   const evidenceRows = doc.evidence_rows.slice(0, 14);
-  const pages = doc.pages.slice(0, 8);
+  const pages = matchingDocumentPages(doc, query).slice(0, 12);
   const galleryImages = doc.gallery_images;
   return `
     <article class="document-card${isImageScan ? " image-scan-card" : ""}">
@@ -1695,6 +1705,68 @@ function renderDocumentCard(doc) {
       ${pages.length ? renderPageEvidenceList(pages, pdfHref) : ""}
     </article>
   `;
+}
+
+function matchingDocumentPages(doc, query = "") {
+  const terms = libraryQueryTerms(query);
+  const pageMap = new Map();
+  doc.pages.forEach((page) => {
+    pageMap.set(String(page.page), {
+      page: String(page.page),
+      summary: page.summary || `Page ${page.page}`,
+      text: [page.summary, ...(page.addresses || []), ...(page.terms || [])].join(" "),
+      score: 1,
+    });
+  });
+  doc.search_pages.forEach((page) => {
+    const pageNumber = String(page.page);
+    const current = pageMap.get(pageNumber) || {
+      page: pageNumber,
+      summary: pageSnippet(page.text || "", terms) || `OCR text on page ${pageNumber}`,
+      text: "",
+      score: 0,
+    };
+    current.text = [current.text, page.text].filter(Boolean).join(" ");
+    if (!current.summary || /^OCR text on page/i.test(current.summary)) {
+      current.summary = pageSnippet(page.text || "", terms) || current.summary;
+    }
+    pageMap.set(pageNumber, current);
+  });
+  doc.gallery_images.forEach((image) => {
+    const pageNumber = String(image.page);
+    const text = `image scan photo page ${image.page} ${image.group || ""} ${image.interpretation || ""}`;
+    const current = pageMap.get(pageNumber) || {
+      page: pageNumber,
+      summary: `${image.group || "Image page"}: ${image.interpretation || "Scanned image page."}`,
+      text: "",
+      score: 0,
+    };
+    current.text = [current.text, text].filter(Boolean).join(" ");
+    pageMap.set(pageNumber, current);
+  });
+  const pages = [...pageMap.values()];
+  if (!terms.length) return pages.sort((a, b) => Number(a.page) - Number(b.page)).slice(0, 8);
+  return pages
+    .map((page) => {
+      const text = String(page.text || page.summary || "").toLowerCase();
+      const score = terms.reduce((sum, term) => sum + (text.includes(term) ? 1 : 0), page.score || 0);
+      return { ...page, score };
+    })
+    .filter((page) => terms.every((term) => String(page.text || page.summary || "").toLowerCase().includes(term)))
+    .sort((a, b) => b.score - a.score || Number(a.page) - Number(b.page));
+}
+
+function pageSnippet(text, terms) {
+  const clean = String(text || "").replace(/\s+/g, " ").trim();
+  if (!clean) return "";
+  const lower = clean.toLowerCase();
+  const firstIndex = terms
+    .map((term) => lower.indexOf(term))
+    .filter((index) => index >= 0)
+    .sort((a, b) => a - b)[0];
+  const start = Math.max(0, (firstIndex || 0) - 80);
+  const snippet = clean.slice(start, start + 260).trim();
+  return `${start > 0 ? "... " : ""}${snippet}${start + 260 < clean.length ? " ..." : ""}`;
 }
 
 function renderPageEvidenceList(pages, pdfHref) {

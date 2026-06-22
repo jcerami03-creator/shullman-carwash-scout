@@ -100,6 +100,12 @@ def page_summary(page: str, max_chars: int = 340) -> str:
     return ""
 
 
+def page_search_text(page: str, max_chars: int = 2400) -> str:
+    lines = [clean(line) for line in page.splitlines() if readable_line(line)]
+    text = clean(" ".join(lines))
+    return text[:max_chars]
+
+
 def document_group(pdf_path: Path, is_image_scan: bool) -> str:
     title = pdf_path.stem.lower()
     if is_image_scan:
@@ -251,10 +257,19 @@ def build() -> list[dict[str, object]]:
         text = txt_path.read_text(errors="ignore") if txt_path.exists() else ""
         pages = text.split("\f") if text else []
         page_cards = []
+        search_pages = []
         evidence_rows = []
         for index, page in enumerate(pages, start=1):
             if not clean(page):
                 continue
+            searchable_text = page_search_text(page)
+            if searchable_text:
+                search_pages.append(
+                    {
+                        "page": str(index),
+                        "text": searchable_text,
+                    }
+                )
             addresses = [clean(match.group(0)) for match in ADDRESS_RE.finditer(page)]
             has_evidence = bool(KEY_TERMS.search(page) or addresses)
             evidence_rows.extend(extract_current_site_rows(page, txt_path.name if txt_path.exists() else pdf_path.name, index))
@@ -285,6 +300,7 @@ def build() -> list[dict[str, object]]:
                 "evidence_page_count": len(page_cards),
                 "evidence_row_count": len(evidence_rows),
                 "pages": page_cards[:180],
+                "search_pages": search_pages[:500],
                 "evidence_rows": evidence_rows[:300],
                 "gallery_images": gallery_images,
             }
