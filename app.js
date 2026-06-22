@@ -1691,7 +1691,7 @@ function renderDocumentCard(doc, query = "") {
   const pdfHref = encodeURI(doc.pdf_url || "");
   const isImageScan = doc.category === "Image Scans";
   const textHref = !isImageScan && doc.text_url ? encodeURI(doc.text_url) : "";
-  const evidenceRows = doc.evidence_rows.slice(0, 14);
+  const evidenceRows = matchingEvidenceRows(doc, query);
   const pages = matchingDocumentPages(doc, query).slice(0, 12);
   const galleryImages = doc.gallery_images;
   return `
@@ -1709,7 +1709,7 @@ function renderDocumentCard(doc, query = "") {
       ${
         evidenceRows.length
           ? `<div class="evidence-table">
-              <div class="evidence-row evidence-head"><span>Type</span><span>Name</span><span>Location</span><span>Traffic</span><span>EBITDA</span></div>
+              <div class="evidence-row evidence-head"><span>Type</span><span>Name</span><span>Location</span><span>Traffic</span><span>EBITDA</span><span>Page</span></div>
               ${evidenceRows
                 .map(
                   (row) => `
@@ -1719,6 +1719,7 @@ function renderDocumentCard(doc, query = "") {
                       <span>${escapeHtml(row.location)}</span>
                       <span>${escapeHtml(row.traffic_count)}</span>
                       <span>${escapeHtml(row.ebitda)}</span>
+                      <span>${escapeHtml(row.page ? `Pg ${row.page}` : "")}</span>
                     </a>
                   `
                 )
@@ -1734,6 +1735,29 @@ function renderDocumentCard(doc, query = "") {
       ${pages.length ? renderPageEvidenceList(pages, pdfHref) : ""}
     </article>
   `;
+}
+
+function matchingEvidenceRows(doc, query = "") {
+  const rows = Array.isArray(doc.evidence_rows) ? doc.evidence_rows : [];
+  const terms = libraryQueryTerms(query);
+  if (!terms.length) return rows;
+  return rows.filter((row) => {
+    const text = [
+      row.type,
+      row.name,
+      row.location,
+      row.status,
+      row.traffic_count,
+      row.revenue,
+      row.asking_price,
+      row.ebitda,
+      row.note,
+      row.page ? `page ${row.page}` : "",
+    ]
+      .join(" ")
+      .toLowerCase();
+    return terms.every((term) => text.includes(term));
+  });
 }
 
 function matchingDocumentPages(doc, query = "") {

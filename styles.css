@@ -1295,7 +1295,7 @@ textarea {
 
 .evidence-row {
   display: grid;
-  grid-template-columns: 145px minmax(160px, 1.1fr) minmax(95px, 0.7fr) 115px 115px;
+  grid-template-columns: 145px minmax(160px, 1.1fr) minmax(95px, 0.7fr) 115px 115px 70px;
   gap: 10px;
   align-items: center;
   padding: 11px 12px;

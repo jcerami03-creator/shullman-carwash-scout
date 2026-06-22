@@ -17,10 +17,34 @@ KEY_TERMS = re.compile(
     r"\b(?:car wash|carwash|traffic counts?|ebitda|revenue|current site list|development sites|asking price|purchase price|acres|vacuum spaces|site selection)\b",
     re.I,
 )
+CITY_STATE_RE = re.compile(
+    r"\b([A-Z][A-Za-z .'-]+,\s*(?:AL|AR|AZ|CA|CO|CT|DE|FL|GA|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)(?:\s+\d{5})?)\b"
+)
+CITY_STATE_SIMPLE_RE = re.compile(
+    r"\b([A-Z][A-Za-z.'-]+(?:\s+[A-Z][A-Za-z.'-]+){0,3},\s*(?:AL|AR|AZ|CA|CO|CT|DE|FL|GA|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)(?:\s+\d{5})?)\b"
+)
 ADDRESS_RE = re.compile(
     r"\b\d{1,6}(?:-\d{1,6})?\s+[A-Z][A-Za-z0-9'.-]*(?:\s+[A-Za-z0-9'.#&/-]+){1,8},?\s+[A-Z][A-Za-z .'-]+,?\s+(?:AL|AR|AZ|CA|CO|CT|DE|FL|GA|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)\b(?:\s+\d{5})?",
     re.I,
 )
+TRAFFIC_RE = re.compile(
+    r"\b(?:traffic\s+count|traffic\s+volume|average\s+daily\s+traffic|AADT|ADT|VPD)\D{0,50}(\d{1,3}(?:,\d{3})+|\d{4,6})\b"
+    r"|\b(\d{1,3}(?:,\d{3})+|\d{4,6})\s*(?:VPD|AADT|ADT|vehicles\s+per\s+day|daily\s+traffic)\b",
+    re.I,
+)
+EBITDA_RE = re.compile(r"\bEBITDA\b[^$\d]*(\$\s?\d[\d,]*(?:\.\d+)?\s?(?:m|k|million)?)", re.I)
+REVENUE_RE = re.compile(r"\b(?:sales|revenue|gross operating income|total revenue)\b[^$\d]*(\$\s?\d[\d,]*(?:\.\d+)?\s?(?:m|k|million)?)", re.I)
+PRICE_RE = re.compile(r"\b(?:asking price|price|purchase price)\b[^$\d]*(\$\s?\d[\d,]*(?:\.\d+)?\s?(?:m|k|million)?)", re.I)
+BAD_TITLE_BITS = re.compile(
+    r"\b(?:page \d+|biz search|listings by email|buyer's workbook|sales comps|property records|add listing|back to search|"
+    r"contact listing broker|request additional information|http|www\.|google map|yahoo map|all rights reserved|"
+    r"terms and conditions|financial information cont|general financial information|profit centers include|"
+    r"capture rate|standard in the car wash industry|car wash sector|brokers harmless|source of all updated estimates)\b",
+    re.I,
+)
+STREET_WORD_RE = re.compile(r"\b(?:street|st|road|rd|avenue|ave|highway|hwy|pike|lane|ln|drive|dr|boulevard|blvd|court|ct|way|parkway|pkwy|circle|cir|trail|terrace|place|pl|route|rt|us-|i-)\b", re.I)
+BAD_ADDRESS_BITS = re.compile(r"\b(?:cars|detailing|building and equipment|mile from|miles of the site|of \d+|page|bizbuysell|loopnet|google|yahoo|copyright|reserved)\b", re.I)
+BAD_LOCATION_BITS = re.compile(r"\b(?:miles?|site|criteria|representative|car wash|businesses|profit|income|spa, VA|clinic|source|updated estimates)\b", re.I)
 
 IMAGE_SCAN_PAGE_GROUPS = {
     "Images Scanned": {
@@ -63,6 +87,189 @@ def readable_line(value: str) -> bool:
     if re.search(r"(?:V\s*){6,}|(?:I\s*){6,}|(?:[^\w\s]\s*){8,}", line, re.I):
         return False
     return True
+
+
+def short_text(value: str, max_chars: int = 86) -> str:
+    value = clean(value)
+    if len(value) <= max_chars:
+        return value
+    return value[: max_chars - 1].rstrip(" ,.;:-") + "..."
+
+
+def first_match(pattern: re.Pattern[str], text: str) -> str:
+    match = pattern.search(text)
+    if not match:
+        return ""
+    for group in match.groups():
+        if group:
+            return clean(group)
+    return clean(match.group(0))
+
+
+def valid_address(value: str) -> bool:
+    value = clean(value)
+    if not value or BAD_ADDRESS_BITS.search(value):
+        return False
+    if not STREET_WORD_RE.search(value):
+        return False
+    letters = sum(ch.isalpha() for ch in value)
+    digits = sum(ch.isdigit() for ch in value)
+    return letters >= 6 and digits >= 1
+
+
+def valid_addresses_from(text: str) -> list[str]:
+    addresses = []
+    for match in ADDRESS_RE.finditer(text):
+        address = clean(match.group(0))
+        if valid_address(address):
+            addresses.append(address)
+    return list(dict.fromkeys(addresses))
+
+
+def best_city_state(text: str) -> str:
+    for pattern in (CITY_STATE_SIMPLE_RE, CITY_STATE_RE):
+        for match in pattern.finditer(text):
+            location = clean(match.group(1))
+            if len(location) <= 45 and not BAD_LOCATION_BITS.search(location):
+                return location
+    return ""
+
+
+def money_value(value: str) -> float:
+    text = clean(value).lower().replace("$", "").replace(",", "")
+    multiplier = 1.0
+    if text.endswith("million"):
+        multiplier = 1_000_000.0
+        text = text.replace("million", "")
+    elif text.endswith("m"):
+        multiplier = 1_000_000.0
+        text = text[:-1]
+    elif text.endswith("k"):
+        multiplier = 1_000.0
+        text = text[:-1]
+    match = re.search(r"\d+(?:\.\d+)?", text)
+    return float(match.group(0)) * multiplier if match else 0.0
+
+
+def best_document_title(lines: list[str], location: str, source: str, page_number: int) -> str:
+    for line in lines[:22]:
+        if BAD_TITLE_BITS.search(line):
+            continue
+        if location and (line.count("|") >= 2 or len(re.findall(r"\d", line)) > 18):
+            continue
+        if re.search(r"\b(?:car wash|carwash|auto spa|wash barn|suds n soda|gas station|express wash|site location|offering memorandum|investment summary)\b", line, re.I):
+            return short_text(line)
+    for line in lines[:18]:
+        if BAD_TITLE_BITS.search(line):
+            continue
+        if location and (line.count("|") >= 2 or len(re.findall(r"\d", line)) > 18):
+            continue
+        if readable_line(line) and not re.match(r"^[\d\s$.,:/-]+$", line):
+            return short_text(line)
+    if location:
+        return short_text(f"Evidence - {location}")
+    return f"Evidence page {page_number}"
+
+
+def professional_title(value: str) -> bool:
+    value = clean(value)
+    if not value or BAD_TITLE_BITS.search(value):
+        return False
+    if len(value) < 6 or len(value) > 92:
+        return False
+    if value[:1].islower():
+        return False
+    if re.search(r"[{}[\]<>~`]{1,}|[‘’]{2,}", value):
+        return False
+    if len(re.findall(r"\d", value)) > 18:
+        return False
+    if value.count("|") >= 2:
+        return False
+    if re.search(r"\b(?:this|that|the property|the location|industry|customer|consumer|brokers)\b", value, re.I) and not re.search(r"\b(?:car wash|auto spa|gas station|site location|investment summary|offering memorandum|listing)\b", value, re.I):
+        return False
+    return True
+
+
+def infer_evidence_type(text: str) -> str:
+    value = clean(text).lower()
+    if "current site list" in value or "current portfolio" in value:
+        return "Current Portfolio Site"
+    if "development site" in value or "in construction" in value or "pre-construction" in value:
+        return "Development Site"
+    if "right site" in value or "site selection" in value or "census" in value or "demographic" in value:
+        return "Demographic Support"
+    if "profit & loss" in value or "financial analysis" in value or "rent roll" in value:
+        return "Financial Support"
+    if "for sale" in value or "asking price" in value or "purchase price" in value or "loopnet" in value or "bizbuysell" in value:
+        return "Listing / Offering"
+    if "traffic" in value or "vpd" in value or "aadt" in value:
+        return "Traffic / Site Evidence"
+    return "Source Evidence"
+
+
+def generic_evidence_row(text: str, source: str, page_number: int, summary: str, addresses: list[str]) -> dict[str, str] | None:
+    lines = [clean(line) for line in text.splitlines() if readable_line(line)]
+    if not lines:
+        return None
+
+    location = addresses[0] if addresses else best_city_state(text)
+    traffic = first_match(TRAFFIC_RE, text)
+    ebitda = first_match(EBITDA_RE, text)
+    revenue = first_match(REVENUE_RE, text)
+    asking = first_match(PRICE_RE, text)
+    has_financial_signal = bool(asking or revenue or traffic or (ebitda and money_value(ebitda) >= 10_000))
+    has_listing_signal = bool(re.search(r"\b(?:for sale|asking price|purchase price|loopnet|bizbuysell|crexi|offering memorandum)\b", text, re.I))
+    if not (addresses or has_financial_signal or (has_listing_signal and location)):
+        return None
+    evidence_type = infer_evidence_type(text)
+    title = best_document_title(lines, location, source, page_number)
+    if not professional_title(title):
+        if location:
+            title = short_text(f"{evidence_type} - {location}")
+        else:
+            title = f"{evidence_type} - Page {page_number}"
+    note_parts = [summary]
+    if asking:
+        note_parts.append(f"Asking price {asking}.")
+    if revenue:
+        note_parts.append(f"Revenue {revenue}.")
+    if traffic:
+        note_parts.append(f"Traffic {traffic}.")
+    if ebitda:
+        note_parts.append(f"EBITDA {ebitda}.")
+    note = short_text(" ".join(part for part in note_parts if part), 260)
+
+    return {
+        "type": evidence_type,
+        "document": source,
+        "page": str(page_number),
+        "name": title,
+        "location": location,
+        "status": "",
+        "lot_size": "",
+        "traffic_count": traffic,
+        "revenue": revenue,
+        "asking_price": asking,
+        "ebitda": ebitda,
+        "note": note or f"Relevant scanned evidence on page {page_number}.",
+    }
+
+
+def evidence_sort_key(row: dict[str, str]) -> tuple[int, int, int, int]:
+    row_type = row.get("type", "")
+    type_rank = {
+        "Current Portfolio Site": 0,
+        "Development Site": 1,
+        "Listing / Offering": 2,
+        "Traffic / Site Evidence": 3,
+        "Demographic Support": 4,
+        "Financial Support": 5,
+        "Source Evidence": 6,
+    }.get(row_type, 7)
+    missing_location = 0 if row.get("location") else 1
+    missing_metrics = 0 if (row.get("traffic_count") or row.get("ebitda") or row.get("revenue") or row.get("asking_price")) else 1
+    page = int(row.get("page") or 9999)
+    return (type_rank, missing_location, missing_metrics, page)
 
 
 def slugify(value: str) -> str:
@@ -270,14 +477,19 @@ def build() -> list[dict[str, object]]:
                         "text": searchable_text,
                     }
                 )
-            addresses = [clean(match.group(0)) for match in ADDRESS_RE.finditer(page)]
+            addresses = valid_addresses_from(page)
             has_evidence = bool(KEY_TERMS.search(page) or addresses)
-            evidence_rows.extend(extract_current_site_rows(page, txt_path.name if txt_path.exists() else pdf_path.name, index))
-            evidence_rows.extend(extract_development_rows(page, txt_path.name if txt_path.exists() else pdf_path.name, index))
+            page_rows = []
+            page_rows.extend(extract_current_site_rows(page, txt_path.name if txt_path.exists() else pdf_path.name, index))
+            page_rows.extend(extract_development_rows(page, txt_path.name if txt_path.exists() else pdf_path.name, index))
             if has_evidence:
                 summary = page_summary(page)
                 if not summary:
                     continue
+                if not page_rows:
+                    generic_row = generic_evidence_row(page, txt_path.name if txt_path.exists() else pdf_path.name, index, summary, addresses)
+                    if generic_row:
+                        page_rows.append(generic_row)
                 page_cards.append(
                     {
                         "page": str(index),
@@ -286,8 +498,10 @@ def build() -> list[dict[str, object]]:
                         "terms": [term for term in ["car wash", "traffic", "EBITDA", "revenue", "acres", "site list", "development"] if re.search(term, page, re.I)],
                     }
                 )
+            evidence_rows.extend(page_rows)
         gallery_images = gallery_images_for(pdf_path, pages)
         is_image_scan = bool(gallery_images) or re.search(r"\bimage|photo|picture|scan\b", pdf_path.stem, re.I)
+        evidence_rows.sort(key=evidence_sort_key)
         documents.append(
             {
                 "title": pdf_path.stem,
@@ -299,9 +513,9 @@ def build() -> list[dict[str, object]]:
                 "page_count": len(pages),
                 "evidence_page_count": len(page_cards),
                 "evidence_row_count": len(evidence_rows),
-                "pages": page_cards[:180],
+                "pages": page_cards,
                 "search_pages": search_pages[:500],
-                "evidence_rows": evidence_rows[:300],
+                "evidence_rows": evidence_rows,
                 "gallery_images": gallery_images,
             }
         )

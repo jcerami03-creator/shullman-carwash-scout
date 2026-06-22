@@ -7,15 +7,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Doc-Scanned-Bin-4.pdf",
     "text_url": "ocr-output/Doc Scanned Bin 4.txt",
     "page_count": 136,
-    "evidence_page_count": 101,
-    "evidence_row_count": 0,
+    "evidence_page_count": 95,
+    "evidence_row_count": 60,
     "pages": [
       {
         "page": "1",
         "summary": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050527&bn=1... 5/28/2005 Real Estate: $1,500,000 (included in the asking price) $500,000 (included in the asking price)",
-        "addresses": [
-          "35 cars. Detailing center. Building and equipment in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -33,9 +31,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "3",
         "summary": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050418&bn=1... 4/18/2005 dollar average per car, in both the car wash and lube. Full service car wash and quick lube with good car counts. Opportunity to",
-        "addresses": [
-          "1 of 2 BizBirSell in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -43,9 +39,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "4",
         "summary": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050408&bn=13... 4/9/2005 Carwash 3585ad 2004 BizBuySell.com, Inc. All rights reserved.",
-        "addresses": [
-          "1 of 1 BizBuySell in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -72,7 +66,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "7",
         "summary": "Full service car wash, detail & lube incl. land For Sale Details Full service car wash, detail & lube incl. land ACFS : Full service car wash, detail & lube incl. land for sale : Tampa, FL listing 1706",
         "addresses": [
-          "2 mile from the fastest growing university in",
           "3014 West Chapin Ave. Tampa, FL"
         ],
         "terms": [
@@ -83,9 +76,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "8",
         "summary": "Terms: Price includes: Carwash, lube, and maintenance equipment $ 1.4M 1.704 acres of improved land $370,260 Approx. system, with 3 lube bays and 4 maintenance bays. New state-of-the-art equipment. Located in main street with 32,000 traffic Full-service tropical-landscaped Carwash south of Houston. 110-ft all-cloth wash tunnel with revers",
-        "addresses": [
-          "3 lube bays and 4 maintenance bays. New state-of-the-art equipment. Located in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -93,21 +84,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "9",
-        "summary": "tio of 2 fee-simple and 11 leasehold properties in Southern California, frattisee in the USA. 2 fee-simple properties have been included in this Copyright \u00a9 2004 by",
-        "addresses": [
-          "2 fee-simple and 11 leasehold properties in",
-          "2 fee-simple properties have been included in"
-        ],
-        "terms": []
-      },
-      {
         "page": "10",
         "summary": "The car wash and detail center sales could be built through marketing to local Sales revenue: Pennsylvania Full-Service Car Wash/Detailing",
-        "addresses": [
-          "1 of 2 Buy a business or",
-          "000 businesses for sale. You can also buy a franchise opportunity or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -153,10 +132,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "15",
         "summary": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050624&bn=1... 6/27/2005 The Best Run Car Wash In New Jersey! Full service exterior car wash and Car Wash 387111",
-        "addresses": [
-          "1 of 1 af in",
-          "000 Business Summary The Best Run Car Wash In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -183,15 +159,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Car wash and lube claims $900,000 gross. Long lease or property. Property and Carwash. Claims $450,000 gross. All new equipment Car wash, property & 12 bay self serve. Could be full service. $850,000",
         "addresses": [
           "576 Springfield Avenue, Newark, NJ",
-          "000 gross. Long lease or",
           "000 total. 3110 E. Route 10, Denville. NJ",
-          "1 acre of property included in",
-          "000 total. May get in",
           "000 through financing package. 4.5 W. Clinton Street, North Bergenfield. NJ",
           "000 total for the whole thing. 2118 Route 35 Oakhurst, NJ",
           "000 total. 1066 East Elizabeth Avenue, Linden, NJ",
-          "1121 Asbury Avenue, Asbury Park, NJ",
-          "3 bay in back of own house. Same owner 20 years. In"
+          "1121 Asbury Avenue, Asbury Park, NJ"
         ],
         "terms": [
           "car wash"
@@ -224,10 +196,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "26",
         "summary": "http://bizbuysel1.com/cgi-bin/addetai1a=bot&P=0&n=ra&k=car wash&t=20050601&bn=13... 6/1/2005 Inventory: $10,000 (not included in the asking price) $125,000 (included in the asking price)",
-        "addresses": [
-          "1 o in alliancu Pa",
-          "7 DAY CASH BUSINESS...READ CAREFULLYIIIThis current business was established in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -244,9 +213,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "30",
         "summary": "Speedpass at the Car Wash 0 Copyright 2003 ExxonMobil Inc. All Rights Reserved.",
-        "addresses": [
-          "1 VERNON HILLS MOBIL EXXONMOBIL CORP 294 E RTE 60 VERNON HILLS, IL 60061"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -263,7 +230,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "334-5060 map driving direction Romen Services 201 North Harlem Avenue, Sioux Falls, SD 57104",
           "2701 East 6th Street, Sioux Falls, SD 57103",
           "4309 East 12th Street, Sioux Falls, SD 57103",
-          "334-5631 Map Super Wash 12th Street 2000 West 12th Street, Sioux Falls, SD 57104"
+          "334-5631 Map Super Wash 12th Street 2000 West 12th Street, Sioux Falls, SD 57104",
+          "1620 South Sycamore Avenue, Sioux Falls, SD 57110"
         ],
         "terms": [
           "car wash"
@@ -274,8 +242,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Harolds Car Wash 2400 West 41st Street, Sioux Falls, SD 57105 2217 East 10th Street, Sioux Falls, SD 57103",
         "addresses": [
           "2217 East 10th Street, Sioux Falls, SD 57103",
-          "2400 West 41st Street, Sioux Falls, SD 57105",
-          "1 Distance Search 1 Canada Search Enter in"
+          "2400 West 41st Street, Sioux Falls, SD 57105"
         ],
         "terms": [
           "car wash"
@@ -294,9 +261,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "34",
         "summary": "Asking Price: $5.0M - $10.0M several sources of revenue. Annual receipts fo Segment: Carwash",
-        "addresses": [
-          "1 of 2 USBX You are currently logged out. Lou In"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -362,8 +327,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "40",
         "summary": "University Car Wash fr) 50111-t..140,4 (6 ill tegirEfimil alevtah CO\" 1810 University Ave, Riverside, CA 92507",
         "addresses": [
-          "4772 Caminito Faceto San Diego, CA 92130",
-          "6 ill tegirEfimil alevtah CO",
           "1810 University Ave, Riverside, CA 92507"
         ],
         "terms": [
@@ -405,10 +368,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "48",
         "summary": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050525&bn=1... 5/25/2005 New Jersey Car Wash for Sale $3,250,000 total. May get in with $600,000 or $700,000 through financing",
-        "addresses": [
-          "1 acre of property included in",
-          "000 total. May get in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -424,9 +384,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "52",
         "summary": "http://bizbuysell.com/cgi-bin/addetailn=bot&p=0&n=ra&k=car wash&t=20050525&bn=1... 5/25/2005 New York Car Wash for Sale \u00a92004 BizBuySell.com, Inc. All rights reserved.",
-        "addresses": [
-          "1 of 1 in allin nes Ito Ma"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -442,9 +400,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "56",
         "summary": "car wash. Claims $800,000 gross - incredible net. No real competition. PHIL 1300 Great opportunity! Property 1.2 acres and 100,000 cars per year Pennsylvania Car Wash for Sale",
-        "addresses": [
-          "4 bay lube ready to go. Detail bays bring in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "acres"
@@ -453,9 +409,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "58",
         "summary": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=1&n=ra&k=car wash&t=20050525&bn=1... 5/25/2005 PHIL 1301 Property, Super deluxe car wash. Lots of room for oil change. Car Wash + Property for Sale in Pennsylvania",
-        "addresses": [
-          "000 gross Plenty of financing available. Very high net. This wash is quite something. Now in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -471,9 +425,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "60",
         "summary": "http://bizbuysell.com/cgi-bin/addetailca=bot&p=1&n=ra&k=car wash&t=20050525&bn=1... 5/25/2005 NJ 1501 1.2 acre property. Car Wash, 5 self service bays. High $850,000 New Jersey Car Wash for Sale",
-        "addresses": [
-          "000 appraised on property in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -481,9 +433,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "61",
         "summary": "http://bizbuysell.com/cgi-bin/addetailfl=bot&p=l&n=ra&k=car wash&t=20050525&bn=1... 5/25/2005 New York Car Wash for Sale NYC 1008 Two magnificant car washes. Super lube coming in. Take w/wo gas.",
-        "addresses": [
-          "1008 Two magnificant car washes. Super lube coming in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -513,14 +463,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "67",
-        "summary": "Dec 22 2003 8:08 Date: Decenter22,2003",
-        "addresses": [
-          "08 HP LHSERJET 3330 et p.1 nrieman ar"
-        ],
-        "terms": []
-      },
-      {
         "page": "68",
         "summary": "Total Car Wash Sales TOTAL REVENUE: Other Revenue",
         "addresses": [
@@ -534,10 +476,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "69",
         "summary": "acres rebuilt in 1999 and renovated Operating Car Wash Facility with Multiple Profit Centers \u2022 4,500 square foot building on .86",
-        "addresses": [
-          "2 Block off 202 Tredyffrin Township, Chester Co, PA",
-          "500 square foot building on .86 acres rebuilt in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -549,12 +488,10 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "70",
         "summary": "VIP Touchless Car Wash Detail 6102 Arbor Street, Omaha, NE 68106 driving directions 2734 South 90th Street, Omaha, NE driving directions",
         "addresses": [
-          "2 of 2 2734 South 90th Street, Omaha, NE",
           "2612 South 90th Street, Omaha, NE 68124",
           "3315 South 66th Avenue Circle, Omaha, NE 68106",
           "9 Sharp Image Auto Cleaners 3305 South 66th Avenue Circle, Omaha, NE 68106",
-          "2120 South 72nd Street, Omaha, NE 68124",
-          "7 Sharp Look Detailing Inc 6102 Arbor Street, Omaha, NE 68106"
+          "2120 South 72nd Street, Omaha, NE 68124"
         ],
         "terms": [
           "car wash"
@@ -633,9 +570,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "79",
         "summary": "ril l:ohne! Car Wash For Sale Very nice tunnel car wash that was built approximately 15 years ago. Owner will Sales revenue:",
-        "addresses": [
-          "000 businesses for sale. You can also buy a franchise opportunity or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -644,9 +579,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "80",
         "summary": "$249,900. Molalla 6) Gas station w/car wash. $725,000. Lebannon 7) Thru Tunnel Car Wash, Complete C-Store with lottery & lic;enses. Located In Retail Business Oppty - Beautiful car wash 30 min S of Dal. Very profitable-hot",
-        "addresses": [
-          "2 of 3 Be N Catego Investrr nrw itic CAR WASH DREAM Prop or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -654,9 +587,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "82",
         "summary": "ibusiness for sale. Search over 14,000 businesses for sale. You can also buy a franchise opportunity or find a b Sales revenue: Revenue can be increased with Owner-Operator",
-        "addresses": [
-          "000 businesses for sale. You can also buy a franchise opportunity or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -666,10 +597,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "83",
         "summary": "$750,000 with owner benefit in the $250,000 range. The car wash provides a http://bizbuysel1.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050422&bn=1... 4/23/2005 Facilities: Automated tunnel car wash building with restrooms, office, lobby",
-        "addresses": [
-          "1 of 1 in allinoce Ito Vail PA",
-          "000 with owner benefit in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -677,9 +605,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "84",
         "summary": "http://bizbuysell.com/cgi-bin/addetailn=bot&p=08m=ra&k=car wash&t=200505048thn=13... 5/5/2005 favorable terms from current owner. Adjacent to car wash is property currently Carwash 1677a eb",
-        "addresses": [
-          "1 of 1 S in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -706,17 +632,14 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "88",
         "summary": "High profile location! This is a 2 acre hard corner and would be an excellent site for retail or bank. \u2022 New Dispensers installed 2003 \u2022 C-store 60,000",
         "addresses": [
-          "4810 North 1st Ave Tucson, AZ 85718",
-          "2 acre hard corner and would be an excellent site for retail or"
+          "4810 North 1st Ave Tucson, AZ 85718"
         ],
         "terms": []
       },
       {
         "page": "89",
         "summary": "(REF#2091) Orange County NY (((Tunnel Car Wash, Self Service Bays Orange County NY (((Tunnel Car Wash, on Property. $1,250,000.00. Seller may be willing to offer some",
-        "addresses": [
-          "0 Return to Listings Page cA"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -741,9 +664,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "92",
         "summary": "Asking Price: Annual Revenue: Works About 48 Hours A Week In The Business.",
-        "addresses": [
-          "48 Hours A Week In"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -751,10 +672,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "93",
         "summary": "Than 2M To Build Such A Carwash. .Existing Owner Has Tripled The Sales In 1 Year With No Background In Car DESCRIPTION: Car Wash Doing 70,000 Gross/Mo With Rent Below 6,800/Mo. Lease More Than 35 Years PROFILE: Car Wash Full Service, Detail. Low Rent. Long Term Lease",
-        "addresses": [
-          "274 Sold So Fa Car Wash for Sale in",
-          "1 Year With No Background In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -766,16 +684,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [],
         "terms": [
           "car wash"
-        ]
-      },
-      {
-        "page": "95",
-        "summary": "August 31, 2004.",
-        "addresses": [
-          "34 i 11Kwik Ownorship. COM INDUSTRIES, ma"
-        ],
-        "terms": [
-          "development"
         ]
       },
       {
@@ -818,11 +726,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "101",
         "summary": "Traffic count - 14,500 (21st St. = 6,500 & \"N\" St. = 8,000) RANDOLPH CAR WASH Asking Price... .no idea.. .just would want a fair deal",
-        "addresses": [
-          "13 Computerized - DRB car watch Age of business - started by grandfather in",
-          "1977 Real estate - Tom is in",
-          "5 years ago and it has made all the difference in"
-        ],
+        "addresses": [],
         "terms": [
           "traffic"
         ]
@@ -848,80 +752,18 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "105",
         "summary": "Approved for sale/Car Wash R 27 A Ann Arbor, MI 26 F Grand Rapids, MI",
-        "addresses": [
-          "12 A Grand Rapids, MI",
-          "15 A Grand Rapids, MI",
-          "15 C Grand Rapids, MI",
-          "16 B Battle Creek, MI",
-          "16 C 1 Battle Creek, MI",
-          "16 F B Battle Creek, MI",
-          "000 Approved for sale 18 Grand Haven, MI",
-          "000 Approved for sale 19 Muskegon, MI",
-          "20 B Grand Rapids, MI",
-          "26 E Grand Rapids, MI"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
       },
       {
-        "page": "107",
-        "summary": "55 C Sterling Heights, MI 55 B Sterling Heights, MI 50 C Grand Rapids, MI",
-        "addresses": [
-          "36 A Grand Rapids, MI",
-          "48 C Bay City, MI",
-          "48 D Bay City, MI",
-          "50 C Grand Rapids, MI",
-          "55 B Sterling Heights, MI",
-          "55 C Sterling Heights, MI",
-          "56 A JacksdMl 56 B Jackson, MI"
-        ],
-        "terms": []
-      },
-      {
-        "page": "109",
-        "summary": "69 D Mt. Pleasant, MI 69 C Mt. Pleasant, MI 105 A Mt. Clemens, MI",
-        "addresses": [
-          "69 C Mt. Pleasant, MI",
-          "69 D Mt. Pleasant, MI",
-          "000 Approved for sale 105 A Mt. Clemens, MI",
-          "000 Approved for sale Ifilx 107 A Beavercreek, OH",
-          "000 Approved for sale Approved for sale 128 B Mishawaka, IN",
-          "000 Approved for sale 129 A Indianapolis, IN",
-          "000 Approved for sale/Restaurant only Approved for sale/Restaurant only 131 A Indianapolis, IN",
-          "000 Approved for sale 132 A Indianapolis, IN"
-        ],
-        "terms": []
-      },
-      {
         "page": "111",
         "summary": "Approved for sale (2 usable acres) 175 B Three Rivers, MI 175 A Three Rivers, MI",
-        "addresses": [
-          "138 C Ft Wayne, IN",
-          "138 E Ft. Wayne, IN",
-          "000 Approved for sale 142 A Sandusky, OH",
-          "000 Approved for sale 143 A Columbus, OH",
-          "000 Approved for sale 144 A Lancaster, OH",
-          "60 Approved for Sit-Down Res 146 A Champaign, IL",
-          "163 A Port Huron, MI",
-          "000 Approved for sale 167 A Jeffersonville, IN",
-          "000 Approved for sale 169 A Bolingbrook, IL",
-          "175 A Three Rivers, MI"
-        ],
+        "addresses": [],
         "terms": [
           "acres"
         ]
-      },
-      {
-        "page": "113",
-        "summary": "$6,000,000 Approved for sale/Industrial $6,000,000 Approved for sale $5,700,000 Approved for sale",
-        "addresses": [
-          "000 Approved for sale/Industrial Lisle, IL",
-          "000 Approved for sale/Office/Industrial 404 - Taylor, MI",
-          "000 Approved for sale 405 - Westland, MI",
-          "000 Approved for sale Twinsburg, OH"
-        ],
-        "terms": []
       },
       {
         "page": "115",
@@ -935,7 +777,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "117",
         "summary": "3.5 Acres Yes 2.5 Acres Yes 2.0 Acres Yes",
         "addresses": [
-          "0-66 Si and M 1 2.0 Acres Yes Yes Vacant or",
           "000 Garrisonville Rd. & Eustace La"
         ],
         "terms": [
@@ -945,9 +786,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "120",
         "summary": "1.5 acres yes 1.0 acres yes",
-        "addresses": [
-          "2 to 2.5 Acres yes yes yes yes Vacant or"
-        ],
+        "addresses": [],
         "terms": [
           "acres"
         ]
@@ -955,9 +794,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "122",
         "summary": "5.0 acres yes 5.0 Acres yes 3.0 acres yes",
-        "addresses": [
-          "3 R3 5.0 Acres yes 5.0 acres yes yes yes Vacant or"
-        ],
+        "addresses": [],
         "terms": [
           "acres"
         ]
@@ -992,8 +829,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "125",
         "summary": "Land = 1.2681 Acres Land = 1.233 Acres Land = .9263 Acres",
         "addresses": [
-          "22515 Loop 494 Kingwood, TX",
-          "27844 Tomball Pk '. Tomball, TX",
           "3015 Eleventh St. Huntsville, TX"
         ],
         "terms": [
@@ -1015,9 +850,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "127",
         "summary": "Tunnel car wash, detail shop and 2 bay express oil change. Volume is under Traffic Count: CAR WASH & OIL/LUBE FACILITY",
-        "addresses": [
-          "3960 Via Del Rey Bonita Springs, FL 34134"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -1052,11 +885,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "133",
         "summary": "Facilities: 3 awesome car wash facilities in 5 car wash facilties in Texas for sale. 2 in Fort 5-Huge Car wash/lube/gas",
-        "addresses": [
-          "5 car wash facilties in",
-          "2 in and around the Houston area. Buy one location, or",
-          "3 awesome car wash facilities in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -1524,7 +1353,848 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "w Pages I Auto Washing & Polishing (1 - 15) AOL Anywhere You are here: Home > AOL.COM Search > AOL Yellow Pages > Search Results AOL 42 ageism Search Results Search Again I Back to Matching Categories I Help Auto Washing & Polishing Category ViewAlphabetically Ilumpto:AABCDEFGHIJKLMNOPQRSTUVWXYZ Previous Page I (1 - 15 of 34) 1 Next Pa e ALL LISTINGS powered by SUPERPAGES COM Not Your Ever A general contractor Related Links - Shop@AOL.com: Local Providers: - Entertainment - Real Estate Have a Website? Get more traffic and customers from Looking for a Person Try AOL White Pages AOL Yellow Pages Add or update your business listing in the Yellow Pages. For more information click here. International Directories to find non- U.S. people, businesses, or Sax Car Van Truck Wash & Detail Center - 3986 Indianola Avenue, Columbus, OH 43214 I 13 FLAA-544-14 (614) 447-0064 (614) 879-5430 (fax) k PuLA. athus ewe.- Self-Sery Coin Car Wash 4686 Indianola Avenue, Columbus, OH 43214 (614) 267-6721 Soft Touch Car Wash -North - I 4 1) 4881 Sinclair Road, Columbus, OH 43229 (614) 846-4333 driving directions driving directions driving directions Northland Shell 1195 Morse Road, Columbus, OH 43229 (614) 267-8212 -r 04^11-mao driving directions Jacob & Sons Auto Clean Up 4243 North High Street, Columbus, OH 43214 (614) 263-5788 driving directions Anchor Car Wash Systems 4 2975 North High Street, Columbus, OH 43202 (614) 263-1755 (614) 864-8787 driving directions Weber Road Self Service Car Wash 1165 East Weber Road, Columbus, OH 43211 (614) 267-3242 driving directions 4 gso cskc em- Miracle Car Wash tt 759 East Hudson Street, Columbus, OH 43211 (614) 268-2889 driving directions Advertise With Us Olentangy Car Wash ilk 3244 Olentangy River Road, Columbus, OH 43202 (614) 263-7175 . driving directions Magna National Realty 3121 Olentangy River Road, Columbus, OH 43202 (614) 268-1101 driving directions Make your business known! If you have a corporate website, you can advertise with us AOL.COM Search http://yp3.superpages.corn/listings.phtml?CID=3471AD0672A&AL=&RR=5&C---car+wasl... 9/29/2001"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "6",
+        "name": "ACFS : Car Wash w/ RE Cashflows $150k for sale : Tampa, FL listing 2173",
+        "location": "Tampa, FL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$500,000",
+        "asking_price": "$1,250,000",
+        "ebitda": "",
+        "note": "Car Wash w/ RE Cashflows $150k For Sale Details Car Wash w/ RE Cashflows $150k ACFS : Car Wash w/ RE Cashflows $150k for sale : Tampa, FL listing 2173 Asking price $1,250,000. Revenue $500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "7",
+        "name": "ACFS : Full service car wash, detail & lube incl. land for sale : Tampa, FL listing 1...",
+        "location": "3014 West Chapin Ave. Tampa, FL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$500,000",
+        "asking_price": "$1,795,000",
+        "ebitda": "",
+        "note": "Full service car wash, detail & lube incl. land For Sale Details Full service car wash, detail & lube incl. land ACFS : Full service car wash, detail & lube incl. land for sale : Tampa, FL listing 1706 Asking price $1,795,000. Revenue $500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "8",
+        "name": "ACFS : Confidential - Full Service Car Wash w/Lube for sale : Houston, TX listing 1555",
+        "location": "Houston, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,500,000",
+        "asking_price": "$ 1.4M",
+        "ebitda": "",
+        "note": "Terms: Price includes: Carwash, lube, and maintenance equipment $ 1.4M 1.704 acres of improved land $370,260 Approx. system, with 3 lube bays and 4 maintenance bays. New state-of-the-art equipment. Located in main street with 32,000 traffic Full-service tropi..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "10",
+        "name": "Pennsylvania Full-Service Car Wash/Detailing",
+        "location": "Bucks County, PA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$400,000",
+        "asking_price": "$800,000",
+        "ebitda": "",
+        "note": "The car wash and detail center sales could be built through marketing to local Sales revenue: Pennsylvania Full-Service Car Wash/Detailing Asking price $800,000. Revenue $400,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "101",
+        "name": "RANDOLPH CAR WASH",
+        "location": "Street Lincoln, NE",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "14,500",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Traffic count - 14,500 (21st St. = 6,500 & \"N\" St. = 8,000) RANDOLPH CAR WASH Asking Price... .no idea.. .just would want a fair deal Traffic 14,500."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "111",
+        "name": "Peripheral Property Approved for Sale",
+        "location": "Indianapolis, IN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$333,333",
+        "ebitda": "",
+        "note": "Approved for sale (2 usable acres) 175 B Three Rivers, MI 175 A Three Rivers, MI Asking price $333,333."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "117",
+        "name": "Excess land for sale",
+        "location": "000 Garrisonville Rd. & Eustace La",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$800,000",
+        "ebitda": "",
+        "note": "3.5 Acres Yes 2.5 Acres Yes 2.0 Acres Yes Asking price $800,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "123",
+        "name": "FLAGSHIP CAR WASH",
+        "location": "1 Property Photo Address Flagship Collinsworth 3124 Collinsworth St. Ft. Worth, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$367,380",
+        "ebitda": "",
+        "note": "Land = 1.149 Acres Land = .896 Acres Land = .597 Acres Asking price $367,380."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "126",
+        "name": "FLAGSHIP CAR WASH",
+        "location": "3327 Spencer Hwy. Pasadena, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,500,000",
+        "ebitda": "",
+        "note": "Land =.07231 Acres FLAGSHIP CAR WASH CW - Car Wash Asking price $1,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "130",
+        "name": "1.06 acre lot Improved with a 5,000 square foot carwash and detail si",
+        "location": "3479 Mercer University Drive Macon, GA 31204",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$900,000",
+        "ebitda": "",
+        "note": "1.06 acre lot Improved with a 5,000 square foot carwash and detail si Asking price $900,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "132",
+        "name": "Listing / Offering - Wash Tunnel South Eastern, MA",
+        "location": "Wash Tunnel South Eastern, MA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2000",
+        "ebitda": "",
+        "note": "Included in the Asking Price: Facilities: Tunnel Car Wash with two bay Car Wash Tunnel Asking price $2000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "12",
+        "name": "Magnificent Car Wash, Lube, Detail Salon",
+        "location": "000 Business Summary Just off a main highway on a major street in northern NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "http://bizbuyse11.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050617&bn=1... 6/17/2005 seasoned car wash operator. In the right hands this baby is a jackpot. Magnificent Car Wash, Lube, Detail Salon"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "13",
+        "name": "Car Wash, Lube, Repair, Detailing",
+        "location": "Detailing Central, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "http://bizbuyse11.com/egi-bin/addetail?J=bot&p=08m=ra&k=car wash&t=20050617&bn=1... 6/17/2005 Car Wash, Lube, Repair, Detailing tilt 2004 BizBuySell.com, Inc. All rights reserved."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "14",
+        "name": "Fuel, Car Wash & Detail Center",
+        "location": "Detail Center Central, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "http://bizbuyse1l.com/cgi-bin/addetailn=bot&p=0&n=ra&k=car wash&t=20050617&bn=1... 6/17/2005 \"teal car wash pro\" to achieve its potential. Currently washing 35,000 cars; Like new McNeil car wash system. A real show place. Must be seen. Needs a"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "40",
+        "name": "Listing / Offering - 1810 University Ave, Riverside, CA 92507",
+        "location": "1810 University Ave, Riverside, CA 92507",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "University Car Wash fr) 50111-t..140,4 (6 ill tegirEfimil alevtah CO\" 1810 University Ave, Riverside, CA 92507"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "74",
+        "name": "Speeders of Lincoln #1, LLC (\"Company\") to construct and operate a car wash on the Re...",
+        "location": "10 Josephine Street Sausalito, CA 94965",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "to demolish the old motel and construct a state-of-the-art car wash suitable for development and operation of a car wash and gas station subject to the terms Speeders of Lincoln #1, LLC (\"Company\") to construct and operate a car wash on the Real"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "88",
+        "name": "LoopNet - 1st Ave & River Mobil, Service/Gas Station, Tucson, AZ",
+        "location": "4810 North 1st Ave Tucson, AZ 85718",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "High profile location! This is a 2 acre hard corner and would be an excellent site for retail or bank. \u2022 New Dispensers installed 2003 \u2022 C-store 60,000"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "91",
+        "name": "Car Wash - Full Service (Business Only)",
+        "location": "Woodland Hills, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Situated on a large size corner lot, with approximately 5,000 square foot building, housing a full service hand car wash, A Full Service Hand Car Wash and DetIal Shop has been established at this location since 1960, and provides full service o Long Car Wash..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "99",
+        "name": "Listing / Offering - 53 SOUTH ROUTE 9W WEST HAVERSTRAW, NY 10993",
+        "location": "53 SOUTH ROUTE 9W WEST HAVERSTRAW, NY 10993",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "t)pNet - ROUlE 9W CAR WASH, Vehicle Related, WEST HAVERSTRAW, NY ROUTE 9W CAR WASH Zip ROUTE 9W CAR WASH"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "105",
+        "name": "Listing / Offering - Greenville, MI",
+        "location": "Greenville, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Approved for sale/Car Wash R 27 A Ann Arbor, MI 26 F Grand Rapids, MI"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "124",
+        "name": "FLAGSHIP CAR WASH",
+        "location": "3 Property Photo Flagship Little Road Address 4302 Little Rd. Arlington, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Land = 1.372 Acres Land = .9263 Acres Land - 1 0233 Acres"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "125",
+        "name": "FLAGSHIP CAR WASH",
+        "location": "3015 Eleventh St. Huntsville, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Land = 1.2681 Acres Land = 1.233 Acres Land = .9263 Acres"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "1",
+        "name": "Busy Car Wash and Lube with property",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$500,000",
+        "ebitda": "",
+        "note": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050527&bn=1... 5/28/2005 Real Estate: $1,500,000 (included in the asking price) $500,000 (included in the asking price) Asking price $500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "2",
+        "name": "Car Wash/Quick Lube",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$270,000,",
+        "asking_price": "$5,000",
+        "ebitda": "",
+        "note": "http://bizbuysel1.com/cgi-bin/addetai1?J=bot&p=0&n=ra&k=car wash&t=20050601&bn=13... 6/1/2005 average per car. It is an 80 ft tunnel. Sales breakdown- Car Wash $270,000, Real Estate: $1,800,000 (included in the asking price) Asking price $5,000. Revenue $270..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "5",
+        "name": "Businesses for Sale - powered by BizBuySell.com",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,000,000",
+        "ebitda": "",
+        "note": "Real Estate: $1,000,000 (included in the asking price) $500,0,000 (included in the asking price) $40,000 varies (not included in the asking price) Asking price $1,000,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "11",
+        "name": "0 Full Service Car Wash - Completely Rebuilt",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$250K",
+        "ebitda": "",
+        "note": "$425,000. Competition: One car wash down the street, but is \"hand\" wash and car wash for almost what it cost to rebuild. The attached store brings in extra cat This 75' long car wash was completely rebuilt last May. All brand new equipmen Asking price $250K."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "16",
+        "name": "CAR WASH FOR SALE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$ 1,000,000.00",
+        "ebitda": "",
+        "note": "Carwash history: Establish in 1990 ( 15 years old) Asking price: $ 1,000,000.00 CAR WASH FOR SALE Asking price $ 1,000,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "22",
+        "name": "New York Car Wash for Sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$625,000",
+        "ebitda": "",
+        "note": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050525&bn=1... 5/25/2( New York Car Wash for Sale NYC 1009 38 year lease. Carwash and Detail Center. Can be 5 bay lobo:I:lent Asking price $625,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "26",
+        "name": "Businesses for Sale - powered by BizBuySell.com",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$125,000",
+        "ebitda": "",
+        "note": "http://bizbuysel1.com/cgi-bin/addetai1a=bot&P=0&n=ra&k=car wash&t=20050601&bn=13... 6/1/2005 Inventory: $10,000 (not included in the asking price) $125,000 (included in the asking price) Asking price $125,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "28",
+        "name": "Full Service Car Wash on Busy Highway",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$150,000",
+        "ebitda": "",
+        "note": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20060302&bn=13... 3/3/2006 Inventory: $2000 (included in the asking price) $150,000 (included in the asking price) Asking price $150,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "34",
+        "name": "View Listing",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$810,000",
+        "asking_price": "$5.0M",
+        "ebitda": "",
+        "note": "Asking Price: $5.0M - $10.0M several sources of revenue. Annual receipts fo Segment: Carwash Asking price $5.0M. Revenue $810,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "46",
+        "name": "New York Car Wash for Sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$4000",
+        "ebitda": "",
+        "note": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050525&bn=1... 5/25/2005 New York Car Wash for Sale bigger store. Huge lineup. Rent of only $4000 is 1/3 normal for this area. Asking price $4000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "48",
+        "name": "New Jersey Car Wash for Sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,500,000",
+        "ebitda": "",
+        "note": "http://bizbuysell.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050525&bn=1... 5/25/2005 New Jersey Car Wash for Sale $3,250,000 total. May get in with $600,000 or $700,000 through financing Asking price $1,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "79",
+        "name": "Listing / Offering - Page 79",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$500k",
+        "asking_price": "$525,000",
+        "ebitda": "",
+        "note": "ril l:ohne! Car Wash For Sale Very nice tunnel car wash that was built approximately 15 years ago. Owner will Sales revenue: Asking price $525,000. Revenue $500k."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "82",
+        "name": "Car Wash For Sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$250,000",
+        "asking_price": "$850,000",
+        "ebitda": "",
+        "note": "ibusiness for sale. Search over 14,000 businesses for sale. You can also buy a franchise opportunity or find a b Sales revenue: Revenue can be increased with Owner-Operator Asking price $850,000. Revenue $250,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "90",
+        "name": "Car Wash For Sale In Los Angeles",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$285,000",
+        "asking_price": "$285,000",
+        "ebitda": "",
+        "note": "Not Coln Operated Car Wash. DESCRIPTION: All Hand Car Wash Car Wash for Sale in Los Angeles Asking price $285,000. Revenue $285,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "92",
+        "name": "Bakery & Cafe For Sale In Sherman Oaks",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$136,000",
+        "asking_price": "$136,000",
+        "ebitda": "",
+        "note": "Asking Price: Annual Revenue: Works About 48 Hours A Week In The Business. Asking price $136,000. Revenue $136,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "93",
+        "name": "Car Wash For Sale In Long Beach",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,850,000",
+        "asking_price": "$1,850,000",
+        "ebitda": "",
+        "note": "Than 2M To Build Such A Carwash. .Existing Owner Has Tripled The Sales In 1 Year With No Background In Car DESCRIPTION: Car Wash Doing 70,000 Gross/Mo With Rent Below 6,800/Mo. Lease More Than 35 Years PROFILE: Car Wash Full Service, Detail. Low Rent. Long Te..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "129",
+        "name": "PAD OR STRIP SITE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "58,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 2000 D.O.T. Traffic Counts \u2022 Former Equipment Dealer-15,000 S Median HH Income: $34,169 Traffic 58,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "100",
+        "name": "BUGGY BATH CAR WASH",
+        "location": "Locations Lincoln, NE",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "42,000",
+        "revenue": "",
+        "asking_price": "$80,000",
+        "ebitda": "",
+        "note": "Traffic count -42,000 (33rd = 30,000 & Pioneers = 12,000) Traffic count - 38,000 (48th = 30,000 & Leighton = 8,000) Traffic count - 29,500 (84th - 22,000 & Holdrege = 7,500) Asking price $80,000. Traffic 42,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "135",
+        "name": "Traffic / Site Evidence - 3986 Indianola Avenue, Columbus, OH 43214",
+        "location": "3986 Indianola Avenue, Columbus, OH 43214",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Weber Road Self Service Car Wash Soft Touch Car Wash -North - I 4 1) Self-Sery Coin Car Wash"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "127",
+        "name": "CAR WASH & OIL/LUBE FACILITY",
+        "location": "Fort Myers, FL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "41,000",
+        "revenue": "",
+        "asking_price": "$1,600,000",
+        "ebitda": "",
+        "note": "Tunnel car wash, detail shop and 2 bay express oil change. Volume is under Traffic Count: CAR WASH & OIL/LUBE FACILITY Asking price $1,600,000. Traffic 41,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "77",
+        "name": "Summary Report",
+        "location": "3655 S. Fort Apache Road, Las Vegas, NV",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2000 Site Selection Reports & Analysis Address: 3655 S. Fort Apache Road, Las Vegas, NV Total Household Income ($) 529,813,869 2,751,579,624 6,168,646,164"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "97",
+        "name": "SI Site Selection Repoits & Analysis",
+        "location": "257 columbia rd, dorchester, ma",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "SI Site Selection Repoits & Analysis EAST Site Selection Reports & Ana , 257 columbia rd, dorchester, ma"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "20",
+        "name": "\u2022 CAR WASH OPPORTUNITIES",
+        "location": "576 Springfield Avenue, Newark, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$210,000",
+        "asking_price": "$1,500,000",
+        "ebitda": "",
+        "note": "Car wash and lube claims $900,000 gross. Long lease or property. Property and Carwash. Claims $450,000 gross. All new equipment Car wash, property & 12 bay self serve. Could be full service. $850,000 Asking price $1,500,000. Revenue $210,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "38",
+        "name": "Auto Detailing Car Wash",
+        "location": "4625 S. Figueroa St Los Angeles, CA 90037",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$7,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Auto Detailing Car Wash (formal \"Empire Hand Car Wash\") offered at $450,000 Revenue $7,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "73",
+        "name": "Market Planning Solutions",
+        "location": "2004 Mr. Steve Leonard Highway Retail Inc. 10 Josephine Street Sausalito, CA 94965",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$250",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "survey. These results assume the Minuteman car wash will be operating at 15,000 cars per month. If the car wash does not perform at this level, it may adversely affect the gasoline at Cornhusker Highway and 33 Street in Lincoln, NE. The site was evaluated as..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "31",
+        "name": "AOL Yellow Pages I Auto Washing & Polishing (16 - 30)",
+        "location": "309 South Lincoln Avenue, Sioux Falls, SD 57104",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Super Wash Car Wash Shop N Cart Car Wash 2000 West 12th Street, Sioux Falls, SD 57104"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "32",
+        "name": "Harolds Car Wash",
+        "location": "2217 East 10th Street, Sioux Falls, SD 57103",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Harolds Car Wash 2400 West 41st Street, Sioux Falls, SD 57105 2217 East 10th Street, Sioux Falls, SD 57103"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "33",
+        "name": "Pinstripe Car Wash",
+        "location": "44 Hale Road, Manchester, CT 06040",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Pinstripe Car wash Pinstripe Car Wash 44 Hale Road, Manchester, CT 06040"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "35",
+        "name": "AOL Yellow Pages I Auto Washing & Polishing (1 - 15)",
+        "location": "3900 East 10th Street, Sioux Falls, SD 57103",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Fast Car Wash Empire Car Wash 951 South Marion Road, Sioux Falls, SD 57106"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "39",
+        "name": "Car Wash Price",
+        "location": "2500 W. 54th St Los Angeles, CA 90043",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash Price 100% Hand Car Wash Small Cars $8.00"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "68",
+        "name": "ALL BRITE CAR WASH",
+        "location": "64 Connecticut Avenue, Norwalk, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Car Wash Sales TOTAL REVENUE: Other Revenue"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "70",
+        "name": "VIP Touchless Car Wash Detail",
+        "location": "2612 South 90th Street, Omaha, NE 68124",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "VIP Touchless Car Wash Detail 6102 Arbor Street, Omaha, NE 68106 driving directions 2734 South 90th Street, Omaha, NE driving directions"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "71",
+        "name": "Washworks Car Wash",
+        "location": "8007 south 84th street la vista, NE",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Washworks Car Wash Power Wash Car Wash Results sorted by distance in miles from, 8007 south 84th street la vista, NE"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "72",
+        "name": "Washworks Car Wash",
+        "location": "8007 South 84th Street, La Vista, NE 68128",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Washworks Car Wash 8210 Harrison Street, La Vista, NE 68128 driving directions 8007 South 84th Street, La Vista, NE"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "75",
+        "name": "3200ft2 - Turn-key Full-Service Car Wash For Lease",
+        "location": "3655 S. Fort Apache Road, Las Vegas, NV",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "n-key Full-Service Car Wash Building Turn-key car wash pad building with great frontage on Fort 3200ft2 - Turn-key Full-Service Car Wash For Lease"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "103",
+        "name": "Source Evidence - 297 Main Avenue Norwalk, CT 06851",
+        "location": "297 Main Avenue Norwalk, CT 06851",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "referenced location. Please be advised that Meijer is entering the car wash business and VIA FACSIMILE (203) 847-2038AND U.S. MAIL July 19, 1999"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "18",
+        "name": "CAR WASH/LUBE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$7500",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 Amazing car wash CAR WASH/LUBE \u2022 Priced at $2,225,000 ($1mil Revenue $7500."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Doc Scanned Bin 4.txt",
+        "page": "64",
+        "name": "Route 7 Car Wash, LLC",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$60,461.06",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Supplies - Car Wash Small Tool- Car Wash Sales - Car Wash Revenue $60,461.06."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -1535,16 +2205,15 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Document-bin-5.pdf",
     "text_url": "ocr-output/Document bin 5.txt",
     "page_count": 64,
-    "evidence_page_count": 58,
-    "evidence_row_count": 0,
+    "evidence_page_count": 57,
+    "evidence_row_count": 46,
     "pages": [
       {
         "page": "1",
         "summary": "Year Built: 2014 Year Built: 2012 Price: $7,250,000",
         "addresses": [
           "20168 N John Wayne Pkwy Maricopa, AZ 85139",
-          "16205 West Bell Road Surprise, AZ 85347",
-          "2012 MARK RUBLE FRANK CAMERON GLINTON Executive Managing Director NV"
+          "16205 West Bell Road Surprise, AZ 85347"
         ],
         "terms": []
       },
@@ -1572,8 +2241,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "4",
         "summary": "facility. The property also benefits from multiple revenue streams, including a growing base of 1,100+ monthly members Subject: Re: Coming Soon Renovated Flex Car Wash I Hartford CT MSA I'm reaching out to share a first look at a car wash we're bringing to market in New Britain, CT. The site was recently",
         "addresses": [
-          "920 W Main St, New Britain, CT 06053",
-          "2023 Feel free to reach out at 623-887-9651 with any questions or"
+          "920 W Main St, New Britain, CT 06053"
         ],
         "terms": [
           "car wash",
@@ -1670,7 +2338,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "16",
         "summary": "\u2022 0.71 acres + 0.11-acre parking lot across the street Squiggly's Car Wash Hope you're doing well. I wanted to give you an early look at a full-service car wash we're bringing to market just outside",
         "addresses": [
-          "19 PM Mike Shul'man Coming Soon I OH",
           "2415 Maple Ave, Zanesville, OH 43701"
         ],
         "terms": [
@@ -1728,7 +2395,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "22",
         "summary": "The other 51 actually sold to this operator a couple years back. They are seriously going to look at selling in the 6050 Wade Hampton Blvd, Taylors, SC 29687 3107 N Pleasantburg Dr, Greenville, SC 29609",
         "addresses": [
-          "51 actually sold to this operator a couple years back. They are seriously going to look at selling in",
           "1405 Woodruff Rd, Greenville, Sc 29607",
           "101 Sudduth Farms Dr, Greer, SC 29650",
           "6050 Wade Hampton Blvd, Taylors, SC 29687",
@@ -1742,20 +2408,10 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "23",
         "summary": "Car wash. Orlando 2035 Crawley tivw (CC)",
-        "addresses": [
-          "34771 Oscan 32822 Orange 33311 &award COMM Centel Central Central Ca"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
-      },
-      {
-        "page": "24",
-        "summary": "qp$ 3 Kenna Ltra . 32022 Coing.",
-        "addresses": [
-          "3 Kenna Ltra . 1111111S. - ' 2 WW 331 Pen Ca"
-        ],
-        "terms": []
       },
       {
         "page": "25",
@@ -1774,7 +2430,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "26",
         "summary": "Wanted to reach out about a great opportunity in Kenosha\u2014two established Nappa Car Wash locations being offered Business 8t Real Estate Investment Opportunity I Nappa Car Wash Portfolio I 2 Locations 2918 Washington Rd. Kenosha, WI 53140",
         "addresses": [
-          "2 Locations I Kenosha, WI",
           "2918 Washington Rd. Kenosha, WI 53140"
         ],
         "terms": [
@@ -1843,8 +2498,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "36",
         "summary": "Personal Touch Car Wash - 475 Bantam Rd, Litchfield, CT 06759 10,200 traffic count Pre-Market: Owner/User Express Car Wash I CT",
         "addresses": [
-          "475 Bantam Rd, Litchfield, CT 06759",
-          "2007 Feel free to reach out at 623-887-9651 with any questions or"
+          "475 Bantam Rd, Litchfield, CT 06759"
         ],
         "terms": [
           "car wash",
@@ -1863,10 +2517,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "38",
         "summary": "World's Largest Car Wash Operator, Washing More Professional Car Wash has Increased from 47% in INTERNATIONAL CAR WASH GROUP",
         "addresses": [
-          "1853 W 4100 5 Taylorsville 15 Norman Drive Valdosta Mt",
-          "8798 I Anne Williams MS BOP 0-20.1133. Thdy McKibben TN",
-          "307629 I TOmthy Sped, TX",
-          "431723 I Michael class OH"
+          "1853 W 4100 5 Taylorsville 15 Norman Drive Valdosta Mt"
         ],
         "terms": [
           "car wash"
@@ -1891,9 +2542,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "41",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 612 smithfield aye, Lincoln, RI 02865 Total Personal Income ($) 481,481,300 3,623,634,040 8,740,384,800",
-        "addresses": [
-          "612 smithfield aye, Lincoln, RI 02865"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
@@ -2308,7 +2957,652 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "Mike Shullman Attachments: Landon Carter <Landon.Carter@matthews.com> Tuesday, July 22, 2025 8:51 AM Mike Shullman RE: Express Car Wash I Arlington, TX I Built 2012 2023 Tax Return Documents (Arlington).pdf; 2024 Tax Return Documents (Arlington).pdf; 2023 Tax Return Documents (Burleson).pdf; 2024 Tax Return Documents (8ur1eson).pdf; 2023 Tax Return Documents (Cleburne).pdf, 2024 Tax Return Documents (Cleburne).pdf; Silver Car Wash Information.pdf; Gold Car Wash Information (1).pdf; Silver Car Wash - Burleson, TX - OM.pdf; B&K Car Wash - Arlington, TX - OM.pdf See attached the previous 2 years Profit and Loss Statements for each of the 3 sites we have listed for the owner. B&K Car Wash \u20147311 Matlock Rd, Arlington, TX 76002 Asking Price: $2,950,000 Year Built: 2012 Lot Size: 0.73 acres Tunnel Length: 150ft Silver Car Wash -2475 SW Wilshire Blvd, Burleson, TX 76028 Asking Price: $2,750,000 Year Built: 2012 Lot Size: 1.39 acres Tunnel Length: 165ft B&K Car Wash -824 N Main St, Cleburne, TX 76033 Asking Price: $2,950,000 Year Built: 2015 Lot Size: 0.92 acres Tunnel Length: 125ft These sites are certainly not priced on an EBITDAor sales multiple but rather the Land, Building, Equipment, etc... cost. This owner runs other businesses and hasn't had the time to give to these which is why he is looking to sell. Given the locations, these could be fantastic value add opportunities for the right operator to come in and renovate all while still being significantly below replacement cost. Please let me know if you have any questions and look forward to hearing back from you. Best regards, Landon Carter Associate I Matthews REISn' Direct +1 615 212 25471 Mobile +1 615 854 6207 Main +1 866 889 05501 Fax +1 310 388 0788 landon.carterematthews.com License No. 365272 (TN) CONFIDENTIALITY NOTICE and DISCLAIMER: This email message is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any unauthorized review, use, disclosure or distribution is prohibited. If you are not the intended recipient, please"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Document bin 5.txt",
+        "page": "18",
+        "name": "Subject: Silver Car Wash I Burleson, TX I Just Listed",
+        "location": "2475 SW Wilshire Blvd, Burleson, TX 76028",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "29,000",
+        "revenue": "",
+        "asking_price": "$2,750,000",
+        "ebitda": "",
+        "note": "\u2022 Traffic Counts: 29,000+ VPD (Growing Rapidly) \u2022 Asking Price: $2,750,000 \u2022 Number of Vacuum spaces: 12 Asking price $2,750,000. Traffic 29,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document bin 5.txt",
+        "page": "63",
+        "name": "RE: Express Car Wash I Arlington, TX I Built 2012",
+        "location": "7311 Matlock Rd, Arlington, TX 76002",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,950,000",
+        "ebitda": "",
+        "note": "Silver Car Wash -2475 SW Wilshire Blvd, Burleson, TX 76028 B&K Car Wash \u20147311 Matlock Rd, Arlington, TX 76002 B&K Car Wash -824 N Main St, Cleburne, TX 76033 Asking price $2,950,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document bin 5.txt",
+        "page": "30",
+        "name": "Cedar Park, TX, 78613, USA. What is your opinion on this car wash for sale. Initial o...",
+        "location": "1350 E Whitestone Blvd, Cedar Park, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Snapshot \u2014 1350 E Whitestone Blvd, Cedar Park TX (Otters Express Car Wash) Cedar Park, TX, 78613, USA. What is your opinion on this car wash for sale. Initial offer is $4M for real estate Mister Car Wash \u20140.9 mi; GO Car Wash \u2014 1.0 mi) (Watershed"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document bin 5.txt",
+        "page": "60",
+        "name": "357 Route 59",
+        "location": "357 RT. 59, WEST NYACK NY 10994",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "357 RT. 59, WEST NYACK NY 10994 @ 2019 CBRE, Inc. All rights reserved. This information has been obtained from sources believed reliable, but has not been"
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document bin 5.txt",
+        "page": "16",
+        "name": "Coming Soon I OH Full Service Car Wash I 33k VPD",
+        "location": "2415 Maple Ave, Zanesville, OH 43701",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "33,400",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 0.71 acres + 0.11-acre parking lot across the street Squiggly's Car Wash Hope you're doing well. I wanted to give you an early look at a full-service car wash we're bringing to market just outside Traffic 33,400."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document bin 5.txt",
+        "page": "17",
+        "name": "Subject: Tunnel near Zach's Car Wash - Available now",
+        "location": "2711 Mannheim Rd, Des Plaines, IL 60018",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,600,000",
+        "asking_price": "",
+        "ebitda": "$1,000,000",
+        "note": "Royal Touch Car Wash & Detailing -2711 Mannheim Rd, Des Plaines, IL 60018 \u2022 24,500 traffic count \u2022 24' EBITDA: \u00b1 $1,000,000 Revenue $1,600,000. EBITDA $1,000,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document bin 5.txt",
+        "page": "36",
+        "name": "Pre-Market: Owner/User Express Car Wash I CT",
+        "location": "475 Bantam Rd, Litchfield, CT 06759",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "2007",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Personal Touch Car Wash - 475 Bantam Rd, Litchfield, CT 06759 10,200 traffic count Pre-Market: Owner/User Express Car Wash I CT Traffic 2007."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document bin 5.txt",
+        "page": "8",
+        "name": "\u2022 STRATEGIC LOCATION NEAR MAJOR RETAIL NODES \u2014 Gold Car Wash is located",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "32,500",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 STRATEGIC LOCATION NEAR MAJOR RETAIL NODES \u2014 Gold Car Wash is located visibility to over \u00b132,500 vehicles per day, enhancing drive-by exposure and accessibility. Traffic 32,500."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "10",
+        "name": "\u2022 Operating Car Wash: Fully functioning, established car wash facility with",
+        "location": "506 SH 6 ACCESS RD Houston, TX 77079",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "227,437",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 Zoned for Commercial Use: Suitable for continued car wash operations or \u2022 Operating Car Wash: Fully functioning, established car wash facility with \u2022 High Traffic Counts: Surrounded by retail centers, gas stations, Traffic 227,437."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "5",
+        "name": "$125,000 to $149,999",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 C 2024 Easy Analytic Software, Inc. Easy Analytc Software, Inc. (EASI) is the source of All estimates are as of 4/1/2020 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "6",
+        "name": "The Right Site",
+        "location": "7311 Matlock Rd, Arlington, TX 76002",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2020 Site Selection Reports & Analysis Address. 7311 Matlock Rd, Arlington, TX 76002 Total Personal Income ($) 710,902,872 4,934,604,902 10,836,416,247"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "12",
+        "name": "$150,000 to $199,999",
+        "location": "101 Haag Avenue, Sellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Sellmawr, NJ 08031 \u00a9 2024 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all All estimates are as of 4/1/2020 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "13",
+        "name": "The Right Site \u00ae",
+        "location": "2381 Foxon Rd North Branford, CT 06471",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2020 Site Selection Reports & Analysis Address: 2381 Foxon Rd North Branford, CT 06471 United States Total Personal Income ($) 139,382,186 739,046,232 2,903,670,325"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "14",
+        "name": "6126,000 to $149,999",
+        "location": "101 Haag Avenue. Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue. Bellmawr, NJ 08031 it) 2024 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of All estimates are as of 4/1/2020 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "15",
+        "name": "The Right Site \u00ae",
+        "location": "702 Quentin Rd, Lebanon, PA 17042",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2020 Site Selection Reports & Analysis Address: 702 Quentin Rd, Lebanon, PA 17042 Total Personal Income (s) 492,280,864 1,906,477,139 2,519,872,016"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "28",
+        "name": "$125,000 to $149,999",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2020 unless otherwise stated. @ 2024 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "29",
+        "name": "I\u00b0 g-e3gs3-4\u2018 07",
+        "location": "14615 East Jefferson Ave, Detroit, MI 48215",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2020 Site Selection Reports & Analysis Address: 14615 East Jefferson Ave, Detroit, MI 48215 Total Personal Income ($) 660,292,922 3,244,727,999 6,268,647,436"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "39",
+        "name": "10/7/24, 8:53 AM",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2020 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "40",
+        "name": "1017124, 8:53 AM",
+        "location": "751 Dolly Parton Parkway Sevierville, TN 37862",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2020 Site Selection Reports & Analysis Address: 751 Dolly Parton Parkway Sevierville, TN 37862 Total Personal Income ($) 40,494,168 667,180,971 966,852,332"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "42",
+        "name": "Summary Report",
+        "location": "311 west main street stamford ct",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 311 west main street stamford ct 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "43",
+        "name": "All estimates are as of 4/1/201.0 unless otherwise stated.",
+        "location": "101 Haag Avenue, BplIntawc NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, BplIntawc NJ 0"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "44",
+        "name": "Income Household Distribution",
+        "location": "311 west main street stamford ct",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "ES! Census 2010 Site Selection Reports & Analysis Address: 311 west main street stamford ct Total Personal Income ($) 802,373,861 5,971,971,522 9,536,614,548"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "45",
+        "name": "\"Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, BeIlmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, BeIlmawr, NJ 08031 \u2022 $35,000 to $49,999 Less,chan $1.5,000"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "47",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawc, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawc, NJ 08031 Less than $15,000 All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "49",
+        "name": "\u2022 Ineome Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 s $35,000 to 549,999 a 2020 Easy A' nalytic software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data 0"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "50",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "297 main ave norwalk ct",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 297 main ave norwalk ct Total Non Family Income (5) 153,808,691 951,128,879 1,471,055,793"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "51",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2010 unless otherwise stated. 2020 Easy Analytic Software, Inc1Easy Analytic Software, Inc. (EAST) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "52",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "301 Boston Post Rd, Port Chester, NY 10573",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 301 Boston Post Rd, Port Chester, NY 10573 Total Non Family Income ($) 226,368,137"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "53",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Belimawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Belimawr, NJ 08031 Less than $15,000 All estiMates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "55",
+        "name": "Summary Report",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 Map data \u00a92020"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "56",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 Less than $15,000 C 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "57",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "610 Grape Ave, Sunnyvale, CA 94087",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 610 Grape Ave, Sunnyvale, CA 94087 Total Non Family Income ($) 383,924,287 2,665,635,474 4,491,868,445"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "58",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 Less than $15,000 All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document bin 5.txt",
+        "page": "61",
+        "name": "Demographic Support - 357 Route 59, West Nyack, NY",
+        "location": "357 Route 59, West Nyack, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "offering consists of a 6,674 sq. ft. car wash on \u00b1-1.41 the sale of 357 Route 59, West Nyack, NY. The 357 RT. 59, WEST NYACK NY 10994"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "1",
+        "name": "20168 N John Wayne Pkwy",
+        "location": "20168 N John Wayne Pkwy Maricopa, AZ 85139",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$7,250,000",
+        "ebitda": "",
+        "note": "Year Built: 2014 Year Built: 2012 Price: $7,250,000 Asking price $7,250,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "2",
+        "name": "5140 West Cheyenne Ave",
+        "location": "5140 West Cheyenne Ave Las Vegas, NV 89130",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3,800,000",
+        "ebitda": "",
+        "note": "Year Built: 2020 Year Built: 2019 Year Built: 2018 Asking price $3,800,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "26",
+        "name": "Business 8t Real Estate Investment Opportunity I Nappa Car Wash Portfolio I 2 Locatio...",
+        "location": "2918 Washington Rd. Kenosha, WI 53140",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$5,970,000",
+        "ebitda": "",
+        "note": "Wanted to reach out about a great opportunity in Kenosha\u2014two established Nappa Car Wash locations being offered Business 8t Real Estate Investment Opportunity I Nappa Car Wash Portfolio I 2 Locations 2918 Washington Rd. Kenosha, WI 53140 Asking price $5,970,0..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "32",
+        "name": "Hamner Express Car Wash",
+        "location": "2126 Hamner Ave Norco CA 92860",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,090,000",
+        "ebitda": "",
+        "note": "press Car Wash Hamner Express Car Wash Sublease income $3,400 Asking price $1,090,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "4",
+        "name": "Subject: Re: Coming Soon Renovated Flex Car Wash I Hartford CT MSA",
+        "location": "920 W Main St, New Britain, CT 06053",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "facility. The property also benefits from multiple revenue streams, including a growing base of 1,100+ monthly members Subject: Re: Coming Soon Renovated Flex Car Wash I Hartford CT MSA I'm reaching out to share a first look at a car wash we're bringing to ma..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "7",
+        "name": "LANDON CARTER",
+        "location": "1600 West End Ave, Nashville TN 37203",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Matthews Real Estate Investment ServicesTM - 1600 West End Ave, Nashville TN 37203 MOB (901) 279-2026"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "19",
+        "name": "Monroe Car Wash & Detail Center - Google Maps",
+        "location": "178 Main St, Monroe, CT 06468",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Monroe Car Wash & Detail Center - Google Maps Monroe Car Wash & Detail Center Monroe Car Wash & Detail Center"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "22",
+        "name": "Mike Shullman",
+        "location": "1405 Woodruff Rd, Greenville, Sc 29607",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "The other 51 actually sold to this operator a couple years back. They are seriously going to look at selling in the 6050 Wade Hampton Blvd, Taylors, SC 29687 3107 N Pleasantburg Dr, Greenville, SC 29609"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "25",
+        "name": "High Volume Portfolio - Car Wash/Oil",
+        "location": "97 Waterbury Rd, Prospect, CT 06712",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 Portfolio EBITDA 08/2024-07/2025: \u00b1 $1,785,942 Platinum Car Wash & Oil Change: Prospect, Torrington, Waterbury High Volume Portfolio - Car Wash/Oil"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "31",
+        "name": "Subject: Fwd: Otters Express Car Wash",
+        "location": "1350 E Whitestone Blvd, Cedar Park, TX 78613",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Subject: Otters Express Car Wash Subject: Fwd: Otters Express Car Wash Address: 1350 E Whitestone Blvd, Cedar Park, TX 78613"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "38",
+        "name": "INTERNATIONAL CAR WASH GROUP",
+        "location": "1853 W 4100 5 Taylorsville 15 Norman Drive Valdosta Mt",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "World's Largest Car Wash Operator, Washing More Professional Car Wash has Increased from 47% in INTERNATIONAL CAR WASH GROUP"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document bin 5.txt",
+        "page": "37",
+        "name": "International Car Wash Group",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$6,000,000",
+        "ebitda": "",
+        "note": "Splash Car Wash Mister Car Wash Mister Car Wash Asking price $6,000,000."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -2319,8 +3613,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Document_20160628_0001.pdf",
     "text_url": "ocr-output/Document_20160628_0001.txt",
     "page_count": 112,
-    "evidence_page_count": 97,
-    "evidence_row_count": 0,
+    "evidence_page_count": 93,
+    "evidence_row_count": 81,
     "pages": [
       {
         "page": "1",
@@ -2491,21 +3785,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "28",
-        "summary": "Realty Advisors 8880 Camp Bowie West, Fort Worth TX 76116",
-        "addresses": [
-          "8880 Camp Bowie West, Fort Worth TX 76116"
-        ],
-        "terms": []
-      },
-      {
         "page": "29",
         "summary": "Rect] 2016 Traffic Counts 25,000 Vehicles Per Day 1.6079 Acres ealty Advisors ~~ 8880 Camp Bowie West, Fort Worth TX 76116",
-        "addresses": [
-          "8880 Camp Bowie West, Fort Worth TX 76116",
-          "000 SF L 1.6079 Acres YOC SZ. TU N NE",
-          "115 Feet e This facility is currently vacant and available For Sale or"
-        ],
+        "addresses": [],
         "terms": [
           "traffic",
           "acres"
@@ -2522,9 +3804,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "31",
         "summary": "EBITDA: $149,000 eal Golees: Full service tunnel car wash for sale in a growing Real Estate: $600,000",
-        "addresses": [
-          "000 a Business Description Full service tunnel car wash for sale in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -2542,9 +3822,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "33",
         "summary": "10/22/2018 Operating Car Wash For Sale in Huntsville, Alabama - BizBuySell Seller is asking only $425,000 for an express tunnel car wash located along one of the primary Asking Price: $425,000 Cash Flow: N/A",
-        "addresses": [
-          "2018 Operating Car Wash For Sale in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -2556,7 +3834,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "34",
         "summary": "1110 N 6th St $400,000 Get Financing",
         "addresses": [
-          "000 Get Financing Grand Junction, CO 81501",
           "1110 N 6th St - MLS -11 re Tyler Daniels ia"
         ],
         "terms": []
@@ -2575,9 +3852,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "36",
         "summary": "Superior Rosenberg Car Wash & Lube Property Sub-type Car Wash Tenancy Single aL Mag Banca 3908 Avenue |, Rosenberg, TX, 77471 - Car Wash Property For Sale on LoopNet.com",
-        "addresses": [
-          "000 Reennt iy Prep Sonnet Rosenberg, TX 77471"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -2607,9 +3882,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "40",
         "summary": "Inventory: Included in asking price Included in asking price Competition: Car Wash like this standard is 5 moles",
-        "addresses": [
-          "960 Estimated per capita income in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -2617,12 +3890,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "41",
         "summary": "EBITDA: N/A Real Estate: $1,100,000 with 3 Bays for detailing center. Built in 1996 and fully renovation in 2006, themselves while working there. PLEASE DO NOT VISIT AT CARWASH",
-        "addresses": [
-          "1996 Business Description Well established Carwash for sale with Property in Joliet IL",
-          "201842 Well established full-service car wash for sale in Will County, IL",
-          "000 sq. Ft. building with 3 Bays for detailing center. Built in",
-          "1996 and fully renovation in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -2633,10 +3901,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "42",
         "summary": "Included in asking price IOW\"TO CHECK THIS CAR WASH. Furniture, Included in asking price",
-        "addresses": [
-          "960 Estimated per capita income in",
-          "1986 complete renovation in 2000. Bay detailed constructed in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -2644,9 +3909,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "43",
         "summary": "EBITDA: N/A Real Estate: $1,400,000 Well established full-service car wash for sale in Grundy County, IL. Situated in a great location, with great traffic flow, this car wash is a",
-        "addresses": [
-          "1996 Business Description Busiest Car Wash in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -2701,9 +3964,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "49",
         "summary": "@ =\" 9016 Traffic Counts 25,000 Vehicles Per Day 1.6079 Acres Realty Advisors \u2014 8880 Camp Bowie West, Fort Worth TX 76116",
-        "addresses": [
-          "8880 Camp Bowie West, Fort Worth TX 76116"
-        ],
+        "addresses": [],
         "terms": [
           "traffic",
           "acres"
@@ -2735,8 +3996,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "525 N Main St, Sycamore, IL, 60178 - Car Wash Property For Sale on LoopNet.com Property Sub-type Car Wash Main Street Express Car Wash",
         "addresses": [
           "525 N Main St Sycamore, IL 60178",
-          "000 Property Type Specialty Property Sub-type Car Wash Sale Type Investment or",
-          "1 Year Built 2006 Zoning Description COM-NEC APN / Parcel ID",
           "525 N Main St, Sycamore, IL"
         ],
         "terms": [
@@ -2755,7 +4014,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "54",
         "summary": "dville. Previously a full-service car wash on over an acre of land, Built it in 1989 with fluted white wilding (former Car Wash) for Sale or Lease at 3400 Fairlanes \u2018Avenue SW, Grandville MI 2/2018 Property for Lease or Sale at 3400 Fairlanes Avenue NEW PRICE - office & commercial - office commercial rent",
         "addresses": [
-          "2018 Property for Lease or",
           "3400 Fairlanes Avenue, Grandville, MD",
           "1-196 and one block north of Chicago Drive in"
         ],
@@ -2764,19 +4022,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "55",
-        "summary": "8880 Camp Bowie West, Fort Worth TX 76116 Renter Occupied Households | 5,361 15,095 30,187 GRAPHICS | 2016 | 1 Mile 3 Miles 5 Miles",
-        "addresses": [
-          "8880 Camp Bowie West, Fort Worth TX 76116"
-        ],
-        "terms": []
-      },
-      {
         "page": "56",
         "summary": "a \\ eal of J 1.6079 Acres ed % 2 y Hi Richland Bill Rent $11,500/month NNN ec Back Building - +/- 1,000 SF",
-        "addresses": [
-          "000 Fort Worth . pee Nature Gente es mn"
-        ],
+        "addresses": [],
         "terms": [
           "acres"
         ]
@@ -2803,8 +4051,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "59",
         "summary": "10/31/2017 13495 Telegraph Rd, Whittier, CA, 90605 - Car Wash Property For Sale on LoopNet.com ~S Property Sub-type Car Wash More Year Built 1969 ee | oe Whittier Carwash ae .",
         "addresses": [
-          "13495 Telegraph Rd, Whittier, CA",
-          "000 Contact Listing Broker Whittier, CA 90605"
+          "13495 Telegraph Rd, Whittier, CA"
         ],
         "terms": [
           "car wash"
@@ -2858,9 +4105,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "65",
         "summary": "Escondido Valley Car Wash - CARWASH real estate and business for sale.",
-        "addresses": [
-          "39 min 32.6 mi Contact Listing Broker Michael Golden Carlsbad, CA"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -2868,10 +4113,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "66",
         "summary": "Property Sub-type =Car Wash CARWASH real estate and business for sale. Price $2,250,000",
-        "addresses": [
-          "410 E Valley Pky Escondido, CA 92025",
-          "872 SF Find out more... Listing ID"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -2889,9 +4131,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "69",
         "summary": "Property Sub-type =Car Wash Tenancy Single Germ Car Wash is in great condition and underwent significant property and equipment Gem Car Wash",
-        "addresses": [
-          "201 Description Germ Car Wash is in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -2903,8 +4143,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "2303-2325 Kietzke Ln, Reno, NV",
           "507 E Grove St, Reno, NV",
           "2331 S Kietzke Ln, Reno, NV",
-          "550 E Grove St, Reno, NV",
-          "332-7313 First Name Last Name Email Address Phone Number Ext. Please send me"
+          "550 E Grove St, Reno, NV"
         ],
         "terms": [
           "traffic"
@@ -2960,9 +4199,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "76",
         "summary": "10/31/2017 49720 Gratiot Ave, New Baltimore, Ml, 48051 - Car Wash Property For Sale on LoopNet.com Great car wash in a growing area - Great car wash in a growing area",
         "addresses": [
-          "2017 Description - Turn key operation - Great car wash in",
-          "46457 Gratiot Ave Macomb Township, MI 48044",
-          "48023 Clinton Township, MI Chesterfield, MI 48051"
+          "46457 Gratiot Ave Macomb Township, MI 48044"
         ],
         "terms": [
           "car wash",
@@ -2973,8 +4210,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "77",
         "summary": "10/: 0 49720 Gratiot Ave, New Baltimore, MI, 48051 - Car Wash Property For Sale on LoopNet.com Property Sub-type Car Wash Parking Ratio 1.21/1,000 SF (Googie) eee tn \u20ac2017 Googe Property Type Specialty Year Built 2002 4 ys eae",
         "addresses": [
-          "49720 Gratiot Ave, New Baltimore, MI",
-          "000 Contact Listing Broker New Baltimore, MI 48051"
+          "49720 Gratiot Ave, New Baltimore, MI"
         ],
         "terms": [
           "car wash"
@@ -2994,8 +4230,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "80",
         "summary": "10/31/2017 6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com \u00a9 2017 CoStar Group, Inc.",
         "addresses": [
-          "6307 Monroe St, Sylvania, OH",
-          "874-2231 First Name Last Name Email Address Phone Number Ext. Please send me"
+          "6307 Monroe St, Sylvania, OH"
         ],
         "terms": [
           "car wash"
@@ -3006,7 +4241,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com Listing ID: 9216657 Date Created: 09/18/2017 Last Updated: 09/20/2017 For Sale - $31,995 USD For Sale - $69,900 USD For Sale - $19,900 USD For Sale - $21,495 USD",
         "addresses": [
           "6307 Monroe St, Sylvania, OH",
-          "239 SF Find out more... Listing ID",
           "4911 Wynnscape Dr 4927 Wynnscape Dr Oregon, OH Perrysburg, OH 43551"
         ],
         "terms": [
@@ -3027,9 +4261,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "83",
         "summary": "This location is a self service and full service car wash. There is a LOT SIZE: 0.82 Acres = Daily Traffic Count",
-        "addresses": [
-          "6 present Price and conditions, prior to sale or lease, or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -3090,8 +4322,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "2503 N Blackstone Ave, Fresno, CA, 93703 - Car Wash Property For Lease on LoopNet.com Property Sub-type =Car Wash Year Built 1970 Space Available 4,000 SF Space Use Industrial",
         "addresses": [
           "2503 N Blackstone Ave, Fresno, CA",
-          "2503 N Blackstone Ave Fresno, CA 93703",
-          "1970 Find out more... Listing ID"
+          "2503 N Blackstone Ave Fresno, CA 93703"
         ],
         "terms": [
           "car wash"
@@ -3101,8 +4332,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "90",
         "summary": "6100 Nine Mile Rd, Henrico, VA, 23223 - Free Standing Bldg Property For Sale on LoopNet.com 8/16/17, 6:55 PM http://www.loopnet.com/Listing/20461070/6100-Nine-Mile-Rd-Henrico-VA/ Page 1 of 2 Property Type Reta Lot Size 31,406 SF",
         "addresses": [
-          "6100 Nine Mile Rd, Henrico, VA",
-          "87 Fi nor Listing ID"
+          "6100 Nine Mile Rd, Henrico, VA"
         ],
         "terms": []
       },
@@ -3128,9 +4358,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "94",
         "summary": "Rental Rate. $0.63 CAD /SF/Month Listing ID 18867707 - JiEFY:CAR WASH \u2018VICE TUNNEL CAR WASH , RYKO VT2000 WASH YEAR MADE 2004 = Jiffy Car Wash $0.63 CAD /SF/Month Carrey uot Riedes",
-        "addresses": [
-          "63 CAD /SF/Month Listing ID 18867"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -3146,20 +4374,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "96",
-        "summary": "Research for 8460 N Lindbergh, Florissant, MO 63031 (Saint Louis County) hutpvAvww.loopnet.com/xNet/MainS ite/ isting/P rofile/P rofile.aspx?LID=19540856&SRID=6582146797&StepID=101 12/3/15, 8:13 PM Contact Us | Help | Add Listings | AboutUs | Products | Advertise | Biog | Terms Cf Use | Privacy Polley | \u00a92018 LoopNet inc Partners EzBuySel",
-        "addresses": [
-          "8460 N Lindbergh, Florissant, MO 63031"
-        ],
-        "terms": []
-      },
-      {
         "page": "97",
         "summary": "Recreation Carwash and Retail Buildings and Raw Land 12/12/2015 LoopNet - North Lindbergh Blvd, Commercial/Other (land), 8460 N Lindbergh, Florissant, MO http:/Awww.loopnet.com/xNet/MainSite/Listing/Profile/Profile.aspx?LID= 19540856&SR ID =6617722437&StepID= 101 12",
-        "addresses": [
-          "8460 N Lindbergh, Florissant, MO",
-          "921-2624 Phone - - ext Please send me"
-        ],
+        "addresses": [],
         "terms": [
           "development"
         ]
@@ -3178,9 +4395,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "100",
         "summary": "Asking Price: \u00a3$809,000 \u2014* EBITDA: worked for the car wash for over 13 years. Consistent attention has been paid to has unparalleled visibility, a high traffic count, and is close to shopping, commercial, and",
-        "addresses": [
-          "13 years. Consistent attention has been paid to providing excellent service resulting in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -3188,20 +4403,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "101",
-        "summary": "} =State $119 +0.7% +3.8% | = City $81 0.0% -1.1% Contact Us | Help | Add Listings | About Us | Products { Advertise | Blog | Terms Of Use | Privacy Policy | \u00a9 2016 LoopNet, Inc. Partners: BizBuySell | LandAndFanm | BizQuest",
-        "addresses": [
-          "4 Asking Prices Retail for Sale Kannapolis, NC"
-        ],
-        "terms": []
-      },
-      {
         "page": "102",
         "summary": "Full Service Car Wash operational and profitable available as turn key investment. This wash has a unique touch 2215 Roxie Street, Kannapolis, NC 28083 free process that clans the vehicle without scratching. Average ticket price $24.00 and with two wash bays, you can",
         "addresses": [
           "2215 Roxie Street, Kannapolis, NC 28083",
-          "60 of I-85N Salisbury Downtown... in Concord/Kannapolis. Cash business, profitable and proven growth. Salisbury, NC",
-          "900 Northlite Shopping Center, Concord, NC"
+          "60 of I-85N Salisbury Downtown... in Concord/Kannapolis. Cash business, profitable and proven growth. Salisbury, NC"
         ],
         "terms": [
           "car wash"
@@ -3225,11 +4431,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "105",
         "summary": "5/2015 LoopNet - Top Hat Car Wash For Sale, Special Purpose (Other), 950 W. Hemphill, Flint, MI car wash in located in the middle of both retail/general businesses and residential subdivisions and 1 mile from Top Hat Car Wash For Sale AM gt",
         "addresses": [
-          "950 W. Hemphill, Flint, MI",
-          "78 APN / Parcel ID 41-30-159-057 Property Type Special Purpose Listing ID 18254",
-          "18 AC ABC Buildings Grand Blane, MI",
-          "240 SF 7450 Embury Rd Grand Blanc, MI",
-          "5402 Gateway Centr Flint, MI"
+          "240 SF 7450 Embury Rd Grand Blanc, MI"
         ],
         "terms": [
           "car wash"
@@ -3238,20 +4440,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "106",
         "summary": "Asking Price Index Trends for Memphis, TN Retail For Sale Research for 3581 Hickory Hill, Memphis, TN 38115 (Shelby County) sto en An ee ee State $ 1.3%",
-        "addresses": [
-          "3581 Hickory Hill, Memphis, TN 38115"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
         "page": "107",
         "summary": "Daily Traffic counts were 28,540 on Hickory Hill and 27,708 on Winchester. Featuring excellent signage on a highly-trafficked roadway, a 100' automated car wash, two automotive garage bays Car Wash & Garage at Busy Price Not Disclosed",
-        "addresses": [
-          "3581 Hickory Hill, Memphis, TN 38115",
-          "481-5045 Please send me additional information about this property. You can reach me",
-          "160 SF Negotiable Frayser Plaza Shop... Memphis, TN",
-          "708 on Winchester. 65 -340k Bre wworose Edge District Re-D... Memphis, TN"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -3272,8 +4467,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "109",
         "summary": "m= 60\u00b0 Tunnel car wash system A well established automatic car wash and self-service dog wash. 6295 Templeton Gap Rd, Colorado Springs, CO 80923 COMMERCIAL",
         "addresses": [
-          "6295 Templeton Gap Rd, Colorado Springs, CO 80923",
-          "2014 Pulitzer Prize Winning Newspaper of Colorado Springs. The lot and zoning will support an additional building for growth or"
+          "6295 Templeton Gap Rd, Colorado Springs, CO 80923"
         ],
         "terms": [
           "car wash",
@@ -3284,10 +4478,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "110",
         "summary": "19/2873015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA 7 j Asking Prices Retail for Sale San Diego, CA ($/SF) rm \u2018 Pe = City $235 -6.8% -12.9%",
         "addresses": [
-          "1350 Palm Avenue, San Diego, CA",
-          "7 j Asking Prices Retail for Sale San Diego, CA",
-          "300 vs. 3 mo. Oct 15 prior Y-O-Y Ih La me",
-          "3 toot View San Diego Market Trends for other property types for sale or"
+          "1350 Palm Avenue, San Diego, CA"
         ],
         "terms": [
           "car wash"
@@ -3297,11 +4488,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "111",
         "summary": "LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA service, tunnel car wash and detail center and NY Pizzeria. Lee & Associates Is pleased to offer the fee simple real estate and business interests of the Arcade Car Wash and",
         "addresses": [
-          "000 Residents within 3 miles ad Y Description Lee & Associates Is pleased to offer the fee simple real estate and business interests of the Arcade Car Wash and NY",
-          "2012 constructed full service, tunnel car wash and detail center and NY",
           "1350 Palm Avenue, San Diego, CA 92154",
-          "1350 Palm Avenue, San Diego, CA",
-          "20 iSFNear 1-15 Frontage/Ciin... A Wildomar, CA"
+          "1350 Palm Avenue, San Diego, CA"
         ],
         "terms": [
           "car wash"
@@ -3311,8 +4499,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "112",
         "summary": "9015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA Arcade Car Wash & Business = 100% Fee Simple Real \u00ab= Full Service Car Wash and",
         "addresses": [
-          "1350 Palm Avenue, San Diego, CA",
-          "21 days ago Yucca Valley, CA"
+          "1350 Palm Avenue, San Diego, CA"
         ],
         "terms": [
           "car wash"
@@ -3765,7 +4952,1142 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "9015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA Become a free member Log In For Sale ForLease FindaBroker Add Listing My LoopNetv Connecting Commercial Real Estate\u2122 < Back to Search Results < Prev Next > 9,367 SF | Retail | Get Financing Arcade Car Wash & Business 1350 Palm Avenue, San Diego, C Presented by Lee & Associates Contact Listing Broker (951) 445-4503 FirstName | LastName Phone * = ext Please send me additional information about this property. By clicking \"Contact Listing Broker\", you are indicating that you have read, understood, and agree to LoopNet's Terms and Conditions. New to LoopNet? No problem. As 2 courtesy, LoopNet will automatically create a free account so that you can access more listing details, setup new listing alerts, Retail Property For Sale and more. We will not share your email address. View Price $2,695,000 Tenancy. Multiple our Privacy Policy. Building Size. 9,367 SF Year Built: 2012 Price/SF $287.71 Lot Size 0.94 AC Property Type: Retail APN / Parcel ID: 616-020-21 Mike's Other Listings (View All) Property Sub-type Free Standing Bldg Listing ID 19430 Santa Fe Trail Bus Property Use Type: Business For Sale Last Updated 21 days ago Yucca Valley, CA No. Stories: 2 1,400 - 5,600 SF x - 9 a $7.20 ISFNear Find Out More J \u201d AS 4) S Santa Fe Trail Bus Attachments Nf Ga zo Yucca Valley, CA Flyer $425,000 se? 5,600 SF Bldg Highlights 8) A = 100% Fee Simple Real \u00ab= Full Service Car Wash and Estate and Business NY Pizzeria with all FF&E 7-Eleven Strip Cen. Chula Vista, CA Interests = 2012 Construction / New 5,600 SF GLA Prototype / New Signage http:/Avww.loopnet.com/xNet/MainSite/Listing/Profile/Profile.aspx?LID= 19430914&SR ID=6558981944&StepID=101"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "4",
+        "name": "Listing / Offering - 306 WHITE BRIDGE PIKE, NASHVILLE, TN 37209",
+        "location": "306 WHITE BRIDGE PIKE, NASHVILLE, TN 37209",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "38,616",
+        "revenue": "",
+        "asking_price": "$949",
+        "ebitda": "",
+        "note": "Traffic Count: 38,616 ADT FOR SALE > CAR WASH Cameron Express Car Wash _ | Setlists Asking price $949. Traffic 38,616."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "8",
+        "name": "ELGIN CAR WASH Get Financing",
+        "location": "Elgin, IL 60120",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$435,000",
+        "ebitda": "",
+        "note": "Property Sub-type Car Wash No. Stories 1 ELGIN CAR WASH Get Financing Property Type Specialty Building Size 4,800 SF Asking price $435,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "9",
+        "name": "HIGH TIDE EXPRESS EXTERIOR CAR WASH",
+        "location": "1696 E Dixon Blvd Shelby, NC 28152",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,240,000",
+        "ebitda": "",
+        "note": "Property Sub-type Car Wash HIGH TIDE EXPRESS EXTERIOR CAR WASH Shelby, NC 28152 - 2,389 SF - Specialty For Sale Asking price $1,240,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "16",
+        "name": "Car Wash - Full Service, High Traffic",
+        "location": "Riverside County, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$117,380",
+        "asking_price": "$676,717",
+        "ebitda": "$117,380",
+        "note": "foam car wash, wax, hand dry, full interior/exterior This full service car wash is located on busy main EBITDA: N/A saver\u2019 Asking price $676,717. Revenue $117,380. EBITDA $117,380."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "19",
+        "name": "Car Wash With Added Potential",
+        "location": "With Added Potential Burbank, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$80,000",
+        "ebitda": "",
+        "note": "Inventory: \u2014 Included in asking price Car Wash With Added Potential eras Nv Established: 2008 Asking price $80,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "25",
+        "name": "EXPRESS TUNNEL CAR WASH FOR SALE",
+        "location": "935 South Kipling Parkway, Lakewood, CO 80226",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "45,800",
+        "revenue": "",
+        "asking_price": "$1,900,000",
+        "ebitda": "",
+        "note": "SALE PRICE: $1,900,000 South Kipling Parkway in Lakewood. 45,800 vehicles per day and 51,022 Households within a 3 mile radius. Express Tunnel Car Wash featuring 120ft tunnel with an advanced water reclaim treatment system. Excellent visibility from EXPRESS T..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "31",
+        "name": "Ankeny Auto Spa",
+        "location": "Auto Spa Des Moines, IA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$600,000",
+        "asking_price": "$475,190",
+        "ebitda": "$149,000",
+        "note": "EBITDA: $149,000 eal Golees: Full service tunnel car wash for sale in a growing Real Estate: $600,000 Asking price $475,190. Revenue $600,000. EBITDA $149,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "33",
+        "name": "10/22/2018 Operating Car Wash For Sale in Huntsville, Alabama - BizBuySell",
+        "location": "Wash For Sale Huntsville, AL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$425,000",
+        "asking_price": "$425,000",
+        "ebitda": "$425,000",
+        "note": "10/22/2018 Operating Car Wash For Sale in Huntsville, Alabama - BizBuySell Seller is asking only $425,000 for an express tunnel car wash located along one of the primary Asking Price: $425,000 Cash Flow: N/A Asking price $425,000. Revenue $425,000. EBITDA $42..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "35",
+        "name": "Car Wash for Sale at Cherrydale",
+        "location": "Cherrydale Greenville, SC",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "34,600",
+        "revenue": "",
+        "asking_price": "$850,000",
+        "ebitda": "",
+        "note": "Asking Price: $850,000 Cash Flow: N/A e Land - .61+ Acres e Car Wash Business Asking price $850,000. Traffic 34,600."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "36",
+        "name": "3908 Avenue |, Rosenberg, TX, 77471 - Car Wash Property For Sale on LoopNet.com",
+        "location": "Rosenberg, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,100,000",
+        "ebitda": "",
+        "note": "Superior Rosenberg Car Wash & Lube Property Sub-type Car Wash Tenancy Single aL Mag Banca 3908 Avenue |, Rosenberg, TX, 77471 - Car Wash Property For Sale on LoopNet.com Asking price $1,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "41",
+        "name": "Well established full-service car wash",
+        "location": "Joliet, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,100,000",
+        "asking_price": "$1,100,000",
+        "ebitda": "$1,100,000",
+        "note": "EBITDA: N/A Real Estate: $1,100,000 with 3 Bays for detailing center. Built in 1996 and fully renovation in 2006, themselves while working there. PLEASE DO NOT VISIT AT CARWASH Asking price $1,100,000. Revenue $1,100,000. EBITDA $1,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "43",
+        "name": "Busiest Car Wash in Town",
+        "location": "Town Morris, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,400,000",
+        "asking_price": "$1,400,000",
+        "ebitda": "$1,400,000",
+        "note": "EBITDA: N/A Real Estate: $1,400,000 Well established full-service car wash for sale in Grundy County, IL. Situated in a great location, with great traffic flow, this car wash is a Asking price $1,400,000. Revenue $1,400,000. EBITDA $1,400,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "48",
+        "name": "Property Sub-type Car Wash",
+        "location": "3450 W Bethany Home Rd Phoenix, AZ 85017",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$350,000",
+        "ebitda": "",
+        "note": "3450 W Bethany Home Rd, Phoenix, AZ, 85017 - Car Wash Property For Sale on LoopNet.com Property Sub-type Car Wash Price $350,000 Asking price $350,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "52",
+        "name": "Main Street Express Car Wash",
+        "location": "525 N Main St Sycamore, IL 60178",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,900,000",
+        "ebitda": "",
+        "note": "525 N Main St, Sycamore, IL, 60178 - Car Wash Property For Sale on LoopNet.com Property Sub-type Car Wash Main Street Express Car Wash Asking price $1,900,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "57",
+        "name": "Property Sub-type Car Wash APN /Parcel ID 83880-84-09-09220 Privacy Policy:",
+        "location": "Commer Broken Arrow, OK 74012",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$799,000",
+        "ebitda": "",
+        "note": "Property Sub-type Car Wash APN /Parcel ID 83880-84-09-09220 Privacy Policy: Property Type Specialty Year Built 2008 clicking the button, you ac Price $799,000 Building Size 6,029 SF We'll automatically create Asking price $799,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "59",
+        "name": "10/31/2017 13495 Telegraph Rd, Whittier, CA, 90605 - Car Wash Property For Sale on Lo...",
+        "location": "13495 Telegraph Rd, Whittier, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,000,000",
+        "ebitda": "",
+        "note": "10/31/2017 13495 Telegraph Rd, Whittier, CA, 90605 - Car Wash Property For Sale on LoopNet.com ~S Property Sub-type Car Wash More Year Built 1969 ee | oe Whittier Carwash ae . Asking price $2,000,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "61",
+        "name": "11/7/2017 Full Service Car Wash & Mobil Gas Station - MOTIVATED SELLER: Business For...",
+        "location": "MOTIVATED SELLER La Palma, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$995,000",
+        "ebitda": "",
+        "note": "Asking Price: $995,000 Cash Flow: N/A 11/7/2017 Full Service Car Wash & Mobil Gas Station - MOTIVATED SELLER: Business For Sale in La Palma, Orange County, California, United States on BizBuySell.com High Gas Margins Over 60\u00a2 Per Gallon. Great Opportunity for..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "63",
+        "name": "Burbank Pit Stop (Carwash w/Mechanic",
+        "location": "Burbank, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,000,000",
+        "ebitda": "",
+        "note": "EBITDA: N/A ease Rate \u2018tio th Burbank Pit Stop (Carwash w/Mechanic *not included in asking price. Asking price $1,000,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "66",
+        "name": "Property Sub-type =Car Wash",
+        "location": "Valley Pky Escondido, CA 92025",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,250,000",
+        "ebitda": "",
+        "note": "Property Sub-type =Car Wash CARWASH real estate and business for sale. Price $2,250,000 Asking price $2,250,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "69",
+        "name": "Gem Car Wash",
+        "location": "Sacramento, CA 95822",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$4,500,000",
+        "ebitda": "",
+        "note": "Property Sub-type =Car Wash Tenancy Single Germ Car Wash is in great condition and underwent significant property and equipment Gem Car Wash Asking price $4,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "70",
+        "name": "Listing / Offering - 2303-2325 Kietzke Ln, Reno, NV",
+        "location": "2303-2325 Kietzke Ln, Reno, NV",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$4,650,000",
+        "asking_price": "$4,650,000",
+        "ebitda": "",
+        "note": "550 E Grove St, Reno, NV 507 E Grove St, Reno, NV 2331 S Kietzke Ln, Reno, NV Asking price $4,650,000. Revenue $4,650,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "74",
+        "name": "Property Sub-type Car Wash",
+        "location": "7501 E Indian School Rd Scottsdale, AZ 85251",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,000,000",
+        "ebitda": "",
+        "note": "7501 E Indian School Rd, Scottsdale, AZ, 59291 - Car Wash Froperty For sale On LOOPINEL.COMm Property Sub-type Car Wash ABI LLC, & Car Wash Brokers, Inc Asking price $1,000,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "77",
+        "name": "10/: 0 49720 Gratiot Ave, New Baltimore, MI, 48051 - Car Wash Property For Sale on Lo...",
+        "location": "49720 Gratiot Ave, New Baltimore, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$795,000",
+        "ebitda": "",
+        "note": "10/: 0 49720 Gratiot Ave, New Baltimore, MI, 48051 - Car Wash Property For Sale on LoopNet.com Property Sub-type Car Wash Parking Ratio 1.21/1,000 SF (Googie) eee tn \u20ac2017 Googe Property Type Specialty Year Built 2002 4 ys eae Asking price $795,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "78",
+        "name": "(2ST AEE FRET Si EE WES ASS IPODS SR SD OE ES I SI STI MT",
+        "location": "Shiloh, IL 62269",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "23,900",
+        "revenue": "",
+        "asking_price": "$349,000",
+        "ebitda": "",
+        "note": "Leaslia Comments: Zoning: Highway Business Survey: No Traffic Count: 23,900 on Route 3 Complex: Splish Splash Car Wash = Archaeological: No Tax Year: 2016 machinery, with wax and undercarriage wash options. This car wash generates year round Asking price $349..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "82",
+        "name": "6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com",
+        "location": "6307 Monroe St, Sylvania, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,250,000",
+        "ebitda": "",
+        "note": "6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com Soft Touch Car Wash & Detailing Property Sub-type Car Wash More Asking price $1,250,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "83",
+        "name": "This location is a self service and full service car wash. There is a",
+        "location": "Montrose, CO 81401",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,000",
+        "revenue": "",
+        "asking_price": "$1,595,000.00",
+        "ebitda": "",
+        "note": "This location is a self service and full service car wash. There is a LOT SIZE: 0.82 Acres = Daily Traffic Count Asking price $1,595,000.00. Traffic 20,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "86",
+        "name": "Hurricane Car Wash",
+        "location": "Hurricane, UT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$215,000",
+        "asking_price": "$675,000",
+        "ebitda": "$83,000",
+        "note": "Gross Revenue $215,000 Inventory: N/A EBITDA: $83,000 Real Estate. $650,000 Asking Price: $675,000 Cash Flow: $185,000 Asking price $675,000. Revenue $215,000. EBITDA $83,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "90",
+        "name": "6100 Nine Mile Rd, Henrico, VA, 23223 - Free Standing Bldg Property For Sale on LoopN...",
+        "location": "6100 Nine Mile Rd, Henrico, VA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$675",
+        "ebitda": "",
+        "note": "6100 Nine Mile Rd, Henrico, VA, 23223 - Free Standing Bldg Property For Sale on LoopNet.com 8/16/17, 6:55 PM http://www.loopnet.com/Listing/20461070/6100-Nine-Mile-Rd-Henrico-VA/ Page 1 of 2 Property Type Reta Lot Size 31,406 SF Asking price $675."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "92",
+        "name": "Profitable Car Wash, Low Labor Biz: Business For Sale in Mableton, Cobb County, Georg...",
+        "location": "Low Labor Biz Mableton, GA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$100,000",
+        "asking_price": "$253,000",
+        "ebitda": "$100,000",
+        "note": "EBITDA: $100,000 \u201coes Gane, 008 Profitable Car Wash, Low Labor Biz: Business For Sale in Mableton, Cobb County, Georgia, United States on BizBuySell.com 7/7/17, 12:46 PM Profitable Car Wash, Low Labor Biz Asking price $253,000. Revenue $100,000. EBITDA $100,0..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "95",
+        "name": "Car Wash: Exterior Tunnel & $299,000 ee. ae",
+        "location": "13723 South Indiana Avenue, Chicago, IL 60827",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$299,000",
+        "ebitda": "",
+        "note": "Car Wash: Exterior Tunnel & $299,000 ee. ae Highlights * Tunnel Car Wash Description Car Wash & Laundro... Asking price $299,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "97",
+        "name": "12/12/2015 LoopNet - North Lindbergh Blvd, Commercial/Other (land), 8460 N Lindbergh...",
+        "location": "Florissant, MO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,500,000",
+        "ebitda": "",
+        "note": "Recreation Carwash and Retail Buildings and Raw Land 12/12/2015 LoopNet - North Lindbergh Blvd, Commercial/Other (land), 8460 N Lindbergh, Florissant, MO http:/Awww.loopnet.com/xNet/MainSite/Listing/Profile/Profile.aspx?LID= 19540856&SR ID =6617722437&StepID=..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "99",
+        "name": "Round Rock Car Wash For Br 99? $900,000",
+        "location": "000 ale 1322 Round Rock Ave, Round Rock, TX 78681",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$900,000",
+        "ebitda": "",
+        "note": "Round Rock Car Wash For Br 99? $900,000 This ts a NNN leased established car wash in operation for 15 years in Round Rock, Texas. Located on one of the 1322 Round Rock Ave, Round Rock, TX 78681 $0 6 r00 Asking price $900,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "100",
+        "name": "Full Service Car Wash with Property",
+        "location": "Property Cincinnati, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$809,000",
+        "ebitda": "$150,000",
+        "note": "Asking Price: \u00a3$809,000 \u2014* EBITDA: worked for the car wash for over 13 years. Consistent attention has been paid to has unparalleled visibility, a high traffic count, and is close to shopping, commercial, and Asking price $809,000. EBITDA $150,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "102",
+        "name": "Listing / Offering - 2215 Roxie Street, Kannapolis, NC 28083",
+        "location": "2215 Roxie Street, Kannapolis, NC 28083",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,395,000",
+        "ebitda": "",
+        "note": "Full Service Car Wash operational and profitable available as turn key investment. This wash has a unique touch 2215 Roxie Street, Kannapolis, NC 28083 free process that clans the vehicle without scratching. Average ticket price $24.00 and with two wash bays..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "105",
+        "name": "5/2015 LoopNet - Top Hat Car Wash For Sale, Special Purpose (Other), 950 W. Hemphill...",
+        "location": "240 SF 7450 Embury Rd Grand Blanc, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$350,000",
+        "ebitda": "",
+        "note": "5/2015 LoopNet - Top Hat Car Wash For Sale, Special Purpose (Other), 950 W. Hemphill, Flint, MI car wash in located in the middle of both retail/general businesses and residential subdivisions and 1 mile from Top Hat Car Wash For Sale AM gt Asking price $350..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "107",
+        "name": "Car Wash & Garage at Busy Price Not Disclosed",
+        "location": "Memphis, TN 38115",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "28,540",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Daily Traffic counts were 28,540 on Hickory Hill and 27,708 on Winchester. Featuring excellent signage on a highly-trafficked roadway, a 100' automated car wash, two automotive garage bays Car Wash & Garage at Busy Price Not Disclosed Traffic 28,540."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "109",
+        "name": "A well established automatic car wash and self-service dog wash.",
+        "location": "6295 Templeton Gap Rd, Colorado Springs, CO 80923",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "30,118",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "m= 60\u00b0 Tunnel car wash system A well established automatic car wash and self-service dog wash. 6295 Templeton Gap Rd, Colorado Springs, CO 80923 COMMERCIAL Traffic 30,118."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "112",
+        "name": "9015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm...",
+        "location": "1350 Palm Avenue, San Diego, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,695,000",
+        "ebitda": "",
+        "note": "9015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA Arcade Car Wash & Business = 100% Fee Simple Real \u00ab= Full Service Car Wash and Asking price $2,695,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "5",
+        "name": "AVAILABLE FOR LEASE",
+        "location": "2503 N. Blackstone Avenue - Fresno, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "VISALIA OFFICE: 3447 S Demaree St Visalia CA 93277, T 559.732.7300 FRESNO OFFICE: 7480 N Palm Ave Suite 101 Fresno CA 93711, T 559.432.6200 2503 N. Blackstone Avenue - Fresno, CA"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "6",
+        "name": "Car Wash Facility \u2014\u2014",
+        "location": "7480 N Palm Ave Suite 101 Fresno CA 93711",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "This free-standing 4,000+ square feet car wash facility with miscellaneous car wash equipment that tenant shall area, and car wash tunnel. The washing tunnel comes"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "13",
+        "name": "Car Wash + Real Estate Available",
+        "location": "Real Estate Available Rialto, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Gross Revenue: N/A Inventory: N/A EBITDA: N/A Lease Rate: N/A /SF Car Wash Located on Historical Route 66 - Foothill Blvd"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "23",
+        "name": "Norwalk Express Car Wash",
+        "location": "Norwalk, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Norwalk Express Car Wash Asset Express Car Wash Sale with land Two Apn: 10,684 sf"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "24",
+        "name": "Full Service Tunnel Wash For Sale",
+        "location": "2844 E. Nichols Circle Centennial, CO 80122",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Priced at $645,000"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "34",
+        "name": "= 9.5 LoopNet\u201d oS",
+        "location": "1110 N 6th St - MLS -11 re Tyler Daniels ia",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1110 N 6th St $400,000 Get Financing"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "39",
+        "name": "Alessandro Auto Spa and Auto Center",
+        "location": "Auto Center Moreno Valley, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "12,500 SF auto center building on 52,978 SF (1.22 acres) of land Profitable Car Wash, Detail Business & Auto Center with Land Included in asking price"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "47",
+        "name": "7/16/2018 3450 W Bethany Home Rd, Phoenix, AZ, 85017 - Car Wash Property For Sale on...",
+        "location": "3450 W Bethany Home Rd, Phoenix, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "7/16/2018 3450 W Bethany Home Rd, Phoenix, AZ, 85017 - Car Wash Property For Sale on LoopNet.com W Bethany Home Rd N 3ist Ave, W 37,854 2017 0.53 mi W Bethany Home Rd N 36th Dr, E 28,819 2017 0.24 mi"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "51",
+        "name": "4/29/20 \u00ab8 525 N Main St, Sycamore, IL, 60178 - Car Wash Property For Sale on LoopNet...",
+        "location": "525 N Main St, Sycamore, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4/29/20 \u00ab8 525 N Main St, Sycamore, IL, 60178 - Car Wash Property For Sale on LoopNet.com a) MAIN STREET CAR WASH PLAT OF SURVE... WELL ESTABLISHED AND WELL MAINTAINED INCOME PRODUCING TURNKEY EXPRESS TUNNEL CAR WASH PLUS THREE BAY SELF"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "54",
+        "name": "Listing / Offering - 3400 Fairlanes Avenue, Grandville, MD",
+        "location": "3400 Fairlanes Avenue, Grandville, MD",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "dville. Previously a full-service car wash on over an acre of land, Built it in 1989 with fluted white wilding (former Car Wash) for Sale or Lease at 3400 Fairlanes \u2018Avenue SW, Grandville MI 2/2018 Property for Lease or Sale at 3400 Fairlanes Avenue NEW PRICE..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "58",
+        "name": "13495 Telegraph Rd, Whittier, CA, 90605 - Car Wash Property For Sale on LoopNet.com",
+        "location": "13495 Telegraph Rd, Whittier, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "13495 Telegraph Rd, Whittier, CA, 90605 - Car Wash Property For Sale on LoopNet.com"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "64",
+        "name": "Escondido Valley Car Wash = -",
+        "location": "Michael Golden Carlsbad, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Escondido Valley Car Wash = -"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "65",
+        "name": "CARWASH real estate and business for sale.",
+        "location": "Broker Michael Golden Carlsbad, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Escondido Valley Car Wash - CARWASH real estate and business for sale."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "68",
+        "name": "Listing / Offering - 4340 Golden 12286 Apricot Dr 4901 T St Dr Center Dr San Antonio...",
+        "location": "4340 Golden 12286 Apricot Dr 4901 T St Dr Center Dr San Antonio, TX 78247",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "lobby/wgiting room and office/warehouse/restroom are bisected by the car wash investor, Gem Car Wash represents a very stable and desirable investment in fa) Gem Car Wash-OM"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "71",
+        "name": "Listing / Offering - 4 Properties For Sale 2303-2325 Kietzke Ln, Reno, NV",
+        "location": "4 Properties For Sale 2303-2325 Kietzke Ln, Reno, NV",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2303-2325 Kietzke Ln, Reno, NV, 89502 - Portfolio For Sale on LoopNet.com Total Building Size 48,239 SF Lost Updated: 11/29/2017"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "72",
+        "name": "The LoopNet service and information provided therein, while believed to be accurate...",
+        "location": "7501 E Indian School Rd, Scottsdale, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "7501 E Indian School Rd, Scottsdale, AZ, 60201 - Var Wasn Fropelly Pl oan eee \u00a9 2017 CoStar Group, Inc"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "73",
+        "name": "7501 E Indian School Rd, Scottsdale, AZ, 85251 - Car Wash Property For Sale on LoopNe...",
+        "location": "7501 E Indian School Rd, Scottsdale, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "7501 E Indian School Rd, Scottsdale, AZ, 85251 - Car Wash Property For Sale on LoopNet.com Presented by ABI LLC, & Car Wash Brokers, Inc Car Wash Car Wash Cemetery/Mausoleum Car Wash"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "75",
+        "name": "4y\u00a5/ZU Gratiot Ave, New Baltimore, MI, 48051 - Car Wash Property For Sale on LoopNet...",
+        "location": "New Baltimore, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4y\u00a5/ZU Gratiot Ave, New Baltimore, MI, 48051 - Car Wash Property For Sale on LoopNet.com \u00a9 2017 CoStar Group, Inc"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "76",
+        "name": "10/31/2017 49720 Gratiot Ave, New Baltimore, Ml, 48051 - Car Wash Property For Sale o...",
+        "location": "46457 Gratiot Ave Macomb Township, MI 48044",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "10/31/2017 49720 Gratiot Ave, New Baltimore, Ml, 48051 - Car Wash Property For Sale on LoopNet.com Great car wash in a growing area - Great car wash in a growing area"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "80",
+        "name": "10/31/2017 6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNe...",
+        "location": "6307 Monroe St, Sylvania, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "10/31/2017 6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com \u00a9 2017 CoStar Group, Inc."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "87",
+        "name": "2503 N Blackstone Ave, Fresno, CA, 93703 - Car Wash Property For Lease on LoopNet.com...",
+        "location": "07 PN 2503 N Blackstone Ave, Fresno, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2503 N Blackstone Ave, Fresno, CA, 93703 - Car Wash Property For Lease on LoopNet.com /10/ \u00a9 2017 CoStar Group,"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "88",
+        "name": "2503 N Blackstone Ave, Fresno, CA, 93703 - Car Wash Property For Lease on LoopNet.com",
+        "location": "2503 N Blackstone Ave, Fresno, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2503 N Blackstone Ave, Fresno, CA, 93703 - Car Wash Property For Lease on LoopNet.com This free-standing 4,000+ square feet car wash facility has a small retail/showroom This free-standing 4,000 square feet carwash facility has a small retail/showroom area,"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "89",
+        "name": "2503 N Blackstone Ave, Fresno, CA, 93703 - Car Wash Property For Lease on LoopNet.com",
+        "location": "2503 N Blackstone Ave, Fresno, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2503 N Blackstone Ave, Fresno, CA, 93703 - Car Wash Property For Lease on LoopNet.com Property Sub-type =Car Wash Year Built 1970 Space Available 4,000 SF Space Use Industrial"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "108",
+        "name": "A well established automatic car wash and self-service dog",
+        "location": "6295 Templeton Gap Rd, Colorado Springs, CO 80923",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u201cStop by the Smudge Dog & Car Wash at 6295 Templeton A well established automatic car wash and self-service dog 6295 Templeton Gap Rd, Colorado Springs, CO 80923 COMMERCIAL"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "110",
+        "name": "19/2873015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350...",
+        "location": "1350 Palm Avenue, San Diego, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "19/2873015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA 7 j Asking Prices Retail for Sale San Diego, CA ($/SF) rm \u2018 Pe = City $235 -6.8% -12.9%"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "10",
+        "name": "Apple Valley Carwash",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,795,000",
+        "ebitda": "",
+        "note": "Asking Price: $1,795,000 Apple Valley Carwash Asking price $1,795,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "29",
+        "name": "LNNACL E FOR SALE or LEASE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "25,000",
+        "revenue": "$1.8M",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Rect] 2016 Traffic Counts 25,000 Vehicles Per Day 1.6079 Acres ealty Advisors ~~ 8880 Camp Bowie West, Fort Worth TX 76116 Revenue $1.8M. Traffic 25,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "60",
+        "name": "Full Service Car Wash & Mobil Gas Station - MOTIVATED SELLER: Business For Sale in La...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "33,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Full Service Car Wash & Mobil Gas Station - MOTIVATED SELLER: Business For Sale in La Palma, Orange County, California, United States on BizBuySell.com Crescent Car Wash Commercial: https;//youtu.be/c4x-xfvYr\u00e9s Building SF: 1,367 Traffic 33,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20160628_0001.txt",
+        "page": "94",
+        "name": "Jiffy Car Wash $0.63 CAD /SF/Month Carrey uot Riedes",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$0.63",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Rental Rate. $0.63 CAD /SF/Month Listing ID 18867707 - JiEFY:CAR WASH \u2018VICE TUNNEL CAR WASH , RYKO VT2000 WASH YEAR MADE 2004 = Jiffy Car Wash $0.63 CAD /SF/Month Carrey uot Riedes Revenue $0.63."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20160628_0001.txt",
+        "page": "20",
+        "name": "Most busiest and profitable car wash store nearby in Santa Clarita area.",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,600,000.00",
+        "ebitda": "",
+        "note": "1 Carwash Biz 100,000.00 - 2/1/2017 100,000.00 Most busiest and profitable car wash store nearby in Santa Clarita area. Full Serve Hand Car Wash located on a major cross street with a very high traffic count on a highly visible corner. This business Asking pr..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "38",
+        "name": "Red Carpet Car Wash & Detailing",
+        "location": "Detailing Denver, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$10,900",
+        "asking_price": "",
+        "ebitda": "$10,900",
+        "note": "EBITDA: N/A Lease Rate $10,900 /Month Asking Price: \u00a7550,000 Cash Flow: N/A service/flex service car wash and Revenue $10,900. EBITDA $10,900."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "45",
+        "name": "+ Desert Auto Spa - full service car wash in Scottsdale,",
+        "location": "Scottsdale, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "60,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "+ Car wash tunnel = 90\u00b0 (2,591 +/- sf) + Desert Auto Spa - full service car wash in Scottsdale, contract (worth ~ $3,500 wash dollars per month) Traffic 60,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "46",
+        "name": "Full Service Car Wash - Hard Corner Traffic",
+        "location": "Scottsdale, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "60,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EBITDA: N/A stablished 1999 + 2018 Increase in car wash average of $3 Full Service Car Wash - Hard Corner Traffic Traffic 60,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "53",
+        "name": "All estimates are as of 4/1/2010 unless otherwise stated.",
+        "location": "27 Padanaram Rd, Danbury, CT 06811",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 27 Padanaram Rd, Danbury, CT 06811 White Population 4596 49,516 85,635"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "81",
+        "name": "6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com",
+        "location": "6307 Monroe St, Sylvania, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "6307 Monroe St, Sylvania, OH, 43560 - Car Wash Property For Sale on LoopNet.com Listing ID: 9216657 Date Created: 09/18/2017 Last Updated: 09/20/2017 For Sale - $31,995 USD For Sale - $69,900 USD For Sale - $19,900 USD For Sale - $21,495 USD"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "104",
+        "name": "Summary Report",
+        "location": "130 S Waverly Rd, Lansing, MI 48917",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Close EASI Census 2010 Site Selection Reports & Analysis U d 3 te d Address: 130 S Waverly Rd, Lansing, MI 48917 \u2014\u2014\u2014\u2014 bro saa White Non-Hispanic 5,823 41,904 89,344"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "106",
+        "name": "Map of 3581 Hickory Hill,",
+        "location": "Memphis, TN 38115",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Asking Price Index Trends for Memphis, TN Retail For Sale Research for 3581 Hickory Hill, Memphis, TN 38115 (Shelby County) sto en An ee ee State $ 1.3%"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "111",
+        "name": "Lee & Associates Is pleased to offer the fee simple real estate and business interest...",
+        "location": "1350 Palm Avenue, San Diego, CA 92154",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA service, tunnel car wash and detail center and NY Pizzeria. Lee & Associates Is pleased to offer the fee simple real estate and business interests of the Arc..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "2",
+        "name": "BUSINESS & LAND FOR SALE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "50,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "160,000+ traffic count on freeway; 50,000+ traffic count at 3-way intersection Profit centers include full service car wash, oil/lube, and boutique Reuven Birnkrant, CalBRE# 01923115 Traffic 50,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20160628_0001.txt",
+        "page": "49",
+        "name": "CLE ___FOR SALE or LEASE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "25,000",
+        "revenue": "",
+        "asking_price": "$11,500",
+        "ebitda": "",
+        "note": "@ =\" 9016 Traffic Counts 25,000 Vehicles Per Day 1.6079 Acres Realty Advisors \u2014 8880 Camp Bowie West, Fort Worth TX 76116 Asking price $11,500. Traffic 25,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20160628_0001.txt",
+        "page": "11",
+        "name": "8/25/2018 . Apple Valley Carwash",
+        "location": "4089 Grand Ave Chino, CA 91710",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "8/25/2018 . Apple Valley Carwash This is a Hand Carwash Speedway Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20160628_0001.txt",
+        "page": "50",
+        "name": "Source Evidence - 2844 E. Nichols Circle Centennial, CO 80122",
+        "location": "2844 E. Nichols Circle Centennial, CO 80122",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "and broker of Car Wash and other Priced at $685,000"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20160628_0001.txt",
+        "page": "84",
+        "name": "5100 Plank Road, Fredericksburg, VA 22407 | Route 3 Car Wash",
+        "location": "5100 Plank Road, Fredericksburg, VA 22407",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "5100 Plank Road, Fredericksburg, VA 22407 | Route 3 Car Wash"
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -3777,7 +6099,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "text_url": "ocr-output/Document_20180531_0001.txt",
     "page_count": 39,
     "evidence_page_count": 26,
-    "evidence_row_count": 0,
+    "evidence_row_count": 18,
     "pages": [
       {
         "page": "3",
@@ -3790,10 +6112,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "4",
         "summary": "plus $235,000 into the c-store. Today with $700,000 | can buy a car wash with property in the Midwest and get a better At this point the best all cash deal today I can do is $450,000. This is because | need to put $200,000 into the car wash ! will put up to $200,000 in cash for any carwash upgrades that | need to do to make the carwash a ",
-        "addresses": [
-          "000 per year after all expenses. Included in",
-          "32 Million Cars Washed Since 1963 297 Main Avenue Norwalk, CT 06851"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -3813,7 +6132,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "9",
         "summary": ": 415 Acres Summit Valley Hesperia, CA \u2014 automatic car wash of 14,281 + Bank REO: Tunnel Car Wash for Sale",
         "addresses": [
-          "415 Acres Summit Valley Hesperia, CA",
           "90-110 Hickman Road Waukee, IA",
           "2400 Mnnehaha Ave Minneapolis, MN"
         ],
@@ -3827,8 +6145,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "36/2015 LoopNet - Two Ultimate Car Wash Locations, Retail (Other), 8005 NW 39th Expressway and 8750 Northeast 28rd Street, Bethany, OK Two Ultimate Car Wash Price Not Disclosed Company Not Provided This includes 2 profitable tunnel washes in high traffic areas In the OKC metro. Both washes feature updated and",
         "addresses": [
           "8005 NW 39th Expressway and 8750 Northeast 28rd Street, Bethany, OK",
-          "748-2045 Please send me additional information about this property. fw, You can reach me",
-          "2 locations This includes 2 profitable tunnel washes in high traffic areas In",
           "8750 NE 23rd Street -Jocated near the corner of NE"
         ],
         "terms": [
@@ -3865,10 +6181,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "14",
         "summary": "Fully-equipped car wash - Equipped Car Wash (Full and self-serve)+Gas Station/Convenience Store opportunity. High-traffic, high visibility. 450 Social Street - Rt. 126, Woonsocket, RI 02895",
         "addresses": [
-          "450 Social Street - Rt. 126, Woonsocket, RI 02895",
-          "803 SF Bldg Woonsocket/Cumbe... Woonsocket, RI",
-          "000 In Contract Woonsocket Office ... Woonsocket, RI",
-          "526 SF Bldg The Cornerstone Bu... Woonsocket, RI"
+          "450 Social Street - Rt. 126, Woonsocket, RI 02895"
         ],
         "terms": [
           "car wash",
@@ -3900,11 +6213,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "2/5/2014 LoopNet- Mister Car Wash Ground Lease, Free Standing Bldg, 7027 Quaker Avenue, Lubbock, TX Mister Car Wash Ground Lease $2,461,000 Unhed Con miardtal Realty Car Wash Shadow- Wash & Lube Chain In the e Buexo zu",
         "addresses": [
           "7027 Quaker Avenue, Lubbock, TX",
-          "000 Unhed Con miardtal Realty 7027 Quaker Avenue, Lubbock, TX 79424",
-          "252-1157 Please send me additional Information about this property. You can reach me",
-          "697 SF GLA Broadmoor Village Garland, TX",
-          "000 In Contract Dickeys Barbecue ... Wylie, TX",
-          "000 in Contract Shoppes at Mustang... Fomey, TX"
+          "000 Unhed Con miardtal Realty 7027 Quaker Avenue, Lubbock, TX 79424"
         ],
         "terms": [
           "car wash",
@@ -3949,9 +6258,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "22",
         "summary": "GROSS REVENUE: $926,000 (2011) / $944,117 (2012} $821,249 (2013) / $779,234 (2014) EBITDA x 5 MULTIPLIER: $1,388,240 2008 APPRAISED VALUE: $1,400,000 EBITDA VALUE: $277,648",
-        "addresses": [
-          "1983 BOOMING LOCAL ECONOMY ie a ONEY FULL SERVE WASHES IN"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -3970,10 +6277,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "24",
         "summary": "Speedy Kleen Carwash N/A ates Historical Retail Sale Listing - Speedy Kleen Carwash 11/17/2014 'e La 1745 N Five Mile, Boise, ID, 83713 - Vehicle Related Property - Off-Market on LoopNet.com",
-        "addresses": [
-          "1745 N Five Mile, Boise, ID",
-          "3 lease. For Sale For Lease Sales Comps Retail Boise, ID"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
@@ -3987,10 +6291,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "27",
         "summary": "potentially repurpose the building to another automotive or retail use. Sellers have owned this car wash since 2006 \u00abisting car wash business, real estate, and equipment for sale. Three oversized self-serve bays (including RV bay entry on Fairview and one on Five Mile. Solid, loyal, repeat customer base. Buy it and operate it as a car was",
-        "addresses": [
-          "4 ae - 1745 N Five Mile, Boise, ID",
-          "1745 N Five Mile, Boise, ID 83713"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -4008,9 +6309,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "31",
         "summary": "7860 S 700 Car Wash(518) n/a nla Register Now! 7750 South 700 E, Midvale, UT 84047 | PropertyShark.com ms nla. $504,500 $504,500 1.121% $5,655.44",
-        "addresses": [
-          "7750 South 700 E, Midvale, UT 84047"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -4018,10 +6317,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "32",
         "summary": "2013 Car Wash $492,300 $492,300 1.5382% $7,572.56 2012 Car Wash $491,700 $491,700 1.5274% $7,510.23 Car Wash(518)",
-        "addresses": [
-          "7750 South 700 E, Midvale, UT 84047",
-          "7750 S 700 E, Salt Lake County, UT 84047"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -4029,9 +6325,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "33",
         "summary": "Asking Price: $650,000 EBITDA: N/A Real Estate: N/A Real Estate: Included in asking price Established Car Wash For Sale in Sandy, Utah. Business includes Real Estate and Equipment.",
-        "addresses": [
-          "3 Business Description Established Car Wash For Sale in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -4041,9 +6335,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "34",
         "summary": "High Traffic Counts Built in 2008 6,994 Square Foot Tunnel Wash",
-        "addresses": [
-          "994 Square Foot Tunnel Wash 0.9 Acres Built in"
-        ],
+        "addresses": [],
         "terms": [
           "traffic",
           "acres"
@@ -4052,12 +6344,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "36",
         "summary": "WE CURRENTLY OPERATE 1 FULL SERVICE CAR WASH AND DETAIL CENTER IN THE \u2018THE CAR SPA FACILITY WAS PURCHASED OUT OF BANKRUPTCY BY CALIFORNIA CAR WASH WE HAVE OWNED AND OPERATED CAR WASH FACILITIES IN THE SAN JOSE AREA FOR 10",
-        "addresses": [
-          "4 LOCATIONS. WE CURRENTLY OPERATE 1 FULL SERVICE CAR WASH AND DETAIL CENTER IN",
-          "50 YEARS OF HIGHLY SUCCESSFUL BUSINESS MANAGEMENT IN",
-          "28 YEARS IN BUSINESS MANAGEMENT IN THE SERVICE AND MANUFACTURING/ PRODUCTION INDUSTRIES AND HAS BEEN IN",
-          "2001 AND WAS SUBSTANTIALLY RENOVATED AND UPGRADED TO REFLECT THE MARKET NEEDS AND THE STATE OF THE ART IN"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -4209,7 +6496,260 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "Requested By : DON SHIFT DETAIL / Pose: 1 of 6 On Thursday, February 04, 2010 9:38:28AM Date Range From 1/1/2008 To 12/31/2008 \u2014- Machine :0 Shift:0 \u201c): yd CONSOLIDATED REPORT nl) WASH EER: es . \u2014 : on \"s Conese cue _ servic i i 8 (OVERSIZE CHARGE 9,161 $13,402.04 PLU use nee 50 ; 45 $1,092.19 -998 C.S. WASH BOOK 2 $219.90 548 ATM CASH BACK 666 $5,698.25 -998 C.S. WASH BOOK 2 $189.90 549 ATM CHARGE 755 $566.25 996 EXP.EXTERIOR BOOK 1 $34.95 0627 $30.758 73 996 FULL SERVICE BOOK 2 $139.90 SPECIAL 7 sVTA 41 $391.14 ; . 1 FULL SERVICE WASH 16,096 5225,183.04 PLU Service Price 2 EXTERIOR ONLY 1,007 $7,038.93 -202 REWASH 13_/ ($227.88) 3 CARSPA SPECIAL 13,569 3257,675.31 20. FREE WASH 17 ($184.89) 4 THE WORKS WASH 7,007 168,097.93 24 ($412.77) 5 EXT W/TIRES 58 $521.42 7 #sVTA 80 $1,439.20 Total For WASH 83,433 i645,255.21 541 DON FREE WASH 1 ($18.99) 542 PRE-PAID EXT. 6 ($41.94) 995 FULL SERVICE BOOKLET 7 $489.65 DETAIL 997 DELUXE EXT.BOOK 2 _ $89.90 BASE 37,881 3661,450.24 , i , EXTRA ne HAND ean STRE =: cen saan Bevis Qoeeey Price 48 VACUUMING 3 \u2018$15.00 44 WHEEL BRITE 83 $249.00 43\u00b0 CLAY 1 $100.00 10 VANILLA 4,462 $0.00 41 H.W.-DOLLAR STRECHER 15 $540.00 11 STRAWBERRY 3,275 $0.00 41 WAXONLY 4 $144.00 12 CLEANCAR 6,764 $0.00 29 $1,158.94 13. BABY POWDER 1 $0.00 EXTRA 14 LEATHER 1419 $0.00 . ; . 15 JASMINE 3,922 $0.00 PLY Service Quantity Erie 17 PINACOLADA 2,029 $0.00 -47_ DASH DRESSING 23 $138.00 18 LEMON 3,144 $0.00 45 BUFF 4 $215.00 34 TIRE DRESSING 445 $1,335.00 43\u00b0 CLAY 5 $235.00 25,544 $1,584.00 -40 WIPE DOORS W/TOWEL 7 \u2018$21.00 DISCOUNT -39 WIPE SEATS W/ TOWEL 99 $373.11 Service : F 38 OUTSIDE DERSSING 7 \u2018$47.00 PLU Seam sia -37 HAND WASH VEHICLES 69 $2,500.00 -544 PRE-PAID SUPER SAVER 1 ($14.99) -36 INTERIOR DETAIL SPEC 1 $139.99 -543 PRE-PAID FULL SERV. 80 ($1,119.20) -36 INTERIOR DETAIL SPEC 17 $2,207.87 -203 CHARGE DISCOUNT 19 ($37.81) -36 INTERIOR DETAIL SPEC 18 $2,361.91 -55 11.99 WASH SPECIAL 4,178 ($8,356.00) -31 EXPRESS WAX 2 \u2018$72.00 -55 11.99 WASH SPECIAL 572 ($1,144.00) -30 WATER SPOT REMOVAL 1 $15.00 -51 MISC DISCOUNT 429 ($4,307.39) -30 WATER SPOT REMOVAL 25 $957.01 -51_ MISC DISCOUNT 101 ($1,403.42) -30 WATER SPOT REMOVAL 36 $1,316.99 -51 MISC DISCOUNT 23 ($205.41) 29 LEXOL SEATS 30 $1,049.70 -51 MISC DISCOUNT 1 ($10.00) 29 LEXOL SEATS 4 $139.96 -51 MISC DISCOUNT Tl ($739.52) 28 FULL DETAIL 1 $159.99 6 10% OFF 112 ($176.10) 28 FULL DETAIL 1 $"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "11",
+        "name": "6/3/2014 Car Wash for Sale!: Business For Sale in Providence County, Rhode Island, Un...",
+        "location": "Providence County, RI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$334,800",
+        "ebitda": "$704,160",
+        "note": "Asking Price: $334,800 EBITDA: N/A Real Estate: N/A 6/3/2014 Car Wash for Sale!: Business For Sale in Providence County, Rhode Island, United States on BizBuySell.com Competition: This car wash benefits from an amazing location and long-history of Asking pric..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "13",
+        "name": "Listing / Offering - Providence County, RI",
+        "location": "Providence County, RI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$150,000",
+        "ebitda": "$150,000",
+        "note": "Asking Price: \u201cEBITDA: *not included in asking price. $150,000% | Established: Asking price $150,000. EBITDA $150,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "14",
+        "name": "Listing / Offering - 450 Social Street - Rt. 126, Woonsocket, RI 02895",
+        "location": "450 Social Street - Rt. 126, Woonsocket, RI 02895",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$575,000",
+        "ebitda": "",
+        "note": "Fully-equipped car wash - Equipped Car Wash (Full and self-serve)+Gas Station/Convenience Store opportunity. High-traffic, high visibility. 450 Social Street - Rt. 126, Woonsocket, RI 02895 Asking price $575,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "17",
+        "name": "2/5/2014 LoopNet- Mister Car Wash Ground Lease, Free Standing Bldg, 7027 Quaker Avenu...",
+        "location": "7027 Quaker Avenue, Lubbock, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,461,000",
+        "ebitda": "",
+        "note": "2/5/2014 LoopNet- Mister Car Wash Ground Lease, Free Standing Bldg, 7027 Quaker Avenue, Lubbock, TX Mister Car Wash Ground Lease $2,461,000 Unhed Con miardtal Realty Car Wash Shadow- Wash & Lube Chain In the e Buexo zu Asking price $2,461,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "18",
+        "name": "CAR WASH FOR SALE",
+        "location": "000 CAR WASH FOR SALE 2124 E. 8th Street Odessa TX 79761",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "25,000",
+        "revenue": "",
+        "asking_price": "$290,000",
+        "ebitda": "",
+        "note": "Traffic count: 25,000+ Express Car Wash fe 4 (~V CAR WASH FOR SALE Asking price $290,000. Traffic 25,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "19",
+        "name": "CAR WASH FOR SALE",
+        "location": "000 CAR WASH FOR SALE 900 Dallas Drive Denton TX 76205",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$268,490.00",
+        "asking_price": "$810,000",
+        "ebitda": "",
+        "note": "2013 Revenue $268,490.00 Full Service Car Wash L CAR WASH FOR SALE Asking price $810,000. Revenue $268,490.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "33",
+        "name": "12A7TA3 Car Wash Sandy Utah: Business For Sale in 7750 South 700 East, Murray, Salt L...",
+        "location": "Wash Sandy Utah Murray, UT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$650,000",
+        "ebitda": "$110,000",
+        "note": "Asking Price: $650,000 EBITDA: N/A Real Estate: N/A Real Estate: Included in asking price Established Car Wash For Sale in Sandy, Utah. Business includes Real Estate and Equipment. Asking price $650,000. EBITDA $110,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "9",
+        "name": "12/8/13 TCN Worldwide Property Listings - Bank REO: Tunnel Car Wash for Sale",
+        "location": "90-110 Hickman Road Waukee, IA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": ": 415 Acres Summit Valley Hesperia, CA \u2014 automatic car wash of 14,281 + Bank REO: Tunnel Car Wash for Sale"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "10",
+        "name": "36/2015 LoopNet - Two Ultimate Car Wash Locations, Retail (Other), 8005 NW 39th Expre...",
+        "location": "8005 NW 39th Expressway and 8750 Northeast 28rd Street, Bethany, OK",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "36/2015 LoopNet - Two Ultimate Car Wash Locations, Retail (Other), 8005 NW 39th Expressway and 8750 Northeast 28rd Street, Bethany, OK Two Ultimate Car Wash Price Not Disclosed Company Not Provided This includes 2 profitable tunnel washes in high traffic area..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "24",
+        "name": "Historical Retail Sale Listing - Speedy Kleen Carwash",
+        "location": "Boise, ID",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Speedy Kleen Carwash N/A ates Historical Retail Sale Listing - Speedy Kleen Carwash 11/17/2014 'e La 1745 N Five Mile, Boise, ID, 83713 - Vehicle Related Property - Off-Market on LoopNet.com"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "15",
+        "name": "Full Service Car Wash and Lube Center Business For Sale or Lease by",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$365,000",
+        "asking_price": "$1,350,000",
+        "ebitda": "",
+        "note": "Listing #3731: Full Service Car Wash and Lube Center Full Service Car Wash and three bay Lube Center. Located on a Full Service Car Wash and Lube Center Business For Sale or Lease by Asking price $1,350,000. Revenue $365,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "22",
+        "name": "FULL SERVICE CAR WASH AND BOUTIQUE FOR SALE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "29,000",
+        "revenue": "$926,000",
+        "asking_price": "",
+        "ebitda": "$277,648",
+        "note": "GROSS REVENUE: $926,000 (2011) / $944,117 (2012} $821,249 (2013) / $779,234 (2014) EBITDA x 5 MULTIPLIER: $1,388,240 2008 APPRAISED VALUE: $1,400,000 EBITDA VALUE: $277,648 Revenue $926,000. Traffic 29,000. EBITDA $277,648."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20180531_0001.txt",
+        "page": "7",
+        "name": "Subject: Two off market car wash deals",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "28,342",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u00a2 Total Land Area 1.28 acres and Net Rentable Area (NRA) 9,450 sf Traffic counts: 32,892 daily Traffic counts: 28,342 daily Traffic 28,342."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20180531_0001.txt",
+        "page": "27",
+        "name": "\u00abisting car wash business, real estate, and equipment for sale. Three oversized self...",
+        "location": "Boise, ID",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "17,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "potentially repurpose the building to another automotive or retail use. Sellers have owned this car wash since 2006 \u00abisting car wash business, real estate, and equipment for sale. Three oversized self-serve bays (including RV bay entry on Fairview and one on..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20180531_0001.txt",
+        "page": "3",
+        "name": "Summary Report",
+        "location": "8 Marbledale Rd Tuckahoe, NY 10707",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 8 Marbledale Rd Tuckahoe, NY 10707 gle Map data \u00a92018 Googl"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20180531_0001.txt",
+        "page": "16",
+        "name": "FOUNTAIN CAR WASH",
+        "location": "7 self-service bays and drying area that runs parallel with Coit Road in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Texas, This car wash has unrestricted visibility and access to Coit Office, Strip Center and Sonic. The car wash has high traffic counts, FOUNTAIN CAR WASH"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20180531_0001.txt",
+        "page": "26",
+        "name": "Summary Report",
+        "location": "1745 north five mile road boise id",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 1745 north five mile road boise id Two or More Races Population 504 2,880 6,667"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20180531_0001.txt",
+        "page": "21",
+        "name": "Source Evidence - 6860 N Dallas Pkwy #200 Plano, TX 75024",
+        "location": "6860 N Dallas Pkwy #200 Plano, TX 75024",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$698,000",
+        "ebitda": "",
+        "note": "i SD Seen \\ g 1.3 Acres 4 a = ih a \\ F \u00a9 Price $698,000 . \\ z e Sonny\u2019s Tunnel Equip-Installed 2012 Asking price $698,000."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -4221,7 +6761,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "text_url": "ocr-output/Document_20250701_0001.txt",
     "page_count": 7,
     "evidence_page_count": 6,
-    "evidence_row_count": 0,
+    "evidence_row_count": 4,
     "pages": [
       {
         "page": "1",
@@ -4311,7 +6851,64 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "Hollister Wash Co 201 Financial Dr, Hollister, Mo 65 72 Asset Profile Car Wash Type Equipment Provider Vacuum Equipment Year Built/Opening Traffic Counts Hollister Wash Co 201 Financial Dr, Hollister, MO 65672 Business & Real Estate 2 IBA and 3 SS Washify | 2 Pay Stations Opening February 2023 Etsky Car Wash Team | Colliers + Excellent Access & Visibility | Located near an up-and-coming development area with great visibility off of |-65 which sees up to 20,000 cars a day Surrounding Retailers | Nearby retailers include but are not limited to Dollar Tree, Menards, Walgreens, Subway, McDonalds, Taco Bell, Sonic, AT&T, Lowes, and many more Convenient Location | Located less than a mile away from The College of the Ozarks and less than 2 miles away from the M. Graham Clark Downtown Airport + Equipment Upheld | Three brand new state of the art wash world in-bay automatics, 7 EuroVacs, 3 self-serve bays, and 2 Washify DRB Point of Sale Systems Optimal Climate | In Hollister, the summers are hot and muggy, the winters are very cold, and it is partly cloudy year-round. Over the course of the year, the temperature typically varies from 29\u00b0F to 91\u00b0F and is rarely below 13\u00b0F or above 98\u00b0F Hollister Wash Co Offering Memorandum"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20250701_0001.txt",
+        "page": "4",
+        "name": "PC Fresh Wash Car Wash O days 3 hours",
+        "location": "1051 E E Butler Parkway in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$5,690,000",
+        "ebitda": "",
+        "note": "Asking Price: $5,690,000 01-00055-00-048 offers outstanding visibility, robust traffic counts, and proximity PC Fresh Wash Car Wash O days 3 hours Asking price $5,690,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20250701_0001.txt",
+        "page": "2",
+        "name": "Laon nuw anu siymncant appreuiauui.",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$5,690,000",
+        "ebitda": "",
+        "note": "car wash sector, PC Fresh Car Wash offers a turnkey Purchase Price * Net Operating Income * \u2014 New Construction \u2014 PC Fresh Wash was newly built in 2024 Asking price $5,690,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20250701_0001.txt",
+        "page": "7",
+        "name": "Car Wash Type",
+        "location": "201 Financial Dr, Hollister, Mo",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Traffic Counts Etsky Car Wash Team | Colliers Car Wash Type Traffic 20,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20250701_0001.txt",
+        "page": "1",
+        "name": "Tsunami Car Wash Car Wash Investment Portfc",
+        "location": "2 Car Washes 170 N Kenazo Ave 2 LOCATIONS Horizon City, TX 79928",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Tsunami Car Wash Car Wash Investment Portfc https://www.crexi.com/properties/1992388/georgia-pc-fresh-wash-car-wash 7/1/25, 9:23 PM $2,600,000 $2,069,864 *"
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -4322,15 +6919,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Document_20260603_0001.pdf",
     "text_url": "ocr-output/Document_20260603_0001.txt",
     "page_count": 14,
-    "evidence_page_count": 14,
-    "evidence_row_count": 0,
+    "evidence_page_count": 12,
+    "evidence_row_count": 8,
     "pages": [
       {
         "page": "1",
         "summary": "Total Revenue 2760 South 8400 West, Magna, UT \u2018i June 2022 :PROJECTED START DATE",
-        "addresses": [
-          "2760 South 8400 West, Magna, UT"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -4359,9 +6954,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "4",
         "summary": "26,741 sq ft | 0.61 acres express tunnel car wash without acre \\vith a high traffic count",
-        "addresses": [
-          "635 West 3900 South, Murray UT 84123"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -4373,8 +6966,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "5",
         "summary": "LAND SIZE: 54,058 sq ft | 1.24 acres In 2009, Green Gorilla Car Wash opened its first location on M 860 Main St, Logan, UT 84321",
         "addresses": [
-          "860 Main St, Logan, UT 84321",
-          "000 monthly memberships betw Job at building a quality and trusted brand in"
+          "860 Main St, Logan, UT 84321"
         ],
         "terms": [
           "car wash",
@@ -4384,10 +6976,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "6",
         "summary": "LAND SIZE: 48,787 sq ft_| 1.12 acres the dominant car wash chain in the Traffic Count",
-        "addresses": [
-          "45 East 1200 South, Logan, UT 84321",
-          "2023 with a three-site Grand Opening in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -4398,11 +6987,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "7",
         "summary": "revenue, and is well-positioned to surpass in 2022. year and in 2021, exceeded $5,000,000 in gross success of the business. Since its inception in 2000,",
-        "addresses": [
-          "100 loyal employees that are dedicated to the growth and success of the business. Since its inception in",
-          "000 in gross revenue, and is well-positioned to surpass in",
-          "1200 S Rental, LLC MD"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -4419,30 +7004,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "9",
-        "summary": "\u00ae 2514 West 7800 South, West Jordan, UT Construction Complete | Grand Opening: Sept. 2022",
-        "addresses": [
-          "2514 West 7800 South, West Jordan, UT"
-        ],
-        "terms": [
-          "traffic"
-        ]
-      },
-      {
-        "page": "10",
-        "summary": "2514 West 7800 South, West Jordan, UT (A TOTAL PROJECT COST: $ 5,855,737 September 7, 2022",
-        "addresses": [
-          "2514 West 7800 South, West Jordan, UT"
-        ],
-        "terms": [
-          "revenue"
-        ]
-      },
-      {
         "page": "11",
         "summary": "950 Main St, Smithfield, UT 84335 860 Main St, Logan, UT 84321 45 East 1200 South, Logan, UT 84321",
         "addresses": [
-          "45 East 1200 South, Logan, UT 84321",
           "860 Main St, Logan, UT 84321",
           "950 Main St, Smithfield, UT 84335"
         ],
@@ -4454,10 +7018,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "12",
         "summary": "635 West 3900 South, Murray UT 84123 2840 Club House Drive, Lehi, UT 84043 2760 South 8400 West, Magna, UT 84044",
         "addresses": [
-          "2514 West 7800 South, West Jordan, UT 84088",
           "12534 South Rhetski Lane, Riverton, UT 84065",
-          "2760 South 8400 West, Magna, UT 84044",
-          "635 West 3900 South, Murray UT 84123",
           "2840 Club House Drive, Lehi, UT 84043"
         ],
         "terms": []
@@ -4466,9 +7027,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "13",
         "summary": "sales every year and in 2021, exceeded $5,000,000 in gross revenue, and is well-positioned to surpass the highly profitable express tunnel car wash with to ooh secte rket phenomenorninder the brand of Suds N Soda. Mr. Pulver's new market combination Will transform the entire car wash/soda",
         "addresses": [
-          "9 Affordable Lawn Care & Landscape 5701 Dannon Way West Jordan, UT 84081",
-          "100 loyal employees that are dedicated to the growth and success of his business. Since its inception in",
-          "000 in gross revenue, and is well-positioned to surpass in"
+          "9 Affordable Lawn Care & Landscape 5701 Dannon Way West Jordan, UT 84081"
         ],
         "terms": [
           "car wash",
@@ -4542,7 +7101,120 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "UTAH CONSTRUCTION SCHEDULE LMAR APR | MAY JUNE | JULY | AUG | SEP OCT | NOV} DEC | JAN AAR | APR JU j UG | Ss OCT | NO EC West Jordan Site - 2514 W 7800 S | Completed | Grand Opening Sept 7 Magna Site - 2760 S 8400 W | Ready for Construction [Construction ( 8 months) \u2014\u2014\u2014\u2014\u2014 Riverton Site - 12534 S Rhetski Ln | Ready for Construction Construction ( 8 months) \u2014\u2014-} Logan Site - 45 \u00a3 1200S eee Reem | New Purchase my rerrepamne Obtaining Permits \u2014\u2014|| \u201construction ( 8 monthS> \u2014\u2014\u2014_} Wash Barn | Lehi Site - 2840 Club House Dr | New Purchase [+ obtaining Permits \u2014\u20144}+\u2014\u2014 Construction ( 6 months) \u2014\u2014 Clearwater Car Wash| Murray Site | 635 W 3900S | New Purchase Obtaining Permits \u2014\u2014\u2014\u2014 Construction (7 months) \u2014\u2014\u2014\u2014-} reen Gorilla Garwash | Logan Site - 860 N Main St | Existing Express - New Purchase agtruction ( 3 months)"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "3",
+        "name": "Suds N Soda will begin remodeling",
+        "location": "2840 Club House Drive, Lehi, UT 84043",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$108,999",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Projected Revenue $108,999 full express tunnel carwash and Soda 2840 Club House Drive, Lehi, UT 84043 Revenue $108,999."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "1",
+        "name": "SITE LOCATION G",
+        "location": "Magna, UT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$ 430,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Revenue 2760 South 8400 West, Magna, UT \u2018i June 2022 :PROJECTED START DATE Revenue $ 430,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "2",
+        "name": "SITE LOCATION B",
+        "location": "12534 South Rhetski Lane, Riverton, UT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$ 650,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LOAN AMOUNT: $ 650,000 parenaes & Exes? Total Revenue 12534 South Rhetski Lane, Riverton, UT September 2022 Revenue $ 650,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "5",
+        "name": "In 2009, Green Gorilla Car Wash opened its first location on M",
+        "location": "860 Main St, Logan, UT 84321",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LAND SIZE: 54,058 sq ft | 1.24 acres In 2009, Green Gorilla Car Wash opened its first location on M 860 Main St, Logan, UT 84321"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "8",
+        "name": "In 2009, Green Gorilla Car Wash opened its first location on Main Street in Logan Uta...",
+        "location": "980 Main St, at Senthil UT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LAND SIZE: 79,638 sq ft | 1.82 acres In 2009, Green Gorilla Car Wash opened its first location on Main Street in Logan Utah. On May 1, 2022, (4) 980 Main St, at Senthil UT.84335"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "11",
+        "name": "Suds N Soda currently has sites F - H under contract to purchase. Site F is an existi...",
+        "location": "860 Main St, Logan, UT 84321",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "950 Main St, Smithfield, UT 84335 860 Main St, Logan, UT 84321 45 East 1200 South, Logan, UT 84321"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "12",
+        "name": "Suds N Soda currently owns",
+        "location": "12534 South Rhetski Lane, Riverton, UT 84065",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "635 West 3900 South, Murray UT 84123 2840 Club House Drive, Lehi, UT 84043 2760 South 8400 West, Magna, UT 84044"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0001.txt",
+        "page": "13",
+        "name": "LAWN CARE AND LANDSCAPE 9",
+        "location": "9 Affordable Lawn Care & Landscape 5701 Dannon Way West Jordan, UT 84081",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "sales every year and in 2021, exceeded $5,000,000 in gross revenue, and is well-positioned to surpass the highly profitable express tunnel car wash with to ooh secte rket phenomenorninder the brand of Suds N Soda. Mr. Pulver's new market combination Will tran..."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -4554,7 +7226,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "text_url": "ocr-output/Document_20260603_0002.txt",
     "page_count": 31,
     "evidence_page_count": 24,
-    "evidence_row_count": 0,
+    "evidence_row_count": 18,
     "pages": [
       {
         "page": "1",
@@ -4583,9 +7255,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "7",
         "summary": "square feet or 0.918 acres. This well established multi-tenant shopping center is situated in the Parklane two additional parcels: APN:015-281-04 509 square feet or 0.907 acres and APN:020-031-38, 39,994 consists of approximately 44,425 square feet of commercial space on approximately 3.2 acres plus",
-        "addresses": [
-          "994 square feet or 0.918 acres. This well established multi-tenant shopping center is situated in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -4627,9 +7297,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "12",
         "summary": "Cielo Car Wash (Former Take 5) - 4008 Deegan Ct, Monticello, MN 55362 Take 5 opened in March'23 and stopped operating in October\u201923 - Opened again w/ new buyer in Q2 2025 Lot Size: 1.16 acres",
         "addresses": [
-          "2023 so figured I'd send over since it's tough to build in this market with a lack of existing inventory in",
-          "4008 Deegan Ct, Monticello, MN 55362",
-          "2022 Take 5 opened in March'23 and stopped operating in"
+          "4008 Deegan Ct, Monticello, MN 55362"
         ],
         "terms": [
           "car wash",
@@ -4641,7 +7309,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "13",
         "summary": "e\u00a2 187 Teaticket Hwy, East Falmouth, MA 02536 - $7,300,000 e 4145 Grove Ave, Gurnee, IL 60031 - $5,500,000 e 2605 E Stone Dr, Kingsport, TN 37660 - $9,000,000",
         "addresses": [
-          "2341 Old Rte 220 N, Duncansville, PA 16635",
           "330 W Plank Rd, Altoona, PA 16602",
           "187 Teaticket Hwy, East Falmouth, MA 02536",
           "000 e 7Nells Way, Orleans, MA 02653",
@@ -4680,7 +7347,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "17",
         "summary": "| am reaching out to make you aware of a new express car wash listing we have brought to market. The site was recently opened on May 1st of 2025 and has grown significantly since opening. Located in a smaller market of MO with no Subject: Just Listed | Express Car Wash | Missouri / Arkansas",
         "addresses": [
-          "2025 and has grown significantly since opening. Located in a smaller market of MO",
           "3060 Peachtree Rd NW., Atlanta GA 30305"
         ],
         "terms": [
@@ -4692,8 +7358,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "18",
         "summary": "Car Wash Facility with Strong Visibility 7860 Mexico Rd., St. Peters, MO 0028.0000000 \u00a2 C-2 zoning allows for commercial or",
         "addresses": [
-          "7860 Mexico Rd., St. Peters, MO",
-          "2 zoning allows for commercial or"
+          "7860 Mexico Rd., St. Peters, MO"
         ],
         "terms": [
           "car wash",
@@ -4712,9 +7377,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "20",
         "summary": "Car Wash Facility with Strong Visibility Car Wash Facility Proximate to Two Strip Malls Zoning: C-4 Benefits from 44,300+ VPD",
-        "addresses": [
-          "00 Approx. five miles from Pigeon Tax ID"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -4736,9 +7399,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "23",
         "summary": "tunnel car wash/detail Included in asking price Be sure to check out Ralph's Car Wash",
-        "addresses": [
-          "700 Employees 12 Competition No other full-service tunnel car wash/detail center in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -4784,9 +7445,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "29",
         "summary": "Price: $5,890,000 Down: $2,000,000 Adjusted Net; $620,000 f Revenue: $1,282,286 47,262 square foot property strictly car wash business Over 1.3 Million Dollar Sales revenue average years",
-        "addresses": [
-          "29 part tine workers Included manager and assistant manager Located at one of beautiful city in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -4803,11 +7462,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "31",
         "summary": "Over 30 years history car wash business located at average working income area in city of Orange, Gross Sales Revenue Year 2011 $1,200,000 of gross sales revenue",
-        "addresses": [
-          "2 years average with in",
-          "000 sales per month Inventory in",
-          "000 which is not included in selling price Over 30 years history car wash business located at average working income area in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -4932,7 +7587,260 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "AGED yrs NY RR gx Bey, Car Wash & 3 Parcels Properties , fa. Fac. with $4M Assumable Loan from seller\u2019s SBA lender Bank + a Priced to Sell at $6,000,000 Name of Business Tustin Car Wash & , Address ( Between Chapman 387 N. Tustin St pe and Katella ) Orange, CA 92867-7720 Size of Property With 3 parcels 47,262 s.f. Property Use Car Wash only Business at the location Over 30 years and Current owner since year 2004 Gross Sales Revenue Year 2011 $1,200,000 ( Current 2 years average with in recession 2013 Y.T.D. and projection Year 2012 $1,326,858 $1,313,000 ) Year 2013 $1,300,000 Net Income $600,000 to $620,000 per year Current Seller\u2019s Loan Payment About $23,000 with 4.75% APR Tunnel 160\u2019 Long Tunnel Employees 29 all part time employees Include manager and assistant man- ager, wages total itself about 36.5% of gross sales revenue Average ticket price About $20.00 per car Parking spaces About 35 cars \u2018 Car wash capability About 75 cars per hour Numbers of cars per day Summer season about 200 cars per day average week days and weekend ,, Reason for selling One of partner who runs business, \u2018 he\u2019d like to get into IT venture busi- Training 2 weeks after close of escrow Seller\u2019s SBA Loan As long as buyer qualify from bank, ( New Refinance Loan was Highly possible to assume existing done in Middle of 2013 ) loan 4M, in case buyer brings own joan then seller has to pay penalty to seller\u2019s lender bank All Books and Record Income Tax Returns Profit & Loss 1099 K all credit card sales report All employees payroll and schedule Mini Mart About $15,000 sales per month Inventory in mini mart About $8,000 which is not included in selling price Over 30 years history car wash business located at average working income area in city of Orange, Steady and Consistant Repeatring Clienteles Car Wash! : This information has been secured from seller, but broker makes no representations or guarantees, warranties, expressed.or-implied, a8 to the accuracy of the information and broker did not verify the accuracy of information. Buyer has to verify and investigate the information with lawyer and accountant\u2019s advise priorfo opening of escrow and bears all risk for inaccuracies. \u201c 24, ,"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0002.txt",
+        "page": "11",
+        "name": "The car wash operation includes a 150-foot",
+        "location": "4345 Monticello Blvd., South Euclid, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "The car wash operation includes a 150-foot the street from the approximately $300 million counts of 20,000 vehicles per day. The Traffic 20,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0002.txt",
+        "page": "13",
+        "name": "Mike Shullman",
+        "location": "330 W Plank Rd, Altoona, PA 16602",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "e\u00a2 187 Teaticket Hwy, East Falmouth, MA 02536 - $7,300,000 e 4145 Grove Ave, Gurnee, IL 60031 - $5,500,000 e 2605 E Stone Dr, Kingsport, TN 37660 - $9,000,000"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0002.txt",
+        "page": "19",
+        "name": "The St. Louis metro area provides a strong foundation for car wash QUALIFIED OFFER DE...",
+        "location": "St. Peters, MO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "The St. Louis metro area provides a strong foundation for car wash QUALIFIED OFFER DEADLINE visitor spending in 2024. Attractions such as Dollywood, outlet important due diligence documents on the property. To million visitors come each year, generating nearl..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0002.txt",
+        "page": "23",
+        "name": "Be sure to check out Ralph's Car Wash",
+        "location": "DETAILED INFORMATION Location Sycamore, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "tunnel car wash/detail Included in asking price Be sure to check out Ralph's Car Wash"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0002.txt",
+        "page": "24",
+        "name": "Top-Rated Full-Service Tunnel Car Wash & Detail Center For Sale",
+        "location": "Center For Sale Sycamore, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Top-Rated Full-Service Tunnel Car Wash & Detail Center For Sale"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0002.txt",
+        "page": "29",
+        "name": "Listing / Offering - Page 29",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,282,286",
+        "asking_price": "$5,890,000",
+        "ebitda": "",
+        "note": "Price: $5,890,000 Down: $2,000,000 Adjusted Net; $620,000 f Revenue: $1,282,286 47,262 square foot property strictly car wash business Over 1.3 Million Dollar Sales revenue average years Asking price $5,890,000. Revenue $1,282,286."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "14",
+        "name": "Traffic / Site Evidence - 000 NAPPA Car Wash - 2918 Washington Rd, Kenosha, WI 53140",
+        "location": "000 NAPPA Car Wash - 2918 Washington Rd, Kenosha, WI 53140",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,000",
+        "revenue": "$857,000",
+        "asking_price": "",
+        "ebitda": "$400,000",
+        "note": "NAPPA Car Wash - 2918 Washington Rd, Kenosha, WI 53140 \u201824 Adjusted EBITDA: + $335,000 e \u201824 Adjusted EBITDA: + $65,000 Revenue $857,000. Traffic 20,000. EBITDA $400,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "17",
+        "name": "| am reaching out to make you aware of a new express car wash listing we have brought...",
+        "location": "3060 Peachtree Rd NW., Atlanta GA 30305",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "21,000",
+        "revenue": "$6,000,000",
+        "asking_price": "$6,000,000",
+        "ebitda": "",
+        "note": "| am reaching out to make you aware of a new express car wash listing we have brought to market. The site was recently opened on May 1st of 2025 and has grown significantly since opening. Located in a smaller market of MO with no Subject: Just Listed | Expres..."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "18",
+        "name": "Car Wash Facility with Strong Visibility",
+        "location": "7860 Mexico Rd., St. Peters, MO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "2025",
+        "revenue": "",
+        "asking_price": "$300,000",
+        "ebitda": "",
+        "note": "Car Wash Facility with Strong Visibility 7860 Mexico Rd., St. Peters, MO 0028.0000000 \u00a2 C-2 zoning allows for commercial or Asking price $300,000. Traffic 2025."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "26",
+        "name": "Traffic / Site Evidence - 1600 West End Ave, Nashville TN 37203",
+        "location": "1600 West End Ave, Nashville TN 37203",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "18,100",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "exposure along Lincoln Highway, which carries traffic counts in excess Matthews Real Estate Investment Services\u2122 - 1600 West End Ave, Nashville TN 37203 of 18,100 vehicles per day. Traffic 18,100."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "12",
+        "name": "Cielo Car Wash (Former Take 5) - 4008 Deegan Ct, Monticello, MN 55362",
+        "location": "4008 Deegan Ct, Monticello, MN 55362",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Cielo Car Wash (Former Take 5) - 4008 Deegan Ct, Monticello, MN 55362 Take 5 opened in March'23 and stopped operating in October\u201923 - Opened again w/ new buyer in Q2 2025 Lot Size: 1.16 acres"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0002.txt",
+        "page": "30",
+        "name": "Summary Report",
+        "location": "387 North Tustin Street Orange, CA 92867",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 387 North Tustin Street Orange, CA 92867 White Population 20,609 111,830 307,444"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0002.txt",
+        "page": "20",
+        "name": "Car Wash Facility Proximate to Two Strip Malls",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,000",
+        "revenue": "",
+        "asking_price": "$300,000",
+        "ebitda": "",
+        "note": "Car Wash Facility with Strong Visibility Car Wash Facility Proximate to Two Strip Malls Zoning: C-4 Benefits from 44,300+ VPD Asking price $300,000. Traffic 20,000."
+      },
+      {
+        "type": "Financial Support",
+        "document": "Document_20260603_0002.txt",
+        "page": "31",
+        "name": "Financial Support - Orange, CA 92867",
+        "location": "Orange, CA 92867",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$20.00",
+        "asking_price": "$20.00",
+        "ebitda": "",
+        "note": "Over 30 years history car wash business located at average working income area in city of Orange, Gross Sales Revenue Year 2011 $1,200,000 of gross sales revenue Asking price $20.00. Revenue $20.00."
+      },
+      {
+        "type": "Financial Support",
+        "document": "Document_20260603_0002.txt",
+        "page": "1",
+        "name": "Investment Summary",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$582,744.00",
+        "asking_price": "$4,650,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE *Purchase Price includes two parcels VALUE FOR SHOPPING CENTER $4,195,329 Asking price $4,650,000. Revenue $582,744.00."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "16",
+        "name": "Associate | Matthews\u2122 Car Wash Division",
+        "location": "Scottsdale, AZ 85251",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "15,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Associate | Matthews\u2122 Car Wash Division Associate | Matthews\u2122 Car Wash Division ies count: 15,000 vehicles per day Traffic 15,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "9",
+        "name": "Property Type Retail, Special Purpose Sub Type Car Wash",
+        "location": "12425 SW Canyon Rd, Beaverton, OR 97005",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Property Type Retail, Special Purpose Sub Type Car Wash Owner User Car Wash Property SW Canyon Hwy & Hall 12425 SW Canyon Rd, Beaverton, OR 97005"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0002.txt",
+        "page": "21",
+        "name": "Portfolio of Three Car Wash",
+        "location": "12 Junction Drive West, Glen Carbon, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "visibility. The three car wash \u00a9 994 Pariway: Sevierville: Uy This car wash portfolio benefits from CAR WASHES Portfolio of Three Car Wash"
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -4944,7 +7852,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "text_url": "ocr-output/Document_20260603_0003.txt",
     "page_count": 31,
     "evidence_page_count": 20,
-    "evidence_row_count": 0,
+    "evidence_row_count": 16,
     "pages": [
       {
         "page": "1",
@@ -4957,9 +7865,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "3",
         "summary": "knowledge to operate a successful high-end full service car wash. The current operation does not offer associates, new signage, paint, landscaping and car wash equipment. a center of retail activity, easily accessible with an attractive building. The car wash needs an operator",
-        "addresses": [
-          "000 plus related travel expenses. co"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -4976,9 +7882,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "5",
         "summary": "Vending \u00a5 Revenue Per Wash $ 7.00 Land/Purchase Price: $3,200,000 Other Labor 6% 16082 Hard Cost: $500,000 Car Wash Chemicals 0.51",
-        "addresses": [
-          "30000 Duration of Construction 2 Weeks Telephone 4200 Construction Loan Payoff MA"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue",
@@ -4997,10 +7901,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "7",
         "summary": "Since the receiver took over operations of the car wash in May 2010, average car wash volume volume increasing from 40,000 to 197,000 cars per year. In Omaha, Nebraska, under a similar over his twenty-four year career in the car wash business. Rehabilitation budgets from his",
-        "addresses": [
-          "000 cars per year. In",
-          "000 to marketing in our first year of operations. In addition to press in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -5016,9 +7917,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "11",
         "summary": "The 5 Points Car Wash located in Whittier, California (hereinafter the \u201cProperty\u201d) is an Contract Purchase Price $3,200,000 proposed pricing and service model: the five-dollar, five-minute car wash.",
-        "addresses": [
-          "249-2694 or Stewart Winkler at 949-278-1002. INTRODUCTION The 5 Points Car Wash located in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -5040,8 +7939,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "17",
         "summary": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA serve express car wash and RV wash tunnel. 50 year old, well-established, long standing full service car wash facility. The facility sits on 3.1 acres of land and offers a",
         "addresses": [
-          "11556 IMPERIAL HIGHWAY, NORWALK, CA",
-          "2 restaurants providing additional income to the property and are included in"
+          "11556 IMPERIAL HIGHWAY, NORWALK, CA"
         ],
         "terms": [
           "car wash",
@@ -5054,8 +7952,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA Qo Long standing, full service car wash facility fa) Offering price: Undisclosed income of over $70,000 within a five-mile APN: 8048-009.",
         "addresses": [
           "11556 IMPERIAL HIGHWAY, NORWALK, CA",
-          "11556 Imperial Highway variety of redevelopment retail, hotel and Norwalk, CA",
-          "90071 Disclaimer o We obtained the information contained in"
+          "11556 Imperial Highway variety of redevelopment retail, hotel and Norwalk, CA"
         ],
         "terms": [
           "car wash",
@@ -5078,7 +7975,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "20",
         "summary": "a = Division of RE/MAX 2000 Office: S09-269-3000 Building Size: 4,406 SF",
         "addresses": [
-          "406 SF 3 P72 www.BashirRealtor.com BESYINC IDEA, L S AVA iN",
           "790 Ferrari Lane RE/MAX COMMERCIAL Ontario, CA 91764"
         ],
         "terms": []
@@ -5097,10 +7993,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "f\u00b0 1192015~ * LoopNet - Magic Clean Car Wash | Including Business, Vehicle Related, 1923 W. Manchester Ave, Los Angeles, CA converting to an express car wash The car wash has been opened for 4 months and there is a SBA loan in place the real estate & a brand new exprass car wash business. Seller has invested more than $850K in improvement",
         "addresses": [
           "1923 W. Manchester Ave, Los Angeles, CA",
-          "4 months and there is a SBA loan in",
-          "000 seat NFL stadium adjacent to the development. DE",
           "000 vehicles per day along West Manchester Ave and is situated in",
-          "5 Map of 1923 W. Manchester Ave, Los Angeles, CA 90047",
           "1923 W. Manchester Ave, Los Angeles, CA 90047"
         ],
         "terms": [
@@ -5140,9 +8033,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "28",
         "summary": "express car wash The car wash has been opened for 4 months and there is a SBA loan in place which can be assumed. The subject property is a Magic Clean Car Wash consists of approximately 8,068 square feet of building and is situated & a brand new express car wash business. Seller has invested more than $850K in improvements by converting ",
         "addresses": [
-          "4 months and there is a SBA loan in",
-          "000 vehicles per day along West Manchester Ave and is situated in",
-          "0000 Vehicles Per Day Situated in"
+          "000 vehicles per day along West Manchester Ave and is situated in"
         ],
         "terms": [
           "car wash",
@@ -5254,7 +8145,232 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "Building Repairs Pre-employment-Recruting Office Supplies Dues/Subscriptions Real Estate Taxes Accounting/Bookeeping Total Administrative Total Expenses Net Operating Income 1,841,196.60 2,146,096.60 2,450,996.60 1,299,003.40 1,098,003.40"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Development Site",
+        "document": "Document_20260603_0003.txt",
+        "page": "19",
+        "name": "CAR WASH/DEVELOPMENT SITE FOR SALE",
+        "location": "11556 Imperial Highway Norwalk, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "CAR WASH/DEVELOPMENT SITE FOR SALE"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0003.txt",
+        "page": "23",
+        "name": "Listing / Offering - 1923 W. Manchester Ave, Los Angeles, CA",
+        "location": "1923 W. Manchester Ave, Los Angeles, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "0000",
+        "revenue": "",
+        "asking_price": "$2,995,000",
+        "ebitda": "",
+        "note": "f 1119/2015 ~ LoopNet - Magic Clean Car Wash | Including Business, Vehicle Related, 1923 W. Manchester Ave, Los Angeles, CA Magic Clean Car Wash | $2,995,000 Express Car Wash Wash : Asking price $2,995,000. Traffic 0000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0003.txt",
+        "page": "5",
+        "name": "Fiva Points Car Wash",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$ 7.00",
+        "asking_price": "$3,200,000",
+        "ebitda": "",
+        "note": "Vending \u00a5 Revenue Per Wash $ 7.00 Land/Purchase Price: $3,200,000 Other Labor 6% 16082 Hard Cost: $500,000 Car Wash Chemicals 0.51 Asking price $3,200,000. Revenue $ 7.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0003.txt",
+        "page": "11",
+        "name": "Five Points Car Wash- 12604 Whittier Boulevard, Whittier, California",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3,200,000",
+        "ebitda": "",
+        "note": "The 5 Points Car Wash located in Whittier, California (hereinafter the \u201cProperty\u201d) is an Contract Purchase Price $3,200,000 proposed pricing and service model: the five-dollar, five-minute car wash. Asking price $3,200,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "6",
+        "name": "Traffic / Site Evidence - Page 6",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$4,325,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "two years because of the price, size, traffic count, and location. While there is always risk in property compared to typical Califomia car wash sales, in year one the loan to value is estimated every venture, the acquisition and rehabilitation of Five Points..."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "21",
+        "name": "EXPRESS CAR WASH",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "16,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "NS Equipment, installed in 2018 - Local Car Wash equipment company Full service car wash and detail services can be added for extra profits - Current owner not offering EXPRESS CAR WASH Traffic 16,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0003.txt",
+        "page": "22",
+        "name": "Demographic Support - 1923 W. Manchester Ave, Los Angeles, CA",
+        "location": "1923 W. Manchester Ave, Los Angeles, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "34,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "f\u00b0 1192015~ * LoopNet - Magic Clean Car Wash | Including Business, Vehicle Related, 1923 W. Manchester Ave, Los Angeles, CA converting to an express car wash The car wash has been opened for 4 months and there is a SBA loan in place the real estate & a brand..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0003.txt",
+        "page": "18",
+        "name": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA",
+        "location": "11556 IMPERIAL HIGHWAY, NORWALK, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA Qo Long standing, full service car wash facility fa) Offering price: Undisclosed income of over $70,000 within a five-mile APN: 8048-009."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0003.txt",
+        "page": "24",
+        "name": "Demographic Support - 1923 W. Manchester Ave, Los Angeles, CA 90047",
+        "location": "1923 W. Manchester Ave, Los Angeles, CA 90047",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 1923 W. Manchester Ave, Los Angeles, CA 90047 lap data \u00a92015 Google"
+      },
+      {
+        "type": "Financial Support",
+        "document": "Document_20260603_0003.txt",
+        "page": "30",
+        "name": "\\ Clean Car Wash",
+        "location": "1923 West Manchester Ave Los Angeles, CA 90047",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,995,000",
+        "ebitda": "",
+        "note": "\\ Clean Car Wash Magic Clean Car Wash has been opened for 4 months, Magic Clean Car Wash Asking price $2,995,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "28",
+        "name": "The subject property is a Magic Clean Car Wash consists of approximately 8,068 square...",
+        "location": "000 vehicles per day along West Manchester Ave and is situated in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "34,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "express car wash The car wash has been opened for 4 months and there is a SBA loan in place which can be assumed. The subject property is a Magic Clean Car Wash consists of approximately 8,068 square feet of building and is situated & a brand new express car..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "16",
+        "name": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA",
+        "location": "11556 IMPERIAL HIGHWAY, NORWALK, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA Car Wash $995,000 Land Area 3.10 Acres"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "17",
+        "name": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA",
+        "location": "11556 IMPERIAL HIGHWAY, NORWALK, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA serve express car wash and RV wash tunnel. 50 year old, well-established, long standing full service car wash facility. The facility sits on 3.1 acres of land and offers a"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "20",
+        "name": "BASHIR TARIQ",
+        "location": "790 Ferrari Lane RE/MAX COMMERCIAL Ontario, CA 91764",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "a = Division of RE/MAX 2000 Office: S09-269-3000 Building Size: 4,406 SF"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "26",
+        "name": "Property Magic Clean Car Wash",
+        "location": "1923 West Manchester Ave Los Angeles, CA 90047",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Property Magic Clean Car Wash inaccuracies. Marcus 8\u00a2 Millichap is a trademark of Marcus & Millichap Real Estate Investment Services, Inc. \u00a9 2015 W0140900 Marcus & Year Built/Renovated 1964 / 2015"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "8",
+        "name": "Source Evidence - Page 8",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$10",
+        "ebitda": "",
+        "note": "of more than $10 for basic services. (a basic car wash at the Property is $12), the express exterior \u2018The express exterior car wash model almost completely automates the wash process for the upgrading of the equipment for the conversion to an express exterior..."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -5265,8 +8381,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Document_20260603_0004.pdf",
     "text_url": "ocr-output/Document_20260603_0004.txt",
     "page_count": 179,
-    "evidence_page_count": 152,
-    "evidence_row_count": 0,
+    "evidence_page_count": 149,
+    "evidence_row_count": 117,
     "pages": [
       {
         "page": "1",
@@ -5281,10 +8397,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "LoopNet - Gas Station & Car Wash, Service/Gas Station, 7885 Oxford Ave, Philadelphia, PA Gas Station & Car Wash 7885 Oxford Ave, Philadelphia, PA 19111",
         "addresses": [
           "7885 Oxford Ave, Philadelphia, PA",
-          "101 Gas Station & Car Wash 7885 Oxford Ave, Philadelphia, PA 19111",
-          "613-3301 Please send me additional information about this properly. You can reach me",
-          "000 SF Bldg Gas Station & Car... Coatesville, PA",
-          "000 SF Bldg Exton West Profess... Exton, PA"
+          "101 Gas Station & Car Wash 7885 Oxford Ave, Philadelphia, PA 19111"
         ],
         "terms": [
           "car wash"
@@ -5294,8 +8407,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "3",
         "summary": "OWNER / OPERATOR, Excellent Opportunity, Well established Carwash with Gas Station. Features: Public Water, Gas Station & Car Wash 4885 Oxford Ave, Philadelphia, PA 19111",
         "addresses": [
-          "4885 Oxford Ave, Philadelphia, PA 19111",
-          "1 day ago Listing ID 18130"
+          "4885 Oxford Ave, Philadelphia, PA 19111"
         ],
         "terms": [
           "car wash"
@@ -5305,8 +8417,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "4",
         "summary": "OWNER / OPERATOR, Excellent Opportunity, Well established Delaware County, Carwash. Features: Public Water, 3100 Edgmont Ave, Brookhaven, PA 19015 Price: $250,000",
         "addresses": [
-          "613-3301 Retail Property For Sale Car Wash 3100 Edgmont Ave, Brookhaven, PA 19015",
-          "14 AC Last Updated 1 day ago Listing ID 18130"
+          "613-3301 Retail Property For Sale Car Wash 3100 Edgmont Ave, Brookhaven, PA 19015"
         ],
         "terms": [
           "car wash"
@@ -5359,7 +8470,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "11",
         "summary": "Millage Shopping Center & the Super Walmart. The site has traffic counts of 33,000 VPD + with another 36,000 LoopNet - Bustleton Gas Station/Car Wash, Service/Gas Station, 1914 Gra... Bustleton Gas Station/Car Wash ; Prosented by",
         "addresses": [
-          "1914 Gra... Print all the details of this listing in",
           "1914 Grant Avenue, Philadelphia, PA 19115"
         ],
         "terms": [
@@ -5379,9 +8489,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "13",
         "summary": "by Mark Gerhart of Car Wash Brokers, Inc.. Contact Listing Broker This property in Lakewood, CO matches your car wash\u2019search on LoopNet and was sent to you Subject: PRICE REDUCTION: Kipling Express Car Wash - BANK OWNEDI, Lakewood, CO",
-        "addresses": [
-          "931 SF This property in Lakewood, CO"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -5419,8 +8527,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "19",
         "summary": "1,227 square feet in the former car wash building. The space is designed for office or retail users at a signalized intersection at the comer of Lemay Car Wash: 1,227 SF Lease Rate: $10.00/SF NNN Expenses: $6.34/SF %* Former Convenience Store and Car Wash For Lease (Fort Collins)",
         "addresses": [
-          "1100 Oakridge Drive Fort Collins, CO 80525",
-          "227 square feet in the former car wash building. The space is designed for office or"
+          "1100 Oakridge Drive Fort Collins, CO 80525"
         ],
         "terms": [
           "car wash"
@@ -5430,8 +8537,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "20",
         "summary": "160 sf car wash building on 95,317 sf of land Express Tunnel Car Wash In continuous operation since construction in 2007",
         "addresses": [
-          "2 DETAIL BAYS 120TH & FEDERAL PKWY, WESTMINSTER, CO",
-          "317 sf of land In continuous operation since construction in"
+          "2 DETAIL BAYS 120TH & FEDERAL PKWY, WESTMINSTER, CO"
         ],
         "terms": [
           "car wash",
@@ -5452,9 +8558,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "22",
         "summary": "efficient as you desire. The car wash is approximately five years old and is in great Print this listing car wash has a fully automated entry system, a conveyor system and js a flex-senice a sdiieain Premier car wash, located in San Diego County, has all the amenities that you want. This San Diego",
-        "addresses": [
-          "613839 The information in this fisting has been provided by the business seller or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -5464,11 +8568,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "8/3/2014 LoopNet - Bank Owned - Palm Avenue Car Wash, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA Car Wash 9,367 SF [ Retail | Get Financing Land - 38.39 Acres",
         "addresses": [
           "1350 Palm Avenue, San Diego, CA",
-          "4350 Palm Avenue, San Diego, CA 92154",
-          "445-4508 Please send me additional information about this property. You can reach me",
-          "000 SF Bldg El Centro CA Truck... El Centro, CA",
-          "780 SF Bidg 7 Wendys West Memphis, AR",
-          "082 SF Bldg Land - 38.39 Acres Temecula, CA"
+          "4350 Palm Avenue, San Diego, CA 92154"
         ],
         "terms": [
           "car wash",
@@ -5499,10 +8599,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "26",
         "summary": "FULL SERVICE TUNNEL CAR WASH , RYKO VT2000 WASH YEAR MADE 2004 Rental Rate: $0.63 CAD /SF/Month Listing ID 18867707 LoopNet - Jiffy Car Wash, Retail (Other), 32 bay street, sault.ste.marie, ON",
-        "addresses": [
-          "63 CAD /SF/Month Listing ID 18867",
-          "000 SF Bidg Be the Featured Local Business Advertise your services to searchers in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -5528,7 +8625,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "29",
         "summary": "Asking Price: $895,000 EBITDA: N/A Real Estate: N/A is motivated to sell this car wash / lube business in metro Baton Rouge, Louisiana. Car has 2 bays for Iube/oil changes. Car wash was commercially appraised for a major bank",
         "addresses": [
-          "2 bays for Iube/oil changes. Car wash was commercially appraised for a major bank in",
           "4 lane highway just off the main intersection in"
         ],
         "terms": [
@@ -5549,11 +8645,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "31",
         "summary": "Excellent Location for your Business. Previous use was a car wash, Easy access to I-49, Traffic count Is LoopNet - 3010 W Walnut, Rogers, Special Purpose (Other), 3010 W Walnut, Rogers, AR 3010 W Walnut, Rogers, AR 72756",
-        "addresses": [
-          "3010 W Walnut, Rogers, AR",
-          "17 of500 Next Result 3010 W Walnut, Rogers, AR 72756",
-          "912-914 New Hope... Rogers, AR"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -5614,9 +8706,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "38",
         "summary": "+ Building size: 5,596 +/- SF Total=4,58\u00a2 +/- SF (Car Wash) =1,012 +/- SF (Cther) \u2122 Full Service Car Wash with Exterior Lane & Detail Services Asking Price Index Trends for Tempe, AZ Retail For Sale",
-        "addresses": [
-          "7425 S. Kyrene, Tempe, AZ 85283"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "acres"
@@ -5625,10 +8715,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "39",
         "summary": "QUICK SALE \u00ab Express Exterior Car Wash Gav | Property Sub-type: Vehicle Related APN / Parcel ID: 301-47-015g ~ Express Car Wash & \u00a5 UE Property Use Type: Vacant/Owner-User S $2,700,000 * ~",
-        "addresses": [
-          "14 of 600 Next Result PROFITABLE Car Wa",
-          "391-8800 Please send me additional Information about this property. You can reach me"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -5688,9 +8775,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "47",
         "summary": "Price: $ 0 Span : ila Evew a0 0 Prtarnby hte,",
-        "addresses": [
-          "200 Cassandra Chandler Birmingham, AL 35223"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -5699,9 +8784,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "48",
         "summary": "\u00bb Purchase Price: $3,416,424 opportunity with BlueWave Express Car Wash. BlueWave Express Car Wash",
-        "addresses": [
-          "1740 W. FM 646, League City, TX 77573"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -5710,12 +8793,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "50",
         "summary": "differential. A full-service car wash needs 20 people to wash 50 cars in an hour. with the price issue: $4.99 for a clean, dry car. It also offers a car wash that is washed in a professional car wash. They are washed in their owners\u2019 driveways",
-        "addresses": [
-          "20 people to wash 50 cars in",
-          "2 people can wash 150 cars in",
-          "200 million consumer owned cars in",
-          "3 or fewer. The largest conveyor car wash company in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -5752,7 +8830,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "57",
         "summary": "Site Selection Reports & Analysis Address: 357 Route 59, West Nyack, NY . 101 Haag Avenue, Bellmawr, NJ 08031",
         "addresses": [
-          "1 of 1 Cone pA",
           "357 Route 59, West Nyack, NY",
           "101 Haag Avenue, Bellmawr, NJ 08031"
         ],
@@ -5792,7 +8869,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "63",
         "summary": "6.3Carl's Big Bend Self Service Car Wash 3140 South Big Bend Boulevard, Saint Louis, MO 12864 Tesson Ferry Road, Saint Louis, MO 63128",
         "addresses": [
-          "3 of 3 12864 Tesson Ferry Road, Saint Louis, MO 63128",
           "3140 South Big Bend Boulevard, Saint Louis, MO 63143"
         ],
         "terms": [
@@ -5803,9 +8879,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "64",
         "summary": "6.0Express Car Wash 5.5Rain Tunnel Express Car Wash 5.5Rain Tunnel Express Car Wash",
         "addresses": [
-          "2 of 3 3.7 Hydro 5 4800 Lemay Ferry Road, Saint Louis, MO 63129",
           "7 Celebrity Car Wash 5700 Telegraph Road, Saint Louis, MO 63129",
-          "1 Russell's Car Wash 6601 South Broadway, Saint Louis, MO 63111",
           "7201 Watson Road, Saint Louis, MO 63119",
           "8344 Watson Road, Saint Louis, MO 63119",
           "11355 Gravois Road, Saint Louis, MO 63126",
@@ -5823,7 +8897,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "6 Reavis Barracks Car Wash 3941 Reavis Barracks Road, Saint Louis, MO 63125",
           "3417 Lemay Ferry Road, Saint Louis, MO 63125",
           "7910 Alabama Avenue, Saint Louis, MO 63111",
-          "2 Oakville Gateway Car Wash & Detailing 5439 Telegraph Road, Saint Louis, MO 63129",
           "5677 South Lindbergh Boulevard, Saint Louis, MO 63123"
         ],
         "terms": [
@@ -5842,10 +8915,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "67",
         "summary": "http://revenue.stlouisco.com/ias/assessment.asp?parid=29J42003 1 &dat=2003&flag=Y &firs... 6/26/2003 \u00a2 Revenue Contact Us e Revenue Site Map",
-        "addresses": [
-          "4028 LEMAY FERRY SAINT LOUIS, MO",
-          "7110 WHITWORTH DI SAINT LOUIS, MO"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -5872,8 +8942,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "1214713 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 3601 Auburn Street, Rockford, IL Car Wash: Express Exterior Tunnel $649,000 Car Wash Brokers of itinols, LLC Aubum Car Wash R...",
         "addresses": [
           "3601 Auburn Street, Rockford, IL",
-          "3601 Aubum Street, Rockford, IL 61101",
-          "875-3601 Please send me additional Information about this property. You can reach me"
+          "3601 Aubum Street, Rockford, IL 61101"
         ],
         "terms": [
           "car wash"
@@ -5884,8 +8953,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "79/2014 LoopNet - Custom Car Wash, Special Purpose (Other), 13723 S. Indiana Ave., Chicago, IL Custom Car Wash $135,900 sietOTR I: 13723 S. Indiana Ave., Chicago, IL 60827",
         "addresses": [
           "13723 S. Indiana Ave., Chicago, IL",
-          "13723 S. Indiana Ave., Chicago, IL 60827",
-          "697-0140 Please send me additional information about this property. You can reach me"
+          "13723 S. Indiana Ave., Chicago, IL 60827"
         ],
         "terms": [
           "car wash"
@@ -5895,8 +8963,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "73",
         "summary": "25/2015 LoopNet - Car Wash: Full Serve Tunnel & Detail Center, Vehicle Related, 120 South McDonald Avenue, Joliet, IL Car Wash: Full Serve Tunnel $369,000 Car Wash Brokers of Ilinals, LLC Tunnel Car Wash &...",
         "addresses": [
-          "120 South McDonald Avenue, Joliet, IL",
-          "875-3601 Please send me additional information about this property. You can reach me"
+          "120 South McDonald Avenue, Joliet, IL"
         ],
         "terms": [
           "car wash"
@@ -5906,8 +8973,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "74",
         "summary": "3/25/2015 LoopNet - Express-Way Car Wash, Special Purpose (Other), 1100 East 162nd Street, South Holland, IL Located on 4 Lane route 6 traffic count 2010 17,000 Express-Way Car Wash $675,000 \u2014 Company N",
         "addresses": [
-          "1100 East 162nd Street, South Holland, IL",
-          "07 APN / Parcel ID"
+          "1100 East 162nd Street, South Holland, IL"
         ],
         "terms": [
           "car wash",
@@ -5929,7 +8995,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "or childcare . Site has over 177 linear feet fronting Irving Park Road with traffic counts of 14,439 cpd. Population is Building was a car wash and has triple basin. Also available are four car lifts. 9,172 sf buitding on 1.0 acre in dynamic commercial area. Site can accommodate automotive, retail, medical, office",
         "addresses": [
           "14 E. Irving Road 14 E. Irving Road, Streamwood, IL 60107",
-          "172 sf buitding on 1.0 acre in",
           "4380 Irving Road Hanover Park, iL"
         ],
         "terms": [
@@ -5940,14 +9005,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "79",
         "summary": "and 10 vacuum stations on .72 acres location in a high traffic area (over 28,000 cpd) In front of Krogers grocery LoopNet - Bullfrog Car Wash, Service/Gas Station, 3203 N Sterling, Peoria, IL PRICE REDUCED! An exterior express car wash with 410 ft tunnel. This great investment includes 4 manual bays",
-        "addresses": [
-          "3203 N Sterling, Peoria, IL",
-          "3203 N Sterling, Peoria, iL 61604",
-          "3203 N Sterling Peoria, IL 61604",
-          "72 AC Find Out More... Last Updated 13 days ago sting ID 17581",
-          "4 manual bays and 10 vacuum stations on .72 acres location in",
-          "3203 N Sterling, Peoria, IL 61604"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -5969,7 +9027,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "1241-1247 East New York Street, Aurora, iL",
           "1241-1247 East New York Street, Aurora, IL 60505",
-          "4 Brand New Pep Boy... Aurora, IL",
           "4056 N. Route 59 Aurora, IL Aurora, IL",
           "300 SF GLA ' 842 W. Lake Street Aurora, IL"
         ],
@@ -5980,9 +9037,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "82",
         "summary": "Peco Car Wash - $100 (N Pekin) ~ Peco Car Wash \u00a9 2014 craigslist help safety privacy feedback cljobs terms about mobile",
-        "addresses": [
-          "309 six 57-4300 e do NOT contact me with unsolicited serices or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -6004,9 +9059,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "85",
         "summary": "Beautiful Full-Service Car Wash located in the heart of Naperville. Very high traffic on a 1 acre property. 110ft tunnel! Rolling Wash. Vacuum station.",
-        "addresses": [
-          "630-0323 e do NOT contact me with unsolicited services or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -6025,9 +9078,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "87",
         "summary": "Asking Price: $350,000 EBITDA: N/A Real Estate: N/A ANU2015 Auto Collision center & Car wash: Business For Sale in Lake County, Illinois, United States on BizBuySell.com old McNeil tunnel car wash located as part of a Goodyear Gemini",
-        "addresses": [
-          "2 Business Description Outstanding opportunity to one or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -6048,9 +9099,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "4(2612015 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 1030 West Galena Avenue, Freeport, IL \u2014| Car Wash: Express Exterior : - $599,000 Tunnel Car Wash &...",
         "addresses": [
           "1030 West Galena Avenue, Freeport, IL",
-          "1030 West Galena Avenue, Freeport, IL 61032",
-          "875-3601 Please send me additional information about this property. You can reach me",
-          "011 SF Bldg Tunnel Car Wash &... Forest Park, IL"
+          "1030 West Galena Avenue, Freeport, IL 61032"
         ],
         "terms": [
           "car wash"
@@ -6060,7 +9109,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "90",
         "summary": "This 5,310 square foot one-story tunnel/conveyor system car wash facility was constructed in 1993. Approx. 1,560 The remaining 71% of the total building area, or 3,750 square feet, is space to include the tunnel conveyor car wash car wash furniture, fixtures & equipment (FF&E) includes the following: typical 90-foot automatic conveyor was",
         "addresses": [
-          "310 square foot one-story tunnel/conveyor system car wash facility was constructed in",
           "3220 Grant Line Road, New Albany, KY 47150"
         ],
         "terms": [
@@ -6073,12 +9121,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "91",
         "summary": "= The car wash facility = 350+ feet of frontage along 3220 Grant Line Road, New Albany, KY 47150 \u201c=3 $2,975,000",
         "addresses": [
-          "3220 Grant Line Road, New Albany, KY 47150",
-          "62 Lot Size 1.04 AC Property Type Retail Listing ID 19064",
-          "558-8078 Please send me additional information about this property. You can reach me",
-          "88 Unit Multifamil. Louisville, KY",
-          "662 SF GLA The Glassworks Bui Louisville, KY",
-          "064 SF Bldg High Traffic Comme. New Albany, IN"
+          "3220 Grant Line Road, New Albany, KY 47150"
         ],
         "terms": [
           "car wash",
@@ -6099,8 +9142,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "93",
         "summary": "Currently Royal Touch Carwash. Looking for committed buyerfesser. 542 Buttermilk Pike, Crescent Springs, KY 41017 htip:/Avww.loopnet.com/xNet/MainSite/Listing/P rofite/Protile.aspx?LID=19351409&SRID=6229860873&StepID=101",
         "addresses": [
-          "542 Buttermilk Pike 542 Buttermilk Pike, Crescent Springs, KY 41017",
-          "9 days ago 542 Buttermilk Pik... Crescent Springs, KY"
+          "542 Buttermilk Pike 542 Buttermilk Pike, Crescent Springs, KY 41017"
         ],
         "terms": []
       },
@@ -6108,10 +9150,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "95",
         "summary": "Hamburg Area Car Wash or 1916 Justice Drive, Lexington, KY 40509 bitp/Avew.loopnel com/xNet/MainSite/ Isting/P rofile/Profile.aspx?LID=19061974&SRID=53 1 0243826&StepID=1 01 &itzy",
         "addresses": [
-          "4 Back to Search Results Retail Site 1916 Justice Drive, Lexington, KY 40509",
-          "744-4465 a First tye Email rom Ce CJ Please send me",
-          "2000 East Parrish Owensboro, KY",
-          "327 East 18th Stre Owensboro, KY"
+          "4 Back to Search Results Retail Site 1916 Justice Drive, Lexington, KY 40509"
         ],
         "terms": [
           "car wash"
@@ -6131,10 +9170,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "4 bay car wash facility which was constructed in 2006. The car wash features 1 fully automatic bay w/a Mark VIt 0s \u201c \u2018 Executive Springs Car Wash $200,000 \u2014Grcarth Semple and Associates, nc vacuums, and 2 change vendors and 1 product vendor. The car wash is still fully operational and open for business.",
         "addresses": [
           "8720 Bankers St., Florence, KY 41042",
-          "724-1133 Please send me additional information about this property. You can reach me",
-          "984 Du Bois.Rd bx Cartliste, OH",
-          "77 APN / Parcel ID",
-          "4 bay car wash facility which was constructed in"
+          "984 Du Bois.Rd bx Cartliste, OH"
         ],
         "terms": [
           "car wash",
@@ -6180,11 +9216,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "LoopNet - Car Wash Business/Propertyin Ypsilanti for Sale, Service/Gas Station, 4139 E. Ellsworth Road, Ypsilanti, MI Car Wash Business/Property 4 $495,000 Swisher Coviinarela = SCRUB-A-HUB Car Wash 125! Tunnel Wash with",
         "addresses": [
           "4139 E. Ellsworth Road, Ypsilanti, MI",
-          "2 Oppo Cs te Previous Result 15 0f500 Next Result in",
-          "4139 E. Ellsworth Road, Ypsilanti, MI 48197",
-          "663-0501 Please send me additional Information about this property. You can reach me",
-          "189 SF Bldg Auto Body Shop in... Wills, MI",
-          "848 SF Bldg RETAIL-RESTAURA... Saline, MI"
+          "4139 E. Ellsworth Road, Ypsilanti, MI 48197"
         ],
         "terms": [
           "car wash",
@@ -6194,9 +9226,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "102",
         "summary": "41/18/2015 SALE: Car Wash Farmington \u00a9 2015 craigslist help safety privacy feedback cljobs terms about \\ http//detroit.craigslist.org/okl/off/5320829570.html",
-        "addresses": [
-          "000 car washes a year Built in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -6231,7 +9261,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "106",
         "summary": "car wash business or building for sale (Shelby Township) The car wash business is located in Shelby Township at 46405 Van Dyk Car wash business or building for sale",
         "addresses": [
-          "10 days ago The car wash business is located in",
           "268-0290 between 10 A.M. Mi road. Either the business OR"
         ],
         "terms": [
@@ -6241,9 +9270,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "107",
         "summary": "CAR WASH - $159000 (DETROIT east side) prohibited I have a tunnel car wash located at detroit east side,bussenes and building for sale , every thing works CAR WASH Awe & uM) = (hed Page 1 of 1",
-        "addresses": [
-          "7 if the poster didn't include a phone number, email, or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -6253,9 +9280,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "THIS IS A MUST SEE. Great Investment Opportunity.Automatic car wash facility with 3 vacuum Centers. Great http:/Awww.loopnet.comxNet/MainSite/Listing /Profile/Profile.aspx?LID = 18576338&SRID=4393545439&StepID = 101&LinkCode=20280 2 Price: $99,900 Property Sub-type: Retall (Other)",
         "addresses": [
           "3100 Die Hwy Waterford, MI",
-          "336 SF Bidg 4265 Dixie Hwy Waterford, MI",
-          "000 SF Bldg B 4UNITSTRIP CEN... Waterford, MI",
-          "400 SF Bldg Retail Waterford Twp, MI"
+          "336 SF Bidg 4265 Dixie Hwy Waterford, MI"
         ],
         "terms": [
           "car wash",
@@ -6273,29 +9298,16 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "110",
         "summary": "Asking Price: $489,000 EBITDA : N/A Real Estate: $379,000 Well est.Full Service Car Wash inc. Real estate and Want a Full Service Car Wash and U-Haul Dealership ? This rare opportunity exists in this",
-        "addresses": [
-          "30 YEARS this Car Wash has over 12 Corporate and Municipal accounts .That bring in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA"
         ]
       },
       {
-        "page": "111",
-        "summary": "6/18/2014 . LoopNet - 1007 S Division Ave, Free Standing Bldg, Grand Rapids, M1 3,604 SF Bidg 2,992 SF GLA",
-        "addresses": [
-          "774-3500 Please send me additional information about this property. You can reach me",
-          "604 SF Bidg Established Tannin... Grand Rapids, MI"
-        ],
-        "terms": []
-      },
-      {
         "page": "112",
         "summary": "FULL SERVICE CAR WASH FOR SALE (Elk River) \u00a9 2014 craigslist help safety privacy feedback cljobs terms about mobile",
-        "addresses": [
-          "231-0282 Pipe an wn saa wreryahlo.oct More info at www.yablo.net e do NOT contact me with unsolicited services or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -6303,9 +9315,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "113",
         "summary": "This beautiful Car Wash was remodeled in 2008 from top to bottom. The owner of this Facilities: 3,900 SF building located on 3/4 acres of land next to a major Beautiful Car Wash - remodeled in 2008",
-        "addresses": [
-          "4 Business Description This beautiful Car Wash was remodeled in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -6333,10 +9343,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "116",
         "summary": "Asking Price @ $1,020,000 Inventory \u201c3 j Very Motivated! Profitable! Nice Car Wash/Vacuums in SE Mississippi - business for sal... Page 1 of 1 Very Motivated! Profitable! Nice Car Wash/Vacuums in SE Mississippi",
-        "addresses": [
-          "2 stainless steel vacuums and other vending, linked to Murphy Oil for sales. It's in",
-          "2 other nice cat washes for sale, in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -6375,9 +9382,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "121",
         "summary": "Included in asking price Included in asking price Included in asking price",
-        "addresses": [
-          "9 years ago and is the only tunnel wash in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -6437,12 +9442,12 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "605 Cobb Pkwy. South, Marietta, GA 30060",
           "2063 Roswell Rd. Marietta, GA 30062",
           "11274 Johnson Ferry Rd. Marietta, GA 30068",
-          "6040 Mount Moriah Ext. Memphis, TN 38115",
           "6852 Maynardville Hwy. Knoxville, TN 37918",
           "3101 Speedway Boulevard, Tucson, AZ 85716",
           "4048 Preston Rd. Plano, TX 75093",
           "115209 Addison Rd., Addison, TX 75001",
-          "11450 Justin Rd., Lewisville, TX 75077"
+          "11450 Justin Rd., Lewisville, TX 75077",
+          "3939 West River Parkway, Rochester, MN"
         ],
         "terms": []
       },
@@ -6450,8 +9455,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "132",
         "summary": "Asking Price $ 2,175,000 other commercial accounts provide steady revenue. Fastlane Car Wash-",
         "addresses": [
-          "6951 NW 83 St Kansas City, MO 64152",
-          "25 years. Interest rates can be fixed from 3-25 years. Web ID"
+          "6951 NW 83 St Kansas City, MO 64152"
         ],
         "terms": [
           "car wash",
@@ -6499,9 +9503,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "138",
         "summary": "\u00b0 Express Car Wash and detail center with over 30,000 vehicles per day passing in front of the facility. Good cash flow business with Turn-Key, Profitable, Automated Car Wash business for sale, includes real estate. Located on Gibson",
-        "addresses": [
-          "000 vehicles per day passing in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue",
@@ -6547,12 +9549,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "143",
         "summary": "2/8/2014 LoopNet - Reduced Price Car Wash, Lynwood, CA, Vehicle Related, 12606 Long Beach Boulevard, Lynwood, CA Reduced Price Car Wash, Lynwood, $2,100,000 The Ghobadi Group Hand Car Wash Opportunity to Raise at",
         "addresses": [
-          "2014 LoopNet - Reduced Price Car Wash, Lynwood, CA",
-          "12606 Long Beach Boulevard, Lynwood, CA",
-          "000 The Ghobadi Group CA",
-          "657-6512 Please send me additional information about this property. You can reach me",
-          "413 SF Bldg Spotlight es West Hills Gardens Sita. West Hills, CA",
-          "105 Business Districtin Freeway Lynwood, CA"
+          "12606 Long Beach Boulevard, Lynwood, CA"
         ],
         "terms": [
           "car wash"
@@ -6563,8 +9560,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "buildings that can accommodate large scale tenants, car wash, and VSC bank building (soon to be leased). Tenants include: Main Street Car Wash, Lundeens Liquors, The Dollar Store and More, Critters Pet Shop, Tri City Building Size 98,781 SF Occupancy. pee Saint Charles, IL",
         "addresses": [
           "1605 West Main Street, Saint Charles, IL",
-          "000 Corcoran Commercial Real Estate 1605 West Main Street, Saint Charles, IL 60174",
-          "781 SF Occupancy. pee Saint Charles, IL"
+          "000 Corcoran Commercial Real Estate 1605 West Main Street, Saint Charles, IL 60174"
         ],
         "terms": [
           "car wash"
@@ -6574,8 +9570,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "145",
         "summary": "with 4500 sq. ft. building well established car wash business it is on one of the most busiest street in Fresno LoopNet - Great america Car Wash, Vehicle Related, 3854 Blackstone, Fresno, CA Great america Car Wash",
         "addresses": [
-          "795 SF Bldg 103 E Whitesbridge a Fresno, CA",
-          "750 SF GLA Manchester Center Fresno, CA",
           "1 acre land with 4500 sq. ft. building well established car wash business it is on one of the most busiest street in"
         ],
         "terms": [
@@ -6602,9 +9596,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "148",
         "summary": "* Purchase Price: $475,000 PORORE INFORMATION rT || * \"74145 WATT AVE., N. HIGHLANDS, CA space. The first quarter 2014 vacancy rate for the",
         "addresses": [
-          "74145 WATT AVE., N. HIGHLANDS, CA",
-          "978 square feet of positive net absorption in",
-          "2014 with 20 of the 27 submarkets recording positive net absorption in"
+          "74145 WATT AVE., N. HIGHLANDS, CA"
         ],
         "terms": []
       },
@@ -6663,14 +9655,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "157",
-        "summary": "Property Type Specialty Year Built 1996 Price $799,999 Building Size 6,000 SF 6,000 SF Specialty Building Offered at $799,999 in Largo, FL",
-        "addresses": [
-          "000 SF Sale Type Investment or"
-        ],
-        "terms": []
-      },
-      {
         "page": "158",
         "summary": "upside potential. The Car Pool Car Wash was built and has been in operation since 2005. It is one of only two tunnel type limited service.car washes in Corvallis. Since opening, with the exception of a slight downturn in revenue during 2009 & adjacent to a Safeway gas station and has excellent access and exposure to Hwy. 20/34. The car wa",
         "addresses": [],
@@ -6692,8 +9676,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Retail-Commerclal for Sale; 4,200+/-SF Car Wash on Corner Lot & 5+/- Acres of Is a Retall Property for Sales for Sale at 1339 N Dixte On-line Auction 4,200+/-SF Car Wash on Commercial Corner Lot & 5+/- Dilearnmore, Vislethe Sarety\u2019 More About this Listing: Retail-Commercial for Sale: 4,200+/-SF Car Wash on Corner Lot & 5+/- Acres of",
         "addresses": [
           "1339 N Dixie Boulevard, Radcliff, KY",
-          "1339 N Dixte Boulevard in Radcliff KY",
-          "1339 N Dixle Soulevard by searching Oodle Marketplace for Retail Property for Sales for Sale in Radcliff KY"
+          "1339 N Dixte Boulevard in Radcliff KY"
         ],
         "terms": [
           "car wash",
@@ -6765,11 +9748,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "TURN-KEY CAR WASH - 39 Windsor Place, Central Islip, NY 11722 2495 Middie Country Road, Gentereach, NY 11720",
         "addresses": [
           "2495 Middie Country Road, Gentereach, NY 11720",
-          "00 AM EST 39 Windsor Place, Central Islip, NY 11722",
-          "202 Please send me additional 4 information about this property. You can reach me",
-          "09 AC Spotlight BANKRUPTCY 4. Bronx, NY",
-          "520 SF Bidg Spotlight BANKRUPTCY AU... Hempstead, NY",
-          "800 SF Bidg Spotlight BANKRUPTCY SAL.., Horseshoe Bay, TX"
+          "00 AM EST 39 Windsor Place, Central Islip, NY 11722"
         ],
         "terms": [
           "car wash"
@@ -6795,14 +9774,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "acres",
           "development"
         ]
-      },
-      {
-        "page": "172",
-        "summary": "Minimum Bid: $1,225,000 Bid Deadline: August 4, 2015",
-        "addresses": [
-          "2 i CAPITAL PARTHERS HC sales, or"
-        ],
-        "terms": []
       },
       {
         "page": "174",
@@ -7524,7 +10495,1646 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "803 Stable 10% Cap Rate Car Wash in Milwaukee Area Milwaukee County, WI s eon asoea. APIs Heth ery ey Te Pile 7g \u201cents ene Asking Price: \u201c$650,000, EBITDA: $70,000 \u00ab RealEstate: $581,000 Gross Income: $400;000 +\" \u2018FF&E: N/A Established: 1960 Cash Flow: : $120,000 - \u00ab\u00a2 Inventory: N/A Employees: 20 ~ BS Business Description TIM Ub This full service Turn-Key Car Wash has averaged a 10% cap rate for years based on the current asking price and has possibilities for a cash flow of up to http:/Avww.bizbuysell. com/Business-Opportunity/803-Stable-1 0-Cap-Rat...d0VGR21seVBURW thejFEWVhJZ2QyRnpho i piUFdFbWMzOnBaRDB6 11/23/14, 10:23 PM"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "3",
+        "name": "Gas Station & Car Wash",
+        "location": "4885 Oxford Ave, Philadelphia, PA 19111",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$995,000",
+        "ebitda": "",
+        "note": "OWNER / OPERATOR, Excellent Opportunity, Well established Carwash with Gas Station. Features: Public Water, Gas Station & Car Wash 4885 Oxford Ave, Philadelphia, PA 19111 Asking price $995,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "4",
+        "name": "OWNER / OPERATOR, Excellent Opportunity, Well established Delaware County, Carwash. F...",
+        "location": "613-3301 Retail Property For Sale Car Wash 3100 Edgmont Ave, Brookhaven, PA 19015",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$250,000",
+        "ebitda": "",
+        "note": "OWNER / OPERATOR, Excellent Opportunity, Well established Delaware County, Carwash. Features: Public Water, 3100 Edgmont Ave, Brookhaven, PA 19015 Price: $250,000 Asking price $250,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "8",
+        "name": "TUNNEL CAR WASH FOR SALE (MONTGOMERY COUNTY,PA)",
+        "location": "MONTGOMERY COUNTY,PA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$175000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "established 75 foot tunnel car wash with three self-serve vacuums has shown consistent profitability TUNNEL CAR WASH FOR SALE (MONTGOMERY COUNTY,PA) Profitable, well run tunnel car wash for sale in an affluent area of Montgomery County! This well- Revenue $17..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "9",
+        "name": "LoopNet - EZ-Wash Car Wash & Service Center, Vehicle Related, 44 Farmers Drive, Fleet...",
+        "location": "44 Farmers Drive, Fleetwood, PA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$495,000",
+        "ebitda": "",
+        "note": "LoopNet - EZ-Wash Car Wash & Service Center, Vehicle Related, 44 Farmers Drive, Fleetwood, PA EZ-Wash Car Wash & Service Center $495,000 NAL Seas Automatic Car Wash plus four-bay sence facillty on 1.6 acres. Includes all Inventory and equipment. Asking price..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "10",
+        "name": "Listing / Offering - Sell Warminster, PA",
+        "location": "Sell Warminster, PA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,390,000",
+        "ebitda": "$377,000",
+        "note": "Asking Price: $1,390,000 EBITDA: N/A Real Estate: N/A renew Car Wash and Real Estate, Priced to Sell: Business For Sale in Warminster, Bucks County, Pennsylvania, United States on BizBuySell.com Real Estate: Included in asking price Asking price $1,390,000. E..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "12",
+        "name": "12/1/13 Car Wash Express $450K Short sale: Business For Sale in Centennial, Arapahoe...",
+        "location": "Centennial, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$450,000",
+        "ebitda": "$400,000",
+        "note": "Car Wash Express $450K Short sale Asking Price: $450,000 EBITDA : N/A Real Estate: $400,000 12/1/13 Car Wash Express $450K Short sale: Business For Sale in Centennial, Arapahoe County, Colorado, United States on BizBuySell.com Asking price $450,000. EBITDA $4..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "13",
+        "name": "Subject: PRICE REDUCTION: Kipling Express Car Wash - BANK OWNEDI, Lakewood, CO",
+        "location": "Lakewood, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$599,000",
+        "ebitda": "",
+        "note": "by Mark Gerhart of Car Wash Brokers, Inc.. Contact Listing Broker This property in Lakewood, CO matches your car wash\u2019search on LoopNet and was sent to you Subject: PRICE REDUCTION: Kipling Express Car Wash - BANK OWNEDI, Lakewood, CO Asking price $599,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "21",
+        "name": "REALTEC Main Street Car Wash",
+        "location": "400 E. Hosetooth Road - Fort Collins, CO 80525",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "27,622",
+        "revenue": "$1,000,000",
+        "asking_price": "$1,350,000",
+        "ebitda": "",
+        "note": "TRAFFIC COUNT: 27,622 VPD (2014) built a strong loyal customer following REALTEC Main Street Car Wash 400 E. Hosetooth Road - Fort Collins, CO 80525 - Ph: 970.229.9900 -Fax: 970.282.1080 Asking price $1,350,000. Revenue $1,000,000. Traffic 27,622."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "23",
+        "name": "8/3/2014 LoopNet - Bank Owned - Palm Avenue Car Wash, Free Standing Bldg, 1350 Palm A...",
+        "location": "1350 Palm Avenue, San Diego, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,175,000",
+        "ebitda": "",
+        "note": "8/3/2014 LoopNet - Bank Owned - Palm Avenue Car Wash, Free Standing Bldg, 1350 Palm Avenue, San Diego, CA Car Wash 9,367 SF [ Retail | Get Financing Land - 38.39 Acres Asking price $2,175,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "25",
+        "name": "MEGA CAR WASH. & DETAIL Ne otiable Presented by World Investment Network,",
+        "location": "19348 VENTURA BLVD., Tarzana, CA 91356",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "40,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Rental Rate\u2019 Negotiable Traffic Count: 40,000 \u00a9 anew pet? No problem, awa uv Full Service Car Wash, Detail Center, Market, and Coffee Shop MEGA CAR WASH. & DETAIL Ne otiable Presented by World Investment Network, Traffic 40,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "29",
+        "name": "Seller for Car Wash / Lube",
+        "location": "4 lane highway just off the main intersection in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$895,000",
+        "ebitda": "$595,000",
+        "note": "Asking Price: $895,000 EBITDA: N/A Real Estate: N/A is motivated to sell this car wash / lube business in metro Baton Rouge, Louisiana. Car has 2 bays for Iube/oil changes. Car wash was commercially appraised for a major bank Asking price $895,000. EBITDA $59..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "31",
+        "name": "Connecting Commercial Real Estate\u2122",
+        "location": "Rogers, AR",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$465,000",
+        "ebitda": "",
+        "note": "Excellent Location for your Business. Previous use was a car wash, Easy access to I-49, Traffic count Is LoopNet - 3010 W Walnut, Rogers, Special Purpose (Other), 3010 W Walnut, Rogers, AR 3010 W Walnut, Rogers, AR 72756 Asking price $465,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "37",
+        "name": "Connecting Commercial Real Estate\u2122",
+        "location": "16 of S00 Next Result Car Wash 5075 Hwy 95, Fort Mohave, AZ 86426",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$599,000",
+        "ebitda": "",
+        "note": "for their car to be cleaned either in the comfy waiting area or outside on the covered patio. Carwash offers multiple Tum Key Established Carwash & Latte business opportunity, Sale includes Real Estate and all Business Fixtures. 5075 Hwy 95, Fort Mohave, AZ 8..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "39",
+        "name": "Connecting Commercial Real Estate\u2122",
+        "location": "Mesa, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,695,000",
+        "ebitda": "",
+        "note": "QUICK SALE \u00ab Express Exterior Car Wash Gav | Property Sub-type: Vehicle Related APN / Parcel ID: 301-47-015g ~ Express Car Wash & \u00a5 UE Property Use Type: Vacant/Owner-User S $2,700,000 * ~ Asking price $1,695,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "42",
+        "name": "_Ponderosa Car Wash",
+        "location": "5 lanes with a center turning lane. Great access from all directions. in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "21,200",
+        "revenue": "",
+        "asking_price": "$900,000",
+        "ebitda": "",
+        "note": "Daily Traffic Count 21,200. Asking Price _ $900,000 % | _Ponderosa Car Wash Asking price $900,000. Traffic 21,200."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "48",
+        "name": "BlueWave Express Car Wash",
+        "location": "League City, TX 77573",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3,416,424",
+        "ebitda": "",
+        "note": "\u00bb Purchase Price: $3,416,424 opportunity with BlueWave Express Car Wash. BlueWave Express Car Wash Asking price $3,416,424."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "71",
+        "name": "1214713 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 3601 Auburn Str...",
+        "location": "3601 Auburn Street, Rockford, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$649,000",
+        "asking_price": "$649,000",
+        "ebitda": "",
+        "note": "1214713 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 3601 Auburn Street, Rockford, IL Car Wash: Express Exterior Tunnel $649,000 Car Wash Brokers of itinols, LLC Aubum Car Wash R... Asking price $649,000. Revenue $649,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "72",
+        "name": "79/2014 LoopNet - Custom Car Wash, Special Purpose (Other), 13723 S. Indiana Ave., Ch...",
+        "location": "13723 S. Indiana Ave., Chicago, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$135,900",
+        "ebitda": "",
+        "note": "79/2014 LoopNet - Custom Car Wash, Special Purpose (Other), 13723 S. Indiana Ave., Chicago, IL Custom Car Wash $135,900 sietOTR I: 13723 S. Indiana Ave., Chicago, IL 60827 Asking price $135,900."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "73",
+        "name": "25/2015 LoopNet - Car Wash: Full Serve Tunnel & Detail Center, Vehicle Related, 120 S...",
+        "location": "120 South McDonald Avenue, Joliet, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$369,000",
+        "ebitda": "",
+        "note": "25/2015 LoopNet - Car Wash: Full Serve Tunnel & Detail Center, Vehicle Related, 120 South McDonald Avenue, Joliet, IL Car Wash: Full Serve Tunnel $369,000 Car Wash Brokers of Ilinals, LLC Tunnel Car Wash &... Asking price $369,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "74",
+        "name": "3/25/2015 LoopNet - Express-Way Car Wash, Special Purpose (Other), 1100 East 162nd St...",
+        "location": "1100 East 162nd Street, South Holland, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "2010",
+        "revenue": "",
+        "asking_price": "$675,000",
+        "ebitda": "",
+        "note": "3/25/2015 LoopNet - Express-Way Car Wash, Special Purpose (Other), 1100 East 162nd Street, South Holland, IL Located on 4 Lane route 6 traffic count 2010 17,000 Express-Way Car Wash $675,000 \u2014 Company N Asking price $675,000. Traffic 2010."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "75",
+        "name": "Comeryor Car Wash Estate Sale: Business For Sale in Chicago, Cook County, Illinois, U...",
+        "location": "Chicago, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$250,000",
+        "ebitda": "",
+        "note": "$250,000 EBITDA: N/A Real Estate: N/A leading trend in the fast growing car wash industry?? Included in asking price Asking price $250,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "76",
+        "name": "Building was a car wash and has triple basin. Also available are four car lifts.",
+        "location": "14 E. Irving Road 14 E. Irving Road, Streamwood, IL 60107",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "14,439",
+        "revenue": "",
+        "asking_price": "$975,000",
+        "ebitda": "",
+        "note": "or childcare . Site has over 177 linear feet fronting Irving Park Road with traffic counts of 14,439 cpd. Population is Building was a car wash and has triple basin. Also available are four car lifts. 9,172 sf buitding on 1.0 acre in dynamic commercial area..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "79",
+        "name": "LoopNet - Bullfrog Car Wash, Service/Gas Station, 3203 N Sterling, Peoria, IL",
+        "location": "Peoria, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$750,000",
+        "ebitda": "",
+        "note": "and 10 vacuum stations on .72 acres location in a high traffic area (over 28,000 cpd) In front of Krogers grocery LoopNet - Bullfrog Car Wash, Service/Gas Station, 3203 N Sterling, Peoria, IL PRICE REDUCED! An exterior express car wash with 410 ft tunnel. Thi..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "81",
+        "name": "11/26/13 LoopNet - Car Wash: Fuil Serve Tunnel, Vehicle Related, 1241-1247 East New Y...",
+        "location": "1241-1247 East New York Street, Aurora, iL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$7644",
+        "ebitda": "",
+        "note": "11/26/13 LoopNet - Car Wash: Fuil Serve Tunnel, Vehicle Related, 1241-1247 East New York Street, Aurora, iL Car Wash: Full Serve Tunnel \u2014 Peril carusitinsteitit 1241-1247 East New York Street, Aurora, IL 60505 Asking price $7644."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "86",
+        "name": "12/10/13 Conveyor Exterior Car Wash - Just South of Midway Airport: Business For Sale...",
+        "location": "Midway Airport Chicago, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$410,000",
+        "ebitda": "$225,000",
+        "note": "Asking Price: $410,000 EBITDA : N/A Real Estate: N/A leading trend in the fast growing car wash industry?? Real Estate: Included in asking price Asking price $410,000. EBITDA $225,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "87",
+        "name": "ANU2015 Auto Collision center & Car wash: Business For Sale in Lake County, Illinois...",
+        "location": "Lake County, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "48,000",
+        "revenue": "",
+        "asking_price": "$350,000",
+        "ebitda": "",
+        "note": "Asking Price: $350,000 EBITDA: N/A Real Estate: N/A ANU2015 Auto Collision center & Car wash: Business For Sale in Lake County, Illinois, United States on BizBuySell.com old McNeil tunnel car wash located as part of a Goodyear Gemini Asking price $350,000. Tr..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "88",
+        "name": "4126/2015 Car Wash For Sale: Business For Sale in Aurora, Kane County, Illinois, Unit...",
+        "location": "Wash For Sale Aurora, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$350,000",
+        "ebitda": "",
+        "note": "Asking Price: $350,000 EBITDA: N/A Real Estate: N/A 4126/2015 Car Wash For Sale: Business For Sale in Aurora, Kane County, Illinois, United States on BizBuySell.com Car Wash For Sale Asking price $350,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "89",
+        "name": "4(2612015 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 1030 West Gal...",
+        "location": "1030 West Galena Avenue, Freeport, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$599,000",
+        "ebitda": "",
+        "note": "4(2612015 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 1030 West Galena Avenue, Freeport, IL \u2014| Car Wash: Express Exterior : - $599,000 Tunnel Car Wash &... Asking price $599,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "91",
+        "name": "= The car wash facility = 350+ feet of frontage along",
+        "location": "3220 Grant Line Road, New Albany, KY 47150",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$975,000",
+        "ebitda": "",
+        "note": "= The car wash facility = 350+ feet of frontage along 3220 Grant Line Road, New Albany, KY 47150 \u201c=3 $2,975,000 Asking price $975,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "93",
+        "name": "Additional Sub-types: Service/Gas Station Last Updated 9 days ago 542 Buttermilk Pik...",
+        "location": "542 Buttermilk Pike 542 Buttermilk Pike, Crescent Springs, KY 41017",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$850,000",
+        "ebitda": "",
+        "note": "Currently Royal Touch Carwash. Looking for committed buyerfesser. 542 Buttermilk Pike, Crescent Springs, KY 41017 htip:/Avww.loopnet.com/xNet/MainSite/Listing/P rofite/Protile.aspx?LID=19351409&SRID=6229860873&StepID=101 Asking price $850,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "97",
+        "name": "Executive Springs Car Wash $200,000 \u2014Grcarth Semple and Associates, nc",
+        "location": "8720 Bankers St., Florence, KY 41042",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$200,000",
+        "ebitda": "",
+        "note": "4 bay car wash facility which was constructed in 2006. The car wash features 1 fully automatic bay w/a Mark VIt 0s \u201c \u2018 Executive Springs Car Wash $200,000 \u2014Grcarth Semple and Associates, nc vacuums, and 2 change vendors and 1 product vendor. The car wash is s..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "101",
+        "name": "LoopNet - Car Wash Business/Propertyin Ypsilanti for Sale, Service/Gas Station, 4139...",
+        "location": "4139 E. Ellsworth Road, Ypsilanti, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$495,000",
+        "ebitda": "",
+        "note": "LoopNet - Car Wash Business/Propertyin Ypsilanti for Sale, Service/Gas Station, 4139 E. Ellsworth Road, Ypsilanti, MI Car Wash Business/Property 4 $495,000 Swisher Coviinarela = SCRUB-A-HUB Car Wash 125! Tunnel Wash with Asking price $495,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "103",
+        "name": "Car Wash for Sale",
+        "location": "Sale Lowell, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$25",
+        "ebitda": "",
+        "note": "Asking Price: '$25 000 EBITDA: N/A Real Estate: N/A Facilities: Car Wash One tunnel and four bays Well maintained Car Wash for Sale Asking price $25."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "108",
+        "name": "THIS IS A MUST SEE. Great Investment Opportunity.Automatic car wash facility with 3 v...",
+        "location": "3100 Die Hwy Waterford, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$99,900",
+        "ebitda": "",
+        "note": "THIS IS A MUST SEE. Great Investment Opportunity.Automatic car wash facility with 3 vacuum Centers. Great http:/Awww.loopnet.comxNet/MainSite/Listing /Profile/Profile.aspx?LID = 18576338&SRID=4393545439&StepID = 101&LinkCode=20280 2 Price: $99,900 Property Su..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "113",
+        "name": "Listing / Offering - Olmsted County, MN",
+        "location": "Olmsted County, MN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$699,000",
+        "ebitda": "$350,000",
+        "note": "This beautiful Car Wash was remodeled in 2008 from top to bottom. The owner of this Facilities: 3,900 SF building located on 3/4 acres of land next to a major Beautiful Car Wash - remodeled in 2008 Asking price $699,000. EBITDA $350,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "114",
+        "name": "Full Service",
+        "location": "For Sale Ramsey County, MN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$810,000",
+        "ebitda": "$611,000",
+        "note": "Asking Price: $810,000 wis EBITDA: N/A Real Estate: $611,000 presence. Sales are very consistent year over year. Revenue and net profits could Gross Income: $453,085 FF&E: $207,890 Established: 1963 Asking price $810,000. EBITDA $611,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "116",
+        "name": "Very Motivated! Profitable! Nice Car Wash/Vacuums in SE Mississippi",
+        "location": "Jackson, MS",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,020,000",
+        "ebitda": "",
+        "note": "Asking Price @ $1,020,000 Inventory \u201c3 j Very Motivated! Profitable! Nice Car Wash/Vacuums in SE Mississippi - business for sal... Page 1 of 1 Very Motivated! Profitable! Nice Car Wash/Vacuums in SE Mississippi Asking price $1,020,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "117",
+        "name": "12/11/13 CAR WASH $ MONEY MAKER $: Business For Sale in Harrison County, Mississippi...",
+        "location": "Harrison County, MS",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "2010",
+        "revenue": "",
+        "asking_price": "$349,000",
+        "ebitda": "$75,000",
+        "note": "located on a very busy 4 lane rd. The traffic count for 2010 was 22,332 cars per day. Gross Revenue for 2011 was $541,000 and the cash flow was $108,209. This decline is due to the Asking Price: $349,000 EBITDA : $75,000 Real Estate: $180,000 Asking price $34..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "118",
+        "name": "12/1113 CAR WASH $ MONEY MAKER $: Business For Sale in Harrison County, Mississippi...",
+        "location": "Harrison County, MS",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "2010",
+        "revenue": "",
+        "asking_price": "$349,000",
+        "ebitda": "$75,000",
+        "note": "located on a very busy 4 lane rd. The traffic count for 2010 was 22,332 cars per day. Gross Revenue for 2011 was $541,000 and the cash flow was $108,209. This decline is due to the Asking Price: $349,000 EBITDA : $75,000 Real Estate: $180,000 Asking price $34..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "127",
+        "name": "4/30/2014 Car Wash/Property For Sale: Business For Sale in Dover, Strafford County, N...",
+        "location": "Property For Sale Dover, NH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$850,000",
+        "ebitda": "$275,000",
+        "note": "Asking Price: $850,000 EBITDA: N/A Real Estate: N/A 4/30/2014 Car Wash/Property For Sale: Business For Sale in Dover, Strafford County, New Hampshire, United States on BizBuySell.com opportunity to purchase a successful car wash and detail business with consi..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "132",
+        "name": "Fastlane Car Wash-",
+        "location": "6951 NW 83 St Kansas City, MO 64152",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$ 2,175,000",
+        "ebitda": "",
+        "note": "Asking Price $ 2,175,000 other commercial accounts provide steady revenue. Fastlane Car Wash- Asking price $ 2,175,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "143",
+        "name": "2/8/2014 LoopNet - Reduced Price Car Wash, Lynwood, CA, Vehicle Related, 12606 Long B...",
+        "location": "12606 Long Beach Boulevard, Lynwood, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,100,000",
+        "ebitda": "",
+        "note": "2/8/2014 LoopNet - Reduced Price Car Wash, Lynwood, CA, Vehicle Related, 12606 Long Beach Boulevard, Lynwood, CA Reduced Price Car Wash, Lynwood, $2,100,000 The Ghobadi Group Hand Car Wash Opportunity to Raise at Asking price $2,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "144",
+        "name": "2/8/2014 LoopNet - Valley Shopping Center, Anchor, 1605 West Main Street, Saint Charl...",
+        "location": "1605 West Main Street, Saint Charles, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$4,956,000",
+        "ebitda": "",
+        "note": "buildings that can accommodate large scale tenants, car wash, and VSC bank building (soon to be leased). Tenants include: Main Street Car Wash, Lundeens Liquors, The Dollar Store and More, Critters Pet Shop, Tri City Building Size 98,781 SF Occupancy. pee Sai..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "148",
+        "name": "Market Update |",
+        "location": "74145 WATT AVE., N. HIGHLANDS, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$475,000",
+        "ebitda": "",
+        "note": "* Purchase Price: $475,000 PORORE INFORMATION rT || * \"74145 WATT AVE., N. HIGHLANDS, CA space. The first quarter 2014 vacancy rate for the Asking price $475,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "158",
+        "name": "CAR POOL CAR WASH",
+        "location": "Corvallis, OR 97330",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$405,000",
+        "ebitda": "",
+        "note": "upside potential. The Car Pool Car Wash was built and has been in operation since 2005. It is one of only two tunnel type limited service.car washes in Corvallis. Since opening, with the exception of a slight downturn in revenue during 2009 & adjacent to a Sa..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "162",
+        "name": "Listing / Offering - 2777 CHAPEL HILL RD, DOUGLASVILLE, GA 30135",
+        "location": "2777 CHAPEL HILL RD, DOUGLASVILLE, GA 30135",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$5,600,000",
+        "ebitda": "",
+        "note": "ABOUT 2777 CHAPEL HILL RD, DOUGLASVILLE, GA 30135 Price $5,600,000 Building Size 11,075 SF 11,075 SF Specialty Building Offered at $5,600,000 in Douglasville, GA \u2018 Asking price $5,600,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "164",
+        "name": "LoopNet - 1156 Curry Road, Vehicle Related, 1156 Curry Road, Rotterdam, NY",
+        "location": "1156 Curry Road, Rotterdam, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "18,250",
+        "revenue": "",
+        "asking_price": "$650,000",
+        "ebitda": "",
+        "note": "7,000 SF existing car washitire sales & repair building on \u00a31.73 acres 1156 Curry Road, Rotterdam, NY 12303 7,000 SF | Retall Foil ofthe CORE Sitio network, LoopNet - 1156 Curry Road, Vehicle Related, 1156 Curry Road, Rotterdam, NY Asking price $650,000. Traf..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "167",
+        "name": "Listing / Offering - Rockland County, NY",
+        "location": "Rockland County, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1m",
+        "asking_price": "$1,700,000",
+        "ebitda": "$788,000",
+        "note": "Asking Price: $1,700,000 ~\u2014\u2018 EBITDA: N/A Real Estate: N/A 8/3/2014} \\ Car Wash with Property- 23426: Business For Sale in RocKand County, New York, United States on BizBuySell.com self serve washes. Vending and vac(10) revenue. Tented detail area. Just off ma..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "170",
+        "name": "Gas Station Car Wash C Store For Sale ...",
+        "location": "New York, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$ 950,000",
+        "ebitda": "",
+        "note": "Gas Station Car Wash C Store for sale in Dutchess Gas Station Car Wash C Store For Sale ... Facilities / Terms of Lease: Car Wash, Convenience Store, Asking price $ 950,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "174",
+        "name": "Car Wash Available for Sale",
+        "location": "1156 Curry Road, Schenectady, NY 12306",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "17,000",
+        "revenue": "",
+        "asking_price": "$575,000",
+        "ebitda": "",
+        "note": "asking price. Property backs to Swamp Scott Street. Business is located on 1.75 acres with frontage to Curry Road. AADT 17,000 cars. \u00a9 Nu-Look Car Wash and Tire Resale \u00a9 Lot Size: 1.75 acres Asking price $575,000. Traffic 17,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "176",
+        "name": "Sudsy Car Wash",
+        "location": "2425 Erie Blvd East, Syracuse, NY 13206",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$665,000",
+        "ebitda": "",
+        "note": "Sudsy Car Wash Established operating car wash on Erie Blvd with upside potential. Erie Bld. High Traffic Counts, High Visibility. Close to expressways. Asking price $665,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "177",
+        "name": "3/20/2015 Gas Station Car Wash Lube and CStore - 22764: Business For Sale in Kings Co...",
+        "location": "Kings County, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$450,000",
+        "ebitda": "$479,000",
+        "note": "Asking Price: $450,000 EBITDA: N/A Real Estate: N/A 3/20/2015 Gas Station Car Wash Lube and CStore - 22764: Business For Sale in Kings County, New York, United States on BizBuySell.com HUGE OPPORTUNITY... Branded gas station, car wash with 100' tunnel, lube a..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "179",
+        "name": "803 Stable 10% Cap Rate Car Wash in",
+        "location": "Milwaukee Area Milwaukee County, WI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$650,000,",
+        "ebitda": "$70,000",
+        "note": "Asking Price: \u201c$650,000, EBITDA: $70,000 \u00ab RealEstate: $581,000 on the current asking price and has possibilities for a cash flow of up to This full service Turn-Key Car Wash has averaged a 10% cap rate for years based Asking price $650,000,. EBITDA $70,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "2",
+        "name": "LoopNet - Gas Station & Car Wash, Service/Gas Station, 7885 Oxford Ave, Philadelphia...",
+        "location": "7885 Oxford Ave, Philadelphia, PA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LoopNet - Gas Station & Car Wash, Service/Gas Station, 7885 Oxford Ave, Philadelphia, PA Gas Station & Car Wash 7885 Oxford Ave, Philadelphia, PA 19111"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "15",
+        "name": "Listing / Offering - 720 Platte river Blvd., Brighton, CO",
+        "location": "720 Platte river Blvd., Brighton, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "3/18/2017 > TUNNEL CAR WASH & DETAILING TUNNEL CAR WASH & DETAILING (Brighton) 720 Platte river Blvd., Brighton, CO ......Mike's Auto Spa Facility"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "16",
+        "name": "TUNNEL CAR WASH & DETAIL CENTER (LAKEWOOD)",
+        "location": "935 S Kipling Blvd., Lakewood, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "TUNNEL CAR WASH & DETAIL CENTER (LAKEWOOD) TUNNEL CAR WASH & DETAIL CENTER 935 S Kipling Blvd., Lakewood, CO ......Mike's Auto Spa Facility"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "20",
+        "name": "Express Tunnel Car Wash",
+        "location": "2 DETAIL BAYS 120TH & FEDERAL PKWY, WESTMINSTER, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "160 sf car wash building on 95,317 sf of land Express Tunnel Car Wash In continuous operation since construction in 2007"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "26",
+        "name": "LoopNet - Jiffy Car Wash, Retail (Other), 32 bay street, sault.ste.marie, ON",
+        "location": "Bronx, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "FULL SERVICE TUNNEL CAR WASH , RYKO VT2000 WASH YEAR MADE 2004 Rental Rate: $0.63 CAD /SF/Month Listing ID 18867707 LoopNet - Jiffy Car Wash, Retail (Other), 32 bay street, sault.ste.marie, ON"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "46",
+        "name": "Historical Special Purpose Lease Listing - Splash Car Wash",
+        "location": "4709 University Drive, Huntsville, AL 35816",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Splash Car Wash N/A Historical Special Purpose Lease Listing - Splash Car Wash 4709 University Drive, Huntsville, AL 35816 1,478 SF | Special Purpose"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "95",
+        "name": "Hamburg Area Car Wash or",
+        "location": "4 Back to Search Results Retail Site 1916 Justice Drive, Lexington, KY 40509",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Hamburg Area Car Wash or 1916 Justice Drive, Lexington, KY 40509 bitp/Avew.loopnel com/xNet/MainSite/ Isting/P rofile/Profile.aspx?LID=19061974&SRID=53 1 0243826&StepID=1 01 &itzy"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "106",
+        "name": "Car wash business or building for sale",
+        "location": "268-0290 between 10 A.M. Mi road. Either the business OR",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "car wash business or building for sale (Shelby Township) The car wash business is located in Shelby Township at 46405 Van Dyk Car wash business or building for sale"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "123",
+        "name": "Two Tunnel Car Wash with Real Estate For",
+        "location": "For Sale Missoula County, MT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Two Tunnel Car Wash with Real Estate For Premium Car Wash with Two Locations Asking Price: Real Estate: *"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "128",
+        "name": "Car Wash for Sale! Great opportunity BO30",
+        "location": "376 Daniel Webster Hwy # BO30, Merrimack, NH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash for Sale! Great opportunity B030 - $595000 prohibited Up and running Car wash for sale! Sale includes, Up and running Car wash for sale!"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "140",
+        "name": "7/28/2018 4906 Main St, The Colony, TX, 75056 - Car Wash Property For Sale on LoopNet...",
+        "location": "4906 Main St, The Colony, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "7/28/2018 4906 Main St, The Colony, TX, 75056 - Car Wash Property For Sale on LoopNet.com"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "145",
+        "name": "LoopNet - Great america Car Wash, Vehicle Related, 3854 Blackstone, Fresno, CA",
+        "location": "1 acre land with 4500 sq. ft. building well established car wash business it is on one of the most busiest street in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "with 4500 sq. ft. building well established car wash business it is on one of the most busiest street in Fresno LoopNet - Great america Car Wash, Vehicle Related, 3854 Blackstone, Fresno, CA Great america Car Wash"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "160",
+        "name": "1839 N Dixie Bouleva dinasiuraenes Ao",
+        "location": "1339 N Dixie Boulevard, Radcliff, KY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Retail-Commerclal for Sale; 4,200+/-SF Car Wash on Corner Lot & 5+/- Acres of Is a Retall Property for Sales for Sale at 1339 N Dixte On-line Auction 4,200+/-SF Car Wash on Commercial Corner Lot & 5+/- Dilearnmore, Vislethe Sarety\u2019 More About this Listing: Re..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "169",
+        "name": "TURN-KEY CAR WASH -",
+        "location": "2495 Middie Country Road, Gentereach, NY 11720",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "TURN-KEY CAR WASH - 39 Windsor Place, Central Islip, NY 11722 2495 Middie Country Road, Gentereach, NY 11720"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "7",
+        "name": "1/22/2014 Tunnel Car Wash For Sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$155495",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Tunnel Car Wash For Sale - $150000 (Montgomery County) 1/22/2014 Tunnel Car Wash For Sale Profitable, well run tunnel car wash for sale in an affluent area of Montgomery County! This well-established 75 foot tunnel car wash with three self-serve vacuums Reven..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "24",
+        "name": "5/7/2015 Car Wash, lube, repairs: Business For Sale in Ontario, San Bernardino County...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$599,000",
+        "ebitda": "$1,300,000",
+        "note": "income from $54,549-$61,094 this is a non-branded car wash that is currently operated by a Asking Price: $599,000 EBITDA: N/A Real Estate: N/A 5/7/2015 Car Wash, lube, repairs: Business For Sale in Ontario, San Bernardino County, California, United States on..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "28",
+        "name": "QUICK SEARCH",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$650,000",
+        "asking_price": "$590,000",
+        "ebitda": "",
+        "note": "Price: $590,000 Down: Call Adjusted Net: $100,000 Revenue; $650,000 live in Los Angeles and are too busy to manage this car wash Efficiently. Total absentee ownership is possible with the This profitable Car Wash has been In business for over 30 years complet..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "32",
+        "name": "Surplus Properties",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$290,000.00",
+        "ebitda": "",
+        "note": "Land Area: 49,048 Square Feet/1.126 Acres Price: $290,000.00 All Cash Asking price $290,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "33",
+        "name": "Acrial (PDF)",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$275,000.00",
+        "ebitda": "",
+        "note": "Land Area: +/- .95 Acres or 41, 798 Square Feet http://realestate.quiktrip.com/default.asp? MarketID=7&Type=2&LocationID=61 7/3/2011 Price: $275,000.00 All Cash Asking price $275,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "34",
+        "name": "SainPoras Arizona Site",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$275,000.00",
+        "ebitda": "",
+        "note": "Arizona Land Area: 27,390 Square Feet or .63 Acres hitp://realestate.quiktrip.com/default.asp?MarketID=4&Type=2&LocationID=85 7/3/2011 4a74 Price: $275,000.00 All Cash Asking price $275,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "35",
+        "name": "Listing / Offering - Page 35",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,200,000.00",
+        "ebitda": "",
+        "note": "Arizona Land Area: 215,247 Square Feet/4.94 Acres http://realestate.quiktrip.com/default.asp? MarketID=4&Type=2&LocationID=75 6/28/2011 Site Plans Price: $2,200,000.00 All Cash Asking price $2,200,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "36",
+        "name": "QuikTrip Corporation - real estate, vacant, properties, property, lease, office for s...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$550,000.00",
+        "ebitda": "",
+        "note": "Land Area: 43,893 Square Feet/1.01 Acres Price: $550,000.00 All Cash Asking price $550,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "96",
+        "name": "2/6/2015 * FULL-SERVICE CAR WASH",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$195,000",
+        "ebitda": "",
+        "note": "asking price of $195,000 REDUCED to $150,000. The price includes the land, building and business FULL-SERVICE CAR WASH - $150000 (Covington, Kentucky) 2/6/2015 * FULL-SERVICE CAR WASH Asking price $195,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "98",
+        "name": "2/14/2015 FULL-SERVICE CAR WASH",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$195,000",
+        "ebitda": "",
+        "note": "asking price of $195,000 REDUCED to $150,000. The price includes the land, building and business FULL-SERVICE CAR WASH - $150000 (Covington, Kentucky) 2/14/2015 FULL-SERVICE CAR WASH Asking price $195,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "99",
+        "name": "10/22/2014 ***REDUCED***Full Service Carwash For Sale in Metro New Orleans",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$495K",
+        "asking_price": "$585,000",
+        "ebitda": "",
+        "note": "easily increase profits. Carwash has strong sales of approximately $495K last year. Owner has decided to divest this full service carwash due to other Revenue: $495,774 Inventory Asking Price: $7,000 (Included in Asking Price) Asking price $585,000. Revenue $..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "110",
+        "name": "12/11/13 Well est.Full Service Car Wash inc. Real estate and U-Haul Dealer !: Busines...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$489,000",
+        "ebitda": "$379,000",
+        "note": "Asking Price: $489,000 EBITDA : N/A Real Estate: $379,000 Well est.Full Service Car Wash inc. Real estate and Want a Full Service Car Wash and U-Haul Dealership ? This rare opportunity exists in this Asking price $489,000. EBITDA $379,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "126",
+        "name": "12/7/11 Full Service Car Wash: Business For Sale in Nevada on BizBuySell.com",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$250,000",
+        "ebitda": "$200,000.00",
+        "note": "m@@&\u2014 Asking Price: $250,000 asking price are $200,000 in FF&E. $400,000 in leasehold improvements. heating & cooling. This full service car wash also comes complete with a detail room, computer tint Asking price $250,000. EBITDA $200,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "129",
+        "name": "Listing / Offering - Page 129",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$299k",
+        "ebitda": "",
+        "note": "444 MacArthur Blvd. Cottage Hills\u2014hyy wants us to make an offer\u2014asking price was $299k in early 2014 Cardinal Car Wash\u2014waiting on information 0D teu (s haven) Paoisne Mee 224,06 /S$foa | for your store by month on page in excel for 2016\u2014that will help with pr..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0004.txt",
+        "page": "138",
+        "name": "Turn-Key, Profitable, Automated Car Wash business for sale, includes real estate. Loc...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "30,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u00b0 Express Car Wash and detail center with over 30,000 vehicles per day passing in front of the facility. Good cash flow business with Turn-Key, Profitable, Automated Car Wash business for sale, includes real estate. Located on Gibson Traffic 30,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "47",
+        "name": "8920 Parkway East",
+        "location": "Cassandra Chandler Birmingham, AL 35223",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$ 0",
+        "ebitda": "",
+        "note": "Price: $ 0 Span : ila Evew a0 0 Prtarnby hte, Asking price $ 0."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "153",
+        "name": "SARASOTA CAR WASH | 1555 N WASHINGTON BLVD SARASOTA, FL 34236",
+        "location": "1555 N WASHINGTON BLVD SARASOTA, FL 34236",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "40,000",
+        "revenue": "",
+        "asking_price": "$2,400,000",
+        "ebitda": "",
+        "note": "SARASOTA CAR WASH | 1555 N WASHINGTON BLVD SARASOTA, FL 34236 Traffic Count: 40,000 in Sarasota. The car wash equipment and building have been updated throughout including new Cent A i pe\u2019 Asking price $2,400,000. Traffic 40,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "155",
+        "name": "ARASOTA CAR WASH | 1555 N WASHINGTON BLVD SARASOTA, FL 34236",
+        "location": "1555 N WASHINGTON BLVD SARASOTA, FL 34236",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "1555",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "ARASOTA CAR WASH | 1555 N WASHINGTON BLVD SARASOTA, FL 34236 in Sarasota, The car wash equipment and building have been thet ain ied US 301 Traffic Count: Traffic 1555."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "45",
+        "name": "Traffic / Site Evidence - 893 Cox Creek Parkway Florence, AL",
+        "location": "893 Cox Creek Parkway Florence, AL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "rd FORMER CAR WASH AVAILABLE e 2,430 SF ."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "11",
+        "name": "LoopNet - Bustleton Gas Station/Car Wash, Service/Gas Station, 1914 Gra...",
+        "location": "1914 Grant Avenue, Philadelphia, PA 19115",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "33,000",
+        "revenue": "",
+        "asking_price": "$250,000",
+        "ebitda": "",
+        "note": "Millage Shopping Center & the Super Walmart. The site has traffic counts of 33,000 VPD + with another 36,000 LoopNet - Bustleton Gas Station/Car Wash, Service/Gas Station, 1914 Gra... Bustleton Gas Station/Car Wash ; Prosented by Asking price $250,000. Traffi..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "14",
+        "name": "Demographic Support - South Denver, CO 80202",
+        "location": "South Denver, CO 80202",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "(C) 2010 Car Wash Brokers, Inc. x ? Car Wash Brokers, Inc. Listing Broker: Mark Gerhart 303-884-4485 West Kentucky Avenue. This car wash is located directly on Kipling with good visibility from Kipling"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "38",
+        "name": "\u2122 Full Service Car Wash with Exterior Lane & Detail Services",
+        "location": "Tempe, AZ 85283",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "+ Building size: 5,596 +/- SF Total=4,58\u00a2 +/- SF (Car Wash) =1,012 +/- SF (Cther) \u2122 Full Service Car Wash with Exterior Lane & Detail Services Asking Price Index Trends for Tempe, AZ Retail For Sale"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "55",
+        "name": "The Right Site\u00ae",
+        "location": "585 Route 303, Blauvelt, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Site Selection Reports & Analysis Show Address: 585 Route 303, Blauvelt, NY 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "56",
+        "name": "Summary Report",
+        "location": "5 Polhemus St, Nyack, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Selection Reports & Analysis Address: 5 Polhemus St, Nyack, NY 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "57",
+        "name": "Summary Report",
+        "location": "357 Route 59, West Nyack, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Selection Reports & Analysis Address: 357 Route 59, West Nyack, NY . 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "66",
+        "name": "EASI Site Selection Reports & Analysis Cias \u00a36 oT Cows Page lof 1",
+        "location": "255 and rt 61, st louis , mo",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Site Selection Reports & Analysis Cias \u00a36 oT Cows Page lof 1 ASI Site Selection Reports & Analysis rt 255 and rt 61, st louis , mo"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "68",
+        "name": "POPULATION BY ETHNICITY",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 White Non-Hispanic 4,967 50,415 116,221 Hispanic Population 7,427 32,810 69,071"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "70",
+        "name": "4273 Demographics for 3601 Auburn Street, Rockford, IL 61101",
+        "location": "4273 Demographics for 3601 Auburn Street, Rockford, IL 61101",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4273 Demographics for 3601 Auburn Street, Rockford, IL 61101 12 Pinoyionvs Demographics for 3601 Auburn Street, Rockford, IL 61101 \u201c*s 2012 Total population: 50 to 54 years 762 4,688 9,230"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "80",
+        "name": "Demographics for 1241-1247 East New York Street, Aurora, IL 60505",
+        "location": "13 Demographics for 1241-1247 East New York Street, Aurora, IL 60505",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "wapinte Demographics for 1241-1247 East New York Street, Aurora, IL 60505 Demographics for 1241-1247 East New York Street, Aurora, IL 60505 2012 White alone 11,374 73,659 165,453"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "83",
+        "name": "Demographic Support - 20606 S Cicero Ave Matteson, IL 60443",
+        "location": "20606 S Cicero Ave Matteson, IL 60443",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis \u00a2 Address: 20606 S Cicero Ave Matteson, IL 60443 roe Li r sy Asian, Pacific Islander Population 67 853 2,660"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "90",
+        "name": "This 5,310 square foot one-story tunnel/conveyor system car wash facility was constru...",
+        "location": "3220 Grant Line Road, New Albany, KY 47150",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "This 5,310 square foot one-story tunnel/conveyor system car wash facility was constructed in 1993. Approx. 1,560 The remaining 71% of the total building area, or 3,750 square feet, is space to include the tunnel conveyor car wash car wash furniture, fixtures..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "92",
+        "name": "906 Monmouth St",
+        "location": "906 Monmouth St Newport, KY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Asking Price Index Trends for Crescent Springs, KY Retail For Sale Research for \u00a742 Buttermilk Pike, Crescent Springs, KY 41017 (Kenton County) htip:/vww.loopnet.com/xNet/MainSite/Listing/P rofile/Profile.aspx?7L(D=19351409&SRID=62288608738StepID=101 SHON5, 8..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "100",
+        "name": "Demographic Support - 4139 E. Ellsworth Road, Ypsilardi, MI",
+        "location": "4139 E. Ellsworth Road, Ypsilardi, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "seoa4 LoopNet - Car Wash Business/Property in Ypsilanti for Sale, Senice/Gas Station, 4139 E. Ellsworth Road, Ypsilardi, MI SCRUB-AHUB \"as bullt\" Car Wash has been privately owned & operated since 1982. Builton Meijer outiot, Thirty- CAR WASH FUNITURE, FIXTUR..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "163",
+        "name": "Evnrace Tiinnal Wach (\"Clann Gataweni!) a tnin-cite express car wash brand in lowa. B...",
+        "location": "Dubuque, IA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Evnrace Tiinnal Wach (\"Clann Gataweni!) a tnin-cite express car wash brand in lowa. Both Good Demographics - Population Over 70,000 (5-Mile Radius) 2 Specialty Properties Offered at $9,350,000"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0004.txt",
+        "page": "171",
+        "name": "* Fully equipped car wash with Bellinger Vector Tunnel Wash System",
+        "location": "5786 Widewaters Pkwy. PO Box 3 Syracuse, NY 13214",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "* Great traffic counts and highly visible location * Fully equipped car wash with Bellinger Vector Tunnel Wash System * 0.98+ acres"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "19",
+        "name": "%* Former Convenience Store and Car Wash For Lease (Fort Collins)",
+        "location": "1100 Oakridge Drive Fort Collins, CO 80525",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "16,321",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1,227 square feet in the former car wash building. The space is designed for office or retail users at a signalized intersection at the comer of Lemay Car Wash: 1,227 SF Lease Rate: $10.00/SF NNN Expenses: $6.34/SF %* Former Convenience Store and Car Wash For..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "137",
+        "name": "Source Evidence - 1600 E. 20th Street, Farmington, NM 87401",
+        "location": "1600 E. 20th Street, Farmington, NM 87401",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,320,000",
+        "ebitda": "",
+        "note": "identified as Lubricators Quick Lube and Car Wash. The improvements contain approximately 6,948 > 3,772 sf Car Wash ~ Built in 1996, lobby and office space (17 ft x 86 ft), 110' tunnel with brush, rinse and wax arches as well as blow dryers. % $1320000 / 6948..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "60",
+        "name": "Source Evidence - 953 Gardenview Office Parkway, St. Louis, MO 63141",
+        "location": "953 Gardenview Office Parkway, St. Louis, MO 63141",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Established: 1994 _| Owner: 1994 Business: Attended Tunnel Carwash only (Mexico Rd.) Year Business Was Years This Type of Attended Tunnel Carwash & Express Lube(Jung) Headquarters: 953 Gardenview Office Parkway, St. Louis, MO 63141 * Phone: (314) 567-7040 \u00ab F..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "62",
+        "name": "Welcome To Geocode.com",
+        "location": "4106 lemay ferry rd, lemay, MO 63129",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4106 lemay ferry rd, lemay, MO 63129 http://geocode.com/modules.php?Accept=Show+the+Results&cmd=td_a&kval=000000000... 6/26/2003 9 EZ-Locate rates begin at just $50 and can be pre-paid with a credit card on our"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "63",
+        "name": "6.3Carl's Big Bend Self Service Car Wash",
+        "location": "3140 South Big Bend Boulevard, Saint Louis, MO 63143",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "6.3Carl's Big Bend Self Service Car Wash 3140 South Big Bend Boulevard, Saint Louis, MO 12864 Tesson Ferry Road, Saint Louis, MO 63128"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "64",
+        "name": "3.7 Celebrity Car Wash",
+        "location": "7 Celebrity Car Wash 5700 Telegraph Road, Saint Louis, MO 63129",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "6.0Express Car Wash 5.5Rain Tunnel Express Car Wash 5.5Rain Tunnel Express Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "65",
+        "name": "SuperPages.com: Auto Washing & Polishing (1 - 15)",
+        "location": "4020 lemay ferry rd, lemay, mo",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "3.6Concord Village Car Wash 3.2 Oakville Gateway Car Wash & Detailing 1.7J & D Express Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "105",
+        "name": "Subject: FW: Second car wash site",
+        "location": "680 S. Center Rd, Flint, MI 48506",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Subject: Second car wash site Subject: FW: Second car wash site 680 S. Center Rd, Flint, MI 48506"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "131",
+        "name": "Source Evidence - 11 PM Store Location Price 14 16403 N. Ninth Ave. Pensacola, FL 325...",
+        "location": "11 PM Store Location Price 14 16403 N. Ninth Ave. Pensacola, FL 32504",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "99 8320 Wornall Rd. Kansas City, MO 64114 850,000 72 11450 Justin Rd., Lewisville, TX 75077 700,000 71. 115209 Addison Rd., Addison, TX 75001 2,200,000)"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "135",
+        "name": "Source Evidence - 953 Gardenview Office Parkway, St. Louis, MO 63141",
+        "location": "953 Gardenview Office Parkway, St. Louis, MO 63141",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Established: 1994 | Owner: 1994 Business: Attended Tunnel Carwash only (Mexico Rd.) Year Business Was Years This Type of Attended Tunnel Carwash & Express Lube(Jung) Headquarters: 953 Gardenview Office Parkway, St. Louis, MO 63141 \u00bb Phone: (314) 567-7040 \u00ab Fa..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "139",
+        "name": "6403 N. Ninth Ave. Pensacola, FL 32504",
+        "location": "6403 N. Ninth Ave. Pensacola, FL 32504",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2063 Roswell Rd. Marietta, GA 30062 8320 Wornall Rd. Kansas City, MO 64114 8101 Speedway Boulevard, Tucson, AZ 85716"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "146",
+        "name": "SALE OPPORTUNITY | NET NET NET LEASED INVESTMENT",
+        "location": "7145 Watt Avenue, North Highlands, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "7145 Watt Avenue, North Highlands, CA"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "150",
+        "name": "Fantastic Car Wash Location off BUSY Bee",
+        "location": "4735 BEE RIDGE RD 4735 BEE RIDGE RD, Sarasota, FL 34232",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Fantastic Car Wash Location off BUSY Bee 4735 BEE RIDGE RD, Sarasota, FL 34232 2: s Family Golf Cente Retail For Lease 6,538 SF"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "156",
+        "name": "Bank Owned! The former car wash and lube express accomodated three lifts (no pit), ne...",
+        "location": "14380 WALSINGHAM RD, LARGO, FL 33774",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "buildings are situated on over half an acre and only 1 conditioning, new roof and new ceiling. Car wash Bank Owned! The former car wash and lube express accomodated three lifts (no pit), new air ABOUT 14380 WALSINGHAM RD, LARGO, FL 33774"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0004.txt",
+        "page": "50",
+        "name": "Source Evidence - Page 50",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$4.99",
+        "ebitda": "",
+        "note": "differential. A full-service car wash needs 20 people to wash 50 cars in an hour. with the price issue: $4.99 for a clean, dry car. It also offers a car wash that is washed in a professional car wash. They are washed in their owners\u2019 driveways Asking price $4..."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -7536,7 +12146,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "text_url": "ocr-output/Document_20260603_0005.txt",
     "page_count": 207,
     "evidence_page_count": 191,
-    "evidence_row_count": 0,
+    "evidence_row_count": 156,
     "pages": [
       {
         "page": "1",
@@ -7550,9 +12160,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "2",
         "summary": "Wash\u2019Barn - Operating Car Wash",
-        "addresses": [
-          "50 Glenlake Parkwas Suite 600 Atlanta, GA 30328"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -7594,10 +12202,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "7",
         "summary": "EBITDA: $340,000.00 Asking Price: $2,100,000 alternativly rebrand the wash. Wash listed well below a new Mr Clean Car Wash franchise with over 10",
-        "addresses": [
-          "500 Proctor and Gamble MCCW franchise agreement or",
-          "10 years of original owners loyal cusromer base in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA"
@@ -7622,10 +12227,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "10",
         "summary": "Constructed in 2008 this Flex Service Car Wash is unique, where as customers can stay in the is located on 1.5 acres with a fully automated wash system using the latest in water reclaim Facilities: 3482 sq ft at $175000/mo located on 1.5 acres of land",
-        "addresses": [
-          "5 acres with a fully automated wash system using the latest in",
-          "2008 this Flex Service Car Wash is unique, where as customers can stay in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -7663,8 +12265,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "14",
         "summary": "service. 55,000 traffic count. Possible major development nearby which Name of Establishment: Andy's Car Wash Building/Unit Size (RSF): 4,768 SF Industry: Auto Related Gross Revenue: $0 (Annual)",
         "addresses": [
-          "5150 Cortez Rd W, Bradenton, FL 34210",
-          "89 Comparing the gross per vehicle in"
+          "5150 Cortez Rd W, Bradenton, FL 34210"
         ],
         "terms": [
           "car wash",
@@ -7694,7 +12295,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "17",
         "summary": "Excellent income producing car wash under lease to current operator. Located along the high traffic Map of 1299 N Federal Hwy, Boca Raton, FL 33431 (Palm Beach County) Hide Map 4 LoopNet - Income Producing Property in Boca Raton, Special Purpose (Other), 1299 N F... Page 1 of 3",
         "addresses": [
-          "4 LoopNet - Income Producing Property in",
           "1299 N Federal Hwy. Boca Raton, FL 33431",
           "1299 N Federal Hwy, Boca Raton, FL 33431"
         ],
@@ -7753,9 +12353,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "6210 Holabird Ave, Baltimore, MD",
           "000 resenesy NAIKLNB 6206 - 6210 Holabird Ave, Baltimore, MD 21224",
-          "632-2066 Please send me additional information about this property. You can reach me",
-          "5 Acres - Tower Po... Sparks, MD",
-          "5 AC Loch Ridge Shoppin... Towson, MD",
           "25 New Plant Ct Owings Mills, MD"
         ],
         "terms": [
@@ -7768,7 +12365,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "1390 Bald Hill Rd, Wanwick, RI",
           "826-4444 Dexter Auto Inc 2096 W Shore Rd, Warwick, RI",
-          "732-3575 paivas auto detailing inc 18 lauderdale blvd, warwick, RI",
           "451-3611 East Greenwich Car Wash 18 1st Ave, East Greenwich, RI",
           "886-9799 New England Car & Van Wash 5770 Post Rd, East Greenwich, RI",
           "466453 Payless Car Rental and Valet Parking 82 Evergreen Avenue, Warwick, RI",
@@ -7785,7 +12381,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "25",
         "summary": "Site | Site Selection Reports & Analysis 401 Haag Avenue, Bellmawr, NJ 08031 | Home Hispanic Population 146 1,000 8,000",
         "addresses": [
-          "1 Miles 3 Miles 5 Miles Profile DEMOGRAPHIC OVERVIEW ms",
           "401 Haag Avenue, Bellmawr, NJ 08031"
         ],
         "terms": []
@@ -7852,9 +12447,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "33",
         "summary": "FORMER CAR WASH (OPERATED IN 2013) Former Car Wash For Sale .6 Acres * Zoned B-2",
-        "addresses": [
-          "000 DEMOGRAPHICS Contact Robert Duckett or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "acres"
@@ -7866,9 +12459,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "17651 Main Street, Dumfries, VA",
           "17651 Main Street, Dumfries, VA 22026",
-          "1 Car Wash System in",
-          "822-3131 information about this property. You can reach me",
-          "000 SF Bidg Retail Storefronts... Richmond, VA",
           "3155 Anderson Hwy Powhatan, VA",
           "113 Bulifants Blvd... Williamsburg, VA"
         ],
@@ -7881,8 +12471,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "35",
         "summary": "LoopNet - 21071 Jetierson Daws Mwy, Venicie neiaiea, 2101 Jerierson Daus Mwy, Fredericksburg, VA 2101 Jefferson Davis Hwy, Fredericksburg, VA 22401 | 5,000 - 10,075 SF",
         "addresses": [
-          "2101 Jefferson Davis Hwy 2101 Jefferson Davis Hwy, Fredericksburg, VA 22401",
-          "2101 Jerierson Daus Mwy, Fredericksburg, VA"
+          "2101 Jefferson Davis Hwy 2101 Jefferson Davis Hwy, Fredericksburg, VA 22401"
         ],
         "terms": []
       },
@@ -7890,8 +12479,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "36",
         "summary": "Ren\u00e9aPRate: $18.28 /SFiYear Traffic Count: 29,000 used as car wash facility. Large sign directly next fo route 1 on property. Available now. MUST MAKE CESTZOTA LoopNet - 2101 Jefferson Davis Hwy, Vehicle Related, 2101 Jefferson Davis Hwy, Fredericksburg, VA",
         "addresses": [
-          "2101 Jefferson Davis Hwy, Fredericksburg, VA",
-          "400 SF Negotiable Carter's Crossing M... Fredericksburg, VA"
+          "2101 Jefferson Davis Hwy, Fredericksburg, VA"
         ],
         "terms": [
           "car wash",
@@ -7902,10 +12490,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "37",
         "summary": "WILL BE AVAILABLE SOON, Free standing building, excetient condition Car wash with 3 bay detail shops, Office and Lobby, Is located on Route 1 AT THE CORNER OF A VERY BUSY MAJOR ROAD, In front of a newly Map of 1221 Jefferson Davis, Fredericksburg, VA 22401 (Fredericksburg City County)",
         "addresses": [
-          "1 of 3 the right-hand side of each listing. Print all the details of this listing in",
-          "1221 Jefferson Davis 1221 Jefferson Davis, Fredericksburg, VA 22401",
-          "1 AT THE CORNER OF A VERY BUSY MAJOR ROAD, In",
-          "1221 Jefferson Davis, Fredericksburg, VA 22401"
+          "1 AT THE CORNER OF A VERY BUSY MAJOR ROAD, In"
         ],
         "terms": [
           "car wash"
@@ -8005,14 +12590,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "47",
         "summary": "LoopNet - Cole's Full Service Car Wash, Service/Gas Station, 3436 Clemson Blvd., Anderson, SC Price/SF: $180.52 APN / Parcel ID: 1212202006000 One of Two Total Full-Service Car Wash Locations in Anderson",
         "addresses": [
-          "2014 For Sale For Lease Sales Comps Property All properties for sale Bronx, NY",
           "3436 Clemson Blvd., Anderson, SC 29621",
-          "52 APN / Parcel ID",
-          "000 One of Two Total Full-Service Car Wash Locations in",
-          "847 SF Building Excellent Signage Zoned GC in",
-          "3436 Clemson Blvd., Anderson, SC",
-          "242-4200 Mike Shullman Please send me",
-          "600 SF Bldg Professional Offic. Greenville, SC"
+          "3436 Clemson Blvd., Anderson, SC"
         ],
         "terms": [
           "car wash"
@@ -8021,12 +12600,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "48",
         "summary": "Car Wash - Myrtle Beach $695,000 \u2014\u2014Carotinacommercat eal estat te of the Grand Strand, this Award Winning Car Wash, Mobil One Lube Center, Detail Shop, and Retail Accessory maintenance at this full service facility is second to nonel Price at $695,000 te move quickly,",
-        "addresses": [
-          "655-0230 Please send me additional information about this property. You can reach me",
-          "300 SF Bidg Northigate Centre 4 Myrtle Beach, SC",
-          "8 RelaivOffice Spac.. This business offering is a great turn-key opportunity into a lucrative automobile service facility. Located tn",
-          "000 te move quickly, Myrtle Beach, SC"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8054,9 +12628,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "51",
         "summary": "3/31/2011 Full Service Car Wash with Real Estate ... Fult Senice Car Wash on high traffic road In Columbia. This is a very nice car wash and is Print this listing Full Service Car Wash with Real Estate",
-        "addresses": [
-          "30 as well as detall work, Room for expansion or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -8065,9 +12637,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "52",
         "summary": "Full Service Car Wash on high traffic road in Columbia. Daily traffic count of 50,000! EBITDA: $65,000.00 Asking Price: $525,000",
-        "addresses": [
-          "30 as well as detail work. Room for expansion or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -8087,8 +12657,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "54",
         "summary": "110 SW 23th Street, Topeka, KS 66611 http:/Awww.loopnet.comyxNet/MainSite/Listing /Profile/Profile.aspx?LID = 18274166&SRID=45778676438StepID = 101&LinkC ode=20280 7/3/2014 LoopNet - 110 SW 29th Street, Retail (Other), Topeka, KS",
         "addresses": [
-          "110 SW 29th Street 110 SW 23th Street, Topeka, KS 66611",
-          "872 SF Negotiable Spotlight 29th & Wanamaker Topeka, KS"
+          "110 SW 29th Street 110 SW 23th Street, Topeka, KS 66611"
         ],
         "terms": []
       },
@@ -8103,9 +12672,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "56",
         "summary": "Car Wash sells $120,000 a year: Business For Sale in Elkhart, Elkhart County, Indiana, United States on BizBuySell.com Car Wash sells $120,000 a year Asking Price: $95,000 EBITDA: $185,000",
-        "addresses": [
-          "000 a year Elkhart, IN"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA"
@@ -8114,10 +12681,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "57",
         "summary": "Here is chance to own a car wash on a prime location. Located on the comer of Lincolnway East and Bittersweet. 4506 Lincolnway East, Mishawaka, IN 46544 Price\u201d $849,000 Property Use Type:",
-        "addresses": [
-          "4506 Lincolnway East, Mishawaka, IN 46544",
-          "293-1010 Please send me additional Information about this property. You can reach me"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8126,8 +12690,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "58",
         "summary": "Carwash $350,000 This car wash has been in operation for 49 years with great success. The Owner is ready to retire. The property MAKE AN OFFER - THIS IS THE ONLY FULL SERVICE CAR WASH IN THE AREA! An opportunity of a life time!",
         "addresses": [
-          "1421 w 11th ave, Gary, IN 46402",
-          "313-3359 Please send me additional information about this property. You can reach me"
+          "1421 w 11th ave, Gary, IN 46402"
         ],
         "terms": [
           "car wash"
@@ -8139,12 +12702,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "2454 US Hwy 30, Valparaiso, IN",
           "900 sesoneu Wages 2454 US Hwy 30, Valparaiso, IN 46385",
-          "771-2090 Please send me additional Information about this property. You can reach me",
-          "831 E Lincolnway Valparaiso, IN",
           "910 SF Bldg 8325 Wicker Ave Saint John, IN",
-          "65 AC 1463 N 500 E Mchigan City, IN",
-          "70 AC 2600 Roosevelt Rd... Valparaiso, IN",
-          "2 Samuelson R... Portage, IN"
+          "70 AC 2600 Roosevelt Rd... Valparaiso, IN"
         ],
         "terms": [
           "car wash",
@@ -8186,10 +12745,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "412112014 LoopNet - Mr. Goodwash Car Wash, Vehicle Related, 3820 Sullivant Avenue, Columbus, OH Mr. Goodwash Car Wash $645,000 Fully Automated free-standing tunnel car wash offering full detailing services. Price Includes all F.F, &E",
         "addresses": [
           "3820 Sullivant Avenue, Columbus, OH",
-          "3820 Sullivant Avenue, Columbus, OH 43228",
-          "760-5660 Please send me additional information about this property. You can reach me",
-          "211 East Fifth Str... Marysville, OH",
-          "88 AC 1890 Nothwest Bl... Columbus, OH"
+          "3820 Sullivant Avenue, Columbus, OH 43228"
         ],
         "terms": [
           "car wash"
@@ -8222,10 +12778,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "70",
         "summary": "Typical Car Wash Equipment and Fixtures Frontage: 108+/- Feet with 2 Curb Cuts Concrete Slab and Heated Floors (assumed) 1 Automatic Car Wash Bay with Equipment Room provides access to US-23 which connects to Findlay in the Northwest and Columbus in the",
-        "addresses": [
-          "30 am Bank Property is adjacent to McDonalds Restaurant in",
-          "23 which connects to Findlay in the Northwest and Columbus in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -8235,8 +12788,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "71",
         "summary": "hands on instruction, A reliable 4 year employee has expressed interest in staying with the carwash. Sperry Van Ness is proud to present the Loveland Car Wash for sale. The heavy lifting has been done and this car wash is perfectly positioned for Loveland Carwash",
         "addresses": [
-          "1555 Loveland-Maderia Rd., Loveland, OH 45140",
-          "4 year employee has expressed interest in"
+          "1555 Loveland-Maderia Rd., Loveland, OH 45140"
         ],
         "terms": [
           "car wash"
@@ -8264,10 +12816,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "74",
         "summary": "business opportunity. 3,190 SF on .4 acres. This is a profitable business. Needs street in Columbus, Ohio with high traffic count. Lots of exposure and great Facilities: 3,190 SF Standalone large space to open a Convenience",
-        "addresses": [
-          "4 acres. This is a profitable business. Needs the right management that can be more hands on to reach higher levels in",
-          "190 SF Standalone large space to open a Convenience Store or"
-        ],
+        "addresses": [],
         "terms": [
           "traffic",
           "acres"
@@ -8276,10 +12825,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "75",
         "summary": "SG101- 1117 Columbus Sullivant Car Wash Asking Price: $Gi01-1117 Columbus Sullivan Car Wash Business and Property for sale.",
-        "addresses": [
-          "1117 Columbus Sullivant Car Wash Business and Property Columbus, OH",
-          "190 SF Standalone large space to open a Convenience Store or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8287,10 +12833,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "76",
         "summary": "$500,000 for business and property and equipment. $1,100,000 yearly sales. Car wash is in a great location on a major rd, Profitable and low maintenance. Newer Listing Title: SG101-1088 Dayton Springfield Automatic and coin car wash for Sale Business/Listing Description: SG101-1088 Dayton Springfield Automatic and coin car wash for Sale",
-        "addresses": [
-          "000 yearly sales. Car wash is in",
-          "1088 Dayton Springfield Automatic and coin car wash for Sale You are currently logged in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8298,9 +12841,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "77",
         "summary": "$680,000 for business property and equipment. 1,100,000 yearly sales. Car wash isin a great location on a major rd. Profitable and low maintenance. Newer ListIng Title: SG101-1089 Cincinnatt Winford Car Wash Business and property for sale Bustness Type: Car Wash Lazer Automatic",
-        "addresses": [
-          "1089 Cincinnatt Winford Car Wash Business and property for sale Yau are currently logged in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8308,10 +12849,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "78",
         "summary": "$1,200,000 for business, equipment and property. Very busy car wash with more than 48,000 cars cleaned In 2014. and 4300 Car detalls. Business has been retiring. Located ona major street in an affluent area of Columbus, Ohio with very high traffic count. Lots of exposure and great reputation. Lots of loyal customers. Seller does not adver",
-        "addresses": [
-          "4300 Car detalls. Business has been generating in",
-          "1090 Columbus Northwest Car Wash Business/Equipment and Property You are currently logged In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -8322,8 +12860,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "79",
         "summary": "Car wash for sale on - Automatic car wash e 4,415 SF under roof",
         "addresses": [
-          "6560 Winford Avenue NORTHIRIDGE Fairfield Twp, OH 45011",
-          "1 acre - Located in busy Bridgewater Falls ar"
+          "6560 Winford Avenue NORTHIRIDGE Fairfield Twp, OH 45011"
         ],
         "terms": [
           "car wash"
@@ -8340,10 +12877,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "82",
         "summary": "Asking Price: ' $680,000 , oe \u201cReal Estate: N/A SG101-1089 Cincinnati Winford Car Wash Business and property for sale. SG101- 1089 Cincinnati Winford Car Wash",
-        "addresses": [
-          "1089 Cincinnati Winford Car Wash Business and property for sale Hamilton, OH",
-          "000 yearly sales. Car wash is in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8364,7 +12898,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "500 Next Result 4410 Roberts Road S12 /SF/Year Presence wy",
           "4410 Roberts Road, Columbus, OH 43228",
-          "827-1722 Please send me additional information about this property. You can reach me",
           "5197 Trabue Road Columbus, OH"
         ],
         "terms": []
@@ -8390,9 +12923,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "87",
         "summary": "Asking Price: ($595,000 EBITDA : $100,000 Real Estate: N/A you have undoubtedly been here many times. It has a reputation for being a premier car wash, foot frontage. The car wash itself occupies 4946 square feet and is",
-        "addresses": [
-          "25 Business Description This full service car wash gives the best service in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -8431,7 +12962,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "91",
         "summary": "Water Works Car Wash Waiter Works Car Wash Skippers Car Wash",
         "addresses": [
-          "1070 Fort Carson, Colorado Springs, CO 80913",
           "2907 Gunnison Street, Colorado Springs, CO 80909",
           "2510 East Boulder Street, Colorado Springs, CO 80909",
           "3741 East Pikes Peak Avenue, Colorado Springs, CO 80909",
@@ -8447,7 +12977,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "92",
         "summary": "|Colorado al Austin-Nevada Car Wash [carwash ~=~=\u2014\u00ab (719) 390-4903 Chapel Hill Car Wash",
         "addresses": [
-          "2370 Hancock Expressway, Colorado Springs, CO 80910",
           "6050 Terminal Avenue, Colorado Springs, CO 80915",
           "4415 North Nevada Avenue, Colorado Springs, CO",
           "4 Information File Briargate Car Wash 1820 Briargate Boulevard, Colorado Springs, CO 80920",
@@ -8506,8 +13035,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Car Wash Express Northglenn Car Wash Express Broomfield BRONCOS WAX $3 Upgrade",
         "addresses": [
           "2295 East 120th Ave, Northglenn, CO 80233",
-          "5560 W 120th Ave, Broomfield, CO 80020",
-          "2 DASHBOARD WIPES Pa e e Vist 2 DASH SHINE WIPES SD"
+          "5560 W 120th Ave, Broomfield, CO 80020"
         ],
         "terms": [
           "car wash"
@@ -8536,11 +13064,11 @@ window.CARWASH_DOCUMENT_LIBRARY = [
           "340 W Route 59, Nanuet, NY",
           "522 Route 303, Orangeburg, NY",
           "359-6647 Texaco Car Wash 68 Route 59, Spring Valley, NY",
-          "520 for car wash near Pearl River, NY 10965",
           "362 S Middletown Rd, Nanuet, NY",
           "128 Chestnut Ridge Rd, Montvale, NJ",
           "168 Route 304, Bardonia, NY",
-          "35 Lawrence St, Spring Valley, NY"
+          "35 Lawrence St, Spring Valley, NY",
+          "426-2886 West Nyack Car Wash 357 Route 59, Nyack, NY"
         ],
         "terms": [
           "car wash"
@@ -8562,16 +13090,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "106",
         "summary": "|. JT Car Wash car wash loc: 5791 Broadway, Bronx, NY 10463 - Google Maps G. Kingsbridge Car Wash",
         "addresses": [
-          "1 review C. Broadway Bridge Car Wash 5134 Broadway, New York, NY",
           "7 Bedford Park Blvd W, Bronx, NY",
           "0 mi SE G. Kingsbridge Car Wash 2704 Jerome Ave, Bronx, NY",
           "3210 Webster Ave, Bronx, NY",
-          "462 for car wash near 5791 Broadway, Bronx, NY 10463",
           "309 W 230th St, Bronx, NY",
           "630 West 246th Street, Riverdale, NY",
           "3230 Jerome Avenue, Bronx, NY",
-          "269 E Gun Hill Rd, Bronx, NY",
-          "4300 Bronx Bivd, Bronx, NY"
+          "269 E Gun Hill Rd, Bronx, NY"
         ],
         "terms": [
           "car wash"
@@ -8580,16 +13105,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "108",
         "summary": "Site Selection Reports & Analysis White Population 46,146 255,844 561,843 White Non-Hispanic 33.440 144,203 316,630",
-        "addresses": [
-          "2000 unless otherwise stated. Easy A Software. inc 101 Haag imawr, NJ 08031"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
         "page": "109",
         "summary": "Site 7 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 White Population 46,146 255,844 561,843",
         "addresses": [
-          "7 Site Selection Reports & Analysis Study 4 85v0 hax Summary Report Pa",
           "101 Haag Avenue, Bellmawr, NJ 08031"
         ],
         "terms": []
@@ -8597,9 +13119,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "110",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis \u201cae K Total Household Income ($) 54,055,194 1,508,962,550 4,686,678,432 \u2014 (u\u201d Households 458 15,716 51,562",
-        "addresses": [
-          "257 Other Race Population 5 188 719 Two or"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
@@ -8615,12 +13135,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "112",
         "summary": "1.84 acre parcel with a 5,286 SF former car wash 15562 Manchester is a 0.45 acre parcel with a 3,440 SF Thrae parcels for Sale or Lease. Maybe sold together for a total of 2.88 acres or divided. 15552 Manchester is a LoopNet - 3 Lots for Lease or Sale Manchhester Rd, Retail (land), 15552 Manchester Rd, Ballwin, MO",
         "addresses": [
-          "2014 LoopNet - 3 Lots for Lease or",
           "15552 Manchester Rd, Ballwin, MO",
-          "3 Lots for Lease or",
-          "15552 Manchester Rd, Ballwin, MO 63011",
-          "59 acre parcal formerly containing a building that has been scraped to its foundation. Located in",
-          "994-4081 Please send me additional information about this property. You can reach me"
+          "15552 Manchester Rd, Ballwin, MO 63011"
         ],
         "terms": [
           "car wash",
@@ -8631,8 +13147,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "113",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 15532 Manchester Rd, Ballwin, MO 63011 \u201c\" Median Household Income ($) 80,206",
         "addresses": [
-          "15532 Manchester Rd, Ballwin, MO 63011",
-          "21 Other Race Population 73 Two or"
+          "15532 Manchester Rd, Ballwin, MO 63011"
         ],
         "terms": []
       },
@@ -8657,8 +13172,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "118",
         "summary": "New EASI Census 2010 Site Selection Reports & Analysis Address: 28041 Greenfield Dr, Laguna Niguel, CA 92677 re ale Asian, Paclfic Islander Population 1,829 13,384 29,208",
         "addresses": [
-          "28041 Greenfield Dr, Laguna Niguel, CA 92677",
-          "861 Re port Two or"
+          "28041 Greenfield Dr, Laguna Niguel, CA 92677"
         ],
         "terms": []
       },
@@ -8673,10 +13187,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "120",
         "summary": "Over 30 years history car wash busines located at average working income area in city of Orange, Gross Sales Revenue Year 2011 $1,200,000 | Galt Bigg | Car Wash & 3 Parcels P",
-        "addresses": [
-          "000 sales per month Inventory in",
-          "000 which is not included in selling price Over 30 years history car wash busines located at average working income area in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -8685,13 +13196,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "121",
         "summary": "\u2018State Of The Art Conveyor Car Wash locatsd In the heart of Oakland County. 941 S. Opdyke, Aubum Hills, MI 48326 commence 11/28/13 LoopNet - Zax Auto Wash, Senice/Gas Station, 941 S. Opdyte, Auburn Hills, MI",
-        "addresses": [
-          "941 S. Opdyte, Auburn Hills, MI",
-          "941 S. Opdyke, Aubum Hills, MI 48326",
-          "000 In Contract Valero- Shamrock Ypsilanti, Mi",
-          "000 SF Bldg Gas Station Ypsilanti, MI",
-          "000 SF Bldg Ellet Akron, OH"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8699,9 +13204,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "122",
         "summary": "Traffic Count: 23,859 (Tylersville); Population: 57,003 (3 mile); Income: $108,560 (3 Mile) This SpeedE Car Wash is at the intersection of Reading and Tylersville Road in the affluent Single Bay Automated Car Wash with Istobal M18 Equipment",
-        "addresses": [
-          "451-5100 Office 614-451-9943 Fax www.CommercialOneRealtors.com No warranty or representation, express or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -8734,7 +13237,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "126",
         "summary": "Carwash LOCATED IN A BUSY SERVICE STATION @ 845 N. ADAIR ST. CORNELIUS, OR. 97113 (TV HWY 8) IS AVALIABLE FOR LEASE. Carwash for lease (cornelius, or) hitp:/portland, craigstist.orgAvse/bts/4196203435 him!",
         "addresses": [
-          "5 days ago, Carwash LOCATED IN",
           "845 N. ADAIR ST. CORNELIUS, OR"
         ],
         "terms": []
@@ -8744,10 +13246,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "11/2413 LoopNet - PRESTIGE CAR WASH, Vehicle Related, 5206 Dixie Hwy, Louisville, KY Propertyis located on Dixie Highway, which is a major thoroughfare in Louisville, KY, with a traffic count of over PRESTIGE CAR WASH ditivaroy mosonted by f\u00a2 Sperry Van Ness",
         "addresses": [
           "5206 Dixie Hwy, Louisville, KY",
-          "5206 Dixie Hwy, Louisville, KY 40258",
-          "52 AC Please send me",
-          "600 SF Bidg 89 ACRES ON HAV... Shelbyville, KY",
-          "89 AC 4.67 ACRES ON ML... Shelbyille, KY"
+          "5206 Dixie Hwy, Louisville, KY 40258"
         ],
         "terms": [
           "car wash",
@@ -8758,15 +13257,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "128",
         "summary": "Short sale on 1 acre. Tumkey tunnel car wash. 135 foct long tunnel. 7 vacuums stations. Sits owns a water well, Map of 7800 South 1377 West, West Jordan, UT 84084 (Salt Lake County) Hide Map 4306 South Redwo... 7800 South 1377 West, West Jordan, UT 84084 COMMERCIAL",
-        "addresses": [
-          "7800 South 1377 West, West Jordan, UT",
-          "7800 South 1377 West, West Jordan, UT 84084",
-          "4 me Contact Listing Broker LastUpdated 22 days ago Listing ID 18360",
-          "308 SF Bldg Taylorsville Offic... Taylorsville, UT",
-          "000 SF The Vine Yard Leeds, UT",
-          "000 Map of 7800 South 1377 West, West Jordan, UT 84084",
-          "50 AC 4758 West 4100 So... West ValleyClty, UT"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8774,9 +13265,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "129",
         "summary": "Now EASI Census 2010 Site Selection Reports & Analysis erate o? Population 17,948 102,370 258,524 White Population 12,659 55,249 135,095",
-        "addresses": [
-          "065 Re port Two or"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
@@ -8784,10 +13273,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "11/2413 LoopNet - Price Reduced FlexService Carwash and Detail Shop, Vehicle Related, 5380 S. Parker Road, Aurora, co Full Service Car Wash and Full Service Detailing Good Quality Equipment, Well Maintained Facilities % $1,399,000 Flex Service Carwash and Detail Conf Agreement \u00bb $799,000",
         "addresses": [
           "5380 S. Parker Road, Aurora, co",
-          "5380 S. Parker Road, Aurora, CO 80015",
-          "74 AC APN / Parcel ID",
-          "26 days ago a pon vo Listing ID 18331",
-          "284 SF Bidg High Traffic Count Area - just north of Wal-Mart In"
+          "5380 S. Parker Road, Aurora, CO 80015"
         ],
         "terms": [
           "car wash",
@@ -8797,12 +13283,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "131",
         "summary": "Express Tunnel Car Wash Available. Bullt in 2006 with State of the Art Equipment. The property enjoys high Express Tunnel Car Wash Available Traffic Count: 36,700 VPD (2008) Link to This Listing ~ EXPRESS TUNNEL CAR WASH",
-        "addresses": [
-          "10406 Belle Cre... Print all the details of this listing in",
-          "10406 Belle Creek Bivd, Henderson, CO 80604",
-          "7 Information about thls property. You shia can reach me",
-          "85 Description Express Tunnel Car Wash Available. Bullt in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -8813,9 +13294,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "132",
         "summary": "1S LoopNet - 3456 Highland Rd, Vehicle Related, 3456 Highland Rd, Waterford, MI Year Built: 2004 Building Size: 3,300 SF",
         "addresses": [
-          "3456 Highland Rd, Waterford, MI",
-          "78 AC APN / Parcel ID",
-          "000-000 LastUpdated 63 days ago Listing ID 17641"
+          "3456 Highland Rd, Waterford, MI"
         ],
         "terms": []
       },
@@ -8831,9 +13310,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "134",
         "summary": "Asking Price: $840,000 Facilities: Single Bay Automated Car Wash with Istobal M18 Equipment; Four (4) Vacuum stations; Automated Car Wash - Ken's Car Wash @ Kroger",
-        "addresses": [
-          "646835 The information in this listing has been provided by the business seller or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -8854,13 +13331,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "A123 LoopNet - PRESTIGE CAR WASH, Vehicle Related, 5206 Dixie Hwy, Louisville, KY | .89 ACRES ON HAV... Propertyls located on Dixie Highway, which Is a major thoroughfare In Loutsville, KY, with a traffic count of over",
         "addresses": [
           "5206 Dixie Hwy, Louisville, KY",
-          "206 Dixie Hwy, Louisville, KY 40258",
-          "52 AC Please send me",
-          "3 days ago Listing ID 18429",
-          "986 SF Bldg Ohio Valley Pet Ce... Jeffersonville, IN",
-          "89 ACRES ON HAV... Shelbyille, KY",
-          "89 AC 1.67 ACRES ON Mi... Shelbyilla, KY",
-          "67 AC The Sanctuary Tayorsville, KY"
+          "206 Dixie Hwy, Louisville, KY 40258"
         ],
         "terms": [
           "car wash",
@@ -8871,9 +13342,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "137",
         "summary": "Asking Price @} Not Disclosed Inventory @ $2,000 Ta un mci mi buaas'Tor 4/23/2011 Car Wash & Property - business for sal... newly built ultra modem car wash with state of the art design representing fixed asset View the broker's web site",
-        "addresses": [
-          "000 Ta un mci mi"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -8884,10 +13353,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "10/30/13 LoopNet - High Profile Current Car Wash on Broadway Bld, Vehicle Related, 4600 E Broadway Blvd, Tucson, AZ and the car wash tunnel. This high-profile car wash facilityis located in the heart of central Tucson. Itis in close proximity to major",
         "addresses": [
           "4600 E Broadway Blvd, Tucson, AZ",
-          "4600 E Broadway Blvd, Tucson, AZ 85711",
-          "011 SF can reach me",
-          "12 days ago Listing ID 18405",
-          "2013 Freestanding Build... Tucson, AZ"
+          "4600 E Broadway Blvd, Tucson, AZ 85711"
         ],
         "terms": [
           "car wash",
@@ -8897,12 +13363,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "139",
         "summary": "Facilities: The car wash Is located on a corner lot and the facility is 3,500 sqft . 80 ft Asking Price @ $190,000 Inventory GF $1,000\" 7 @ major thoroughfare with traffic counts exceeding 25,000 cars per day. Neighborhood car",
-        "addresses": [
-          "1 of 1 BizBuySell ne",
-          "000 has been invested In",
-          "000 cars per day. Neighborhood car wash which has been in",
-          "000 has been invested in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -8936,9 +13397,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "143",
         "summary": "Steadily growing car wash business. When location was bought 4 years ago there was no car counts or Car Wash For Sale - $315000 (Fraser MI) f Car Wash For Sale - $315000 (Fraser MI)",
-        "addresses": [
-          "4 years ago there was no car counts or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -8956,12 +13415,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area. 22 vacuum stations, 4 10000 Abercorn Street, Savannah, GA 31406 Price: $881,250",
         "addresses": [
           "10000 Abercorn Hurricane Bay Car Wash 10000 Abercorn Street, Savannah, GA 31406",
-          "210-0032 Please send me additional information about this property. You can reach me",
-          "420 West Broughton Savannah, GA",
           "300 SF Bidg 18 Commerce Place Savannah, GA",
           "700 SF Bidg 25 Posey Street Savannah, GA",
-          "000 SF Bidg 114 Horizon Park Dr... Savannah, GA",
-          "100 SF Bidg Restaurant Business Savannah, GA"
+          "000 SF Bidg 114 Horizon Park Dr... Savannah, GA"
         ],
         "terms": []
       },
@@ -8971,10 +13427,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "7873 Kingland Drive, West Chester, OH",
           "000 Be eins RiasitiGioup 7873 Kingland Drive, West Chester, OH 45069",
-          "860-5050 Please send me additional information about this property. You can reach me",
-          "5850 Boymel Dr#2 Fairfield, OH",
-          "844 SF Bldg The Crossings ofl... Fairfleld, OH",
-          "300 SF The Crossings of... Fairfleld, OH"
+          "5850 Boymel Dr#2 Fairfield, OH"
         ],
         "terms": [
           "car wash",
@@ -9036,8 +13489,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "153",
         "summary": "A, pis for 1007 Division Avenue S, Grand Rapids, MI 49507 \u2018% Population Change 1990-2011 1.57% 3.03% 1.32% \u2018% 2000 Non-Hispanic White 22.48% 66.22% 77.03%",
         "addresses": [
-          "1007 Division Avenue S, Grand Rapids, MI 49507",
-          "2000 Non-Hispanic Some Other Race 6 117 284 2000 Non-Hispanic Two or"
+          "1007 Division Avenue S, Grand Rapids, MI 49507"
         ],
         "terms": []
       },
@@ -9054,8 +13506,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "155",
         "summary": "$5000 (1031 S. Lapeer Rd wail Oxford Mi.) C-Store, 11 door extra large walk in cooler, Large fountain island, 2 cappuccino,2 slush machines, all intersection with traffic light Northbound Drive home traffic, Clawson double wall Perma Tanks 20,000",
         "addresses": [
-          "1031 S. Lapeer Rd wail Oxford Mi",
-          "11 door extra large walk in"
+          "1031 S. Lapeer Rd wail Oxford Mi"
         ],
         "terms": [
           "traffic"
@@ -9065,11 +13516,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "156",
         "summary": "LoopNet - Flint Car Wash For Sale, Special Purpose (Other), 950 W. Hemphill, Flint, MI car wash in located In the middle of both retail/general businesses and residential subdhisions and 1 mile from For Sale - Nostalgic Flint car wash as seen In the Hollywood movie \"SEM-PRO\u201d. Lika new stainless steel",
         "addresses": [
-          "950 W. Hemphill, Flint, MI",
-          "210-5099 Please send me additional information about this property. You can reach me",
-          "1 dayago Listing 10 18254735 For Sale - Nostalgic Flint car wash as seen In",
-          "80 AC US-23 and Hill Roa... Filnt, MI",
-          "800 SF Bldg Chesaning Dollar G... Chesaning, MI"
+          "80 AC US-23 and Hill Roa... Filnt, MI"
         ],
         "terms": [
           "car wash"
@@ -9080,9 +13527,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Car Wash & Lube Center Price Not Disclosed Rowell Auctions 41608 Hwy 19 S, Leesburg, GA 31763 8,439 SF | Retail 201 Boo's Drive, Tifton, GA 31793",
         "addresses": [
           "41608 Hwy 19 S, Leesburg, GA 31763",
-          "00 PM EST Request Additional Information 201 Boo's Drive, Tifton, GA 31793",
-          "000 SF Bldg Spotlight Commercial Strip M... Tifton, GA",
-          "000 SF GLA Commercial Land Lo... Valdosta, GA"
+          "00 PM EST Request Additional Information 201 Boo's Drive, Tifton, GA 31793"
         ],
         "terms": [
           "car wash"
@@ -9093,9 +13538,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "2/14/2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 @Pineyisss Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 2012 White alone",
         "addresses": [
           "2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226",
-          "5950 W Alameda Ave, Lakewood, CO 80226",
-          "85 years and over 2012 White alone 2012 Black or",
-          "2012 Some Other Raca alone 2012 Two or"
+          "5950 W Alameda Ave, Lakewood, CO 80226"
         ],
         "terms": []
       },
@@ -9104,11 +13547,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "2/14/2014 LoopNet - Xtreme Clean Car Wash, Vehicle Related, 5950 W Alameda Ave, Lakewood, CO Xtreme Clean Car Wash $700,000 veeneteae Commercial Group Xtreme Clean Car Wash",
         "addresses": [
           "5950 W Alameda Ave, Lakewood, CO",
-          "000 veeneteae Commercial Group 5950 W Alameda Ave, Lakewood, CO 80226",
-          "624 SF Bldg FasTracks Station ... Denver, CO",
-          "71 AC 1661 Wadsworth Blv... Lakewood, CO",
-          "474 SF Bldg 15860 - 15912 W5t... Golden, CO",
-          "612 SF Bldg Martischang Bldg Denver, CO"
+          "000 veeneteae Commercial Group 5950 W Alameda Ave, Lakewood, CO 80226"
         ],
         "terms": [
           "car wash"
@@ -9118,7 +13557,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "160",
         "summary": "\u00ae Location: 102 S. Garden St. Ventura, Ca. bitp/Wentura.craigstst.org/bis/4281061 490.huni Page 2012 5. No Gas available or needed. $0.00",
         "addresses": [
-          "00 a month 5. No Gas available or",
           "102 S. Garden St. Ventura, Ca"
         ],
         "terms": []
@@ -9127,9 +13565,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "161",
         "summary": "**This is a late 1950's early 1960's car wash, this is \"not\" a Brand New car wash otherwise it would be for rent for MUCH HIGHER that $2,000 a month, This is the CHEAPEST rent for a full service carwash in the County (If you can find one for rent). If your looking for a Brand New Carwash, You have \"Built in Customers\" immediately before y",
         "addresses": [
-          "102 S. Garden St. Ventura, Ca",
-          "000 a month, This is the CHEAPEST rent for a full service carwash in",
-          "00 on advertising, or networking... BUILT IN"
+          "102 S. Garden St. Ventura, Ca"
         ],
         "terms": [
           "car wash"
@@ -9172,8 +13608,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "167",
         "summary": "1 Piineyowes Demographics for 23 South 59th Street, Belleville, IL 62223 \u2018otal Population: Adult 3 110,208 2012 White alone 5,256 27,966 65,851",
         "addresses": [
-          "1 Piineyowes Demographics for 23 South 59th Street, Belleville, IL 62223",
-          "2012 Some Other Race alone 50 259 790 2012 Two or"
+          "1 Piineyowes Demographics for 23 South 59th Street, Belleville, IL 62223"
         ],
         "terms": []
       },
@@ -9181,11 +13616,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "169",
         "summary": "Splish Splash Car Wash $681,000 eerie car wash stations, McNeill Wash System serves the tunnel car wash and Coleman operated self senice stations LoopNet Splish Splash Car Wash, |",
         "addresses": [
-          "000 eerie 23 South 59th Street, Belleville, IL 62223",
-          "283-4691 Please send me additional information about this property. You can teach me",
-          "300 SF Office / Re... Belleville, IL",
-          "302 SF Bidg Financial Plaza Con... Belleville, IL",
-          "500 SF Schroeder's Catering Belleville, IL"
+          "000 eerie 23 South 59th Street, Belleville, IL 62223"
         ],
         "terms": [
           "car wash"
@@ -9196,10 +13627,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "2/10/2014 LoopNet - Car Wash: Full Serve Tunnel, Vehicle Related, 1241-1247 East New York Street, Aurora, IL Car Wash: Full Serve Tunnel $499,000 Car Wash Brokers of liinote, LLC 1241-1247 East New York Street, Aurora, IL 60505 6,528 SF | Retail",
         "addresses": [
           "1241-1247 East New York Street, Aurora, IL",
-          "1241-1247 East New York Street, Aurora, IL 60505",
-          "875-3601 Please send me additional information about this property. You can reach me",
-          "266 SF Bldg Retail Building on H... Aurora, IL",
-          "600 SF Bidg Aurora Aurora, IL"
+          "1241-1247 East New York Street, Aurora, IL 60505"
         ],
         "terms": [
           "car wash"
@@ -9222,9 +13650,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "4 of500 Next Result 3 Hampton Drive, Londonderry, NH 03053",
           "3 Hampton Drive, Londonderry, NH",
-          "964-6103 Please send me additional information about this property. You can reach me",
-          "500 SF Bidg Spotiight 420 Washington Pla... Rochester, NH",
-          "500 SF Bldg Cedar Cove Apartm... Dover, NH",
           "806 US Route 1 Byp... Portsmouth, NH"
         ],
         "terms": [
@@ -9234,9 +13659,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "174",
         "summary": "averaging over $44,443.00 per month in sales. The Car Wash closes at 7:00pm each day Competition: According to I.D.0.T., there are over 46,000 cars driving by the Car Wash \u201cincluded in the asking price \u201c* not Included In the asking price \u201d",
-        "addresses": [
-          "000 cars driving by the Car Wash each day Even with limited hours of operation, in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -9244,13 +13667,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "175",
         "summary": "automatic car wash and 2 single family dwellings. Seller may consider including a cell tower lease in the sale at Map of 1319 Mt. Vernon, Marion, OH 43302 (Marion County) 1319 Mt. Vernon, Marion, OH 43302",
-        "addresses": [
-          "1319 Mt. Vernon 1319 Mt. Vernon, Marion, OH 43302",
-          "09 AC 1 Listing ID 17100",
-          "1 dayago Find Out More... Description Located in",
-          "2 single family dwellings. Seller may consider including a cell tower lease in",
-          "1319 Mt. Vernon, Marion, OH 43302"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -9269,10 +13686,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "178",
         "summary": "11/2813 + LoopNet - Larch - 812 (Car Wash), Vehicle Related, 812 N. Larch, Lansing, MI Larch - 812 (Car Wash) atifroncina i ee Price: $169,000 Request Additional Information",
-        "addresses": [
-          "812 N. Larch, Lansing, MI",
-          "6 days ago Listing ID 17768"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -9306,7 +13720,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "182",
         "summary": "Asking Price Index Trends for Evansville, IN Retail For Sale Research for 4115 E Morgan Avenue, Evansville, IN 47715 (Vanderburgh County) Map of 4115 E Morgan Avenue, Evansville, IN 47715 (Vanderburgh County)",
         "addresses": [
-          "2014 Hide Map Map of 4115 E Morgan Avenue, Evansville, IN 47715",
           "8 E- Research for 4115 E Morgan Avenue, Evansville, IN 47715"
         ],
         "terms": []
@@ -9317,10 +13730,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "4115 E Morgan Avenue, Evansville, IN",
           "4115 E Morgan Avenue, Evansville, IN 47715",
-          "453-1068 Please send me additional information about this property. You can reach me",
-          "500-506 N Main St... Evansville, IN",
-          "341 SFGLA PS Church Of The Cross iomeeee Evansville, IN",
-          "036 SF Bldg 5139 Old Boonville ... Evansville, IN"
+          "500-506 N Main St... Evansville, IN"
         ],
         "terms": [
           "car wash",
@@ -9332,9 +13742,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "i Piineypoe\u00ab Demographics for 3986 Indianola Avenue, Columbus, OH 43201 1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201 2042 Total population: 80 to 84 years",
         "addresses": [
           "1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201",
-          "3986 Indianola Avenue, Columbus, OH 43201",
-          "85 years and over 2012 White alone 2012 Black or",
-          "2012 Some Other Race alone 2012 Two or"
+          "3986 Indianola Avenue, Columbus, OH 43201"
         ],
         "terms": []
       },
@@ -9342,11 +13750,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "185",
         "summary": "Price: $450,000 Property Use Type: VacantOwner-User Car Wash 2322 Stel... Established profitable tunnel car wash since 1972 4 Car Wash 5466 E.L....",
         "addresses": [
-          "000 Aer rprada flea Estat 3986 Indianola Avenue, Columbus, OH 43201",
-          "559-3350 Please send me additional Information about this property. You can reach me",
-          "6121 East Livingsto... Columbus, OH",
-          "580 SF Bldg Building for Sala-Inv... Columbus, OH",
-          "970 SF Bldg 4 Car Wash 5466 E.L.... Columbus, OH"
+          "000 Aer rprada flea Estat 3986 Indianola Avenue, Columbus, OH 43201"
         ],
         "terms": [
           "car wash"
@@ -9382,9 +13786,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Ready to occupy with some renovation. A built-in retail traffic from Sparkle Brite Car Wash and Wesleyan Park 624 Emory Drive, Owensboro, KY 42301 2,880 SF | Retail Price: $195,700 Property Use Type: Vacant/Owner-User",
         "addresses": [
           "624 Emory Drive, Owensboro, KY 42301",
-          "926-1101 Please send me additional information about this property. You can reach me",
-          "7420 Highway 231 Utica, KY",
-          "200 SF Bldg SALMS BUILDING Owensboro, KY"
+          "7420 Highway 231 Utica, KY"
         ],
         "terms": [
           "car wash",
@@ -9396,9 +13798,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "LoopNet - Car Wash & Quick Lube - MESA, Vehicle Related, 808 S. Alma School Rd., Mesa, AZ , Car Wash & Quick Lube - MESA $1,195,000 exeararcsarpes a, FLEX CAR WASH -...",
         "addresses": [
           "808 S. Alma School Rd., Mesa, AZ",
-          "000 exeararcsarpes 808 S. Alma School Rd., Mesa, AZ 85210",
-          "757-1514 Please send me additional information about this property. You can reach me",
-          "720 SF Bldg EXPRESS Car Wash ES Mesa, AZ"
+          "000 exeararcsarpes 808 S. Alma School Rd., Mesa, AZ 85210"
         ],
         "terms": [
           "car wash",
@@ -9411,7 +13811,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "addresses": [
           "16002 Main St, Hesperia, CA",
           "16002 Main St, Hesperia, CA 92345",
-          "786-5511 Please send me additional Information about this property. You can reach me",
           "185 SF Bldg Spotlight 7247 Elmo Street Tujunga, CA"
         ],
         "terms": [
@@ -9432,8 +13831,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "193",
         "summary": "jaar EASI Census 2010 Site Selection Reports & Analysis rn | : wn g os\u201d Address: 811 West Columbia Avenue, Battle Creek, MI \u2014 Map data \u00a92013 Google Map data \u00a92013 Google!",
         "addresses": [
-          "811 West Columbia Avenue, Battle Creek, MI",
-          "685 Re port Two or"
+          "811 West Columbia Avenue, Battle Creek, MI"
         ],
         "terms": []
       },
@@ -9442,9 +13840,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Senice & Car Wash Facility & Excess Commercial Land on 3,15+/- Acres, selling with a reserve, 4/12/2014 LoopNet - AUCTION -255+/- Properties in 90+/- Offerings, Service/Gas Station, 450 Westfork Blvd, Lithia Springs, GA Sale Site: Holiday Inn - Atlanta Perimetar/Dunwoody, 4386 Chamblee Dunwoody Rd, Atanta, GA.",
         "addresses": [
           "450 Westfork Blvd, Lithia Springs, GA",
-          "450 Westfork Blud, Lithia Springs, GA 30122",
-          "479-1763 Please send me additional information about thls property. You can reach me",
-          "45 NORT... Gulf Shores, AL",
           "4386 Chamblee Dunwoody Rd, Atanta, GA",
           "450 Thomton Road, Lithia Springs, GA 30122"
         ],
@@ -9458,14 +13853,131 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Mr. Goodwash Car Wash $645,000 Capitol Equities Realty Fully Automated free-standing tunnel car wash offering full detailing services. Price includes all F.F. & E 3820 Sullivant Avenue, Columbus, OH 43228 3,190 SF | Retail",
         "addresses": [
           "000 Capitol Equities Realty 3820 Sullivant Avenue, Columbus, OH 43228",
-          "760-5660 Please send me additional information about this property. You can reach me",
           "5 East Long Street Columbus, OH",
-          "211 East Fifth Sw... Marysville, OH",
           "780 SF Bldg S. Hamilton Road . Groveport, OH",
           "88 AC 1890 Nothwest Blvd... Columbus, OH"
         ],
         "terms": [
           "car wash"
+        ]
+      },
+      {
+        "page": "196",
+        "summary": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area. 22 vacuum stations, 4 10000 Abercom Street, Savannah, GA 31406 PricelSF: $252.65 Year Built: 2008",
+        "addresses": [
+          "10000 Abercorn Hurricane Bay Car Wash 10000 Abercom Street, Savannah, GA 31406",
+          "3003 Scarlett St Brunswick, GA",
+          "3945 Highway 17 Richmond Hill, GA",
+          "500 SF Bidg 1608 King St. Beaufort, SC"
+        ],
+        "terms": []
+      },
+      {
+        "page": "197",
+        "summary": "$425000 / 1368ft? - CAR WASH & GAS STATION (3906 PEACH STREET) KNOWN AS HOLMES CAR WASH AND KEYSTONE GAS STATION. HIGHLY VISIBLE CORNER LOCATION (PEACH & LIBERTY) WITH TRAFFIC SIGNAL. VALUE IN LAND. LOT SIZE; 111 X 236. ZONED C-2, R/E TAXES: $11,270. ALSO AVAILABLE FOR LEASE:",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "198",
+        "summary": "4/21/2014 LoopNet - Car Wash, Vehicle Related, 1060 E. Main St, Mesa, AZ Car Wash $59,000 Pro Smart Realty Car Wash For Sale..Business Only",
+        "addresses": [
+          "1060 E. Main St, Mesa, AZ",
+          "000 Pro Smart Realty 41060 E. Main St, Mesa, AZ 85203"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "199",
+        "summary": "Traffic Count: 20,100 cars Built in 2004, this 6,500 square foot car wash shell is located just south of Golf on Rand Rd. The car wash features = 6,500 SF car wash shell =",
+        "addresses": [
+          "1215 Rand Rd, Des Plaines, IL 60016"
+        ],
+        "terms": [
+          "car wash",
+          "traffic",
+          "development"
+        ]
+      },
+      {
+        "page": "200",
+        "summary": "LoopNet - LENDER OWNED AUTOMATIC CAR WASH, Vehicle Related, 7 LW Besinger Dr, Carpentersville, IL d just off J.F. Kennedy Memorial Drive/Rouse 25 with traffic counts exceeding 27,000 vehicles per day. ER OWNED AUTOMATIC CAR WASH. +/- 2,700 SF building with automatic car wash equipment.",
+        "addresses": [
+          "7 LW Besinger Dr, Carpentersville, IL",
+          "000 Rerecite Realy RarmeretOLLG WASH 7 LW Besinger Dr, Carpentersville, IL 60110",
+          "1055 West 175th St Homewood, IL",
+          "000 SF Bldg 27555 Route 176 Island Lake, IL"
+        ],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "201",
+        "summary": "LoopNet - Big Green Machine Car Wash, Vehicle Related, 8409 Bedford Euless Road, Hurst, TX Big Green Machine Car Wash 100 - Foot Tunnel with 125 - Foot ConveyourOversized Lot with excess land behind the car wash site that could be",
+        "addresses": [
+          "8409 Bedford Euless Road, Hurst, TX",
+          "86 Next Result 8409 Bedford Euless Road, Hurst, TX 76053",
+          "4 Place Covered vacuum station with Central Vacuum System Unit. Completely covered area for employee or"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "202",
+        "summary": "Asking Price: $410,000 EBITDA : N/A Real Estate: N/A leading trend in the fast growing car wash industry?? Real Estate: Included in asking price",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "203",
+        "summary": "Rocket Car Wash ls an Icanie full service cat wash which hes been Ia continuous eperation for over $8 years end the current owner has operated it since 2608. This full service car wash speclatizes In exterior cleaning, waxing ond hand. great opportunity for an owner eperator to increase the business while reducing expences. The property c",
+        "addresses": [
+          "515 E Lexington Ave, Elkhart, IN"
+        ],
+        "terms": [
+          "car wash",
+          "acres"
+        ]
+      },
+      {
+        "page": "204",
+        "summary": "This is on existing car wash, bul also could be removed and be on excellent location for food, any type of retail. Monroe Market Trends - Asking price index trends, sale price trends, asking rent trends 2573 WI Roosevelt Blvd., Monroe, NC, 28110 - Neighborhood Center Property For Sale on LoopNet.com",
+        "addresses": [
+          "2573 WI Roosevelt Blvd., Monroe, NC"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "205",
+        "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 1337 S Noland Rd, Independence, MO 64055 \u201cMap data \u00a92015 Google",
+        "addresses": [
+          "1337 S Noland Rd, Independence, MO 64055"
+        ],
+        "terms": []
+      },
+      {
+        "page": "206",
+        "summary": "Asking Price $550,000 traffic counts and the wash is well known in the Squeaky Express Car Wash (Indp)",
+        "addresses": [
+          "1337 S Noland Rd Independence, MO 64055"
+        ],
+        "terms": [
+          "car wash",
+          "traffic"
         ]
       }
     ],
@@ -10263,7 +14775,2192 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "11231 MASTIN REECE \u2018a Rerksdire Mashoniny Atala OVERLAND PARK, KS 66210 _ DEMOGRAPHICS 1 Mile 3 Mile 2016 ESTIMATED POPULATION 8,667 96,227 244,772 i 2016 MED HOUSEHOLD INCOME | $86,837 $93,763 $102,320 4 Brokerage Associate Phone: 913.945.3783 bob@reececommercial.com The infarmation above has been obtained from sources believed rellable. While we do not doubt its accuracy we have not verified It and make no guarantee, warranty or representation about It. Itis your responsibility to independently confirm its accuracy and completeness. Any projections, opinions, assumptions, or estimates used are for example only and do not represent the current or future performance of the property. You and your advisors should conduct a careful, independent investigation of the property to determine to your satisfaction the suitability of the property for your needs."
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Development Site",
+        "document": "Document_20260603_0005.txt",
+        "page": "83",
+        "name": "Former full service carwash, Drive Thru, Car/Motor Sports Sales, Storage",
+        "location": "000 Presented by Comey & Shepherd 944 State Route 28, Milford, OH 45150",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$150,000",
+        "ebitda": "",
+        "note": "Former full service carwash, Drive Thru, Car/Motor Sports Sales, Storage 944 State Route 28, Milford, OH 45150 7,240 SF | Retail | Get Financing Realtors hitp:/Avww.loopnet.com/xNet/MamnSite/Listing/P rofite/P rolile.aspx?LID=19332327&SRID=59906338608StepID=1..."
+      },
+      {
+        "type": "Development Site",
+        "document": "Document_20260603_0005.txt",
+        "page": "199",
+        "name": "Recently Developed Car Wash Shell",
+        "location": "1215 Rand Rd, Des Plaines, IL 60016",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,100",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Traffic Count: 20,100 cars Built in 2004, this 6,500 square foot car wash shell is located just south of Golf on Rand Rd. The car wash features = 6,500 SF car wash shell = Traffic 20,100."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "7",
+        "name": "Car Wash-Mr Clean Car Wash, Jonesboro, GA",
+        "location": "Jonesboro, GA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,100,000",
+        "ebitda": "$340,000.00",
+        "note": "EBITDA: $340,000.00 Asking Price: $2,100,000 alternativly rebrand the wash. Wash listed well below a new Mr Clean Car Wash franchise with over 10 Asking price $2,100,000. EBITDA $340,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "10",
+        "name": "1116/2014 Full Service Car Wash on Major Highway: Business For Sale in Saint Lucie Co...",
+        "location": "Highway Saint Lucie County, FL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$125,000",
+        "ebitda": "$598,239",
+        "note": "Constructed in 2008 this Flex Service Car Wash is unique, where as customers can stay in the is located on 1.5 acres with a fully automated wash system using the latest in water reclaim Facilities: 3482 sq ft at $175000/mo located on 1.5 acres of land Asking..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "11",
+        "name": "Fully Fuctloning CAR WASH & Bullding",
+        "location": "4790 Radio Road, Naples, FL 34104",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$859,993",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Fully Fuctloning CAR WASH & Bullding Fully Fuctioning CAR WASH 4790 Radio Road, Naples, FL 34104 Revenue $859,993."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "14",
+        "name": "Listing / Offering - 5150 Cortez Rd W, Bradenton, FL 34210",
+        "location": "5150 Cortez Rd W, Bradenton, FL 34210",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$0",
+        "asking_price": "$975,000",
+        "ebitda": "",
+        "note": "service. 55,000 traffic count. Possible major development nearby which Name of Establishment: Andy's Car Wash Building/Unit Size (RSF): 4,768 SF Industry: Auto Related Gross Revenue: $0 (Annual) Asking price $975,000. Revenue $0."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "16",
+        "name": "Full Service Car Wash",
+        "location": "Jacksonville, FL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$200,000",
+        "ebitda": "$38,838",
+        "note": "Full service car wash that offers services for a basic wash for as little as $6 to Asking Price: $200,000 EBITDA: N/A Real Estate: N/A Inventory: Included in asking price Asking price $200,000. EBITDA $38,838."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "32",
+        "name": "LLUTS Car Wash in High Trafic Area,",
+        "location": "Stable Earning Van, WV",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$450,000",
+        "ebitda": "$472,238",
+        "note": "Asking Price: $450,000 EBITDA: N/A Real Estate: N/A LLUTS Car Wash in High Trafic Area, Car Wash in High Trafic Area, Stable Earning Asking price $450,000. EBITDA $472,238."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "36",
+        "name": "Listing / Offering - 2101 Jefferson Davis Hwy, Fredericksburg, VA",
+        "location": "2101 Jefferson Davis Hwy, Fredericksburg, VA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "29,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Ren\u00e9aPRate: $18.28 /SFiYear Traffic Count: 29,000 used as car wash facility. Large sign directly next fo route 1 on property. Available now. MUST MAKE CESTZOTA LoopNet - 2101 Jefferson Davis Hwy, Vehicle Related, 2101 Jefferson Davis Hwy, Fredericksburg, VA T..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "38",
+        "name": "\u201cSparkles Car Wash",
+        "location": "159 Maple Avenue West, Vienna, VA 22180",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$450,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Sparkles Car Wash $450,000 __ rsentatby \u201cSparkles Car Wash 159 Maple Avenue West, Vienna, VA 22180 2,000 SF | Retall Revenue $450,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "40",
+        "name": "12/11/13 Ride Through Car Wash - 23960: Business For Sale in Iredell County, North Ca...",
+        "location": "Iredell County, NC",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$390,000",
+        "ebitda": "$500,000",
+        "note": "Asking Price: $390,000 EBITDA : N/A Real Estate: N/A Ride thru car wash on busy road close to a number of businesses....numbers are projections Ride Through Car Wash - 23960 Asking price $390,000. EBITDA $500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "44",
+        "name": "Listing / Offering - 2015 on SCCMLS 10016 DORCHESTER RD 10016 DORCHESTER RD, Summervi...",
+        "location": "2015 on SCCMLS 10016 DORCHESTER RD 10016 DORCHESTER RD, Summerville, SC 29485",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$225,000",
+        "ebitda": "",
+        "note": "Property is a non working Car Wash located on Dorchester Road between Old Trolley and Ladson Roads. The Car Wash is between a Wendy's and AmFlag Convenience Store. There Gross Land Area: 0.21 Acres Asking price $225,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "45",
+        "name": "12/10/2015 LoopNet - 910 Pendleton St, Commercial/Other (land), Greenville, SC",
+        "location": "900 Presented by Rich Wong 910 Pendleton St, Greenville, SC 29601",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$849,900",
+        "ebitda": "",
+        "note": "910 Pendleton St, Greenville, SC 29601 0.73 AC | Land | Get Financing http:\u2018Avww. loopnet.com/xNet/MainSite/Listing/Profile/Profile.aspx?LID=19550778&SRID=661028247 1&StepID=101 V2 Price: $849,900 Property Sub-type: Commercial/Other (land) Asking price $849,9..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "46",
+        "name": "Great cash flow - Full Service Car Wash -",
+        "location": "Bluffton Area Bluffton, SC",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$595,000",
+        "ebitda": "$305,000",
+        "note": "Asking Price: $595,000 EBITDA: Rare opportunity to acquire this established full service Car Wash with strong Great cash flow - Full Service Car Wash - Asking price $595,000. EBITDA $305,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "47",
+        "name": "Cole's Full Service Car Wash",
+        "location": "3436 Clemson Blvd., Anderson, SC 29621",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "32,000",
+        "revenue": "",
+        "asking_price": "$875,000",
+        "ebitda": "",
+        "note": "LoopNet - Cole's Full Service Car Wash, Service/Gas Station, 3436 Clemson Blvd., Anderson, SC Price/SF: $180.52 APN / Parcel ID: 1212202006000 One of Two Total Full-Service Car Wash Locations in Anderson Asking price $875,000. Traffic 32,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "48",
+        "name": "Car Wash - Myrtle Beach $695,000 \u2014\u2014Carotinacommercat eal estat te",
+        "location": "Myrtle Beach, SC 29577",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$695,000",
+        "ebitda": "",
+        "note": "Car Wash - Myrtle Beach $695,000 \u2014\u2014Carotinacommercat eal estat te of the Grand Strand, this Award Winning Car Wash, Mobil One Lube Center, Detail Shop, and Retail Accessory maintenance at this full service facility is second to nonel Price at $695,000 te move..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "50",
+        "name": "1/17/2014 Express Exterlor Car Wash: Business For Sale in Charleston County, South Ca...",
+        "location": "Charleston County, SC",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$250,000",
+        "ebitda": "",
+        "note": "Asking Price: $250,000 EBITDA: N/A Real Estate: N/A 1/17/2014 Express Exterlor Car Wash: Business For Sale in Charleston County, South Carolina, United States on BizBuySell.com Great opportunity for a cheap price. This is an express exterior car wash with a h..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "55",
+        "name": "For Sale For Lease",
+        "location": "Gary, IN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$450,000",
+        "ebitda": "",
+        "note": "Property has a 100 foot drive-thru car wash along the full length of the facility and four additional bays with http:/Amww.loopnet.convxNet/M ainSite/Listing /Profile/Profile.aspx?LID= 18676862&SRID=4393514762&StepID = 101&LinkC ode=20280 1/3 Price: $450,000..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "56",
+        "name": "Car Wash sells $120,000 a year: Business For Sale in Elkhart, Elkhart County, Indiana...",
+        "location": "Elkhart, IN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$95,000",
+        "ebitda": "$185,000",
+        "note": "Car Wash sells $120,000 a year: Business For Sale in Elkhart, Elkhart County, Indiana, United States on BizBuySell.com Car Wash sells $120,000 a year Asking Price: $95,000 EBITDA: $185,000 Asking price $95,000. EBITDA $185,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "57",
+        "name": "Listing / Offering - Mishawaka, IN 46544",
+        "location": "Mishawaka, IN 46544",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$849,000",
+        "ebitda": "",
+        "note": "Here is chance to own a car wash on a prime location. Located on the comer of Lincolnway East and Bittersweet. 4506 Lincolnway East, Mishawaka, IN 46544 Price\u201d $849,000 Property Use Type: Asking price $849,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "59",
+        "name": "12/8/13 LoopNet - 2454 US Hwy30, Service/Gas Station, 2454 US Hwy 30, Valparaiso, IN",
+        "location": "2454 US Hwy 30, Valparaiso, IN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "27,000",
+        "revenue": "",
+        "asking_price": "$699,900",
+        "ebitda": "",
+        "note": "system. [talso contains a built-In detail area with space to expand. Traffic counts are In excess of 27,000 vehicles service car wash has everything including vacuums, accessories & a comprehensive automated operating This is an Available, Turn Key Car Wash o..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "62",
+        "name": "Sale Price: $80,000 Car Wash For Sale. Would need work to building and equipment to r...",
+        "location": "917 East Tallmadge Ave Akron, OH 44310",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$80,000",
+        "ebitda": "",
+        "note": "Sale Price: $80,000 Car Wash For Sale. Would need work to building and equipment to reopen as a car Years Built: 1969 Building Size: 1,749 SF Asking price $80,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "65",
+        "name": "412112014 LoopNet - Mr. Goodwash Car Wash, Vehicle Related, 3820 Sullivant Avenue, Co...",
+        "location": "3820 Sullivant Avenue, Columbus, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$645,000",
+        "ebitda": "",
+        "note": "412112014 LoopNet - Mr. Goodwash Car Wash, Vehicle Related, 3820 Sullivant Avenue, Columbus, OH Mr. Goodwash Car Wash $645,000 Fully Automated free-standing tunnel car wash offering full detailing services. Price Includes all F.F, &E Asking price $645,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "68",
+        "name": "Car Wash / Redevelopment",
+        "location": "441 West Ave., Tallmadge, OH 44278",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$489,000.00",
+        "ebitda": "",
+        "note": "This car wash facility has been a successful business for many years. Good Car Wash / Redevelopment -Car Wash Entry Door: 16'W x 8'H / Exit Door: 10'W x 8'H Asking price $489,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "69",
+        "name": "Commercial /",
+        "location": "441 West Ave. Tallmadge, OH 44278",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$489,000",
+        "ebitda": "",
+        "note": "\u00b0 Acres; 0.92.7\" = \u201ce, Price PSF: $73.86 a \u00a2 Sale Price: $489,000 . Asking price $489,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "71",
+        "name": "Loveland Carwash",
+        "location": "1555 Loveland-Maderia Rd., Loveland, OH 45140",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$899,000",
+        "ebitda": "",
+        "note": "hands on instruction, A reliable 4 year employee has expressed interest in staying with the carwash. Sperry Van Ness is proud to present the Loveland Car Wash for sale. The heavy lifting has been done and this car wash is perfectly positioned for Loveland Car..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "82",
+        "name": "SG101- 1089 Cincinnati Winford Car Wash",
+        "location": "Hamilton, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$680,000",
+        "ebitda": "",
+        "note": "Asking Price: ' $680,000 , oe \u201cReal Estate: N/A SG101-1089 Cincinnati Winford Car Wash Business and property for sale. SG101- 1089 Cincinnati Winford Car Wash Asking price $680,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "87",
+        "name": "42/113 Full Service Car Wash, Established over 50 years ina prime areal!: Business Fo...",
+        "location": "SEL East Suburb, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$595,000",
+        "ebitda": "$100,000",
+        "note": "Asking Price: ($595,000 EBITDA : $100,000 Real Estate: N/A you have undoubtedly been here many times. It has a reputation for being a premier car wash, foot frontage. The car wash itself occupies 4946 square feet and is Asking price $595,000. EBITDA $100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "111",
+        "name": "4/26/2015 Full Service Tunnel Car Wash w/Real Estate 1848KKBC: Business For Sale in S...",
+        "location": "Estate St. Charles County, MO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$700,000",
+        "ebitda": "$191,590",
+        "note": "Asking Price: $700,000 EBITDA: N/A Real Estate: N/A 4/26/2015 Full Service Tunnel Car Wash w/Real Estate 1848KKBC: Business For Sale in St. Charles County, Saint Charles County, Missouri, United States on Bi... Gross Income: $191,590 FF&E: $350,000 Establishe..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "116",
+        "name": "Freestanding Tunnel Car Wash Property bitisiting, oper",
+        "location": "11618 Bellaire Ave Ext. 2707 Commercial F Cleveland, OH 44111",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$475,000",
+        "ebitda": "",
+        "note": "Excellent Opportunity consisting of 2,400 Sq.Ft. Freestanding Tunnel Car Wash Building located on .3030 Acres. Great Ir as Car Wash, also ideal for conversion to Drive Thru Beverage. Building contains two service detail bays and tunnel wast Lot Size: 0.30 Acr..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "127",
+        "name": "11/2413 LoopNet - PRESTIGE CAR WASH, Vehicle Related, 5206 Dixie Hwy, Louisville, KY",
+        "location": "5206 Dixie Hwy, Louisville, KY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "63,006",
+        "revenue": "",
+        "asking_price": "$689,900",
+        "ebitda": "",
+        "note": "11/2413 LoopNet - PRESTIGE CAR WASH, Vehicle Related, 5206 Dixie Hwy, Louisville, KY Propertyis located on Dixie Highway, which is a major thoroughfare in Louisville, KY, with a traffic count of over PRESTIGE CAR WASH ditivaroy mosonted by f\u00a2 Sperry Van Ness..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "128",
+        "name": "19/24/13 LoopNet - Gator Tunnel Wash - SHORT SALE, Retail (Other), 7800 South 1377 We...",
+        "location": "West Jordan, UT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,100,000",
+        "ebitda": "",
+        "note": "Short sale on 1 acre. Tumkey tunnel car wash. 135 foct long tunnel. 7 vacuums stations. Sits owns a water well, Map of 7800 South 1377 West, West Jordan, UT 84084 (Salt Lake County) Hide Map 4306 South Redwo... 7800 South 1377 West, West Jordan, UT 84084 COMM..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "130",
+        "name": "11/2413 LoopNet - Price Reduced FlexService Carwash and Detail Shop, Vehicle Related...",
+        "location": "5380 S. Parker Road, Aurora, co",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$995,000",
+        "ebitda": "",
+        "note": "11/2413 LoopNet - Price Reduced FlexService Carwash and Detail Shop, Vehicle Related, 5380 S. Parker Road, Aurora, co Full Service Car Wash and Full Service Detailing Good Quality Equipment, Well Maintained Facilities % $1,399,000 Flex Service Carwash and Det..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "136",
+        "name": "A123 LoopNet - PRESTIGE CAR WASH, Vehicle Related, 5206 Dixie Hwy, Louisville, KY",
+        "location": "5206 Dixie Hwy, Louisville, KY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "63,000",
+        "revenue": "",
+        "asking_price": "$689,900",
+        "ebitda": "",
+        "note": "A123 LoopNet - PRESTIGE CAR WASH, Vehicle Related, 5206 Dixie Hwy, Louisville, KY | .89 ACRES ON HAV... Propertyls located on Dixie Highway, which Is a major thoroughfare In Loutsville, KY, with a traffic count of over Asking price $689,900. Traffic 63,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "146",
+        "name": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area...",
+        "location": "10000 Abercorn Hurricane Bay Car Wash 10000 Abercorn Street, Savannah, GA 31406",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$881,250",
+        "ebitda": "",
+        "note": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area. 22 vacuum stations, 4 10000 Abercorn Street, Savannah, GA 31406 Price: $881,250 Asking price $881,250."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "147",
+        "name": "127/13 LoopNet - 7873 Kingland Drive, Free Standing Bldg, 7873 Kingland Drive, West C...",
+        "location": "7873 Kingland Drive, West Chester, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$625,000",
+        "ebitda": "",
+        "note": "5,198 SF on .7626 acres. Former full senice car wash. Turn key and ready for opening. 7873 Kingland Drive, West Chester, OH 45069 5,198 SF | Retail Asking price $625,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "148",
+        "name": "12/13/13 LoopNet - spee D xperess Iube, Special Purpose (Other), 808 s. alma school r...",
+        "location": "808 s. alma school rd, Mesa, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$5,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "120 feet car wash tunnel with exterior vacuum area , detail area , huge lobby for customers waiting area , office 12/13/13 LoopNet - spee D xperess Iube, Special Purpose (Other), 808 s. alma school rd, Mesa, AZ spee D xperess lube $5,000 /Month Rear ick Provi..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "149",
+        "name": "GOOD MONEY MAKING AUTO CAR WASH. FULL SERVICE WITH COMPLETE DETAILING, LOCATED IN ABU...",
+        "location": "14820 FORT ST, SOUTHGATE, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$525,000",
+        "ebitda": "",
+        "note": "GOOD MONEY MAKING AUTO CAR WASH. FULL SERVICE WITH COMPLETE DETAILING, LOCATED IN ABUSY 14820 FORT ST, SOUTHGATE, MI 48195 COMMERCIAL 11/28/13 LoopNet - 14820 FORT ST, Retail (Other), 14820 FORT ST, SOUTHGATE, MI Asking price $525,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "154",
+        "name": "CUSHMAN & SIGNATURE ASSOCIATES",
+        "location": "Grand Rapids, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$9,173",
+        "ebitda": "",
+        "note": "Comments: Newer car wash for sale, great condition. = e/ Year Built: 2007 Total Building Sq. Ft.: 2,885 Property Type: N/A Asking price $9,173."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "156",
+        "name": "LoopNet - Flint Car Wash For Sale, Special Purpose (Other), 950 W. Hemphill, Flint, MI",
+        "location": "80 AC US-23 and Hill Roa... Filnt, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$77.78",
+        "ebitda": "",
+        "note": "LoopNet - Flint Car Wash For Sale, Special Purpose (Other), 950 W. Hemphill, Flint, MI car wash in located In the middle of both retail/general businesses and residential subdhisions and 1 mile from For Sale - Nostalgic Flint car wash as seen In the Hollywood..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "159",
+        "name": "2/14/2014 LoopNet - Xtreme Clean Car Wash, Vehicle Related, 5950 W Alameda Ave, Lakew...",
+        "location": "5950 W Alameda Ave, Lakewood, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$700,000",
+        "ebitda": "",
+        "note": "2/14/2014 LoopNet - Xtreme Clean Car Wash, Vehicle Related, 5950 W Alameda Ave, Lakewood, CO Xtreme Clean Car Wash $700,000 veeneteae Commercial Group Xtreme Clean Car Wash Asking price $700,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "169",
+        "name": "LoopNet Splish Splash Car Wash, |",
+        "location": "000 eerie 23 South 59th Street, Belleville, IL 62223",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$681,000",
+        "asking_price": "$681,000",
+        "ebitda": "",
+        "note": "Splish Splash Car Wash $681,000 eerie car wash stations, McNeill Wash System serves the tunnel car wash and Coleman operated self senice stations LoopNet Splish Splash Car Wash, | Asking price $681,000. Revenue $681,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "175",
+        "name": "Listing / Offering - Marion, OH",
+        "location": "Marion, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$680,000",
+        "ebitda": "",
+        "note": "automatic car wash and 2 single family dwellings. Seller may consider including a cell tower lease in the sale at Map of 1319 Mt. Vernon, Marion, OH 43302 (Marion County) 1319 Mt. Vernon, Marion, OH 43302 Asking price $680,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "178",
+        "name": "11/2813 + LoopNet - Larch - 812 (Car Wash), Vehicle Related, 812 N. Larch, Lansing, MI",
+        "location": "Lansing, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$169,000",
+        "ebitda": "",
+        "note": "11/2813 + LoopNet - Larch - 812 (Car Wash), Vehicle Related, 812 N. Larch, Lansing, MI Larch - 812 (Car Wash) atifroncina i ee Price: $169,000 Request Additional Information Asking price $169,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "183",
+        "name": "2/25/2014 LoopNet - 4115 E Morgan Avenue, Vehicle Related, 4115 E Morgan Avenue, Evan...",
+        "location": "4115 E Morgan Avenue, Evansville, IN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$400,000",
+        "ebitda": "",
+        "note": "| 4115 E Morgan Avenue, Evansville, IN 47715 4,000 SF | Retail Previous Car Wash 4000 Sq ft of usable space, Concrete Block Building with lot size 82x270. Has Heated 2/25/2014 LoopNet - 4115 E Morgan Avenue, Vehicle Related, 4115 E Morgan Avenue, Evansville..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "185",
+        "name": "4 Car Wash 5466 E.L....",
+        "location": "000 Aer rprada flea Estat 3986 Indianola Avenue, Columbus, OH 43201",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$450,000",
+        "ebitda": "",
+        "note": "Price: $450,000 Property Use Type: VacantOwner-User Car Wash 2322 Stel... Established profitable tunnel car wash since 1972 4 Car Wash 5466 E.L.... Asking price $450,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "189",
+        "name": "Ready to occupy with some renovation. A built-in retail traffic from Sparkle Brite Ca...",
+        "location": "624 Emory Drive, Owensboro, KY 42301",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$195,700",
+        "ebitda": "",
+        "note": "Ready to occupy with some renovation. A built-in retail traffic from Sparkle Brite Car Wash and Wesleyan Park 624 Emory Drive, Owensboro, KY 42301 2,880 SF | Retail Price: $195,700 Property Use Type: Vacant/Owner-User Asking price $195,700."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "191",
+        "name": "2/5/2014 LoopNet - Crystal Clean Car Wash, Retail (Other), 16002 Main St, Hesperia, CA",
+        "location": "16002 Main St, Hesperia, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$979,500",
+        "ebitda": "",
+        "note": "2/5/2014 LoopNet - Crystal Clean Car Wash, Retail (Other), 16002 Main St, Hesperia, CA The car wash sences over 2,000 cars per month. There Is a convenience store available for Immediate Crystal Clean Car Wash $979,500 = Fiseeatty, ne Asking price $979,500."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "195",
+        "name": "Mr. Goodwash Car Wash $645,000 Capitol Equities Realty",
+        "location": "000 Capitol Equities Realty 3820 Sullivant Avenue, Columbus, OH 43228",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$645,000",
+        "ebitda": "",
+        "note": "Mr. Goodwash Car Wash $645,000 Capitol Equities Realty Fully Automated free-standing tunnel car wash offering full detailing services. Price includes all F.F. & E 3820 Sullivant Avenue, Columbus, OH 43228 3,190 SF | Retail Asking price $645,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "196",
+        "name": "#1 in Commercial Real Estate Online",
+        "location": "10000 Abercorn Hurricane Bay Car Wash 10000 Abercom Street, Savannah, GA 31406",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$881,250",
+        "ebitda": "",
+        "note": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area. 22 vacuum stations, 4 10000 Abercom Street, Savannah, GA 31406 PricelSF: $252.65 Year Built: 2008 Asking price $881,250."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "198",
+        "name": "4/21/2014 LoopNet - Car Wash, Vehicle Related, 1060 E. Main St, Mesa, AZ",
+        "location": "1060 E. Main St, Mesa, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$59,000",
+        "ebitda": "",
+        "note": "4/21/2014 LoopNet - Car Wash, Vehicle Related, 1060 E. Main St, Mesa, AZ Car Wash $59,000 Pro Smart Realty Car Wash For Sale..Business Only Asking price $59,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "200",
+        "name": "LoopNet - LENDER OWNED AUTOMATIC CAR WASH, Vehicle Related, 7 LW Besinger Dr, Carpent...",
+        "location": "7 LW Besinger Dr, Carpentersville, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "27,000",
+        "revenue": "",
+        "asking_price": "$499,000",
+        "ebitda": "",
+        "note": "LoopNet - LENDER OWNED AUTOMATIC CAR WASH, Vehicle Related, 7 LW Besinger Dr, Carpentersville, IL d just off J.F. Kennedy Memorial Drive/Rouse 25 with traffic counts exceeding 27,000 vehicles per day. ER OWNED AUTOMATIC CAR WASH. +/- 2,700 SF building with au..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "201",
+        "name": "LoopNet - Big Green Machine Car Wash, Vehicle Related, 8409 Bedford Euless Road, Hurs...",
+        "location": "8409 Bedford Euless Road, Hurst, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,500,000",
+        "ebitda": "",
+        "note": "LoopNet - Big Green Machine Car Wash, Vehicle Related, 8409 Bedford Euless Road, Hurst, TX Big Green Machine Car Wash 100 - Foot Tunnel with 125 - Foot ConveyourOversized Lot with excess land behind the car wash site that could be Asking price $1,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "202",
+        "name": "1203 Conveyor Exterior Car Wash - Just South of Midway Airport: Business For Sale in...",
+        "location": "Midway Airport Chicago, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$410,000",
+        "ebitda": "$225,000",
+        "note": "Asking Price: $410,000 EBITDA : N/A Real Estate: N/A leading trend in the fast growing car wash industry?? Real Estate: Included in asking price Asking price $410,000. EBITDA $225,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "203",
+        "name": "Rocket Car Wash",
+        "location": "515 E Lexington Ave, Elkhart, IN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$480,000",
+        "ebitda": "",
+        "note": "Rocket Car Wash ls an Icanie full service cat wash which hes been Ia continuous eperation for over $8 years end the current owner has operated it since 2608. This full service car wash speclatizes In exterior cleaning, waxing ond hand. great opportunity for a..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "204",
+        "name": "This is on existing car wash, bul also could be removed and be on excellent location...",
+        "location": "2573 WI Roosevelt Blvd., Monroe, NC",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$800,000,",
+        "ebitda": "",
+        "note": "This is on existing car wash, bul also could be removed and be on excellent location for food, any type of retail. Monroe Market Trends - Asking price index trends, sale price trends, asking rent trends 2573 WI Roosevelt Blvd., Monroe, NC, 28110 - Neighborhoo..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "206",
+        "name": "Squeaky Express Car Wash (Indp)",
+        "location": "1337 S Noland Rd Independence, MO 64055",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$550,000",
+        "asking_price": "$550,000",
+        "ebitda": "",
+        "note": "Asking Price $550,000 traffic counts and the wash is well known in the Squeaky Express Car Wash (Indp) Asking price $550,000. Revenue $550,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "8",
+        "name": "OPERATING CAR WASH",
+        "location": "Veterans Memorial Highway Mableton, GA 30136",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "OPERATING CAR WASH Express Car Wash with Emissions"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "22",
+        "name": "Store With Shell Gas And Car Wash",
+        "location": "Wilmington, DE",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Store With Shell Gas And Car Wash *not included in asking price."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "23",
+        "name": "Connecting Commercial Real Estate\u2122",
+        "location": "6210 Holabird Ave, Baltimore, MD",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "7118/2014 LoopNet - 6206 - 6210 Holabird Ave, Service/Gas Station, 6206 - 6210 Holabird Ave, Baltimore, MD 6206 - 6210 Holabird Ave, Baltimore, MD 21224 1,500 SF | Retail | Get Financing Commercial Real Estata Services, Wokdmde, 5 Acres - Tower Po..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "34",
+        "name": "LoopNet - Fully Operational Car Wash Facility, Street Retail, 17651 Main Street, Dumf...",
+        "location": "17651 Main Street, Dumfries, VA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "industry. Considered to be the #1 Car Wash System in North America. This car wash equipments designed with LoopNet - Fully Operational Car Wash Facility, Street Retail, 17651 Main Street, Dumfries, VA with a 2,080 square foot brick building encompassing the c..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "35",
+        "name": "2101 Jefferson Davis Hwy",
+        "location": "2101 Jefferson Davis Hwy 2101 Jefferson Davis Hwy, Fredericksburg, VA 22401",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LoopNet - 21071 Jetierson Daws Mwy, Venicie neiaiea, 2101 Jerierson Daus Mwy, Fredericksburg, VA 2101 Jefferson Davis Hwy, Fredericksburg, VA 22401 | 5,000 - 10,075 SF"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "43",
+        "name": "Connecting Commercial Real Estate\u2122* Mobile I Become a free member j Log In",
+        "location": "10016 Dorchester Rd, Summerville, SC 29485",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "10016 Dorchester Rd, Summerville, SC 29485 Retail i"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "53",
+        "name": "Zoned C-4 Commercial, this former car wash has three 10'x 10' overhead door. A484 squ...",
+        "location": "Topeka, KS",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zoned C-4 Commercial, this former car wash has three 10'x 10' overhead door. A484 square foot office of the htipvwww.loopnet.convxNel/MainSite/Listing/Profile/Profile.aspx?LID= 18274 166&SRID=4577867643&StepID = 101&LinkCode=20280 Space 1 Space Available: 3,4..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "54",
+        "name": "7/3/2014 LoopNet - 110 SW 29th Street, Retail (Other), Topeka, KS",
+        "location": "110 SW 29th Street 110 SW 23th Street, Topeka, KS 66611",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "110 SW 23th Street, Topeka, KS 66611 http:/Awww.loopnet.comyxNet/MainSite/Listing /Profile/Profile.aspx?LID = 18274166&SRID=45778676438StepID = 101&LinkC ode=20280 7/3/2014 LoopNet - 110 SW 29th Street, Retail (Other), Topeka, KS"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "58",
+        "name": "Carwash $350,000",
+        "location": "1421 w 11th ave, Gary, IN 46402",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Carwash $350,000 This car wash has been in operation for 49 years with great success. The Owner is ready to retire. The property MAKE AN OFFER - THIS IS THE ONLY FULL SERVICE CAR WASH IN THE AREA! An opportunity of a life time!"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "75",
+        "name": "SG101- 1117 Columbus Sullivant Car Wash",
+        "location": "Property Columbus, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "SG101- 1117 Columbus Sullivant Car Wash Asking Price: $Gi01-1117 Columbus Sullivan Car Wash Business and Property for sale."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "79",
+        "name": "Car wash for sale on",
+        "location": "6560 Winford Avenue NORTHIRIDGE Fairfield Twp, OH 45011",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car wash for sale on - Automatic car wash e 4,415 SF under roof"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "84",
+        "name": "TESILOTE LoopNet - 4410 Roberts Road, Flex Space, Columbus, OH",
+        "location": "500 Next Result 4410 Roberts Road S12 /SF/Year Presence wy",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4410 Roberts Road, Columbus, OH 43228 1,500 SF | Industrial 4410 Roberts Road S12 /SF/Year Presence wy hitp:/wwazoopnet.comhNetfMainSitelListing/ProfilefProfile aspxeLID = 176629278SRID=457 785658 18StepID= 1018LinkCode=20280 414"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "86",
+        "name": "4/10/2015 25715 Lorain Road, North Olmsted, OH, 44070 - Retail (Other) Property - Off...",
+        "location": "25715 Lorain Road, North Olmsted, OH",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4/10/2015 25715 Lorain Road, North Olmsted, OH, 44070 - Retail (Other) Property - Off-Market on LoopNet.com 25715 Lorain Road, North Olmsted, OH 44070 3,497 SF | Retail"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "88",
+        "name": "Business Opportunity For Sale including Real Estate. Well established and very succes...",
+        "location": "1636-52 W. Tilghman Street, Allentown, PA 18104",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "carwash and 4,000 SF cutomotive showroom. Situated in desirable West End Allentown. Lot is +/-.88 acres and includes 5,400 SF operating Business Opportunity For Sale including Real Estate. Well established and very successful carwash"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "89",
+        "name": "Listing / Offering - 1636-52 W. Tilghman Street, Allentown, PA 18104",
+        "location": "1636-52 W. Tilghman Street, Allentown, PA 18104",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Carwash/Auto Dealer FOR 9,400 SF | Retail |Got Financing * \"1 @ 1636-52 W. Tilghman Street, Allentown, PA 18104 t"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "112",
+        "name": "LoopNet - 3 Lots for Lease or Sale Manchhester Rd, Retail (land), 15552 Manchester Rd...",
+        "location": "15552 Manchester Rd, Ballwin, MO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1.84 acre parcel with a 5,286 SF former car wash 15562 Manchester is a 0.45 acre parcel with a 3,440 SF Thrae parcels for Sale or Lease. Maybe sold together for a total of 2.88 acres or divided. 15552 Manchester is a LoopNet - 3 Lots for Lease or Sale Manchhe..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "121",
+        "name": "11/28/13 LoopNet - Zax Auto Wash, Senice/Gas Station, 941 S. Opdyte, Auburn Hills, MI",
+        "location": "Auburn Hills, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2018State Of The Art Conveyor Car Wash locatsd In the heart of Oakland County. 941 S. Opdyke, Aubum Hills, MI 48326 commence 11/28/13 LoopNet - Zax Auto Wash, Senice/Gas Station, 941 S. Opdyte, Auburn Hills, MI"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "132",
+        "name": "1S LoopNet - 3456 Highland Rd, Vehicle Related, 3456 Highland Rd, Waterford, MI",
+        "location": "3456 Highland Rd, Waterford, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1S LoopNet - 3456 Highland Rd, Vehicle Related, 3456 Highland Rd, Waterford, MI Year Built: 2004 Building Size: 3,300 SF"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "138",
+        "name": "10/30/13 LoopNet - High Profile Current Car Wash on Broadway Bld, Vehicle Related, 46...",
+        "location": "4600 E Broadway Blvd, Tucson, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "10/30/13 LoopNet - High Profile Current Car Wash on Broadway Bld, Vehicle Related, 4600 E Broadway Blvd, Tucson, AZ and the car wash tunnel. This high-profile car wash facilityis located in the heart of central Tucson. Itis in close proximity to major"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "155",
+        "name": "For Lease:Gas Station/C-Store/Pizza/subs105' Soft Cloth Auto Wash - $5000 (1031 S. La...",
+        "location": "1031 S. Lapeer Rd wail Oxford Mi",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "$5000 (1031 S. Lapeer Rd wail Oxford Mi.) C-Store, 11 door extra large walk in cooler, Large fountain island, 2 cappuccino,2 slush machines, all intersection with traffic light Northbound Drive home traffic, Clawson double wall Perma Tanks 20,000"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "157",
+        "name": "Car Wash & Lube Center Price Not Disclosed Rowell Auctions",
+        "location": "41608 Hwy 19 S, Leesburg, GA 31763",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash & Lube Center Price Not Disclosed Rowell Auctions 41608 Hwy 19 S, Leesburg, GA 31763 8,439 SF | Retail 201 Boo's Drive, Tifton, GA 31793"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "160",
+        "name": "1. (You Pay) Water - average bill $ 149.00 Paid every TWO (2) MONTHS / or $75 2 month)",
+        "location": "102 S. Garden St. Ventura, Ca",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u00ae Location: 102 S. Garden St. Ventura, Ca. bitp/Wentura.craigstst.org/bis/4281061 490.huni Page 2012 5. No Gas available or needed. $0.00"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "170",
+        "name": "2/10/2014 LoopNet - Car Wash: Full Serve Tunnel, Vehicle Related, 1241-1247 East New...",
+        "location": "1241-1247 East New York Street, Aurora, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2/10/2014 LoopNet - Car Wash: Full Serve Tunnel, Vehicle Related, 1241-1247 East New York Street, Aurora, IL Car Wash: Full Serve Tunnel $499,000 Car Wash Brokers of liinote, LLC 1241-1247 East New York Street, Aurora, IL 60505 6,528 SF | Retail"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "171",
+        "name": "LoopNet - Car Wash Opportunity,",
+        "location": "4130 S. Western Ave. Chicago, IL 60609",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LoopNet - Car Wash Opportunity, Car Wash Opportunity /! Car Wash Opportunity - Click to Enlarge (2 MB) Find Out More..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "173",
+        "name": "Car Wash & Auto Repair Garage",
+        "location": "4 of500 Next Result 3 Hampton Drive, Londonderry, NH 03053",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash & Auto Repair Garage Car Wash & Auto Repair Garage 3 Hampton Drive consists of a 1.075+ acre lot with two detached buildings. The first structure is a car wash tunnel"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "194",
+        "name": "4/12/2014 LoopNet - AUCTION -255+/- Properties in 90+/- Offerings, Service/Gas Statio...",
+        "location": "450 Westfork Blvd, Lithia Springs, GA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Senice & Car Wash Facility & Excess Commercial Land on 3,15+/- Acres, selling with a reserve, 4/12/2014 LoopNet - AUCTION -255+/- Properties in 90+/- Offerings, Service/Gas Station, 450 Westfork Blvd, Lithia Springs, GA Sale Site: Holiday Inn - Atlanta Perime..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "1",
+        "name": "WashBarn - Operating Car Wash .",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "and the traffic count is approximately 20,000:vehicles per day. The property has excellent access, with.an- ventr od on ; WashBarn - Operating Car Wash . This operating Express Car wash with emissia ns testing is located at the intersection of. Veteran\u2019 S$ \u2018M..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "20",
+        "name": "4/29/2015 Full Service Car Wash: Business For Sale in Delaware, United States on BizB...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,450,000",
+        "ebitda": "$870,000",
+        "note": "Asking Price: $1,450,000 EBITDA: N/A Real Estate: N/A 4/29/2015 Full Service Car Wash: Business For Sale in Delaware, United States on BizBuySell.com Well established and very profitable full service car wash. Turnkey operation. If interested in Asking price..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "52",
+        "name": "Full Service Car Wash with Real Estate",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "50,000",
+        "revenue": "",
+        "asking_price": "$525,000",
+        "ebitda": "$65,000.00",
+        "note": "Full Service Car Wash on high traffic road in Columbia. Daily traffic count of 50,000! EBITDA: $65,000.00 Asking Price: $525,000 Asking price $525,000. Traffic 50,000. EBITDA $65,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "72",
+        "name": "Facilities: Real Estate is Included in the asking price. The Car Wash",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "2013",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "with great traffic counts. Real Estate Taxes for 2013 were only $6,278. Automated Car Wash Single Tunnel with Three facility is 3,190 sq ft and sits on 0.525 Acres (20,250 sq ft) Traffic 2013."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "73",
+        "name": "Full Service Auto Car Wash Real Estate",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$499,900",
+        "ebitda": "$260,000",
+        "note": "Asking Price: $499,900. \u2018EBITDA: N/A RealEstate: $260,000 Only Full Service Automated Car Wash on West side. Has been in business since Full Service Auto Car Wash Real Estate Asking price $499,900. EBITDA $260,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "76",
+        "name": "Business Type: Car Wash Lazer Automatic",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,100,000",
+        "asking_price": "$500,000",
+        "ebitda": "",
+        "note": "$500,000 for business and property and equipment. $1,100,000 yearly sales. Car wash is in a great location on a major rd, Profitable and low maintenance. Newer Listing Title: SG101-1088 Dayton Springfield Automatic and coin car wash for Sale Business/Listing..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "77",
+        "name": "Bustness Type: Car Wash Lazer Automatic",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$680,000",
+        "ebitda": "",
+        "note": "$680,000 for business property and equipment. 1,100,000 yearly sales. Car wash isin a great location on a major rd. Profitable and low maintenance. Newer ListIng Title: SG101-1089 Cincinnatt Winford Car Wash Business and property for sale Bustness Type: Car W..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "78",
+        "name": "Business Type: Car Wash tunnel Full Service",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,200,000",
+        "ebitda": "",
+        "note": "$1,200,000 for business, equipment and property. Very busy car wash with more than 48,000 cars cleaned In 2014. and 4300 Car detalls. Business has been retiring. Located ona major street in an affluent area of Columbus, Ohio with very high traffic count. Lots..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "122",
+        "name": "Single Bay Automated Car Wash with Istobal M18 Equipment",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "23,859",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Traffic Count: 23,859 (Tylersville); Population: 57,003 (3 mile); Income: $108,560 (3 Mile) This SpeedE Car Wash is at the intersection of Reading and Tylersville Road in the affluent Single Bay Automated Car Wash with Istobal M18 Equipment Traffic 23,859."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "134",
+        "name": "ATA Automated Car Wash - Ken's Car Wash @ Kroger: Business For Sale in 0...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$840,000",
+        "ebitda": "",
+        "note": "Asking Price: $840,000 Facilities: Single Bay Automated Car Wash with Istobal M18 Equipment; Four (4) Vacuum stations; Automated Car Wash - Ken's Car Wash @ Kroger Asking price $840,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "137",
+        "name": "4/23/2011 Car Wash & Property - business for sal...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,000",
+        "ebitda": "",
+        "note": "Asking Price @} Not Disclosed Inventory @ $2,000 Ta un mci mi buaas'Tor 4/23/2011 Car Wash & Property - business for sal... newly built ultra modem car wash with state of the art design representing fixed asset View the broker's web site Asking price $2,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "139",
+        "name": "Active Car Wash for sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "25,000",
+        "revenue": "",
+        "asking_price": "$190,000",
+        "ebitda": "",
+        "note": "Facilities: The car wash Is located on a corner lot and the facility is 3,500 sqft . 80 ft Asking Price @ $190,000 Inventory GF $1,000\" 7 @ major thoroughfare with traffic counts exceeding 25,000 cars per day. Neighborhood car Asking price $190,000. Traffic 2..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "140",
+        "name": "The Ultimate Carwash - Business for Sale at Gannett",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$850,000",
+        "ebitda": "",
+        "note": "Asking Price @) $850,000 Inventory @ \u2014 $3,500* sources of income. Automatic FLEX service car wash The Ultimate Carwash - Business for Sale at Gannett Asking price $850,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20260603_0005.txt",
+        "page": "192",
+        "name": "Express Exterior Car Wash",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$250,000",
+        "ebitda": "",
+        "note": "Asking Price: $250,000 EBITDA: N/A Real Estate: N/A Great opportunity for a cheap price. This is an express exterior car wash with a huge 160\" Express Exterior Car Wash Asking price $250,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "6",
+        "name": "6,125 SF Freestanding Carwash Facility",
+        "location": "125 SF Freestanding Carwash Facility 4175 Stone Mountain Highway, Lilburn, GA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "50,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "traffic count of 50,000 CPD on Stone Mountain Hwy at Paxton 6,125 SF Freestanding Carwash Facility 90\u00b0 Carwash Tunnel (exterior & interior wash) Traffic 50,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "41",
+        "name": "Sale Price: $1,350,000.00 .677+/- Acres",
+        "location": "2573 W. Roosevelt Blvd. 09259001D Commercial Monroe, Union County, NC",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,350,000.00",
+        "ebitda": "",
+        "note": "Sale Price: $1,350,000.00 .677+/- Acres * High visibility with high traffic count 3 i Lease Price: $8,000.00/mo W. Roosevelt Blvd. Asking price $1,350,000.00."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "42",
+        "name": "Property Is a non working Car Wash located on Dorchester Road between Old trolley and...",
+        "location": "10016 Dorchester Rd, Summerville, SC 29485",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Property Is a non working Car Wash located on Dorchester Road between Old trolley and Ladson Roads. The Car Bustling Oakbrook area of Summerville, Car Wash location is in close proximity to banks, gas stations, grocery stores, Map of 10016 Dorchester Rd, Summ..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "13",
+        "name": "20/2015 Car Wash/Lube Center Expert Detail service: Business For Sale in Palm Harbor...",
+        "location": "Palm Harbor, FL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$325,000",
+        "ebitda": "$960,000",
+        "note": "Asking Price: $325,000 EBITDA: N/A Real Estate: N/A 20/2015 Car Wash/Lube Center Expert Detail service: Business For Sale in Palm Harbor, Pinellas County, Florida, United States on BizBuySell.com Inventory: Not included in asking price Asking price $325,000..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "17",
+        "name": "Print all the details of this listing in a proper format by clicking the \u201cPrint",
+        "location": "1299 N Federal Hwy. Boca Raton, FL 33431",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,520,000",
+        "ebitda": "",
+        "note": "Excellent income producing car wash under lease to current operator. Located along the high traffic Map of 1299 N Federal Hwy, Boca Raton, FL 33431 (Palm Beach County) Hide Map 4 LoopNet - Income Producing Property in Boca Raton, Special Purpose (Other), 1299..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "131",
+        "name": "10/30/11 LoopNet - EXPRESS TUNNEL CAR WASH, Retail (Other), 10406 Belle Cre...",
+        "location": "Henderson, CO 80604",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "36,700",
+        "revenue": "",
+        "asking_price": "$1,200,000",
+        "ebitda": "",
+        "note": "Express Tunnel Car Wash Available. Bullt in 2006 with State of the Art Equipment. The property enjoys high Express Tunnel Car Wash Available Traffic Count: 36,700 VPD (2008) Link to This Listing ~ EXPRESS TUNNEL CAR WASH Asking price $1,200,000. Traffic 36,70..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "150",
+        "name": "LoopNet - Dirty Harry's Car Wash, Vehicle Related, 15777 15 Mile Road, Cli...",
+        "location": "15 Mile Road, Clinton Township, Mi 48035",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$470,000",
+        "ebitda": "",
+        "note": "LoopNet - Dirty Harry's Car Wash, Vehicle Related, 15777 15 Mile Road, Cli... Dirty Harry's Car Wash } Presented by 15777 15 Mile Road, Clinton Township, Mi 48035 |. Exclusive Broker Services, LLC. Asking price $470,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "190",
+        "name": "LoopNet - Car Wash & Quick Lube - MESA, Vehicle Related, 808 S. Alma School Rd., Mesa...",
+        "location": "808 S. Alma School Rd., Mesa, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,195,000",
+        "ebitda": "",
+        "note": "LoopNet - Car Wash & Quick Lube - MESA, Vehicle Related, 808 S. Alma School Rd., Mesa, AZ , Car Wash & Quick Lube - MESA $1,195,000 exeararcsarpes a, FLEX CAR WASH -... Asking price $1,195,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "18",
+        "name": "Summary Report",
+        "location": "470 E 9 Mile Rd, Pensacola, FL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 470 E 9 Mile Rd, Pensacola, FL 3251 All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "25",
+        "name": "The Right Site\u00ae",
+        "location": "401 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site | Site Selection Reports & Analysis 401 Haag Avenue, Bellmawr, NJ 08031 | Home Hispanic Population 146 1,000 8,000"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "26",
+        "name": "Summary Report",
+        "location": "1390 Bald Hill Rd, Warwick, RI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Selection Reports & Analysis Address: 1390 Bald Hill Rd, Warwick, RI 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "27",
+        "name": "The Right Site\u00ae",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 | White Population 3,441 80,418 179,924"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "28",
+        "name": "Summary Report",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 iz Black Population 39 1,840 2,146"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "29",
+        "name": "Summary Report",
+        "location": "67-78 River Rd, Summit, NJ 07901",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Selection Reports & Analysis Address: 67-78 River Rd, Summit, NJ 07901 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "30",
+        "name": "Summary Report",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08034",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08034 White Population 7,232 45,379 127,754"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "31",
+        "name": "Summary Report",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 http://www.easidemographics.com/cgi-bin/site.exe 11/14/2009"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "37",
+        "name": "LoopNet - 1221 Jefferson Davis, Vehicle Related, Fredericksburg, VA",
+        "location": "1 AT THE CORNER OF A VERY BUSY MAJOR ROAD, In",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "WILL BE AVAILABLE SOON, Free standing building, excetient condition Car wash with 3 bay detail shops, Office and Lobby, Is located on Route 1 AT THE CORNER OF A VERY BUSY MAJOR ROAD, In front of a newly Map of 1221 Jefferson Davis, Fredericksburg, VA 22401 (F..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "39",
+        "name": "M222015 LoopNet - SPARKLES CAR WASH, Vehicle Related, 159 Maple Avenue West, Vienna...",
+        "location": "159 Maple Avenue West, Vienna, VA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "M222015 LoopNet - SPARKLES CAR WASH, Vehicle Related, 159 Maple Avenue West, Vienna, VA Asking Price Index Trends for Vienna, VA Retail For Lease Research for 159 Maple Avenue West, Vienna, VA 22180 (Falrfax County)"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "100",
+        "name": "Site . Site Selection Reports & Analysis",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site . Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 http://www.easidemographics.com/cgi-bin/site.exe 8/21/2009"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "109",
+        "name": "Site 7 Site Selection Reports & Analysis",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Site 7 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 White Population 46,146 255,844 561,843"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "113",
+        "name": "EASI Census 2010 Site Selection Reports & Analysis",
+        "location": "15532 Manchester Rd, Ballwin, MO 63011",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 15532 Manchester Rd, Ballwin, MO 63011 \u201c\" Median Household Income ($) 80,206"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "118",
+        "name": "11/9/13 Summary Report",
+        "location": "28041 Greenfield Dr, Laguna Niguel, CA 92677",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "New EASI Census 2010 Site Selection Reports & Analysis Address: 28041 Greenfield Dr, Laguna Niguel, CA 92677 re ale Asian, Paclfic Islander Population 1,829 13,384 29,208"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "119",
+        "name": "Demographic Support - 387 N Tustin St, Orange, CA",
+        "location": "387 N Tustin St, Orange, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "New EASI Census 2010 Site Selection Reports & Analysis Address: 387 N Tustin St, Orange, CA jap data \u00a92013 Google"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "125",
+        "name": "11/22/13 Summary Report",
+        "location": "990 North Adair Street Cornelius, OR 97113",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "New EASI Census 2010 Site Selection Reports & Analysis U d d Address: 990 North Adair Street Cornelius, OR 97113 ae ore Astan, Pacific Islander Population 135 752 2,671"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "141",
+        "name": "Summary Report",
+        "location": "31521 utica rd frasier mi",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 31521 utica rd frasier mi White Population 12,968 102,625 257,821"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "152",
+        "name": "Demographics for 1007 Division Avenue S, Grand Rapids, MI 49507",
+        "location": "1007 Division Avenue S, Grand Rapids, MI 49507",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Demographics for 1007 Division Avenue S, Grand Rapids, MI 49507 \u2018% 2011 Household Income $25,000-$29,999 8.35% 7.67% 7.08% \u00ae Contact Us | Help | Add Listings | About Us | Products { Advertise | Sieg | Terms Of Use | Privacy Policy | @2013 LoopNet, Inc, Partne..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "153",
+        "name": "A, pis for 1007 Division Avenue S, Grand Rapids, MI 49507",
+        "location": "1007 Division Avenue S, Grand Rapids, MI 49507",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "A, pis for 1007 Division Avenue S, Grand Rapids, MI 49507 \u2018% Population Change 1990-2011 1.57% 3.03% 1.32% \u2018% 2000 Non-Hispanic White 22.48% 66.22% 77.03%"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "158",
+        "name": "2/14/2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226",
+        "location": "2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2/14/2014 Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 @Pineyisss Demographics for 5950 W Alameda Ave, Lakewood, CO 80226 2012 White alone"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "167",
+        "name": "Enter a loca",
+        "location": "1 Piineyowes Demographics for 23 South 59th Street, Belleville, IL 62223",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1 Piineyowes Demographics for 23 South 59th Street, Belleville, IL 62223 \u2018otal Population: Adult 3 110,208 2012 White alone 5,256 27,966 65,851"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "177",
+        "name": "Dear Mr. Shullman: Following is information on a car wash that is for sale in Marion...",
+        "location": "1319 Mt. Vernon Ave. - Marion, OH 43302",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u00bb Car Wash Equ b. Marion Carwash and Single Family Dwellings - for Sale in Marion, ... Page 1 of 1 Traffic Counts"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "179",
+        "name": "2/25/2014 Demographics for 4115 E Morgan Avenue, Evansville, IN 47715",
+        "location": "2014 Demographics for 4115 E Morgan Avenue, Evansville, IN 47715",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2/25/2014 Demographics for 4115 E Morgan Avenue, Evansville, IN 47715 Contact Us | Help | Add Listings | About Us | Products | Advertise | Blog | Terms Of Use | Privacy Policy | \u00a92014 LoopNal, Inc. Partners: BizBuySell | LandAndFarm | FindaFranchise 2012 Supe..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "180",
+        "name": "2/25/2014 Demographics for 4115 E Morgan Avenue, Evansville, IN 47715",
+        "location": "2014 Demographics for 4115 E Morgan Avenue, Evansville, IN 47715",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2/25/2014 Demographics for 4115 E Morgan Avenue, Evansville, IN 47715 Population Change 2010-2012 -112 -70 348 Population Change 2000-2012 64 3,673 3,320"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "181",
+        "name": "212512014 Demographics for 4115 E Morgan Avenue, Evansulle, IN 47715",
+        "location": "4115 E Morgan Avenue, Evansulle, IN 47715",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "212512014 Demographics for 4115 E Morgan Avenue, Evansulle, IN 47715 : 70 to 74 years 187 1,999 4,043 : 65 to 69 years 225 2A79 4,976"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "182",
+        "name": "LoopNet - 4115 E Morgan Avenue, Vehicle Related, 4115, & Morgan Avenue, Evansuille, IN",
+        "location": "8 E- Research for 4115 E Morgan Avenue, Evansville, IN 47715",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Asking Price Index Trends for Evansville, IN Retail For Sale Research for 4115 E Morgan Avenue, Evansville, IN 47715 (Vanderburgh County) Map of 4115 E Morgan Avenue, Evansville, IN 47715 (Vanderburgh County)"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "184",
+        "name": "1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201",
+        "location": "1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "i Piineypoe\u00ab Demographics for 3986 Indianola Avenue, Columbus, OH 43201 1273 Demographics for 3986 Indianola Avenue, Columbus, OH 43201 2042 Total population: 80 to 84 years"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "186",
+        "name": "2012 Furniture stores",
+        "location": "624 Emory Drive, Owensboro, KY 42301",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Demographics for 624 Emory Drive, Owensboro, KY 42301 Contact Us | Help ] Add Listings | About Us | Products | Advertise | Blog | Terms Of Use | Privacy Policy | \u00a9 2014 LoopNet, nc. 2042 Musical instrument and supplies stores"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "187",
+        "name": "2/25/2014 Demographics for 624 Emory Drive, Owensboro, KY 42301",
+        "location": "2014 Demographics for 624 Emory Drive, Owensboro, KY 42301",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2/25/2014 Demographics for 624 Emory Drive, Owensboro, KY 42301 Population Change 2010-2012 22 489 908 Population Change 2000-2012 -32 2,443 5,238"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "188",
+        "name": "2/25/2014 Demographics for 624 Emory Drive, Owensboro, KY 42301",
+        "location": "2014 Demographics for 624 Emory Drive, Owensboro, KY 42301",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2/25/2014 Demographics for 624 Emory Drive, Owensboro, KY 42301 4 Pineyievss Demographics for 624 Emory Drive, Owensboro, KY 42301 _% 2012 Total population: 15 to 19 years 6.39% 6.27% 6.29%"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "193",
+        "name": "Summary Report",
+        "location": "811 West Columbia Avenue, Battle Creek, MI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "jaar EASI Census 2010 Site Selection Reports & Analysis rn | : wn g os\u201d Address: 811 West Columbia Avenue, Battle Creek, MI \u2014 Map data \u00a92013 Google Map data \u00a92013 Google!"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "205",
+        "name": "Summary Report",
+        "location": "1337 S Noland Rd, Independence, MO 64055",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 1337 S Noland Rd, Independence, MO 64055 \u201cMap data \u00a92015 Google"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "33",
+        "name": "Former Car Wash For Sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$650,000",
+        "ebitda": "",
+        "note": "FORMER CAR WASH (OPERATED IN 2013) Former Car Wash For Sale .6 Acres * Zoned B-2 Asking price $650,000."
+      },
+      {
+        "type": "Financial Support",
+        "document": "Document_20260603_0005.txt",
+        "page": "120",
+        "name": "Name of Business Tustin Car Wash I ;",
+        "location": "Orange, CA 92867",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$15,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Over 30 years history car wash busines located at average working income area in city of Orange, Gross Sales Revenue Year 2011 $1,200,000 | Galt Bigg | Car Wash & 3 Parcels P Revenue $15,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "98",
+        "name": "Car Wash Express Northglenn",
+        "location": "2295 East 120th Ave, Northglenn, CO 80233",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3",
+        "ebitda": "",
+        "note": "Car Wash Express Northglenn Car Wash Express Broomfield BRONCOS WAX $3 Upgrade Asking price $3."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "5",
+        "name": "6,125 SF Freestanding Carwash Facility",
+        "location": "125 SF Freestanding Carwash Facility 4175 Stone Mountain Highway, Lilburn, GA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "6,125 SF Freestanding Carwash Facility 4175 Stone Mountain Highway, Lilburn, GA, 30047"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "24",
+        "name": "Source Evidence - 1390 Bald Hill Rd, Wanwick, RI",
+        "location": "1390 Bald Hill Rd, Wanwick, RI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "car wash warwick ri - Google Maps Goo ogl e car wash near Warwick, Rhode Isl East Greenwich Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "49",
+        "name": "Beach Buffers Car Wash -",
+        "location": "3660 Renee Drive Myrtle Beach, SC 29579",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Beach Buffers Car Wash -"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "80",
+        "name": "6560 Winford Avenue",
+        "location": "6560 Winford Avenue NoRTHIRIDGE Fairfield Twp, OH 45011",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Signage: Street sign Year Built: 2004 Offered at:$499,000 (owner financing available) Available SF: 4,415 SF Taxes: $3,295/half 2013"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "90",
+        "name": "Water Works Car Wash",
+        "location": "2280 Montebello Square Drive, Colorado Springs, CO 80918",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Water Works Car Wash 2280 Montebello Square Drive, Colorado Springs, CO http://yp106.superpages.com/listings. phtml?CID=347 1 AD0672A&AL=&C=cart+wash&T... 12/20/2002"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "91",
+        "name": "Print-Friendly Version Mountain Post Car Wash",
+        "location": "2907 Gunnison Street, Colorado Springs, CO 80909",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Water Works Car Wash Waiter Works Car Wash Skippers Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "92",
+        "name": "ALC Car Wash",
+        "location": "6050 Terminal Avenue, Colorado Springs, CO 80915",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "|Colorado al Austin-Nevada Car Wash [carwash ~=~=\u2014\u00ab (719) 390-4903 Chapel Hill Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "96",
+        "name": "Northridge Car Wash",
+        "location": "12764 Colorado Blvd, Thornton, CO 80241",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u201cRaleigh\u2019s Premier Carwash, Detail Northridge Car Wash TARGE SUV'S TRUCKS, VANS $3100"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "97",
+        "name": "Dolphin Car Wash",
+        "location": "9670 Washington St, Thornton, CO 80229",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Dolphin Car Wash now offers a2 a Dolphin Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "101",
+        "name": "Google Local - car wash loc: Pearl River NY 10965",
+        "location": "558 N Middletown Rd, Pearl River, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Results 1-10 of about 4,520 for car wash near Pearl River, NY 10965 as Pearl River Car Wash West Nyack Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "106",
+        "name": "Source Evidence - 7 Bedford Park Blvd W, Bronx, NY",
+        "location": "7 Bedford Park Blvd W, Bronx, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "|. JT Car Wash car wash loc: 5791 Broadway, Bronx, NY 10463 - Google Maps G. Kingsbridge Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "126",
+        "name": "Carwash for lease (cornelius, or)",
+        "location": "845 N. ADAIR ST. CORNELIUS, OR",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Carwash LOCATED IN A BUSY SERVICE STATION @ 845 N. ADAIR ST. CORNELIUS, OR. 97113 (TV HWY 8) IS AVALIABLE FOR LEASE. Carwash for lease (cornelius, or) hitp:/portland, craigstist.orgAvse/bts/4196203435 him!"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "151",
+        "name": "Source Evidence - 1007 Division Ave S, Grand Rapids, MI 49507",
+        "location": "1007 Division Ave S, Grand Rapids, MI 49507",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "car wash loc: 1007 Division Ave S, Grand Rapids, MI 49507 - Google Maps c. Ron's Car Wash & Coffee Shop G OO if e car wash near 1007 Division Ave S, Grand"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "161",
+        "name": "FREE BUSINESS *FULL SERVICE100% HAND CAR WASH BUSINESS *Take over rent (102 S.",
+        "location": "102 S. Garden St. Ventura, Ca",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "**This is a late 1950's early 1960's car wash, this is \"not\" a Brand New car wash otherwise it would be for rent for MUCH HIGHER that $2,000 a month, This is the CHEAPEST rent for a full service carwash in the County (If you can find one for rent). If your lo..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "165",
+        "name": "Two Carwashes Available with 160 Foot Tunnels",
+        "location": "160 Foot Tunnels 121st & Metcalf Ave., Overland Park, KS",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "10200 Shawnee Mission Parkway, Merriam, KS. Combined 160,000 cars annually"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0005.txt",
+        "page": "85",
+        "name": "Car Wash/Auto Service \u2014 Sale Price: $260,000",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$260,000",
+        "ebitda": "",
+        "note": "e 6,356 SF Car Wash ; uv Car Wash/Auto Service \u2014 Sale Price: $260,000 e =.65+ Acres Asking price $260,000."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -10274,8 +16971,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Documents-Scanned-File-Bin-3.pdf",
     "text_url": "ocr-output/Documents Scanned File Bin 3.txt",
     "page_count": 137,
-    "evidence_page_count": 122,
-    "evidence_row_count": 0,
+    "evidence_page_count": 121,
+    "evidence_row_count": 100,
     "pages": [
       {
         "page": "1",
@@ -10302,10 +16999,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "4",
         "summary": "maintains control of the property. Asking price is $300,000. The owner will be available to consult with the new busy intersection in a fast growing area near two strip mall centers. The owner of the car wash owns the building and This well established full service car wash and detail shop has been in business for over 15 years. Located a",
-        "addresses": [
-          "2 FT /3 PT Business Description This well established full service car wash and detail shop has been in",
-          "15 years. Located at a very busy intersection in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -10325,8 +17019,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "6",
         "summary": "\u2022 High traffic counts of 48,000 VPD ATLANTA MSA RETAIL DEVELOPMENT SITE I 0.57 ACRES Map data \u00a92019 Google",
         "addresses": [
-          "57 ACRES 5432 BUFORD HWY NE DORAVILLE, GA 30340",
-          "1-285 LOCATION OVERVIEW Located in"
+          "57 ACRES 5432 BUFORD HWY NE DORAVILLE, GA 30340"
         ],
         "terms": [
           "traffic",
@@ -10357,9 +17050,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "9",
         "summary": "Major Car Wash with Auto Sales-Mechanic Shop Major Car Wash with Auto Sales & Repair-Real Estate Option Gross Revenue:",
-        "addresses": [
-          "2019 Major Car Wal with Auto Sales-Mechanic Shop in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -10378,7 +17069,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "11",
         "summary": "2828 S Four Wheel Or, Lawrence, KS, 66047 - Car Wash Property For Sale on LoopNet.com Parking Ratio 2.61/1,000 SF 5,751 SF Specialty Building Offered at $1,100,000 in Lawrence, KS",
         "addresses": [
-          "2828 S Four Wheel Or, Lawrence, KS",
           "2828 S FOUR WHEEL DR LAWRENCE, KS 66047",
           "000 SF Building Class B No. Drive In"
         ],
@@ -10397,10 +17087,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "13",
         "summary": "being right across the street this Octopus Car Wash and superb car washes. The Octopus car wash has The Octopus Car wash is known to use only the",
-        "addresses": [
-          "45 years now. This is an optimal opportunity for someone to come in",
-          "1 Property Type Property Sub-type Specialty Car Wash APN / Parcel ID"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -10408,9 +17095,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "14",
         "summary": "\u2022 Octopus Car Wash has been in the business for 7490 W Colfax Ave - Octopus Car Wash 42,253 SF Specialty Building Offered at $6,500,000 at a 13.68% Cap Rate in Denver, CO",
-        "addresses": [
-          "45 years population and popularity in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -10488,18 +17173,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "27",
-        "summary": "without pushing it, we have around 200 as of now. we were doing in the 70k cars a year about customers, I do not have the time. Yearly totals with no monthly memberships: 2015= 59,276, 2016=70,644, 2017=63,912, 2018(rained half year)=47,481, 2019(through July",
-        "addresses": [
-          "200 as of now. we were doing in",
-          "500 car days and our best at 701 which happen in"
-        ],
-        "terms": [
-          "car wash",
-          "development"
-        ]
-      },
-      {
         "page": "28",
         "summary": "Gross Revenue: Express Car Wash Car Wash Express",
         "addresses": [],
@@ -10558,7 +17231,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "35",
         "summary": "Property Sub-type Car Wash Jaxx Car Wash & Oil Change - Last Updated: 1/22/2020",
         "addresses": [
-          "500 Lot Size Investment or",
           "000 SF Building Class C No. Drive In"
         ],
         "terms": [
@@ -10578,7 +17250,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "37",
         "summary": ".20 ACRES LOCATED IN EAST DENVER, CO and broker of Car Wash and other Purchase includes all Car Wash Equipment, Business",
         "addresses": [
-          "8 Bay Self Serve Car Wash For Sale .20 ACRES LOCATED IN EAST DENVER, CO",
           "2844 E. Nichols Circle Centennial, CO 80122"
         ],
         "terms": [
@@ -10598,7 +17269,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "39",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08033 Total Household Neon* ($) 548.51 918 4,157,777,664 8,548,062,347",
         "addresses": [
-          "2010 unless otherwise stated. Allot data are derived from the U Census and or",
           "101 Haag Avenue, Bellmawr, NJ 08033"
         ],
         "terms": []
@@ -10615,8 +17285,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "41",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 5757 S 85th St, Lincoln, NE 68526 Total Household Income ($) 402,589,109 1,690,250,151 3,929,295,687",
         "addresses": [
-          "5757 S 85th St, Lincoln, NE 68526",
-          "02019 Google c./ co a n D- r co"
+          "5757 S 85th St, Lincoln, NE 68526"
         ],
         "terms": []
       },
@@ -10632,9 +17301,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "43",
         "summary": "Gold Car Wash and Detail Center Car Wash Supplies FY 2018 decrease in salaried wages of $33,542 due to elimination of GM making 591k per year",
-        "addresses": [
-          "207 FY 2018 decrease in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -10644,8 +17311,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "44",
         "summary": "The seller spend over $400 on equipment to convert this car wash to express Asking Price: $550,000 needed at this point to start the express car wash is to order the pay station at",
         "addresses": [
-          "144 E Palmdale Blvd, Palmdale Ca 93550",
-          "100 feet fully operational as express. 7 vacuum stations are in"
+          "144 E Palmdale Blvd, Palmdale Ca 93550"
         ],
         "terms": [
           "car wash"
@@ -10654,9 +17320,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "45",
         "summary": "13,500 sqft of building on 1.3 acres of prime property in the heart of Palmdale surrounded by Asking Price: $4,260,000 1. Car Wash as express 8000 to 9000 cars per month at $9/car average",
-        "addresses": [
-          "500 sqft of building on 1.3 acres of prime property in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "acres"
@@ -10691,9 +17355,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "49",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis Total Household Income ($) 397,249,878 3,323,190,343 8,530,887,279 Map data @2020",
-        "addresses": [
-          "4 se-30 I a il"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
@@ -10726,8 +17388,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "54",
         "summary": "Car Pool Express Car Wash 519 N 10th Ave Hanford, CA 93230 Great opportunity for any owner operator or experienced Car Wash operator to make some Express Car wash. Separate area for Vacumn Cleaners as well.",
         "addresses": [
-          "519 N 10th Ave Hanford, CA 93230",
-          "15 Minutes Great opportunity for any owner operator or"
+          "519 N 10th Ave Hanford, CA 93230"
         ],
         "terms": [
           "car wash"
@@ -10736,9 +17397,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "55",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis Total Household Income ($) 766,604,268 7,475,663,277 17,106,664,570 Map data \u00a92020",
-        "addresses": [
-          "691 American Indian and Alaska Native Population Other Race Population Two or"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
@@ -10894,8 +17553,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "75",
         "summary": "\u2022 Type of Car Wash: Flex serve and Oil Change Reaching out to make you aware of an owner/user car wash & oil change we recently listed in Rockford, IL. The site sees Panera, Chipotle, and others. This car wash has shown strong performance over the past few years and has recently",
         "addresses": [
-          "999 S Perryville Rd, Rockford, IL 61108",
-          "500 VPD We are still working on the marketing package and will send that over once available. In"
+          "999 S Perryville Rd, Rockford, IL 61108"
         ],
         "terms": [
           "car wash",
@@ -10914,9 +17572,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "77",
         "summary": "The North Anaheim Specialty Property at 210 N Euclid Way, Anaheim, CA 92801 is currently available. 210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNet.com Last Updated: 6/1/2021",
         "addresses": [
-          "210 N Euclid Way, Anaheim, CA 92801",
-          "1022 Martin Luthe... Auction Sale 5353 Topanga Ca",
-          "3840 Old Topanga... Auction Sale Listing ID"
+          "210 N Euclid Way, Anaheim, CA 92801"
         ],
         "terms": []
       },
@@ -10924,8 +17580,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "78",
         "summary": "210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNetoom Map data @2021 2,400 SF Specialty Building Offered at $13,300,000 in Anaheim, CA",
         "addresses": [
-          "210 N Euclid Way, Anaheim, CA 92801",
-          "0 Olive Villa Park Fullerton 0 Placentia La"
+          "210 N Euclid Way, Anaheim, CA 92801"
         ],
         "terms": []
       },
@@ -10961,9 +17616,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "82",
         "summary": "for -$3.2MM for calendar year 2021, of which 41.1MM will be converted to EBITDA. https://www.bizbuysell.com/Business-Opportunity/six-site-oil-change-center-and-carwash-package/1851633/?d=L2Nhci13YXNoZXMtZm9yLXNheGU= carwash is for sale. All sites located within -10-mile radius located in a high growth and high",
-        "addresses": [
-          "2021 Six Site Oil Change Center and Carwash Package in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA"
         ]
@@ -10971,9 +17624,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "83",
         "summary": "https://www.bizbuysell.com/Business-Opportunity/six-site-oil-change-center-and-carwash-package/1851633/?d=L2Nhcil3YXNoZXMtZm9AXNhbGLI= Six Site Oil Change Center and Carwash Package in Florida - BizBuySell Six Site Oil Change Center and Carwash Package",
-        "addresses": [
-          "2021 Six Site Oil Change Center and Carwash Package in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue"
@@ -11113,19 +17764,14 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "101",
         "summary": "4,320 SF Specialty Building Offered at $2,250,000 in East Lansing, MI (248) 538-2000 Ext. 504 (248) 538-2000 Ext. 502",
         "addresses": [
-          "03 PM 248W Grand River Ave East Lansing MI 48823",
-          "538-2000 Ext. 504 1CMp REAL ESTA fl fl",
-          "000 in East Lansing, MI"
+          "03 PM 248W Grand River Ave East Lansing MI 48823"
         ],
         "terms": []
       },
       {
         "page": "102",
         "summary": "and S Kansas Ave. with high traffic counts and visibility. This former car wash building includes three 10 x 10' overhead doors CREXidlikoFor Lease \u2022\u2022 Car wash",
-        "addresses": [
-          "0 Building Request a Demo Address Add Listings Sign Up or Log In",
-          "110 SW 29th, Topeka, KS 66611"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -11135,9 +17781,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "103",
         "summary": "Lot Size: 0.49 acres 6678 Mexico Road, St. Peters, MO, 63376. You can reach me at",
         "addresses": [
-          "2 mile from Mid Rivers Mall. Mid Rivers Mall being the largest mall in",
-          "140 shops plus a 14 screen movie theater along with several power centers in",
-          "862-5557 ext 25 Send a message Please send me",
           "6678 Mexico Road, St. Peters, MO"
         ],
         "terms": [
@@ -11175,9 +17818,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "107",
         "summary": "yonkeers car wash Yonkers Hand Car Wash Showing results for yonkers car wash",
-        "addresses": [
-          "9 Yonkers Auto Detailers ip -9. Eastch Mill I fl"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -11200,9 +17841,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "110",
         "summary": "\u2022 MOTOR CITY TUNNEL EQUIPMENT \u2014 Wash Street Car Wash Systems set the standard for quality, innovation, durability, and performance, \u2022 E-COMMERCE AND PANDEMIC RESISTANT \u2014 The car wash industry has thrived despite the presence of E-Commerce and COVID-19. \u2022 DRB SYSTEMS \u2014 Trusted by more top 50 conveyor car wash chains than all other technolo",
-        "addresses": [
-          "20 years. Matthews' does not provide tax, legal, or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -11245,8 +17884,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "115",
         "summary": "101 Haag Avenue, Sellmawr, NJ MUM All estimates are as of 4/1/2010 unless otherwise stated.",
         "addresses": [
-          "101 Haag Avenue, Sellmawr, NJ",
-          "535-0 into 2- to in"
+          "101 Haag Avenue, Sellmawr, NJ"
         ],
         "terms": []
       },
@@ -11926,7 +18564,1408 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "Summary Report The Rioht Site EASI Census 2010 Site Selection Reports & Analysis Summary Report Address: 30 Perronette Dr, Bridgeport, CT 06606 Latitude: 41\u00b0 : 13' : 07\" Longitude: -73\u00b0 : 12' : 58\" nciscriptior DEMOGRAPHIC OVERVIEW Total Household Income (5) 472,779,534 3,619,476,744 7,993,440,778 Median Household Income (S) POPULATION BY RACE White Population Black Population Asian, Pacific Islander Population American Indian and Alaska Native Population Other Race Population Two or More Races Population POPULATION BY ETHNICITY Hispanic Population White Non-Hispanic BLOCK GROUP COUNT 0 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data are derived from the US Census and other official government sources. Consumer Expenditure data are derived from the Bureau of Labor Statistics. All estimates are as of 4/1/2010 unless otherwise stated. Easy Analytic Software, Inc. 101 Haag Avenue, Bellmawr, NJ 08031 phone: 856.931.5780 fax: 856.931.4115 https://www.easidemographics.com/cgi-bin/site.exe"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Development Site",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "6",
+        "name": "ATLANTA MSA RETAIL DEVELOPMENT SITE I 0.57 ACRES",
+        "location": "57 ACRES 5432 BUFORD HWY NE DORAVILLE, GA 30340",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "48,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 High traffic counts of 48,000 VPD ATLANTA MSA RETAIL DEVELOPMENT SITE I 0.57 ACRES Map data \u00a92019 Google Traffic 48,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "8",
+        "name": "Car Wash and Lube Center",
+        "location": "Lube Center Oxnard, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$679,000",
+        "asking_price": "$679,000",
+        "ebitda": "$679,000",
+        "note": "Gross Revenue: Car Wash and Lube Center Asking Price: Asking price $679,000. Revenue $679,000. EBITDA $679,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "9",
+        "name": "Major Car Wash with Auto Sales-Mechanic Shop",
+        "location": "Auto Sales-Mechanic Shop Providence, RI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,489,000",
+        "asking_price": "$1,489,000",
+        "ebitda": "$1,489,000",
+        "note": "Major Car Wash with Auto Sales-Mechanic Shop Major Car Wash with Auto Sales & Repair-Real Estate Option Gross Revenue: Asking price $1,489,000. Revenue $1,489,000. EBITDA $1,489,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "11",
+        "name": "2828 S Four Wheel Or, Lawrence, KS, 66047 - Car Wash Property For Sale on LoopNet.com",
+        "location": "2828 S FOUR WHEEL DR LAWRENCE, KS 66047",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,100,000",
+        "ebitda": "",
+        "note": "2828 S Four Wheel Or, Lawrence, KS, 66047 - Car Wash Property For Sale on LoopNet.com Parking Ratio 2.61/1,000 SF 5,751 SF Specialty Building Offered at $1,100,000 in Lawrence, KS Asking price $1,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "21",
+        "name": "Staff-Run Car Wash &Auto Detailer",
+        "location": "Auto Detailer San Diego, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$329,000",
+        "asking_price": "$329,000",
+        "ebitda": "$329,000",
+        "note": "Staff-Run Car Wash &Auto Detailer Gross Revenue: Asking Price: Asking price $329,000. Revenue $329,000. EBITDA $329,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "22",
+        "name": "100' CONVEYOR CAR WASH FOR SALE/LEASE",
+        "location": "EXPRESS WASH , OR",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$379,000",
+        "ebitda": "",
+        "note": "100' CONVEYOR CAR WASH FOR SALE/LEASE CENTERED BETWEEN 100,000+ POPULATION WITH 40,000 POPULATION TOWN Asking price $379,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "23",
+        "name": "2459 Madison Ave - AMAZING!! 100' CONVEYOR CARWASH SALE/LEASE",
+        "location": "Covington, KY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "20,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2459 Madison Ave - AMAZING!! 100' CONVEYOR CARWASH SALE/LEASE \u2022 BRAND NEW EQUIPMENT!! 20,000 DAILY TRAFFIC 5,753 SF Specialty Building Offered at $379,000 in Covington, KY Traffic 20,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "28",
+        "name": "Car Wash Express",
+        "location": "Wash Express Clayton County, GA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,450,000",
+        "asking_price": "$2,450,000",
+        "ebitda": "$2,450,000",
+        "note": "Gross Revenue: Express Car Wash Car Wash Express Asking price $2,450,000. Revenue $2,450,000. EBITDA $2,450,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "44",
+        "name": "Classic Car Wash Business Only",
+        "location": "144 E Palmdale Blvd, Palmdale Ca 93550",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$550,000",
+        "ebitda": "",
+        "note": "The seller spend over $400 on equipment to convert this car wash to express Asking Price: $550,000 needed at this point to start the express car wash is to order the pay station at Asking price $550,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "46",
+        "name": "Cabana Car Wash",
+        "location": "2553 Olive Dr, Palmdale Ca 93550",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$37 K",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Potential to convert to Express Car wash, Layout for a secondary Great looking car wash for sale with high end equipment with lots Cabana Car Wash Revenue $37 K."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "47",
+        "name": "Canoga Park Hand Car Wash Business Only",
+        "location": "21004 Sherman Way, Canoga Park Ca 91303",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$90,000",
+        "asking_price": "$1,399,000.00",
+        "ebitda": "",
+        "note": "Asking Price: $1,399,000.00 This location has a great layout to convert to express car wash. Full-Service Car Wash located at a Great Corner with Potential to convert to Express Car Asking price $1,399,000.00. Revenue $90,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "60",
+        "name": "For Sale: Full Service Hand Car Wash - No Property, Absentee",
+        "location": "Pomona Area, LA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$469,000",
+        "ebitda": "",
+        "note": "Asking Price: $469,000 Annual Adjusted Net: $125,000 Down Payment: Call / Email business is unique, on average, buying a self-serve car wash can be a great investment and income How much money should you expect to make when buying an automatic car wash? While..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "92",
+        "name": "5051 W 80th Ave - Express Car Wash",
+        "location": "5051 W 80th Ave, Westminster, CO 80030",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,595,000",
+        "ebitda": "",
+        "note": "provide the car wash with great exposure. Favorable setbacks allow the potential can bring in over 1 Million dollars of revenue. New express car opportunity for someone who wants to enter the car wash business for Asking price $1,595,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "94",
+        "name": "Express Car Wash-Newly Remodeled!! Profitable in Whittier, California - BizBuySell",
+        "location": "Profitable Whittier, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$0",
+        "asking_price": "$1,595,000",
+        "ebitda": "$0",
+        "note": "Gross Revenue: Express Car Wash. Profitable. Great Location. Newly Remodeled. New Equipment. Ne Express Car Wash-Newly Remodeled!! Profitable in Whittier, California - BizBuySell Asking price $1,595,000. Revenue $0. EBITDA $0."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "98",
+        "name": "Prime-Location, 1.83 Acre Hard Corner Lot Adjacent To A HUGE Gas Station!",
+        "location": "Resides In San Diego, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$1,500,000",
+        "note": "Annual 2020 EBITDA Is Currently Projected To Be $1,500,000+! Unique Triple-Lane Entrance With 49 Oversized Vacuum Spaces For Customer Not included in asking price EBITDA $1,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "99",
+        "name": "Listing / Offering - Las Vegas, NV",
+        "location": "Las Vegas, NV",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,500,000",
+        "asking_price": "$9,999,950",
+        "ebitda": "$1,500,000",
+        "note": "Gross Revenue: Asking Price: $10,000,000* Asking price $9,999,950. Revenue $1,500,000. EBITDA $1,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "104",
+        "name": "\u2022 Positioned for Redevelopment! Car Wash Restriction",
+        "location": "6678 Mexico Road St. Peters, MO 63376",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$390,000.00",
+        "ebitda": "",
+        "note": "\u2022 Positioned for Redevelopment! Car Wash Restriction \u2022 Lot Size .49 acres 6678 Mexico Road St. Peters, MO 63376 Asking price $390,000.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "114",
+        "name": "Express Car Wash Opportunities",
+        "location": "754 Boardman Canfield Rd, Youngstown, OH 44512",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "34,000",
+        "revenue": "",
+        "asking_price": "$5,200,000",
+        "ebitda": "",
+        "note": "2550 Coon Rapids Blvd NW, Coon Rapids, MN 55433 (Coon Rapids Express Car Wash) 1610 Energy Or, St. Paul, MN 55108 (Midway Express Car Wash) \u2022 Traffic Count: 34,000 VPD Asking price $5,200,000. Traffic 34,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "125",
+        "name": "14190 Beach Blvd, Jacksonville, FL 32250- Prime Car Wash I LoopNet.com",
+        "location": "14190 Beach Blvd, Jacksonville, FL 32250",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "48,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "14190 Beach Blvd, Jacksonville, FL 32250- Prime Car Wash I LoopNet.com traffic count of 48,000 service car wash concept Traffic 48,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "5",
+        "name": "Business Type: car wash",
+        "location": "53 Grandin Road Maineville, OH 45039",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Business Type: car wash Map data \u00a92019"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "10",
+        "name": "Car wash managed with Clover software very recently upgraded.",
+        "location": "Providence, RI",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Included in asking price Car wash managed with Clover software very recently upgraded."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "12",
+        "name": "DENVER COMMERCIAL",
+        "location": "7490 W COLFAX AVE GREATER DENVER, CO 80214",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "702.686.1952"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "14",
+        "name": "7490 W Colfax Ave - Octopus Car Wash",
+        "location": "Denver, CO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 Octopus Car Wash has been in the business for 7490 W Colfax Ave - Octopus Car Wash 42,253 SF Specialty Building Offered at $6,500,000 at a 13.68% Cap Rate in Denver, CO"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "24",
+        "name": "2245-2283 HUNTINGDON PIKE",
+        "location": "2245-2283 HUNTINGDON PIKE, HUNTINGDON VALLEY, PA 19006",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2245-2283 HUNTINGDON PIKE, HUNTINGDON VALLEY, PA 19006 Conshohocken, PA 19428 C 2019 CBRE, Inc. All rights reserved. This information has been obtained from sources believed reliable, but has not been"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "36",
+        "name": "2245 E South Blvd - Trinity Car Wash",
+        "location": "Montgomery, AL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2245 E South Blvd - Trinity Car Wash Retail Location, Perfect for Auto Related Business . OWNER WILL LEASE FOR $3995 PER MONTH ! 12,100 SF Specialty Building Offered at $497,500 in Montgomery, AL"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "37",
+        "name": "Profitable 8 Bay Self Serve Car Wash For Sale",
+        "location": "2844 E. Nichols Circle Centennial, CO 80122",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": ".20 ACRES LOCATED IN EAST DENVER, CO and broker of Car Wash and other Purchase includes all Car Wash Equipment, Business"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "54",
+        "name": "Car Pool Express Car Wash 519 N 10th Ave Hanford, CA 93230",
+        "location": "519 N 10th Ave Hanford, CA 93230",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Pool Express Car Wash 519 N 10th Ave Hanford, CA 93230 Great opportunity for any owner operator or experienced Car Wash operator to make some Express Car wash. Separate area for Vacumn Cleaners as well."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "77",
+        "name": "210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNet.com",
+        "location": "210 N Euclid Way, Anaheim, CA 92801",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "The North Anaheim Specialty Property at 210 N Euclid Way, Anaheim, CA 92801 is currently available. 210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNet.com Last Updated: 6/1/2021"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "78",
+        "name": "210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNetoom",
+        "location": "210 N Euclid Way, Anaheim, CA 92801",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "210 N Euclid Way, Anaheim, CA 92801 - Specialty for Sale I LoopNetoom Map data @2021 2,400 SF Specialty Building Offered at $13,300,000 in Anaheim, CA"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "79",
+        "name": "Built, Express Car Wash opened in",
+        "location": "2020 Opportunity Zone No ABOUT 210 N EUCLID WAY, ANAHEIM, CA 92801",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "famous Car Wash equipment Built, Express Car Wash opened in *Great opportunity for Car Wash"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "80",
+        "name": "Express Car Wash Newly Built",
+        "location": "210 N Euclid Way, Anaheim, CA 92801",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Express Car Wash Newly Built, Great Express Car Wash Newly Built Car Washes / California / Anaheim / 210 N Euclid Way, Anaheim, CA 92801"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "91",
+        "name": "5051 W 80th Ave - Express Car Wash",
+        "location": "5051 W 80th Ave, Westminster, CO 80030",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "5051 W 80th Ave - Express Car Wash 5051 W 80th Ave, Westminster, CO 80030- Specialty for Sale I LoopNet.com 5,424 SF Specialty Building Offered at $1,595,000 in Westminster, CO"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "101",
+        "name": "8/22/22, 10:03 PM",
+        "location": "03 PM 248W Grand River Ave East Lansing MI 48823",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4,320 SF Specialty Building Offered at $2,250,000 in East Lansing, MI (248) 538-2000 Ext. 504 (248) 538-2000 Ext. 502"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "106",
+        "name": "Car Wash & Lube Location For Sale",
+        "location": "Location For Sale Pittsburgh, PA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash & Lube Location For Sale with cash flow potential of up to $500,000 NOI Established: 2010"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "121",
+        "name": "3854 N Blackstone Ave - Award Winning Flex Car Wash #CW11-CA",
+        "location": "3854 N Blackstone Ave, Fresno, CA 93726",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Property Subtype Car Wash 3854 N Blackstone Ave - Award Winning Flex Car Wash #CW11-CA + 170 FT Long Car Wash Tunnel"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "122",
+        "name": "3854 N Blackstone Ave - Award Winning Flex Car Wash #CW11-CA",
+        "location": "3854 N Blackstone Ave, Fresno, CA 93726",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "3854 N Blackstone Ave - Award Winning Flex Car Wash #CW11-CA + Voted Best Car Wash & Detail in Car Washes / California / Fresno / 3854 N Blackstone Ave, Fresno, CA 93726"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "126",
+        "name": "14190 Beach Blvd, Jacksonville, FL 32250- Prime Car Wash I LoopNet.com",
+        "location": "14190 Beach Blvd, Jacksonville, FL 32250",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "14190 Beach Blvd, Jacksonville, FL 32250- Prime Car Wash I LoopNet.com Population of 158,149 Jacksonville, FL 32250 \u2022 5,000 SF \u2022"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "2",
+        "name": "Listing 28073",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$150,000",
+        "ebitda": "",
+        "note": "Asking Price: $99,000 Asking Price: $170,000 Asking Price: $150,000 Asking price $150,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "3",
+        "name": "Gross Revenue",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$210,000",
+        "asking_price": "$8,000",
+        "ebitda": "",
+        "note": "Gross Revenue Asking Price Asking Price Asking price $8,000. Revenue $210,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "4",
+        "name": "This well established full service car wash and detail shop has been in business for...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$300,000",
+        "ebitda": "",
+        "note": "maintains control of the property. Asking price is $300,000. The owner will be available to consult with the new busy intersection in a fast growing area near two strip mall centers. The owner of the car wash owns the building and This well established full s..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "42",
+        "name": "Fwd: Gold Car Wash updated cash flows",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$9.99",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "8. Significant Upside in Revenue from Convenience Store. Total Sales are $18k should be double to triple in 6. 2019E and 2020E Revenue does not include increase in Monthly ARM pricing as of 2/1/19-- 5. 2019E and 2020E Revenue does not include this week's incr..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "45",
+        "name": "Av Car Wash & Auto Spa",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$125K",
+        "asking_price": "$4,260,000",
+        "ebitda": "",
+        "note": "13,500 sqft of building on 1.3 acres of prime property in the heart of Palmdale surrounded by Asking Price: $4,260,000 1. Car Wash as express 8000 to 9000 cars per month at $9/car average Asking price $4,260,000. Revenue $125K."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "51",
+        "name": "Car Wash --- $3.2M",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$170,000",
+        "asking_price": "$3,200,000",
+        "ebitda": "",
+        "note": "Purchase Price: $3,200,000 Car Wash --- $3.2M \u2022 Well known Car Wash for Long Asking price $3,200,000. Revenue $170,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "59",
+        "name": "Place A 1-(g- Saki, Post.",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,320,000",
+        "asking_price": "$6,500,000",
+        "ebitda": "",
+        "note": "Price: $6,500,000 Down: Call Adjusted Net: Call Revenue: $1,320,000 to get more info about this Car Wash -With Real Estate Absentee Run, to ask any questions or request an appointment recommended for a buyer planning to make a commercial strip center or conve..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "82",
+        "name": "Six Site Oil Change Center and Carwash Package in Florida - BizBuySell",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$3.2M",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "for -$3.2MM for calendar year 2021, of which 41.1MM will be converted to EBITDA. https://www.bizbuysell.com/Business-Opportunity/six-site-oil-change-center-and-carwash-package/1851633/?d=L2Nhci13YXNoZXMtZm9yLXNheGU= carwash is for sale. All sites located with..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "83",
+        "name": "Six Site Oil Change Center and Carwash Package in Florida - BizBuySell",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$8,260,000",
+        "asking_price": "$8,260,000",
+        "ebitda": "$8,260,000",
+        "note": "https://www.bizbuysell.com/Business-Opportunity/six-site-oil-change-center-and-carwash-package/1851633/?d=L2Nhcil3YXNoZXMtZm9AXNhbGLI= Six Site Oil Change Center and Carwash Package in Florida - BizBuySell Six Site Oil Change Center and Carwash Package Asking..."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "75",
+        "name": "Owner/User Flex Service Car Wash I Rockford, IL",
+        "location": "999 S Perryville Rd, Rockford, IL 61108",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "24,500",
+        "revenue": "",
+        "asking_price": "$2,500,000",
+        "ebitda": "",
+        "note": "\u2022 Type of Car Wash: Flex serve and Oil Change Reaching out to make you aware of an owner/user car wash & oil change we recently listed in Rockford, IL. The site sees Panera, Chipotle, and others. This car wash has shown strong performance over the past few ye..."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "86",
+        "name": "Pelican Car Wash Property",
+        "location": "North Palm Beach, FL 33408",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$5,100,000.00",
+        "ebitda": "",
+        "note": "\u2022 High traffic count, population sales within the car wash, Pelican Car Wash Site! Asking price $5,100,000.00."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "128",
+        "name": "3,150 SF Multi-Use Property. Formerly an Automatic Drive-Thru Car Wash Sitting on 3 P...",
+        "location": "2300 GENOA BUSINESS PARK DRIVE SUITE 160/I BRIGHTON, MI 48114",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$495,000",
+        "ebitda": "",
+        "note": "3,150 SF Multi-Use Property. Formerly an Automatic Drive-Thru Car Wash Sitting on 3 Parcels, Totaling \u2022 Conveyor Car Wash Use Restricted in Deed 1.85 Acres, in Temperance, Ml. The Building is Currently Vacated and Ready to Accommodate Many Asking price $495,0..."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "102",
+        "name": "CREXidlikoFor Lease \u2022\u2022 Car wash",
+        "location": "Topeka, KS 66611",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "and S Kansas Ave. with high traffic counts and visibility. This former car wash building includes three 10 x 10' overhead doors CREXidlikoFor Lease \u2022\u2022 Car wash"
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "67",
+        "name": "DOWNLOAD OFFERING MEMORANDUM HERE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "60,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "to Indianapolis. The 1-74 yields strong traffic counts averaging 60,000 cars per day. LICENSE NO 471019766 (I) LIC No. 01911198 (CA) Traffic 60,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "65",
+        "name": "Demographic Support - 3001 Lindbergh Blvd Springfield, IL 62704",
+        "location": "3001 Lindbergh Blvd Springfield, IL 62704",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$850,000",
+        "ebitda": "",
+        "note": "by having a more efficient, less maintenance required car wash business \u2022 Two buildings totaling approximately 21,600 SF \u2014 each building has three bay \u2022 Strong demographics \u2014 Both locations have a population greater than \u00b190,000 within Asking price $850,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "95",
+        "name": "NORTH BLACKSTONE CAR WASH BUILDING",
+        "location": "6546 North Blackstone Avenue I Fresno, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "5,567",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 Fully Equipped Car Wash Available for Lease Traffic Counts: NORTH BLACKSTONE CAR WASH BUILDING Traffic 5,567."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "29",
+        "name": "Summary Report",
+        "location": "19393 Gold Street Omaha, NE 08130",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 19393 Gold Street Omaha, NE 08130 101 Haag AVenue. Bellrnawr, NJ 08931"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "30",
+        "name": "Summary Report",
+        "location": "5150 Cortez Rd W, Bradenton, FL 34210",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 5150 Cortez Rd W, Bradenton, FL 34210 Total Household Income ($) 350,315,377 2,101,071,369 3,636,508,976"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "31",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2010 unless otherwise stated. 0 2019 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data are derived from the US Census and oth..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "33",
+        "name": "Demographic Support - 101 Haag Avenue, Belimawr, NJ 08031",
+        "location": "101 Haag Avenue, Belimawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Belimawr, NJ 08031 All estimates are as of 4/1/2010 unless otherwise stated. 0 2019 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data are derived from the LIS Census and ot..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "38",
+        "name": "Summary Report",
+        "location": "208 Tarrytown Rd, White Plains, NY 10607",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EAS1 Census 2010 Site Selection Reports & Analysis Address: 208 Tarrytown Rd, White Plains, NY 10607 Total Household IncomeIP 609,793,157 5,272,721,698 11.556,397,685"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "39",
+        "name": "Summary Report",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08033",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08033 Total Household Neon* ($) 548.51 918 4,157,777,664 8,548,062,347"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "40",
+        "name": "The Right Site \u00ae",
+        "location": "301 Boston Post Rd, Port Chester, NY 10573",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address 301 Boston Post Rd, Port Chester, NY 10573 Total Household Income (5) 921,686,253 4,278,916,510 8,955,204,282"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "41",
+        "name": "The Right Site \u00ae",
+        "location": "5757 S 85th St, Lincoln, NE 68526",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 5757 S 85th St, Lincoln, NE 68526 Total Household Income ($) 402,589,109 1,690,250,151 3,929,295,687"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "56",
+        "name": "Summary Report",
+        "location": "9240 Reseda Blvd, Northridge, CA 91324",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 9240 Reseda Blvd, Northridge, CA 91324 Total Household Income ($) 641,066,096 5,533,981,124 14,862,140,783"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "58",
+        "name": "Summary Report",
+        "location": "2700 N Santiago Blvd Orange, CA 92867",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EAST Census 2010 Site Selection Reports & Analysis Address: 2700 N Santiago Blvd Orange, CA 92867 Total Household Income ($) 557,156,498 4,545,497,688 13,592,076,250"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "61",
+        "name": "Summary Report",
+        "location": "2010 Site Selection Reports & Analysis Summary Report Address. 6622 lankershim blvd north hollywood ca",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address. 6622 lankershim blvd north hollywood ca Total Household Income ($) 657,827,297 7463,835,108 18,428,545,152"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "63",
+        "name": "$125,000 to $149,999",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 C) 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "64",
+        "name": "The Right Site \u00ae",
+        "location": "12851 Reeck Road, Southgate, MI 48195",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address. 12851 Reeck Road, Southgate, MI 48195 Total Personal Income ($) 225,246,054 2,841,294,073 5,992,957,049"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "66",
+        "name": "Address: mr squeaky car wash pompano",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: mr squeaky car wash pompano 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "71",
+        "name": "BLOCK GROUP COUNT'",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2010 unless otherwise stated. 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "73",
+        "name": "$125,000 to $149,999",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "74",
+        "name": "EASI Census 2010 Site Selection Reports & Analysis",
+        "location": "2090 Holliday Dr, Dubuque, IA 52002",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 2090 Holliday Dr, Dubuque, IA 52002 Total Personal Income ($) 200,821,843 948,484,336 1,831,528,064"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "76",
+        "name": "Income Household Distribution",
+        "location": "55 Magee Ave, Stamford, CT 06902",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 55 Magee Ave, Stamford, CT 06902 g) 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "84",
+        "name": "Summary Report",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 Total Household Income (5) 451,062,939 2138734,122 4,832,402"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "87",
+        "name": "Summary Report",
+        "location": "14190 Beach Blvd, Jacksonville, FL 32250",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 14190 Beach Blvd, Jacksonville, FL 32250 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "88",
+        "name": "Summary Report",
+        "location": "11860 San Jose Blvd, Jacksonville, FL 32223",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 11860 San Jose Blvd, Jacksonville, FL 32223 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "90",
+        "name": "Summary Report",
+        "location": "2745 Rosemead Blvd South El Monte, CA 91733",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 2745 Rosemead Blvd South El Monte, CA 91733 Total Household Income ($) 309,949,378 3,873,698,422 13,104,071,791"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "115",
+        "name": "Income Household Distribution",
+        "location": "101 Haag Avenue, Sellmawr, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Sellmawr, NJ MUM All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "116",
+        "name": "Income Household Distribution",
+        "location": "30 Perronette Dr, Bridgeport, CT 06606",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 30 Perronette Dr, Bridgeport, CT 06606 ouseholds (4/1/2010)"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "117",
+        "name": "The Right Site\"",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 Total Household Income ($) 103,274,288 1,527,485,895 3,197,095,730"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "123",
+        "name": "Summary Report",
+        "location": "358 Lake Ave, Rochester, NY 14608",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 358 Lake Ave, Rochester, NY 14608 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "124",
+        "name": "Summary Report",
+        "location": "4132 Southside Blvd, Jacksonville, FL 32216",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 4132 Southside Blvd, Jacksonville, FL 32216 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "129",
+        "name": "TABLE OF CONTENTS",
+        "location": "72300 GENOA BUSINESS PARK DRIVE SUITE 1607/ BRIGHTON, MI 48114",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LEGACY COMMERCIAL GROUP /72300 GENOA BUSINESS PARK DRIVE SUITE 1607/ BRIGHTON, MI 48114 // 810.206.3500"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "131",
+        "name": "Income Household Distribution",
+        "location": "1698 Watertown Ave Waterbury, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 1698 Watertown Ave Waterbury, CT Total Personal Income ($) 268,033,648 1,675,491,413 3,442,006,432"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "136",
+        "name": "Summary Report",
+        "location": "30 Perronette Dr, Bridgeport, CT 06606",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 30 Perronette Dr, Bridgeport, CT 06606 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "25",
+        "name": "2245-2283 HUNTINGDON PIKE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "27,479",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "TRAFFIC COUNTS .58 Acres 5A46 SF 6,648 100,096 342,493 Traffic 27,479."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "7",
+        "name": "Property Type: Car Wash",
+        "location": "5690 W. Peoria Ave., Glendale, AZ 85302",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3,100,000",
+        "ebitda": "",
+        "note": "Property Type: Car Wash seri Oml rtai\u00a7biElialligq30MaTaPirate20309 Asking price $3,100,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "35",
+        "name": "Property Sub-type Car Wash",
+        "location": "000 SF Building Class C No. Drive In",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$497,500",
+        "ebitda": "",
+        "note": "Property Sub-type Car Wash Jaxx Car Wash & Oil Change - Last Updated: 1/22/2020 Asking price $497,500."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "68",
+        "name": "Price Reduction I Owner/User Carwash Opportunity",
+        "location": "Champaign, IL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$4,275,000",
+        "ebitda": "",
+        "note": "\u2022 Stable Membership Base: Great revenue retention and strong customer loyalty. with strong historical revenue and EBITDA. Turnkey Owner/User Opportunity: Longstanding car wash and oil change in Champaign, IL Asking price $4,275,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "70",
+        "name": "Just Listed I Owner/User Car Wash Opportunity I Phoenix, AZ",
+        "location": "Phoenix, AZ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3,300,000",
+        "ebitda": "",
+        "note": "\u2022 Brand New Construction Express Car Wash - Built in March of 2021, new 110 ft. Just Listed I Owner/User Car Wash Opportunity I Phoenix, AZ Carriage Express Car Wash - Phoenix AZ Asking price $3,300,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "100",
+        "name": "8/22/22, 10:03 PM",
+        "location": "03 PM 248W Grand River Ave East Lansing, MI 48823",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,250,000",
+        "ebitda": "",
+        "note": "2.31/1,000 SF Asking price $2,250,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "135",
+        "name": "'Kleen N Green Car Wash",
+        "location": "30 Perronette St Bridgeport, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$318,594",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "wash. Car wash established in 1964. owned the car wash for 9 years. Land appraised for $700K in 2011. Could easily convert to an express Full service/exterior car wash on almost 1.5 acres. 80' tunnel with Econocraft equipment. Seller has Revenue $318,594."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "26",
+        "name": "+ Valley Car Wash: $1,000,000",
+        "location": "2245-2283 HUNTINGDON PIKE, HUNTINGDON VALLEY, PA 19006",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "+ Valley Car Wash: $1,000,000 2245-2283 HUNTINGDON PIKE, HUNTINGDON VALLEY, PA 19006 + The Billows: $750,000"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "52",
+        "name": "Car Wash 4073 4134",
+        "location": "240 Reseda Blvd Northridge, CA 91324",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "ridge Car Wash (4073 - Business Only) 31 Car Wash 4073 4134 Thursday, April 30, 2020 2:41 PM"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "103",
+        "name": "We are pleased to bring to the market an outlot position to the Dollar",
+        "location": "6678 Mexico Road, St. Peters, MO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Lot Size: 0.49 acres 6678 Mexico Road, St. Peters, MO, 63376. You can reach me at"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "109",
+        "name": "INVESTMENT SUMMARY",
+        "location": "750000 LIST PRICE INVESTMENT SUMMARY 11643 S REDWOOD RD, SOUTH JORDAN, UT 84065",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "13328 S MARKET CENTER DR, RIVERTON, UT 84065 11643 S REDWOOD RD, SOUTH JORDAN, UT 84065"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "111",
+        "name": "SPARKLE EXPRESS CAR WASH PORTFOLIO",
+        "location": "11643 S REDWOOD RD, SOUTH JORDAN, UT 84095",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "SPARKLE EXPRESS CAR WASH PORTFOLIO \u201eLT LAKE CITY MSA SPARKLE EXPRESS CAR WASH PORTFOLIO 13328 S MARKET CENTER DR, RIVERTON, UT 84065"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "127",
+        "name": "PROPERTY PARCELS",
+        "location": "2300 GENOA BUSINESS PARK DRIVE SUITE 160/I BRIGHTON, MI 48114",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "LEGACY COMMERCIAL GROUP //2300 GENOA BUSINESS PARK DRIVE SUITE 160/I BRIGHTON, MI 48114/I 810.206.3500/I LEGACYIPG.COM"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "132",
+        "name": "Source Evidence - 230 Boston Post Rd, Port Chester, NY",
+        "location": "230 Boston Post Rd, Port Chester, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "10 230 Boston Post Rd, Port Chester, NY 1... WHITE PLAINS, NY I 1 Property ($1,353,400) Port Chester, NY I 1 Property ($1,353,400)"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "13",
+        "name": "Metro area. The Octopus car wash located 7490 W",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$6,500,000",
+        "ebitda": "",
+        "note": "being right across the street this Octopus Car Wash and superb car washes. The Octopus car wash has The Octopus Car wash is known to use only the Asking price $6,500,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "43",
+        "name": "Gold Car Wash and Detail Center",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$16.86",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Gold Car Wash and Detail Center Car Wash Supplies FY 2018 decrease in salaried wages of $33,542 due to elimination of GM making 591k per year Revenue $16.86."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "119",
+        "name": ":ady car wash and detailing with loyal customers. Landmark in the shoreline area over...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$198,000.00",
+        "asking_price": "$275,000.00",
+        "ebitda": "",
+        "note": "355 Revenue: $198,000.00 :ady car wash and detailing with loyal customers. Landmark in the shoreline area over thirty years as a self service, automatic wash and detailing center, remaining 10 years lease with option o king Price: $275,000.00 Asking price $27..."
+      }
+    ],
     "gallery_images": []
   },
   {
@@ -11937,8 +19976,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Documents-Scanned-Most-Recent.pdf",
     "text_url": "ocr-output/Documents Scanned Most Recent.txt",
     "page_count": 265,
-    "evidence_page_count": 194,
-    "evidence_row_count": 63,
+    "evidence_page_count": 183,
+    "evidence_row_count": 95,
     "pages": [
       {
         "page": "1",
@@ -11962,9 +20001,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "3",
         "summary": "the owner base - however, the car wash sector remains hyper-localized and poised for consolidation per insights from Sonny's Enterprises, the largest supplier in the car wash sector Rapid Growth of the Express Car Wash Format",
-        "addresses": [
-          "11 CAGR New Development of 600 to 700 Tunnel Locations per Year IN"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue",
@@ -11991,9 +20028,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "6",
         "summary": "(1) Of the 23 in-development sites, .5 are ground leases where a sale leaseback is not assumed to be available \u2022 Acquisition Purchase Consideration -$37.5 million spent to -date in 2022 and 10 additional acquisitions expected to be",
-        "addresses": [
-          "5 million spent to -date in"
-        ],
+        "addresses": [],
         "terms": [
           "revenue",
           "development"
@@ -12002,10 +20037,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "7",
         "summary": "Reported EBITDA $11,419 $7,648 $13,874 $13,509 Pro Forma Adjusted EBITDA $9,003 $5,834 $18,988 $41,986 Adjusted EBITDA $9,003 $5,834 $18,988 $19,449",
-        "addresses": [
-          "23 development sites that are currently in various stages of construction or",
-          "8 sites that are currently under LOI and pending completion fl"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -12016,9 +20048,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "8",
         "summary": "are assumed to be executed on all in-development sites and Corporate Operating and Rent Expenses and EBITDA Margin Discussion and Analysis CORPORATE OPERATING EXPENSES, RENT AND EBITDA",
-        "addresses": [
-          "34 leased sites that are in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "development"
@@ -12076,9 +20106,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "14",
         "summary": "Historical, Pro Forma and Projected Revenues Historical, Pro Forma and Projected Adj. EBITDA Adjusted EBITDA Margin (2) 2022E site count includes 81 operating and pipeline sites listed on page 21, plus two additional acquisition sites expected to close in 2022",
-        "addresses": [
-          "81 operating and pipeline sites listed on page 21, plus two additional acquisition sites expected to close in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue",
@@ -12088,11 +20116,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "15",
         "summary": "\u2022 Pro forma revenues and EBITDA for LTM March 2022 and 2022E l'F are presented using a conservative two-year maturation analysis as if: \u2022 Cumulative revenues of $120.4 million and EBITDA of $58.5 million added through acquisition by 2027 - Revenue growth by individual site within each respective market, segmented by service offering",
-        "addresses": [
-          "12 existing unit upgrade locations that are undergoing or",
-          "23 development locations that are scheduled to open in",
-          "25 sites in 2026 and 30 sites in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue",
@@ -12102,9 +20126,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "17",
         "summary": "II WELL-DEFINED PATH TO 200+ SITES BY 2027 CAR WASH Clear vision and strategy to operate more than 200 sites by 2027, generating more than $160 million of EBITDA 2022E to 2027P Site Bridge 2022E to 2027P EBITDA Bridge",
-        "addresses": [
-          "81 identified sites listed on page 21 and 2 additional acquisitions expected to close in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -12114,9 +20136,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "19",
         "summary": "II NEW MARKET EXPANSION CAR WASH 0 0 0 0 Underserved markets adjacent to Splash's current network in the Northeast virtually any attractive mar et inathe United States Opportunity 2027P 2027?",
-        "addresses": [
-          "0 Underserved markets adjacent to Splash's current network in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue",
@@ -12135,9 +20155,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "21",
         "summary": "7.8% Organic Revenue CAGR 2022[ 2023P 2024P 20251' 2026P 20271'",
-        "addresses": [
-          "3 years of operation Maturing Sites 3 Opened in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -12146,9 +20164,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "22",
         "summary": "Revenue Growth Car Wash Sector acquired 30+ sites since 2019",
-        "addresses": [
-          "0 New Market Expansion Capitalize on large whitespace opportunity in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue",
@@ -12177,10 +20193,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "26",
         "summary": "Splash's de novo playbook is underpinned by systematic site selection and design, pre- and Population Si Density iii -51,000 / -1,865/sq. mi. Personal Income $58,534",
-        "addresses": [
-          "3 miles of the site doMA CAA WASH Representative Selection Criteria for Derby, CT",
-          "2 to 3 Months Site Maturity in"
-        ],
+        "addresses": [],
         "terms": [
           "traffic",
           "EBITDA",
@@ -12206,22 +20219,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "29",
-        "summary": "\u2022 Attracted -25,000 customers through Total [TM 2022 Total LTM 2022",
-        "addresses": [
-          "000 customers through Waze across 21 sites in",
-          "004 Total LTM 2022 Impressions in",
-          "115 social media campaigns launched in",
-          "2022 Facebook Ad Impressions in"
-        ],
-        "terms": []
-      },
-      {
         "page": "30",
         "summary": "UNUMITED CAR WASH CLUB Premium banner acquired in 2019 with two locations in the Primary banner established in 1995 for sites across the network, %NAM",
-        "addresses": [
-          "2019 with two locations in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -12281,23 +20281,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "39",
         "summary": "The Long Island region was established in 2022 through the (4) Reflects 2022E metrics for 2 sites; site count includes operating and in development locations, $72K Average",
-        "addresses": [
-          "2022 through the acquisition of two operating sites and one in"
-        ],
-        "terms": [
-          "car wash",
-          "traffic",
-          "EBITDA",
-          "revenue",
-          "development"
-        ]
-      },
-      {
-        "page": "40",
-        "summary": "121 One operating site one in-development site and two acquisition targets in Albany. NY not shown on map Express 31 $1.1 48.6% 2020 2021 LTM Mar -22 2022F,",
-        "addresses": [
-          "121 One operating site one in-development site and two acquisition targets in Albany. NY"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -12330,22 +20314,10 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "43",
         "summary": "15M CAR WASH (1) Development sites represent units that are expected to open in Ow rico IS month, plea,. ri lit 1p page 2 int( r Total 81 $1.7 44%",
-        "addresses": [
-          "51 Total Operating Sites Network Summary Sites in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
-          "development"
-        ]
-      },
-      {
-        "page": "44",
-        "summary": "during 2022 and 2023 and 8 under LOI, with a clear line of sight to 200+ total sites by 2027 (2000 to 2015)",
-        "addresses": [
-          "40 sites to the network through several strategic acquisitions in"
-        ],
-        "terms": [
           "development"
         ]
       },
@@ -12370,9 +20342,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "48",
         "summary": "Historical. Pro Forma and Projected Revenues Historical. Pro Forma and Projected Adj. EBITDA (2) Includes 2 additional assumed site acquisitions in 2022, in addition to the 8 sites under 11)1 (1) Pro forma adjustments include existing site maturation, mature performance of sites undergoing significant renovation and opening of in-developm",
-        "addresses": [
-          "2 additional assumed site acquisitions in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue",
@@ -12392,9 +20362,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "51",
         "summary": "\u2022 Splash expects to open 20+ green field development sites within the next Monthly Revenue Ramp (I) Illustrative analysis largely in Famed 16 pro. olint do no expcnil In res, market data and development costs range provided by management",
-        "addresses": [
-          "16 pro. olint do no expcnil In"
-        ],
+        "addresses": [],
         "terms": [
           "revenue",
           "development"
@@ -12403,9 +20371,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "52",
         "summary": "Site Selection Close Date: September 2019 Close Date: December 2020",
-        "addresses": [
-          "2019 Operational Site Improvements Plattsburgh, NY"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA"
         ]
@@ -12413,9 +20379,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "53",
         "summary": "Case Study: Eco Carwash post -acquisition and generated $0.8 million in Close Date: October 2021",
-        "addresses": [
-          "2021 Keystone hub acquisition to increase density in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue",
@@ -12434,9 +20398,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "55",
         "summary": "One of the only platforms in the car wash industry with the operational proficiency and management expertise to build Ncld-On, 2022",
-        "addresses": [
-          "2022 Fayetteville NY 11 One of the only platforms in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -12454,11 +20416,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "58",
         "summary": "131 Pipeline cites include development sites expected to open in 2022 and 2011. and pending acquisitions under tot na na na $1.0 $0.4 40% na na -190 $1.9 $0.9 46%",
-        "addresses": [
-          "121 Reflects site classification as M lone 2022 131 Pipeline cites include development sites expected to open in",
-          "0 Margin M Express Full Service Flex Subtotal In",
-          "25 Express Full Service Blended I al"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "development"
@@ -12467,9 +20425,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "60",
         "summary": "\u2022 Splash's operational playbook is proven to drive EBITDA improvement from I II Statistics as of March 2022 1*1 rch 2022 Period",
-        "addresses": [
-          "0 ear following acquisition or"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "development"
@@ -12507,9 +20463,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "65",
         "summary": "to Splash Car Wash, Inc. (\"Splash Car Wash,\" \"Splash\" or \"the Company\"). BlackArch Partners LLC (\"BlackArch\") and its 45 A aCj - CAR WASH",
-        "addresses": [
-          "904-6900 Cooperoil3lack A rch Pa"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -12517,9 +20471,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "67",
         "summary": "(3) Represents Average Year 3 Revenue for the 2 Flagstop greenfield sites that opened in 2019 under Management Platform in Place to Reach $48M of Revenue in 2021 Revenue",
-        "addresses": [
-          "3 Revenue for the 2 Flagstop greenfield sites that opened in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue"
@@ -12537,9 +20489,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "69",
         "summary": "2022E Revenue growth provides confidence in recurring revenue stream YoY Revenue Growth YoY Membership Growth (Dollars in Thousands)",
-        "addresses": [
-          "693 YTD May -22 Flagstop sites converted to express washes in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue"
@@ -12548,10 +20498,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "70",
         "summary": "Revenue CAGR: 28% Revenue CAGR: 27% Revenue 2 EB11",
-        "addresses": [
-          "2 to be opened In",
-          "3 greenfield sites under construction set to open in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue"
@@ -12560,10 +20507,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "71",
         "summary": "- Average revenue of $1.6M and EBITDAR of $863K at 7 existing greenfield express locations sand demographic trends in Mature Express reflects the average LTM Revenue for the 4 Flagstop locations that operated as an express location for the entirety of the period shown (LTM Revenue per Site, $ in thousands)",
-        "addresses": [
-          "5 sites expected to open in",
-          "4 gf 4d T stst Siting HUI Chamberlayne in"
-        ],
+        "addresses": [],
         "terms": [
           "traffic",
           "EBITDA",
@@ -12581,11 +20525,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "73",
         "summary": "reach \u201466% of revenue at existing sites by 2027P eftetenfield Sites and Revenue drive volume and revenue \u2014 Membership Revenue projected to",
-        "addresses": [
-          "2022 price change with no setbacks to memberships or",
-          "3 sites under construction set to open in",
-          "2 sit under contract set to open in 2023, and ma"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -12607,9 +20547,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "78",
         "summary": "Membership Revenue% \u2022 2017 \u2014 2022E in Represents LTM Monthly Average as of May 31, 2022",
-        "addresses": [
-          "000 New Memberships Sold in"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -12626,10 +20564,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "80",
         "summary": "In Represents the average Google review rating across all Flagstop express locations compared to 18 car wash competitors in the Central Virginia market",
-        "addresses": [
-          "5 LAMPIN't 4.2 Competitor Avg. Millothian Chamberlayne In",
-          "18 car wash competitors in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -12637,10 +20572,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "81",
         "summary": "neighborhood car wash - modifying car wash equipment. lii Includes current Site Manager set to become Regional Manager upon opening of new 2022 sites. Current employee is in-place to take over Site Manager role",
-        "addresses": [
-          "28 Years of Car Wash Experience Joined Flagstop in",
-          "2022 sites. Current employee is in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -12658,10 +20590,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "83",
         "summary": "Revenue and Total Sites ($ in millions) 80-foot car wash 2017 I Sliding Hill and",
-        "addresses": [
-          "1981 New Site Opening / Conversion Flagstop is founded in Chester, VA",
-          "2020 Iron Bridge and Coloni Heights converted trot in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -12670,9 +20599,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "84",
         "summary": "$22.8M 2022P1 Revenue $1.6M Avg. Revenue per Site 2022 figures shown pro forma for maturity adjustments for 3 greenfield sites under construction set to open in 2022. EBITDAR includes rent expense for 2 sites that will be under third party leases post-",
-        "addresses": [
-          "2022 figures shown pro forma for maturity adjustments for 3 greenfield sites under construction set to open in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue"
@@ -12681,11 +20608,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "85",
         "summary": "\u2014 On track to generate $22.8m in Revenue and operations management, site selection, and brand Flagstop Car Wash: A Platform Built for Growth",
-        "addresses": [
-          "5 greenfield locations scheduled to open in",
-          "3 As Existing Sites OW Sites Under Construction Central VA",
-          "2022 figures shown pro forma for maturity adjustments for 3 greenfield sites under construction set to open In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -12694,22 +20617,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "87",
-        "summary": "representations or warranties, expressly or implied, as to the accuracy or completeness of the infor 1 ntained in this presentation and nothing herein is, or shall",
-        "addresses": [
-          "1 ntained in this presentation and nothing herein is, or"
-        ],
-        "terms": []
-      },
-      {
         "page": "89",
         "summary": "Total revenue $32 $50 $78 \"0 . Steady state revenue per car of $12.25 (with 3% annual sw\u2022 Revenue ramp up due to new units entering Tidal",
-        "addresses": [
-          "4 j3ipecad new openings of 24 units in",
-          "2021 and 33 units in",
-          "36 units per year in",
-          "24 Includes maintenance capes expensed In"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue"
@@ -12718,9 +20628,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "90",
         "summary": "\u2022 Winner 2009 SBA small businessman of the year in Georgia Revenue CAGR from \u2022 Joined Tidal Wave in 2006",
-        "addresses": [
-          "2009 SBA small businessman of the year in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue",
@@ -12745,18 +20653,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "93",
-        "summary": "3 Successful track record of expansion with roadmap in place for units by 2025 Under construction Under contract 2020 2021",
-        "addresses": [
-          "3 Successful track record of expansion with roadmap in",
-          "2021 State Total open units 2018 2019 2020 YID Locations in",
-          "16 I Oneratine nariner with mainrity ownership in"
-        ],
-        "terms": [
-          "development"
-        ]
-      },
-      {
         "page": "94",
         "summary": "Wave Quack Car Wash One of the largest and best performing premium conveyor car wash ~ Designated as Georgia's Small Business of the year in 2009",
         "addresses": [],
@@ -12776,9 +20672,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "96",
         "summary": "for revenue and Adj. EBITDAR \u2022 2019 \u2022 2020 Tidal Wave's mature express unit' sales through COVID vs. 2019 ($mm)",
-        "addresses": [
-          "8 April 1 May June July August COVID-19 Impact Timeline othe Initial periods of mass lockdown in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -12797,9 +20691,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "99",
         "summary": "of the largest conveyor car wash systems in the United States, Revenue ($mm) Adjusted EBITDAR ($mm) and margin2 'Calculated off of units opened >2 years as of 12/31/2019; 2 Includes maintenance capex expensed in the year incurred",
-        "addresses": [
-          "2 Includes maintenance capex expensed in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -12826,9 +20718,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "105",
         "summary": "Total Gross Revenue $47 066 849 842 575 503 Men,': 509 Revenue For Rafe Norma? alien And Leenflon Maturation '77 p Memo: Adj Revenue Far Price Normakalion %n , ii (' 1775 7 74.972/",
-        "addresses": [
-          "2022 to 2026 as wash volumes increase over time mntal OnE adjustments Include CEn rompensattons pricina adjustment in"
-        ],
+        "addresses": [],
         "terms": [
           "EBITDA",
           "revenue",
@@ -12872,10 +20762,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "111",
         "summary": "Revenue $J9/1 \u2022 201/ 9 2021 \u2022 5 new locations that are expected to be under contract in 2022 Delivering strong organic revenue growth from the 11 locations that have",
-        "addresses": [
-          "6 locations expected to open in",
-          "5 new locations that are expected to be under contract in"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -12883,9 +20770,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "118",
         "summary": "\u2022 30+ year car wash",
-        "addresses": [
-          "15 years of soft line retail leadership in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -12894,9 +20779,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "119",
         "summary": "\u2022 Revenue optimization through product improvement, pricing",
-        "addresses": [
-          "30 Acquisitions Acguiror of choice in"
-        ],
+        "addresses": [],
         "terms": [
           "revenue"
         ]
@@ -12912,9 +20795,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "121",
         "summary": "\u2022 Exploring car wash innovations Car Wash In a Box 2023+ Innovation- oc.useg",
-        "addresses": [
-          "2019-2022 Foundation Eco-proJects Car Wash In a Box Soapy Joe's University with AR"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -12923,9 +20804,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "122",
         "summary": "Unlimited car wash Unlimited car wash 0 SOAPY JOE'S MARKETING STRATEGY IN ACTION",
-        "addresses": [
-          "0 SOAPY JOE'S MARKETING STRATEGY IN"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -12942,9 +20821,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "126",
         "summary": "I really like this car wash fl isastayinyourcar",
-        "addresses": [
-          "20 points higher than national average in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -12956,16 +20833,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "terms": [
           "car wash"
         ]
-      },
-      {
-        "page": "129",
-        "summary": "By unaided awareness in 2021 By aided awareness in 2021' #",
-        "addresses": [
-          "8 By aided awareness in",
-          "6 By unaided awareness in",
-          "20 points higher than the national average in"
-        ],
-        "terms": []
       },
       {
         "page": "130",
@@ -12987,9 +20854,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "134",
         "summary": "So,tce Frost PSurhoon. Statisfa Aftermail . etnews car wash rem IBISWorld Car Wash A Ai ,to DeloPling in he U.S. lune 2021 MSWorld Car Wash Deloihno in I FAVORABLE FOR CAR WASH DEMAND \u2022 18% CAGR from 2019 to 2022",
-        "addresses": [
-          "2021 MSWorld Car Wash Deloihno in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13029,18 +20894,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "140",
-        "summary": "2018A 2022E 2023E",
-        "addresses": [
-          "111 Leading express car washing platform in"
-        ],
-        "terms": [
-          "car wash",
-          "traffic",
-          "revenue"
-        ]
-      },
-      {
         "page": "141",
         "summary": "car wash to the express wash model and",
         "addresses": [],
@@ -13060,9 +20913,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "143",
         "summary": "\u2022 The San Diego Reader crowned Soapy Joe's as \u2022 Official car wash and sponsor of San Diego concept of getting married in a car wash brands and operators by carwash.com",
-        "addresses": [
-          "500 Most Influential People in SD"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13070,9 +20921,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "144",
         "summary": "Unlimited car wash Official car wash Car wash Karaoke,",
-        "addresses": [
-          "1 Jun 2021 120k members 2022 Groundbreaking On 5 units in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13135,9 +20984,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "159",
         "summary": "Super Star Car Wash presents one of the few opportunities to acquire a Top 20 national chain and a high quality leader in the burgeoning car wash market. Management sees significant growth opportunities available for Super Star Car Wash, many of which are achievable given the current level of operation and 2019 2020 2021 2022 2023",
-        "addresses": [
-          "20 national chain and a high quality leader in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13156,10 +21003,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "161",
         "summary": "development sites are expected to add approximately $76.8 mm to total development. All sites will be express car wash locations, and 12 are expected Super Star was the first car wash company to develop a membership app in",
-        "addresses": [
-          "12 are expected to open in",
-          "8 mm to total EBITDA based on Management's projections. Note that, in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -13191,32 +21035,13 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "terms": []
       },
       {
-        "page": "166",
-        "summary": "that were built and later sold. Initially, all sites were full service until 2009, when the market shifted towards express washes in favor of their higher margins full service since 2009 The first Super Star site was opened in 1993 by Reza Amirrezvani, with growth continuing through April 2021 to 33 active sites, as well as eight other si",
-        "addresses": [
-          "1993 First Super Star site is opened in",
-          "2018 Two additional sites open in CA, four open in AZ"
-        ],
-        "terms": []
-      },
-      {
         "page": "167",
         "summary": "May, 60% were Fast Pass members. Membership revenue reached $36.8 mm and years. Of the 6.9 million cars to have visited a Super Star site in 2021 LTM through recurring revenue from memberships helping to smooth out the negative impacts of",
-        "addresses": [
-          "9 million cars to have visited a Super Star site in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
         ]
-      },
-      {
-        "page": "168",
-        "summary": "\u2022 sites Opened 2012-16 II Sites Opened 2017-18 \u2022 Sites Opened 2019-20 Aug total car counts in the 2021 YTD period, up from 48.9% of car counts in 2019, and opened in 2019-2020 through August took just 16 months on average.",
-        "addresses": [
-          "000 member mark in only one month's time. Fleet Program In"
-        ],
-        "terms": []
       },
       {
         "page": "169",
@@ -13230,9 +21055,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "171",
         "summary": "administrative functions. Many of these are car wash associates (231 as of May, or 37% of total staff), sees as they approach the car wash. Each employee goes through an E-Verify process prior to onboarding Car Wash Manager 25",
-        "addresses": [
-          "231 as of May, or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -13241,9 +21064,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "172",
         "summary": "siting, acquisition, development, and construction, employing the multi-faceted site selection methodology perfected over years by Founder Reza Amirrezvani. With the size and capabilities of the current team, Super Star is poised for the next stage of growth through 2021-2022 development and beyond.",
-        "addresses": [
-          "7 vies Brit Sock G al-Express & New Sites cites Additional organizational chart detail provided in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -13252,12 +21073,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "173",
         "summary": "Reza Amirrezvani is the Founder and CEO of Super Star Car Wash, which he started in 1993 when he opened the first location in Chandler, Arizona. Mr. morale. Prior to Super Star, Mr. Elgersma worked as a Service Advisor for Super Station Car Wash. He quickly became the top salesperson for the company Jonathan Kierman is a sales, marketing,",
-        "addresses": [
-          "1993 when he opened the first location in",
-          "42 car washes altogether over the course of his career, having sold a number of them in",
-          "25 years of experience in",
-          "30 years of experience in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13265,11 +21081,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "174",
         "summary": "Tom Droste brings over 34 years of experience in the car wash industry including full service, express, and detail services. While completing a degree in CAD, efficiencies and automation to the car wash. Mr. Durham has a bachelor's degree in Computer Science. Mr. Droste worked at a car wash and quickly realized the opportunities available",
-        "addresses": [
-          "12 years of experience in human resource management and has worked in",
-          "12 years of experience in the field, he carries a varied background in",
-          "34 years of experience in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13277,10 +21089,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "175",
         "summary": "Brice Sack holds 21 years of car wash and oil & lube experience. Brice originally came over to the Super Star team in 2017. In 2018, he opened one of Super Star's new express sites, a location which later would become a Company training site. Brice has leveraged his management and car wash experience to JR Ruelas has been in the car wash ",
-        "addresses": [
-          "21 years of car wash and oil & lube experience. Brice originally came over to the Super Star team in",
-          "19 years with Foot Locker where he was a store manager and manager trainer, in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -13303,17 +21112,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "179",
-        "summary": "stations in the market, reaching over 600,000 listeners per month. Also in 2021, Super Star added with Super Star on two spotlight events in 2021 involving significant Super Star promotion through on- reaching approximately 240,000 potential customers each month. Additional services provided by",
-        "addresses": [
-          "30 seconds per commercial airing an average of eight times a day. Radio advertisements are strategically timed during rush hours in",
-          "000 listeners per month. Also in"
-        ],
-        "terms": [
-          "traffic"
-        ]
-      },
-      {
         "page": "180",
         "summary": "has partnered with AZFamily to sponsor Paul's Car Wash. This annual event gains significant media Car Wash will be the sponsor of the Super Star Player of the Game. over 170,000 viewers per month, and capture an additional audience not watching traditional",
         "addresses": [],
@@ -13324,9 +21122,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "181",
         "summary": "With a deep text message file of over 213,000 subscribers, in partnership with OptSpot (a leading car wash text messaging knowledge) in late 2020 on targeted digital campaigns. With four pilot locations in Arizona, Welcomemat utilized its grand opening and are sent to car owners in targeted zip codes nearby. On average, 30,000 postcards w",
-        "addresses": [
-          "2020 on targeted digital campaigns. With four pilot locations in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -13335,9 +21131,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "182",
         "summary": "followers through car wash education, promotions, employee and community recognition, and as with Paul's Car Wash to support Big Brothers/Big Sisters of Arizona and KUPD to provide Super Star is the first major car wash chain to develop a mobile app with industry leader DRB",
-        "addresses": [
-          "2021 to further improve the user experience. Social Media In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13346,8 +21140,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "184",
         "summary": "The Company operates 26 car wash sites opened in 2019 or before, opened 7 sites in 2020-2021, and is in various stages of building 47 development sites. With the exception model as it pertains to express car wash operations, the keys to Super Star's market",
         "addresses": [
-          "26 car wash sites opened in",
-          "7 sites in 2020-2021, and is in",
           "1830 N. 95th Ave in"
         ],
         "terms": [
@@ -13404,16 +21196,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "189",
         "summary": "Waddell and Prasada Surprise, AZ Pre-Construction Jul-21 Jan-22 Own 1.1 acres 137 32 19,418 5,189,316 1,350,468 Signal Butte and Warner Mesa, AZ Pre-Construction Jul-21 Jan-22 Lease 02 acres 142 24 16,648 3,730,689 1,137,006 Scottsdale Road Scottsdale, AZ Pre-Construction Aug-21 Feb-22 Own 0.9 acres 140 34 41,901 6,782,200 1,686,058",
         "addresses": [
-          "551 Happy Valley and 35th Phoenix, AZ In",
-          "133 Miller and Durango Buckeye, AZ",
-          "139 Oracle Tucson, AZ In",
-          "025 Waddell and Prasada Surprise, AZ",
-          "468 Signal Butte and Warner Mesa, AZ",
-          "930 Merrill Ranch Florence, AZ",
-          "544 Scottsdale Road Scottsdale, AZ",
-          "058 Riggs and Arizona Chandler, AZ",
-          "984 Cottonwood Casa Grande, AZ In",
-          "279 Jackrabbit Buckeye, AZ In"
+          "544 Scottsdale Road Scottsdale, AZ"
         ],
         "terms": [
           "traffic",
@@ -13425,9 +21208,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "190",
         "summary": "\u2022 Traffic Counts \u2014 With consideration to both destination point and commuter methodology to new site selection, developed through years of operational and location for express car wash development involves a number of factors, each of",
-        "addresses": [
-          "5 C c CI CO"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -13459,15 +21240,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Sheridan Sheridan, CO In Escrow Jan-22 Jun-22 Own 0.9 acres 155 32 44,364 7,360,220 2,145,155 Sanderson Hemet, CA In Escrow Jan-22 Jun-22 Lease 0.9 acres 135 21 34,560 4,333,200 1,352,904 Rosecrans Norwalk, CA In Escrow Sep-21 May-22 Lease 0.7 acres 130 23 32,292 4,333,200 1,878,537",
         "addresses": [
           "106 Mission Ave Oceanside, CA In",
-          "162 Crenshaw Gardena, CA In",
-          "309 Corydon Lake Elsinore, CA",
-          "309 Mission Center San Diego, CA",
-          "773 Eucalyptus Moreno Valley, CA",
-          "353 Balboa San Diego, CA In",
-          "831 Rosecrans Norwalk, CA In",
-          "537 Miramar San Diego, CA In",
-          "904 Sanderson Hemet, CA In",
-          "904 Avocado El Cajon, CA In"
+          "245 Oceanside Blvd Oceanside, CA In"
         ],
         "terms": [
           "traffic",
@@ -13488,9 +21261,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "196",
         "summary": "the road, the demand for car wash services increase. Vehicle registrations are National players in the car wash space are highlighted below, with Super Star represented: Growth in car wash revenue can be tied to the number of registered vehicles in the",
-        "addresses": [
-          "20 National Players National players in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -13499,15 +21270,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "197",
         "summary": "CO-BilitSThlwr \u2014 Founded In 1984 and is one of the largest car wash operators in Arizona. The company AUTO SPA offers full-service washes, express washes, detailing, gas, and oil and lobe. Jacksons Jacksons Car Wash expanded to Arizona In 2014, and operates convenience stores and car c'' Raceway Raceway Express Car Wash provides car washi",
-        "addresses": [
-          "1984 and is one of the largest car wash operators in",
-          "19905 and operates a chain of express washes. The company is based in",
-          "0 Clean Freak Express Car Wash Clean Freak Express Car Wash operates a chain of car washes in",
-          "14 locations with four more In",
-          "4 locations and 1 in development in",
-          "2011 and operates a chain of 9 express and flex-service car washes in",
-          "1 in development. Quick Quack Quick Quack has 52 locations with Gin development in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -13516,9 +21279,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "199",
         "summary": "revenue line which has declined materially since 2019 is Fuel, a Revenue 74,028,083 83,785,027 97,286,633 109,290,616 170,372,210 EBITDA, Adjusted $ 16,189,500 26,875,168 31,959,976 39,083,070 67,245,533",
-        "addresses": [
-          "00 in Arizona, while in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA",
@@ -13548,9 +21309,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "202",
         "summary": "Deferred Revenue and Accounts Payable, totaling 42.3 mm and =$1.8 mm and Accounts Receivable. As with other businesses in the car wash sector, Current Assets as of May 2021 totaled =26.9 mm. After Cash, Assets in",
-        "addresses": [
-          "9 mm. After Cash, Assets in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue",
@@ -13676,9 +21435,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "221",
         "summary": "operating in fourteen (14) states and generating more than $40MM of EBITDA. In August 2014, Leonard Green and above the IPO price of $15 per share. Mister Car Wash offered 37.5 million shares of common stock, with 31.25 million Mister Car Wash (NYSE: MCW) made its public debut in June 2021, raising $468MM as shares quickly rallied to 49%",
-        "addresses": [
-          "68 of Onex capital in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "EBITDA"
@@ -13687,10 +21444,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "222",
         "summary": "car wash owners seeking his operations skillset and prowess. Today, the Russell Speeder's business grosses over $48 million across and accumulated $180 million in revenue. The company continues to progress towards cleaner energy solutions while delivering accounting, and human resource programs. From 2017-2020, Mr. Shullman implemented on",
-        "addresses": [
-          "000 per store per year. In",
-          "70 different countries. Shell is one of America's largest oil and natural gas producers. In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -13743,14 +21497,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         ]
       },
       {
-        "page": "229",
-        "summary": "around 6,100 according to the 2010 census, it maintains a small-town feel for locals and visitors alike. There are plenty of offerings",
-        "addresses": [
-          "1000 corporations stationed within Fairfield County. There are multiple public and private colleges and universities settled in"
-        ],
-        "terms": []
-      },
-      {
         "page": "230",
         "summary": "conveyorized-tunnel car wash and Shell gasoline station located at 1429 East Putnam Avenue, Old Greenwich, CT 06870 (\"The portfolio in a significant manner since 2016. In 2019, Russell Speeder's ranked #19 on Carwash.com's 'Top 50 U.S. Conveyor Chain' conveyorized-car wash. Generating an additional $2,688,000 per year, the asset will conc",
         "addresses": [
@@ -13775,6 +21521,117 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "241",
         "summary": "rn 1,000+ Carwash company valuations >$1B Carwash Transaction Value \u25aa everything running smoothly at Car Wash Advisory.",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "243",
+        "summary": "Mister Car Wash \u2014Aftermarket Automotive Services Index High growth consumer services",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "244",
+        "summary": "Mister Car Wash EV/NTM Revenue EV/NTM Revenue",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "245",
+        "summary": "public of Mister Car Wash and Driven Brands, the general Private Market Car Wash Valuations by Year (Trading 12 months EV/Adj. EBITDA)",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "248",
+        "summary": "which operates 65 express tunnel car wash locations across significant investment in the growing car wash industry, enhance Couche-Tard's existing car wash network and drive",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "development"
+        ]
+      },
+      {
+        "page": "251",
+        "summary": "been acquired by 2022, leaving larger site count carwash companies, or rather nascent Carwash M8A deal activity saw all-time high levels in 2022 alongside a rather violent [The carwash industry has experienced transaction volume of roughly 8-10% of the high",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "253",
+        "summary": "Carwash company disbursement viewed through another lens. 9 GO Car Wash 154 34 Wash N Roll 42 59 Mighty Wash 23 84 Buddy Bear Car Wash 17 8 Spotless Brands 205 33 Sparkling Image Car Wash 42 58 Flagstop Car Wash 23 83 Bliss Car Wash 17",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "254",
+        "summary": "Several carwash companies edging towards the invisible line of considering a go -public transaction 1111121111 113\u00b01 120115 112 90 74 68 5 $4At li gur.kiIM.: U3NINHA\".1i g \u2022 ic; 8 cd",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "255",
+        "summary": "Top 50 Carwash Companies by Quartile Over Time Annual Change in Site Count per Quartile At A Glance: What It Takes to Be in the Top Car Wash Companies 2018 2019 2020 2021 2022 2023 2024",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "257",
+        "summary": "Denotes total carwash MBA transaction volume by year. 2019 2020 2021 2022 2023",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "258",
+        "summary": "Constraining the total population of carwash sites throughout the United States down to the",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "259",
+        "summary": "\u2022 Car wash at \u2022 Car Wash at Persistent positive automotive tailwinds provide a beneficial backdrop for the carwash sector",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "260",
+        "summary": "U.S Exterior Car Wash Unit Count Sources: International Car Wash Association and CWA Proprietary Data Percent of Car Wash Consumers that",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "262",
+        "summary": "When I founded Car Wash Advisory in August 2019, it wasn't due to any unprecedented surge in new car wash developments across the country. These interest and activity became almost axiomatic, as the car wash industry seemingly",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "development"
+        ]
+      },
+      {
+        "page": "265",
+        "summary": "Car Wash Advisory",
         "addresses": [],
         "terms": [
           "car wash"
@@ -15586,6 +23443,454 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "revenue": "",
         "ebitda": "$1,611,504",
         "note": "In Escrow Super Star development site with 0.7 acres lot, 41,119 traffic count, and stabilized EBITDA listed at $1,611,504."
+      },
+      {
+        "type": "Development Site",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "184",
+        "name": "The Company operates 26 car wash sites opened in 2019 or before, opened 7 sites in",
+        "location": "1830 N. 95th Ave in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "The Company operates 26 car wash sites opened in 2019 or before, opened 7 sites in 2020-2021, and is in various stages of building 47 development sites. With the exception model as it pertains to express car wash operations, the keys to Super Star's market"
+      },
+      {
+        "type": "Development Site",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "7",
+        "name": "II ADJUSTMENTS TO EBITDA",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$11,419",
+        "note": "Reported EBITDA $11,419 $7,648 $13,874 $13,509 Pro Forma Adjusted EBITDA $9,003 $5,834 $18,988 $41,986 Adjusted EBITDA $9,003 $5,834 $18,988 $19,449 EBITDA $11,419."
+      },
+      {
+        "type": "Development Site",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "13",
+        "name": "P SUMMARY INCOME STATEMENT",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$392 m",
+        "note": "Management expects Splash to grow to revenues and adjusted EBITDA of $392 million Adjusted EBITDA $9.0 $5.8 $19.0 $21.4 $36.9 $48.1 $60.1 $72.2 $85.7 (1) Revenue growth rate in 2020 to 2022 calculated using actual cost (not pro forma) revenues EBITDA $392 m."
+      },
+      {
+        "type": "Development Site",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "155",
+        "name": "Super Star is a leading player in the express car wash industry in the United States...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$1.2 m",
+        "note": "results and meteoric growth are fueled by a corporate organization that excels in the areas of operations, site selection Super Star is a leading player in the express car wash industry in the United States. The Company's stellar financial Revenue! Site EBITD..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "230",
+        "name": "An investor group consisting of The Morgan Group and Russell Speeder's Car Wash (coll...",
+        "location": "1429 East Putnam Avenue, Old Greenwich, CT 06870",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$20,000,000",
+        "ebitda": "$4,000,000",
+        "note": "conveyorized-tunnel car wash and Shell gasoline station located at 1429 East Putnam Avenue, Old Greenwich, CT 06870 (\"The portfolio in a significant manner since 2016. In 2019, Russell Speeder's ranked #19 on Carwash.com's 'Top 50 U.S. Conveyor Chain' conveyo..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "26",
+        "name": "II GREENFIELD DEVELOPMENT PLAYBOOK AND ECONOMICS",
+        "location": "Derby, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "42,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Splash's de novo playbook is underpinned by systematic site selection and design, pre- and Population Si Density iii -51,000 / -1,865/sq. mi. Personal Income $58,534 Traffic 42,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "71",
+        "name": "Successfully Demonstrated Greenfield Playbook",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1.6M",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "- Average revenue of $1.6M and EBITDAR of $863K at 7 existing greenfield express locations sand demographic trends in Mature Express reflects the average LTM Revenue for the 4 Flagstop locations that operated as an express location for the entirety of the per..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "85",
+        "name": "Flagstop Car Wash: A Platform Built for Growth",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$11.9M",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2014 On track to generate $22.8m in Revenue and operations management, site selection, and brand Flagstop Car Wash: A Platform Built for Growth Revenue $11.9M."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "160",
+        "name": "Demographic Support - Page 160",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$10k",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "with many key players increasing prices and therefore, revenue per car. The car wash sector has seen accelerated growth in recent years, particularly in Super Star's current markets. Management continuously explores various new technologies aimed at increasin..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "83",
+        "name": "80-foot car wash",
+        "location": "Chester, VA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$24.4",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Revenue and Total Sites ($ in millions) 80-foot car wash 2017 I Sliding Hill and Revenue $24.4."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "219",
+        "name": "About Hoffman Car Wash",
+        "location": "1757 Central Avenue in Colonie, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Founded in 1965, Hoffman Car Wash (\"HCW\" or the \"Company\"), led by industry veteran Tom Hoffman Jr., is a the next three (3) to five (5) years. InnovatelT Car Wash Equipment's growth mirrors that of the industry, and by late added benefit of manufacturing its..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "224",
+        "name": "Source Evidence - 200 Greenwich Ave Kensico Properties NV",
+        "location": "200 Greenwich Ave Kensico Properties NV",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "84 Camp Ave Camp Avenue Car Wash' Stamford 1987 2,742 Oct-20 $2,330,000 $850 1429 E Putnam Ave Russell Speeder's Car Wash &Shell Station Old Greenwich 1977 20,0W $20,000,000 $1,000 [1/ Camp Avenue Car Wash is a significantly inferior quality product compared..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "10",
+        "name": "Source Evidence - Page 10",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$0.74",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "the continued shift in revenue mix towards subscription e ala CAR WASH associated with non -car wash services representing less Revenue $0.74."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "15",
+        "name": "Source Evidence - Page 15",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$58.5 m",
+        "note": "\u2022 Pro forma revenues and EBITDA for LTM March 2022 and 2022E l'F are presented using a conservative two-year maturation analysis as if: \u2022 Cumulative revenues of $120.4 million and EBITDA of $58.5 million added through acquisition by 2027 - Revenue growth by i..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "21",
+        "name": "II ORGANIC GROWTH IN BASE PLATFORM",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$163",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "7.8% Organic Revenue CAGR 2022[ 2023P 2024P 20251' 2026P 20271' Revenue $163."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "67",
+        "name": "Platform in Place to Reach $48M of Revenue in",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2.7",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "(3) Represents Average Year 3 Revenue for the 2 Flagstop greenfield sites that opened in 2019 under Management Platform in Place to Reach $48M of Revenue in 2021 Revenue Revenue $2.7."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "68",
+        "name": "Clear Path to $141.9M in 2022PF EBITDAR",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$184",
+        "ebitda": "",
+        "note": "\u2022 Growth of the RVA Wash Club and its recurring revenue \u2022 Greenfield 4-Wall EBITDAR Growth \u2014 Represents 2022 4-Wall E \u2014 May YTD 2022 Run-Rate 4-Wall EBITDAR of $10.0M with growth expecte Asking price $184."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "69",
+        "name": "Strong Momentum Fuels 2022 Growth",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$8.3",
+        "asking_price": "$8.3",
+        "ebitda": "",
+        "note": "2022E Revenue growth provides confidence in recurring revenue stream YoY Revenue Growth YoY Membership Growth (Dollars in Thousands) Asking price $8.3. Revenue $8.3."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "84",
+        "name": "Source Evidence - Page 84",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$11.9M",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "$22.8M 2022P1 Revenue $1.6M Avg. Revenue per Site 2022 figures shown pro forma for maturity adjustments for 3 greenfield sites under construction set to open in 2022. EBITDAR includes rent expense for 2 sites that will be under third party leases post- Revenu..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "89",
+        "name": "Source Evidence - Page 89",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$32",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total revenue $32 $50 $78 \"0 . Steady state revenue per car of $12.25 (with 3% annual sw\u2022 Revenue ramp up due to new units entering Tidal Revenue $32."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "92",
+        "name": "4 Significant and growing base of recurring revenue from subscription",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$19.99",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "4 Significant and growing base of recurring revenue from subscription 0 Subscription revenue as a % of total revenue 0 Average revenue per plan Revenue $19.99."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "104",
+        "name": "PROJECTED NET REVENUE BRIDGE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$103M",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 Net revenue per seasoned site projected to grow 11% to $3.7M 2022E to 2026E net revenue bridge ($M) 2022E Net revenue Volume growth Price increase New locations 2026E Net revenue \u2022 New locations contribute an additional $103M of revenue between Revenue $103..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "105",
+        "name": "FINANCIAL SUMMARY",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$47",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Gross Revenue $47 066 849 842 575 503 Men,': 509 Revenue For Rafe Norma? alien And Leenflon Maturation '77 p Memo: Adj Revenue Far Price Normakalion %n , ii (' 1775 7 74.972/ Revenue $47."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "107",
+        "name": "ACQUISITION EXPECTED REVENUE AND EBITDAR CONTRIBUTION",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2.5",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EBITDA 0.5 1.6 2.2 2.5 2.5 $5 Projected revenue and EBITDA contribution from new sites in projection EBITDA 0 %margin Revenue $2.5."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "158",
+        "name": "Super Star Car Wash (\"Super Star\" or \"the Company\") is the operator of one of the pre...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$97.3",
+        "asking_price": "",
+        "ebitda": "$32.0",
+        "note": "for enhanced service offerings. Express Wash represented roughly 90% of car wash revenue in 2021 Revenue $97.3 109.3 170.4 Pro Forma EBITDA $32.0 39.0 67.2 Revenue $97.3. EBITDA $32.0."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "167",
+        "name": "Source Evidence - Page 167",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$36.8 m",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "May, 60% were Fast Pass members. Membership revenue reached $36.8 mm and years. Of the 6.9 million cars to have visited a Super Star site in 2021 LTM through recurring revenue from memberships helping to smooth out the negative impacts of Revenue $36.8 m."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "199",
+        "name": "Financial Summary",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3.00",
+        "ebitda": "$ 16,189,500",
+        "note": "revenue line which has declined materially since 2019 is Fuel, a Revenue 74,028,083 83,785,027 97,286,633 109,290,616 170,372,210 EBITDA, Adjusted $ 16,189,500 26,875,168 31,959,976 39,083,070 67,245,533 Asking price $3.00. EBITDA $ 16,189,500."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "200",
+        "name": "\u2022 New car wash sites tend to increase operating losses as they ramp up business",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$3.5 m",
+        "note": "Four areas of adjustment were made to Super Star's 2021 LTM EBITDA. These adjustments include EBITDA, Pre-Adjusted 31,490,753 EBITDA, Adjusted 31,959,976 EBITDA $3.5 m."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "211",
+        "name": "Source Evidence - Page 211",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$ 1,660,763",
+        "note": "EBITDA, Adjusted $ 1,660,763 2,088,887 448,481 883,699 1,777,389 126,216 34,525 350,253 724,089 413,873 - 964,252 1,647,345 CAR WASH 2,881,740 3,413,531 1,110,574 1,885,832 3,011,812 463,336 392,075 1,086,930 1,660,900 918,223 432,000 1,848,815 2,719,682 CAR..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "212",
+        "name": "Source Evidence - Page 212",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$ 297,231",
+        "note": "EBITDA, Adjusted $ 297,231 876,367 1,008,052 914,360 1,042,306 985,750 1,613,859 - 1,700,605 813,520 31,959,976 - 31,959,976 CAR WASH 824,455 1,726,970 1,837,278 1,788,696 2,801,796 2,141,960 3,402,834 32,899 3,619,852 2,149,633 63,023,387 63,023,387 CAR WASH..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "221",
+        "name": "About Mister Car Wash",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$15",
+        "ebitda": "",
+        "note": "operating in fourteen (14) states and generating more than $40MM of EBITDA. In August 2014, Leonard Green and above the IPO price of $15 per share. Mister Car Wash offered 37.5 million shares of common stock, with 31.25 million Mister Car Wash (NYSE: MCW) mad..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned Most Recent.txt",
+        "page": "222",
+        "name": "Mr. Shullman's successful career in the car wash industry began in 1984, when he serv...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$425,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "car wash owners seeking his operations skillset and prowess. Today, the Russell Speeder's business grosses over $48 million across and accumulated $180 million in revenue. The company continues to progress towards cleaner energy solutions while delivering acc..."
       }
     ],
     "gallery_images": []
@@ -16073,8 +24378,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
     "pdf_url": "documents/Scanned-Documents-Bin-2.pdf",
     "text_url": "ocr-output/Scanned Documents Bin 2.txt",
     "page_count": 156,
-    "evidence_page_count": 117,
-    "evidence_row_count": 0,
+    "evidence_page_count": 116,
+    "evidence_row_count": 89,
     "pages": [
       {
         "page": "1",
@@ -16127,14 +24432,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "terms": []
       },
       {
-        "page": "13",
-        "summary": "\u201c4 Patent ay aoe ake geet - pa",
-        "addresses": [
-          "4 Patent ay aoe ake geet - pa"
-        ],
-        "terms": []
-      },
-      {
         "page": "15",
         "summary": "570 Bedford Road Bedford Hills, NY, 10507",
         "addresses": [
@@ -16171,9 +24468,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "29",
         "summary": "as Revenue $1,110 $14 \u2018a $1,780 \u00ab$1,920 $2,020 . _ Management estimates new build costs of $4.5 million per carwash (excluding land): \u00bb Sales for each carwash takes approximately sil oN hit full maturity:",
-        "addresses": [
-          "1 open date for one location in"
-        ],
+        "addresses": [],
         "terms": [
           "revenue",
           "development"
@@ -16208,9 +24503,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "36",
         "summary": "31602 31602 Whistle Express Car Wash Valdosta, GA 31602 5 ect . Car Wash Name a",
-        "addresses": [
-          "31602 Whistle Express Car Wash Valdosta, GA 31602"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -16227,9 +24520,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "39",
         "summary": "32304 Tallahassee Whistle Express Car Wash Tallahassee, FL 32304",
-        "addresses": [
-          "32304 Tallahassee Whistle Express Car Wash Tallahassee, FL 32304"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -16322,8 +24613,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "55",
         "summary": "Clase i _ _EASI Census 2010 Site Selection Reports & Analysis Updated _ Address: 86 Woodlawn Rd, Berlin, CT 06037 \u2018Sieibaaeunenoen coed Population 2,756 52,207 149,427",
         "addresses": [
-          "86 Woodlawn Rd, Berlin, CT 06037",
-          "2021 Areas Pony Description 1 Miles 3 Miles 5 Miles in"
+          "86 Woodlawn Rd, Berlin, CT 06037"
         ],
         "terms": []
       },
@@ -16460,9 +24750,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "75",
         "summary": "Close EASI Census 2010 Site Selection Reports & Analysis \u201cere Hispanic Population 6,089 37,952 52,098 sMap data \u00a92019 Google} Map data \u00a92019 Google} bo |, 020 2017",
-        "addresses": [
-          "29-79 Ate Witt Median Age 27.6 30.4 33.6 2g GY Evy mn"
-        ],
+        "addresses": [],
         "terms": []
       },
       {
@@ -16784,9 +25072,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "121",
         "summary": "Total addbacks are about $110,000-120,000. There is about another $50K in revenue not included in the P&L Pro Shine Car Wash Here is my fathers car wash. | am trying to sell it for him. | see you have a couple in Florida. C",
-        "addresses": [
-          "1 year ago and installed the proper processes and has already seen an increase in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "revenue"
@@ -16805,11 +25091,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "125",
         "summary": "Exterior car wash since 1968 that was rebuilt after a fire in 2001. 85' tunnel with Econocraft equipment. Car wash does Car wash: $690,000(30,000 cars x $23 avg) \u2018Fairfield Hand Car Wash",
-        "addresses": [
-          "2 washes being sold to as ne",
-          "101 Routa46 E, Pinebrook, NJ",
-          "1968 that was rebuilt after a fire in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -16818,8 +25100,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "127",
         "summary": "Full Service Car Wash,4 Bay lube and 2 Bay Detail Center on 1 acre of land built in 2006. Building size is about 9300 sq Car Wash repairs 53,000***** Car Wash Supplies 50,000",
         "addresses": [
-          "86 Route 17K Newburgh, NY",
-          "4 Bay lube and 2 Bay Detail Center on 1 acre of land built in"
+          "86 Route 17K Newburgh, NY"
         ],
         "terms": [
           "car wash"
@@ -16839,9 +25120,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "129",
         "summary": "Car Wash Supply: $ 27,578 Subject: RE: Car Wash Route 41 Car Wash",
-        "addresses": [
-          "000 Busy car wash in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -16851,8 +25130,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Ridgefield Car Wash Full Service car wash in a solid middle class town. Presently set up as a flex serve. Owner is not using the walkway or totaling just under 1 acre. There is a house on second lot that owner is in the midst of getting permits to demolish to",
         "addresses": [
           "6 Farmingville Rd Ridgefield, CT",
-          "000 with property Full Service car wash in a solid middle class town. Presently set up as a flex serve. Owner is not using the walkway or",
-          "2 properties totaling just under 1 acre. There is a house on second lot that owner is in",
           "1266 E Main St Suite 700R Stamford, CT 06902"
         ],
         "terms": [
@@ -16872,9 +25149,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "132",
         "summary": "New wawe car wash Water & Sewer 4,000 - We have a well Vacuums 30,000",
-        "addresses": [
-          "500 Please contact the broker with any questions. concerns or"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -16904,10 +25179,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Car wash and lube claims $900,000 gross. Long lease or property. Car wash, \u2014s : 2 bay self serve. ae be full service. Car wash and property. Very excellent area. Huge office can be",
         "addresses": [
           "622-3001 CAR WASH OPPORTUNITIES 576 Springfield Avenue, Newark, NJ",
-          "000 gross. Long lease or",
           "3110 E. Route 10, Denville, NJ",
-          "1 acre of property included in",
-          "000 total. May get in",
           "350 Route 46, Budd Lake, NJ"
         ],
         "terms": [
@@ -16926,11 +25198,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "138",
         "summary": "1 acre property. Carwash, lube In nice areca. Claims $550,000 In carwash and $380,000 In quick lube. Carwash and property. Ol change would make this place jump.",
         "addresses": [
-          "53 South t W. Haverstraw, NY",
-          "240 million waterfront project on going in",
-          "000 on 25 year lease or",
           "000 including property. 799 Saw Mill Road, Yonkers, NY",
-          "1 acre property. Carwash, lube In",
           "73 Palisades Avenue, Yonkers, NY"
         ],
         "terms": [
@@ -16959,8 +25227,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "141",
         "summary": "Major store location in Linden, NJ - Busy main road (Route 27) retail and services, with large car wash, second road Grocery store, Car Wash, Auto glass and window tinting, Auto repair service and parking rents. , Asking Price Index Trends for Linden, NJ Retail For Sale",
         "addresses": [
-          "20 minutes fo Staten Island, NY",
-          "488 Map of 820 E St Georges Ave, Linden, NJ 07036",
           "820 E St Georges Ave, Linden, NJ 07036"
         ],
         "terms": [
@@ -17005,9 +25271,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "146",
         "summary": "EASI Census 2010 Site Selection Reports & Analysis Address: 3050 N University Dr, Sunrise, FL 33322 White Population 8,251 87,939 194,032",
         "addresses": [
-          "3050 N University Dr, Sunrise, FL 33322",
-          "2018 Google DEMOGRAPHIC OVERVIEW wy",
-          "751 BLOCK GROUP COUNT il"
+          "3050 N University Dr, Sunrise, FL 33322"
         ],
         "terms": []
       },
@@ -17023,8 +25287,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "148",
         "summary": "45,500 Daily Traffic Count 2,000 SF CBS Building on 0.55 Acres Zoned Commercial Open 51 Years / Built in 1969",
         "addresses": [
-          "9650 S. Dixie Highway, Miami, FL 33156",
-          "51 Years / Built in"
+          "9650 S. Dixie Highway, Miami, FL 33156"
         ],
         "terms": [
           "car wash",
@@ -17043,8 +25306,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "150",
         "summary": "66,000 Daily Traffic Count 2,000 SF CBS Building on 0.60 Acres Zoned Commercial Premium Car Wash Equipment Package",
         "addresses": [
-          "9750 N Kendall Drive, Miami, FL 33176",
-          "48 Years / Built in"
+          "9750 N Kendall Drive, Miami, FL 33176"
         ],
         "terms": [
           "car wash",
@@ -17075,8 +25337,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "154",
         "summary": "10 self serve vacuums. Car wash was built in 1988. Quick lube was added in 1993. Both the car wash and quick lube are Car wash: $590,000: about 70,000 cars x $8.40 avg (inc washes from lube) property on 4 lane road. Car wash & quick lube are fully computerized. (Micrologic 500 unlimited members) There are",
         "addresses": [
-          "522 Rt 303 Orangeburg, NY",
-          "10 self serve vacuums. Car wash was built in 1988. Quick lube was added in"
+          "522 Rt 303 Orangeburg, NY"
         ],
         "terms": [
           "car wash"
@@ -17716,7 +25977,1254 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "text": "mshullman@rscw.net From: Larson, Jagr <Jagr.Larson@matthews.com> Sent: Tuesday, August 23, 2022 10:38 AM To: mshullman@rscw.net ce Spain, Tyler Subject: Southeast Opportunities Please see below opportunities in the Southeast Market we still have available. Let me know if you would like to inquire further on any of these locations. We just need a signed NDA before sharing financials on a few of them. Main Street Xpress Car Wash \u2014 12855 Walsingham Rd, Largo, FL 33774 & 1255 Belcher Rd, Dunedin, FL 34698 e Asking Price: $19,000,000 e Link to Financials: https://mreis.box.com/s/ybugvn5y686yzwk6Siuiv4dex2xjcnw7 Bucket of Sudz Express Car Wash \u2014 3433 East Busch Boulevard, Tampa, FL 33612 e Asking Price: $9,500,000 e Link to financials: https://mreis.box.com/s/qm3e2ft62hm3s9hfmt9vys3dj2anzenz The Express Wash e 1901 Rees Street Breaux Bridge, LA 70517 e 111 Wallace Broussard Road Carencro, LA 70520 e 7076 LA Hwy 1Marksville, LA 71351 e Passed on$16MM e 2220 Forsythe Ave., Monroe, LA 71201 e 5203 Cypress St., West Monroe, LA 71201 Deridder Express Car Wash e 1319 N Pine St, DeRidder, LA 70634 e Passed on$7.5MM Delta Car Wash e 2007 Hwy 82 W, Greenwood MS 38930 e 710N. Davis St, Cleviand, MS e 1648 Hwy 1S, Greenville, MS Varsity Car Wash e 802 West Ave, Cartersville, GA 30120 e Passed on$4.5MM"
       }
     ],
-    "evidence_rows": [],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "84",
+        "name": "138-77 Queens Blvd, Jamaica, NY 11435",
+        "location": "138-77 Queens Blvd, Jamaica, NY 11435",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,400,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 138-77 Queens Blvd, Jamaica, NY 11435 | estimate 4000 subscribers at $37 in 2 years and Ebita of $900,000 Asking price $2,400,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "85",
+        "name": "357 NY-59, West Nyack, NY 10994",
+        "location": "West Nyack, NY 10994",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,4000,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE | estimate in 2 years 4000 members at $33-and $1,000,000 plus of Asking $2,4000,000 Land 3 ML Asking price $2,4000,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "87",
+        "name": "577 W MAIN ST , NORWICH, CT 06360",
+        "location": "NORWICH, CT 06360",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,100,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE | estimate in 2 years 4000 subscribers at $33 and Ebita of $900,000 $1,100,000 Land Asking price $1,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "92",
+        "name": "6 Farmingville Rd, Ridgefield, CT 06877",
+        "location": "6 Farmingville Rd, Ridgefield, CT 06877",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,100,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 6 Farmingville Rd, Ridgefield, CT 06877 | estimate in 2 years 3500 members at $38 and $1,100,000 plus of Asking price $2,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "93",
+        "name": "25 Cross St, New Canaan, CT 06840",
+        "location": "25 Cross St, New Canaan, CT 06840",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,500,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 25 Cross St, New Canaan, CT 06840 After 2 years 3000 subscribers at $45 estimated Ebita Asking price $2,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "137",
+        "name": "CAR WASH OPPORTUNITIES",
+        "location": "Sooo NTIAGH, NY 11793",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$4000",
+        "ebitda": "",
+        "note": "27 ear lease. Cla 5 $669,00% Carwash. CAR WASH OPPORTUNITIES goo down\u2014/ $750,000 total. Asking price $4000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "140",
+        "name": "Car Wash Operators, Consultants, Appraisers & Brokers Since: 1963",
+        "location": "2159 Viking Car Wash 354 Hamilton Ave, Brooklyn NY 11231",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$367,044.00",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash Volume: 33,097 cars @ $11.09 Average per car. Car Wash Operators, Consultants, Appraisers & Brokers Since: 1963 Car Wash - FOR SALE @ $200,000.00 Revenue $367,044.00."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "142",
+        "name": "Become a free member | LogIn",
+        "location": "820 E St Georges Ave, Linden, NJ 07036",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$7,035,000",
+        "ebitda": "",
+        "note": "820 E St Georges Ave, Linden, NJ 07036 12,000 SF | Retail { Get Financing http /Avww.loopnel.com/xNet/MainSile/ isting Profiler roliie.aspx?LID=194886252SRID-6429939601 &StepiID=101 10/26/15, 625 PM Route 27 Express retail $1,035,000 presented by Kings Villag..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "156",
+        "name": "Bucket of Sudz Express Car Wash \u2014 3433 East Busch Boulevard, Tampa, FL 33612",
+        "location": "12855 Walsingham Rd, Largo, FL 33774",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$19,000,000",
+        "ebitda": "",
+        "note": "Main Street Xpress Car Wash \u2014 12855 Walsingham Rd, Largo, FL 33774 & 1255 Belcher Rd, Dunedin, FL 34698 Bucket of Sudz Express Car Wash \u2014 3433 East Busch Boulevard, Tampa, FL 33612 e Asking Price: $9,500,000 Asking price $19,000,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "89",
+        "name": "30 Perronette Dr, Bridgeport, CT 06606",
+        "location": "30 Perronette Dr, Bridgeport, CT 06606",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 30 Perronette Dr, Bridgeport, CT 06606 Projected two years 4500 members $33 apiece 1.1mllion plus ebita"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "90",
+        "name": "Listing / Offering - 230 FLANDERS RD, NIANTIC, CT 06357",
+        "location": "230 FLANDERS RD, NIANTIC, CT 06357",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "PURCHASE PRICE Uono Ug |. 6 230 FLANDERS RD, NIANTIC, CT 06357 | estimate in 2 years 4000 subscribers at $33 and $900,000 in Ebita $1,500,000 Land"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "91",
+        "name": "12 Farmington Ave, Bristol, CT 06010",
+        "location": "12 Farmington Ave, Bristol, CT 06010",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 12 Farmington Ave, Bristol, CT 06010 projected two years 4000 members average $33 $900,000 plus ebita"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "105",
+        "name": "1/22/2016 Just Reduced Car Wash And Oil Change For Sale In CT: Business For Sale in F...",
+        "location": "2016 Just Reduced Car Wash And Oil Change For Sale In CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1/22/2016 Just Reduced Car Wash And Oil Change For Sale In CT: Business For Sale in Fairfield County, Connecticut, United States on BizBuySell.com Just Reduced Car Wash And Oil Change For Sale Established car wash with oil change center and detailing located..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "48",
+        "name": "ASKING PRICE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$6,800,000",
+        "ebitda": "",
+        "note": "ASKING PRICE Asking price $6,800,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "86",
+        "name": "Jiffy car wash Hartford",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$50,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE Jiffy car wash Hartford | estimate in 2 years 4000 subscribers at $25 and $600,000 in Ebita Asking price $50,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "88",
+        "name": "307 CONNECTICUTAVE, 06854",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$10,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE Projected two years 6000 members $33 each $1.4 million plus ebita Lease starts at $10,000 a month Asking price $10,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "108",
+        "name": "\u2018ull Serve Car Wash",
+        "location": "51 SW Riverway Blvd Palm City, FL 34990",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "30,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Traffic count on Federal : 30,000 \u2018ull Serve Car Wash Car Wash Brokers, Inc Traffic 30,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "148",
+        "name": "Dadeland Full Service Car Wash",
+        "location": "9650 S. Dixie Highway, Miami, FL 33156",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "45,500",
+        "revenue": "$1,050,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "45,500 Daily Traffic Count 2,000 SF CBS Building on 0.55 Acres Zoned Commercial Open 51 Years / Built in 1969 Revenue $1,050,000. Traffic 45,500."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "150",
+        "name": "Kendall Full Service Car Wash",
+        "location": "9750 N Kendall Drive, Miami, FL 33176",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "66,000",
+        "revenue": "$885K",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "66,000 Daily Traffic Count 2,000 SF CBS Building on 0.60 Acres Zoned Commercial Premium Car Wash Equipment Package Revenue $885K. Traffic 66,000."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "30",
+        "name": "The Right Site \u2014",
+        "location": "3805 Wards Rd LYNCHBURG, VA 24502",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 3805 Wards Rd LYNCHBURG, VA 24502 le sap data \u00a92018 Googid | GOOgle Map data \u00a92018 Google"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "31",
+        "name": "The Right Site \u2014",
+        "location": "4035 Challenger Ave ROANOKE, VA 24012",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 4035 Challenger Ave ROANOKE, VA 24012 White Population 1,998 23,052 66,273"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "49",
+        "name": ", The Right Site",
+        "location": "925 Blue Hills Ave, Bloomfield, CT 06002",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 925 Blue Hills Ave, Bloomfield, CT 06002 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "50",
+        "name": "All estimates are as of 4/1/2010 unless otherwise stated.",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "51",
+        "name": "EASI Census 2010 Site Selection Reports & Analysis",
+        "location": "16 Maplewood ave Bloomfield ct",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 16 Maplewood ave Bloomfield ct White Population 906 20,744 84,433"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "52",
+        "name": "Easy Analytic Software, Inc.",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "54",
+        "name": "\u00a92020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source...",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a92020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source _ aia"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "55",
+        "name": "Clase i _ _EASI Census 2010 Site Selection Reports & Analysis",
+        "location": "86 Woodlawn Rd, Berlin, CT 06037",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Clase i _ _EASI Census 2010 Site Selection Reports & Analysis Updated _ Address: 86 Woodlawn Rd, Berlin, CT 06037 \u2018Sieibaaeunenoen coed Population 2,756 52,207 149,427"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "56",
+        "name": "Income Household Distribution",
+        "location": "727 Rubber Ave #32, Naugatuck, CT 06770",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 727 Rubber Ave #32, Naugatuck, CT 06770 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "57",
+        "name": "8/2/2021 Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data Non Family Per Capita Income ($) 47,576 48,678 47,510"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "58",
+        "name": "8/2/2021 Income Families and Non-Families by Distribution",
+        "location": "1507 n kings hwy nj",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Close EASI Census 2010 Site Selection Reports & Analysis Address: 1507 n kings hwy nj \u2014 Family Population 9,260 76,539 243,091"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "59",
+        "name": "8/2/2021 Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08037",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 080371 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EAS!) is the source of all updated estimates. All other data Non Family Per Capita income ($) 66,640 43,397 49,288"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "60",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "65-67 Mill Plain Rd, Danbury, CT 06811",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 65-67 Mill Plain Rd, Danbury, CT 06811 Population (4/1/2010)"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "62",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EAS!) is the source of all updated estimates. All other data Non Family Per Capita Income ($) 56,300 55,769 59,575"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "63",
+        "name": "8/3/2021 Income Families and Non-Families by Distribution",
+        "location": "11 Locust St, Pompton Lakes, NJ 07442",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Sen EASI Census 2010 Site Selection Reports & Analysis Address: 11 Locust St, Pompton Lakes, NJ 07442 \u2018a Non-Family Population 1,400 7,526 13,371"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "64",
+        "name": "8/3/2021 Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data Non Family Per Capita Income ($) 30,546 59,958 61,081"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "66",
+        "name": "8/3/2021 Income Families and Non-Families by Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data Non Family High Income Average ($) 322,005"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "68",
+        "name": "Summary Report",
+        "location": "30 Perronette Dr, Bridgeport, CT 06606",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 30 Perronette Dr, Bridgeport, CT 06606 \u00a9 2019 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "70",
+        "name": "Summary Report",
+        "location": "318 W Main St, Patchogue, NY 11772",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Close EASI Census 2010 Site Selection Reports & Analysis YgewsT = pie (MA 1 (?/? address: 318 W Main St, Patchogue, NY 11772 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EAS!) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "71",
+        "name": "Income Household Distribution",
+        "location": "442 Colman St, New London, CT 06320",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 442 Colman St, New London, CT 06320 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "72",
+        "name": "3/19/2021 Income Household Distribution",
+        "location": "590 Spring St. Windsor Locks, CT 06096",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Plces EASI Census 2010 Site Selection Reports & Analysis Address: 590 Spring St. Windsor Locks, CT 06096 \u2014_ $50,000 to $74,999 180 1,396 3,842"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "74",
+        "name": "The Right Site\u2122",
+        "location": "140 Weston St Hartford, CT 06120",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 140 Weston St Hartford, CT 06120 White Population 838 28,320 110,672"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "76",
+        "name": "The Right Site -",
+        "location": "140 Weston St Hartford, CT 06120",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 140 Weston St Hartford, CT 06120 Total Personal Income ($) | 98,777,627 | 2,102,286,067"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "81",
+        "name": "Summary Report",
+        "location": "1359 Thomaston Ave, Waterbury, CT 06704",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 1359 Thomaston Ave, Waterbury, CT 06704 101 Haag Avenue, Sollmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "83",
+        "name": "The Right Site \u2014",
+        "location": "200 s columbus ave mt",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 200 s columbus ave mt vernon Population (4/1/2010) 46,743 363,899 916,740"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "94",
+        "name": "The Right Site \u2014",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2019 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EAS!) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "95",
+        "name": "Demographic Support - 2 dallas ave bristol ct",
+        "location": "2 dallas ave bristol ct",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Belimawr, NJ 08031 - Address: 2 dallas ave bristol ct"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "96",
+        "name": "Demographic Support - 185 South St, Holyoke, MA 01040",
+        "location": "185 South St, Holyoke, MA 01040",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 185 South St, Holyoke, MA 01040 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "99",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2019 Easy Analytic Software, Inc, Easy Analytic Software, Inc. {EASI) is the source of all updated estimates. All other data are derived from the US Census and other All estimates are as of 4/1/2010 unless otherwise state..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "101",
+        "name": "Income Household Distribution",
+        "location": "442 Colman St, New London, CT 06320",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 442 Colman St, New London, CT 06320 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "104",
+        "name": "6/20/2016 Summary Report",
+        "location": "1600 N Salina St, Syracuse, NY 13208",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Close EASI Census 2010 Site Selection Reports & Analysis Address: 1600 N Salina St, Syracuse, NY 13208 101 Haag Avenue, Bellmawr, NJ 08034"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "106",
+        "name": "Demographic Support - 208 gansett ave cranston ri",
+        "location": "208 gansett ave cranston ri",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 208 gansett ave cranston ri 101 Haag Avenue, Bellmawr, NJ 08031"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "107",
+        "name": "Demographic Support - 975 Midland Ave Yonkers NY",
+        "location": "975 Midland Ave Yonkers NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Close EASI Census 2010 Site Selection Reports & Analysis we gs DP | | Address: 975 Midland Ave Yonkers NY | tor\" Households 10,819 122,888 294,237"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "109",
+        "name": "5/12/22, 5:19 PM Income Household Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00b0 $150,000 to $199,999 99 1,581 3,871 \u00a9 2021 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EAS!) is the source of all updated estimates. All other data are derived fram the US Census and"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "110",
+        "name": "7 Inceme Household Distribution",
+        "location": "19105 W 151st Terrace, Olathe, KS 66062",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Close EASI Census 2010 Site Selection Reports & Analysis d Address: 19105 W 151st Terrace, Olathe, KS 66062 | Report Average Household Income ($) 95,321 85,412 94,967"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "111",
+        "name": "The Richt Site",
+        "location": "25 Neptune Ave, Brooklyn, NY 11235",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 25 Neptune Ave, Brooklyn, NY 11235 \u2014\u2014 $35,000 to $49,999 5,002 24,552 55,342"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "112",
+        "name": "Summary Report",
+        "location": "187-03 Jamaica Ave, Jamaica, NY 11423",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 187-03 Jamaica Ave, Jamaica, NY 11423 101 Haag Avenue, Bellmawr, NJ 68631"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "114",
+        "name": "Edit EASI Census 2000 Site Selection Reports & Analysis",
+        "location": "1336 Boston Post Road, Madison Center, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Edit EASI Census 2000 Site Selection Reports & Analysis Address: 1336 Boston Post Road, Madison Center, CT http://www.easidemographics.com/cgi-bin/site.exe 5/4/2011"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "115",
+        "name": "8/21/22, 2:33 PM",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2021 Easy Analytic Software, Inc. Easy Analytic Software, Inc, (EAS!) is the'source of all updated estimates. All other data are derived from the US Census and All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "119",
+        "name": "6/10/22, 3:52 PM Income Household Distribution",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2021 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of al] updated estimates. All other data are derived fram the US Census and a $25,000 to $34,999 461 4,387 9,346"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "120",
+        "name": "6/10/22, 3:52 PM",
+        "location": "921 Palm Beach Lakes Blvd West Palm Beach, FL 33401",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 921 Palm Beach Lakes Blvd West Palm Beach, FL 33401 Total Personal Income ($) 179,265,882 2,520,561,183 4,835,021,687"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "139",
+        "name": "Summary Report",
+        "location": "354 Hamilton Ave, Brooklyn NY 11231",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 354 Hamilton Ave, Brooklyn NY 11231 Map data \u00a92016 Google"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "141",
+        "name": "Grocery store, Car Wash, Auto glass and window tinting, Auto repair service and parki...",
+        "location": "820 E St Georges Ave, Linden, NJ 07036",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Major store location in Linden, NJ - Busy main road (Route 27) retail and services, with large car wash, second road Grocery store, Car Wash, Auto glass and window tinting, Auto repair service and parking rents. , Asking Price Index Trends for Linden, NJ Reta..."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "146",
+        "name": "11/6/2018 Summary Report",
+        "location": "3050 N University Dr, Sunrise, FL 33322",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 3050 N University Dr, Sunrise, FL 33322 White Population 8,251 87,939 194,032"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "147",
+        "name": "Demographic Support - 9750 N Kendall Drive, Miami, FL 33176",
+        "location": "9750 N Kendall Drive, Miami, FL 33176",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 9750 N Kendall Drive, Miami, FL 33176 \u00a9 2019 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "152",
+        "name": "Income Families and Non-Families by Distribution",
+        "location": "625 Marble Ave, Thornwood, NY 10594",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis Address: 625 Marble Ave, Thornwood, NY 10594 data \u00a92021 Google}"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "118",
+        "name": "Planet Car Wash & Lube",
+        "location": "3526 Rt 33 Neptune, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$850,460",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "$302,888+ $15K(vacs) + $25K(vending/vacuums revenue) = $342,888 Planet Car Wash & Lube Wash: $376,11 Revenue $850,460."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "125",
+        "name": "\u2018Fairfield Hand Car Wash",
+        "location": "Pinebrook, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$790,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Exterior car wash since 1968 that was rebuilt after a fire in 2001. 85' tunnel with Econocraft equipment. Car wash does Car wash: $690,000(30,000 cars x $23 avg) \u2018Fairfield Hand Car Wash Revenue $790,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "127",
+        "name": "Newburgh Auto Spa",
+        "location": "86 Route 17K Newburgh, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,538,000",
+        "asking_price": "$3M",
+        "ebitda": "",
+        "note": "Full Service Car Wash,4 Bay lube and 2 Bay Detail Center on 1 acre of land built in 2006. Building size is about 9300 sq Car Wash repairs 53,000***** Car Wash Supplies 50,000 Asking price $3M. Revenue $2,538,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "128",
+        "name": "Rain Tunnel Car Wash :",
+        "location": "1111 Main St Bradley Beach, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$84,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2019 2021 Revenue (Round up) years. The car wash offers the unlimited wash plan and 10 free vacuums. There is also a 4 bay self serve car wash on Rain Tunnel Car Wash : Revenue $84,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "129",
+        "name": "Subject: RE: Car Wash",
+        "location": "Cherry Hill, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,223,219",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash Supply: $ 27,578 Subject: RE: Car Wash Route 41 Car Wash Revenue $1,223,219."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "130",
+        "name": "Ridgefield Car Wash",
+        "location": "6 Farmingville Rd Ridgefield, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$645,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Ridgefield Car Wash Full Service car wash in a solid middle class town. Presently set up as a flex serve. Owner is not using the walkway or totaling just under 1 acre. There is a house on second lot that owner is in the midst of getting permits to demolish to..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "131",
+        "name": "Trinity Car Wash",
+        "location": "639 Saw Mill River Rd Ardsley, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$800,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Trinity Car Wash Water & Sewer 15,000 Wash Supplies 15,000 Revenue $800,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "134",
+        "name": "Great Car wash Detail, Store",
+        "location": "711 Route 17, Carlstadt, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$350,000",
+        "ebitda": "",
+        "note": "Great Car wash Detail, Store 711 Route 17, Carlstadt, NJ Utilities $10,000p/y, Water $4,000p/y,Insurance $4,000p/y, Payroll Asking price $350,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "136",
+        "name": "CAR WASH OPPORTUNITIES",
+        "location": "622-3001 CAR WASH OPPORTUNITIES 576 Springfield Avenue, Newark, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,500,000",
+        "ebitda": "",
+        "note": "Car wash and lube claims $900,000 gross. Long lease or property. Car wash, \u2014s : 2 bay self serve. ae be full service. Car wash and property. Very excellent area. Huge office can be Asking price $1,500,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "138",
+        "name": "CAR WASH OPPORTUNITIES",
+        "location": "000 including property. 799 Saw Mill Road, Yonkers, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$850,000",
+        "ebitda": "",
+        "note": "1 acre property. Carwash, lube In nice areca. Claims $550,000 In carwash and $380,000 In quick lube. Carwash and property. Ol change would make this place jump. Asking price $850,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "143",
+        "name": "Simply Clean Car Wash",
+        "location": "64 PERSHING DRIVE ANSONIA CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$402,678",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Simply Clean Car Wash Exterior car wash operated completely absentee Sent: Tuesday, October 16, 2018 4:04 PM Revenue $402,678."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "144",
+        "name": "Long established full service car wash on a huge piece of land. Large building also i...",
+        "location": "New Britain, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$913,060",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Long established full service car wash on a huge piece of land. Large building also includes an oil change and repair Wash: $524,676 Used car sales: $125,117 Revenue $913,060."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "153",
+        "name": "Soapys Car Wash",
+        "location": "1015 New Haven Rd Naugatuck, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$8,",
+        "ebitda": "",
+        "note": "Soapys Car Wash Obviously the car wash is only 3 months old. But it is growing every day. Total cost to open the door was almost $2.5M. They opened on October 12. They have 2-3 employees. Asking price $8,."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "154",
+        "name": "Our Town Car Wash & Quick Lube",
+        "location": "522 Rt 303 Orangeburg, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,800,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "10 self serve vacuums. Car wash was built in 1988. Quick lube was added in 1993. Both the car wash and quick lube are Car wash: $590,000: about 70,000 cars x $8.40 avg (inc washes from lube) property on 4 lane road. Car wash & quick lube are fully computerize..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "1",
+        "name": "Classy Chassy |61 Kendall St, Clifton Springs, NY 2/3/17 0100/1/1 5,199; No",
+        "location": "4653 Lake Rd, Brockport NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Wash Boss 529 N Greenbush Rd, Rensselaer, NY 2/32/134 0400/3/11 20,834] Yes Personal Touch |491 S. Delaware Avenue, Lindenhurst, NY 19/115/245 3000/16/35 24,844 | Yes Personal Touch | 1977 Jericho Turnpike East, Northport, NY 7/70/222 1300/13/37 31,292 | Yes"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "2",
+        "name": "570 Bedford Road Bedford Hills, NY",
+        "location": "570 Bedford Road Bedford Hills, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Wash Boss 529 N Greenbush Rd, Rensselaer, NY 2/32/134 0400/3/11 20,834 Splash 791 Post Rd East Westport , CT 5/33/102 1200/8/20 23,100 Splash 73 E. Putnam Ave. Cos Cob, CT 7/161/182 1700/12/24 15,200"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "11",
+        "name": "\u00bb 791 Post RAGE",
+        "location": "791 Post RAGE 3 FEE 791 Post Rd E, Westport, CT 06880",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "791 Post Rd E, Westport, CT 06880"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "12",
+        "name": "1123 Highland Ave",
+        "location": "1123 Highland Ave 1123 Highland Ave, Cheshire, CT 06410",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1123 Highland Ave, Cheshire, CT 06410"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "15",
+        "name": "570 Bedford Road Bedford Hills, NY, 10507",
+        "location": "570 Bedford Road Bedford Hills, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "570 Bedford Road Bedford Hills, NY, 10507"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "33",
+        "name": "Valdosta Whistle Express Car Wash Valdosta, GA 31601",
+        "location": "1716 Gornto Rd, Valdosta Whistle Express Car Wash Valdosta, GA 31601",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Valdosta Whistle Express Car Wash Valdosta, GA 31601 Branding and advertising for car wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "123",
+        "name": "Shammy Shine Deptford Car Wash",
+        "location": "1535 Hurffville Rd ps prt Ji Woodbury, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "inherited the wash from his father. Car wash had been closed since May 2018. Seller finished renovating the wash and Waterford Car Wash Shammy Shine Deptford Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "133",
+        "name": "Fabulous completely rebuilt Car Wash",
+        "location": "199 Woodbine Street, Bergenfield, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Fabulous completely rebuilt Car Wash 199 Woodbine Street, Bergenfield, NJ \"Asking $1,600,000 with $1,000,000 down"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "29",
+        "name": "New Carwash Development Assum von",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,110",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "as Revenue $1,110 $14 \u2018a $1,780 \u00ab$1,920 $2,020 . _ Management estimates new build costs of $4.5 million per carwash (excluding land): \u00bb Sales for each carwash takes approximately sil oN hit full maturity: Revenue $1,110."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Documents Bin 2.txt",
+        "page": "45",
+        "name": "Source Evidence - Page 45",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$10M",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "e Site consists of a 16,703 sf building, including a car wash, e Approx Gross Revenue: $10MM e Approx Gross Profit: $2.8MM Revenue $10M."
+      }
+    ],
     "gallery_images": []
   }
 ];
