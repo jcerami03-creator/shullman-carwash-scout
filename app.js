@@ -311,6 +311,7 @@ const els = {
   clearDataBtn: document.getElementById("clearDataBtn"),
   yearInput: document.getElementById("yearInput"),
   marketInput: document.getElementById("marketInput"),
+  addressInput: document.getElementById("addressInput"),
   askingPriceInput: document.getElementById("askingPriceInput"),
   salesInput: document.getElementById("salesInput"),
   ebitdaInput: document.getElementById("ebitdaInput"),
@@ -440,6 +441,7 @@ function standardizeRecord(raw, source, index) {
 
   const year = pick(normalized, ["year", "date", "decade"]);
   const market = pick(normalized, ["market", "location", "city", "state", "region"]) || `Record ${index + 1}`;
+  const city = pick(normalized, ["city", "address_locality", "locality"]) || inferCityFromLocation(market);
   const state = normalizeState(pick(normalized, ["state", "state_code"])) || inferStateFromLocation(market);
   const askingPrice = pick(normalized, ["asking_price", "ask", "price", "estimated_asking_price"]);
   const sales = pick(normalized, ["sales", "revenue", "gross_sales", "annual_sales"]);
@@ -492,6 +494,7 @@ function standardizeRecord(raw, source, index) {
     ...normalized,
     year,
     market,
+    city,
     state,
     asking_price: askingPrice,
     sales,
@@ -530,6 +533,7 @@ function standardizeRecord(raw, source, index) {
     name,
     year,
     market,
+    city,
     state,
     askingPrice,
     sales,
@@ -646,6 +650,24 @@ function normalizeState(value) {
   return STATE_NAME_TO_CODE[compact] || "";
 }
 
+function stateCodeInText(value) {
+  const match = String(value || "").match(/\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)\b/i);
+  return match ? match[1].toUpperCase() : normalizeState(value);
+}
+
+function inferCityFromLocation(location) {
+  const parts = String(location || "")
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  if (parts.length < 2) return "";
+
+  if (/^\d/.test(parts[0]) && parts[1]) return parts[1].replace(/\s+/g, " ");
+  if (stateCodeInText(parts[1]) && parts[0] && !stateCodeInText(parts[0])) return parts[0].replace(/\s+/g, " ");
+  if (parts.length >= 3 && stateCodeInText(parts[2])) return parts[1].replace(/\s+/g, " ");
+  return "";
+}
+
 function inferStateFromLocation(location) {
   const text = String(location || "");
   const codeMatch = text.match(/\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)\b/);
@@ -703,6 +725,7 @@ function scoreRecord(record, queryTokens, selectedMarket, selectedYear, maxAskin
   if (!moneyMatches(record.ebitda, criteria.ebitda)) return null;
   if (!numberMatches(record.carsWk, criteria.carsWk)) return null;
   if (!numberMatches(record.acres, criteria.acres)) return null;
+  if (criteria.address && !tokenMatches(locationSearchText(record), criteria.address)) return null;
 
   const noteText = [record.name, record.market, record.state, record.note, record.wisdom, record.decision, record.mistake, record.mentalModel, record.publicSummary].join(" ");
   if (criteria.note && !tokenMatches(noteText, criteria.note)) return null;
@@ -713,6 +736,7 @@ function scoreRecord(record, queryTokens, selectedMarket, selectedYear, maxAskin
   queryTokens.forEach((token) => {
     if (String(record.name).toLowerCase().includes(token)) score += 8;
     if (String(record.market).toLowerCase().includes(token)) score += 8;
+    if (String(record.city).toLowerCase().includes(token)) score += 8;
     if (String(record.state).toLowerCase() === token) score += 8;
     if (String(record.year).includes(token)) score += 5;
     if (String(record.name).toLowerCase().includes(token)) score += 5;
@@ -720,6 +744,16 @@ function scoreRecord(record, queryTokens, selectedMarket, selectedYear, maxAskin
   });
 
   if (!queryTokens.length) score = recordQualityScore(record);
+  if (criteria.address) {
+    const locationText = locationSearchText(record);
+    const addressText = String(criteria.address).trim().toLowerCase();
+    if (locationText.includes(addressText)) score += 24;
+    tokenize(criteria.address).forEach((token) => {
+      if (String(record.market).toLowerCase().includes(token)) score += 7;
+      if (String(record.city).toLowerCase().includes(token)) score += 7;
+      if (String(record.name).toLowerCase().includes(token)) score += 4;
+    });
+  }
   if (moneyToNumber(record.ebitda) >= 500000) score += 2;
   if (numericValue(record.carsWk) >= 10000) score += 2;
   if (record.wisdom) score += 1;
@@ -748,6 +782,7 @@ function getSearchCriteria() {
   return {
     year: els.yearInput.value.trim(),
     market: els.marketInput.value.trim(),
+    address: els.addressInput.value.trim(),
     askingPrice: els.askingPriceInput.value.trim(),
     sales: els.salesInput.value.trim(),
     ebitda: els.ebitdaInput.value.trim(),
@@ -767,6 +802,21 @@ function tokenMatches(value, query) {
   if (!tokens.length) return true;
   const text = String(value || "").toLowerCase();
   return tokens.every((token) => text.includes(token));
+}
+
+function locationSearchText(record) {
+  return [
+    record.name,
+    record.market,
+    record.city,
+    record.state,
+    record.website,
+    record.phone,
+    record.publicSummary,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
 }
 
 function moneyMatches(value, query) {
@@ -1703,7 +1753,7 @@ function renderImageGalleryGroups(doc, galleryImages, pdfHref) {
 }
 
 function clearSearchInputs() {
-  [els.yearInput, els.marketInput, els.askingPriceInput, els.salesInput, els.ebitdaInput, els.carsInput, els.acresInput, els.noteInput].forEach((input) => {
+  [els.yearInput, els.marketInput, els.addressInput, els.askingPriceInput, els.salesInput, els.ebitdaInput, els.carsInput, els.acresInput, els.noteInput].forEach((input) => {
     input.value = "";
   });
 }
@@ -1893,7 +1943,7 @@ if (introEnterBtn && scoutApp) {
 }
 els.searchBtn.addEventListener("click", runSearch);
 if (els.documentLibraryBtn) els.documentLibraryBtn.addEventListener("click", openLibrary);
-[els.yearInput, els.marketInput, els.askingPriceInput, els.salesInput, els.ebitdaInput, els.carsInput, els.acresInput, els.noteInput].forEach((input) => {
+[els.yearInput, els.marketInput, els.addressInput, els.askingPriceInput, els.salesInput, els.ebitdaInput, els.carsInput, els.acresInput, els.noteInput].forEach((input) => {
   input.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && input !== els.noteInput) runSearch();
   });

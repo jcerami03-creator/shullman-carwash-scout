@@ -317,7 +317,7 @@ textarea {
 
 .table-search {
   display: grid;
-  grid-template-columns: 0.7fr 1.18fr 1fr 0.86fr 0.86fr 0.9fr 0.72fr minmax(300px, 1.62fr) auto;
+  grid-template-columns: 0.66fr 0.86fr minmax(210px, 1.22fr) 0.92fr 0.82fr 0.82fr 0.86fr 0.7fr minmax(280px, 1.46fr) auto;
   align-items: stretch;
   border: 1px solid #b8c4be;
   border-radius: 8px;
@@ -330,6 +330,10 @@ textarea {
   grid-template-rows: auto 1fr;
   min-width: 0;
   border-right: 1px solid #b8c4be;
+}
+
+.table-search .location-search-field input {
+  min-width: 0;
 }
 
 .table-search label span {
