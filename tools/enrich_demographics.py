@@ -258,7 +258,7 @@ def main(limit=None):
     for record in records:
         source = str(record.get("demographics_source") or "")
         has_all = record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile")
-        if has_all and (f"ACS {ACS_YEAR}" in source or source.startswith("Scanned EASI") or source.startswith("Modeled state fallback")):
+        if has_all and f"ACS {ACS_YEAR}" in source:
             continue
         for key in ["population_1_mile", "population_3_mile", "population_5_mile", "demographics_source"]:
             record.pop(key, None)

@@ -482,10 +482,11 @@ function standardizeRecord(raw, source, index) {
   const phone = pick(normalized, ["phone", "telephone"]);
   const sourceUrls = pick(normalized, ["source_urls", "public_sources"]);
   const trafficCount = pick(normalized, ["traffic_count", "traffic", "vpd", "aadt"]);
-  const population1Mile = pick(normalized, ["population_1_mile", "pop_1_mile", "one_mile_population", "1_mile_population"]);
-  const population3Mile = pick(normalized, ["population_3_mile", "pop_3_mile", "three_mile_population", "3_mile_population"]);
-  const population5Mile = pick(normalized, ["population_5_mile", "pop_5_mile", "five_mile_population", "5_mile_population"]);
-  const demographicsSource = pick(normalized, ["demographics_source", "demographic_source", "population_source"]);
+  const populationFallback = extractPopulationSupport([publicSummary, note, excerpt, fullText].filter(Boolean).join(" "));
+  const population1Mile = pick(normalized, ["population_1_mile", "pop_1_mile", "one_mile_population", "1_mile_population"]) || populationFallback.population1Mile;
+  const population3Mile = pick(normalized, ["population_3_mile", "pop_3_mile", "three_mile_population", "3_mile_population"]) || populationFallback.population3Mile;
+  const population5Mile = pick(normalized, ["population_5_mile", "pop_5_mile", "five_mile_population", "5_mile_population"]) || populationFallback.population5Mile;
+  const demographicsSource = pick(normalized, ["demographics_source", "demographic_source", "population_source"]) || populationFallback.demographicsSource;
   const mapsUrl = pick(normalized, ["maps_url", "google_maps_url", "maps"]);
   const latitude = pick(normalized, ["latitude", "lat"]);
   const longitude = pick(normalized, ["longitude", "lon", "lng"]);
@@ -817,6 +818,34 @@ function locationSearchText(record) {
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
+}
+
+function extractPopulationSupport(text) {
+  const value = String(text || "");
+  const direct = value.match(/Population:\s*1-mile\s+([\d,]+),\s*3-mile\s+([\d,]+),\s*5-mile\s+([\d,]+)/i);
+  if (direct) {
+    return {
+      population1Mile: direct[1],
+      population3Mile: direct[2],
+      population5Mile: direct[3],
+      demographicsSource: "Imported demographic support page",
+    };
+  }
+  const table = value.match(/Population(?:\s*\(.*?\))?\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)/i);
+  if (table) {
+    return {
+      population1Mile: table[1],
+      population3Mile: table[2],
+      population5Mile: table[3],
+      demographicsSource: "Imported demographic support page",
+    };
+  }
+  return {
+    population1Mile: "",
+    population3Mile: "",
+    population5Mile: "",
+    demographicsSource: "",
+  };
 }
 
 function moneyMatches(value, query) {

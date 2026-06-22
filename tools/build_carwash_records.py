@@ -1931,6 +1931,11 @@ def right_site_records_from_page(path: Path, page: str, page_number: int) -> lis
         note=" ".join(notes),
         source_urls="https://www.easidemographics.com/cgi-bin/site.exe",
     )
+    if pop_match:
+        record["population_1_mile"] = pop_match.group(1)
+        record["population_3_mile"] = pop_match.group(2)
+        record["population_5_mile"] = pop_match.group(3)
+        record["demographics_source"] = "Scanned EASI/The Right Site demographic support page"
     record["public_summary"] = " ".join(notes)
     return [record]
 
