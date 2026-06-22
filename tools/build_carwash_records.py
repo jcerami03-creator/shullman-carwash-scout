@@ -107,6 +107,21 @@ GENERIC_TITLES = {
     "investment summary",
     "executive summary",
 }
+BAD_LOCATION_WORDS = {
+    "acres",
+    "acre",
+    "traffic",
+    "ebitda",
+    "sales",
+    "market",
+    "year",
+    "note",
+    "cars",
+    "value",
+    "retail",
+    "square feet",
+    "square fect",
+}
 OCR_REPLACEMENTS = [
     (r"\bFuctloning\b", "Functioning"),
     (r"\bFuctioning\b", "Functioning"),
@@ -125,6 +140,14 @@ OCR_REPLACEMENTS = [
     (r"\bBellmawc\b", "Bellmawr"),
     (r"\bCarwash\b", "Car Wash"),
     (r"\bAutoSpa\b", "Auto Spa"),
+    (r"\bCO Springs\b", "Colorado Springs"),
+    (r"\bN Federal Pkwy, Mike's Rae, CO\b", "N Federal Pkwy, Westminster, CO"),
+    (r"\bLamar Ave Mesa\b", "Mesa"),
+    (r"\bCircle Omaha\b", "Omaha"),
+    (r"\bNorth Bergenfield\.?\b", "North Bergen"),
+    (r"\bThomton\b", "Thornton"),
+    (r"\bAbercom\b", "Abercorn"),
+    (r"\b28rd\b", "23rd"),
     (r"\bFuctloning\b", "Functioning"),
     (r"\bProfitable Car Wash, Low Labor Biz\b", "Profitable Low-Labor Car Wash"),
 ]
@@ -631,6 +654,10 @@ def title_quality(line: str) -> int:
     lower = line.lower()
     if any(phrase in lower for phrase in BAD_TITLE_PHRASES):
         return -30
+    if re.match(r"^\$?\d[\d,]*(?:\s*/\s*\d+|\s+(?:sf|sq\.?\s*ft|ft))", lower):
+        return -35
+    if re.search(r"\b\d+(?:,\d+)?\s*(?:sf|sq\.?\s*ft|ft)\b", lower) and not re.search(r"\bcar\s*wash\b", lower):
+        return -20
     if re.search(r"\b\d{3}[-.]\d{3}[-.]\d{4}\b", line):
         return -25
     if lower.strip(" .:-") in GENERIC_TITLES:
@@ -662,6 +689,14 @@ def is_weak_title(title: str) -> bool:
     lower = title.lower().strip(" .:-|>")
     if not lower or lower in GENERIC_TITLES:
         return True
+    if re.match(r"^\$?\d[\d,]*(?:\s*/\s*\d+|\s+(?:sf|sq\.?\s*ft|ft))", lower):
+        return True
+    if re.match(r"^(?:lube|car wash)\s*=\s*\d", lower):
+        return True
+    if re.match(r"^\d+(?:\.\d+)?\s*[a-z&' ]*car wash", lower):
+        return True
+    if re.search(r"\b(?:sf|sq\.?\s*ft|ft)\b", lower) and re.search(r"\b(?:retail|lease rate|facility|freestanding|former)\b", lower):
+        return True
     if any(phrase in lower for phrase in BAD_TITLE_PHRASES):
         return True
     if len(title) > 82:
@@ -686,8 +721,11 @@ def title_from_page(page: str, fallback: str) -> str:
 
 def clean_title(title: str) -> str:
     title = clean_line(title)
+    title = re.sub(r"\s+N/?A\s*$", "", title, flags=re.I)
+    title = re.sub(r"^\d+(?:\.\d+)?\s*(?=[A-Za-z&' ]*Car\s*Wash)", "", title, flags=re.I)
     title = re.sub(r"^Subject[:.]?\s*", "", title, flags=re.I)
     title = re.sub(r"^\d{1,2}/\d{1,2}/\d{2,4}\s*", "", title)
+    title = re.sub(r"^\$?\d[\d,]*(?:\s*/\s*\d+\s*(?:ft|sf|sqft|sq\.?\s*ft)?\??)?\s*-\s*", "", title, flags=re.I)
     title = re.sub(r"^(for sale\s*>\s*)", "", title, flags=re.I)
     title = re.sub(r"\s+Page\s+\d+.*$", "", title, flags=re.I)
     title = re.sub(r"\s+Get Financing\b.*$", "", title, flags=re.I)
@@ -719,6 +757,18 @@ def clean_title(title: str) -> str:
     lower = title.lower()
     if "fully functioning car wash" in lower:
         return "Fully Functioning Car Wash & Building"
+    if "holmes car wash" in lower or "keystone gas station" in lower:
+        return "Holmes Car Wash & Keystone Gas Station"
+    if re.match(r"^(?:lube|car wash)\s*=\s*\d", lower):
+        return "Car Wash & Quick Lube"
+    if re.search(r"\b(?:sf|sq\.?\s*ft|ft)\b", lower) and "car wash" in lower:
+        if "gas station" in lower:
+            return "Car Wash & Gas Station"
+        if "auto dealer" in lower:
+            return "Car Wash & Auto Dealer"
+        if "former" in lower:
+            return "Former Car Wash Site"
+        return "Car Wash Facility"
     if re.search(r"\bandy'?s\b", lower) and "car wash" in lower:
         return "Andy's Car Wash"
     if "full service tunnel car wash for sale in a growing" in lower:
@@ -741,6 +791,7 @@ def clean_title(title: str) -> str:
 
 def clean_city_from_address(address: str, city: str) -> str:
     city = clean_line(city)
+    city = re.sub(r"^(?:in|near|around)\s+", "", city, flags=re.I)
     address_words = [re.sub(r"[^a-z0-9]", "", word.lower()) for word in address.split()]
     city_words = city.split()
     while city_words:
@@ -754,6 +805,10 @@ def clean_city_from_address(address: str, city: str) -> str:
         break
     city = " ".join(city_words)
     city = re.sub(r"^(?:N|S|E|W|NE|NW|SE|SW)\s+", "", city)
+    if not city or city.lower() in BAD_LOCATION_WORDS:
+        return ""
+    if any(word in city.lower() for word in ["property", "formerly", "automatic drive", "traffic signal", "square feet"]):
+        return ""
     return clean_line(city)
 
 
@@ -831,6 +886,8 @@ def clean_market(market: str) -> str:
     if not market:
         return ""
     market = re.sub(r"\s+", " ", market)
+    for pattern, replacement in OCR_REPLACEMENTS:
+        market = re.sub(pattern, replacement, market, flags=re.I)
     market = re.sub(r"^(?:19|20)\d{2}\s+(?=\d{2,6}\s)", "", market)
     market = re.sub(r"^0+\s+(?=\d{2,6}\s)", "", market)
     market = re.sub(r"^\d{1,3}\s+(?=\d{2,6}\s+[A-Za-z])", "", market)
@@ -851,6 +908,7 @@ def clean_market(market: str) -> str:
     for code in STATE_CODES:
         market = re.sub(rf"\b{code.title()}\b", code, market)
         market = re.sub(rf",\s*{code.lower()}\b", f", {code}", market)
+    market = re.sub(r"\bCO Springs\b", "Colorado Springs", market, flags=re.I)
     return market.strip(" ,")
 
 
@@ -1230,6 +1288,8 @@ def suspicious_market(market: str) -> bool:
         return True
     if re.search(r"\b(?:LoopNet|Loopnet|Pnet|Roule|Vehicle Related|Get Financing|Gettinancing|Listing ID|Commercial Real Estate|Commercialonerealtors|No Warranty|Overhead Doors|Entrance Tax|Six Self-Service|Completed|Expressed|Auction Sale Listing|Demographics for)\b", clean, re.I):
         return True
+    if re.search(r"\b(?:Multi-Use Property|Formerly An Automatic Drive|Traffic Signal\. Value|Square Fect|Square Feet)\b", clean, re.I):
+        return True
     if re.search(r"\b(?:Kensico Properties|Darcars Automotive|Penelople|Arch LLC|Greenwich Ave Kensico|IN Colonie)\b", clean, re.I):
         return True
     if re.search(r"\b33\s+Lewis\s+St,\s*Lafayette,\s*CT\b", clean, re.I):
@@ -1243,7 +1303,22 @@ def suspicious_market(market: str) -> bool:
         "basecron",
         "continued to",
         "currently",
+        "employees in place",
+        "business for sale",
+        "indoor detail bay",
+        "great street visibility",
+        "acre of land built",
+        "building size is",
+        "use restricted in deed",
+        "genoa business park",
+        "interested",
+        "busy 4 lane",
+        "very busy major road",
+        "make a left",
+        "headed towards",
+        "take exit",
         "near the corner",
+        "at the corner",
         "between",
         "great opportunity",
         "offered for sale",
@@ -1305,7 +1380,7 @@ def suspicious_market(market: str) -> bool:
             "lines",
         ]):
             return True
-        if city_lower in {"s", "month", "built", "which", "reports", "completed", "expressed", "tax", "vehicle related", "retail", "commercial"}:
+        if city_lower in {"s", "month", "built", "which", "reports", "completed", "expressed", "tax", "vehicle related", "retail", "commercial", "acres", "acre", "traffic", "value"}:
             return True
     return False
 
@@ -1314,7 +1389,7 @@ def plausible_address(address: str) -> bool:
     lower = clean_line(address).lower()
     if len(lower) < 10:
         return False
-    if re.search(r"\b(?:billion\s+sq|loopnet|get financing|vehicle related|service/gas|commercial real estate|listing id|demographics for)\b", lower, re.I):
+    if re.search(r"\b(?:billion\s+sq|loopnet|get financing|vehicle related|service/gas|commercial real estate|listing id|demographics for|multi-use property|formerly an automatic drive|traffic signal\. value|square feet|square fect)\b", lower, re.I):
         return False
     if any(term in lower for term in [
         "contact",
@@ -2436,6 +2511,92 @@ def merge_records(primary: dict[str, str], secondary: dict[str, str]) -> dict[st
     return merged
 
 
+def city_label_from_market(market: str) -> str:
+    market = clean_market(market)
+    parts = [part.strip() for part in market.split(",") if part.strip()]
+    if len(parts) >= 3 and ADDRESS_RE.search(parts[0]):
+        city = parts[1]
+    elif len(parts) >= 2 and ADDRESS_RE.search(parts[0]):
+        city = re.sub(rf"\b{STATE_CODE_PATTERN}\b.*$", "", parts[1]).strip()
+    elif len(parts) >= 2:
+        city = parts[0]
+    else:
+        city = ""
+    city = re.sub(r"\s+\d{5}\b.*$", "", city).strip()
+    if city.lower() in BAD_LOCATION_WORDS or len(city) > 42:
+        return ""
+    return professional_title_case(city) if city else ""
+
+
+def operator_name_from_record_text(record: dict[str, str]) -> str:
+    text = clean_text(record.get("full_text", ""))
+    known_as = re.search(r"\bknown as\s+([^.\n]{5,90})", text, re.I)
+    if known_as:
+        name = clean_title(known_as.group(1))
+        if not is_weak_title(name):
+            return name
+    titled = re.search(r"\b(?:business name|property name|name)\s*[:\-]\s*([^.\n]{5,80}(?:Car\s*Wash|Carwash|Auto Spa|Gas Station)[^.\n]{0,40})", text, re.I)
+    if titled:
+        name = clean_title(titled.group(1))
+        if not is_weak_title(name):
+            return name
+    return ""
+
+
+def needs_professional_name(record: dict[str, str]) -> bool:
+    name = clean_line(record.get("name", ""))
+    lower = name.lower()
+    if is_weak_title(name):
+        return True
+    if re.search(r"\b(?:sf|sq\.?\s*ft|ft)\b", lower) and re.search(r"\b(?:retail|lease|facility|freestanding|former|auto dealer)\b", lower):
+        return True
+    if lower.startswith("car wash lead -"):
+        return True
+    if lower.startswith(("car wash location -", "car wash opportunity -")):
+        suffix = lower.split("-", 1)[-1].strip()
+        if suffix in BAD_LOCATION_WORDS or ADDRESS_RE.search(name) or len(suffix) > 38:
+            return True
+    return False
+
+
+def professionalize_record(record: dict[str, str]) -> dict[str, str]:
+    record = dict(record)
+    record["market"] = clean_market(record.get("market", ""))
+    record["state"] = record.get("state") or state_from_text(record.get("market", ""))
+    current_name = clean_title(record.get("name", ""))
+    if not needs_professional_name({**record, "name": current_name}):
+        record["name"] = current_name
+        return record
+
+    city = city_label_from_market(record.get("market", ""))
+    operator_name = operator_name_from_record_text(record)
+    if operator_name:
+        clean_name = operator_name
+    else:
+        text = " ".join([record.get("name", ""), record.get("full_text", ""), record.get("note", "")]).lower()
+        if "gas station" in text:
+            clean_name = "Car Wash & Gas Station"
+        elif "quick lube" in text or re.search(r"\blube\b", text):
+            clean_name = "Car Wash & Quick Lube"
+        elif "auto dealer" in text:
+            clean_name = "Car Wash & Auto Dealer"
+        elif "former car wash" in text:
+            clean_name = "Former Car Wash Site"
+        elif "self serve" in text or "self-service" in text:
+            clean_name = "Self-Service Car Wash"
+        elif "full service" in text:
+            clean_name = "Full-Service Car Wash"
+        elif "express" in text:
+            clean_name = "Express Car Wash"
+        else:
+            clean_name = "Car Wash Site"
+
+    if city and city.lower() not in clean_name.lower():
+        clean_name = f"{clean_name} - {city}"
+    record["name"] = clean_title(clean_name)
+    return record
+
+
 def public_coverage_records(existing_records: list[dict[str, str]]) -> list[dict[str, str]]:
     if not PUBLIC_CARWASHES:
         return []
@@ -2607,6 +2768,22 @@ def build() -> list[dict[str, str]]:
             and (record.get("state") or state_from_text(record.get("market", ""))) not in EXCLUDED_STATES
             and (record.get("state") or state_from_text(record.get("market", "")))
         ]
+    final_records = [professionalize_record(record) for record in final_records]
+    final_records = [
+        record
+        for record in dedupe_records(final_records)
+        if has_specific_location(record.get("market", ""))
+        and not is_weak_title(record.get("name", ""))
+    ]
+    if len(final_records) < TARGET_RECORD_COUNT:
+        final_records.extend(public_coverage_records(final_records))
+        final_records = [professionalize_record(record) for record in final_records]
+        final_records = [
+            record
+            for record in dedupe_records(final_records)
+            if has_specific_location(record.get("market", ""))
+            and not is_weak_title(record.get("name", ""))
+        ][:TARGET_RECORD_COUNT]
     for record in final_records:
         record["ebitda"] = estimated_ebitda(record)
         record["acres"] = estimated_acres(record)
