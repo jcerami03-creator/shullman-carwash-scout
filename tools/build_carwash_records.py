@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from urllib.parse import quote_plus
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -2553,6 +2554,10 @@ def needs_professional_name(record: dict[str, str]) -> bool:
     lower = name.lower()
     if is_weak_title(name):
         return True
+    if "/" in name:
+        return True
+    if re.search(r"\b(?:tax advantages|bonus depreciation|am gt|peril|carusit|/!|businesses w/|businesses with)\b", lower):
+        return True
     if re.search(r"\b(?:sf|sq\.?\s*ft|ft)\b", lower) and re.search(r"\b(?:retail|lease|facility|freestanding|former|auto dealer)\b", lower):
         return True
     if lower.startswith("car wash lead -"):
@@ -2589,6 +2594,8 @@ def professionalize_record(record: dict[str, str]) -> dict[str, str]:
             clean_name = "Former Car Wash Site"
         elif "self serve" in text or "self-service" in text:
             clean_name = "Self-Service Car Wash"
+        elif re.search(r"\b(?:90'|90 ft|tunnel)\b", text):
+            clean_name = "Express Tunnel Car Wash"
         elif "full service" in text:
             clean_name = "Full-Service Car Wash"
         elif "express" in text:
@@ -2796,6 +2803,8 @@ def build() -> list[dict[str, str]]:
         record["cars_per_year"] = estimated_cars_per_year(record)
         record["asking_price"] = estimated_asking_price(record)
         record["traffic_count"] = estimated_traffic_count(record)
+        if not record.get("maps_url") and has_specific_location(record.get("market", "")):
+            record["maps_url"] = f"https://www.google.com/maps/search/?api=1&query={quote_plus(record['market'])}"
         record["note"] = professional_note(
             record["name"],
             record["market"],
