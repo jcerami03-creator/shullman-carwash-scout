@@ -696,13 +696,20 @@ def is_weak_title(title: str) -> bool:
         return True
     if re.match(r"^\d+(?:\.\d+)?\s*[a-z&' ]*car wash", lower):
         return True
+    if ADDRESS_RE.search(title):
+        return True
     if re.search(r"\b(?:sf|sq\.?\s*ft|ft)\b", lower) and re.search(r"\b(?:retail|lease rate|facility|freestanding|former)\b", lower):
         return True
     if any(phrase in lower for phrase in BAD_TITLE_PHRASES):
         return True
     if len(title) > 82:
         return True
-    if re.search(r"\b\d{3}[-.]\d{3}[-.]\d{4}\b", title):
+    if re.search(r"(?:\b|\()\d{3}\)?[-.\s]+\d{3}[-.\s]+\d{4}\b", title):
+        return True
+    if re.search(r"[~=«»]{2,}|[—-]{2,}", title):
+        return True
+    unusual_chars = re.sub(r"[A-Za-z0-9 $,.#&/()'’:+-]", "", title)
+    if len(unusual_chars) > 2:
         return True
     if lower.startswith(("this ", "the ", "a car wash tunnel", "property ", "complex:", "training available")):
         return True
@@ -722,6 +729,9 @@ def title_from_page(page: str, fallback: str) -> str:
 
 def clean_title(title: str) -> str:
     title = clean_line(title)
+    title = re.sub(r"(?:\b|\()\d{3}\)?[-.\s]+\d{3}[-.\s]+\d{4}\b", "", title)
+    title = re.sub(r"[~=«»]+", " ", title)
+    title = re.sub(r"\s*[—-]{2,}\s*", " ", title)
     title = re.sub(r"\s+N/?A\s*$", "", title, flags=re.I)
     title = re.sub(r"^\d+(?:\.\d+)?\s*(?=[A-Za-z&' ]*Car\s*Wash)", "", title, flags=re.I)
     title = re.sub(r"^Subject[:.]?\s*", "", title, flags=re.I)
@@ -1826,6 +1836,9 @@ def structured_record(
     clean_name = clean_title(name)
     clean_location = clean_market(market)
     state = state_from_text(clean_location)
+    if is_weak_title(clean_name):
+        city = city_label_from_market(clean_location)
+        clean_name = f"Car Wash Site - {city}" if city else "Car Wash Site"
     clean_asking = money_value_or_blank(asking_price) or clean_line(asking_price)
     clean_sales = money_value_or_blank(sales) or clean_line(sales)
     clean_ebitda = money_value_or_blank(ebitda) or clean_line(ebitda)
