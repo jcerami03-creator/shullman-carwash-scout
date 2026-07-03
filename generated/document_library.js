@@ -105,9 +105,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "12",
         "summary": "http://bizbuyse11.com/cgi-bin/addetail?J=bot&p=0&n=ra&k=car wash&t=20050617&bn=1... 6/17/2005 seasoned car wash operator. In the right hands this baby is a jackpot. Magnificent Car Wash, Lube, Detail Salon",
-        "addresses": [
-          "000 Business Summary Just off a main highway on a major street in northern NJ"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -159,10 +157,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Car wash and lube claims $900,000 gross. Long lease or property. Property and Carwash. Claims $450,000 gross. All new equipment Car wash, property & 12 bay self serve. Could be full service. $850,000",
         "addresses": [
           "576 Springfield Avenue, Newark, NJ",
-          "000 total. 3110 E. Route 10, Denville. NJ",
-          "000 through financing package. 4.5 W. Clinton Street, North Bergenfield. NJ",
-          "000 total for the whole thing. 2118 Route 35 Oakhurst, NJ",
-          "000 total. 1066 East Elizabeth Avenue, Linden, NJ",
           "1121 Asbury Avenue, Asbury Park, NJ"
         ],
         "terms": [
@@ -776,9 +770,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "117",
         "summary": "3.5 Acres Yes 2.5 Acres Yes 2.0 Acres Yes",
-        "addresses": [
-          "000 Garrisonville Rd. & Eustace La"
-        ],
+        "addresses": [],
         "terms": [
           "acres"
         ]
@@ -1441,20 +1433,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "type": "Listing / Offering",
         "document": "Doc Scanned Bin 4.txt",
-        "page": "117",
-        "name": "Excess land for sale",
-        "location": "000 Garrisonville Rd. & Eustace La",
-        "status": "",
-        "lot_size": "",
-        "traffic_count": "",
-        "revenue": "",
-        "asking_price": "$800,000",
-        "ebitda": "",
-        "note": "3.5 Acres Yes 2.5 Acres Yes 2.0 Acres Yes Asking price $800,000."
-      },
-      {
-        "type": "Listing / Offering",
-        "document": "Doc Scanned Bin 4.txt",
         "page": "123",
         "name": "FLAGSHIP CAR WASH",
         "location": "1 Property Photo Address Flagship Collinsworth 3124 Collinsworth St. Ft. Worth, TX",
@@ -1484,7 +1462,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Doc Scanned Bin 4.txt",
         "page": "130",
-        "name": "1.06 acre lot Improved with a 5,000 square foot carwash and detail si",
+        "name": "Listing / Offering - 3479 Mercer University Drive Macon, GA 31204",
         "location": "3479 Mercer University Drive Macon, GA 31204",
         "status": "",
         "lot_size": "",
@@ -1513,7 +1491,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Doc Scanned Bin 4.txt",
         "page": "12",
         "name": "Magnificent Car Wash, Lube, Detail Salon",
-        "location": "000 Business Summary Just off a main highway on a major street in northern NJ",
+        "location": "Detail Salon Northern, NJ",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -1708,7 +1686,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Doc Scanned Bin 4.txt",
         "page": "11",
-        "name": "0 Full Service Car Wash - Completely Rebuilt",
+        "name": "Listing / Offering - Page 11",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -1889,6 +1867,20 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "type": "Listing / Offering",
         "document": "Doc Scanned Bin 4.txt",
+        "page": "117",
+        "name": "Excess land for sale",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$800,000",
+        "ebitda": "",
+        "note": "3.5 Acres Yes 2.5 Acres Yes 2.0 Acres Yes Asking price $800,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Doc Scanned Bin 4.txt",
         "page": "129",
         "name": "PAD OR STRIP SITE",
         "location": "",
@@ -1974,7 +1966,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Doc Scanned Bin 4.txt",
         "page": "20",
-        "name": "\u2022 CAR WASH OPPORTUNITIES",
+        "name": "Source Evidence - 576 Springfield Avenue, Newark, NJ",
         "location": "576 Springfield Avenue, Newark, NJ",
         "status": "",
         "lot_size": "",
@@ -2142,7 +2134,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Doc Scanned Bin 4.txt",
         "page": "75",
-        "name": "3200ft2 - Turn-key Full-Service Car Wash For Lease",
+        "name": "Source Evidence - 3655 S. Fort Apache Road, Las Vegas, NV",
         "location": "3655 S. Fort Apache Road, Las Vegas, NV",
         "status": "",
         "lot_size": "",
@@ -3144,7 +3136,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document bin 5.txt",
         "page": "14",
-        "name": "6126,000 to $149,999",
+        "name": "Demographic Support - 101 Haag Avenue. Bellmawr, NJ 08031",
         "location": "101 Haag Avenue. Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -3200,7 +3192,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document bin 5.txt",
         "page": "39",
-        "name": "10/7/24, 8:53 AM",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
         "location": "101 Haag Avenue, Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -3214,7 +3206,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document bin 5.txt",
         "page": "40",
-        "name": "1017124, 8:53 AM",
+        "name": "Demographic Support - 751 Dolly Parton Parkway Sevierville, TN 37862",
         "location": "751 Dolly Parton Parkway Sevierville, TN 37862",
         "status": "",
         "lot_size": "",
@@ -3777,7 +3769,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "SALE PRICE: $1,900,000 South Kipling Parkway in Lakewood. 45,800 vehicles per day and 51,022 Households within a 3 mile radius. Express Tunnel Car Wash featuring 120ft tunnel with an advanced water reclaim treatment system. Excellent visibility from EXPRESS TUNNEL CAR WASH FOR SALE",
         "addresses": [
           "935 South Kipling Parkway, Lakewood, CO 80226",
-          "000 South Kipling Parkway in",
           "917 Auraria Pkwy Commercial Broker Commercial Broker Denver, CO 80204"
         ],
         "terms": [
@@ -4384,9 +4375,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "99",
         "summary": "Round Rock Car Wash For Br 99? $900,000 This ts a NNN leased established car wash in operation for 15 years in Round Rock, Texas. Located on one of the 1322 Round Rock Ave, Round Rock, TX 78681 $0 6 r00",
-        "addresses": [
-          "000 ale 1322 Round Rock Ave, Round Rock, TX 78681"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -5055,7 +5044,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20160628_0001.txt",
         "page": "33",
-        "name": "10/22/2018 Operating Car Wash For Sale in Huntsville, Alabama - BizBuySell",
+        "name": "Listing / Offering - Wash For Sale Huntsville, AL",
         "location": "Wash For Sale Huntsville, AL",
         "status": "",
         "lot_size": "",
@@ -5181,7 +5170,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20160628_0001.txt",
         "page": "61",
-        "name": "11/7/2017 Full Service Car Wash & Mobil Gas Station - MOTIVATED SELLER: Business For...",
+        "name": "Listing / Offering - MOTIVATED SELLER La Palma, CA",
         "location": "MOTIVATED SELLER La Palma, CA",
         "status": "",
         "lot_size": "",
@@ -5392,7 +5381,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Document_20160628_0001.txt",
         "page": "99",
         "name": "Round Rock Car Wash For Br 99? $900,000",
-        "location": "000 ale 1322 Round Rock Ave, Round Rock, TX 78681",
+        "location": "Round Rock, TX 78681",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -5433,7 +5422,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20160628_0001.txt",
         "page": "105",
-        "name": "5/2015 LoopNet - Top Hat Car Wash For Sale, Special Purpose (Other), 950 W. Hemphill...",
+        "name": "Listing / Offering - 240 SF 7450 Embury Rd Grand Blanc, MI",
         "location": "240 SF 7450 Embury Rd Grand Blanc, MI",
         "status": "",
         "lot_size": "",
@@ -5475,7 +5464,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20160628_0001.txt",
         "page": "112",
-        "name": "9015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm...",
+        "name": "Listing / Offering - 1350 Palm Avenue, San Diego, CA",
         "location": "1350 Palm Avenue, San Diego, CA",
         "status": "",
         "lot_size": "",
@@ -5825,7 +5814,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20160628_0001.txt",
         "page": "110",
-        "name": "19/2873015 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350...",
+        "name": "Listing / Offering - 1350 Palm Avenue, San Diego, CA",
         "location": "1350 Palm Avenue, San Diego, CA",
         "status": "",
         "lot_size": "",
@@ -6007,7 +5996,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document_20160628_0001.txt",
         "page": "111",
-        "name": "Lee & Associates Is pleased to offer the fee simple real estate and business interest...",
+        "name": "Demographic Support - 1350 Palm Avenue, San Diego, CA 92154",
         "location": "1350 Palm Avenue, San Diego, CA 92154",
         "status": "",
         "lot_size": "",
@@ -6049,7 +6038,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Document_20160628_0001.txt",
         "page": "11",
-        "name": "8/25/2018 . Apple Valley Carwash",
+        "name": "Source Evidence - 4089 Grand Ave Chino, CA 91710",
         "location": "4089 Grand Ave Chino, CA 91710",
         "status": "",
         "lot_size": "",
@@ -6212,8 +6201,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "17",
         "summary": "2/5/2014 LoopNet- Mister Car Wash Ground Lease, Free Standing Bldg, 7027 Quaker Avenue, Lubbock, TX Mister Car Wash Ground Lease $2,461,000 Unhed Con miardtal Realty Car Wash Shadow- Wash & Lube Chain In the e Buexo zu",
         "addresses": [
-          "7027 Quaker Avenue, Lubbock, TX",
-          "000 Unhed Con miardtal Realty 7027 Quaker Avenue, Lubbock, TX 79424"
+          "7027 Quaker Avenue, Lubbock, TX"
         ],
         "terms": [
           "car wash",
@@ -6223,9 +6211,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "18",
         "summary": "Traffic count: 25,000+ Express Car Wash fe 4 (~V CAR WASH FOR SALE",
-        "addresses": [
-          "000 CAR WASH FOR SALE 2124 E. 8th Street Odessa TX 79761"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic"
@@ -6234,10 +6220,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "19",
         "summary": "2013 Revenue $268,490.00 Full Service Car Wash L CAR WASH FOR SALE",
-        "addresses": [
-          "000 CAR WASH FOR SALE 900 Dallas Drive Denton TX 76205",
-          "00 Chet Wilke- Broker 6860 N Dallas Pkwy #200 Plano, TX 75024"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -6501,7 +6484,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20180531_0001.txt",
         "page": "11",
-        "name": "6/3/2014 Car Wash for Sale!: Business For Sale in Providence County, Rhode Island, Un...",
+        "name": "Listing / Offering - Providence County, RI",
         "location": "Providence County, RI",
         "status": "",
         "lot_size": "",
@@ -6543,7 +6526,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20180531_0001.txt",
         "page": "17",
-        "name": "2/5/2014 LoopNet- Mister Car Wash Ground Lease, Free Standing Bldg, 7027 Quaker Avenu...",
+        "name": "Listing / Offering - 7027 Quaker Avenue, Lubbock, TX",
         "location": "7027 Quaker Avenue, Lubbock, TX",
         "status": "",
         "lot_size": "",
@@ -6556,23 +6539,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "type": "Listing / Offering",
         "document": "Document_20180531_0001.txt",
-        "page": "18",
-        "name": "CAR WASH FOR SALE",
-        "location": "000 CAR WASH FOR SALE 2124 E. 8th Street Odessa TX 79761",
-        "status": "",
-        "lot_size": "",
-        "traffic_count": "25,000",
-        "revenue": "",
-        "asking_price": "$290,000",
-        "ebitda": "",
-        "note": "Traffic count: 25,000+ Express Car Wash fe 4 (~V CAR WASH FOR SALE Asking price $290,000. Traffic 25,000."
-      },
-      {
-        "type": "Listing / Offering",
-        "document": "Document_20180531_0001.txt",
         "page": "19",
         "name": "CAR WASH FOR SALE",
-        "location": "000 CAR WASH FOR SALE 900 Dallas Drive Denton TX 76205",
+        "location": "Plano, TX 75024",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -6585,7 +6554,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20180531_0001.txt",
         "page": "33",
-        "name": "12A7TA3 Car Wash Sandy Utah: Business For Sale in 7750 South 700 East, Murray, Salt L...",
+        "name": "Listing / Offering - Wash Sandy Utah Murray, UT",
         "location": "Wash Sandy Utah Murray, UT",
         "status": "",
         "lot_size": "",
@@ -6599,7 +6568,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20180531_0001.txt",
         "page": "9",
-        "name": "12/8/13 TCN Worldwide Property Listings - Bank REO: Tunnel Car Wash for Sale",
+        "name": "Listing / Offering - 90-110 Hickman Road Waukee, IA",
         "location": "90-110 Hickman Road Waukee, IA",
         "status": "",
         "lot_size": "",
@@ -6613,7 +6582,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20180531_0001.txt",
         "page": "10",
-        "name": "36/2015 LoopNet - Two Ultimate Car Wash Locations, Retail (Other), 8005 NW 39th Expre...",
+        "name": "Listing / Offering - 8005 NW 39th Expressway and 8750 Northeast 28rd Street, Bethany...",
         "location": "8005 NW 39th Expressway and 8750 Northeast 28rd Street, Bethany, OK",
         "status": "",
         "lot_size": "",
@@ -6650,6 +6619,20 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "asking_price": "$1,350,000",
         "ebitda": "",
         "note": "Listing #3731: Full Service Car Wash and Lube Center Full Service Car Wash and three bay Lube Center. Located on a Full Service Car Wash and Lube Center Business For Sale or Lease by Asking price $1,350,000. Revenue $365,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Document_20180531_0001.txt",
+        "page": "18",
+        "name": "CAR WASH FOR SALE",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "25,000",
+        "revenue": "",
+        "asking_price": "$290,000",
+        "ebitda": "",
+        "note": "Traffic count: 25,000+ Express Car Wash fe 4 (~V CAR WASH FOR SALE Asking price $290,000. Traffic 25,000."
       },
       {
         "type": "Listing / Offering",
@@ -7310,12 +7293,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "e\u00a2 187 Teaticket Hwy, East Falmouth, MA 02536 - $7,300,000 e 4145 Grove Ave, Gurnee, IL 60031 - $5,500,000 e 2605 E Stone Dr, Kingsport, TN 37660 - $9,000,000",
         "addresses": [
           "330 W Plank Rd, Altoona, PA 16602",
-          "187 Teaticket Hwy, East Falmouth, MA 02536",
-          "000 e 7Nells Way, Orleans, MA 02653",
-          "000 e 25N 25th St, Lebanon, PA 17042",
-          "000 e 2605 E Stone Dr, Kingsport, TN 37660",
-          "000 e 140 Cook St, Abingdon, VA 24210",
-          "000 e 4145 Grove Ave, Gurnee, IL 60031"
+          "187 Teaticket Hwy, East Falmouth, MA 02536"
         ],
         "terms": [
           "car wash"
@@ -7324,9 +7302,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "14",
         "summary": "NAPPA Car Wash - 2918 Washington Rd, Kenosha, WI 53140 \u201824 Adjusted EBITDA: + $335,000 e \u201824 Adjusted EBITDA: + $65,000",
-        "addresses": [
-          "000 NAPPA Car Wash - 2918 Washington Rd, Kenosha, WI 53140"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "traffic",
@@ -7676,8 +7652,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Traffic / Site Evidence",
         "document": "Document_20260603_0002.txt",
         "page": "14",
-        "name": "Traffic / Site Evidence - 000 NAPPA Car Wash - 2918 Washington Rd, Kenosha, WI 53140",
-        "location": "000 NAPPA Car Wash - 2918 Washington Rd, Kenosha, WI 53140",
+        "name": "Traffic / Site Evidence - Kenosha, WI 53140",
+        "location": "Kenosha, WI 53140",
         "status": "",
         "lot_size": "",
         "traffic_count": "20,000",
@@ -7788,7 +7764,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Financial Support",
         "document": "Document_20260603_0002.txt",
         "page": "1",
-        "name": "Investment Summary",
+        "name": "Financial Support - Page 1",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -7993,7 +7969,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "f\u00b0 1192015~ * LoopNet - Magic Clean Car Wash | Including Business, Vehicle Related, 1923 W. Manchester Ave, Los Angeles, CA converting to an express car wash The car wash has been opened for 4 months and there is a SBA loan in place the real estate & a brand new exprass car wash business. Seller has invested more than $850K in improvement",
         "addresses": [
           "1923 W. Manchester Ave, Los Angeles, CA",
-          "000 vehicles per day along West Manchester Ave and is situated in",
           "1923 W. Manchester Ave, Los Angeles, CA 90047"
         ],
         "terms": [
@@ -8032,9 +8007,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "28",
         "summary": "express car wash The car wash has been opened for 4 months and there is a SBA loan in place which can be assumed. The subject property is a Magic Clean Car Wash consists of approximately 8,068 square feet of building and is situated & a brand new express car wash business. Seller has invested more than $850K in improvements by converting ",
-        "addresses": [
-          "000 vehicles per day along West Manchester Ave and is situated in"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "development"
@@ -8289,20 +8262,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "type": "Source Evidence",
         "document": "Document_20260603_0003.txt",
-        "page": "28",
-        "name": "The subject property is a Magic Clean Car Wash consists of approximately 8,068 square...",
-        "location": "000 vehicles per day along West Manchester Ave and is situated in",
-        "status": "",
-        "lot_size": "",
-        "traffic_count": "34,000",
-        "revenue": "",
-        "asking_price": "",
-        "ebitda": "",
-        "note": "express car wash The car wash has been opened for 4 months and there is a SBA loan in place which can be assumed. The subject property is a Magic Clean Car Wash consists of approximately 8,068 square feet of building and is situated & a brand new express car..."
-      },
-      {
-        "type": "Source Evidence",
-        "document": "Document_20260603_0003.txt",
         "page": "16",
         "name": "NORWALK CAR WASH/DEVLEOPMENT SITE | 11556 IMPERIAL HIGHWAY, NORWALK, CA",
         "location": "11556 IMPERIAL HIGHWAY, NORWALK, CA",
@@ -8369,6 +8328,20 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "asking_price": "$10",
         "ebitda": "",
         "note": "of more than $10 for basic services. (a basic car wash at the Property is $12), the express exterior \u2018The express exterior car wash model almost completely automates the wash process for the upgrading of the equipment for the conversion to an express exterior..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Document_20260603_0003.txt",
+        "page": "28",
+        "name": "The subject property is a Magic Clean Car Wash consists of approximately 8,068 square...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "34,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "express car wash The car wash has been opened for 4 months and there is a SBA loan in place which can be assumed. The subject property is a Magic Clean Car Wash consists of approximately 8,068 square feet of building and is situated & a brand new express car..."
       }
     ],
     "gallery_images": []
@@ -8449,8 +8422,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "9",
         "summary": "LoopNet - EZ-Wash Car Wash & Service Center, Vehicle Related, 44 Farmers Drive, Fleetwood, PA EZ-Wash Car Wash & Service Center $495,000 NAL Seas Automatic Car Wash plus four-bay sence facillty on 1.6 acres. Includes all Inventory and equipment.",
         "addresses": [
-          "44 Farmers Drive, Fleetwood, PA",
-          "000 NAL Seas 44 Farmers Drive, Fleetwood, PA 19522"
+          "44 Farmers Drive, Fleetwood, PA"
         ],
         "terms": [
           "car wash",
@@ -9559,8 +9531,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "144",
         "summary": "buildings that can accommodate large scale tenants, car wash, and VSC bank building (soon to be leased). Tenants include: Main Street Car Wash, Lundeens Liquors, The Dollar Store and More, Critters Pet Shop, Tri City Building Size 98,781 SF Occupancy. pee Saint Charles, IL",
         "addresses": [
-          "1605 West Main Street, Saint Charles, IL",
-          "000 Corcoran Commercial Real Estate 1605 West Main Street, Saint Charles, IL 60174"
+          "1605 West Main Street, Saint Charles, IL"
         ],
         "terms": [
           "car wash"
@@ -9747,8 +9718,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "169",
         "summary": "TURN-KEY CAR WASH - 39 Windsor Place, Central Islip, NY 11722 2495 Middie Country Road, Gentereach, NY 11720",
         "addresses": [
-          "2495 Middie Country Road, Gentereach, NY 11720",
-          "00 AM EST 39 Windsor Place, Central Islip, NY 11722"
+          "2495 Middie Country Road, Gentereach, NY 11720"
         ],
         "terms": [
           "car wash"
@@ -10570,7 +10540,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "12",
-        "name": "12/1/13 Car Wash Express $450K Short sale: Business For Sale in Centennial, Arapahoe...",
+        "name": "Listing / Offering - Centennial, CO",
         "location": "Centennial, CO",
         "status": "",
         "lot_size": "",
@@ -10724,7 +10694,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "71",
-        "name": "1214713 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 3601 Auburn Str...",
+        "name": "Listing / Offering - 3601 Auburn Street, Rockford, IL",
         "location": "3601 Auburn Street, Rockford, IL",
         "status": "",
         "lot_size": "",
@@ -10752,7 +10722,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "73",
-        "name": "25/2015 LoopNet - Car Wash: Full Serve Tunnel & Detail Center, Vehicle Related, 120 S...",
+        "name": "Listing / Offering - 120 South McDonald Avenue, Joliet, IL",
         "location": "120 South McDonald Avenue, Joliet, IL",
         "status": "",
         "lot_size": "",
@@ -10822,7 +10792,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "81",
-        "name": "11/26/13 LoopNet - Car Wash: Fuil Serve Tunnel, Vehicle Related, 1241-1247 East New Y...",
+        "name": "Listing / Offering - 1241-1247 East New York Street, Aurora, iL",
         "location": "1241-1247 East New York Street, Aurora, iL",
         "status": "",
         "lot_size": "",
@@ -10836,7 +10806,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "86",
-        "name": "12/10/13 Conveyor Exterior Car Wash - Just South of Midway Airport: Business For Sale...",
+        "name": "Listing / Offering - Midway Airport Chicago, IL",
         "location": "Midway Airport Chicago, IL",
         "status": "",
         "lot_size": "",
@@ -10864,7 +10834,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "88",
-        "name": "4126/2015 Car Wash For Sale: Business For Sale in Aurora, Kane County, Illinois, Unit...",
+        "name": "Listing / Offering - Wash For Sale Aurora, IL",
         "location": "Wash For Sale Aurora, IL",
         "status": "",
         "lot_size": "",
@@ -10878,7 +10848,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "89",
-        "name": "4(2612015 LoopNet - Car Wash: Express Exterior Tunnel, Vehicle Related, 1030 West Gal...",
+        "name": "Listing / Offering - 1030 West Galena Avenue, Freeport, IL",
         "location": "1030 West Galena Avenue, Freeport, IL",
         "status": "",
         "lot_size": "",
@@ -11018,7 +10988,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "117",
-        "name": "12/11/13 CAR WASH $ MONEY MAKER $: Business For Sale in Harrison County, Mississippi...",
+        "name": "Listing / Offering - Harrison County, MS",
         "location": "Harrison County, MS",
         "status": "",
         "lot_size": "",
@@ -11032,7 +11002,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "118",
-        "name": "12/1113 CAR WASH $ MONEY MAKER $: Business For Sale in Harrison County, Mississippi...",
+        "name": "Listing / Offering - Harrison County, MS",
         "location": "Harrison County, MS",
         "status": "",
         "lot_size": "",
@@ -11046,7 +11016,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "127",
-        "name": "4/30/2014 Car Wash/Property For Sale: Business For Sale in Dover, Strafford County, N...",
+        "name": "Listing / Offering - Property For Sale Dover, NH",
         "location": "Property For Sale Dover, NH",
         "status": "",
         "lot_size": "",
@@ -11074,7 +11044,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "143",
-        "name": "2/8/2014 LoopNet - Reduced Price Car Wash, Lynwood, CA, Vehicle Related, 12606 Long B...",
+        "name": "Listing / Offering - 12606 Long Beach Boulevard, Lynwood, CA",
         "location": "12606 Long Beach Boulevard, Lynwood, CA",
         "status": "",
         "lot_size": "",
@@ -11214,7 +11184,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "177",
-        "name": "3/20/2015 Gas Station Car Wash Lube and CStore - 22764: Business For Sale in Kings Co...",
+        "name": "Listing / Offering - Kings County, NY",
         "location": "Kings County, NY",
         "status": "",
         "lot_size": "",
@@ -11228,7 +11198,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "179",
-        "name": "803 Stable 10% Cap Rate Car Wash in",
+        "name": "Listing / Offering - Milwaukee Area Milwaukee County, WI",
         "location": "Milwaukee Area Milwaukee County, WI",
         "status": "",
         "lot_size": "",
@@ -11410,7 +11380,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "160",
-        "name": "1839 N Dixie Bouleva dinasiuraenes Ao",
+        "name": "Listing / Offering - 1339 N Dixie Boulevard, Radcliff, KY",
         "location": "1339 N Dixie Boulevard, Radcliff, KY",
         "status": "",
         "lot_size": "",
@@ -11438,7 +11408,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "7",
-        "name": "1/22/2014 Tunnel Car Wash For Sale",
+        "name": "Listing / Offering - Page 7",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -11452,7 +11422,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "24",
-        "name": "5/7/2015 Car Wash, lube, repairs: Business For Sale in Ontario, San Bernardino County...",
+        "name": "Listing / Offering - Page 24",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -11550,7 +11520,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "96",
-        "name": "2/6/2015 * FULL-SERVICE CAR WASH",
+        "name": "Listing / Offering - Page 96",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -11564,7 +11534,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "98",
-        "name": "2/14/2015 FULL-SERVICE CAR WASH",
+        "name": "Listing / Offering - Page 98",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -11578,7 +11548,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "99",
-        "name": "10/22/2014 ***REDUCED***Full Service Carwash For Sale in Metro New Orleans",
+        "name": "Listing / Offering - Page 99",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -11592,7 +11562,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "110",
-        "name": "12/11/13 Well est.Full Service Car Wash inc. Real estate and U-Haul Dealer !: Busines...",
+        "name": "Listing / Offering - Page 110",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -11606,7 +11576,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0004.txt",
         "page": "126",
-        "name": "12/7/11 Full Service Car Wash: Business For Sale in Nevada on BizBuySell.com",
+        "name": "Listing / Offering - Page 126",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -11984,7 +11954,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Document_20260603_0004.txt",
         "page": "63",
-        "name": "6.3Carl's Big Bend Self Service Car Wash",
+        "name": "Source Evidence - 3140 South Big Bend Boulevard, Saint Louis, MO 63143",
         "location": "3140 South Big Bend Boulevard, Saint Louis, MO 63143",
         "status": "",
         "lot_size": "",
@@ -11998,7 +11968,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Document_20260603_0004.txt",
         "page": "64",
-        "name": "3.7 Celebrity Car Wash",
+        "name": "Source Evidence - 7 Celebrity Car Wash 5700 Telegraph Road, Saint Louis, MO 63129",
         "location": "7 Celebrity Car Wash 5700 Telegraph Road, Saint Louis, MO 63129",
         "status": "",
         "lot_size": "",
@@ -12352,7 +12322,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "7118/2014 LoopNet - 6206 - 6210 Holabird Ave, Service/Gas Station, 6206 - 6210 Holabird Ave, Baltimore, MD 6206 - 6210 Holabird Ave, Baltimore, MD 21224 1,500 SF | Retail | Get Financing Commercial Real Estata Services, Wokdmde, 5 Acres - Tower Po...",
         "addresses": [
           "6210 Holabird Ave, Baltimore, MD",
-          "000 resenesy NAIKLNB 6206 - 6210 Holabird Ave, Baltimore, MD 21224",
           "25 New Plant Ct Owings Mills, MD"
         ],
         "terms": [
@@ -12885,9 +12854,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "83",
         "summary": "Former full service carwash, Drive Thru, Car/Motor Sports Sales, Storage 944 State Route 28, Milford, OH 45150 7,240 SF | Retail | Get Financing Realtors hitp:/Avww.loopnet.com/xNet/MamnSite/Listing/P rofite/P rolile.aspx?LID=19332327&SRID=59906338608StepID=101 THSAS5, 11:22 PM",
-        "addresses": [
-          "000 Presented by Comey & Shepherd 944 State Route 28, Milford, OH 45150"
-        ],
+        "addresses": [],
         "terms": [
           "development"
         ]
@@ -13091,7 +13058,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "|. JT Car Wash car wash loc: 5791 Broadway, Bronx, NY 10463 - Google Maps G. Kingsbridge Car Wash",
         "addresses": [
           "7 Bedford Park Blvd W, Bronx, NY",
-          "0 mi SE G. Kingsbridge Car Wash 2704 Jerome Ave, Bronx, NY",
           "3210 Webster Ave, Bronx, NY",
           "309 W 230th St, Bronx, NY",
           "630 West 246th Street, Riverdale, NY",
@@ -13414,10 +13380,9 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "146",
         "summary": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area. 22 vacuum stations, 4 10000 Abercorn Street, Savannah, GA 31406 Price: $881,250",
         "addresses": [
-          "10000 Abercorn Hurricane Bay Car Wash 10000 Abercorn Street, Savannah, GA 31406",
+          "10000 Abercorn Street, Savannah, GA 31406",
           "300 SF Bidg 18 Commerce Place Savannah, GA",
-          "700 SF Bidg 25 Posey Street Savannah, GA",
-          "000 SF Bidg 114 Horizon Park Dr... Savannah, GA"
+          "700 SF Bidg 25 Posey Street Savannah, GA"
         ],
         "terms": []
       },
@@ -13426,7 +13391,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "5,198 SF on .7626 acres. Former full senice car wash. Turn key and ready for opening. 7873 Kingland Drive, West Chester, OH 45069 5,198 SF | Retail",
         "addresses": [
           "7873 Kingland Drive, West Chester, OH",
-          "000 Be eins RiasitiGioup 7873 Kingland Drive, West Chester, OH 45069",
           "5850 Boymel Dr#2 Fairfield, OH"
         ],
         "terms": [
@@ -13526,8 +13490,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "157",
         "summary": "Car Wash & Lube Center Price Not Disclosed Rowell Auctions 41608 Hwy 19 S, Leesburg, GA 31763 8,439 SF | Retail 201 Boo's Drive, Tifton, GA 31793",
         "addresses": [
-          "41608 Hwy 19 S, Leesburg, GA 31763",
-          "00 PM EST Request Additional Information 201 Boo's Drive, Tifton, GA 31793"
+          "41608 Hwy 19 S, Leesburg, GA 31763"
         ],
         "terms": [
           "car wash"
@@ -13546,8 +13509,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "159",
         "summary": "2/14/2014 LoopNet - Xtreme Clean Car Wash, Vehicle Related, 5950 W Alameda Ave, Lakewood, CO Xtreme Clean Car Wash $700,000 veeneteae Commercial Group Xtreme Clean Car Wash",
         "addresses": [
-          "5950 W Alameda Ave, Lakewood, CO",
-          "000 veeneteae Commercial Group 5950 W Alameda Ave, Lakewood, CO 80226"
+          "5950 W Alameda Ave, Lakewood, CO"
         ],
         "terms": [
           "car wash"
@@ -13615,9 +13577,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "169",
         "summary": "Splish Splash Car Wash $681,000 eerie car wash stations, McNeill Wash System serves the tunnel car wash and Coleman operated self senice stations LoopNet Splish Splash Car Wash, |",
-        "addresses": [
-          "000 eerie 23 South 59th Street, Belleville, IL 62223"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13749,9 +13709,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "185",
         "summary": "Price: $450,000 Property Use Type: VacantOwner-User Car Wash 2322 Stel... Established profitable tunnel car wash since 1972 4 Car Wash 5466 E.L....",
-        "addresses": [
-          "000 Aer rprada flea Estat 3986 Indianola Avenue, Columbus, OH 43201"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -13797,8 +13755,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "190",
         "summary": "LoopNet - Car Wash & Quick Lube - MESA, Vehicle Related, 808 S. Alma School Rd., Mesa, AZ , Car Wash & Quick Lube - MESA $1,195,000 exeararcsarpes a, FLEX CAR WASH -...",
         "addresses": [
-          "808 S. Alma School Rd., Mesa, AZ",
-          "000 exeararcsarpes 808 S. Alma School Rd., Mesa, AZ 85210"
+          "808 S. Alma School Rd., Mesa, AZ"
         ],
         "terms": [
           "car wash",
@@ -13852,7 +13809,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "195",
         "summary": "Mr. Goodwash Car Wash $645,000 Capitol Equities Realty Fully Automated free-standing tunnel car wash offering full detailing services. Price includes all F.F. & E 3820 Sullivant Avenue, Columbus, OH 43228 3,190 SF | Retail",
         "addresses": [
-          "000 Capitol Equities Realty 3820 Sullivant Avenue, Columbus, OH 43228",
           "5 East Long Street Columbus, OH",
           "780 SF Bldg S. Hamilton Road . Groveport, OH",
           "88 AC 1890 Nothwest Blvd... Columbus, OH"
@@ -13865,7 +13821,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "196",
         "summary": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area. 22 vacuum stations, 4 10000 Abercom Street, Savannah, GA 31406 PricelSF: $252.65 Year Built: 2008",
         "addresses": [
-          "10000 Abercorn Hurricane Bay Car Wash 10000 Abercom Street, Savannah, GA 31406",
+          "10000 Abercom Street, Savannah, GA 31406",
           "3003 Scarlett St Brunswick, GA",
           "3945 Highway 17 Richmond Hill, GA",
           "500 SF Bidg 1608 King St. Beaufort, SC"
@@ -13885,8 +13841,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "198",
         "summary": "4/21/2014 LoopNet - Car Wash, Vehicle Related, 1060 E. Main St, Mesa, AZ Car Wash $59,000 Pro Smart Realty Car Wash For Sale..Business Only",
         "addresses": [
-          "1060 E. Main St, Mesa, AZ",
-          "000 Pro Smart Realty 41060 E. Main St, Mesa, AZ 85203"
+          "1060 E. Main St, Mesa, AZ"
         ],
         "terms": [
           "car wash"
@@ -13909,9 +13864,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "LoopNet - LENDER OWNED AUTOMATIC CAR WASH, Vehicle Related, 7 LW Besinger Dr, Carpentersville, IL d just off J.F. Kennedy Memorial Drive/Rouse 25 with traffic counts exceeding 27,000 vehicles per day. ER OWNED AUTOMATIC CAR WASH. +/- 2,700 SF building with automatic car wash equipment.",
         "addresses": [
           "7 LW Besinger Dr, Carpentersville, IL",
-          "000 Rerecite Realy RarmeretOLLG WASH 7 LW Besinger Dr, Carpentersville, IL 60110",
-          "1055 West 175th St Homewood, IL",
-          "000 SF Bldg 27555 Route 176 Island Lake, IL"
+          "1055 West 175th St Homewood, IL"
         ],
         "terms": [
           "car wash",
@@ -14781,7 +14734,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Document_20260603_0005.txt",
         "page": "83",
         "name": "Former full service carwash, Drive Thru, Car/Motor Sports Sales, Storage",
-        "location": "000 Presented by Comey & Shepherd 944 State Route 28, Milford, OH 45150",
+        "location": "Milford, OH 45150",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -14920,7 +14873,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "40",
-        "name": "12/11/13 Ride Through Car Wash - 23960: Business For Sale in Iredell County, North Ca...",
+        "name": "Listing / Offering - Iredell County, NC",
         "location": "Iredell County, NC",
         "status": "",
         "lot_size": "",
@@ -15004,7 +14957,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "50",
-        "name": "1/17/2014 Express Exterlor Car Wash: Business For Sale in Charleston County, South Ca...",
+        "name": "Listing / Offering - Charleston County, SC",
         "location": "Charleston County, SC",
         "status": "",
         "lot_size": "",
@@ -15158,7 +15111,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "87",
-        "name": "42/113 Full Service Car Wash, Established over 50 years ina prime areal!: Business Fo...",
+        "name": "Listing / Offering - SEL East Suburb, OH",
         "location": "SEL East Suburb, OH",
         "status": "",
         "lot_size": "",
@@ -15172,7 +15125,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "111",
-        "name": "4/26/2015 Full Service Tunnel Car Wash w/Real Estate 1848KKBC: Business For Sale in S...",
+        "name": "Listing / Offering - Estate St. Charles County, MO",
         "location": "Estate St. Charles County, MO",
         "status": "",
         "lot_size": "",
@@ -15214,7 +15167,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "128",
-        "name": "19/24/13 LoopNet - Gator Tunnel Wash - SHORT SALE, Retail (Other), 7800 South 1377 We...",
+        "name": "Listing / Offering - West Jordan, UT",
         "location": "West Jordan, UT",
         "status": "",
         "lot_size": "",
@@ -15228,7 +15181,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "130",
-        "name": "11/2413 LoopNet - Price Reduced FlexService Carwash and Detail Shop, Vehicle Related...",
+        "name": "Listing / Offering - 5380 S. Parker Road, Aurora, co",
         "location": "5380 S. Parker Road, Aurora, co",
         "status": "",
         "lot_size": "",
@@ -15257,7 +15210,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Document_20260603_0005.txt",
         "page": "146",
         "name": "Bank owned \"touchless\" carwash with canopy over self-service vacuums and detail area...",
-        "location": "10000 Abercorn Hurricane Bay Car Wash 10000 Abercorn Street, Savannah, GA 31406",
+        "location": "10000 Abercorn Street, Savannah, GA 31406",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -15284,7 +15237,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "148",
-        "name": "12/13/13 LoopNet - spee D xperess Iube, Special Purpose (Other), 808 s. alma school r...",
+        "name": "Listing / Offering - 808 s. alma school rd, Mesa, AZ",
         "location": "808 s. alma school rd, Mesa, AZ",
         "status": "",
         "lot_size": "",
@@ -15355,7 +15308,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Document_20260603_0005.txt",
         "page": "169",
         "name": "LoopNet Splish Splash Car Wash, |",
-        "location": "000 eerie 23 South 59th Street, Belleville, IL 62223",
+        "location": "Belleville, IL 62223",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -15382,7 +15335,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "178",
-        "name": "11/2813 + LoopNet - Larch - 812 (Car Wash), Vehicle Related, 812 N. Larch, Lansing, MI",
+        "name": "Listing / Offering - Lansing, MI",
         "location": "Lansing, MI",
         "status": "",
         "lot_size": "",
@@ -15410,8 +15363,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "185",
-        "name": "4 Car Wash 5466 E.L....",
-        "location": "000 Aer rprada flea Estat 3986 Indianola Avenue, Columbus, OH 43201",
+        "name": "Listing / Offering - Columbus, OH",
+        "location": "Columbus, OH",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -15453,7 +15406,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Document_20260603_0005.txt",
         "page": "195",
         "name": "Mr. Goodwash Car Wash $645,000 Capitol Equities Realty",
-        "location": "000 Capitol Equities Realty 3820 Sullivant Avenue, Columbus, OH 43228",
+        "location": "5 East Long Street Columbus, OH",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -15467,7 +15420,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Document_20260603_0005.txt",
         "page": "196",
         "name": "#1 in Commercial Real Estate Online",
-        "location": "10000 Abercorn Hurricane Bay Car Wash 10000 Abercom Street, Savannah, GA 31406",
+        "location": "10000 Abercom Street, Savannah, GA 31406",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -15522,7 +15475,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "202",
-        "name": "1203 Conveyor Exterior Car Wash - Just South of Midway Airport: Business For Sale in...",
+        "name": "Listing / Offering - Midway Airport Chicago, IL",
         "location": "Midway Airport Chicago, IL",
         "status": "",
         "lot_size": "",
@@ -15802,7 +15755,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "121",
-        "name": "11/28/13 LoopNet - Zax Auto Wash, Senice/Gas Station, 941 S. Opdyte, Auburn Hills, MI",
+        "name": "Listing / Offering - Auburn Hills, MI",
         "location": "Auburn Hills, MI",
         "status": "",
         "lot_size": "",
@@ -15830,7 +15783,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "138",
-        "name": "10/30/13 LoopNet - High Profile Current Car Wash on Broadway Bld, Vehicle Related, 46...",
+        "name": "Listing / Offering - 4600 E Broadway Blvd, Tucson, AZ",
         "location": "4600 E Broadway Blvd, Tucson, AZ",
         "status": "",
         "lot_size": "",
@@ -15872,7 +15825,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "160",
-        "name": "1. (You Pay) Water - average bill $ 149.00 Paid every TWO (2) MONTHS / or $75 2 month)",
+        "name": "Listing / Offering - 102 S. Garden St. Ventura, Ca",
         "location": "102 S. Garden St. Ventura, Ca",
         "status": "",
         "lot_size": "",
@@ -15886,7 +15839,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "170",
-        "name": "2/10/2014 LoopNet - Car Wash: Full Serve Tunnel, Vehicle Related, 1241-1247 East New...",
+        "name": "Listing / Offering - 1241-1247 East New York Street, Aurora, IL",
         "location": "1241-1247 East New York Street, Aurora, IL",
         "status": "",
         "lot_size": "",
@@ -15928,7 +15881,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "194",
-        "name": "4/12/2014 LoopNet - AUCTION -255+/- Properties in 90+/- Offerings, Service/Gas Statio...",
+        "name": "Listing / Offering - 450 Westfork Blvd, Lithia Springs, GA",
         "location": "450 Westfork Blvd, Lithia Springs, GA",
         "status": "",
         "lot_size": "",
@@ -15956,7 +15909,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "20",
-        "name": "4/29/2015 Full Service Car Wash: Business For Sale in Delaware, United States on BizB...",
+        "name": "Listing / Offering - Page 20",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -16082,7 +16035,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Document_20260603_0005.txt",
         "page": "137",
-        "name": "4/23/2011 Car Wash & Property - business for sal...",
+        "name": "Listing / Offering - Page 137",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -16138,7 +16091,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Traffic / Site Evidence",
         "document": "Document_20260603_0005.txt",
         "page": "6",
-        "name": "6,125 SF Freestanding Carwash Facility",
+        "name": "Traffic / Site Evidence - 125 SF Freestanding Carwash Facility 4175 Stone Mountain Hi...",
         "location": "125 SF Freestanding Carwash Facility 4175 Stone Mountain Highway, Lilburn, GA",
         "status": "",
         "lot_size": "",
@@ -16180,7 +16133,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document_20260603_0005.txt",
         "page": "13",
-        "name": "20/2015 Car Wash/Lube Center Expert Detail service: Business For Sale in Palm Harbor...",
+        "name": "Demographic Support - Palm Harbor, FL",
         "location": "Palm Harbor, FL",
         "status": "",
         "lot_size": "",
@@ -16208,7 +16161,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document_20260603_0005.txt",
         "page": "131",
-        "name": "10/30/11 LoopNet - EXPRESS TUNNEL CAR WASH, Retail (Other), 10406 Belle Cre...",
+        "name": "Demographic Support - Henderson, CO 80604",
         "location": "Henderson, CO 80604",
         "status": "",
         "lot_size": "",
@@ -16432,7 +16385,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document_20260603_0005.txt",
         "page": "118",
-        "name": "11/9/13 Summary Report",
+        "name": "Demographic Support - 28041 Greenfield Dr, Laguna Niguel, CA 92677",
         "location": "28041 Greenfield Dr, Laguna Niguel, CA 92677",
         "status": "",
         "lot_size": "",
@@ -16460,7 +16413,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document_20260603_0005.txt",
         "page": "125",
-        "name": "11/22/13 Summary Report",
+        "name": "Demographic Support - 990 North Adair Street Cornelius, OR 97113",
         "location": "990 North Adair Street Cornelius, OR 97113",
         "status": "",
         "lot_size": "",
@@ -16628,7 +16581,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Document_20260603_0005.txt",
         "page": "186",
-        "name": "2012 Furniture stores",
+        "name": "Demographic Support - 624 Emory Drive, Owensboro, KY 42301",
         "location": "624 Emory Drive, Owensboro, KY 42301",
         "status": "",
         "lot_size": "",
@@ -16740,7 +16693,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Document_20260603_0005.txt",
         "page": "5",
-        "name": "6,125 SF Freestanding Carwash Facility",
+        "name": "Source Evidence - 125 SF Freestanding Carwash Facility 4175 Stone Mountain Highway, L...",
         "location": "125 SF Freestanding Carwash Facility 4175 Stone Mountain Highway, Lilburn, GA",
         "status": "",
         "lot_size": "",
@@ -17069,8 +17022,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "11",
         "summary": "2828 S Four Wheel Or, Lawrence, KS, 66047 - Car Wash Property For Sale on LoopNet.com Parking Ratio 2.61/1,000 SF 5,751 SF Specialty Building Offered at $1,100,000 in Lawrence, KS",
         "addresses": [
-          "2828 S FOUR WHEEL DR LAWRENCE, KS 66047",
-          "000 SF Building Class B No. Drive In"
+          "2828 S FOUR WHEEL DR LAWRENCE, KS 66047"
         ],
         "terms": [
           "car wash"
@@ -17230,9 +17182,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "35",
         "summary": "Property Sub-type Car Wash Jaxx Car Wash & Oil Change - Last Updated: 1/22/2020",
-        "addresses": [
-          "000 SF Building Class C No. Drive In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -17973,8 +17923,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "126",
         "summary": "14190 Beach Blvd, Jacksonville, FL 32250- Prime Car Wash I LoopNet.com Population of 158,149 Jacksonville, FL 32250 \u2022 5,000 SF \u2022",
         "addresses": [
-          "14190 Beach Blvd, Jacksonville, FL 32250",
-          "0 Help 14190 Beach Blvd Jacksonville, FL 32250"
+          "14190 Beach Blvd, Jacksonville, FL 32250"
         ],
         "terms": [
           "car wash"
@@ -18611,7 +18560,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Documents Scanned File Bin 3.txt",
         "page": "11",
-        "name": "2828 S Four Wheel Or, Lawrence, KS, 66047 - Car Wash Property For Sale on LoopNet.com",
+        "name": "Listing / Offering - 2828 S FOUR WHEEL DR LAWRENCE, KS 66047",
         "location": "2828 S FOUR WHEEL DR LAWRENCE, KS 66047",
         "status": "",
         "lot_size": "",
@@ -18639,7 +18588,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Documents Scanned File Bin 3.txt",
         "page": "22",
-        "name": "100' CONVEYOR CAR WASH FOR SALE/LEASE",
+        "name": "Listing / Offering - EXPRESS WASH , OR",
         "location": "EXPRESS WASH , OR",
         "status": "",
         "lot_size": "",
@@ -18807,7 +18756,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Documents Scanned File Bin 3.txt",
         "page": "114",
-        "name": "Express Car Wash Opportunities",
+        "name": "Listing / Offering - 754 Boardman Canfield Rd, Youngstown, OH 44512",
         "location": "754 Boardman Canfield Rd, Youngstown, OH 44512",
         "status": "",
         "lot_size": "",
@@ -19017,7 +18966,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Documents Scanned File Bin 3.txt",
         "page": "101",
-        "name": "8/22/22, 10:03 PM",
+        "name": "Listing / Offering - 03 PM 248W Grand River Ave East Lansing MI 48823",
         "location": "03 PM 248W Grand River Ave East Lansing MI 48823",
         "status": "",
         "lot_size": "",
@@ -19758,20 +19707,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "type": "Source Evidence",
         "document": "Documents Scanned File Bin 3.txt",
-        "page": "35",
-        "name": "Property Sub-type Car Wash",
-        "location": "000 SF Building Class C No. Drive In",
-        "status": "",
-        "lot_size": "",
-        "traffic_count": "",
-        "revenue": "",
-        "asking_price": "$497,500",
-        "ebitda": "",
-        "note": "Property Sub-type Car Wash Jaxx Car Wash & Oil Change - Last Updated: 1/22/2020 Asking price $497,500."
-      },
-      {
-        "type": "Source Evidence",
-        "document": "Documents Scanned File Bin 3.txt",
         "page": "68",
         "name": "Price Reduction I Owner/User Carwash Opportunity",
         "location": "Champaign, IL",
@@ -19801,7 +19736,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Documents Scanned File Bin 3.txt",
         "page": "100",
-        "name": "8/22/22, 10:03 PM",
+        "name": "Source Evidence - 03 PM 248W Grand River Ave East Lansing, MI 48823",
         "location": "03 PM 248W Grand River Ave East Lansing, MI 48823",
         "status": "",
         "lot_size": "",
@@ -19871,7 +19806,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Documents Scanned File Bin 3.txt",
         "page": "109",
-        "name": "INVESTMENT SUMMARY",
+        "name": "Source Evidence - 750000 LIST PRICE INVESTMENT SUMMARY 11643 S REDWOOD RD, SOUTH JORD...",
         "location": "750000 LIST PRICE INVESTMENT SUMMARY 11643 S REDWOOD RD, SOUTH JORDAN, UT 84065",
         "status": "",
         "lot_size": "",
@@ -19936,6 +19871,20 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "asking_price": "$6,500,000",
         "ebitda": "",
         "note": "being right across the street this Octopus Car Wash and superb car washes. The Octopus car wash has The Octopus Car wash is known to use only the Asking price $6,500,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Documents Scanned File Bin 3.txt",
+        "page": "35",
+        "name": "Property Sub-type Car Wash",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$497,500",
+        "ebitda": "",
+        "note": "Property Sub-type Car Wash Jaxx Car Wash & Oil Change - Last Updated: 1/22/2020 Asking price $497,500."
       },
       {
         "type": "Source Evidence",
@@ -23574,7 +23523,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Documents Scanned Most Recent.txt",
         "page": "83",
-        "name": "80-foot car wash",
+        "name": "Source Evidence - Chester, VA",
         "location": "Chester, VA",
         "status": "",
         "lot_size": "",
@@ -23728,7 +23677,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Documents Scanned Most Recent.txt",
         "page": "92",
-        "name": "4 Significant and growing base of recurring revenue from subscription",
+        "name": "Source Evidence - Page 92",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -24578,8 +24527,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "ivbruzul t 6307 Monroe St, Sylvania, OH, 43560- Car Wash Property For Sale on LoopNet.com Soft Touch Car Wash & Detailing 6307 Monroe St Sylvania, OH 43560 \u2022 3,239 SF \u2022 Specialty For Sale",
         "addresses": [
           "6307 Monroe St, Sylvania, OH",
-          "6307 Monroe St Sylvania, OH 43560",
-          "000 SF No. Drive In"
+          "6307 Monroe St Sylvania, OH 43560"
         ],
         "terms": [
           "car wash"
@@ -24842,9 +24790,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "57",
         "summary": "Property Sub-type Car Wash Parking Ratio 2.08/1,000 SF CARWASH real estate and business for sale. Property Type Specialty Year Built 2017",
-        "addresses": [
-          "000 SF Building Class C No. Drive In"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -24852,9 +24798,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "58",
         "summary": "Property Sub-type Car Wash Gem Car Wash kin great condition and underwent significant property and equipment Gem Car Wash",
-        "addresses": [
-          "0 Freeport Blvd Sacramento, CA 95822"
-        ],
+        "addresses": [],
         "terms": [
           "car wash"
         ]
@@ -25321,9 +25265,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
       {
         "page": "117",
         "summary": "43,217 square feet (.99 acres) Automatic Tunnel Car Wash ASKING PRICE:",
-        "addresses": [
-          "0 CGMERCIAL REAL ESTATE Specification Sheet 516 Freeport Avenue Elk River, MN 55330"
-        ],
+        "addresses": [],
         "terms": [
           "car wash",
           "acres"
@@ -25598,7 +25540,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "Car Wash & Auto Repair Garage 3 Hampton Drive, Londonderry, NH 03053 Car Wash & Auto Repair Garage 3 Hampton Drive consists of a 1.075* acre lot with two detached buildings. The first structure is a car wash tunnel",
         "addresses": [
           "3 Hampton Drive, Londonderry, NH 03053",
-          "00 AM EST 3 Hampton Drive, Londonderry, NH",
           "166 SF Bldg 806 US Route 1 Byp... Portsmouth, NH"
         ],
         "terms": [
@@ -25754,7 +25695,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "summary": "car wash loc: 5791 Broadway, Bronx, NY 10463 - Google Maps Page 1 of 1 J. Boulevard Car Wash I. JT Car Wash",
         "addresses": [
           "7 Bedford Park Blvd W, Bronx, NY",
-          "0 ml SE G. Kingsbridge Car Wash 2704 Jerome Ave, Bronx, NY",
           "3210 Webster Ave, Bronx, NY",
           "309 W 230th St, Bronx, NY",
           "630 West 246th Street, Riverdale, NY",
@@ -26688,7 +26628,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Scanned Documents 6:23.txt",
         "page": "57",
         "name": "Property Sub-type Car Wash Parking Ratio 2.08/1,000 SF",
-        "location": "000 SF Building Class C No. Drive In",
+        "location": "Valley Pky Escondido, CA 92025",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -26702,7 +26642,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Scanned Documents 6:23.txt",
         "page": "58",
         "name": "Gem Car Wash",
-        "location": "0 Freeport Blvd Sacramento, CA 95822",
+        "location": "Freeport Blvd Sacramento, CA 95822",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -26743,7 +26683,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Scanned Documents 6:23.txt",
         "page": "82",
-        "name": "315 LoopNet - Arcade Car Wash & Business Opportunity, Free Standing Bldg, 1350 Palm A...",
+        "name": "Listing / Offering - 1350 Palm Avenue, San Diego, CA",
         "location": "1350 Palm Avenue, San Diego, CA",
         "status": "",
         "lot_size": "",
@@ -26897,7 +26837,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Scanned Documents 6:23.txt",
         "page": "108",
-        "name": "3/512015 LoopNet - Top Hat Car Wash For Sale, ey.\u2014rial Purpose (Other), 950W. Hemphil...",
+        "name": "Listing / Offering - 240 SF 7450 Embury Rd Grand Blanc, MI",
         "location": "240 SF 7450 Embury Rd Grand Blanc, MI",
         "status": "",
         "lot_size": "",
@@ -26953,7 +26893,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Scanned Documents 6:23.txt",
         "page": "148",
-        "name": "2/10/2014 LocpNet- Car Wash: Full Serve Tomei, Vehicle Related, 1241-1247 East NewYor...",
+        "name": "Listing / Offering - 1241-1247 East NewYork Street, krae, IL",
         "location": "1241-1247 East NewYork Street, krae, IL",
         "status": "",
         "lot_size": "",
@@ -26981,7 +26921,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Scanned Documents 6:23.txt",
         "page": "150",
-        "name": "11/24/13r LoopNet- 7041 E Main SL Vehicle Related, Repoldsburg, OH",
+        "name": "Listing / Offering - 10 million dollars in s treats cape improvements that were compl...",
         "location": "10 million dollars in s treats cape improvements that were completed along E. Main St. In",
         "status": "",
         "lot_size": "",
@@ -27276,7 +27216,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "document": "Scanned Documents 6:23.txt",
         "page": "117",
         "name": "Automatic Tunnel Car Wash",
-        "location": "0 CGMERCIAL REAL ESTATE Specification Sheet 516 Freeport Avenue Elk River, MN 55330",
+        "location": "Freeport Avenue Elk River, MN 55330",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -27541,7 +27481,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "111",
-        "name": "11/27/2015 LoopNet- Car Wash Business & Real Estate For Sale, Service/Gas Station, 40...",
+        "name": "Demographic Support - 401 West Florida Ave, Hemet, CA",
         "location": "401 West Florida Ave, Hemet, CA",
         "status": "",
         "lot_size": "",
@@ -27639,7 +27579,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "28",
-        "name": "9/20/22, 6:54 PM Income Household Distribution",
+        "name": "Demographic Support - 2 dallas ave bristol ct",
         "location": "2 dallas ave bristol ct",
         "status": "",
         "lot_size": "",
@@ -27653,7 +27593,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "29",
-        "name": "9/20/22, 655 PM Income Household Distribution",
+        "name": "Demographic Support - 504 Killingly St, Johnston, RI 02919",
         "location": "504 Killingly St, Johnston, RI 02919",
         "status": "",
         "lot_size": "",
@@ -27667,7 +27607,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "32",
-        "name": "10/3/22, 4:29 PM Income Household Distribution",
+        "name": "Demographic Support - 696 Main St, Ansonia, CT 06401",
         "location": "696 Main St, Ansonia, CT 06401",
         "status": "",
         "lot_size": "",
@@ -27681,7 +27621,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "33",
-        "name": "9/20/22, 7:06 PM Income Household Distribution",
+        "name": "Demographic Support - 1698 Watertown Ave, Waterbury, CT 06708",
         "location": "1698 Watertown Ave, Waterbury, CT 06708",
         "status": "",
         "lot_size": "",
@@ -27751,7 +27691,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "63",
-        "name": "6/29/2018 Summary Report",
+        "name": "Demographic Support - 909 E lit St, Ankeny, IA 50021",
         "location": "909 E lit St, Ankeny, IA 50021",
         "status": "",
         "lot_size": "",
@@ -27765,7 +27705,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "76",
-        "name": "4/2/2018 Summary Report",
+        "name": "Demographic Support - 27 Radanaram Rd, Danbury, CT 06811",
         "location": "27 Radanaram Rd, Danbury, CT 06811",
         "status": "",
         "lot_size": "",
@@ -27849,7 +27789,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "142",
-        "name": "2/14/2014 Summary Report",
+        "name": "Demographic Support - 10030 W. Appleton Avenue Milwaukee, WI 53225",
         "location": "10030 W. Appleton Avenue Milwaukee, WI 53225",
         "status": "",
         "lot_size": "",
@@ -27863,7 +27803,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "157",
-        "name": "12/30/2015 Sunmery Report",
+        "name": "Demographic Support - 610 Highway 7 Blue Springs, MO 64014",
         "location": "610 Highway 7 Blue Springs, MO 64014",
         "status": "",
         "lot_size": "",
@@ -27877,7 +27817,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "160",
-        "name": "7/13/2020 Summary Report",
+        "name": "Demographic Support - 1 L vd.Cortez Rd IN",
         "location": "1 L vd.Cortez Rd IN",
         "status": "",
         "lot_size": "",
@@ -27905,7 +27845,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents 6:23.txt",
         "page": "164",
-        "name": "7/24/2020 Summary Report",
+        "name": "Demographic Support - 1553 N. Washington Blvd, Sarawta, FL 34236",
         "location": "1553 N. Washington Blvd, Sarawta, FL 34236",
         "status": "",
         "lot_size": "",
@@ -29138,7 +29078,6 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "page": "138",
         "summary": "1 acre property. Carwash, lube In nice areca. Claims $550,000 In carwash and $380,000 In quick lube. Carwash and property. Ol change would make this place jump.",
         "addresses": [
-          "000 including property. 799 Saw Mill Road, Yonkers, NY",
           "73 Palisades Avenue, Yonkers, NY"
         ],
         "terms": [
@@ -29936,7 +29875,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Scanned Documents Bin 2.txt",
         "page": "85",
-        "name": "357 NY-59, West Nyack, NY 10994",
+        "name": "Listing / Offering - West Nyack, NY 10994",
         "location": "West Nyack, NY 10994",
         "status": "",
         "lot_size": "",
@@ -29992,7 +29931,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Scanned Documents Bin 2.txt",
         "page": "137",
-        "name": "CAR WASH OPPORTUNITIES",
+        "name": "Listing / Offering - Sooo NTIAGH, NY 11793",
         "location": "Sooo NTIAGH, NY 11793",
         "status": "",
         "lot_size": "",
@@ -30132,7 +30071,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Listing / Offering",
         "document": "Scanned Documents Bin 2.txt",
         "page": "88",
-        "name": "307 CONNECTICUTAVE, 06854",
+        "name": "Listing / Offering - Page 88",
         "location": "",
         "status": "",
         "lot_size": "",
@@ -30314,7 +30253,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "57",
-        "name": "8/2/2021 Income Families and Non-Families by Distribution",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
         "location": "101 Haag Avenue, Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -30328,7 +30267,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "58",
-        "name": "8/2/2021 Income Families and Non-Families by Distribution",
+        "name": "Demographic Support - 1507 n kings hwy nj",
         "location": "1507 n kings hwy nj",
         "status": "",
         "lot_size": "",
@@ -30342,7 +30281,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "59",
-        "name": "8/2/2021 Income Families and Non-Families by Distribution",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08037",
         "location": "101 Haag Avenue, Bellmawr, NJ 08037",
         "status": "",
         "lot_size": "",
@@ -30384,7 +30323,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "63",
-        "name": "8/3/2021 Income Families and Non-Families by Distribution",
+        "name": "Demographic Support - 11 Locust St, Pompton Lakes, NJ 07442",
         "location": "11 Locust St, Pompton Lakes, NJ 07442",
         "status": "",
         "lot_size": "",
@@ -30398,7 +30337,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "64",
-        "name": "8/3/2021 Income Families and Non-Families by Distribution",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
         "location": "101 Haag Avenue, Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -30412,7 +30351,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "66",
-        "name": "8/3/2021 Income Families and Non-Families by Distribution",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
         "location": "101 Haag Avenue, Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -30468,7 +30407,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "72",
-        "name": "3/19/2021 Income Household Distribution",
+        "name": "Demographic Support - 590 Spring St. Windsor Locks, CT 06096",
         "location": "590 Spring St. Windsor Locks, CT 06096",
         "status": "",
         "lot_size": "",
@@ -30608,7 +30547,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "104",
-        "name": "6/20/2016 Summary Report",
+        "name": "Demographic Support - 1600 N Salina St, Syracuse, NY 13208",
         "location": "1600 N Salina St, Syracuse, NY 13208",
         "status": "",
         "lot_size": "",
@@ -30650,7 +30589,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "109",
-        "name": "5/12/22, 5:19 PM Income Household Distribution",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
         "location": "101 Haag Avenue, Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -30664,7 +30603,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "110",
-        "name": "7 Inceme Household Distribution",
+        "name": "Demographic Support - 19105 W 151st Terrace, Olathe, KS 66062",
         "location": "19105 W 151st Terrace, Olathe, KS 66062",
         "status": "",
         "lot_size": "",
@@ -30720,7 +30659,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "115",
-        "name": "8/21/22, 2:33 PM",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
         "location": "101 Haag Avenue, Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -30734,7 +30673,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "119",
-        "name": "6/10/22, 3:52 PM Income Household Distribution",
+        "name": "Demographic Support - 101 Haag Avenue, Bellmawr, NJ 08031",
         "location": "101 Haag Avenue, Bellmawr, NJ 08031",
         "status": "",
         "lot_size": "",
@@ -30748,7 +30687,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "120",
-        "name": "6/10/22, 3:52 PM",
+        "name": "Demographic Support - 921 Palm Beach Lakes Blvd West Palm Beach, FL 33401",
         "location": "921 Palm Beach Lakes Blvd West Palm Beach, FL 33401",
         "status": "",
         "lot_size": "",
@@ -30790,7 +30729,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Demographic Support",
         "document": "Scanned Documents Bin 2.txt",
         "page": "146",
-        "name": "11/6/2018 Summary Report",
+        "name": "Demographic Support - 3050 N University Dr, Sunrise, FL 33322",
         "location": "3050 N University Dr, Sunrise, FL 33322",
         "status": "",
         "lot_size": "",
@@ -30944,7 +30883,7 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Scanned Documents Bin 2.txt",
         "page": "136",
-        "name": "CAR WASH OPPORTUNITIES",
+        "name": "Source Evidence - 622-3001 CAR WASH OPPORTUNITIES 576 Springfield Avenue, Newark, NJ",
         "location": "622-3001 CAR WASH OPPORTUNITIES 576 Springfield Avenue, Newark, NJ",
         "status": "",
         "lot_size": "",
@@ -30958,8 +30897,8 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "type": "Source Evidence",
         "document": "Scanned Documents Bin 2.txt",
         "page": "138",
-        "name": "CAR WASH OPPORTUNITIES",
-        "location": "000 including property. 799 Saw Mill Road, Yonkers, NY",
+        "name": "Source Evidence - 73 Palisades Avenue, Yonkers, NY",
+        "location": "73 Palisades Avenue, Yonkers, NY",
         "status": "",
         "lot_size": "",
         "traffic_count": "",
@@ -31163,6 +31102,4520 @@ window.CARWASH_DOCUMENT_LIBRARY = [
         "asking_price": "",
         "ebitda": "",
         "note": "e Site consists of a 16,703 sf building, including a car wash, e Approx Gross Revenue: $10MM e Approx Gross Profit: $2.8MM Revenue $10M."
+      }
+    ],
+    "gallery_images": []
+  },
+  {
+    "title": "Scanned Packet Documents",
+    "file_name": "Scanned Packet Documents.pdf",
+    "category": "Deal Records",
+    "group": "Supporting Source PDFs",
+    "pdf_url": "documents/Scanned-Packet-Documents.pdf",
+    "text_url": "ocr-output/Scanned Packet Documents.txt",
+    "page_count": 313,
+    "evidence_page_count": 192,
+    "evidence_row_count": 106,
+    "pages": [
+      {
+        "page": "2",
+        "summary": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 \u201eA 12/30/2020 Summary Report",
+        "addresses": [
+          "101 Haag Avenue, Bellmawr, NJ 08031"
+        ],
+        "terms": []
+      },
+      {
+        "page": "3",
+        "summary": "PURCHASE PRICE 138-77 Queens Blvd, Jamaica, NY 11435 I estimate 4000 subscribers at $37 in 2 years and Ebita of $900,000",
+        "addresses": [
+          "138-77 Queens Blvd, Jamaica, NY 11435"
+        ],
+        "terms": []
+      },
+      {
+        "page": "4",
+        "summary": "PURCHASE PRICE I estimate in 2 years 4000 members at $33-and $1,000,000 plus of Asking $2,4000,000 Land 3 \u2022'",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "5",
+        "summary": "PURCHASE PRICE Jiffy car wash Hartford I estimate in 2 years 4000 subscribers at $25 and $600,000 in Ebita",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "6",
+        "summary": "PURCHASE PRICE I estimate in 2 years 4000 subscribers at $33 and Ebita of $900,000 $1,100,000 Land",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "7",
+        "summary": "PURCHASE PRICE Projected two years 6000 members $33 each $1.4 million plus ebita Lease starts at $10,000 a month",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "8",
+        "summary": "PURCHASE PRICE 30 Perronette Dr. Bridgeport CT 06606 Projected two years 4500 members $33 apiece 1.1mIlion plus ebita",
+        "addresses": [
+          "30 Perronette Dr. Bridgeport CT 06606"
+        ],
+        "terms": []
+      },
+      {
+        "page": "9",
+        "summary": "PURCHASE PRICE 230 FLANDERS RD, NIANTIC, CT 06357 I estimate in 2 years 4000 subscribers at $33 and $900,000 in Ebita",
+        "addresses": [
+          "230 FLANDERS RD, NIANTIC, CT 06357"
+        ],
+        "terms": []
+      },
+      {
+        "page": "10",
+        "summary": "PURCHASE PRICE 12 Farmington Ave, Bristol, CT 06010 projected two years 4000 members average $33 $900.000 plus ebita",
+        "addresses": [
+          "12 Farmington Ave, Bristol, CT 06010"
+        ],
+        "terms": []
+      },
+      {
+        "page": "11",
+        "summary": "PURCHASE PRICE 6 Farmingville Rd, Ridgefield, CT 06877 I estimate in 2 years 3500 members at $38 and $1,100,000 plus of",
+        "addresses": [
+          "6 Farmingville Rd, Ridgefield, CT 06877"
+        ],
+        "terms": []
+      },
+      {
+        "page": "12",
+        "summary": "PURCHASE PRICE 25 Cross St, New Canaan, CT 06840 After 2 years 3000 subscribers at $45 estimat 1 Ebitafi600,000",
+        "addresses": [
+          "25 Cross St, New Canaan, CT 06840"
+        ],
+        "terms": []
+      },
+      {
+        "page": "13",
+        "summary": "Trinity Car Wash Water & Sewer 15,000 Wash Supplies 15,000",
+        "addresses": [
+          "639 Saw Mill River Rd Ardsley, NY"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "15",
+        "summary": "Zip code Town Car Wash Name Branding and advertising for car wash 31601 Valdosta Whistle Express Car Wash",
+        "addresses": [
+          "1716 Gornto Rd, Valdosta, GA 31601"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "18",
+        "summary": "Zip code Town Car Wash Name 31602 31602 Whistle Express Car Wash",
+        "addresses": [
+          "2235 N Ashley St, Valdosta, GA 31602"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "19",
+        "summary": "Easy flow of traffic through each stage of the car wash experience",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "21",
+        "summary": "2740 W Tennessee St, 32304 Tallahassee Whistle Express Car Wash Tallahassee, FL 32304 Zip code Town Car Wash Name Address",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "22",
+        "summary": "Car wash and lube claims $900,000 gross. Long lease or property. Car wash, property 8. 12 bay self serve. Could be full service. Car wash and property. Very excellent area. Huge office can be",
+        "addresses": [
+          "576 Springfield Avenue, Newark, NJ",
+          "3110 E. Route 10, Denville, NJ",
+          "2118 Route . Oakhurst, NJ"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "23",
+        "summary": "Lovely car wash. Offered for sale by landlord. Landlord offers 21 years Car Wash, Property, Oil Change CAR WASH OPPORTUNITIES 4,",
+        "addresses": [
+          "610 E. Fordham Road, Bronx. NY"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "24",
+        "summary": "1 acre property. Carwash, Tube in nice area. Claims $550,000 in carwash and $380,000 in quick lube. Carwash and property. Oil change would make this place jump.",
+        "addresses": [
+          "53 South Route 9W, W. Haverstraw, NY",
+          "73 Parisades Avenue, Yonkers, NY",
+          "33 Route 59, Nyack. Mt"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "25",
+        "summary": "MeatMarket Trends -Asking price index trends, sale price trends, asking rent trends ettp://www.loopnetcomiListing/19788012/18136-Comieauttake-Rd-Meadville-PA/ 5/23/16, 10:05 PM For Sole. $195,000 For Sale \u2022 $159,900 For Sale. $156,900 Meadville, PA 16335",
+        "addresses": [
+          "167 Main St. 960 Chancery Lane Cotton Rd &Conneaut Lake Meadville, PA 16335"
+        ],
+        "terms": []
+      },
+      {
+        "page": "26",
+        "summary": "Well established All American Gas and Car Wash located at a busy intersection in Vernon Twp, 36 acres with lots of frontage on Conn. Lake Rd. All American Gas and Car Wash 18736 Conneaut Lake Rd., Meadville, PA 76335 (Crawford County)",
+        "addresses": [
+          "18736 Conneaut Lake Rd., Meadville, PA 76335"
+        ],
+        "terms": [
+          "car wash",
+          "traffic",
+          "acres"
+        ]
+      },
+      {
+        "page": "27",
+        "summary": "htle:/Avww.loopnet.comlistIng/19788012/18136-Conneaut-Lake-Rd-MeadvIlle-PA/ 5/23116, 10:05 PM Meadville, PA 16335 \u2022 2,280 SF \u2022 Industrial For Sale",
+        "addresses": [
+          "18136 Conneaut Lake Rd. Meadville, PA 16335"
+        ],
+        "terms": []
+      },
+      {
+        "page": "28",
+        "summary": "SOO \\ 1\\ 16 \u20180,700",
+        "addresses": [
+          "376 Bridgeport Ave. Shelton, CT"
+        ],
+        "terms": []
+      },
+      {
+        "page": "34",
+        "summary": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source All estimates are as of 4/1/2010 unless otherwise stated.",
+        "addresses": [
+          "101 Haag Avenue, Bellmawr, NJ 08031"
+        ],
+        "terms": []
+      },
+      {
+        "page": "35",
+        "summary": "EASI Census 2010 Site Selection Reports & Analysis White Population 2,780 40,132 104,498 White Non-Hispanic 2,685 38,526 97,166",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "36",
+        "summary": "65 Surrey Cir, Shirley, NY 11967",
+        "addresses": [
+          "65 Surrey Cir, Shirley, NY 11967"
+        ],
+        "terms": []
+      },
+      {
+        "page": "42",
+        "summary": "27 Connolly Pkwy, Hamden, CT 06514 13\\1o\\2 2000\\ s\\ \\ b `L.,600",
+        "addresses": [
+          "27 Connolly Pkwy, Hamden, CT 06514"
+        ],
+        "terms": []
+      },
+      {
+        "page": "43",
+        "summary": "791 Post Rd E, Westport, CT 06880",
+        "addresses": [
+          "791 Post Rd E, Westport, CT 06880"
+        ],
+        "terms": []
+      },
+      {
+        "page": "44",
+        "summary": "1123 Highland Ave, Cheshire, CT 06410",
+        "addresses": [
+          "1123 Highland Ave, Cheshire, CT 06410"
+        ],
+        "terms": []
+      },
+      {
+        "page": "47",
+        "summary": "570 Bedford Road Bedford Hills, NY, 10507",
+        "addresses": [
+          "570 Bedford Road Bedford Hills, NY"
+        ],
+        "terms": []
+      },
+      {
+        "page": "54",
+        "summary": "\u2022 15 Norman Drive aldosta GA $170,489 6.00% $2,841,475 World's Largest Car Wash Operator, Washing More Professional Car Wash has Increased from 47% in",
+        "addresses": [
+          "3406 Ross Clark Circle Dothan 1419 Waddell Drive Huntsville AL",
+          "089 W Main St Columbus u do tf MS",
+          "100 West Hill Ave New Philadel . hia OH",
+          "680 Northfield Road North Randall OH",
+          "2909 Carter Hill Road Montgomery AL",
+          "295 Morrow Road russville AL",
+          "15 Norman Drive aldosta GA"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "55",
+        "summary": "405, with daily traffic counts exceeding 35,000 cars volume, high profitability express car wash with land AWARD WINNING EXPRESS CARWASH WITH LAND",
+        "addresses": [
+          "4649 W ROSECRANS AVE, HAWTHORNE, CA 90250"
+        ],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "58",
+        "summary": "Property Sub-type Car Wash APN / Parcel ID 031-321-32",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "59",
+        "summary": "Fully Leased to Tommy's Express Car Wash Sale Price: $5,664,000 New Construction 2015",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "60",
+        "summary": "Green Forest Express Car Wash was built in 2016. It * 30% increase in revenue between 2017 St 2018 ways to increase revenue and profits, Green Forest",
+        "addresses": [
+          "002-033 ABOUT 1010 N GAFFEY ST, SAN PEDRO, CA 90731"
+        ],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "61",
+        "summary": "ramp, with daily traffic counts exceeding 35,000 potential for continued revenue and long-term EXPRESS CAR WASH IS STRICTLY PROHIBITED.",
+        "addresses": [
+          "1010 N. Gaffey Street in"
+        ],
+        "terms": [
+          "car wash",
+          "traffic",
+          "revenue",
+          "development"
+        ]
+      },
+      {
+        "page": "62",
+        "summary": "1010 N Gaffey St - San Pedro Express Carwash 2,500 SF Specialty Building Offered at $3,650,000 at a 6.84% Cap Rate in San Pedro, CA",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "63",
+        "summary": "others. This Splash Car Wash & Laundromat property vehicles into the area. There are more than 39,383 property and more than 58,637 individuals within a",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "64",
+        "summary": "Property Sub-type Car Wash APN / Parcel ID 335600-004-000-0001- ABOUT 1020 DOLSONTOWN RD, MIDDLETOWN, NY 10940 vehicles into the area. There are more than 39,383",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "65",
+        "summary": "\u2022 Splash Car Wash Operates 20 Locations \u2022 Diversified Income Stream with Car Wash and 1020 Dolsontown Rd - Splash Car Wash",
+        "addresses": [
+          "20 Locations Throughout Fairfield, CT and Upper Westchester, NY"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "67",
+        "summary": "rentable square feet and is situated on 2.00 acres. The subject Car Wash benefits from being well- Property Sub-type Car Wash",
+        "addresses": [
+          "2015 Property Sub-type Car Wash ABOUT 415 NORMAN DR, VALDOSTA, GA 31601"
+        ],
+        "terms": [
+          "car wash",
+          "acres"
+        ]
+      },
+      {
+        "page": "68",
+        "summary": "\u2022 The World's Largest Car Wash Company 415 Norman Dr - International Car Wash Group 2,840 SF Specialty Building Offered at $2,975,000 at a 6% Cap Rate in Valdosta, GA",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "71",
+        "summary": "69-E, combined traffic counts near the site are in excess of 97,000 vehicles The subject property is a corporately operated BlueWave Express Car Wash in the Sale of the property includes all FF&E (tenant's equipment including conveyor car wash system).",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "75",
+        "summary": "BlueWave Express Car Wash. Average daily traffic volume in 1-45 and FM 646 exceeds 88,000 $83,000 and League City's",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "76",
+        "summary": "Zips Car Wash Zips Car Wash Single -Tenant Zips Car Wash",
+        "addresses": [
+          "6231 Denton Highway Haltom City, TX",
+          "2018 Zips Car Wash 17 1208 Decatur Pike Athens, TN"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "77",
+        "summary": "Zips Car Wash Zips Car Wash Zips Car Wash",
+        "addresses": [
+          "7365 Kingston Pike Knoxville, TN",
+          "2121 Dale Avenue SE Roanoke. VA",
+          "1560 N Highway 77 Waxahachie, TX",
+          "3171 W Michigan Avenue Pensacola, FL",
+          "555 South Jackson Street Jacksonville. TX",
+          "10919 Fredericksburg Road San Antonio, TX",
+          "135 W 141st Street Glenpool, OK",
+          "7525 Mountain Grove Drive Knoxville, TN",
+          "2825 N Rock Road Derby. KS",
+          "4906 Main Street The Colony, TX"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "78",
+        "summary": "Zips Car Wash Zips Car Wash Zips Car Wash",
+        "addresses": [
+          "2900 Wade Hampton Boulevard Taylors, SC",
+          "501 N Highway 52 Moncks Comer. SC",
+          "7525 Mountain Grove Drive Knoxville, TN",
+          "4416 Westem Avenue Knoxville, TN",
+          "714 Shreveport-Barksdale Highway Shreveport, LA",
+          "1900 Benton Road Bossier City. LA",
+          "1405 Woodruff Road Greenville, SC",
+          "8660 Youree Drive Shreveport, LA",
+          "4907 Highway 58 Chattanooga, TN",
+          "5902 North 9th Avenue Pensacola, FL"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "80",
+        "summary": "QUICK QUACK CAR WASH FONTANA, CA",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "82",
+        "summary": "CAR WASH LAWRENCEVILLE, GA",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "84",
+        "summary": "MISTER CAR WASH RIDGELAND, MS",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "85",
+        "summary": "country, purchased Mister Car Wash in 2014. The Sponsor currently has PROMISING INDUSTRY OUTLOOK Unlike many other retail industries, the car wash industry is highly Internet- with nearly 100,000 residents within a five-mile radius. Interstate 55 is located",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "86",
+        "summary": "years, totaling to $12.7 billion in industry revenue. four, five-year renewal options, and absolutely zero landlord responsibilities. Since Mister Car Wash began operations at this location in 2016, unit- Purchase Price $5,014,860",
+        "addresses": [
+          "110 Lake Harbour Drive Ridgeland, MS 39157"
+        ],
+        "terms": [
+          "car wash",
+          "traffic",
+          "revenue"
+        ]
+      },
+      {
+        "page": "87",
+        "summary": "to $12.7 billion in industry revenue. Purchase Price $2,217,540 including 2.1 percent revenue growth over the next five years, totaling",
+        "addresses": [
+          "3510 Lakeland Drive Flowood, MS 39232"
+        ],
+        "terms": [
+          "car wash",
+          "traffic",
+          "revenue"
+        ]
+      },
+      {
+        "page": "88",
+        "summary": "Traffic Count 16,550 VPD Purchase Price $4,200,000 Mister CAR WASH",
+        "addresses": [
+          "170 MLK Jr. Blvd. Monroe, GA 30655"
+        ],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "89",
+        "summary": "Mister Car Wash plans to invest up to $600,000 guaranty from Car Wash Partners, Inc. The Property will be subject to a 20-year, absolute triple-net lease upon closing to Mister Car Wash (\"Company\" or \"Tenant\"), a leading car wash",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "90",
+        "summary": "Traffic Count 27,000 VPD Purchase Price $5,500,000 Mister CAR WASH",
+        "addresses": [
+          "1035 Parkway Blvd Athens, GA 30606"
+        ],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "91",
+        "summary": "Mister Car Wash plans to invest up to $600,000 guaranty from Car Wash Partners, Inc. The Property will be subject to a 20-year, absolute triple-net lease upon closing to Mister Car Wash (\"Company\" or \"Tenant\"), a leading car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "92",
+        "summary": "Traffic Count 40,200 VPD Purchase Price $5,000,000 Mister CAR WASH",
+        "addresses": [
+          "930 Peachtree Pkwy. Cumming, GA 30041"
+        ],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "93",
+        "summary": "Mister Car Wash plans to invest up to $600,000 guaranty from Car Wash Partners, Inc. The Property will be subject to a 20-year, absolute triple-net lease upon closing to Mister Car Wash (\"Company\" or \"Tenant\"), a leading car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "94",
+        "summary": "average wash and detailing revenue per car to $14.62 in 2003, from $14.03 in 2002. This increase in and detailing revenue per car to $15.03 in 2004, from $14.62 in 2003. This increase in average wash and volume decline as mentioned above. Cost of revenue N\u2022Na percent of revenues declined in 2004 as \\compared to 2003, despite the reduction",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "95",
+        "summary": "F. AVERAGE WASH & DETAIL TICKET SUMMARY BY CAR WASH FACILITY Florida. Venice $13.61 $13.91 $14.76 $15.72 Florida - South Sarasota $15.26 $15.84 $15.37 $16,20",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "96",
+        "summary": "E. VOLUME SUMMARY BY CAR WASH FACILITY Total 49 Car Washes 2,508,783 San Antonio - Texas #5 30,005",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "97",
+        "summary": "D. EBITDA SUMMARY BY CAR WASH FACILITY V $809.7 $509.4 $435.8 $240.8 Total 49 Car Washes $10,772.5 $9,567.8 $8,713.3 $8,191.7",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "98",
+        "summary": "C. REVENUE SUMMARY BY CAR WASH FACILITY cloata $2.571.5 $2,195.5 $2.025.2 $1,814.4 V 53,934.9 $3,393.0 $3,511.6 $3,684.8",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "101",
+        "summary": "Avg. Wash & Detail Revenue $14.19 $14.03 $14.62 $15.03 Total Revenue Total Payroll/Total Revenue 47.5% 48.0% 50.4% 50.6%",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "102",
+        "summary": "services, minor auto repairs, and state inspections; selling fuel; and selling merchandise at its car wash",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "105",
+        "summary": "Mr. Ross joined the Company in 2001 and oversees all car wash operations in the Florida region. Prior to Mr. Kammer joined the Company in 1999 and oversees all car wash operations in the Genie region. Mr. . Mr. Holmes joined the Company in 2000 and oversees all car wash operattm enia \\the Lubbock region. Mr.",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "106",
+        "summary": "1990 to 1999, at the time Mace acquired Genie Car Wash. Mr. Leonard has over fifteen years of experience in aspects of the car wash operations on 6 d'vail rior to joining Mace, Mr. Kramer served in various the car wash industry and holds a Bachelor of Arts from Southwestern University.",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "107",
+        "summary": "Wein Goa Car Wash Esser Beaver Cr Wash Stiper Bright, Northeast Colwid Car Wash Gnat Car Wok Saper MO; San Anode Saper Brigid. Cabbed Mace Tack Wailes",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "108",
+        "summary": "Revenue: $519.7 EBITDA: $28.2 Volume: 11,712",
+        "addresses": [
+          "1241 Ripley Street Lake Station, IN 46405"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "109",
+        "summary": "Revenue: $418.1 Revenue: $402.0 Revenue: $374.9",
+        "addresses": [
+          "1855 Keams Canyon Road Holbrook, AZ 86023",
+          "5240 South Sunland Gin Road Casa Grande, AZ 85222"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "110",
+        "summary": "Total Revenue $2,104.8 $1,989.9 $1,861.3 Total Payroll/Total Revenue % of Revenue",
+        "addresses": [],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "111",
+        "summary": "Revenue: $549.7 Revenue: $537.1 Revenue: $2,598.1",
+        "addresses": [
+          "7027 South Quaker Avenue Lubbock, TX 79424",
+          "1910 North Quaker Avenue Lubbock, TX 79410"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "112",
+        "summary": "EBITDA $809.7 $509.4 $435.8 $240.8 Avg. Wash & Detail Revenue $15.67 $15.25 $16.01 $15.13 Total Revenue",
+        "addresses": [],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "113",
+        "summary": "Revenue: $1,780.4 Revenue: $1,752.9 Revenue: $1,658.9",
+        "addresses": [
+          "7320 Burnett Road Austin, TX 78757",
+          "1021 West William Cannon Drive Austin, TX 78745",
+          "1311 South Lamar Blvd. Austin, TX 78757"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "114",
+        "summary": "Total Revenue $6,776.2 Total Payroll/Total Revenue Avg. Wash & Detail Revenue",
+        "addresses": [],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "115",
+        "summary": "Revenue: $557.9 EBITDA: ($7.9) Volume: 31,260",
+        "addresses": [
+          "17931 Preston Road Dallas, TX 75252"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "116",
+        "summary": "Revenue: $816.8 Revenue: $384.7 Revenue: $1,624.0",
+        "addresses": [
+          "1219 East Pioneer Parkway Arlington, TX 76010",
+          "4959 South Drive Fort Worth, TX 76132"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "117",
+        "summary": "Revenue: $879.3 Revenue: $1,814.4 Property Size: 9,605 sq. ft. EBITDA: $69.1 Property Size: 13,593 sq. ft. EBITDA: ($90.4)",
+        "addresses": [],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "118",
+        "summary": "Total Revenue $10,905k8 EBITDA $2,186.0 Total Payroll/Total Revenue",
+        "addresses": [
+          "1219 East Pioneer Parkway o 3408 South Collins Dallas in"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "119",
+        "summary": "Revenue: $680.5 Revenue: $580.2 Property Size: 12,813 sq. ft. EBITDA: $8.3 Property Size: 5,057 sq. ft. EBITDA: ($26.9)",
+        "addresses": [
+          "6780 Bandera Road San Antonio, TX 78238",
+          "8935 Wurzbach Road San Antonio, TX 78240",
+          "1526 Pat Booker Road Universal City, TX 78148"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "120",
+        "summary": "Total Revenue Total Payroll/Total Revenue % 53.7% I. of Revenue 25.1% 27.5% 20.0% 17.3%",
+        "addresses": [],
+        "terms": [
+          "revenue"
+        ]
+      },
+      {
+        "page": "121",
+        "summary": "Revenue: $705.2 Revenue: $597.8 Property Size: 9,504 sq. ft. EBITDA: $172.4 Property Size: 4,940 sq. ft. EBITDA' $83 5",
+        "addresses": [
+          "6605 West Chandler Blvd. Chandler, AZ 85226"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "122",
+        "summary": "Revenue: $950.6 Revenue: $884.0 Revenue: $797.4",
+        "addresses": [
+          "1266 North Arizona Avenue Chandler, AZ 85224",
+          "1503 West CanielPack Road Phoenix, AZ 85015",
+          "4210 West Glendale Avenue Phoenix, AZ 85051",
+          "5690 West Peoria Avenue Phoenix, AZ 85302"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "123",
+        "summary": "Revenue: $883.7 Revenue: $848.4 Property Size: 8,085 sq. ft. EBITDA: $304.8 Property Size: 8,022 sq. ft. EBITDA: $140.5",
+        "addresses": [
+          "1245 North Gilbert Road Gilbert, AZ 85234",
+          "5020 East Main Street Mesa, AZ 85205",
+          "711 NW Grand Avenue Phoenix, AZ 85007"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "124",
+        "summary": "Total Payroll/Total Revenue Avg. Wash & Detail Revenue % of Revenue",
+        "addresses": [],
+        "terms": [
+          "revenue"
+        ]
+      },
+      {
+        "page": "125",
+        "summary": "Revenue: $2,056.8 Revenue: $1,051.2 EBITDA: $914.1",
+        "addresses": [
+          "12330 South Cleveland Avenue Fort Myers, FL 33907",
+          "201 South Beneva Road Sarasota, FL 34232"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "126",
+        "summary": "Revenue: $704.5 Revenue: $1,112.6 Property Size: 9,220 sq. ft. EBITDA: $74.0 Property Size: 5,835 sq. ft. EBITDA: $84.3",
+        "addresses": [
+          "1555 N. Washington Blvd. Sarasota, FL 34936",
+          "1791 S. Tamiami Trail Venice, FL 34293"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "127",
+        "summary": "Total Revenue Total Payroll/Total Revenue Avg. Wash & Detail Revenue",
+        "addresses": [],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "128",
+        "summary": "Property Size: 4,921 sq. ft. `- EBITDA: $4.5 Property Size: 3,139 sq. ft. -EBITDA: $115.9 Property Size: 4,354 sq. ft. -EBITDA: $223.2 -Lot Size: 26,250 sq. ft. \"...Revenue: $203.5",
+        "addresses": [
+          "931 East Lancaster Avenue Bryn Mawr, PA 19010",
+          "1100 Bethlehem Pike Flourtown, PA 19031",
+          "10 East Germantown Pike Norristown, PA 19401",
+          "601 East Market Street West Chester, PA 19380"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "129",
+        "summary": "Property Size: 3,582 sq. ft. EBITDA: $7.7 Property Size: 2,040 sq. ft. EBITDA: $58.0 Property Size: 1,190 sq. ft. .....EBITDA: $26.7 Property Size: 5,012 sq. ft. - EBITDA: $317.1 Lot Size: 7,579 sq. ft. Revenue: $125.4 Lot Size: 14,362 sq. ft. Revenue: $148.6",
+        "addresses": [
+          "215 West Camden Avenue Moorestown, NJ 08057",
+          "1505 East Marlton Pike c. - Cherry Hill, NJ 08034",
+          "2310 Island Road Philadelphia, PA 19142"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "130",
+        "summary": "Revenue: $301.0 Revenue: $177.3 \u2014 Revenue: $175.7",
+        "addresses": [
+          "240 Dupont Highway Smyrna, DE 19977",
+          "2575 Mt. Ephraim Road Camden, NJ 08104",
+          "41 and Ivanhoe Road Deptford, NJ 08096",
+          "509 Williamstown New Freedom Road Sicklerville, NJ 08081"
+        ],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "131",
+        "summary": "Avg. Wash & Detail Revenue $9.72 $10.40 $1038 $1139 Total Payroll/Total Revenue 39.1% 41.0% 43.1% 44.8% % of Revenue 33.6% 29.2% 25.7% 24.8%",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "133",
+        "summary": "retention rate can lead to significant revenue and profit gains. The Division has been successful in regional revenue on regional advertising campaigns. Because the cost of acquiring new customers is The Vice President of the Car Wash Division, Director of National Marketing and Investors Relations and",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "134",
+        "summary": "availability of financing at favorable terms; (ii) the potential for operating cost reductions, revenue While the Division has not completed any car or truck wash acquisitions since 2001, management",
+        "addresses": [],
+        "terms": [
+          "revenue"
+        ]
+      },
+      {
+        "page": "135",
+        "summary": "the Company's car wash locations. rewards its regional mane e nt teams for attaining certain revenue and profitability targets. revenue and cash flow growth are to:",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue",
+          "development"
+        ]
+      },
+      {
+        "page": "136",
+        "summary": "time basis cars washed, revenue per car for wash, detail services, lube Systems (\"ICS\") at approximately 65% of the car wash properties and DRB Systems Inc. (\"DRB\") at the other 35% of the car wash properties -",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "137",
+        "summary": "hold interest in the buildings and the land at 40 of its car wash facilities and has a leasehold interest in the remaining nine car wash properties. With the exception of the Amarillo, TX property, the other truck Car Wash Locations",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "138",
+        "summary": "December 31, 2004. Mace currently operates collectively twelve car wash locations in New Jersey, in Arizona, and nineteen car wash locations in Texas. Mace also owns five truck washes located in impulse items and a car wash tunnel, which contains automatic cleaning equipment that cleans the cars as",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "139",
+        "summary": "wash type. The full-service car wash customer ranks quality, time, safety, customer service and value as wash industry, particularly g\\-s ons that offer automated car wash services. Management customer, full-service car wash operators are able to sustain higher prices relative to other car wash types",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "140",
+        "summary": "the full-service car wash, equipment opera ll-service car wash requires a degree complicated than other car wash types",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "141",
+        "summary": "8 Original $2 Car Wash Livonia, MI 26 7 Oasis Car Wash Addison, TX 26 5 Mike's Express Car Wash Carmel, IN 29",
+        "addresses": [
+          "16 Splash LLC Stamford, CT"
+        ],
+        "terms": [
+          "car wash",
+          "development"
+        ]
+      },
+      {
+        "page": "143",
+        "summary": "\u2022 I hvested or closed 2 car wash properties \u2022 I /iv ested or closed 2 car wash properties \u2022 Divested or closed 3 car wash properties",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "144",
+        "summary": "single facility. According to the Car Wash Institute, the top 50 c geographic diversity to any existing car wash operatdr The car wash industry is highly fragmented and is comprised largely",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "145",
+        "summary": "Total Revenue % of Revenue % of Revenue",
+        "addresses": [],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "146",
+        "summary": "revenues are anticipated to total approximately4l.9 million with EBITDA above breakevert level. r Adverse weather conditions and a shift in corporate strategy have been the primary drivers of declining For the fiscal year ended December 31, 2004, the Division anticipates car wash related revenues of Avg. Wash & Detail Revenue $14.19",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "147",
+        "summary": "Association estimates that there are 75,000 car wash facilities in the U.S., of which 15,000 are full-service or approximately $16 billion irC20b , with $12 billion spent on full-service and exterior only car wash services services, gasoline and lubrication centers and on-site merchandise sales. The International Car Wash",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "148",
+        "summary": "generated total annual revenues and EBITDA of approximately $38.9 million and $8.2 million, exit the car wash business. Through December 2000f-th Com y completed seventeen acquisitions, ,.. ..07 resulting in it owning 56 car wash facilities and fiv ash,facilities. The acquisitions were funded As of December 31, 2004, thrur anio\\operates 4",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "149",
+        "summary": "Exhibit 6. Top 20 Car Wash Operators by Number oh ' Cications 8 Exhibit 8. Car Wash Locations \\\\\\\\ 12",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "150",
+        "summary": "G. Property Summary - Car Wash Services F. Average Wash & Detail Revenue Summary by Car Wash Facility 54 E. Volume Summary by Car Wash Facility 53",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "153",
+        "summary": "Minuteman Car Wash Page 2 acquired balance sheet is as of December 31, 2004, but excluding all cash and interest-bearing debt Mike Shullman February 23, 2005",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "154",
+        "summary": "Suite 1210, 1600 Market Street, Philadelphia, PA 19103 Minuteman Car Wash Wednesday, March 16, 2005. Your Proposal must be submitted in written form and executed by an",
+        "addresses": [
+          "1600 Market Street, Philadelphia, PA 19103",
+          "297 Main Avenue Norwalk CT 06851"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "157",
+        "summary": "327 Burnt Mill Road - Voorhees, NJ 08043 856-429-9523 Exterior Car Wash & Self Service Vacuum 215 West Camden Avenue- Moorestown. NJ 08057 856-231-1151 Exterior Car Wash & Self Service Vacuum Exterior Car Wash, Self Service Car Wash & Self Service 325 North White Horse Pike \u2022 Magnolia, NJ 08049 856-783-1974 Vacuum",
+        "addresses": [
+          "795-5445 Exterior Car Wash & Self Service Vacuum 327 Burnt Mill Road - Voorhees, NJ 08043",
+          "783-1974 Vacuum 215 West Camden Avenue- Moorestown. NJ 08057"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "159",
+        "summary": "PROPERTY SUMMARY - CAR WASH SERVICES",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "163",
+        "summary": "PIOUS Highway 42 Northeast $500 p/mo 51,500 p/mo or 3% of gross yaks (whichever Is greater) 44,047.25 p/mo (as extended)",
+        "addresses": [
+          "2 SIMS p/mo Ha ve Brown Road Professional MO",
+          "1113 Mesa. AZ Mace 1855 Highway 77 Holbrook. AZ",
+          "124 Ripley Street Labs Sleben, IN"
+        ],
+        "terms": []
+      },
+      {
+        "page": "165",
+        "summary": "Total Revenue To rioll/ Total Revenue % of Revenue",
+        "addresses": [],
+        "terms": [
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "166",
+        "summary": "EBITDA 3.4 $1,717.9 $2,290.1 $2,180.1 Avg. Wash Sz Detail Revenue $13.53 513.49 $15.04 $14.96 Total Revenue",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "167",
+        "summary": "Car Wash $1,596.7 Avg. Wash & Detail Revenue $17.53 Total Revenue",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "168",
+        "summary": "Avg. Wash & Detail Revenue $15.67 $15.25 $16.01 $15.13 Total Revenue Total Payroll/Total Revenue 44.9% 46.5% 49.5% 52.4%",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "169",
+        "summary": "Avg. Wash & Detail Revenue $19.00 $18.57 $18.31 $19.58 Total Revenue Total Payroll/Total Revenue 45.7% 46.4% 46.2% 46.8%",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "170",
+        "summary": "Total Revenue Total Payroll/Total Revenue Avg. Wash & Detail Revenue",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "171",
+        "summary": "Total Revenue $5,588.0 Total Payroll/Total Revenue Avg. Wash & Detail Revenue",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "172",
+        "summary": "EBITDA $2,106.1 Car Wash $4,784.9 Avg. Wash & Detail Revenue $15.12",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "173",
+        "summary": "Total Revenue $4,798.8 Car Wash $3,645.2 Avg. Wash Fr Detail Revenue $1139",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "174",
+        "summary": "Avg. Wash & Detail Revenue $10.38 Total Revenue Total Payroll/Total Revenue 43.1% 84",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "175",
+        "summary": "Total Revenue $5,153.5 $5,775.6 EBITDA $1,507.4 $2,000.5 Car Wash $3,978.7 $4,513.6",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "176",
+        "summary": "Total Revenue $5,588.0 Car Wash $4,423.1 Avg. Wash & Detail Revenue $9.72",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "revenue"
+        ]
+      },
+      {
+        "page": "177",
+        "summary": "region for the quarters ended September 30 and December 31, 2002. Car wash volume declined 6.6% in expense, and repairs and maintenance c4stfte\u00bc15Uviion experienced less than a 1% reduction in wash .,/ and detailing gross margins in 2002 a revenue despite the 6.6% volume decline noted above. sh, The direct wash and detailing labor es perc",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA",
+          "revenue"
+        ]
+      },
+      {
+        "page": "195",
+        "summary": "Adjusted EBITDA Analysis Total Income 483,836.93 8.66 527,006.59 9.41 1,101,541.32 9.25 675,412.89 8.71 758,973.02 9.33 3,546,770.75 9.10 Salaries 177,699.04 3.18 186,722.55 3.34 262,272.39 2.20 230,876.93 2.98 210,049.76 2.58 1,067,620.67 2.74",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "196",
+        "summary": "EBITDA 20358.99 0.37 50,490.35 0.90 428,716,78 3.60 116,165.99 1.50 193,819.29 2.38 809,951.40 2.08 Adjusted EBITDA Analysis \u2022 . ,553. 63 .170.38 (8) Adj. for Abnormal Weather Conditions 24,638.36 0.44 26,529.65 0.47 36,252.60 0.30 34,870.32 0.45 24,262.78 0.30",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "197",
+        "summary": "Adjusted EBITDA Analysis 7045 \u2022 Mystery Car Wash 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 Total Other Expense 90,415.05 1.62 132,823.53 2.37 158,804.96 1.33 142,885 49 1.84 147,861.56 1.82 672,793.59 1.73",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "198",
+        "summary": "Adjusted EBITDA Analysis Total Income 483536.93 8.66 527,006.59 9.41 1,101,541.32 9.25 675,412.89 8.71 758,973.02 9.33 3,546,770.75 9.10 Total COGS 3,966.36 0_07 4,457.59 0.08 4940.60 0.04 5,022 28 0.06 5,914.87 0.07 24,301 70 0.06",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "200",
+        "summary": "Adjusted EBITDA Analysis Total Income 516,672.02 8.53 563,983.86 9.32 1,136,276.30 9.02 705,753.68 8.76 795,494.19 9.05 3,718,180.05 8.95 Salaries 168,616.36 2.78 183,503.81 3.03 245,111.42 1.94 228,035.74 2.84 2134,598.69 2.33 1,029,866.02 2.48",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "201",
+        "summary": "EBITDA 49,465.33 0.82 64,625.58 1.07 451,915.43 3.59 127,488.41 1.59 214,972.72 2.45 908 467.47 2.19 Adjusted EBITDA 163,458.96 2.70 170,314.59 2.82 651,67330 5.17 257,206.84 3.20 357,114.58 4.06 1,599,768,26 3.85 Total Interest, Depreciation & Ainortization 102,994.61 1.70 135,965,26 2.2 167,393.",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "202",
+        "summary": "Adjusted EBITDA Analysis 7045 \u2022 Mystery Car Wash Total other Expense 102,994.61 1.70 135,965.26 2.25 167.393.99 1.33 145,972.83 1.82 155,708.94 1.77 708,035.63 1.70",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "203",
+        "summary": "Adjusted EBITDA Analysis Total Income 516,672.02 8.53 563,983.86 9.32 1,136,276.30 9.02 705,753.68 8.78 795,494.19 9.05 3,718,180.05 8.95 Total COGS 3,474.06 0.06 4,078.35 0.07 3,335,40 0.03 3,634.22 0.05 5,513.01 0.06 20,035.04 0.05",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "205",
+        "summary": "was made to Quick Quack's EBITDA to reflect this significant loss of to the lost car wash days. to the lost car wash days.",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "206",
+        "summary": "> In Lubbock, in 2004, Quick Quack lost at least 13 car wash days to rain as > In Amarillo, in 2004, Quick Quack lost 16 car wash days to rain as thru August 2004)",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "207",
+        "summary": "made to Quick Quack's EBITDA to adjustment of $146,554 (Total Income YE 2002 through March 2004. The 4.61% decline in Total Income from",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "208",
+        "summary": "Adjusted EBITDA 163,458.96 2.70 170,314.59 2.62 651,673.30 5.17 257,206.84 3.20 357,114.58 4.06 1,599,76826 3.85 Adjusted EBITDA (26,943.04) (0.25) (12,020.44) 0.01 (33249.24) 0.02 (4,104.04) 0.06 (27,368.90) (0.01) (103585.66) (0.01) Comparative Adjusted EBITDA Analysis",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "209",
+        "summary": "Total QQ #647 Proforma EBITDA $ 909,849 Total QQ #145 Adjusted EBITDA $1,496,083 Total Adjusted EBITDA Summary $2,405,932",
+        "addresses": [],
+        "terms": [
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "211",
+        "summary": "Sonny's The Car Wash Factory Proforma EBITDA: Proposed December, 2004",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "212",
+        "summary": "Traffic Counts**: 37,863 cars BM on Austin Bluffs Parkway as of seam, metal roof on concrete pad. Car wash tunnel Proposed Completion Date: December, 2004",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "214",
+        "summary": "Equipment Type: Sonny's The Car Wash Factory Installation Date: July, 2004 (Years 2000 \u2014 2003)",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "215",
+        "summary": "seam, metal roof on concrete pad. Car wash tunnel Traffic Counts**: June 1, 2002",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "217",
+        "summary": "Adjusted EBITDA: $329,746 Hannah Car Wash Equipment November, 2002",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "218",
+        "summary": "seam, metal roof on concrete pad. Car wash tunnel Traffic Counts**: November 18, 2002",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "220",
+        "summary": "Adjusted EBITDA: $253,103 Hannah Car Wash Equipment Land $222,000",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "221",
+        "summary": "seam, metal roof on concrete pad. Car wash tunnel Traffic Counts**: April 27, 2004",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic",
+          "development"
+        ]
+      },
+      {
+        "page": "223",
+        "summary": "Hannah Car Wash Adjusted EBITDA: October, 2001",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "224",
+        "summary": "Traffic Counts\": 31,380 average vehicles N/S on Quaker as of June seam, metal roof on concrete pad. Car wash tunnel Opening Date: October 1, 2001",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "226",
+        "summary": "Adjusted EBITDA: $158,294 Hannah Car Wash October, 2000",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "227",
+        "summary": "and drives. Car wash tunnel is open ended with Traffic Counts**: of September 2003",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "229",
+        "summary": "Adjusted EBITDA: $136,516 Equipment Type: Hannah Car Wash Equipment Installation Date: November, 1999",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "230",
+        "summary": "seam, metal roof on concrete pad. Car wash tunnel Traffic Counts**: November 22, 1999",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "233",
+        "summary": "the phone book, please visit www.dexonline.com Type in car wash, City Name, Westgate Car Wash: Westgate Car Wash:",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "234",
+        "summary": "carwashes are closed. After a weather event, the car wash is going to be busy. car wash businesses enjoyed an average yearly increase in wash volume of 15 It typically takes 18 to 24 months to construct a car wash once a suitable site has",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "235",
+        "summary": "conducted by the International Carwash Association (ICA). > An estimated 75000 professional car washes exist in North America employing about 625,000 people.",
+        "addresses": [
+          "40 percent of vehicles on the road are 10 years or"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "238",
+        "summary": "\u2022 Acquisition of other car wash businesses that could either be easily converted to self serve open bay car wash with excess land to add a tunnel type express exterior car wash.",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "development"
+        ]
+      },
+      {
+        "page": "242",
+        "summary": "(1). Quick Quack opened its first car wash in Amarillo in 1999 and is currently vehicle washed a fun and enjoyable experience. Located in each car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "245",
+        "summary": "EBITDA of approximately $1,500,000. Quick Quack's sixth car wash (newly the onsite offices at each of the carwash locations to conduct their business. opened in Lubbock) and seventh car wash (to be opened in December in Colorado",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "246",
+        "summary": "(1). Quick Quack opened its first car wash in Amarillo Texas in 1999 and is the car wash tunnel, customers and their children are entertained as they attempt to exterior car washes. Each car wash is owned by a separate limited partnership",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "248",
+        "summary": "\u2022 Quick Quack #1-45 Adjusted EBITDA \u2022 Quick Quack #1-#5 Adjusted EBITDA EBITDA Analysis (12 months trailing March",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "EBITDA"
+        ]
+      },
+      {
+        "page": "258",
+        "summary": "Zip code Town Car Wash Name",
+        "addresses": [
+          "2640 Ward Blvd, Wilson, NC 27893"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "259",
+        "summary": "Easy to navigate car wash and parking area.",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "260",
+        "summary": "\u2022 Need to drive past retail to hit carwash",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "261",
+        "summary": "Zip code Town Car Wash Name Car wash is tucked away and most be accessed through another retailers parking lot. 1615 Benvenue Rd, 27804 Rocky Mount Tidal Wave Auto Spa Rocky Mount, NC 27804",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "262",
+        "summary": "Branding and advertising for car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "264",
+        "summary": "Easy flow of traffic through each stage of the car wash experience",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "265",
+        "summary": "\u2022 Past a Sam's carwash \u2022 A clean car, Car wash itself B- hard to efficiently move flow of vehicles, One directional flow. Save on gas if you buy carwash. Cheaper wash too. 10 monthly pass, and 3 dollar less. Prices",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "266",
+        "summary": "Zip code Town Car Wash Name Site 3: The Wave Car Wash/Pirates Cove Greenville 27834 South Memorial The Wave Car Wash",
+        "addresses": [
+          "2612 S Memorial Dr, Greenville, NC 27834"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "267",
+        "summary": "Site 3: The Wave Car Wash/Pirates Cove Greenville Easy flow of traffic through each stage of the car wash experience",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "268",
+        "summary": "Site 3: The Wave Car Wash/Pirates Cove Greenville Branding and advertIsing for car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "269",
+        "summary": "Site 3: The Wave Car Wash/Pirates Cove Greenville",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "273",
+        "summary": "Car Wash Name Address 3201 E 10th St, The Wave Express Greenville, NC 27858",
+        "addresses": [
+          "3201 E 10th St, The Wave Express Greenville, NC 27858"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "276",
+        "summary": "Easy flow of traffic through each stage of the car wash experience Branding and advertising for car wash",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "280",
+        "summary": "2600 Dr. M.L.K. Jr Blvd, The Wave Car Wash New Bern, NC 28562 Car Wash Name Address Busiest car wash of the day",
+        "addresses": [
+          "2600 Dr. M.L.K. Jr Blvd, The Wave Car Wash New Bern, NC 28562"
+        ],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "283",
+        "summary": "Branding and advertising for car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "285",
+        "summary": "\u2022 Our carwash nicer than the competitor \u2014 no reason why we can't win",
+        "addresses": [],
+        "terms": []
+      },
+      {
+        "page": "286",
+        "summary": "Zip code Town Car Wash Name",
+        "addresses": [
+          "4245 Western Blvd, Jacksonville, NC 28546"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "288",
+        "summary": "Branding and advertising for car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "290",
+        "summary": "Zip code Town Car Wash Name 28504 Kinston Nc The Riptide Car Wash Kinston",
+        "addresses": [
+          "4179 W Vernon Ave, Kinston, NC 28504",
+          "32 Population 21642 Great location on busy four lane in"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "294",
+        "summary": "Zip code Town Car Wash Name 32301 Tallahassee Whistle Express Car Wash",
+        "addresses": [
+          "2527 Apalachee Pkwy, Tallahassee, FL 32301"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "296",
+        "summary": "Branding and advertising for car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "297",
+        "summary": "Easy flow of traffic through each stage of the car wash experience",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "300",
+        "summary": "Easy flow of traffic through each stage of the car wash experience",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "301",
+        "summary": "1411 E Jackson St, 31792 Thomasville Whistle Express Car Wash Thomasville, GA 31792 Zip code Town Car Wash Name Address 1$11 WHISTLL\" EXPiziESS",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "303",
+        "summary": "Easy flow of traffic through each stage of the car wash experience",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      },
+      {
+        "page": "304",
+        "summary": "Branding and advertising for car wash",
+        "addresses": [],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "307",
+        "summary": "Zip code Town Car Wash Name Address 32312 Tallahassee Whistle Express Car Wash 2898 Kerry Forest Pkwy,",
+        "addresses": [
+          "2898 Kerry Forest Pkwy, Tallahassee, FL 32312"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "311",
+        "summary": "Zip code Town Car Wash Name 32303 Tallahassee Whistle Express Car Wash 2324 N Monroe St FL 3,",
+        "addresses": [
+          "2324 N Monroe St, Tallahassee, FL 32303"
+        ],
+        "terms": [
+          "car wash"
+        ]
+      },
+      {
+        "page": "312",
+        "summary": "Easy flow of traffic through each stage of the car wash experience",
+        "addresses": [],
+        "terms": [
+          "car wash",
+          "traffic"
+        ]
+      }
+    ],
+    "search_pages": [
+      {
+        "page": "1",
+        "text": "111-144- 416 a , P9 PO Aremn ref_ P ower-, Than\". S tI4il 4t PrIP*Air ard irg 1311i 1 cry t-F 6 v<ese 9--Aa 1)110-1"
+      },
+      {
+        "page": "2",
+        "text": "\u201eA 12/30/2020 Summary Report The Right Site \u00ae EASI Census 2010 Site Selection Reports & Analysis itm Summary Report grchii (min- -teipto WI 'Ay 0\\fe( Dort- Pr-frA\u201d ?muck Total Household Income (5) 451,959,686 Median Household Income ($) 69,164 Median Age 37.3 POPULATION BY RACE White Population 10,723 Black Population 694 Asian, Pacific Islander Population 236 American Indian and Alaska Native Population 59 Other Race Population 1,428 Two or More Races Population 514 POPULATION BY ETHNICITY Hispanic Population 3,581 White Non-Hispanic 8,962 BLOCK GROUP COUNT 9 late Fitness 9 Address: 318W Main St, Patchogue, NY 11772 Latitude: 40 0 : 45' : 48\" Longitude: -73\u00b0 : 01' : 28\" \u2022 River Elementary School ,,- '.. ct . 9. c Go -gle k Map data \u00a92020 I GO gle Map data \u00a92020 Google DEMOGRAPHIC OVERVIEW Population 13,654 73,013 159,893 Households 5,291 26,460 55,785 2,624,010,986 5,734,170702 86,467 89,693 64,532 138,929 10,468 21,463 58,340 125,697 C) 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data are derived from the US Census and other official government sources. Consumer Expenditure data are derived from the Bureau of Labor Statistics. All estimates are as of 4/1/2010 unless otherwise stated. Easy Analytic Software, Inc. 101 Haag Avenue, Bellmawr, NJ 08031 phone: 856.931.5780 fax: 856.931.4115 https://www.easidemographics.com/cgi-bin/site.exe 1/1"
+      },
+      {
+        "page": "3",
+        "text": "rea I I IP ft tenala 138-77 Queens Blvd, Jamaica, NY 11435 CURRENT OPERATIONS Full Serve and Lube PURCHASE PRICE $2,400,000 Lease UPGRADES NEEDED POS, Wash equipment COST OF UPGRADES I estimate 4000 subscribers at $37 in 2 years and Ebita of $900,000"
+      },
+      {
+        "page": "4",
+        "text": "357 NY-59, West Nyack, NY 10994 CURRENT OPERATIONS Low volume exterior, self serve bays PURCHASE PRICE Asking $2,4000,000 Land 3 \u2022' UPGRADES NEEDED Signage, wash equipment, POS, Exterior upgrades COST OF UPGRADES I estimate in 2 years 4000 members at $33-and $1,000,000 plus of"
+      },
+      {
+        "page": "5",
+        "text": "Jiffy car wash Hartford CURRENT OPERATIONS PURCHASE PRICE $50,000 Lease UPGRADES NEEDED POS, Building, Vaccums, Marketing COST OF UPGRADES I estimate in 2 years 4000 subscribers at $25 and $600,000 in Ebita"
+      },
+      {
+        "page": "6",
+        "text": "577W MAIN ST, NORWICH, CT 06360 CURRENT OPERATIONS Exterior and Self Serve PURCHASE PRICE $1,100,000 Land UPGRADES NEEDED POS, Building, Wash Equipment COST OF UPGRADES I estimate in 2 years 4000 subscribers at $33 and Ebita of $900,000 UNDER CONTRACT"
+      },
+      {
+        "page": "7",
+        "text": "307 CONNECTICUTAVE, 06854 CURRENT OPERATIONS Exterior-full-service-detailing PURCHASE PRICE Lease starts at $10,000 a month UPGRADES NEEDED POs wash equipment vacuums signage no key money COST OF UPGRADES Projected two years 6000 members $33 each $1.4 million plus ebita"
+      },
+      {
+        "page": "8",
+        "text": "30 Perronette Dr. Bridgeport CT 06606 CURRENT OPERATIONS Exteriorfull-service detailing PURCHASE PRICE 1.1 million includes land UPGRADES NEEDED POS wash equipment vacuums signage COST OF UPGRADES Projected two years 4500 members $33 apiece 1.1mIlion plus ebita"
+      },
+      {
+        "page": "9",
+        "text": "230 FLANDERS RD, NIANTIC, CT 06357 CURRENT OPERATIONS Exterior and Self Serve PURCHASE PRICE $1,500,000 Land UPGRADES NEEDED POS, Building, Wash Equipment, Marketing, Signage COST OF UPGRADES I estimate in 2 years 4000 subscribers at $33 and $900,000 in Ebita Under contract"
+      },
+      {
+        "page": "10",
+        "text": "12 Farmington Ave, Bristol, CT 06010 CURRENT OPERATORS Exterior, full-service, detail PURCHASE PRICE 1.7 million with land UPGRADES NEEDED POS-- wash equipment-- signage 700,000 projected two years 4000 members average $33 $900.000 plus ebita COST OF UPGRADES"
+      },
+      {
+        "page": "11",
+        "text": "6 Farmingville Rd, Ridgefield, CT 06877 CURRENT OPERATIONS Flex Serve detail and exterior less the 500 subscribers PURCHASE PRICE $2,100,000 Land 3, 1 L \" C5 UPGRADES NEEDED Pos, Wash Equpiment, Vacuums Sigage Asphalt COST OF UPGRADES I estimate in 2 years 3500 members at $38 and $1,100,000 plus of"
+      },
+      {
+        "page": "12",
+        "text": "1-- Wool s ken 25 Cross St, New Canaan, CT 06840 CURRENT OPERATIONS Full Serve and Detail PURCHASE PRICE $2,500,000 Land 1. 3 2 18 UPGRADES NEEDED Wash equipment, POS, Signage, Marketing COST OF UPGRADES tcr eeAll 149 After 2 years 3000 subscribers at $45 estimat 1 Ebitafi600,000"
+      },
+      {
+        "page": "13",
+        "text": "Mike Shullman From: Jeff Bell <jeffbell@optonline.net> Sent: Tuesday, February 26, 2019 1:57 PM To: 'Mike Shullman' Subject: Westchester Trinity Car Wash 639 Saw Mill River Rd Westchester County $2,600,000 with property Sales: $800,000 Payroll: 300,000 Insurance 13,000 Electric 8,000 Gas & Heating Oil 2,000 Water & Sewer 15,000 Uniforms 1,000 Garbage 1,500 Prof Fees 3,000 Property Tax 29,000 Wash Supplies 15,000 Store Supplies 19,000 CC Fees 9,000 Sales Tax 40,000 Repairs 5,000 Phone/Towels/Office 2,500 Rent(extra line up area) 8,000 Total Expenses: Best Regards, Ross Brothers Inc 33 Wood Ave S Suite 600(0ffice 661) Iselin, NJ 08830 Cell: (201) 522-0157"
+      },
+      {
+        "page": "14",
+        "text": "Site 13: Whistle Express - 14431 US 19 South, Thomasville, GA 31792 \u2022 Good visibility. Could find it \u2022 US highway 19 \u2022 Really nice location \u2022 A+ site and location \u2022 Lots of homes being built nearby (residential area good)"
+      },
+      {
+        "page": "15",
+        "text": "Site 14: Whistle Express \u2014Valdosta, Ga Zip code Town Car Wash Name 31601 Valdosta Whistle Express Car Wash 1716 Gornto Rd, Valdosta, GA 31601 Branding and advertising for car wash packages easy to read Number of Reviews Branding is hard to see from road and is very boring"
+      },
+      {
+        "page": "16",
+        "text": "Site 14: Whistle Express \u2014Valdosta (31601), Ga Bright and exciting to go through"
+      },
+      {
+        "page": "17",
+        "text": "Site 14:Whistle Express \u2014Valdosta, Ga \u2022 Nice location B+ \u2022 Nice soap, smell, rinse, lights \u2022 Bought from Oasis not whistle \u2022 Low BRAND awareness \u2022 Publix across \u2022 Gas station \u2022 Near a LOT of residential areas"
+      },
+      {
+        "page": "18",
+        "text": "Site 15: Whistle Express \u2014Valdosta (31602) , Ga Zip code Town Car Wash Name 31602 31602 Whistle Express Car Wash 2235 N Ashley St, Valdosta, GA 31602 Number of Reviews"
+      },
+      {
+        "page": "19",
+        "text": "Site 15: Whistle Express \u2014Valdosta, Ga Easy flow of traffic through each stage of the car wash experience Well maintained equipment"
+      },
+      {
+        "page": "20",
+        "text": "Site 8: Whistle Express Tallahassee (32301) \u2022 Branding not as nice \u2022 Big lay out \u2022 Near collision shops, Target \u2022 Clean tunnel \u2022 Rusted motors, equipment old \u2022 Sleepy location \u2022 Attendant sensitive we taking pictures \u2022 Quality wash not great, dripping water \u2022 Tunnel was not up to date. Felt Old \u2014 gantry system. Not as good as the others. \u2022 Marketing wasn't nice or flashy. Brand was redone. Volcano, lava? \u2022 Old equipment. Not so nice"
+      },
+      {
+        "page": "21",
+        "text": "Site 9: Whistle Express \u2014 Tallahassee (32304) Zip code Town Car Wash Name Address 2740 W Tennessee St, 32304 Tallahassee Whistle Express Car Wash Tallahassee, FL 32304 Located on the outer side edge of retail area on four lane rood Branding is hard to see from road and is very boring"
+      },
+      {
+        "page": "22",
+        "text": "03/30/2005 15:2E1 2036371742 NEW ENGLAND SERVICE PAGE 03/04 NEW YORK BUSINESS EXCHANGE 3280 SUNRISE HIGHWAY, 4187, WANTAGH, NY 11793 (516) - 897-9758 / (8130) \u2022 622-300D CAR WASH OPPORTUNITIES 576 Springfield Avenue. Newark. NJ Car wash and lube claims $900,000 gross. Long lease or property. $450,000 down / $950,000 total. In Bergen County it would sell for double. 3110 E. Route 10, Denville, NJ Stunning Swiss Chalet. Huge, huge office. Ultra deluxe. 1 acre of property included in the price. Area is very upscale. $1,500,000 down / $3,250,000 total. May get in with $600,000 or $700,000 through financing package. Car rent 1/2 office for $3,000/mo. 350 Route 46. Budd Lake, Ni Car wash and property. Very excellent area. Huge office can be rented out for big bucks. Run very absentee. Can do much better with proper management. 2 man operation. Terms. Inclpyin property $1,800,2190kAc s \"IC\\ \u2018t \\si` C.NtA h SI Ttr 1 2118 Route . Oakhurst, NJ \\var.vb S t Great opportunity. Includes 200' frontage properte :- Easy to operate exterior. Completely absentee and mismanaged. Can do double of triple, if you charge proper prices, dry cars, and add oil change and detailing. Easy terms. Very reasonable down. $1,975,000 total. '1 1066 East El' Car wash, property 8. 12 bay self serve. Could be full service. Owner was laid up with bypass surgery. So it can do much better."
+      },
+      {
+        "page": "23",
+        "text": "03/30/2005 15:28 2036371742 NEW ENGLAND SERVICE PAGE 02704 7/ \u2022NEW YORK BUSINESS EXCHANGE 3280 SUNRISE HIGHWAY, #187, WANTAGH, NY 11798 (516) - 897-9758 (800) - 622-300Y CAR WASH OPPORTUNITIES 4, 309 W. 230th Street, Riverdale (Westchester), NY Very good oppgzfJnity. Car we h w/wo Oil Change. 27 iear I s CI s $ Car ash. $400,00 Oi Chan u co ee. eakirv-d Can do a I bett so one attended to b siness. $595,000 down I, $1,550,000 total v \"Zvi rCe-,ol e L M ni L4r .5 _t IBtuckner Blvd. & 139th Street (off Deegan Rt. 87 at 138 St.) ' / Gorgeous exterior with huge area for detailing and polishing. The area could be a thand wash too for maxirnOm profit. 30 year lease. Must see. Very affordable. Run too absentee. Terms $1,200,000 total. 238 E. 138th Street, Bronx, NY Car Wash, Property, Oil Change Beautiful Car Wash & Oil Change operation. Area is impro -r \u2022 quickly. Lots of store and apartment houses on E. 138th St. Pretty darn upscale. Right off Deegan at E. 138th Street or Grand Concourse. 75' Car Wash. Detail - 5 car area. No lighting - foolishly, so closes early. Does no advertising. 4 Bay lube. Claims $800,000 gross. $850,000 down / $2,300,000 total 692 Burke Avenue, Bronx. NY Lovely car wash. Offered for sale by landlord. Landlord offers 21 years and will buy these guys out. Doing nice business. Do not speak to anyone at this location at all! $325,000 down / $750,000 total. Rent $5500. Plenty of room to grow. NJ 610 E. Fordham Road, Bronx. NY Tremendous low price opportunity. Nice neighborhood. Room for bigger store. Huge lineup. el\u00b0Rent of only $4000 is 1/3 normal for area. Poorly run. Only $350,000 down / $750,000 total"
+      },
+      {
+        "page": "24",
+        "text": "03/30/2005 i5:28 2036371742 NEW ENGLAND SERVICE PAGE 01/04 FAX NO. :51E5942202 Mar. 07 20Eb 05:10AM P4 NEW YORK BUSINESS EXCHANGE 3280 SUNRISE HIGHWAY, #187, WANTAQH, NY 11793 (si 6) - 897-9758 / (800) - 622-3001- CAR WASH OPPORTUNITIES 53 South Route 9W, W. Haverstrow, NY, Rare Rockland County Listing. Exit 11 North on Thruway. Long established business on very busy street. Next to McDonald's, Dunkin Donuts, KFC, Pizza Hut, Wendy's, Taco Bell and D.M.V. 180' Building. Enormously busy exterior wash Low, low payroll. Fantastic lineup and drying area, which is always a big plus'. Can be easily turned into full service. $240 million waterfront project on going in town. Must see to believe opportunity! $1,360,000 on 25 year lease. or $2,400,000 including properly. 999 Saw Mill Road, Yonkers, NY 1 acre property. Carwash, Tube in nice area. Warehouse with huge $90,000 rentalincome. Claims $550,000 in carwash and $380,000 in quick lube. They lease huge detail area, but the lease is up - so you can do the big business yourself. Great location, Beautiful area. $3,500,000 / financing 75% available. Great leverage! 73 Parisades Avenue. Yonkers. NY, Carwash and property. Oil change would make this place jump. Partners arguing, so won't renovate. Good opportunity for right man, Terms. $1,999,000. 33 Route 59, Nyack. Mt Great area 8, road. Small place but very affordable. Claims $185,000 gross with good net. Asking $350,000. 1449 Bruckner Boulevcrd,Bronx. NY Very busy. Can improve but claims 100,000 car at $8 per. Short lease but hopes to get more. Excellent price $850,000. Claims over $400,000 net."
+      },
+      {
+        "page": "25",
+        "text": "MeatMarket Trends -Asking price index trends, sale price trends, asking rent trends Demographics - Review demographics in this neighborhood Richard Kress's Other Listings 11012 Route 27 167 Main St. 960 Chancery Lane Cotton Rd &Conneaut Lake Meadville, PA 16335 Saegertown, PA 16433 Meadville, PA 16335 Rd. For Sole. $195,000 For Sale \u2022 $159,900 For Sale. $156,900 Meadville, PA 16335 35 AC Lot 49,550 SF Building 1,626 SF Building For Sale. $350,000 Commercial/Other (land) Flex Space Special Purpose (Other) 7.40 AC Lot Commercial/Other ((and) ettp://www.loopnetcomiListing/19788012/18136-Comieauttake-Rd-Meadville-PA/ 5/23/16, 10:05 PM"
+      },
+      {
+        "page": "26",
+        "text": "All American Gas and Car Wash Price $375,000 Building Size 2,280 SF Price/SF $164.47 Property Type Industrial Property Sub-type Find out more... Listing ID: 19788912 Industrial-Business Park Property Use Type Business For Sale Year Built 1971 Clear Ceiling Height Oft. Lot Size 36 AC Features Electricity/Power Dote Created: 05/18/2016 Lest updated: 05/18/2016 Well established All American Gas and Car Wash located at a busy intersection in Vernon Twp, 36 acres with lots of frontage on Conn. Lake Rd. to I -79 interchange providing high visibility and high traffic. Includes business and real estate. Zoned: Conneaut Corridor. N/S of Conneaut Lake Rd. just past Pennsylvania Ave. and before 1-79 interchange. \u2022 High traffic \u2022 Lots of road frontage \u2022 High visibility \u2022 Electricity/Power 18736 Conneaut Lake Rd., Meadville, PA 76335 (Crawford County) Property Record Data - Historical listings, current tax, mortgage, owners & tenant info for this property ettp:/Avww.loopnetcom/ListIng/19788912/18136-Conneaut-Lake-Rd-Meadville-PA/ 5/23/16, 10:05 PM"
+      },
+      {
+        "page": "27",
+        "text": "This Industrial Property is For Sale. 18136 Conneaut Lake Rd. Meadville, PA 16335 \u2022 2,280 SF \u2022 Industrial For Sale Richard Kress htle:/Avww.loopnet.comlistIng/19788012/18136-Conneaut-Lake-Rd-MeadvIlle-PA/ 5/23116, 10:05 PM"
+      },
+      {
+        "page": "28",
+        "text": "376 Bridgeport Ave. Shelton, CT, 06484 176 Bridgeport Ave \"EnCOme. A DT SOO \\ 1\\ 16 \u20180,700"
+      },
+      {
+        "page": "29",
+        "text": "625W. Putnam Ave Greenwich, CT, 06830 Vt\\-1-0 1 1) 2.000\\ It \\ Z4 Locations that do not show a building in google maps 51 Amity Road 780 Canandaigua Road 186 Westport Ave. New Haven, CT, 06515 Geneva, NY, 14456 Norwalk, CT, 06851"
+      },
+      {
+        "page": "30",
+        "text": "P0890 ID 113199)1\u00b0\u00b0-18 le-1\u00b0Pad 01."
+      },
+      {
+        "page": "31",
+        "text": "1-)0QU \\ckk,o(m 40 Nichols Street Spencerport, NY, 14559 1 4 701-11-1\" 13,DO\\ zi \\la %c470"
+      },
+      {
+        "page": "32",
+        "text": "20M Price 18M Price 16M Price 4.50% 4.50% 4.50% 70% Loan 70% Loan 70% Loan $1.1 Mtg $960k Mtg$800k Mtg 20M 4.5% $6m Invested lnvestmen Own % 2m Ebita 3m Ebita 4M Ebita John 0 5% 45000 95000 145000 Mike $1m 40% 360/36% 760/76% 1160/1.16% Glenn $1m 25% 225/22.59(450/45% 725/72% Investors $3m 30% 270/6.759(540/13.59( 21.70% 18M 4.5% 5.4 Invested 2m Ebita 3m Ebita 4M Ebita Investmen Own % John 0 5% 50,750 100750 150,750 Mike $1m 40% 406/46% 812/81% 1,224/1.24% Glenn $1m 25% 253/25% 506/56% 759/75% Investors $3m 30% 304/8.9% 604/18.69(912/26.8%"
+      },
+      {
+        "page": "34",
+        "text": "\u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source of all updated estimates. All other data are derived from the US Census and other official government sources. Consumer Expenditure data are derived from the Bureau of Labor Statistics. All estimates are as of 4/1/2010 unless otherwise stated. Easy Analytic Software, Inc. 101 Haag Avenue, Bellmawr, NJ 08031 Mtps://www.easidemographics.com/cgi-bin/site.exe 6/14/21, 7:21 PM"
+      },
+      {
+        "page": "35",
+        "text": "EASI Census 2010 Site Selection Reports & Analysis Summary Report VIcolioi A Address: 623 Cromwell aye rocky hill Latitude: 41\u00b0 : 39' : 09\" Longitude: 72\u00b0 : 40' : 49\" 00 elm,/ 0 Do Google Map data \u00a92021 Google Midi:1'14 data \u00a92021 Description 1 Miles 3 Miles 5 Miles DEMOGRAPHIC OVERVIEW _ \u2014._-_\u2014__ --- PopulatioC 3,183 46,143 125,356 Households 1,276 19,308 Total Household Income ($) 139,690,300 2,047,327,026 4,781,070,559 Median Household Income ($) 107,971 84,219 75,190 Median Age 45.4 4-4.7 41.5 POPULATION BY RACE White Population 2,780 40,132 104,498 Black Population 71 1,502 6,889 Asian, Pacific Islander Population 259 3,088 6,135 American Indian and Alaska Native Population 6 65 247 Other Race Population 21 596 4,779 Two or More Races Population 46 760 2,808 POPULATION BY ETHNICITY Hispanic Population 125 2,490 13,783 White Non-Hispanic 2,685 38,526 97,166 BLOCK GROUP COUNT 2 30 87 Intps://www.easidemographics.comicgi-bin/site.exe 6/14/21, 7:2 -1 PM"
+      },
+      {
+        "page": "36",
+        "text": "65 Surrey Cir, Shirley, NY 11967 pp eel 0,0-ior,"
+      },
+      {
+        "page": "38",
+        "text": "1400 Kings Hwy Cutoff Fairfield, CT, 06824 PLD (614-Or\\ ncamt. A DV -rD\\ 116 \\-roo\\ / )5,cco3"
+      },
+      {
+        "page": "40",
+        "text": "6273 Brockport-Spencerport Rd Brockport, NY, 14420 -L nCOIY\\C Mn"
+      },
+      {
+        "page": "41",
+        "text": "1206 North Ave. Bridgeport, Cr, 06604 H2\\ Ito) zbk)"
+      },
+      {
+        "page": "42",
+        "text": "27 Connolly Pkwy, Hamden, CT 06514 PA (a im on --1-oc)aor\\Q 13\\1o\\2 2000\\ s\\ \\ b `L.,600"
+      },
+      {
+        "page": "43",
+        "text": "791 Post Rd E, Westport, CT 06880 pogoko,*kor- -rviC3Pne_ Ao-r"
+      },
+      {
+        "page": "44",
+        "text": "1123 Highland Ave, Cheshire, CT 06410 1121\\ ID\\ \\2o\\'5\\\\\\"
+      },
+      {
+        "page": "47",
+        "text": "570 Bedford Road Bedford Hills, NY, 10507 P06 70 cairOrN \"I\u2018ncsorPc- A DT 400 \\ 6 , czs6"
+      },
+      {
+        "page": "48",
+        "text": "382 Danbury Road Wilton, CT, 06897"
+      },
+      {
+        "page": "49",
+        "text": "170 5. Kensico Ave. White Plains, NY, 10601 52\\ 9 31 2.03"
+      },
+      {
+        "page": "50",
+        "text": "AW1WISIIANEW/f7raiMi 7ogeick+,0r, tq\\ rro\\ zoi 340 Central Avenue White Plains, NY, 10606"
+      },
+      {
+        "page": "51",
+        "text": "9L590 '13 tuaneH isam peou Isod uolsog z"
+      },
+      {
+        "page": "52",
+        "text": "649 Hope Street Stamford, CT, 06907"
+      },
+      {
+        "page": "53",
+        "text": "53 Bullet Hill Road Southbury, CT, 06488 ZOO\\ Z PDPotak-(01)"
+      },
+      {
+        "page": "54",
+        "text": "INTERNATIONAL CAR WASH GROUP 20 -YEAR NNN SALE -LEASEBACK Address City State $38,651 5.50% $702,748 3406 Ross Clark Circle Dothan 1419 Waddell Drive Huntsville AL $214,750 6.25% $3,435,995 1742 Albert Pike Rd Hots \u2022 rin s AR $91,857 5.75% $1,597,505 3101 Mercury Drive Y 089 W Main St $155,366 6.00% $63,503 5.50% 100 West Hill Ave New Philadel . hia OH $206,465 6.25% , 680 Northfield Road North Randall OH $44,253 5.50% 736 Riverdale Rd Memphis N $190,571 6.25% $3,049,140 \u2022 975 Stage Rd Bartlett N $230,606 6.25% $3,689,701 27375 Carronade Dr Perrysburg $158,136 6.00% $2,635,595 2909 Carter Hill Road Montgomery AL $63,780 5.50% $1,159,645 \u2014 295 Morrow Road russville AL $120,762 6.00% $2,012,695 1853 W 4100 5 a lorsville UT $157,288 5.50% $2,859,773 \u2022 15 Norman Drive aldosta GA $170,489 6.00% $2,841,475 0 Mt Morlah Rd Mem \u2022 his N $58,717 5.50% $1,067,580 Glen Runofsky 1 Glen.Kunafsky@marcusnollichap.com 1 212.430.51151 NY: 10301203289 Edward Otocka 1 Edward.Otocka@maccusmillichap.com 1 212.430.5235 1 NY: 10401298466 Daniel Price' Daniel.Price@marcusmillichap.com 1 646.805.1431 1 NY: 10401306175 Broke, al Record Eddie (seenhaPgh 43 BOR 01X054/911 r Arse Wilhoma 1,15 BOP 5-20181 I loch. Mckpbben IN BOR 3026.19 I 1 imothY Speck TX Sop 432723 I Moms, Gloss OH BOP BPK arotoosme I 20 -Year Triple -Net (NNN) Sale -I. Landlord Responsibilities Corporate Guarantee by International Car Wash Group Ltd. (UK), a 900+ Unit Operator with Locations Across Europe, Australia and the U.S. 1.5% Annual Rental Escalations back with No ICWG was Founded In 1965 and is Now the World's Largest Car Wash Operator, Washing More Than 35 Million Cars Every Year Favorable Industry Trends: In the U.S., the Percentage of Drivers that Wash their Vehicle at a Professional Car Wash has Increased from 47% in 1994 to 72% in 2014 Qualify for 15 -Year Accelerated Depreciation NNN PRO GROUP www.NNNPRO.com Marcus&Millichap Real Estate Investment Services"
+      },
+      {
+        "page": "55",
+        "text": "ABOUT 4649 W ROSECRANS AVE, HAWTHORNE, CA 90250 New Century Commercial is pleased to offer a unique opportunity to acquire a turn -key, high volume, high profitability express car wash with land in a prime South Bay location. This offering is truly a rare opportunity to acquire an Internet resistant service business with both long-term stability and the potential for continued long-term growth. The offering highlights include: * Prime Location - Situated on West Rosecrans Avenue, a major retail and commercial corridor off I- 405, with daily traffic counts exceeding 35,000 cars * Dense Trade Area - Located in one of the most MARKETING BROCHURE El densely populated area of Los Angeles County with nearly 300,000 residents and nearly 80,000 employees in a 3 mile radius * Neighborhood - Surrounded by a full complement of small and large retailers, including a nearly 600,000 square foot power center anchored by Wal- Mart and Home Depot * Limited Competition - Closest express car wash competitor is over 2 miles away * High Profit Margin - Average profit margin is between 70% - 75% * Internet Resistant - Internet resistant business with repeat loyal customers AWARD WINNING EXPRESS CARWASH WITH LAND HAVVTHORNE, CALIFORNIA Tom Theung 626-482-0652 II Contact"
+      },
+      {
+        "page": "56",
+        "text": "IINVC31 1vICIN I JUMMAKT EXCELLENT INVESTMENT OPPORTUNITY OR OWNER/USER OPPORTUNITY: This offering provide an excellent opportunity for an investor looking for long-term stable income investment as well an excellent opportunity for an owner/user looking for more aggressive higher return with the purchase of both the real estate along with the business. This offering are as follow: SALE OF PROPERTY ONLY (SALE & LEASEBACK): * Offering Price: $4,800,000 * Monthly Rent: $20,000/Month + NNN * Tenant Pays: Property Taxes, Insurance, and THE OFFERING * Landlord: No landlord responsibility * Rent Increase: 2% Annually * Lease Term: 10 Year + 2 - 10 Year Option * N01: $240,000 (Year 2020) * Cap Rate: 5.0% (Year 2020) SALE OF PROPERTY & BUSINESS: * Offering Price: $6,950,000 * Lot Size: 18,378 Square Feet * Building Size: 2,814 Square Feet * N01: $596,531 (Year 2018) * Cap Rate: 8.58% (Year 2018) * Pro Forma N01: $665,000 * Pro Forma Cap Rate: 9.57% Price $4,800,000 Lot Size 0.42 AC Sale Type Investment Building Size 2,814 SF Cap Rate 12.43% No. Stories 1 Sale Conditions 1031 Exchange Year Built 2009 Sale Leaseback Property Type Specialty Parking Ratio 5.69/1,000 SF i s Tom Theung 626-482-0652 MI Contact"
+      },
+      {
+        "page": "57",
+        "text": "ta--; LoopNet - E>, Share Prin 4649 W Rosecrans Ave 2,814 SF Specialty Building Offered at $4,800,000 at a 12.43% Cap Rate in Hawthorne, CA \u2022 PRIME LOCATION \u2022 WELL ESTABLISHED \u2022 NEWER CONSTRUCTION & EQUIPMENTS \u2022 DENSELY POPULATED AREA r.r rar-M A k IT r1 \u2014 r\\% Ilrr ni Ink r- I r\\k/A I \"no ir--renk arms in Arm Tom Theung 626-482-0652 Contact"
+      },
+      {
+        "page": "58",
+        "text": "vroperty iype peciaity Loning uescription Lem, runerton Property Sub-type Car Wash APN / Parcel ID 031-321-32 Building Class C MARKETING BROCHURE II FOR SALE > SINGLE TENANT ABSOLUTE NNN INVESTMENT OPPORTUNITY 520 S. Euclid Street Fullerton, California Joe Winkelmann Colliers INTERNATIONAL 949-724-5704 'Pi Contact"
+      },
+      {
+        "page": "59",
+        "text": "t.; LoopNet- Share 520 S Euclid St 425 SF Specialty Building Offered at $5,664,000 at a 2.5% Cap Rate in Fullerton, CA INVESTMENT SUMMARY Sale Price: $5,664,000 Net Operating Income: $141,600 CPI Increases: Every 5 Years Lease Expiration: 8/20/42 Owner Responsibilities: None THE OFFERING \u00b10.63 Acre Parcel APN: 031-321-32 New Construction 2015 Fully Leased to Tommy's Express Car Wash Buildina Size Joe Winkelmann 949-724-5704 II Contact"
+      },
+      {
+        "page": "60",
+        "text": "rroperty lype Property Sub-type Building Class rarking Ratio Zoning Description APN / Parcel ID IU.0/ ',LAW Jr 7448-002-033 ABOUT 1010 N GAFFEY ST, SAN PEDRO, CA 90731 $250,000 PRICE REDUCTION FOR QUICK SALE: *28% increase in cars washed between 2017 & 2018. Green Forest Express Car Wash was built in 2016. It was first opened in June 2016. The business and facility highlights include: * Newer state of the art equipment * 85 feet tunnel with high ceiling which can accommodate approximately 50-60 cars per hour * 18 vacuum stations with air hoses at every vacuum * Two sentinel lift gate pay station * Highly visible monument signage providing great * 30% increase in revenue between 2017 St 2018 [P, LoopNet Link Whether you are an aggressive owner looking for ways to increase revenue and profits, Green Forest Express Car Wash - San Pedro provides an attractive acquisition opportunity. Although established for almost three years, Green Forest Express Car Wash has attracted many satisfied and repeat loyal SITE VISIT BY PROSPECTIVE BUYERS AND SALE DISCUSSION WITH EMPLOYEES OF GREEN FOREST EXPRESS CAR WASH IS STRICTLY PROHIBITED. PLEASE CONTACT LISTING BROKER FOR ADDITIONAL INFORMATION. Tom Theung 626-482-0652 a Contact"
+      },
+      {
+        "page": "61",
+        "text": "IINVt I IV1t.INI JUMMAKT $250,000 PRICE REDUCTION FOR QUICK SALE: New Century Commercial is pleased to offer a unique opportunity to acquire a highly profitable, highly visible and high traffic corner express car wash with land located at 1010 N. Gaffey Street in San Pedro, just off the South 110 Freeway off -ramp. This offering is rare as this is truly a turn -key opportunity with long-term stability and the potential for continued revenue and long-term growth. The offering highlights include: * Location, Location, Location - Situated on the corner of Gaffey Street, a major thoroughfare in the City of San Pedro, off the South 110 Freeway off - ramp, with daily traffic counts exceeding 35,000 * Neighborhood - Surrounded by a full compliments of independent retailers and several power center anchored by Target and Home Depot * Recently completed new housing development - THE OFFERING Located only blocks from a recently completed new housing development with approximately 100 new * Less than 1 mile from Ponte Vista San Pedro Development Project on Western Avenue with plans for 700 new residential homes and 2.42 acre of * Just one block from DMV * Located adjacent to affluent Rolling Hills Estate and Palos Verdes * Internet resistant services business with loyal and repeat customers * Highly profitable and low maintenance business * Potential to increase revenue and car counts with aggressive social media marketing SITE VISIT BY PROSPECTIVE BUYERS AND SALE DISCUSSION WITH EMPLOYEES OF GREEN FOREST EXPRESS CAR WASH IS STRICTLY PROHIBITED. PLEASE CONTACT LISTING BROKER FOR ADDITIONAL INFORMATION. Buildina Size 626-482-0652 ri Contact"
+      },
+      {
+        "page": "62",
+        "text": "(?) c; LoopNet - CL,L) Share Prin 1010 N Gaffey St - San Pedro Express Carwash 2,500 SF Specialty Building Offered at $3,650,000 at a 6.84% Cap Rate in San Pedro, CA \u2022 PRIME FREEWAY OFF-RAMP CORNER LOCATION \u2022 HIGH PROFIT MARGIN Ir t lir n r \u2014ri or\\ k I \u2022 INTERNET RESISTANT BUSINESS \u2022 ABILITY TO ACQUIRE PROPERTY & BUSINESS d a b Tom Theung 626-482-0652 a Contact"
+      },
+      {
+        "page": "63",
+        "text": "II I LCI I.LJ LC Lrt, VVI IIL.I I Li! '! ILJ LII I LILJUILIVI [LB - I- Li l t/UV I I ICUILAJI LCI I LCI IL/L.L.ILCU VVI LI III I kJ 1-1- - I I 111C I LIUIUJ. vehicles into the area. There are more than 39,383 individuals residing within a three-mile radius of the property and more than 58,637 individuals within a five -mile radius. The subject property benefits from being well- positioned in a dense retail corridor consisting of national and local tenants, medical centers, and academic institutions all within close proximity of this property. Major national tenants include: Walgreens, Wendy's, McDonald's, Shell, IHOP, Subway, Dunkin Donuts, Mobil, as well as many others. This Splash Car Wash & Laundromat property also benefits from being situated within a four -mile radius of several academic institutions. The most notable are Orange County Community College and Middletown High School, which have a total enrollment exceeding 15,000 students. In addition, Orange Regional Medical Center, a 450 bed general e Offering Memorandum SATELLITE REGIONAL - Glen Kunofsky Middletown, New York is a city in Orange County. Just 55 miles above the tip of Manhattan, the Hudson River cuts a crescent around Orange County, providing some of the most beautiful scenery in the Hudson Highlands. Charmingly sophisticated, experiences in Orange County range from international destinations to roadside farm stands and everything in between. Middletown falls within the New York Metropolitan area. Middletown was incorporated as a city in 1888. It grew in the 19th and 20th centuries as a stop on several lower New York State railroads, attracting several small manufacturing businesses. The surrounding area is partly devoted to small dairy farms. As the only county in New York located between two rivers, whether its canoeing and rafting in the Delaware River or cruising in the Hudson, the area provides the vacation visitors are looking for piEdward Otocka Anthony D'Ambrosia a Contact"
+      },
+      {
+        "page": "64",
+        "text": "\u2022\u2022 /- k1 I Wel IL LJCI I iuyiupi lius I LULU! ruputuuui I LALCCUS the National Average in Terms of Average Household Income INVESTMENT SUMMARY The subject investment property is situated along Dolsontown Road, which boasts average daily traffic counts exceeding 18,300 vehicles. Intersecting with Dolsontown Road is Highway 17M, which brings 39,000 vehicles into the immediate area on average daily. The property also benefits from nearby THE OFFERING Interstate- 84, which brings an additional 43,000 vehicles into the area. There are more than 39,383 individuals residing within a three-mile radius of the property and more than 58,637 individuals within a five-mile radius. Price $7,150,000 Building Class Sale Type Investment Lot Size 5.50 AC Cap Rate 6.50% Building Size 1,528 SF Sale Conditions Investment Triple Net No. Stories 1 Property Type Specialty Year Built 2017 Property Sub-type Car Wash APN / Parcel ID 335600-004-000-0001- 035.000-0000 ABOUT 1020 DOLSONTOWN RD, MIDDLETOWN, NY 10940 33 Glen Kunofsky it im Edward Otocka Anthony D'Ambrosia"
+      },
+      {
+        "page": "65",
+        "text": "ta-; LoopNet . Le Share GI Prin . 1020 Dolsontown Rd - Splash Car Wash 1,528 SF Specialty Building Offered at $7,150,000 at a 6.5% Cap Rate in Middletown, NY \u2022 Brand New 20-Year NNN Sale-Leaseback of an Extremely High Performing Location \u2022 Diversified Income Stream with Car Wash and Laundromat Business on Site \u2022 Site Features High Visibility and Ease of Access I Four Way Intersection Experiences Over 57,000 ii: Glen Kunofsky Edward Otocka \u2022 Attractive '1.5% Annual Rental Increases Starting Year 3 Which Provide a Strong Hedge Against \u2022 Splash Car Wash Operates 20 Locations Throughout Fairfield, CT and Upper Westchester, 111 Anthony D'Ambrosia a Contact"
+      },
+      {
+        "page": "66",
+        "text": "I LIVCI UC Ltutly Liu! Ill. Lk-WI I L VI 17 , %JUL) VCI 0k-ill/kJ! I IUJ 1-1 It ILAJLLJUll HI l_/ 1 LAI ! I VVILI I LI It I I IUt VVII Additionally, Interstate 75 is in close proximity to Norman Drive, which brings an additional 41,300 vehicles into the immediate are per day. There are approximately 65,000 individuals within a five-mile radius of this property and 100,000 individuals within a ten -mile radius. Valdosta is a city in and the county seat of Lowndes County, located on the southern border of Georgia. The city is located along Interstate 75, a major north -south artery, approximately halfway between Atlanta and Tampa. Valdosta is the home of Valdosta State University, a regional university that has a total enrollment that exceeds 11,000 students. The Dedo Maranville Fine Arts gallery is a part of Valdosta State University and exhibits student and national artists. The local public Valdosta High e Offering Memorandum SATELLITE REGIONAL 11 1] - Glen Kunofsky Edward Otocka Daniel Price of any high school in the United States. Additionally, Valdosta is called the Azalea City, as the plant grows in profusion there. The city hosts an annual Azalea Festival in March. Valdosta is the retail center for nine counties in south Georgia and north Florida, with $1.5 billion in sales in 2003. The surrounding area produces tobacco, naval stores, particularly turpentine, as well as pine lumber, and pulpwood. . A main attraction in the area is the Wild Adventures Theme Park, which offers a variety of rollercoasters, several dining options, exotic animals, and much more. The Valdosta mall is an enclosed shopping mall located within the city limits and is compromised of more than 70 stores and restaurants in 560,000 square feet of gross leasable area. The stores that anchor this mall are Belk and"
+      },
+      {
+        "page": "67",
+        "text": "y l it) ILAI ILIlUILI I CJIJL.11 1 11.J1111.1CJ. t i lt I.JUJC 9UL11U1 ILCC. II ILCI I lUllt../11U1 VVUJI I annual rent will be $178,500 and will be subject to 1.50% annual rental escalations throughout the base term as well as the four, five-year tenant renewal option periods. The lease will have a corporate THE OFFERING more than 900 locations throughout the United States and Internationally. The property is 2,840 rentable square feet and is situated on 2.00 acres. Price $2,975,000 Building Class Sale Type Investment Lot Size 2.00 AC Cap Rate 6.00% Building Size 2,840 SF Sale Conditions Sale Leaseback No. Stories 1 Property Type Specialty Year Built 2015 Property Sub-type Car Wash ABOUT 415 NORMAN DR, VALDOSTA, GA 31601 The subject Car Wash benefits from being well- positioned in a highly dense retail corridor consisting of national and local tenants, shopping centers, hospitality accommodations. Major national tenants in the area include: Walmart, The Home Depot, Lowes, JCPenney, Belk, Bed Bath & Beyond, Target, Dollar Tree, Family dollar, Office Max, T.J. Maxx, Sam's Club, Starbucks, McDonald's, and many more. There are also several hotel accommodations within Courtyard by Marriott, Comfort Suites, and more. The subject property also benefits from being located within three miles of Valdosta State University, which has a total enrollment that exceeds 11,000 students. In addition, the subject investment property is located approximately five miles from South Georgia Medical Center, which has 418 licensed-beds."
+      },
+      {
+        "page": "68",
+        "text": "C'D ts7; LoopNet - Share Prin 415 Norman Dr - International Car Wash Group 2,840 SF Specialty Building Offered at $2,975,000 at a 6% Cap Rate in Valdosta, GA \u2022 20-Year Triple-Net (NNN) Sale-Leaseback: At Closing the Tenant Will Execute a Brand New 20- Year Absolute Triple-Net Lease. \u2022 Accelerated Depreciation: The Properties Qualify for 15-Year Accelerated Depreciation as well as Bonus Depreciation INVESTMENT SUMMARY an -- Glen Kunofsky ia Edward Otocka Daniel Price \u2022 Rental Increases: The Lease will Include 1.50% Annual Rental Increases \u2022 The Lease Will Have No Landlord Responsibilities \u2022 The World's Largest Car Wash Company"
+      },
+      {
+        "page": "69",
+        "text": "TENANT INFO LEASE TERMS RENT SUMMARY Tenant Name Sq. Ft. Term Current BlueWave Express 4,810 06/01/15* 05/31/20 $315,200 $26,267 $315,200 $5.46 $65.53 06/01/20 05/31/25 $28,893 $346,720 $6.01 $72.08 06/01/25 05/31/30 $31,783 $381,392 $6.61 $79.29 Option 1 06/01/30 05/31/35 $34,961 $419,531 $7.27 $87.22 Option 2 06/01/35 05/31/40 $38,457 $461,484 $8.00 $95.94 Option 3 06/01/40 05/31/45 $42,303 $507,633 $8.79 $105.54 Option 4 06/01/45 05/31/50 $46,533 $558,396 $9.67 $116.09 Option 5 06/01/50 05/31/55 $51,186 $614,236 $10.64 $127.70 Option 6 06/01/55 05/31/60 $56,304.93 $675,659 $11.71 $140.47 Current: 4,810 $315,200 $26,267 $315,200 $5.46 $65.53 *Estimated rent commencement Tenant will execute a new 15-year lease at the close of escrow. This information has been secured from sources we believe to be reliable but we make no representations or warranties, expressed or implied, as to the accuracy of the information. Buyer must verify the information and bears all risk for any inaccuracies."
+      },
+      {
+        "page": "70",
+        "text": "Income a Expense PRICE $3,940,000 Price Per Square Foot: $819.13 Capitalization Rate: 8.00% Total Rentable Area (SF): 4,800 Lot Size (AC): 1.00 STABILIZED INCOME Per Square Foot Scheduled Rent Effective Gross Income $65.53 $315,200 $65.53 $315,200 LESS Per Square Foot Taxes NNN $0.00 Insurance NNN $0.00 Total Operating Expenses NNN $0.00 EQUALS NET OPERATING INCOME $315,200 This in formation has been secured from sources we believe to be reliable but we make no representations or warranties, expressed or implied, as to the ac- curacy of the information. Buyer must verify the information and bears all risk for any inaccuracies. POTENTIAL SEGREGATED COST BENEFITS The sale of this net leased property includes the land, the improvements and all of the fixtures, furniture and equipment (FF&E), which may provide substantial depreciation benefits (allowing an investor to offset and shelter the income). Please consult your accountant for details."
+      },
+      {
+        "page": "71",
+        "text": "15-YEAR ABSOLUTE NNN SALE LEASEBACK LOCATED AT FREEWAY OFF RAMP IN DENSE RETAIL MARKET The subject property is a corporately operated BlueWave Express Car Wash in the heart of Harlingen,TX. Situated at the Intersection of Interstate 2 and Interstate 69-E, combined traffic counts near the site are in excess of 97,000 vehicles per day. Upon the close of escrow, the tenant will enter into a new 15-year absolute NNN lease. PRICE: $3,940,000 DYNAMIC LOCATION IN DENSE RETAIL NODE RENTABLE SF 4,810 SF LOT SIZE 1.00 AC LEASE TYPE NNN Close proximity to Valle Vista Mall, a 651,000 SF regional mall anchored by Dillards, JC Penney, Sears, Forever 21 and Big Lots. The mall is reported to do an average of $400 per square foot in sales. Other major retailers driving traffic in the immediate area include Sam's Club (opened in March 2014) WalMart, Target, Kohl's, and Bass Pro Shops Outdoor World. BlueWave is prominently located between the major east-west one way thoroughfare for Harlingen, Interstate 69 E, and Route 77. This location provides maximum visibility, car counts (97,000 VPD), and convenience for customers. TENANT HIGHLIGHTS BlueWave is a unique car wash concept with a reputation for selecting prime, high-traffic retail locations and offering a compelling low price point with exceptional results.The company has been in business since 2007, and has enjoyed steady growth. With 10 locations in Houston and the Rio Grande Valley, BlueWave is a large regional player in a historicallyfragmented industry. BlueWave is currently developing an additional five stores located in Katy, Brownsville, Mission and two in McAllen, and hopes to open two other stores by the end of 2015. LEASE HIGHLIGHTS 15-year absolute NNN lease with four 5 year options 10% rental escalations every five years Sale of the property includes all FF&E (tenant's equipment including conveyor car wash system). Potential for segregated cost study which may boost owner's depreciation and shelter income"
+      },
+      {
+        "page": "72",
+        "text": "1924W. Tyler, Harlingen, TX 78550 For miore, 1410 0,1 A's offorlokti pA.se. COPACI4 CHRIS KOSTANECKI ck@capitalpacific.com 1 (415) 274-2701 CA BRE# 01002010 CHRIS PETERS cpeters@capitalpacific.com I (415) 274-2703 CA BRE# 01339983 Capital Pacific collaborates. Click here to meet the rest of our San Francisco team. zripple@capitalpacific.com (415) 274-2702 CA BRE# 01242540 IN AScilrIATION WITH TX LICENSED BROKER: David W. Hardesty, Hardesty Retail Group (972) 233-5300 I david@hardestyrealty.net 14228 Midway Rd, Suite 204, Dallas, TX 75244"
+      },
+      {
+        "page": "73",
+        "text": "TENANT INFO LEASE TERMS RENT SUMMARY Tenant Name Sq. Ft. Term Current BlueWave Express 4,810 06/01/15* 05/31/20 $315,200 $26,267 $315,200 $5.46 $65.53 06/01/20 05/31/25 $28,893 $346,720 $6.01 $72.08 06/01/25 05/31/30 $31,783 $381,392 $6.61 $79.29 Option 1 06/01/30 05/31/35 $34,961 $419,531 $7.27 $87.22 Option 2 06/01/35 05/31/40 $38,457 $461,484 $8.00 $95.94 Option 3 06/01/40 05/31/45 $42,303 $507,633 $8.79 $105.54 Option 4 06/01/45 05/31/50 $46,533 $558,396 $9.67 $116.09 Option 5 06/01/50 05/31/55 $51,186 $614,236 $10.64 $127.70 Option 6 06/01/55 05/31/60 $56,304.93 $675,659 $11.71 $140.47 Current: 4,810 $315,200 $26,267 $315,200 $5.46 $65.53 *Estimated rent commencement Tenant will execute a new 15-year lease at the close of escrow This information has been secured from sources we believe to be reliable but we make no representations or warranties, expressed or implied, as to the accuracy of the information. Buyer must verify the in formation and bears all risk for any inaccuracies."
+      },
+      {
+        "page": "74",
+        "text": "Income a Expense PRICE $3,940,000 Price Per Square Foot: $819.13 Capitalization Rate: 8.00% Total Rentable Area (SF): 4,800 Lot Size (AC): 1.00 STABILIZED INCOME Per Square Foot Scheduled Rent Effective Gross Income $65.53 $315,200 $65.53 $315,200 LESS Per Square Foot Taxes NNN $0.00 Insurance NNN $0.00 Total Operating Expenses NNN $0.00 EQUALS NET OPERATING INCOME $315,200 This information has been secured from sources we believe to be reliable but we make no representations or warranties, expressed or implied, as to the ac- curacy of the information. Buyer must verify the information and bears all risk for any inaccuracies. POTENTIAL SEGREGATED COST BENEFITS The sale of this net leased property includes the land, the improvements and all of the fixtures, furniture and equipment (FF&E), which may provide substantial depreciation benefits (allowing an investor to offset and shelter the income). Please consult your accountant for details."
+      },
+      {
+        "page": "75",
+        "text": "home I properties for sale I blog I our process I our focus I contact Capital Pacific is pleased to present for sale a long term triple net leased investment leased to BlueWave Express Car Wash. BlueWave's outstanding pad location reflects the company's expertise in selecting high traffic and convenient locations. Most car washes select their sites as destinations, but BlueWave selects convenient locations for their A suburb of Houston, League City, TX offers upscale communities and top-quality schools. Average household incomes are over $83,000 and League City's workforce is dominated by rock scientists, engineers, and - entrepreneurs. Join Our Mailing List Click to join Capital Pacific's mailing list to receive updates on new listings Just Listed: 25 Year NNN BlueWave Express Car Wash (Houston MSA) League City, TX Building Size 25 Yr. Absolute Net 25 year absolute NNN lease 10% bumps every 5 years Brand new construction Potential improving after tax cash flow for accelerated depreciation Excellent convenient location: pad within a Super Target Center located at the League City Town Center. Across the street there are numerous other major retailers, including Super Wal-Mart, Lowe's, JCPenney and Best Buy pad to a Super Target and Super Wal-Mart Average daily traffic volume in 1-45 and FM 646 exceeds 88,000 cars per day Marketing Package Chris Kostanecki Zeb Ripple"
+      },
+      {
+        "page": "76",
+        "text": "Single -Tenant Zips Car Wash Sales Comparables anHANLEY INVESTMENT GROUP REAL ESTATE ADVISORS LOCATION YEAR TOTAL SALES CAP PRICE/ YEARS BUILT SF PRICE RATE SF ANNUAL RENT COE REMAINING INCREASES OPTIONS LEASE TYPE Zips Car Wash 113 6231 Denton Highway Haltom City, TX 2004 6.460 55,000.000 $774 1/9/2018 Zips Car Wash 17 1208 Decatur Pike 2012 3,717 53,162,044 $851 9/20/2017 Ammon 2007 4,399 54,124,115 8.97% $937 $208,857 17"
+      },
+      {
+        "page": "77",
+        "text": "Single-Tenant Zips Car Wash Sales Comparables Elli HANLEY INVESTMENT GROUP REAL ESTATE ADMSORS LOCATION YEAR SF ANNUAL RENT COE YEARS REMAINING INCREASES OPTIONS LEASE TYPE Zips Car Wash 1 7365 Kingston Pike Knoxville, TN 2017 3.835 $3,030,000 7.26% $790 $220.000 8/28/2019 18 1.5% Annually Three 5-Year Absolute NNN Zips Car Wash 2 2121 Dale Avenue SE 2016 3,429 $3,004,000 $876 7/26/2019 20 1.5% Annually Six 5-Year Absolute NNN Zips Car Wash 3 1560 N Highway 77 Waxahachie, TX 1999 6,200 $2,103,000 6.50% $339 $137,000 12/28/2018 20 1.5% Annually Four 5-Year Absolute NNN Zips Car Wash 0 3171 W Michigan Avenue Pensacola, FL 2014 2,550 $3,620,000 6.91% $1,420 $250,030 12/13/2018 20 1.5% Annually Absolute NNN Zips Car Wash 5 555 South Jackson Street Jacksonville. TX 2015 3,941 $2,247,679 6.42% $570 $144,000 12/5/2018 20 1.5% Annually Four 5-Year Absolute NNN Zips Car Wash 8 10919 Fredericksburg Road San Antonio, TX 2009 4,160 $2,3004300 6.75% $553 6155,000 3/25/2018 20 1.5% Annually Six 5-Year Absolute NNN Zips Car Wash 7 135 W 141st Street Glenpool, OK 1987 4,395 $2,357.500 7.0096 $536 $165,000 3/2/2018 7596 Every 5 Years Absolute NNN Zips Car Wash 8 7525 Mountain Grove Drive Knoxville, TN 2009 4,100 $4,900,000 7.97% $1.195 $391,000 2/28/2018 20 1.5% Annually Absolute NNN Zips Car Wash 9 2825 N Rock Road 2013 2.937 $4,326236 $1,473 1/23/2018 0 0 $0 0.00% Zips Car Wash 10 100E. McLeroy Boulevard 2004 6,460 $6,937,500 $1,074 1/9/2018 15% Annually Absolute NNN Zips Car Wash 11 4906 Main Street The Colony, TX 2010 4,504 $4,487,500 $996 1/9/2018 15% Annually Absolute NNN Zips Car Wash 12 4651 Little Road Arlington, TX 2010 8,020 $6,862,500 $856 1/9/2018 Zips Car Wash 13 6705 Weslworth Boulevard Westworth Village, TX 2011 4.630 $5,450,000 $1,177 1/9/2018 Zips Car Wash 14 797 SW Wilshire Boulevard Burleson, TX 2008 2,824 $5.325,000 81,886 1/9/2018 Zips Car Wash 15 3505 W. Northwest Highway 1977 2,625 $5,000,000 $1,905 1/9/2018"
+      },
+      {
+        "page": "78",
+        "text": "Single-Tenant Zips Car Wash On Market Comparables EnHANLEY INVESTMENT GROUP REAL ESTATE ADVISORS LOCATION YEAR SF ANNUAL RENT COE YEARS REMAINING INCREASES OPTIONS LEASE TYPE Zips Car Wash 1 2900 Wade Hampton Boulevard 2017 4,078 $4,435,000 6.65% $1088 $295,000 On Market 20 1.5% Annually Six 5-Year Absolute NNN Zips Car Wash 2 501 N Highway 52 Moncks Comer. SC 2007 6,653 $4,385,000 6.7096 $659 8294,000 On Market 20 196 Annually Six 5-Year Absolute NNN Zips Car Wash 3 7525 Mountain Grove Drive Knoxville, TN 2009 4,100 $5,800.000 6.73% 81,415 8390.000 On Market 19 1.5% Annually Absolute NNN Zips Car Wash 4 4416 Westem Avenue Knoxville, TN 2010 2.800 82.950,000 6.78% \u00b61.054 $200,000 On Market 19 1.5% Annually Absolute NNN Zips Car Wash 5 714 Shreveport-Barksdale Highway Shreveport, LA 2012 3,953 $4,057.971 6.9096 81,027 $280,000 On Market 18 1.5% Annually Absolute NNN Zips Car Wash 6 1900 Benton Road Bossier City. LA 2010 3.166 $3,694,840 6.90% 81,167 $255,000 On Market 17 1.5% Annually Absolute NNN Zips Car Wash 7 1405 Woodruff Road Greenville, SC 2005 2.439 83,900,000 6.92% $1,599 $270,000 On Market 18 1.5% Annually Six 5-Year Absolute NNN Zips Car Wash 8 8660 Youree Drive Shreveport, LA 2017 4,914 $4,415,257 7.00% $899 $309,000 On Market 17 1.5% Annually Six 5-Year Absolute NNN Zips Car Wash 9 4907 Highway 58 Chattanooga, TN 2017 4.048 $4,009,000 7.00% $990 $281,000 On Market 20 1.5% Annually Six 5-Year Absolute NNN Zips Car Wash 10 5902 North 9th Avenue Pensacola, FL 2016 2,550 $3.930.000 7.60% $1,541 $275.000 On Market 20 1.5% Annually Six 5-Year Absolute NNN Averages 2012 3,870 94,157,707 6.86% 91,074 9284,900 19"
+      },
+      {
+        "page": "79",
+        "text": "TYPE: Single-Tenant STATUS: In Escrow Thank you for your time and interest. The information you are attempting to access requires a one-time registration before you can proceed. Your email address will allow you to log in any time. Please log in or begin registration by providing your email address. FOR MORE INFORMATION Kevin Fryman Executive Vice President 949.585.7674 kfrvman@hanleyinvestment.com Lic. #01321833 Executive Vice President 949.585.7684 basher hanlevinvestment.com Lic. #01318078 Vice President 949.585.7682 jlefko hanlevinvestrnent.com Lic. #01942025"
+      },
+      {
+        "page": "80",
+        "text": "Hanley Investment Group QUICK QUACK CAR WASH FONTANA, CA"
+      },
+      {
+        "page": "81",
+        "text": "TYPE: Single-Tenant STATUS: Available Thank you for your time and interest. The information you are attempting to access requires a one-time registration before you can proceed. Your email address will allow you to log in any time. Please log in or begin registration by providing your email address. FOR MORE INFORMATION Jeff A. Lefko Vice President 844.585.7682 itgfkoAhiqrea corn Austin J. Blodgett Senior Associate 844.585.7624 ablodgett higrea com In Association with JDS Real Estate Services, Inc. I P: 213.446.5366 IA Licensed Georgia Broker"
+      },
+      {
+        "page": "82",
+        "text": "Hanley Investment Group MAMMOTH HOLDINGS EXPRESS CAR WASH LAWRENCEVILLE, GA"
+      },
+      {
+        "page": "83",
+        "text": "TYPE: Single-Tenant STATUS: Available Thank you for your time and interest. The information you are attempting to access requires a one-time registration before you can proceed. Your email address will allow you to log in any time. Please log in or begin registration by providing your email address. FOR MORE INFORMATION Austin J. Blodgett Senior Associate 844.585.7624 ablodnett hicirea.com In Association with JDS Real Estate Services, Inc. I A Licensed Mississippi Broker #21201"
+      },
+      {
+        "page": "84",
+        "text": "Hanley Investment Group MISTER CAR WASH RIDGELAND, MS"
+      },
+      {
+        "page": "85",
+        "text": "INVESTMENT HIGHLIGHTS PROMISING INDUSTRY OUTLOOK Unlike many other retail industries, the car wash industry is highly Internet- resistant, ultimately offering a promising industry outlook for the foreseeable future. With per capita income expected to rise at an annual rate of 1.9 percent over the next five years, consumers will spend more on discretionary services, including car washing and auto detailing. ATTRACTIVE REAL ESTATE FUNDAMENTALS The Property is located in a densely-populated and growing Ridgeland community, with nearly 100,000 residents within a five-mile radius. Interstate 55 is located directly west of the Property, and Northpark Mall, a 958,000 square foot shopping center, is less than one mile southeast of the Property. STRONG FINANCIAL SPONSOR Leonard Green & Partners (\"Sponsor\"), one of the largest private equity firms in the country, purchased Mister Car Wash in 2014. The Sponsor currently has approximately $25 billion in assets under management (\"AUM\") and has invested in over 90 companies across a variety of industries. The private equity firm's portfolio includes numerous high-profile companies, including Shake Shack, SoulCycle, J. Crew, BJ's, Caliber Collision, and Aspen Dental."
+      },
+      {
+        "page": "86",
+        "text": "THE OFFERING JLL is pleased to offer for sale the fee simple interest in a freestanding, single-tenant Mister Car Wash (the \"Property) located in Ridgeland, Mississippi. Leased to Mister Car Wash, the Property features industry-leading tenancy from the largest car wash operator in the United states with over 280 locations. The absolute triple-net lease structure features more than 17 years of remaining lease term, 1.5 percent annual rental increases, four, five-year renewal options, and absolutely zero landlord responsibilities. Since Mister Car Wash began operations at this location in 2016, unit- level sales have increased significantly, including a sales increase of 36 percent from 2016 to 2017. This offering presents the opportunity to acquire an internet-resistant property leased to a high-preforming and industry-leading tenant on a long-term lease with zero landlord responsibilities. OFFERING OVERVIEW There are more than 17 years remaining on an absolute triple-net lease with absolutely zero landlord responsibilities, 1.5 percent annual rental increases and four, five-year renewal options. The Property is leased to Mister Car Wash, the largest conveyor car wash operator in the United States with over 280 locations. The car wash industry is internet resistant with a promising outlook, including 2.1 percent projected revenue growth over the next five years, totaling to $12.7 billion in industry revenue. Located near the hard corner of Lake Harbour Drive and US-51, the Property is strategically positioned within a corridor that contains some of the area's main traffic-drivers, including Ridgeland City Hall, Ridgeland Police Department, Freedom Ridge Park, McDonald's, and Extra Space Storage. Annual revenues at this location have increased significantly over the past three years, including a 36 percent increase from 2016 to 2017. Mister Car Wash - Ridgeland, MS- Property Overview Address 110 Lake Harbour Drive Ridgeland, MS 39157 Annual Rent' $325,966 Cap Rate 6.50% Purchase Price $5,014,860 Lease Type Absolute NNN Lease Expiration 4/30/2036 Building Size 3,081 SF Renewal Options 4, 5-year options Rental Increases 1.5% annually Parcel Size 1.14 AC Year Built 2004 *Annual rent based on 2019 rental increase"
+      },
+      {
+        "page": "87",
+        "text": "THE OFFERING JLL is pleased to offer for sale the fee simple interest in a freestanding, single-tenant Mister Car Wash (the \"Property\") located in Flowood, Mississippi. Leased to Mister Car Wash, the Property features industry-leading tenancy from the largest car wash operator in the United states with over 280 locations. The absolute triple-net lease structure features more than 17 years of remaining lease term, 1.5 percent annual rental increases, four, five-year renewal options, and absolutely zero landlord responsibilities. Located along Lakeland Drive (Highway 25), the Property is strategically positioned along Flowood's main east-west corridor and one of the fastest-growing commercial areas in Mississippi. This offering presents the opportunity to acquire an internet-resistant property leased to an industry-leading tenant on a long-term lease with zero landlord responsibilities. OFFERING OVERVIEW There are more than 17 years remaining on an absolute triple-net lease with absolutely zero landlord responsibilities, 1.5 percent annual rental increases, and four, five-year renewal options. The Property is leased to Mister Car Wash, the largest conveyor car wash operator in the United States with over 280 locations. The car wash industry is internet resistant with a promising outlook, including 2.1 percent revenue growth over the next five years, totaling to $12.7 billion in industry revenue. Located along Lakeland Drive, the Property is strategically positioned along a highly-trafficked road that includes some of Flowood's largest employers, including Blue Cross 8 Blue Shield, Merit Health, and Jackson Preparatory School. Annual revenues at this location have increased significantly over the past three years, including a 50 percent increase from 2016 to 2017. Mister Car Wash - Flowood. MS - Property Overview Address 3510 Lakeland Drive Flowood, MS 39232 Annual Rent* $144,140 Cap Rate 6.50% Purchase Price $2,217,540 Lease Type Absolute NNN Lease Expiration 4/30/2036 Building Size 4,131 SF Renewal Options 4, 5-year options Rental Increases 1.5% annually Parcel Size 1.01 AC Year Built 2006 *Annual rent based on 2019 rental increase"
+      },
+      {
+        "page": "88",
+        "text": "Monroe, GA - Property Overview 170 MLK Jr. Blvd. Monroe, GA 30655 Initial Rent $273,000 Cap Rate 6.50% Purchase Price $4,200,000 Building Size 3,198 SF Parcel Size 0.7 AC Year Built 2010 Traffic Count 16,550 VPD Service Type Express iCompletediReimajirg-F Mister CAR WASH"
+      },
+      {
+        "page": "89",
+        "text": "THE OFFERING JLL is pleased to offer for sale the fee simple interest in a freestanding, single-tenant Mister Car Wash (the \"Property\") located in Monroe, Georgia. The Property will be subject to a 20-year, absolute triple-net lease upon closing to Mister Car Wash (\"Company\" or \"Tenant\"), a leading car wash operator with over 280 locations throughout the United States. The Property is positioned in a retail corridor that includes a robust lineup of national tenants, including Walmart, Home Depot, Dollar Tree, and Tractor Supply. In addition, the Property benefits from traffic generated by large employers located in the area, such as Piedmont Walton Hospital and George Walton Academy. This offering presents investors a rare opportunity to acquire a property with strong real estate fundamentals and an industry-leading tenant that will operate on a long-term lease with zero landlord responsibilities. OFFERING OVERVIEW 20-year absolute triple-net lease with 1.25 percent annual rent escalations and a corporate guaranty from Car Wash Partners, Inc. Leased Mister Car Wash, the largest domestic operator of conveyor car washes with over 280 Strategically positioned within a retail corridor that features national tenants such as Walmart, Home Depot, Dollar Tree, and Tractor Supply. Mister Car Wash plans to invest up to $600,000 at this site for upgrades and reimaging. \u20221111\u2022MIIIIMNI"
+      },
+      {
+        "page": "90",
+        "text": "PROPERTY HIGHLIGHTS Athens, GA - Property Overview 1035 Parkway Blvd Athens, GA 30606 Initial Rent $357,500 Cap Rate 6.50% Purchase Price $5,500,000 Building Size 3,861 SF Parcel Size 1.8 AC Year Built 2017 Traffic Count 27,000 VPD Service Type Express Mister CAR WASH"
+      },
+      {
+        "page": "91",
+        "text": "THE OFFERING JLL is pleased to offer for sale the fee simple interest in a freestanding, single-tenant Mister Car Wash (the \"Property\") located in Athens, Georgia. The Property will be subject to a 20-year, absolute triple-net lease upon closing to Mister Car Wash (\"Company\" or \"Tenant\"), a leading car wash operator with over 280 locations throughout the United States. The Property is located Athens, a densely-populated college town with approximately 127,000 residents. Athens is home to the University of Georgia, the state's largest public university with over 37,000 students enrolled and an impact of $2.1 billion toward the local economy. This offering presents investors a rare opportunity to acquire a property located in a college town with an industry-leading tenant that will operate on a long-term lease with zero landlord responsibilities. OFFERING OVERVIEW 20-year absolute triple-net lease with 1.25 percent annual rent escalations and a corporate guaranty from Car Wash Partners, Inc. Leased Mister Car Wash, the largest domestic operator of conveyor car washes with over 280 Located in Athens, a college town with nearly 34,000 residents and an average household income of $93,000 within a five-mile radius of the Mister Car Wash plans to invest up to $600,000 at this site for upgrades and reimaging."
+      },
+      {
+        "page": "92",
+        "text": "Cumming, GA - Property Overview 930 Peachtree Pkwy. Cumming, GA 30041 Initial Rent $325,000 Cap Rate 6.50% Purchase Price $5,000,000 Building Size 5,687 SF Parcel Size 1.7 AC Year Built 2016 Traffic Count 40,200 VPD Service Type Full Service Mister CAR WASH"
+      },
+      {
+        "page": "93",
+        "text": "THE OFFERING JLL is pleased to offer for sale the fee simple interest in a freestanding, single-tenant Mister Car Wash (the \"Property) located in Cumming, Georgia. The Property will be subject to a 20-year, absolute triple-net lease upon closing to Mister Car Wash (\"Company\" or \"Tenant\"), a leading car wash operator with over 280 locations throughout the United States. The Properly is located in an affluent community outside of Atlanta within an established retail market. In addition, the Property is in close proximity to the area's largest schools and living communities, ultimately providing long-term intrinsic value. This offering presents investors a rare opportunity to acquire a property located in an affluent Atlanta suburb with an industry-leading tenant that will operate on a long-term lease with zero landlord responsibilities. OFFERING OVERVIEW 20-year absolute triple-net lease with 1.25 percent annual rent escalations and a corporate guaranty from Car Wash Partners, Inc. Leased Mister Car Wash, the largest domestic operator of conveyor car washes with over 280 Located in a densely-populated and affluent Cumming community, with over 163,000 residents and an average household income of $140,000 within a five-mile radius of the Property. Mister Car Wash plans to invest up to $600,000 at this site for upgrades and reimaging. (0).m. aermanni"
+      },
+      {
+        "page": "94",
+        "text": "CONFIDENTIAL G. MANAGEMENT'S DISCUSSION AND ANALYSIS OF RESULTS OF OPERATIONS For the Year Ended December 31, 2004 Net revenue for the year ended December 31, 2004 was $38.9 million as compared to $40.2 million for the year ended December 31, 2003, a decrease of $1.3 million or 3.3%. This decrease was primarily attributable to a decrease in wash and detail services. The decrease in wash and detail revenues was primarily due to a reduction in car volume and continued unfavorable weather trends within the Northeast, Florida, and Texas regions. Overall car wash volumes declined 6.5% in 2004 as compared to 2003. Partially offsetting this decline in volume, the Company experienced an increase in average wash and detailing revenue per car to $15.03 in 2004, from $14.62 in 2003. This increase in average wash and detailing revenue per car was the result of management's continued focus on aggressively selling detailing and additional on-line car wash services combined with the effect of a price increase in certain markets effective in March 2004. Management expects car wash volumes to increase as weather trends return to historic levels, resulting in an improvement in car wash and detailin eWitue le els. EBITDA for the year ended December 31, 2004 was $8.2 nThot acogiv\u201e. red to $8.7 million for the year ended December 31, 2003, a decrease of $0.5 million or 6 09/ 's\u2018 dklease was primarily a result of the volume decline as mentioned above. Cost of revenue N\u2022Na percent of revenues declined in 2004 as \\compared to 2003, despite the reduction in wash artd\"cte\" \u2022 everyes, principally as a result of a reduction in wash and detailing direct labor costs and im ers' compensation claims experience. The Division expects EBITDA as a percent of reveneto ese s car wash volumes improve. For the Year Ended December 31, 2003 Net revenue for the year ended nmbe 1 003 was $40.2 million as compared to $40.6 million for the year ended December 31, 20? eatiase>of $0.4 million or 0.9%. The decrease in wash and detailing revenues was principally due o \\ te)nporary closure of a car wash location in Arizona due to fire damage; a departure fr \u2018s.toric-treyenue levels within the Northeast region due to several significant snow storms in the first \\ uarron003; an increase in inclement weather, particularly on weekends, within the Texas region; anbhe f impact of a slower economy. Overall car wash"
+      },
+      {
+        "page": "95",
+        "text": "CONFIDENTIAL F. AVERAGE WASH & DETAIL TICKET SUMMARY BY CAR WASH FACILITY East -Cherry Hill East - Norristown East -Bryn Mawr East - Flourtown East-West Chester East - Yeadon East - Airport East -Smyrna East - Deptford East - Camden East - Sidderville East- Moorestown 2001 2002 2003 2004 $13.50 $13.98 $13.91 $14.80 $14.27 $15.13 $14.46 $15.97 $15.23 $16.09 $15.80 $17.18 $15.74 $16.04 $15.59 $16.64 $5.79 $5.79 $5.99 $6.01 $5.14 $6.09 $6.12 56.09 $5.73 $6.29 $6.26 $6.46 $5.77 $5.88 $6.76 $7.24 $5.68 $6.46 $6.60 $6.71 $5.54 $5.50 $6.02 $6.24 $6.16 56.19 $6.16 $6.05 $5.48 $5.84 $5.66 $6.20 Florida Region Florida - South Sarasota $15.26 $15.84 $15.37 $16,20 Florida. Venice $13.61 $13.91 $14.76 $15.72 Florida - Fort Myers $16.52 $16.25 $16.55 $17.71 Florida - Bradenton $13.92 $14.42 $15.12 $15.76 Florida - North Sarasota $14.05 $14.37 $14.0Z. $15.38 Florida - Beneva $15.18 $15.51 $140 Arizona Region Arizona - Site #1 $14.88 $1623 Arizona - Site # 2 $13.13 $1 $14.58 Arizona -Site # 3 $12.97 514.1 $13.88 Arizona -Site #4 $1024 53 $11.61 Arizona - Site # 5 $13.45 $16.13 Arizona - Site # 6 $13/1 $ .42 $14.28 Arizona -Site #8 $13.6 $14.26 $13.27 Arizona - Site #10 $14 $15.22 $14,93 Arizona - Site # 11 $17.06 $18.08 Arizona - Site # 12 3.8 $15.60 $14.79 Arizona - Site # 14 $13:(3 $15.27 $15.01 Arizona - Site # 15 3.44 $15.72 $16.42 Lubbock Region C,olonial R on San Antonio Region San Antonio - Texas #1 San Antonio - Texas #3 San Antonio - Texas #5 San Antonio - Texas #6 Note: Colonial 8 is the only self-service location. $15\u00b069 $14.76 $15.73 $16.47 $18.57 $18.44 $19.10 $18.51 $19.31 $18.74 $16.56 $15.04 $1321 $12.88 $16.17 $15.21 $1234 $10.89 $14.61 $13.48 $11.81 $10.23 $19.51 $18.08 $17.10 $15.96 $18.36 $17.51 $15.73 $17.05 $19.00 $20.74 $14.76 $14.07 $15.52 $14.44 $17.24 $16.46 $17.35 $20.17 $18.25 $18.50 $19.37 $20.12 $16.12 $16.38 $13.43 $15.25 $15.85 $1571 $11.24 $11.23 $13.94 $17.27 $16.08 $15.16 $10.83 $10.89 $17.52 $16.09 $16.05 $15.95 $15.97 $15.98 $15.94 $15.68 $19.63 $17.69 FitMASON 54 mace"
+      },
+      {
+        "page": "96",
+        "text": "515,9\\ c/551,376 547,798 565,966 CONFIDENTIAL E. VOLUME SUMMARY BY CAR WASH FACILITY East -Cherry Hill 97,782 89,675 East - Norristown 46,231 41,444 East - Bryn Mawr 55,238 50,914 East - Flourtown 53,338 46,118 East - West Chester 44524 39,987 East - Yeadon 30,005 21,910 East -Airport 36,721 28,842 East - Smyrna 31,846 27,115 East - Deptford 56,263 42,795 East - Camden 34,685 31,624 East - Siclderville 28,103 24,311 East- Moorestown 34,658 26,057 549,394 470,792 Florida Region Florida - South Sarasota 75,393 69,961 Florida -Venice 44,846 43,247 Florida - Fort Myers 104,626 101,208 Florida - Bradenton 37,291 33,468 Florida - North Sarasota 47,635 41,256 Florida - Beneva 70,260 70,179 380,051 359,319 Arizona Region Arizona -Site #1 27,546 Arizona - Site #2 35,140 4247 Arizona - Site # 3 64,659 Arizona - Site # 4 49,325 Arizona - Site # 5 51,117 Arizona - Site # 6 60,553 Arizona -Site if 8 32, Arizona -Site #10 53 Arizona -Site #11 Arizona - Site # 12 32, 11 Arizona - Site # 14 Arizona -Site #15 Lubbock Region 50s 40,683 38,172 36,026 Hanna N 63,482 49,070 36,909 34,752 Crystal Falls 63,455 57,609 53,061 47,099 177,609 147,362 128,142 117,877 79,752 71,419 42,629 43,555 46,668 48,219 44,704 44,503 39,753 33,486 20,087 18,573 26,450 21,802 27,851 24,404 41,921 37,491 27,886 19,737 22,784 19,334 20,266 17,285 440,751 399,808 71,039 65,318 43,121 42,742 99,866 108,223 29,728 27,864 3684 2.42 N, 61,7Sr> 58,586 58,505 20,359 23,734 61,189 61,196 31,469 33,365 32,396 32,368 52,716 54,096 38,260 39,223 Colonial 3 53,302 Colonial 4 48,101 Colonial 5 23,577 Colonial 6 47,627 Colonial 7 72,585 Colonial 9 72,004 Blue Planet 42,480 San Antonio Region San Antonio - Texas #1 45,801 San Antonio - Texas #3 45,874 San Antonio - Texas #5 30,005 San Antonio -Texas #6 24225 Total 49 Car Washes 2,508,783 Note: Colonial 8 is the only self-service location. 82,685 85,584 68,227 88,512 84,845 72,176 90,994 82,272 71,623 262,191 252,701 212,026 89,834 76,170 68,649 47,793 36,350 28,115 45,757 36,908 29,283 23,057 18,212 16,398 44,055 36,231 29,835 69,134 63,479 59,955 76,328 65,993 57,862 36,679 30,141 31,260 432,637 363,484 321,357 38,361 34,738 31,498 38,129 38,472 33,307 26,345 25,585 24,851 16,508 18,050 14,339 119,343 116,845 103,995 2,343,020 2,201,359 2,059,252 MASON 53 mace"
+      },
+      {
+        "page": "97",
+        "text": "CONFIDENTIAL D. EBITDA SUMMARY BY CAR WASH FACILITY ($ in thousands) East - Cherry Hill $464.7 $336.9 East - Norristown 181.5 161.5 East - Bryn Mawr 195.1 165.7 East - Flourtown 338.0 274.2 East - West Chester 11.6 28.4 East - Yeadon 50.6 36.3 East -Airport 91.9 78.0 East - Smyrna 66.3 43.3 East- Deptford 191.0 143.0 East-Camden 107.5 92.8 East -Siciderville 104.9 86.8 East - Moorestown 73.0 60.4 $1,876.1 $1,507.4 Florida Region Florida - South Sarasota $1663 $439.4 Florida -Venice 194,8 202.0 Florida - Fort Myers 818.5 741.1 Florida - Bradenton 68.3 66.5 $310.5 $317.1 $1,235.0 $1,188.5 $363.4 \u20183413.4 Florida - North Sarasota 1,8177 \"52,1184.9 Florida- Beneva 384.4 404.4 3\u00a723 '\u2018\u2018 331. Arizona Region Arizona Site #1 ($10.1) $193.8 Arizona - Site #2 20.6 244.1 Arizona - Site 4 3 265.2 304.8 Arizona - Site #4 109.5 26.8 140.5 Arizona - Site 4 5 178.9 219.7 Arizona - Site 4 6 262.7 324 332.9 296.7 Arizona -Site #8 39 89 136.8 27.1 Arizona - Site #10 362.2 315.3 Arizona - Site #11 116.3 131.6 Arizona -Site #12 53 107.1 50.6 Arizona -Site #14 192.8 172.4 Arizona -Site #15 35.4 83.7 83.5 $2,290.1 $2,180.1 LubbockRegion 50s $79.0 $133.9 $90.1 Hans 324.9 234.9 133.5 55.1 Crystal Fa 242.2 195.5 168.3 95.5 V $809.7 $509.4 $435.8 $240.8 Genikl $622.6 $605.2 $557.2 $476.4 638.8 554.2 507.4 413.1 631.0 589.6 510.4 456.1 $1,892.5 $1,749.0 $1,575.1 $1,345.6 $827.0 $558.5 $614.7 $571.5 221.6 183.7 65.5 86.7 196.2 143.0 16 69.1 (35.6) (56.1) (145.6) (90.4) 172.2 147.2 116.3 89.2 179.6 147.2 169.4 85.7 393 54.0 39.0 22.8 373.2 324.0 248.8 201.6 212.5 130.2 7.9 (7.9) $2,186.0 $1,631.8 $1,118.5 $1,028.2 San Antonio Region San Antonio - Texas 41 $196.4 $148.5 $98.7 $65.6 San Antonio - Texas 43 230.8 173.8 91.9 76.6 San Antonio - Texas 4/5 43.9 80.4 11.1 83 San Antonio - Texas #6 57.5 49.2 39.4 (26.9) $528.6 $451.8 $241.2 $1235 Total 49 Car Washes $10,772.5 $9,567.8 $8,713.3 $8,191.7 14pestment 52"
+      },
+      {
+        "page": "98",
+        "text": "CONFIDENTIAL C. REVENUE SUMMARY BY CAR WASH FACILITY (5 in thousands) 2001 2002 East- Cherry Hill $1,340.6 $1,274.3 East - Norristown 679.6 64213 East - Bryn Mawr 857.5 832.7 East- Flourtown 857.2 755.9 East - West Chester 259.5 244.4 East - Yeadon 167.6 145.8 East - Airport 220.9 191.7 East - Smyrna 184.4 160.3 East- Deptford 377.4 340.1 East -Camden 210.3 192.4 East -Sicklerville 237.6 216.1 East - Moorestown 195.2 157.0 $5,588.0 $5,153.5 Florida Region Florida - South Sarasota $1,194.9 $1,150.7 Florida - Venice 6310 625.6 Florida - Fort Myers 1,815.5 1,730.6 Florida - Bradenton 545.8 504.8 Florida - NorthSarasota 702.4 619.1 Florida - Beneva 1,118.0 1,144.9 $4010.6 $5,775.6 Arizona Region Arizona - Site #1 $421.1 55144 $848.4 Arizona -Site #2 484.9 883.7 Arizona - Site # 3 963.0 935.7 Arizona - Site # 4 554.2 6 594.7 Arizona - Site # 5 708.2 8 797.4 Arizona - Site # 6 898.9 945.6 884.0 Adzona - Site # 8 487 322.5 360.2 Arizona - Site # 10 961.5 950.6 Arizona - Site # 11 626.4 705.2 Arizona -Site # 12 5649 617.3 597.8 Arizona ; Site #14 9 830.7 845.1 Arizona - Site #15 4 6 534.9 609.8 653.6 84/8. $7,963.2 $81199.4 $9,056.4 $1,130.1 $1,0841 $4,8129 541198.8 $1,138.6 $1,112.6 1,751.5 2,056.8 Lubbock Region 505 $614.7 $616.2 $537.1 Mann 1,034.9 793.9 642.0 549.7 Crystal Fall 2,0122 1,984.4 2,253.5 2,598.1 V 53,934.9 $3,393.0 $3,511.6 $3,684.8 Gem $2,126.3 $1,854.3 $1,808.1 $1,658.9 2,402.2 2,064.5 1,979.1 1,780.4 2,247.7 2,105.3 1,935.1 2,752.9 56,7762 $6,024.1 $5,7223 55,1922 cloata $2.571.5 $2,195.5 $2.025.2 $1,814.4 Colonial 3 1,264.7 1,159.4 1,020.2 879.3 Colonial 4 814.0 712.3 598.6 470.9 Colonial 5 310.2 264.4 218.6 204.9 Colonial 6 1,091.6 967.3 927.4 816.8 Colonial 7 1,800.3 1,668.6 1,847.5 1,624.0 Colonial 8 421.4 466.5 432.4 384.7 Colonial 9 1,738.8 1,675.6 1,624.8 1,423.2 Blue Planet 892.2 690.8 5729 557.9 510,9018 $9,800.4 59,267.6 $88,176.0 San Antonio Region San Antonio. Texas #1 51,069.3 $830.4 $762.7 $680.5 San Antonio - Texas k3 914.9 728.2 673.3 580.2 San Antonio. Texas #5 6029 582.7 568.7 546.1 San Antonio -Texas #6 471.2 348,2 363.4 261.2 Tota149 Car Washes $3,058.3 52,489.5 52,368.1 $2,068.2 $43,881.2 $40,599.2 $40241.6 $38,898.1"
+      },
+      {
+        "page": "99",
+        "text": "CONFIDENTIAL ADJUSTMENTS TO INCOME STATEMENT ($ in thousands) For the year ended December 31, Writedown of assets Department of Labor Settlement San Antonio Region Extraordinary Legal Suit Reserve - Venice Accident Claim Reserve - Colonial #1 Stolen Property Suit Loss - Crystal Falls Accident Claim - Colonial #9 East - Regional Overhead Florida - Regional Overhead Arizona - Regional Overhead San Antonio - Regional Overhead Colonial - Regional Overhead Total Adjustments 2002 2003 2004 $129.4 $3,114.1 304.3 307.9 283.0 283.6 171.8 100.2 83.4 92.8 323.6 327.8 272.2 294.8 80.4 75.9 76.7 77.7 271.9 274.7 231.9 200.7 $1,281.3 3'%54 $1,206.2 $1,166.5 MASON 50 mace"
+      },
+      {
+        "page": "100",
+        "text": "CONFIDENTIAL B. BALANCE SHEET AS OF 12/31/2004 Current Asseb Cash and Caslaquivalents 4430459 5271,913 Accounts Receivable 14587 16,834 less Allowance for Doubtful Accounta (1.328) (3,00)) Deferred Income Taxes 35,593 27.432 Invenbry 109,391 35,746 Repaid Expo.. and Other Cument Assets 9,032 41,703 Total Current Assels 598,264 407,628 Property and Equipment Land 2930,270 5,214,790 Building and Leasehold Imr,rovemaata 3466453 2407,161 Machinery and Equipment 1.591,171 1,722322 Furniture and I Mures 50176 5,487 Total Property and Equipment 8.083,700 9,349,960 Accumulated Depredation (1014,387) (1,2057951. 5,068,313 8,141,170 Internompany 6293047 5.727.166 Excess Cost over Fait Market Valve of Net Assets 3,050415 Acquired, net of Accumulated Depredation Other Intangible Asets, Net of Am-imaged 114,034 Amortization Long Term Deferral Tax Asset Other Assets (134163) (63,786) 511,988,655 616,308,995 71,361 33.868 394,7% 155,786 175,493 181,399 134367 284,979 3,73408 3,021,370 218000 8,430,003 186,559 6395.560 4648292 43311,915 313,330 2074061 364,838 14,914,937 9,179,710 5,245.093 5.095,389 19,145,463 2901243 (1,875541) (833,413) (955,693) (49925.1) (2839375) (397714) 13,059,3% 8.346,297 4259403 4595,595 17406088 2,504,519 302,380 11,414,353 23,203 a 02,449) (1,097,153) (234 756) 3,553259 1,547494 590,061 3194448 10775 68,477 5,416 (58 59.627) (662-509) ((0564) - /4815 q 9,745 1.710 50 1,294 515,675.426 520,872806 $5,421249 53370237 \\81t3177',., \\12.51:4114 11.61101es 69 ._ holders' &mitt Quito) Glabllltles Accounls Payable 5140,472 5254,993 5163,149 Accrued Expenses mid Other Current Liabilities 151,253 91.272 87,871 Income Tax PayaNe 641103 (3,550) Current PorSan ol Long-Tenn Debt 355751 254,497 Current Portion ofCapital Lease Obligation. Note 'Payable to Shareholders - . . Dekrred Revmme 129,241 66,188 43,032 5732,6% 5733,696 185,474 158,874 (39593) (39,593) 171,192 171,192 1.034484 1,025,484 261,461 264,461 2,339,714 1,339,714 30,879,449 30879449 33,6112180 33,603180 9,638,412 9418412 115454 115,454 74235,495 74,235,495 (10,322,714) _(10,0225.1) 63,412781 63,412711 20434456 20.624,4% 10,380,860 10,380,860 213,535 333,835 (472208) 343,015 030,163) 95,561 95564 596,594702 1820.9 596,936,747 596,847 51,571,366 51,573366 135, 24,00 1,196455 1,196,655 (164) 57,393 57,393 294,849 2,460,289 2,460,289 80,372 80,372 468,68 468,623 Total Current liabilities' 401,893 6Pa"
+      },
+      {
+        "page": "101",
+        "text": "CONFIDENTIAL A. CONSOLIDATED FINANCIAL SUMMARY 2001 -2004 ($ in thousands) For the year ended December 31, Other Services Lube & Other Services Total Revenue % of Revenue Direct Overhead % of Revenue Gross Profito % of Revenue % of Revernw Operating Income \u00b0) % of Revenue Other Income 0) % of Revenue % of Revenue $26,494.7 $23,959.9 $22,155.7 $21,266.0 9,116.1 8,921.7 10,018.8 9,692.2 434.2 457.8 373.5 314.0 4,236.7 4,072.0 4,107.1 3,503.6 2,331.1 2,023.8 2,341.3 2,779.4 1,268.3 1,164.1 1,245.3 1,342.9 $43,881.2 $40,599.2 $40,241.6 $38,898.1 26,688.9 24,8723 25225.8 (0 24,409.9 tO 60.8% 61.3% 62.7% 62.8% 3,635.5 3,445.8 .8 3,635.6 3,092.6 3,054.4 10,4 .0 8,286.6 7,895.5 302.9 426.7 296.1 0,772.5 $9,567.8 $8,713.3 $8,191.7 24.5% 23.6% 21.7% 2/.1% 1,631.8 id 1,6223 (d) 9,140.7 7,945.5 1,634.5 1,631.9 7,078.8 6,559.7 Avg. Paying Wash Ticket $10.90 $10.63 $10.44 $10.87 Avg. Wash & Detail Revenue $14.19 $14.03 $14.62 $15.03 Total Payroll/Total Revenue 47.5% 48.0% 50.4% 50.6% Total Washed 2,508,783 2,343,020 2,201,359 2,059,252 Presented before depreciation and amortization expense. Primarily rental income. Excludes write -down of assets of $129,403. Excludes write -down of assets of $3,114,136. Adjusted for a Department of Labor settlement of $34,709 in the Division's San Antonio region. Adjusted for an extraordinary accident claim of $258,943 in 2003 and $51,953 in 2004 at one of the Division's Colonial facilities. Adjusted for three extraordinary settlements totaling $165,000."
+      },
+      {
+        "page": "102",
+        "text": "CONFIDENTIAL VI. HISTORICAL FINANCIAL PERFORMANCE The following pages set forth unaudited historical financial information consolidated from internal financial statements provided by Mace. Historical financial results have been adjusted to exclude certain non -recurring expenses and corporate charges for administrative services currently provided by Mace personnel in order to accurately portray the ongoing performance of the Division. These adjustments are detailed in the \"Adjustments to Income Statements\" discussion later in this section. Historical financials include only currently operated locations. The Division earns revenues from washing and detailing automobiles; performing oil and lubrication services, minor auto repairs, and state inspections; selling fuel; and selling merchandise at its car wash facilities. The majority of revenues from the Division are collected in the form of cash or credit card receipts, thus minimizing customer accounts receivable. Cost of Revenues Cost of revenues consists primarily of direct labor and related \"kes an be ts, certain insurance costs, N.). \u2022 chemicals, wash and detailing supplies, rent, real estate \"x es, unnies, car damages resulting from services provided, maintenance and repairs of equipmen d\u2018faScilities, s well as the cost of the fuel and merchandise sold. Direct Overhead Direct overhead consists primarily of utilities, ettesta and rent expense. Selling, General and Administrative EreQes Selling, general and administrative/ dry administrative salaries, professional ...si relating to marketing and sales. Other Income Other income consists p wash facilities. nses consist primarily of management, clerical and intrance premiums, sales commissions, and other costs tal income received on renting out excess space at the Division's car pan!: 47 mace"
+      },
+      {
+        "page": "103",
+        "text": "CONFIDENTIAL C. EMPLOYEES AND BENEFITS Employees by Function and Location as of December 31, 2004 Department Arizona Antonio Colonial Genie Lubbock Florida East Regional Management 1 1 1 2 1 1 1 1 Site Management 25 10 27 6 8 12 16 9 Cashiers /Administration 26 6 18 8 9 14 7 4 Customer Greeters 25 8 16 6 7 15 6 Direct Labor 228 108 186 120 64 116 85 81 Total 305 133 248 142 89 158 115 95 Mace provides benefits to certain of its full-time employees. Regqkl)abg6s and site managers are eligible for health insurance benefits. Mace contributes 7573/o the \\s:in\u2018 reoverage rate to a manager's elected coverage with the employee paying the remainder<Otz>bfleths offered include vacation and holiday pay for salaried positions, including regional rangier site/Managers, and salaried assistant Ires1 an en I sking 46 mace"
+      },
+      {
+        "page": "104",
+        "text": "CONFIDENTIAL Ole \"Lee\" Sorenson Tr. Regional Manager - Truck Wash Division Mr. Sorensen joined the Company in 2003 and oversees all the truck wash operations of the Company, which includes all chemical and supply purchasing, advertising, AIR, customer accounts and management training. Prior to joining Mace, Mr. Sorensen was employed by Blue Beacon International Truck Washes. Mr. Sorensen has over twelve years of industry experience and holds a Bachelor of Arts from the University of Alabama."
+      },
+      {
+        "page": "105",
+        "text": "CONFIDENTIAL Gerry D. Kammer Regional Manager - Genie Region Mr. Kammer joined the Company in 1999 and oversees all car wash operations in the Genie region. Mr. Kammer has over eighteen years of experience in the car wash industry and holds a Bachelor of Arts in Business from Stephen F. Austin University. Regional Manager - Florida Region Mr. Ross joined the Company in 2001 and oversees all car wash operations in the Florida region. Prior to joining Mace, Mr. Ross was employed by the Specialty Restaurant Corporation. Mr. Ross has substantially completed a business degree from the University of Pittsburgh. Nicholas D. Holmes Regional Manager - Lubbock Region . Mr. Holmes joined the Company in 2000 and oversees all car wash operattm enia \\the Lubbock region. Mr. Holmes holds a Bachelor of Science degree from Texas Tech Unive earn4d a Masters of Business Administration from Wayland Baptist University. Curtis W. Herbsleb Regional Manager - San Antonio Region Mr. Herbsleb joined the Company in 2000 and ove Prior to joining Mace, Mr. Herbsleb was self-emplo Herbsleb has over thirteen years of industry ex Regional Manager - Colonial Regio Mr. Dugan joined the Company hr200kan oversees all car wash operations in the Colonial region. Prior to joining Mace, Mr. Duggan was,emos<eQJa Computer. Mr. Duggan completed three years of education at Austin Community College akin toards a degree in Management Information Systems. ckr..4,,...,vash operations in the San Antonio region. o car washes and one oil change station. Mr. John P. Cornett Regional Manager - ArizonaSion Mr. Cornett joined the Company in 1999 and oversees all car washes in the Weiss Guys chain. Prior to joining Mace, Mr. Cornett was employed by Genie Car Washes of Texas for fifteen years. Mr. Cornett holds a Bachelor of Science degree in Business Administration from Southwest Texas University. Regional Manager - East Region Mr. Sama joined the Company in 1999 and oversees all car washes in the East Region. Prior to joining Mace, Mr. Sama was sell-employed, owning a car wash and numerous businesses over the last 30 years. Mr. Sama has over ten years of industry experience. MASON 44 mace"
+      },
+      {
+        "page": "106",
+        "text": "CONFIDENTIAL B. KEY MANAGEMENT Key Management Name Age Position Robert M. Kramer 51 Chief Operating Officer 5 Pat Leonard 37 Vice President - Operations Car Wash Division 15 Eduardo Nieves 31 Director of National Marketing and Investor Relations 5 Gerry D. Kammer 40 Regional Manager - Genie Region 18 Rusty Ross 45 Regional Manager - Florida Region 3 Nicholas D. Holmes 30 Regional Manager - Lubbock Region 4 Curtis W. Herbsleb 30 Regional Manager - San Antoni\"gio 13 Sean Duggan 35 Regional Manager - ColoyiaL,egi 4 John P. Cornett 38 Regional Manager - Aev okia,C b 20 Nick Sama 47 Regional Manage -Qtegi,cc5 10 Ole \"Lee\" Sorenson Jr. 36 Regional Manager ..,,,,, sh Division 12 Robert M. Kramer Chief Operating Officer , Mr. Kramer joined the Company in 1999/43 the chief operating officer. Mr. Kramer oversees all aspects of the car wash operations on 6 d'vail rior to joining Mace, Mr. Kramer served in various management and board positions of rti on &llar companies, including Eastern Environmental Services, Inc., and American Capital Corp.,4\"Sec\\tmlies \\yroker dealer. Mr. Kramer holds a Bachelor of Arts and Juris Doctor degree from Temple U ' ers Vice President - Operatzo ash Division Mr. Leonard joined the Companyin 1999 and serves as the Vice President of the ('at and Truck Wash Division. Mr. Leonard oversees field operations and management of the car wash division. He also assists the COO on a day-to-day basis. Prior to his current position, Mr. Leonard was a store manager with Genie Car Wash from 1990 to 1999, at the time Mace acquired Genie Car Wash. Mr. Leonard has over fifteen years of experience in the car wash industry and holds a Bachelor of Arts from Southwestern University. Eduardo Nieves Director of National Marketing and Investor Relations Mr. Nieves joined the Company in 1997 and currently serves as the Director of National Marketing and Investor Relations. Mr. Nieves oversees all aspects of marketing for Mace, including its Car and Truck Wash Division. Since 1997, Mr. Nieves has held additional management and executive officer positions with Mace including Corporate Communications Manager, Director of Investor Relations and Corporate Secretary. Mr. Nieves holds a Bachelor of Science degree from Southern Vermont College."
+      },
+      {
+        "page": "107",
+        "text": "CONFIDENTIAL V. MANAGEMENT AND ORGANIZATION A. ORGANIZATIONAL CHART Organizational Chart Robert M. Kramer Chief Openthag Officer Mount lard, New Jersey Pat Leonard Eduardo Nieves (4eralotts Masan Dlredor \u00b0Mariana 1 Marla:this and Investor Ref ens Augin, Twat Mould Lazed, New Jersey John Cornell Rusty Ron Nick Sawa Sal Duggan Gerry Kammer Cunh Ilerbsleb Nick Holmes Lee Sorensen Regional Manna 144..1MmAtn Regketal Mawr AalsialMayager Retie\u00ab, A.A.Ta Retkwal Manager Regional Manger &TIN. , M . 1.4w Wein Goa Car Wash Esser Beaver Cr Wash Stiper Bright, Northeast Colwid Car Wash Gnat Car Wok Saper MO; San Anode Saper Brigid. Cabbed Mace Tack Wailes Flank Arizona Sinsta Floods Mound Lure{ New Jets* Ararat\" Tom Airsthx. Tens Sol A wood; Tam Logbea. Man Phoenix, Arizona C. Wash Martsj Car , !ash Mna ,gen I Truck Wash Maugen"
+      },
+      {
+        "page": "108",
+        "text": "Facility Data: Lot Size - 122,592 sq. ft. Property Size: 4,656 sq. ft. Other Svcs: N/A Ownership: Leased Appraisal Value: $800,000 Building Age: 1987 CONFIDENTIAL Lake Station, IN (Map PositionQ on Page 39) 1241 Ripley Street Lake Station, IN 46405 2004 Operating Data: Revenue: $519.7 EBITDA: $28.2 Volume: 11,712 Avg. Paying Wash: $43.18 Payroll/Total Rev: 55.7%"
+      },
+      {
+        "page": "109",
+        "text": "Facility Data: Lot Size: 67,662 sq. ft. Property Size: 4,000 sq. ft. Other Svcs: N/A Ownership: Leased Appraisal Value: $160,000 Building Age: 1987 Facility Data: Lot Size: 122,592 sq. ft. Property Size: 4,656 sq. ft. Other Svcs: N/A Ownership: Owned Appraisal Value: $930,000 Building Age: 1987 CONFIDENTIAL Amarillo, TX (Map Position 0 on Page 39) 7540 Interstate 40 East Amarillo, 'TX 79118 2004 Operating Data: Revenue: $402.0 EBITDA: $58.6 Volume: 9,862 Avg. Paying Wash: $38.96 Payroll/Total Rev: 54.3% Holbrook, AZ (Map Position 0 on Page 39) 1855 Keams Canyon Road Holbrook, AZ 86023 2004 Operating Data: Revenue: $146.6 EBITDA: $(90.6) Volume: 4,167 Avg. Paying Wash: $34.87 Payroll/Total Rev: 80.8% Facility Data: Lot Size: 87,120 sq. ft. Property Size: 4,368 sq. ft. Other Svcs: N/A Ownership: Leased Appraisal Value: $750,000 Building Age: 1990 Facility Data: Lot Size: 91,915 sq. Property Size4bQ 5 Appr,aisal $ a in 0 51 e%1987 (Map Position 0 on Page 39) 5240 South Sunland Gin Road Casa Grande, AZ 85222 2004 Operating Data: Revenue: $374.9 EBITDA: $14.5 Volume: 9,929 Avg. Paying Wash: $36.33 Payroll/Total Rev: 61.5% (Map Position 0 on Page 39) 930 US Highway 42 NE London, 01-143140 2004 Operating Dab: Revenue: $418.1 EBITDA: $(3.1) Volume: 12,950 Avg. Paying Wash. $2328 Payroll/Total Rev: 53.1%"
+      },
+      {
+        "page": "110",
+        "text": "CONFIDENTIAL H. MACE (TRUCK WASHES) LOCATIONS The Car and Truck Wash Division operates five truck wash locations in Arizona, Indiana, Ohio and Texas. All truck washes are located on major highways and operate under the Mace brand. O Casa Grande -5240 South Sunland Gin Road '''' -1855 Reams Canyon Road -1241 Ripley Street law -930119. Highway 4211E -7540 Interstate 40 East Mace Historical \"Ti c \\ zinary For the year ended December 3 , Truck Wash $t98t7 $1,841.3 $1,697.4 Other Services (Clean 123.1 163.9 Total Revenue $2,104.8 $1,989.9 $1,861.3 % Growth NA -6.5% 478.0 355.7 265.2 22.7% 17.9% 14.2% Ogenirmg In me 322.4 203.8 6,0 Itt l'af..kgnr e 15.3% 10.2% 0.3% % of Revenue Avg. Paying Wash Ticket Total Payroll/Total Revenue Total Washed (a) Presented before depreciation and amortization expense. (6) Primarily rental income. $332.3 $210.7 $7.6 $58.74 $36.15 $34.91 57.9% 55.2% 62.0% 33,737 50,935 48,620 Biz okbig 39 mace"
+      },
+      {
+        "page": "111",
+        "text": "CONFIDENTIAL Crystal Falls (Map Position 0 on Page 37) 7027 South Quaker Avenue Lubbock, TX 79424 Facility Data: Lot Size: 94,718 sq. ft. Property Size 25,421 sq. ft. Type: Full -service Other Svcs: Detail, Fuel, Convenience Store Ownership: Owned Appraisal Value: $2,340,000 Building Age: 1989 (Map Position 0on Page 37) 2004 Operating Data: Revenue: $2,598.1 EBITDA: $95.5 Volume: 47,099 Total Avg. Rev. per Car: Payroll/Total Rev: 50.0% 2808 50th Street Lubbock, IX 79413 Facility Data: Lot Size: 31,482 sq. ft. Property Size: 7,860 sq. ft. Type: Full -service Other Svcs: Detail Ownership: Owned Appraisal Value: $620,000 Building Age: 1971 2004 Operating Data: Revenue: $537.1 EBITDA: $90.1 Volume: 36,026 Total Avg. Rev. per Car: $14.07 Payroll/Total Rev: 52.4% Facility Data: Lot Size: 77,5122g. Property Size1,57 Type: Fulle Nrvact. Other Sycs&lDeta Owpa'shalk ..ne (Map Position 0 on Page 37) 1910 North Quaker Avenue Lubbock, TX 79410 2004 Operating Data: Revenue: $549.7 EBITDA: $55.1 Volume . 34,752 Total Avg. Rev. per Car: $14.44 Payroll/Total Rev: 52.4%"
+      },
+      {
+        "page": "112",
+        "text": "CONFIDENTIAL G. LUBBOCK (TEXAS) REGION The Car and Truck Wash Division has three locations in the Lubbock region. Two sites are located on the same road. All three locations operate under the Super Bright brand. o 7027 South Quaker Avenue 0 1910 North Quaker Avenue o 2508 50th Street Lubbock Historic Fula\u00b0 </N ) ($ in thousands) For the year ended December 3 Total Revenue Gross Profit % of Revenue 9, 522.ss. $3,393.0 1,017.9 731.3 652.2 461.9 25.9% 18.6% 16.6% 12.5% Operatin Income 784.2 506.2 431.2 238.6 (c) % of R 19.9% 14.9% 12.3% 6.5% Other Income a' 25.6 3.2 4.6 2.2 % of Revenue 0.6% 0.1% 0.1% 0.1% EBITDA $809.7 $509.4 $435.8 $240.8 % of Revenue 20.6% 12.9% 11.1% 6.5% Avg. Paying Wash Ticket $12.72 $12.05 $12.11 $11.07 Avg. Wash & Detail Revenue $15.67 $15.25 $16.01 $15.13 Total Payroll/Total Revenue 44.9% 46.5% 49.5% 52.4% Total Washed 177,609 147,362 128,142 117,877 (a) Presented Izefore depreciation and amortization expense. (b) Primarily rental income. (c) Adjusted for stolen property suit loss of $21.000."
+      },
+      {
+        "page": "113",
+        "text": "CONFIDENTIAL (Map Position 0 on Page 35) 7320 Burnett Road Austin, TX 78757 Facility Data: Lot Size: 62,710 sq. ft. Property Size: 18,071 sq. ft. Type: Full -service, Self- Other Svcs: Detail, Fuel Ownership: Owned Appraisal Value: $2,170,000 Building Age: 1972 2004 Operating Data: Revenue: $1,658.9 EBITDA: $476.7 Volume: 68,227 Total Avg. Rev. per Car: $20.17 Payroll/Total Rev: 46.0% (Map Position 0on Page 35) 1021 West William Cannon Drive Austin, TX 78745 Facility Data: Lot Size: 76,203 sq. ft. Property Size: 15,163 sq. ft. Type: Full -service, Self- Other Svcs: Detail, Fuel Ownership: Owned Appraisal Value: $1,580,000 Building Age: 1987 2004 Operating Data: Revenue: $1,752.9 EBITDA: $456.1 Volume - 71,623 Total Avg. Rev. per Car: $20.12 Payroll/Total Rev: 47.7% (Map Position e on Page 35) 1311 South Lamar Blvd. Austin, TX 78757 Facility Data: Lot Size: 86,248 sq. Property Size 5, Type: Full, ry Other'Svci: De e srs lir 0 isa a tip: $1,540,000 2004 Operating Data: Revenue: $1,780.4 EMMA: $413.1 Volume: 72,176 Total Avg. Rev. per Car: $18.50 Payroll/Total Rev: 46.7% MASON 36 ace"
+      },
+      {
+        "page": "114",
+        "text": "CONFIDENTIAL F. GENIE (TEXAS) REGION The Car and Truck Wash Division has three locations in Austin, Texas. Location A is situated in the old commercial section of Austin, while locations B and C are in recently developed residential areas. All locations operate under the Genie o 7320 Burnett Road o 1311 South Lamar Blvd. o 1021 West William Cannon ($ in thousands) For the year ended Dece \u201eA \\than<a>2 \\4\\ > Genie HistorwalS als Summary Total Revenue $6,776.2 Gross Profit \u00b0t Other Income e % of Revenue % of Revenue Avg. Paying Wash Ticket Avg. Wash & Detail Revenue Total Payroll/Total Revenue Total Washed (a) Presented before depreciation and amortization expense. (b) Primarily rental income. 2,166.8 2,011.5 1,730.8 36.0% 35.2% 33.3% 1,717.2 1,545.4 1,315.6 28.5% 27.0% 25.3% 31.7 29.7 30.0 $1,749.0 $1,575.1 $1,345.6 29.0% 27.5% 25.9% $11.18 $10.70 $10.64 $11.23 $19.00 $18.57 $18.31 $19.58 45.7% 46.4% 46.2% 46.8% 281,099 262,191 252,701 212,026 MASON 35 ace"
+      },
+      {
+        "page": "115",
+        "text": "CONFIDENTIAL (Map Position Qon Page 31) 17931 Preston Road Dallas, TX 75252 Facility Data: Lot Size: 60,686 sq. ft. Property Size . 15 079 sq. ft. Type: Full -service Other Svcs: Detail Ownership: Owned Appraisal Value: $Z540,000 Building Age: 1997 2004 Operating Data: Revenue: $557.9 EBITDA: ($7.9) Volume: 31,260 Total Avg. Rev. per Car: $16.09 Payroll/Total Rev: 57.7% MASON 34 ace"
+      },
+      {
+        "page": "116",
+        "text": "CONFIDENTIAL (Map Position 0 on Page 31) 1219 East Pioneer Parkway Arlington, TX 76010 Facility Data: Lot Size: 69,846 sq. ft. Property Size: 10,139 sq. ft. Type: Full -service Other Svcs: Detail, Lube, Fuel, Inspection Ownership: Owned Appraisal Value: $1,500,000 Building Age: 1985 2004 Operating Data: Revenue: $816.8 EBITDA: $89.2 Volume: 29,835 Total Avg. Rev. per Car: $17.27 Payroll/Total Rev: 52.5% (Map Position e on Page 31) 3408 South Collins Arlington, TX 76014 Facility Data: Lot Size: 34,401 sq. ft. Property Size: 6,208 sq. ft. Type: Self-service Other Svcs: Lube, Inspection Ownership: Owned Appraisal Value: $570,000 Building Age: 1993 2004 Operating Data: Revenue: $384.7 EBITDA: $22.8 Total Avg. Rev. per Car: N/A Payroll/Total Rev: N/A (Map Position 0 on Page 31) 8880 Highway 80 West Fort Worth, DC 76116 Facility Data: Lot Size: 116,442 sq. Property Size: Type: Full,seMc\u00e8tt Other ..\"5 Neeta 2004 Operating Data: Revenue: $1,624.0 EBITDA: $85.7 Volume: 59,955 Total Avg. Rev. per Car: $15.16 Payroll/Total Rev: 51.0% (Map Position 0 on Page 31) 4959 South Drive Fort Worth, TX 76132 Facility Data: Lot Size: 45,000 sq. ft. Property Size: 10,603 sq. ft. Type: Full -service Other Svcs: Detail, Lube, Fuel, Inspection Ownership: Leased Appraisal Value: $1,580,000 Building Age: 1988 2004 Operating Data: Revenue: $1,423.2 EBITDA: $201.6 Volume: 57,862 Total Avg. Rev. per Car: $10.89 Payroll/Total Rev: 54.8% MASON 33 ace"
+      },
+      {
+        "page": "117",
+        "text": "CONFIDENTIAL (Map Position 0 on Page 31) 3022 South Cooper Arlington, TX 76015 Facility Data: Lot Size: 59,670 sq. ft. Property Size. 17,698 sq. ft. Type: Full-service Other Svcs: Detail, Lube, Fuel Ownership: Owned Appraisal Value: $2,670,000 Building Age: 1992 2004 Operating Data: Revenue: $1,814.4 EBITDA: $571.5 Volume: 68,649 Total Avg. Rev. per Car: Payroll/Total Rev: 47.2% (Map Position 0 on Page 31) Facility Data: Lot Size: 47,013 sqjt. Property Size: 9,813 Type: Full-seficice Other Svcs)etail Apprats e: ,000 (Map Position 0 on Page 31) 5780 West Pleasant Ridge Arlington, TX 76016 2004 Operating Data: Revenue: $879.3 EBITDA: $86.7 olume: 28,115 Total Avg. Rev. per Car: $15.25 Payroll/Total Rev: 56.7% (Map Position 0 on Page 31) 6559 East Northwest itigliway Dallas, TX 75251' Facility Data: 2004 Operating Data: 3021 Townsend Fort Worth, TX 76110 Facility Data: 2004 Operating Data: Lot Size: 75,081 sq. ft. Revenue: $470.9 Lot Size: 37,500 sq. ft. Revenue: $204.9 Property Size: 9,605 sq. ft. EBITDA: $69.1 Property Size: 13,593 sq. ft. EBITDA: ($90.4) Type: Full-service Volume: 29,283 Type: Full-service Volume: 16,398 Other Svcs: Detail, Fuel Total Avg. Rev. per Car: $15.71 Other Svcs: Detail, Lube, Total Avg. Rev. per Car: $11.23 Ownership: Owned Payroll/Total Rev: 51.5% Fuel Payroll/Total Rev: 70.5% Appraisal Value: $1,320,000 Ownership: Owned Building Age: 1970 Appraisal Value: $540,000 Building Age: 1985 linV.sprient"
+      },
+      {
+        "page": "118",
+        "text": "CONFIDENTIAL E. COLONIAL (TEXAS) REGION The Car and Truck Wash Division has nine locations in the Colonial region of Texas. Three locations are close to the major highways in the Fort Worth area, four locations are in the Arlington area and two locations are in the Dallas area. The approximate driving distance from Forth Worth to Dallas is two hours. Most sites operate under the Colonial brand. o 3022 South Cooper co 5780 West Pleasant Ridge fa 1219 East Pioneer Parkway o 3408 South Collins in 6559 East Northwest o 17931 Preston Road o 3021 Townsend \u2022 8880 Highway 80 West 0 4959 South Drive Colonial Historicakfi Summary ($ in thousands) For the year ended December Total Revenue $10,905k8 % Growth N NA Gross Profit (4 Operating ke me C 2,118.6 Other Income Th, 67.3 % of Revenue 0.6% EBITDA $2,186.0 % of Revenue 20.0% Avg. Paying Wash Ticket Avg. Wash & Detail Revenue Total Payroll/Total Revenue Total Washed $9,80R4 $9,267.6 2,259.1 1,755.2 (0 1,552.9 1,016.8 $1,631.8 $1,118.5 $11.47 $10.06 $9.10 $10.41 $14.96 $13.50 $14.51 $14.80 49.9% 51.4% 57.3% 53.4% 458,726 432,637 363,484 321,357 (a) Presented tefore depreciation and amortization expense. (b) Primarily rental income. (c) Adjusted for accident claim of $258,943 in 2003 and 451,953 in 2004. (d) Adjusted for accident claim of $44,000. hpe-s..ppent Aorthfris 31 ace"
+      },
+      {
+        "page": "119",
+        "text": "CONFIDENTIAL Super Bright #1 (Map Position 0 on Page 29) 6780 Bandera Road San Antonio, TX 78238 Facility Data: Lot Size: 59,590 sq. ft. Property Size: 15,028 sq. ft. Type: Full -service Other Svcs: Detail, Lube Ownership: Owned Appraisal Value: $1,320,000 Building Age: 1990 2004 Operating Data: Revenue: $680.5 EBITDA: $65.6 Volume: 31,498 Total Avg. Rev. per Car: $15.95 Payroll/Total Rev: 55.5% Super Bright #5 (Map Position 0on Page 29) Super Bright #3 (Map Position 0on Page 29) Facility Data: Lot Size: 37,679 sq. Property Size:e9, Type: Fullz-sejv4 Other Svci\u2022 Deta ow,er /s/uk Appraisa alu Blilaing\u2018Age. 98 8935 Wurzbach Road San Antonio, TX 78240 2004 Operating Data: Revenue: $580.2 EBITDA: $76.6 Volume: 33,307 Total Avg. Rev. per Car: $15.98 Payroll/Total Rev: 56.1% Super Bright #6 (Map Position 0 on Page 29) 4343 Vance Jackson San Antonio, TX 78230 1526 Pat Booker Road Universal City, TX 78148 Facility Data: 2004 Operating Data: Facility Data: 2004 Operating Data: Lot Size: 50,181 sq. ft. Revenue: $546.1 Lot Size: 25,607 sq. ft. Revenue: $261.2 Property Size: 12,813 sq. ft. EBITDA: $8.3 Property Size: 5,057 sq. ft. EBITDA: ($26.9) Type: Full -service Volume: 24,851 Type: Full -service Volume: 14,339 Other Svcs: Detail, Lube Total Avg. Rev. per Car: $15.68 Other Svcs: Detail Total Avg. Rev. per Car: $17.69 Ownership: Owned Payroll/Total Rev: 61.0% Ownership: Owned Payroll/Total Rev: 67.4% Appraisal Value: $1,110,000 Appraisal Value: $520,000 Building Age: 1986 Building Age: 1975"
+      },
+      {
+        "page": "120",
+        "text": "CONFIDENTIAL D. SAN ANTONIO (TEXAS) REGION The Car and Truck Wash Division has four locations in the San Antonio area. Three locations are in San Antonio while one is located in Universal City. The four locations were re-branded two years ago with the Super Bright brand. 0 6780 Bandera Road 0 8935 Wurzbach Road el 9343 Vance Jackson Universal City e 1526 Pat Booker Road San Antonio Historic ($ in thousands) For the year ended December 2003 2004 Total Revenue Gross Profit 14 769.1 685.7 474.0 358.6 I. of Revenue 25.1% 27.5% 20.0% 17.3% Operating I 528.6 451.7 236.0 123.3 % ot 17.3% 18.1% 10.0% 6.0% Other Inco 0.1 0.2 5.2 0.2 % of Revenue 0.0% 0.0% 0.2% 0.0% EBTTDA $528.6 $451.8 $241.2 $123.5 % of Revenue 17.3% 18.1% 10.2% 6.0% Avg. Paying Wash Ticket $11.98 $11.42 $10.51 $9.84 Avg. Wash St Detail Revenue 17 Presented before depreciation and amortization expense. (4) Primarily rental income. Adjusted for a Department of Labor settlement of $34,709. $53..553 $17.36 $5166..755% $5186..184 Total Payroll/Total Revenue % 53.7% Total Washed 145 '905 119,343 116,845 103,995"
+      },
+      {
+        "page": "121",
+        "text": "CONFIDENTIAL Weiss Guys 11 (Map Position 0 on Page 25) 6605 West Chandler Blvd. Chandler, AZ 85226 Facility Data: Lot Size: 52,057 sq. ft. Property Size: 7,886 sq. ft. Type: Full -service Other Svcs: Detail, Lube Ownership: Owned Appraisal Value: $1,780,000 Building Age: 1992 2004 Operating Data: Revenue: $705.2 EBITDA: $131.6 Volume: 33,365 Total Avg. Rev. per Car: $18.08 Payroll/Total Rev: 55.7% Weiss Guys #14 (Map Position 0 on Page 25) Weiss Guys #12 (Map Position 0 on Page 25) Facility Data: Lot Size: 63,838 sq. Property Size. Type: Ful tle-sp,ry Other Sycs\u2022 De01, 7425 South Kyrene Road Tempe, AZ 85283 2004 Operating Data: Revenue: $597.8 EBITDA: $50.6 Volume: 32,368 'ujeJ Total Avg. Rev. per Car: $14.79 Payroll/Total Rev: 59.0% Weiss Guys #15 (Map Position e on Page 25) 6001 North 19ciIve,riue Phoenix, AZ 88015 6505 South McClintock Tempe, AZ 85283 Facility Data: 2004 Operating Data: Facility Data: 2004 Operating Data: Lot Size: 25,300 sq. ft. Revenue: $845.1 Lot Size: 39,000 sq. ft. Revenue: $653.6 Property Size: 9,504 sq. ft. EBITDA: $172.4 Property Size: 4,940 sq. ft. EBITDA' $83 5 Type: Full -service Volume: 54,096 Type: Full-service Volume: 39,223 Total Avg. Rev. per Car: $16.42 Other Svcs: Detail Total Avg. Rev. per Car: $15.01 Other Svcs: Detail Ownership: Leased Payroll/Total Rev: 49.3% Ownership: Leased Payroll/Total Rev: 52.0% Appraisal Value: $1,560,000 Appraisal Value: $590,000 Building Age: 1963 Building Age: 1994"
+      },
+      {
+        "page": "122",
+        "text": "CONFIDENTIAL Weiss Guys #5 (Map Position 0 on Page 25) 1266 North Arizona Avenue Chandler, AZ 85224 Facility Data: Lot Size: 32,550 sq. ft. Property Size - 5 228 sq ft. Type: Full -service Other Svcs: Detail, Fuel Ownership: Owned Appraisal Value: $2,460,000 Building Age: 1988 2004 Operating Data: Revenue: $797.4 EBITDA: $219.7 Volume: 47,536 Total Avg. Rev. per Car: $16.13 Payroll/Total Rev: 52.8% Weiss Guys #8 (Map Position 0 on Page 25) 1503 West CanielPack Road Phoenix, AZ 85015 Facility Data: Lot Size: 45,815 sq. ft. Property Size: 12,340 sq. ft. Type: Full -service Other Svcs: Detail, Fuel Ownership: Owned Appraisal Value: $2,810,000 Building Age: 1991 2004 Operating Data: Revenue: $360.2 EBITDA: $27.1 Volume: 23,734 Total Avg. Rev. per Car: Payroll/Total Rev: 72.7% Weiss Guys #6 (Map Position 0 on Page 25) 4210 West Glendale Avenue Phoenix, AZ 85051 Facility Data: Lot Size: 72,310 sq. Property Size. 6,92 Type: Fur; ce\\,, Other 9,vcs- ?u Ow9er .sh4p: wne:1/4>$ AspgrraNlue$5 , 00,00o 2004 Operating Data: Revenue: $884.0 EBITDA: $296.7 Volume: 58,505 Total Avg. Rev. per Car: $14.28 Payroll/Total Rev: 49.1% Weiss Guys #10 (Map Position 0 5690 West Peoria Avenue Phoenix, AZ 85302 Facility Data: Lot Size: 36,950 sq. ft. Property Size: 8,094 sq. ft. Type: Full-service Other Svcs: Detail Ownership: Owned Appraisal Value: $2,810,000 Building Age: 1990 2004 Operating Data: Revenue: $950.6 EBITDA: $315.3 Volume: 61,196 Total Avg. Rev. per Car: $14.93 Payroll/Total Rev: 42.8%"
+      },
+      {
+        "page": "123",
+        "text": "CONFIDENTIAL Weiss Guys #1 (Map Position es on Page 25) 1245 North Gilbert Road Gilbert, AZ 85234 Facility Data: Lot Size: 19,880 sq. ft. Property Size: 3,780 sq. ft. Type: Full -service Other Svcs: Detail Ownership: Leased Appraisal Value: $870,000 Building Age: 1992 2004 Operating Data: Revenue: $848.4 EBITDA: $193.8 Volume: 47,905 Total Avg. Rev. per Car: $17.43 Payroll/Total Rev: 54.4% Weiss Guys #3 (Map Position 0 on Page 25) 6149 North 701 S ee Weiss Guys #2 (Map Position 0on Page 25) Facility Data: Lot Size: 48,264 sq. Property Size: Type: Ful?sc.tv tlig; r5y \u2022 Itit '5 Ay& a lue $ iY50,000 5020 East Main Street Mesa, AZ 85205 2004 Operating Data: Revenue: $883.7 EBITDA: $244.1 Volume: 57,078 Total Avg. Rev. per Car: $14.58 Payroll/Total Rev: 50.3% Weiss Guys #4 (Map Position 0 on Page 25) 711 NW Grand Avenue Phoenix, AZ 85007 Facility Data: 2004 Operating Data: Facility Data: 2004 Operating Data: Lot Size: 42,175 sq ft. Revenue: $935.7 Lot Size: 22,410 sq. ft. Revenue: $594.7 Property Size: 8,085 sq. ft. EBITDA: $304.8 Property Size: 8,022 sq. ft. EBITDA: $140.5 Type: Full -service Volume: 63,496 Type: Full -service Volume: 47,464 Other Svcs: Detail, Lube, Fuel Total Avg. Rev. per Car: $13.88 Other Svcs: Detail, Fuel Total Avg. Rev. per Car: $11.61 Ownership: Owned Payroll/Total Rev: 46.1% Ownership: Owned Payroll/Total Rev: 53.3% Appraisal Value: $4,000,000 Appraisal Value: $1,640,000 Building Age: 1972 Building Age: 1970"
+      },
+      {
+        "page": "124",
+        "text": "CONFIDENTIAL C ARIZONA REGION The Car and Truck Wash Division has twelve locations in Arizona. Half of the sites are located in the East Valley by Glendale and the other half are located in the West Valley by Chandler. All locations operate under the Weiss Guys brand. 0 1266 North Arizona Avenue 0 6605 West Chandler Blvd. 03 1245 North Gilbert Road o 5020 East Main Street o 6149 North 7th Street o 711 NW Grand Avenue o 4210 West Glendale Avenue 11. 1503 West Camelback Road 0 5690 West Peoria Avenue 0 6001 North 19th Avenue 0 7425 South Kyrene Road ei 6505 South McClintock (Sirs thousands) For the year end % of Revenue Other Income\"' % of Revenue % of Revenue Avg. Paying Wash Ticket Avg. Wash & Detail Revenue Total Payroll/Total Revenue Total Washed (a) Presented before depreciation and amortization expense. (to) Primarily rental income. 2002 2003 2004 $7,608.3 $7,963.2 $8,799.4 $9,056.4 NA 4.7% 10.5% 2.9% 1,878.7 2,228.7 2,764.9 2,792.1 24.7% 28.0% 31.4% 30.8% 1,240.1 1,573.8 2,054.4 2,060.0 16.3% 19.8% 23.3% 22.7% 133.3 144.1 235.7 120.1 $1,373.4 $1,717.9 $2,290.1 $2,180.1 18.1% 21.6% 26.0% 24.1% $10.45 $10.39 $10.22 $10.10 $13.53 $13.49 $15.04 $14.96 53.2% 51.2% 51.1% 51.5% 515,999 551,376 547,798 565,966"
+      },
+      {
+        "page": "125",
+        "text": "CONFIDENTIAL Eager Beaver #5 (Map Position 0 on Page 22) 12330 South Cleveland Avenue Fort Myers, FL 33907 Facility Data: Lot Size: 60,940 sq. ft. Property Size: 8,761 sq. ft Type: Full-service Other Svcs: Detail, Lube Ownership: Owned Appraisal Value: $4,300,000 Building Age: 1986 2004 Operating Data: Revenue: $2,056.8 EBITDA: $914.1 Volume: 108,223 Total Avg. Rev. per Car: $17.71 Payroll/Total Rev: 41.2% Eager Beaver #6 (Map Position 0on Page 22) 201 South Beneva Road Sarasota, FL 34232 Facility Data: Lot Size: 130,787 sq ft Property Size: 6,366 sq. It. Type: Full-service Other Svcs: Detail Ownership Owned Appraisal Value. $1,800,000 Building Age: 1990 2004 Operating Data: Revenue: $1,051.2 EBITDA: $331.2 Volume: 61,310 Total Avg. Rev. per Car: $15.98 Payroll/Total Rev: 47.4%"
+      },
+      {
+        "page": "126",
+        "text": "CONFIDENTIAL Eager Beaver #1 (Map Position 0 on Page 22) Eager Beaver #2 (Map Position 0 on Page 22) 6310 14th Street West Bradenton, FL 34207 1555 N. Washington Blvd. Sarasota, FL 34936 Facility Data: 2004 Operating Data: Facility Data: 2004 Operating Data: Lot Size: 99,317 sq. ft. Revenue: $465.5 Lot Size: 32,892 sq. ft. Revenue: $531.1 Property Size: 9,220 sq. ft. EBITDA: $74.0 Property Size: 5,835 sq. ft. EBITDA: $84.3 Type: Full-service Volume: 27,864 Type: Full-service Volume: 32,766 Other Svcs: Detail Total Avg. Rev. per Car: $15.76 Other Svcs: Detail Total Avg. Rev. per Car: $15.38 Ownership: Owned Payroll/Total Rev: 60.5% Ownership: Owned Payroll/Total Rev: 56.4% Appraisal Value: $1,375,000 Appraisal Value: $1,400,000 Building Age: 1986 Building Age: 1989 Eager Beaver #3 (Map Position 0 on Page 22) 64495. Tamianti Trail Sarasota, FL 34231 Facility Data: Lot Size: 69,126 sq. ft. Property Size: 7,845 sq. ft. Type: Full-service Other Svcs: Detail Ownership: Owned Appraisal Value: $3,300.000 Building Age: 1977 2004 Operating Data: Revenue: $1,112.6 EBITDA: $383.4 Volume: 65,318 Total Avg. Rev. per Car: $16.20 Payroll/Total Rev: 42.8% Eager Beaver #4 (Map Position 0 on Page 22) 1791 S. Tamiami Trail Venice, FL 34293 Facility Data: Lot Size: 25,350 sq. ft. Property Size: 6,588 sq. ft. Type: Full-service Other Svcs: N/A Ownership: Owned Appraisal Value: $1,300,000 Building Age: 1984 2004 Operating Data: Revenue: $704.5 EBITDA: $297.97 Volume: 42,742 Total Avg. Rev. per Car: $15.72 Payroll/Total Rev: 50.9%.-"
+      },
+      {
+        "page": "127",
+        "text": "CONFIDENTIAL B. FLORIDA REGION The Car and Truck Wash Division has six locations in Florida. All sites are located on the west coast of Florida running from north to south. The northernmost site is in Bradenton, followed by North Sarasota, Beneva, South Sarasota, Venice and Fort Myers. Bradenton, South Sarasota, Venice and Fort Myers are located on US 41. North Sarasota is on Route 301 (slightly west of US 41) and Beneva is slightly further west of North Sarasota close to Route 75. The sites are approximately fifteen minutes traveling time from each other, except for Fort Myers, which is about one and a half hours from Venice. All locations operate under the Eager Beaver name. 0 6310 14th Street West 0 123305. Cleveland Avenue e 1555 N. Washington Blvd e 201 S. Beneva Road 4) 6449 S. Tamtand Trail 0 1791 S. Tandami Trail Florida Hitt:ortisi s Summary (S in thousands) alin For the year ended Dec 2001 2002 2003 2004 Total Revenue Gross Profit Oper ngt.tcome Other Income 44.3 % of Revenue 0.7% % of Revenue Avg. Paying Wash Ticket Avg. Wash & Detail Revenue Total Payroll/Total Revenue Total Washed $5,775.6 $5,759.7 $5,921.7 2,353.2 2,139.9 2,380.8 40.7% 37.2% 40.2% 1,955.7 1,774.1 2,013.1 tel 33.9% 30.8% 34.0% 44.8 43.6 71.9 $2,000.5 $1,817.7 $2,084.9 34.6% 31.6% 35.2% $13.34 $13.41 $13.48 $14.24 $15.12 $1536 $15.57 $16.47 46.2% 46.1% 48.6% 46.7% 380,051 359,319 351,638 338,223 (a) Presented before depreciation and amortization expense. (11) Primarily rental income. (c) Adjusted for extraordinary legal suit reserve of $100,000 at the Division's Venice location."
+      },
+      {
+        "page": "128",
+        "text": "CONFIDENTIAL Super Bright #9 (Map Position 0 on Page 18) 931 East Lancaster Avenue Bryn Mawr, PA 19010 Super Bright #10 (Map Position Q on Page 18) 1100 Bethlehem Pike Flourtown, PA 19031 Facility Data: 2004 Operating Data: Facility Data: 2004 Operating Data: - Lot Size: 17,311 sq. ft. - Revenue: $850.6 -Lot Size: 18,252 sq. ft. - Revenue: $764.5 Property Size: 3,139 sq. ft. -EBITDA: $115.9 Property Size: 4,354 sq. ft. -EBITDA: $223.2 - Type: Full-service -Volume: 48,219 Type: Full-service - Volume: 44,503 Other Svcs: Detail Total Avg. Rev. per Car: $17.18 Other Svcs: Detail Total Avg. Rev. per Car: $16.64 - Ownership: Leased Payroll/Total Rev: 49.6% 'Ownership: Owned Payroll/Total Rev: 48.9% Appraisal Value: N/A -Appraisal Value: $980,000 Building Age: 1940 Building Age: 1960 Super Bright #11 (Map Position 0 on Page 18) 10 East Germantown Pike Norristown, PA 19401 Facility Data: ----Lot Size: 33,541 sq. ft. Property Size: 5,800 sq. ft. Type: Full -service Other Svcs: Detail Ownership: Owned Appraisal Value: $1,600,000 Building Age: 1967 2004 Operating Data: _Revenue: $719.7 -EBITDA: $188.8 --Volume: 43,555 Total Avg. Rev. per Car: $15.97 Payroll/Total Rev: 48.6% Facility Data: Super Bright #12 (Map Position Q on Page 18) 601 East Market Street West Chester, PA 19380 2004 Operating Data: -Lot Size: 26,250 sq. ft. \"...Revenue: $203.5 Property Size: 4,921 sq. ft. `- EBITDA: $4.5 -.Type: Exterior Volume: 33,486 Other Svcs: Fuel Total Avg. Rev. per Car: $6.01 - Ownership: Leased Payroll/Total Rev: 25.4% -- Appraisal Value: N/A Building Age: 1969"
+      },
+      {
+        "page": "129",
+        "text": "CONFIDENTIAL Super Bright #5 (Map Po.\u2018ition 0 on Page 18) Super Bright #6 (Map Position 0 on Page 18) 215 West Camden Avenue Moorestown, NJ 08057 1505 East Marlton Pike c. - Cherry Hill, NJ 08034 Facility Data- 2004 Operating Data: Facility Data: 2004 Operating Data: - Lot Size: 10,500 sq. ft. r-Revenue: $110.6 Lot Size: 47,916 sq. ft. -Revenue: $1,084.4 Property Size: 1,190 sq. ft. .....EBITDA: $26.7 Property Size: 5,012 sq. ft. - EBITDA: $317.1 Type: Exterior Volume: 17,285 Type: Full-service Volume: 71,419 Other Svcs: N/A Total Avg. Rev. per Car: $6.20 Other Svcs: Detail Total Avg. Rev. per Car: $14.80 Ownership: Owned Payroll/Total Rev: 43.9% Ownership: Owned Payroll/Total Rev: 47.7% ,-Appraisal Value: $280,000 \u2014Appraisal Value: $2,100,000 Building Age: 1970 Building Age: 1992 Super Bright #7 (Map Position 0 on Page 18) Super Bright #8 (Map Position 0 on Page 18) 110 McDade l31vdi Yeadon, PA 19050 2310 Island Road Philadelphia, PA 19142 Facility Data. 2004 Operating Data: Facility Data: 2004 Operating Data: Lot Size: 7,579 sq. ft. Revenue: $125.4 Lot Size: 14,362 sq. ft. Revenue: $148.6 Property Size: 3,582 sq. ft. EBITDA: $7.7 Property Size: 2,040 sq. ft. EBITDA: $58.0 Type: Exterior Volume: 18,573 Type: Exterior Volume: 21,802 Other Svcs: N/A Total Avg. Rev. per Car: $6.09 Other Svcs: N/A Total Avg. Rev. per Car: $6.46 Ownership: Leased Payroll/Total Rev: 43.3% Ownership: Owned Payroll/Total Rev: 40.4% Appraisal Value: N/A Appraisal Value: $420,000 Building Age: 1967 Building Age: 1965"
+      },
+      {
+        "page": "130",
+        "text": "CONFIDENTIAL Super Bright #1 (Map Position 0 on Page 18) 240 Dupont Highway Smyrna, DE 19977 Facility Data: Lot Size: 20,100 sq. ft. Property Size: 1,622 sq. ft. Type: Exterior, Self-service Other Svcs: N/A \u2014Ownership: Leased \u2014Appraisal Value: N/A Building Age: 1970 2004 Operating Data: Revenue: $177.3 \u2014 EBITDA: $53.8 \u2014 Volume: 24,404' Total Avg. Rev. per Car: $7.24 Payroll/Total Rev: 35.5% Super Bright #3 (Map Position 0 on Page 18) 2575 Mt. Ephraim Road Camden, NJ 08104 Facility Data: -tot Size: 17,921 sq. ft. Property Size: 3,152 sq. ft. Type: Exterior, Self-service Other Svcs: N/A -Ownership: Owned .\u2014Appraisal Value: $620,000 Building Age: 1972 2004 Operating Data: .-Revenue: $137.5 __EBITDA: $29.9 _.,Volume: 19,737 Total Avg. Rev. per Car: $6.24 Payroll/Total Rev: 40.6% Facility Data: --Lot Size: 94,559 sq. ft. \u2014Property Size: 4,071 sq. ft. Type: Exterior Other Svcs: N/A Ownership: Owned \u2014Appraisal Value: $920,000 Building Age: 1970 Super Bright #2 (Map Position 0 on Page 18) Route 41 and Ivanhoe Road Deptford, NJ 08096 Facility Data: Lot Size: 28,760 sq. ft. Property Size: 3,991 sq. ft. Type: Exterior, Self-service Other Svcs: N/A Ownership: Owned Appraisal Value: $870,000 Building Age: 1974 2004 Operating Data: Revenue: $301.0 EBITDA: $112.6 Volume: 37,491 Total Avg. Rev. per Car: $6.71 Payroll/Total Rev: 34.7% Super Bright #4 (Map Position 0 on Page 18) 509 Williamstown New Freedom Road Sicklerville, NJ 08081 2004 Operating Data: Revenue: $175.7 EBITDA: $50.4 Volume: 19,334 Total Avg. Rev. per Car: $6.05 Payroll/Total Rev: 47.4 %"
+      },
+      {
+        "page": "131",
+        "text": "CONFIDENTIAL IV. 'REGIONAL PROPERTY DESCRIPTIONS A. EAST REGION LThe Car and Truck Wash Division has twelve locations in the East region. The East region is comprised of six locations in Pennsylvania, five locations in New Jersey and one location in Delaware. All sites are located in the Philadelphia metropolitan area except for the Delaware location. Four locations are full- service car washes while eight locations offer exterior -only cleaning services. 0 240 Dupont Highway e 2575 Mt. Ephraim Road O 1505 East Marlton Pike e Rt 41 & Ivanhoe Avenue 0 215 West Camden Avenue n 509 Williamstown New Freedom Road Pennsylvania fa 931 East Lancaster Avenue o 1100 Bethlehem Pike 0 10 East Germantown Pike 23101slarul Road 01 601 East Market Street e 110 McDade Blvd. Ea. mit& ,9 ancials Summary ($ in thousands) For the year Total Revenu 2001 2002 2003 2004 $5,588.0 $5,153.5 $4,812.9 $4,798.8 1Y math NA -7.8% -6.6% -0.3% Gross Prqfit 2,204.1 1,8262 1,543.3 1,450.8 % o 39.4% 35.4% 32.1% 30.2% Operating Income is 1,873.5 1,507.4 1,228.8 1,185.1 % of Revenue 33.5% 29.2% 25.5% 24.7% Other Income \"4 2.6 0.0 62 3.4 % of Revenue 0.0% 0.0% 0.1% 0.1% EB1TDA $1,876.1 $1,507.4 $1,235.0 $1,188.5 % of Revenue 33.6% 29.2% 25.7% 24.8% Avg. Paying Wash Ticket $8.24 $8.69 $8.78 $9.48 Avg. Wash & Detail Revenue $9.72 $10.40 $1038 $1139 Total Payroll/Total Revenue 39.1% 41.0% 43.1% 44.8% Total Washed 549,394 470,792 440,751 399,808 (a) Operating income is presented before depreciation and amortization expense. (6) Presented before depreciation and amortization expense."
+      },
+      {
+        "page": "132",
+        "text": "CONFIDENTIAL F. TRADEMARKS The Division owns a registered service mark for Super Bright\u00ae. The Division has selected Super Bright\u00ae as the Division's brand name for those car washes that do not already have a well recognized brand name. During 2002, the Division rebranded its Pennsylvania locations and several of its New Jersey locations, and all of its San Antonio, TX and Lubbock, TX locations with its Super Bright\u00ae service mark. G. REGULATORY AND ENVIRONMENTAL COMPLIANCE The Division is subject to various local, state and federal laws regulating the discharge of pollutants into the environment Three major areas of regulation facing the car and truck wash segment are disposal of lubrication oil at the oil change centers, compliance with all underground storage tank laws in connection with gasoline sales and the proper recycling and disposal of water used in the car and truck washes. Of the Division's 54 car and truck wash locations, only the West Chester PA location is currently under environmental remediation. Compliance with these laws and regulations is not expected to mateC N Na e Division's competitive trs, position. The Division uses approved waste -oil haulers toz remove k 1 oil nd lubricant waste. Before \u2039 acquiring a gasoline dispensing site, the Division investig tes \\the\\s\u2018t to verify that any underground storage tanks are in compliance with all legal requireme aitionally, the Division recycles its waste water and, where permitted, disposes of waste water4itt edrains. Management believes that its car and truck wash operations are in compliance, irrall\u2018m espects, with applicable environmental laws and regulations. H. LEGAL MATTERS In December 2003, the Division was@ame a ine ista fendant a suit filed in the Twelfth Judicial Circuit in and for Sarasota County, Florid Tlimmt s been forwarded on to its insurance carrier for defense. Mace does not anticipate that * ckii1Nreesult in the payment of damages in excess of the Company's insurance coverage. uktyrg 17 ace"
+      },
+      {
+        "page": "133",
+        "text": "CONFIDENTIAL E. SALES AND MARKETING The Vice President of the Car Wash Division, Director of National Marketing and Investors Relations and the Car and Truck Wash Division's eight regional managers are responsible for coordinating the Division's sales and marketing activities. The Division markets its services to new retail customers through regional coupon advertising, direct -mail marketing programs, e-mail marketing, and radio and television advertisements, spending 2% - 3% of regional revenue on regional advertising campaigns. Because the cost of acquiring new customers is significantly greater than the cost of retaining current customers, even a slight increase in the Division's retention rate can lead to significant revenue and profit gains. The Division has been successful in branding its service offering through affinity programs such as its \"Preferred Customer Club,\" an affinity program that awards existing customers with special discount coupons for future use. As of December 31, 2004, Mace had over 44,000 \"Preferred Customer Club\" members, up from approximately 2,500 members at launch in June 2003. Additionally, in Q4 2003 the Division rolled \u00b0lit a new wholesale business -to- business sales program aimed at generating incremental revenues from(10 , businesses such as car rental agencies and car dealerships. The Division incentivizes its managers siwt4new corporate accounts by awarding quarterly commissions based on new sales generaV4> ince roll-out, the Division's managers have signed up 26 new corporate accounts. vit\\V -1Preferred Customer Club FREQUENT WASH CARD"
+      },
+      {
+        "page": "134",
+        "text": "CONFIDENTIAL \u2022 Execute on Disciplined Acquisition Approach While the Division has not completed any car or truck wash acquisitions since 2001, management believes that there are significant consolidation opportunities in the regions in which it currently operates. In evaluating potential acquisitions, the Division considers: (i) its cash position and the availability of financing at favorable terms; (ii) the potential for operating cost reductions, revenue growth through advertising and managerial efficiencies; (iii) the commercial viability and underlying real estate value of each location; and (iv) the potential for geographic diversification. Aimitthig 15 mace"
+      },
+      {
+        "page": "135",
+        "text": "CONFIDENTIAL D. BUSINESS STRATEGY The Division seeks to provide its wash customers with a professionally run, consistently superior service offering in a safe, convenient facility. To accomplish this goal, the Division integrates wash services with other on-site services for the benefit of its wash customers, including wheel cleaning, fragrance, rust protection treatment, wheel treatments, and waxing. Many of the Division's locations also offer other consumer products and related car care services, such as professional automotive detailing services (offered at 39 locations), oil and lubrication services (offered at 12 locations), gasoline dispensing services (offered at 18 locations), state inspection services (offered at 4 locations) and convenience store sales (offered at one location). Underlying the Division's growth and profitability are certain critical strategies and initiatives that differentiate the Division from its competitors. Key elements of the Division's business strategy to drive revenue and cash flow growth are to: \u2022 Develop A Strong Regional Brand Reputation The Division targets highly populated urban and suburtan 4 1/4r1 ce, Due to its critical mass of wash locations owned and operated regionally thy\u2018 ountry, the Division has been successful in branding its car and truck wash fa \u2022 \u2022 egional level. To improve market share in a given operating region, the Divisio ng regional advertising campaigns emphasizing brand awareness to increase pekcentQge of the population using car wash services. Management believes that thr education and by developing a strong brand reputation known for consistent/ qua -arasale ), dependable service across locations, that it can increase consumer participatio rat --\"-an enerate significant internal growth from existing locations. In each operating region ( seeks to provide standardized service options that provide the customer with a co sien ce at every visit. To maintain its regional branding programs, the Division procdz srgoin aining and professional development to its regional management teams. The; sio\u2018K\u2018hys also created an incentive compensation structure that rewards its regional mane e nt teams for attaining certain revenue and profitability targets. \u2022 Leverage High-Dtargi Qaic s One of the primarcdri twit /profitability at the Company's full-service facilities is its utilization of complementary \\bigh-Targ"
+      },
+      {
+        "page": "136",
+        "text": "CONFIDENTIAL possesses a leasehold interest See Addenda B and C for a description of the lease schedules for these Leased Locations - Car Washes Location it of Locations Bryn Mawr, PA 1 West Chester, PA 1 Yeadon, NJ 1 Smyrna, DE 1 Fort Worth, TX 2 Phoenix, AZ 1 Gilbert, AZ 1 Super Bright Super Bright Shammy Shine Shammy Shine As of December 31, 2004, the net book value of the CarAi approximately $4.5 million, exclusive of any value aitributa6le improvements. The Division accounts for its long-lived aace useful lives of the Company's assets are generally as fa Taw\\ Useful icaisets Buildings & Lease Furniture/CP*1)(bn Management InformationSys ems The Company mininu\\ze i e labor through logistics training, computerized control sysTeins( and equipment enhancements. The Division operates two popular point of sale systems - Innovative Control Systems (\"ICS\") at approximately 65% of the car wash properties and DRB Systems Inc. (\"DRB\") at the other 35% of the car wash properties - which allow corporate, regional and site management to track on a real- time basis cars washed, revenue per car for wash, detail services, lube (where applicable), and labor costs, among others. Each facility currently communicates this data to the corporate office on a daily basis. This information is summarized daily for executive management review and for month -end general ledger recording and management operating review purposes. &it\\ ii4ements <Wash Division's equipment is erlying land, building or capital s aight-line method. The estimated 15 - 40 years 5 - 10 years"
+      },
+      {
+        "page": "137",
+        "text": "CONFIDENTIAL Car Wash Locations Pennsylvania As of December 31, 2004, Truck Wash Division employed 1,285 employees. This figure fluctuates during the cof )fthe.ye3r due to seasonal and weather -related trends. Additionally, none of t (\"` the Company's employees ar covered by a collective bargaining agreement. Unlike many of its ) competitors, the Company...screens each prospective employee, including conducting background criminal and employment checks. Management believes that such screening, while costly and non-standard for the industry, is necessary given its fiduciary duty to its public shareholders. \u2022 Weiss Guys \u2022 Shammy Shine \u2022 Eager Beaver \u2022 Shammy Shine \u2022 Super Bright \u2022 Cherry Hill (Super Bright) \u2022 Super Bright \u2022 Shammy Shine \u2022 Super Bright \u2022 Blue Planet # of Facilities Truck Wash locations Services Offered 12 Full-Service (1 Hand Wash) 1 Exterior Only 6 Full-Service 2 Exterior Only 2 Exterior Only 1 Full-Service Full-Service / Exterior Only Exterior Only C\\Full-Service / Self-Service \\ \\Full2Serice / Self-Service '\u2018&1(Service # of Facilities The value of the underlying real estate is not highly correlated with the car and truck wash operations. Given the prime location of many of the Company's car and truck wash locations, the value of the underlying real estate may provide an additional untapped value opportunity for this portfolio. The car wash and truck wash portfolios have appraised gross asset values on the real estate in excess of $60 million and on the enterprise in excess of $76 million. The gross asset values include those properties that the Company owns in fee simple, as well as the Company's leasehold interests. The Company owns a fee- hold interest in the buildings and the land at 40 of its car wash facilities and has a leasehold interest in the remaining nine car wash properties. With the exception of the Amarillo, TX property, the other truck wash buildings are subject to ground leases. Exhibit 10 details those properties in which the Company MASON 12 mace"
+      },
+      {
+        "page": "138",
+        "text": "CONFIDENTIAL C CAR AND TRUCK WASH OPERATIONS Headquartered in Mt. Laurel, NJ, Mace operates 49 car wash facilities and five truck wash facilities as of December 31, 2004. Mace currently operates collectively twelve car wash locations in New Jersey, Pennsylvania and Delaware, six car wash locations on the west coast of Florida, twelve car wash locations in Arizona, and nineteen car wash locations in Texas. Mace also owns five truck washes located in Arizona, Indiana, Ohio and Texas. Service Offerings A typical Company car wash provides exterior washing and drying, vacuuming of vehicle interiors, dusting of dashboards and door panels and cleaning of all windows and glass. The Division's facilities typically consist of a free-standing building of approximately 4,000 square feet, containing a sales area for impulse items and a car wash tunnel, which contains automatic cleaning equipment that cleans the cars as they move through the tunnel on a conveyor system. Additional services include wheel cleaning, fragrance, rust protection treatment, wheel treatments, waxing, professional automotive detailing services, merchandise store sales and, at selected locations, oil and lubrication services, gasoline dispensing services and state inspection services. The Division operates its car and truck wash facilities under a variety of brand names. Mace has historically leveraged off of the well-recognized regional brand names acquired during the Company's portfolio roll-up. Mace has rebranded only its single property acquisitions of independent operators with Super Bright\u00ae, the Company's registered service mark. The Company followed this rebranding strategy at several of its Pennsylvania and New Jersey locations and all of its San Antonio, TX and Lubbock, TX locations. Exhibits 8 and 9 provide a summary of the number and brands of the Division's car and truck wash locations. A more detailed description of each car and truck wash location is provided in Section IV. MASON InFesttpcst An7k1.71,5: 11"
+      },
+      {
+        "page": "139",
+        "text": "CONFIDENTIAL Exhibit 7 below details the seven factors most important to a consumer in the selection of a particular car wash type. The full-service car wash customer ranks quality, time, safety, customer service and value as the most important service factors. Given the relatively inelastic customer demand of the full-service customer, full-service car wash operators are able to sustain higher prices relative to other car wash types without significant customer attrition. Importance of Service Factors in Selection Quality 2nd 1st Convenience 5th 4th Time 5th 1st Cost 2nd 5th Safety 1st 2nd Customer Service 3rd 1st Value 3rd 1st Source: \"Primer\" - A Guide for Carwash Investors, Robert J. Ro Competition among car wash opeekz(iIb d primarily on location, facilities, customer service, available services and price. Car asfr9perars have also faced competition from sources outside the car wash industry, particularly g\\-s ons that offer automated car wash services. Management believes that it competes pr. cW4 wjtjilocally-owned car wash facilities and other regional car wash .400,king 10 mace"
+      },
+      {
+        "page": "140",
+        "text": "CONFIDENTIAL In -Bay Automatic. Consists of cleaning equipment moving back and forth over a stationary vehicle. Typically includes an entry system, auto-cashier, function selector with computer interface and automated Benefits Considerations \u2022 Relatively low operating costs \u2022 Requires prime commercial property \u2022 24-hour / 7-day per week operation with \u2022 Initial capital investment higher than self-service limited management attention necessary Self -Service. Vehicle cleaning done by the customer. Typically consists of two to twelve open wash bays, an enclosed equipment room and a separate area where customers dry off their vehicles and use amenities such as coin-operated vacuum cleaners, fragrance dispensers and carpet shampooers for final detailing. Most self-service car washes operate 24 hours per day / seven days per week. Benefits copsiderations \u2022 Limited management attention \u2022 Operation of multiple locations less complicated than other car wash types \u2022 Few barriers The full-service car wash provides the greatest barriers of customer contact and labor burden not preseny demand, full-service car washes may employ crew wash's multiple profit centers. Given the size the full-service car wash, equipment opera critical success factors. o e trwen simplicity of business hnu d without adding an in- ll-service car wash requires a degree caY wash types. Depending on hourly IT employees to adequately staff the car of the conveyer system typically found in amtenance, as well as line staff training become MASON 9 mace"
+      },
+      {
+        "page": "141",
+        "text": "CONFIDENTIAL Top 20 Car Wash Operators by Number of Locations Rank Company Home Office Locations Rank Company Home Office Locations 1 Wash Depot Malden, MA 57 2 Mace Securities Mt. Laurel, NJ 49 3 Auto Bell Car Wash Charlotte, NC 37 4 Mister Car Wash Tucson, AZ 32 5 Mike's Express Car Wash Carmel, IN 29 6 Delta Sonic Buffalo, NY 27 7 Oasis Car Wash Addison, TX 26 8 Original $2 Car Wash Livonia, MI 26 9 Regal Auto Wash Scottsdale, AZ 21 10 American Auto Wash, Inc. Malvern, PA 20 11 Wash Tub Car Wash San Antonio, TX 20 12 Turtle Wax Chicago, IL 19 13 Terrible Herbst Las Vegas, NV 18 14 Kaady Car Wash Portland, OR 16 15 Octopus Car Wash Albuquerque, NM 16 16 Splash LLC Stamford, CT 16 17 Golden Nozzle Car Wash Springfield, MA 15 18 Waterway Gas & Wash Co. Chesterfield, MO 15 19 Camett's Car Washes Lilburn, GA 14 20 Lage Car Wash Long Island, NY 14 Source: Modem Car Care Magazine - May 2004; Represents Mace's current locations as of Decembe 31, 2004. The four primary types of car wash services are full-service, extepb o ' ,bay automatic and self- service. The Division's car washes offer all of these services exce fo matic. Full-Service. Combines exterior car washing with vacuuming o and towel drying. The full service car washes also provide value added services et `hand axing and other hand detailing services. Typically includes: greeter's station, vacuuinjie >\u00e7pnveyor with automated equipment, separate finishing area at tunnel exit, enclosed equ t\u201eQm and transaction center with a lobby and/or customer waiting area. \u2022 Potential for high average revenu and return on investment \u2022 Can accommodate multiple ro rs \u2022 40K/Th\\ s, Considerations Labor-intensive Requires hands-on management team Initial capital investment and development costs higher than other types Exterior Only. Provides onl3c hicle cleaning. Consists of a separate kiosk or auto -cashier with function selector for prneain \\ trans ctions, car wash tunnel with conveyor and automated equipment and an enclosed equiprdegro, t Many exterior service locations have a separate area beside the tunnel for customers to dry off thetbycles and use such amenities as coin-operated vacuum cleaners, fragrance dispensers and carpet shampooers for final detailing. Management requirements are essentially equivalent to that for self-service car washing except for the need for line labor to operate the car wash on a day-to-da"
+      },
+      {
+        "page": "143",
+        "text": "III. BUSINESS DES Incorporated in 1993, the Company's primary business prior to 1999 was the production and sale of less-than - lethal sprays and other consumer safety and personal security products. Mace entered the car wash business in July 1999 with the merger of American Wash Services, Inc., acquiring six car wash facilities. Following this merger, Mace embarked upon an aggressive industry consolidation strategy by purchasing owner/operators who wished to exit the car wash business. Through December 2000, the Company completed seventeen acquisitions, adding an additional 56 car wash facilities and five Red Baron truck wash facilities to its portfolio, rebranded under the Mace brand name The acquisitions were funded through a combination of common stock, cash and debt During that time, Mace significantly refined its portfolio, successfully integrating its car washes into a centralized accounting and operating system. Management's strategy during this time was to establish a critical mass of car wash facilities in select regions of the U.S. in order to maximize economies of scale in marketing, advertising, labor, and control and reporting systems. In the aftermath of September 11, 2001, Company management elected to shift the Company's corporate strategy back to its consumer safety and security roots to take advantage of growth opportunities in the personal security space. During this time, the Company divested or closed eight car wash facilities. The Company's Car and Truck Wash Division has since been managed to maximize cash flow to support the growth of the Company's consumer safety and security products business line. This strategic shift has limited the amount and frequency of property - level investment primarily to maintenance capital expenditures. As a result, management believes that targeted facility upgrades could provide an opportunity for a significant return on investment. \u2022 Retains Legg Mason to identify strategic alternatives regarding the Car and Truck Wash Division \u2022 I hvested or closed 2 car wash properties lam ]\u2022 Divested or closed 4 i. ar wash properties \u2022 I /iv ested or closed 2 car wash properties support growth in the consumer safety and security products business line \u2022 Post-9/11, refocused Company strategy to \u2022 Purchased 5 Red Baron truck washes \u2022 Purchased 3 car washes, including Cherry Hill, Blue Planet, and an Eager Beaver \u2022 D"
+      },
+      {
+        "page": "144",
+        "text": "CONFIDENTIAL II. INVESTMENT CONSIDERATIONS Strong Underlying Real Estate Value The car and truck wash portfolios have appraised gross asset values on the real estate in excess of $60 million and on the enterprise in excess of $76 million. In building its portfolio, management has targeted those sites located in highly populated urban and suburban markets. Additionally, the value of the underlying real estate is not highly correlated with the car and truck wash operations. Given the prime location of many of the Division's locations, the value of the underlying real estate may provide an additional untapped value opportunity for this portfolio. As noted in Addenda E and F, many of the property appraisals date back several years, during which time the value of the retail real estate has increased substantially in most regions of the country. Leading Position in Fragmented Industry The car wash industry is highly fragmented and is comprised largely single facility. According to the Car Wash Institute, the top 50 c locations per chain while over one-quarter of the top 50 chains o top 50 operators, 33 are primarily family-owned. With 49 I operator of conveyor car washes in the U.S. An acquis geographic diversity to any existing car wash operatdr consolidation in a highly fragmented industry. Geographic Diversity of Locations Weather significantly impacts industry -wide\u20ac oliatr The geographic diversity of the Division's operating locations mitigates exposure to \\eofiditions in a particular market. rest 4/614-1\u2014 Experienced Management Team The Division's eight regional managers dependent owners operating a operatean average of only fifteen / er.,9.an ten locations. Of these ivision is the second largest sipvtfolio would: (i) add scale and \\prOvide an attractive platform for years and have successfully Mace's strategic shift of res part was driven by man7geN s ta site-by-site basis and to expired\" Operating Officer, has iraatid td. \"atatits Nabili to ac experience in the car and truck wash industry of 84 mess oth organically and through acquisitions. Prior to personal security segment, the Division's success in large tively monitor service quality and perthrma e metrics on a ective action when necessary. Mace's Chief lling to discuss joining the prospect' buyer's management"
+      },
+      {
+        "page": "145",
+        "text": "CONFIDENTIAL Historical Operating Data - Truck Washes (Dollars in Thousands) For the year ended December 31, Other Services (Clean Outs) Total Revenue Gross Profit(a) % of Revenue Operating Income \u00b0 % of Revenue Other Income % of Revenue % of Revenue Avg. Paying Wash Ticket Total Payroll/Total Rev Total Washed (a) Presented before depreciation and amo (b) Primarily rental income. Proposed Transaction Mace has retained Legg son as its exclusive financial advisor to explore strategic alternatives with respect to its Car and TrucFWIsh Division. Prospective offers for the Car and Truck Wash Division will be considered on a regional basis. However, the Company has a strong preference to complete a single transaction with one party for the purchase of the entire car and truck wash portfolio. 2002 2003 2004 $1,981.7 $1,841.3 $1,697.4 123.1 148.6 163.9 $2,104.8 $1,989.9 $1,861.3 NA -5.5% -6.5% A_ 06_ e/oo 478.0 355.7 265.2 Rs I N I GL. 22.7% 17.9% 14.2% 322.4 20 6.0 87 $36.15 $34.91 57.9% 55.2% 62.0% 33,737 50,935 48,620"
+      },
+      {
+        "page": "146",
+        "text": "CONFIDENTIAL security numbers. Management believes that such screening, while costly and non-standard for the industry, is necessary given its fiduciary duty to its public shareholders. Summary Financial Information Exhibits 2 and 3 present unaudited summary financial information for the car and or the years ended December 31. 20111 through Door hr 1. 200 Historical financial results have \u2022 een a justed to exdude certain non -recurring expenses and corporate charges for administrative services currently provided by Mace corporate personnel. For the fiscal year ended December 31, 2004, the Division anticipates car wash related revenues of approximately $38.9 million and earnings before interest, taxes, depreciation and amortization (\"EBITDA\") of approximately $8.2 million. For th revenues are anticipated to total approximately4l.9 million with EBITDA above breakevert level. r Adverse weather conditions and a shift in corporate strategy have been the primary drivers of declining car and truck wash revenues for the period 2001-2004. Historical Operating Data - CariWas .14 (Dollars in Thousand( N($ in thousands) For the year ended December 31, Total Revenue Gross Prone' ) % of Revenue % of Revenue Operating Income 10,464.3 % of Revenue 23.8% Other Income 308.1 % of Revenue 0.7% % of Revenue Avg. Paying Wash Ticket $10.90 Avg. Wash & Detail Revenue $14.19 Total Payroll/Total Revenue 47.5% Total Washed 2,508,783 $40,241.6 $38,898.1 30.2% 28.2% 27.9% 3,016.1 3,054.4 2,957.1 (0 9,265.0 8,286.6 7,895.5 22.8% 20.6% 20.3% 302.9 296.1 .(4.2$2D $9,567.8 $8,713.3 $8,191.7 23.6% 21.7% 21.1% $10.63 $10.44 $10.87 $14.03 $14.62 $15.03 48.0% 50.4% 50.6% 1.05 VS 2,343,020 2,201,359 2,059,252 I. 1.... - / co ---, (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Adjusted for a Department of Labor settlement of $34,709 in the Company's San Antonio region. (d) Adjusted for an extraordinary accident claim of $258,943 in 2003 and $51,953 in 2004 at one of the Division's Colonial facilities. (e) Adjusted for three extraordinary legal settlements totaling $165,000....---"
+      },
+      {
+        "page": "147",
+        "text": "CONFIDENTIAL The car wash and truck wash portfolios have appraised gross asset values on the real estate in excess of $60 million and on the enterprise in excess of $76 million. See Addenda E and F for a summary of the appraisals. The Company owns a fee-hold interest in 41 of the facilities and long-term leases on the remaining properties. The Company maintains a purchase option on several of the leased locations. The locations of the Company's car and truck washes and the respective services offered at these locations are set forth in Exhibit 1 below. See Addenda B and C for property -level lease summaries. Car and Truck Wash Locations Car Wash Facilities # of Facilities Type New Jersey 5 Pennsylvania 6 Sales and Marketing Operational and customer service persorme o e Division's car and truck wash locations emphasize providing quality services in ok er <trt \u2022 e customer satisfaction and retention. These efforts are enhanced through regio dv rtising, direct-mail marketing programs, e-mail marketing, and radio and television dv men . The Division spends approximately 2% - 3% of regional revenue on regional advertiix campaigns. The Division has also established affinity programs on a regional basis that provid disco voupons to existing members for future use. The Division currently has over 44,000 metberpticiabng in these programs. Industry and Competiti Management estimates at,pril 0 of the general population routinely uses car wash services, spending approximately $16 billion irC20b , with $12 billion spent on full-service and exterior only car wash services alone, and tens of billions orifollars more spent on such ancillary businesses as professional detailing services, gasoline and lubrication centers and on-site merchandise sales. The International Car Wash Association estimates that there are 75,000 car wash facilities in the U.S., of which 15,000 are full-service or exterior only locations. The car wash industry is highly fragmented and is comprised largely of independent owners operating a single facility. Competition is based primarily on location, facilities, customer service, available services and price. Management believes that it competes principally with locally owned car wash facilities and other regional car wash chains. Full-Service Exterior Only Full-Service Full-Service / Exterio Full-Service / Exterio Full-Service / Self-St Truck Wash Faci"
+      },
+      {
+        "page": "148",
+        "text": "CONFIDENTIAL I. EXECUTIVE SUMMARY Mace Security International, Inc. (\"Mace\" or the \"Company\") is a public company trading on the NASDAQ National Market System under the symbol MACE. Through its car and truck wash division (the \"Car and Truck Wash Division\" or the \"Division\"), the Company is a leading national owner and operator of car wash facilities in Arizona, Delaware, Florida, New Jersey, Pennsylvania and Texas, as well as truck washes in Arizona, Indiana, Ohio and Texas. The Division also maintains ancillary service centers at many of its car wash locations, including professional detailing centers, gasoline dispensing islands, and oil and lubrication centers. The Company's 49 car wash locations make it the second largest conveyor wash operator in the United States. For the fiscal year ended December 31, 2004, the Division generated total annual revenues and EBITDA of approximately $38.9 million and $8.2 million, respectively. Incorporated in 1993, the Company's primary business prior to oduction and sale of less- than -lethal sprays and other consumer safety and personal se tohat.. Mace entered the car wash business in July 1999 with the merger of American Wash/Se ices, c Following this merger, Mace embarked upon an aggressive industry consolidation str ukhlsing owner/operators wishing to exit the car wash business. Through December 2000f-th Com y completed seventeen acquisitions, ,.. ..07 resulting in it owning 56 car wash facilities and fiv ash,facilities. The acquisitions were funded through a combination of common stock, cash add , ' the aftermath of September 11, 2001, Company management elected to shift Mace's sack to its consumer safety and security roots to take advantage of growth opportunities t1'geso 31 security space. Since this strategic shift, the Company's Car and Truck Wash Divisio managed to maximize cash flow to support growth in the Company's consumer safety and sefu i rwtibusiness. Car and Truck Wash Operation As of December 31, 2004, thrur anio\\operates 49 full-service, exterior only and self-service car wash regional trade names, in ludm Co mual, Eager Beaver, Genie, Shammy Shine, and Weiss Guys. Of these facilities across the Unit? .yes /le e Company's Super Bright\u00ae trade name and several recognized - 3 \u2022\u2022\u2022 1. t\\ .3/4. car washes, the Division\\iera -fes collectively twelve car wash locations in New Jersey, Pennsylvania and Delawa"
+      },
+      {
+        "page": "149",
+        "text": "LIST OF EXHIBITS Section Page Executive Summary Exhibit 1. Car and Truck Wash Locations 2 Exhibit 2. Historical Operating Data - Car Washes 3 Exhibit 3. Historical Operating Data - Truck Washes 4 III. Business Description Exhibit 4. Key Events Timeline 6 Exhibit 5. Full-Service vs. Exterior Only Car Washes 7 Exhibit 6. Top 20 Car Wash Operators by Number oh ' Cications 8 \u2018 NN\\ Exhibit 7. Importance of Service Factors in Se ec_ 10 Exhibit 8. Car Wash Locations \\\\\\\\ 12 Exhibit 9. Truck Wash Locations \\ V 12 Exhibit 10. Leased Locations - as 13 Exhibit 11. Useful Lives of s 13 V. Management and Org,dza Exhibit 12. Cha 42 OrgKan< Exhibit 13. fl 1tQnqement 43 Exhibit 1 y Function and Location 46"
+      },
+      {
+        "page": "150",
+        "text": "TABLE OF CONTENTS Section Page I. Executive Summary 1 II. Investment Considerations 5 III. Business Description A. History 6 B. Industry and Competition 7 C. Car and Truck Wash Operations 11 D. Business Strategy 14 E. Sales and Marketing 16 F. Trademarks 17 G. Regulatory and Environmental Compliance 17 H. Legal Matters 17 IV. Regional Property Descriptions B. Florida Region st a S . \\ C.,, s. r 22 C. Arizona Region 25 (s:.\"4: : \\ \\\u2018. D. San Antonio (Texas) Region i f> . 29 E. Colonial (Texas) Region i c N- 31 F. Genie (Texas) Region 35 G. Lubbock (Texas) Regi 37 H. Mace (Truck) Loca 39 A. East Region V. Management and OrAzatton A. Organizatio r t\\ ,\\k\u2018 42 B. KeyMaem n .. C. Erl3 fits 46 VI. Historical Pinan \u2018crerformance , A. Conso\u2022 \"slidated Financial Summary 2001 -2004 48 B. Balance \u25aah eet as of 12/31/2004 49 C. Revenue Summary by Car Wash Facility 51 D. EBITDA Summary by Car Wash Facility 52 E. Volume Summary by Car Wash Facility 53 F. Average Wash & Detail Revenue Summary by Car Wash Facility 54 G. Management's Discussion and Analysis of Results of Operations 55 A. Detailed Financials 2001 - 2004 B. Leased Locations - Car Washes C. Leased Locations - Truck Washes D. Debt Summary E. Property Summary - Car Washes F. Property Summary - Truck Washes G. Property Summary - Car Wash Services H. Property Summary - Truck Wash Services"
+      },
+      {
+        "page": "151",
+        "text": "CONFIDENTIAL MEMORANDUM This Confidential Descriptive Memorandum (the \"Memorandum\") is based upon information supplied by Mace Security International, Inc. (\"Mace\" or the \"Company\"), and is being furnished through Legg Mason Wood Walker, Incorporated (\"Legg Mason\") solely for use by prospective acquirors, investors and other third parties in connection with their consideration of an acquisition of investment in or other transaction with the Company, as the case may be. Neither Legg Mason, the Company nor any of their respective affiliates, employees or representatives makes any representation or warranty, express or implied, as to the accuracy or completeness of any of the information contained in this Memorandum or any other information (whether communicated in written or oral form) transmitted or made available to prospective acquirors, investors or other third parties, and each of such persons expressly disclaims any and all liability relating to or resulting from the use of this Memorandum or such other information by a prospective acquiror, investor or other third party or any of their affiliates or representatives. Legg Mason has not independently investigated or verified the information contained herein. Only those particular representations and warranties, if any, which may be made by the Company to an acquiror, investor or other third party in a definitive written agreement, when, as and if executed, and subject to such limitations and restrictions as may be specified therein, will have any legal effect Each recipient agrees, and the receipt of this Memorandum serves as an acknowledgment thereof that the subject matter hereof and all of the information contained herein is of a confidential nature and that the recipient wjkpl reat such information in a confidential manner and will not, directly or indirectly, disclose or permit its affiliates or representative t'. 4disclose any information regarding its \"\"\" receipt hereof or any information contained herein to any other person or reproduce, di emsnaS4 hilior refer to this Memorandum, in whole or in part, without the prior written consent of Legg Masan. /N. The fi nancial projections presented in this Memorandum represent the j tiv ec the management of the Company and v t. . . \\ management's estimates of future performance based on various assump trench maysement believes are reasonable, but which A. "
+      },
+      {
+        "page": "152",
+        "text": "CONFIDENTIAL DESCRIPTIVE MEMORANDUM mace Mace Security International, Inc. Car and Truck Wash Division"
+      },
+      {
+        "page": "153",
+        "text": "Legg Mason Wood Walker, Incorporated Mike Shullman February 23, 2005 Minuteman Car Wash Page 2 Please submit your Proposal in conformity with the following guidelines: \u2022 Amount and Form(s) of Consideration. Please state the value to be paid and provide detail regarding the anticipated structure of your Proposal, including the form(s) of consideration to be paid (e.g., cash, stock, etc.). The Company prefers that the consideration be paid in cash at closing. However, combinations of cash, stock and marketable securities will be considered. \u2022 Acquired Balance Sheet. The value of your Proposal for the Division should assume that the acquired balance sheet is as of December 31, 2004, but excluding all cash and interest-bearing debt (with corresponding adjustments to shareholders' equity). Interest-bearing debt related to the Division as of December 31, 2004 totaled approximately $28.0 million. \u2022 Sources of Financing. Please address your financial ability to consummate the Transaction. Please indicate if your Proposal will be contingent upon obtaining financing and, if so, please provide (i) the proposed sources of financing, (ii) the timing and steps necessary to obtain financing and complete a Transaction. \u2022 Due Diligence. Please provide an outline of the key due diligence topics or documents that you would like to have addressed prior to submitting a final Proposal. \u2022 Other Conditions. Please specify any other conditions that you believe will need to be met prior to the closing of any proposed Transaction (e.g., board approval, regulatory approvals, third-party consents, etc. ). This letter is being provided pursuant to the Confidentiality Agreement into which you previously entered. You are reminded that the Company is a publicly traded company and that you have been provided certain financial and other information that has not been made generally available to the public. Therefore, as required by federal and state securities lawsyou and your Representatives who have gained knowledge of the evaluation material and the proposed Transaction agree to abide with all applicable securities laws regarding trading in any securities issued by the Company while in possession of any material nonpublic information about the Company. All communications or inquiries related to this letter and the transaction process should be referred to Legg Mason. In no event shall you d"
+      },
+      {
+        "page": "154",
+        "text": "pliWa p516.11t Legg Mason Wood Walker, Incorporated Suite 1210, 1600 Market Street, Philadelphia, PA 19103 215.446.8150 Fax: 215.446.8186 Member New York Stock Exchange, Inc. /Member SIPC PRIVATE AND CONFIDENTIAL Mike Shullman Minuteman Car Wash 297 Main Avenue Norwalk CT 06851 February 23, 2005 Dear Mr. Shullman: On behalf of Mace Security International, Inc. (the \"Company\") we would like to thank you for your interest in the Company's Car and Truck Wash Division (the \"Division\"). The Company has appointed Legg Mason Investment Bathing (\"Legg Mason\") to act as its exclusive financial advisor in connection with an evaluation of strategic alternatives with respect to the Division. Please find enclosed a copy of the Confidential Memorandum that describes the Division in greater detail than is currently available in the Company's public filings. The remainder of this letter constitutes an invitation for the submission of a written, non-binding indication of interest (the \"Proposal\") outlining the general terms and valuation that you would ascribe for the purchase of the entire Division or certain regions of the Division (the \"Transaction\") as defined in the descriptive memorandum. While regional Proposals will be entertained, Proposals for the entire Division will be favored. In order to enable the Company to evaluate Proposals on a comparable basis, your Proposal should comply with the terms and conditions outlined below. If your Proposal is not in compliance with these terms and conditions, it could place you at a significant disadvantage relative to other prospective purchasers. Following the receipt and review of all Proposals with the Company, select parties will be invited to meet with management, tour the Company's properties, and be provided access to additional information about the Division. Instructions for Proposal Submission Your Proposal should be sent, or faxed to the address below prior to 5:00 p.m. Eastern Daylight Time on Wednesday, March 16, 2005. Your Proposal must be submitted in written form and executed by an officer authorized to bind your organization to its terms. Legg Mason Wood Walker, Incorporated Attn: Spencer G. Levy / Steven D. Higgins 100 Light Street, 31' Floor Baltimore, MD 21202 Fax: 410-454-5342"
+      },
+      {
+        "page": "155",
+        "text": "Mace Security International Descriptive Memorandum Page 1 oi Mike Shulima& From: Bratengen, Kristin, J . [KJBratengen@LMUS.LeggMason.corn] Sent: Wednesday, February 23, 2005 11:15 PM To: Mike Shullman Cc: Levy, Spencer G.; Higgins, Steven D. Subject: Mace Security International Descriptive Memorandum Attachments: Mace CDM 2.23.05.pdf; Minuteman PL 2.23.05.doc Attached please fmd an electronic copy of the descriptive memorandum regarding Mace Security International, Inc.'s Car and Truck Wash Division. A hard copy of the descriptive memorandum will be sent to your attention shortly. In addition to the memorandum, you will also fmd an instruction letter highlighting the next step in the process. Please feel free to contact Steve Higgins, Spencer Levy, Peter Lesburg or myself if you require additional information or have questions regarding the Thank you for your continued interest. Best regards, Steven Higgins (215) 446-8166 Spencer Levy (410) 454-5112 Peter Lesburg (410) 454-5485 Kristin Bratengen (215) 446-8177 fadieP` KA Ji5 \u00abMace CDM 2.23.05.pdf>> <<Minuteman PL 2.23.05.doc>> IMPORTANT: The security of electronic mail sent through the Internet is not guaranteed. Legg Mason therefore recommends that you do not send confidential information to us via electronic mail, including social security numbers, account numbers, and personal identification numbers. Delivery, and timely delivery, of electronic mail is also not guaranteed. Legg Mason therefore recommends that you do not send time-sensitive or action -oriented messages to us via electronic mail, including authorization to \"buy\" or \"sell\" a security or instructions to conduct any other financial transaction. Such requests, orders or instructions will not be processed until Legg Mason can confirm your instructions or obtain appropriate written documentation where necessary. IF Bo Ots-rir lz-ers-r 07 14-ers- 3,0 ltaCo - 5aL eP\u2022 Pt ccas"
+      },
+      {
+        "page": "156",
+        "text": "NJ & PA Super Bright locations l wash menu guarantees preferred customer club links I comments & contact us Rt. 41 and Ivanhoe Rd. \u2022 Deptford NJ 08096 (Cherry Hill) 1505 E. Marlton Pike \u2022 Cherry Hill, NJ 931 E. Lancaster Ave. \u2022 Bryn Mawr PA 19010 10 E. Germantown Pike \u2022 Norristown, PA 19401 1100 Bethlehem Pike \u2022 Flourtown PA 19031 601 East Market Street \u2022 West Chester PA 19380 Please click on an address to get directions to that location Mon through Sat - Barn to 5pm Sun - 9am to 4pm Exterior Wash, Self Service Wash & Se 856-228-9790 Vacuum Mon through Sun - 8am to 6pm 856-428-0003 Full Service, Express Detailing Mon through Sat - Sam to 5pm 610-525-3179 Full Service, Express Detailing Sun - 9am to 4pm Mon through Sat - 8am to 5pm 610-279-2960 Full Service, Express Detailing Sun - 9am to 4pm Mon through Sat - 8am to 5pm 215-233-1100 Full Service, Express Detailing Sun - 9am to 4pm Mon through Sun - Sam to 6pm 610-431-4637 Exterior Wash, Self Service Vacuum The Mace family of car washes has 55 locations in 6 states including Arizona, Delaware, Florida, New Je Pennsylvania and Texas. Please visit our other locations: Deptford, Cherry Hill NJ Bryn Mawr, Norristown, Flourtown, West Chester San Antonio, Lubbock TX Austin TX Chandler, Mesa, Pheonix, Scottsdale, Arlington, Dallas, Fort Bradenton, Fort Myers, Sarasota, Venice FLA Magnolia, Mot http://www.superbrightearwashes.com/njpainjpa.htral 1/16/2005"
+      },
+      {
+        "page": "157",
+        "text": "Shammy Shine Car Wash & Detailing Page 1 of Hours for all Shammy Shine Car Washes are Monday through Sunday 8am to 6pm. Please click on an address to get directions to that location Location Phone Services 240 Dupont Highway \u2022 Smyrna, DE 19977 302-653-9190 Exterior Car Wash & Self Service Vacuum 1442 Brace Road \u2022 Cherry Hill, NJ 08034 2575 Mount Ephraim Road \u2022 Camden, NJ 08104 856-795-5445 Exterior Car Wash & Self Service Vacuum 327 Burnt Mill Road - Voorhees, NJ 08043 856-429-9523 Exterior Car Wash & Self Service Vacuum Exterior Car Wash, Self Service Car Wash & Self Service 325 North White Horse Pike \u2022 Magnolia, NJ 08049 856-783-1974 Vacuum 215 West Camden Avenue- Moorestown. NJ 08057 856-231-1151 Exterior Car Wash & Self Service Vacuum 509 Williamstown New Freedom Rd. \u2022 Sicklerville NJ Exterior Car Wash, Self Service Car Wash & Self Service 856-728-9634 08081 Vacuum 856-962-9801 Exterior Car Wash & Self Service Vacuum 110 McDade Blvd. \u2022 Yeadon, PA 19050 610-4614764 Exterior Car Wash & Self Service Vacuum 2310 Island Road \u2022 Philadelphia, PA 19142 215-365-7696 Exterior Car Wash & Self Service Vacuum The Mace family of car washes has 55 locations in 6 states including Arizona, Delaware, Florida, New Jersey, Pennsylvania and Texas. Please visit our other locations: Deptford, Cherry Hill NJ Bryn Mawr, Norristown, Flourtown, West Chester PA San Antonio, Lubbock TX Arlington, Dallas, Fort Worth Bradenton, Fort Myers, Sarasota, Venice FLA glit\u201e, --)9 Car Wash and Detailing Chandler, Mesa, Pheonlx, Scottsdale, Tempe AZ http://www.shammyshineearwash.com/ 1/16/200:"
+      },
+      {
+        "page": "158",
+        "text": "CONFIDENTIAL PROPERTY SUMMARY - TRUCK WASH SERVICES"
+      },
+      {
+        "page": "159",
+        "text": "CONFIDENTIAL PROPERTY SUMMARY - CAR WASH SERVICES FacialIv Tire SerekeePsweldad Canlame BSISSNYS Site Hadenlee Sleds Sell-Seivice Drag tabs Pad himedloa lea Sem Din BandWash ra 18.ntliggiMIESSaa Arizona -Site \u2022 I 63 4,..... 1119 1111111111111.1.111CM.SItt \u2022 fISESSiiinairntrterW^ - 7-ir Aettoos\u2022Stie IS 11 Arizona - Slit 014 \u2022 \u2022 r ti1 874 1 0 a ( 4W. Colonial 6 ECplr Colonial 8 EC:aerial -9 C.ente Reston resit - San Antonio - Teus /3 San Antonio Antonio.Tnfl n C151 w al iliM31111111111111.1111 Erry Noy:town West Chester .Bartkilis 74 mace"
+      },
+      {
+        "page": "160",
+        "text": "CONFIDENTIAL PROPERTY SUMMARY \u2014 TRUCK WASHES Site Location Leased Full Value Value of the Land and Building Gross Building Area (sq. ft.) Site Area (sq. ft.) Year Built Amarillo Amarillo, TX 2/14/2001 Owned $ 930,000 780,000 4,656 122,592 1987 Eloy Casa Grande, AZ 2/14/2001 Leased 750,000 530,000 4,500 91,915 1987 Holbrook Holbrook, AZ 2/21/2001 Leased 160,000 160,000 4,000 67,662 1987 London London, 01-1 2/14/2001 Leased 750,000 660,000 4,368 87,120 1990 Lake- Station Lake Station, IN 2/8/2001 Leased 800,000 740,000 8,080 103,585 1987 $ 3,390,000 2,870,000 25,604 472,874 garrithig 73 mace"
+      },
+      {
+        "page": "161",
+        "text": "CONFIDENTIAL Arizona Region Arizona -Site # 1 Arizona - Site #2 Arizona- Site # 3 Arizona - Site #4 Arizona -Site # 5 Arizona -Site # 6 Arizona- Site # 8 Arizona -Site # 10 Arizona - Site # 11 Arizona -Site # 12 Arizona- Site # 14 Arizona -Site # 15 PROPERTY SUMMARY - CAR WASHES Appraisal Owned/ Value of the Location Date Leased Full Value Land and Building Chandler. AZ 1/5/2000 Leased $ 870200 $ 1/5/2000 Owned 1,750,000 1/4/2030 Owned 4,000000 1/5/2000 Owned 1,640,000 1/5/2000 Owned 2.460,030 1/4/2000 Owned 3,300,000 1/4/2030 Owned 2810,000 1/5/2000 Owned 2%10,000 1/5/2000 Owned 1,780000 1/5/2000 Owned 1,730200 3/2/20\u00ae Leased 1,560,000 3/8/2000 Leased 590,000 Colonial Region Colonial 1 Arlington, TX 11/30/2013 Owned 2,670,030 Colonial 3 Adulators TX 11/30/2003 Owned 1,110,000 Colonial 4 Oaths. Tx . 11/30/2003 Owned 1,320,000 Colonials Fort Werth, TX 11/30/21333 Owned 54O, Colonial 6 Magma TX 11/30/2003 Owned 1,500,000 Colonial 7 Fort Worat TX 11/30/2CO3 Leased 1,520,000 Colonials \"Von TR 11/30/2003 Owned 570,8013 Colonial 9 Fort Worth, TX 11/30/21303 Leased 1,580,000 Blue Planet Dallas, TX 11/30/2003 Owned 2,540,000 Genie Region Genie No.1 Malin TX 11/30/2033 Owned 173000 Genie No.2 Mak. TX 11/30/2003 Owned 1,54 E540,000 GeMe No. 3 Maim TX 11/30/2033 Owned 1,580,000 Lubbock Region Crystal Falls Labbock. TX 11/30/2003 Hanna Lubbock. TX 11/30/2083 50s Lubbock, TX 11/30/2003 San Antonio Region San Antonio -Texas #1 San Antonio. TX San Antonio -Texas #3 SanAntonio. TX San Antonio- Texas #5 SanAmordo. TX San Antonio -Texas #6 Univenal Cay, TX Florida Region Bradenton 11196=o11. a. ned 1,375,00 1,300,000 North Sarasota &MOM. FL Owned 1,402000 1,077,000 South Sarasota Sarasota, Owned 3,300,01/3 1,780,000 .... Venice Venice Owned 1,300,000 900,000 Fort Myers Owned 4,31E1,000 1,902000 Beneya Owned 1,800,000 1,476,000 000 1,320000 110,000 1,110,000 520,000 520,000 Smyrna Smyrna, DE 1/1/2002 Leased - - Deptford oentford,N1 1/1/2002 Owned 870,000 870,000 Camden CamdeA NI 1/1/2002 Owned 620,000 620,000 Skklerville Siekknille.10 1/1/2002 Owned 920,003 920,000 Moorestown Moon:down, rd 1 /1 /21110 Owned 280,000 280,000 Cherry Hill Meny Hill M 1/1/2002 Owned 2103,000 2,100000 Yeadon Yodon.PA 1/1/2002 Leased - Airport Philadelphia, PA 1/1/2002 Owned 4253000 424000 Bryn Mawr Bryn Mawr.PA 1/1/2012 Leased - - Flourtown Flowtoma PA 1/1/7017 Owned 980,000 980,00D Norristown Nonis"
+      },
+      {
+        "page": "162",
+        "text": "CONFIDENTIAL DEBT SUMMARY Mace Entity Creditor Nature of Indebtedness Payment Tetras Maturity Principal Balance as of 12/31/04 Genie #1 Bank One Term Loan P + 25bps 2/17/08 $ 3,785,289 Colonial #1 Bank One Mortgage P + 25bps 9/15/09 1,099,283 Colonial #6 Bank One Mortgage P + 25bps 7/21/06 31,490 Colonial #8 Bank One Mortgage P + 25bps 8/20/09 467,868 Colonial #9 Bank One Mortgage P + 25bps 8/20/09 1,258,755 Colonial (#s 1,8,9) Bank One Tenn Loan Pt 25bps 2/17/08 304,507 Colonial #6 Bank One Term Note Pt 25bps 10/6/09 317,867 Colonial #4 Bank One Mortgage 11/ 11/ 11 671,407 Blue Planet Business Loan Express Mortgage maT'k) 12/1/22 1,371,440 All Eager Beaver Properties Bank One Promissory Note 11/28/08 5,306,289 Crystal Falls Western National Bank Mortgage n's7 10/25/14 1,670,555 Weiss Guys #3 GMAC m Mortflage/ c\"\" \" O 2 10/1/13 2,161,281 Weiss Guys #4 GMAC 8.52% MmtF 6 A \\\\ K\\ > 10/1/13 696,005 Weiss Guys 46 GMAC\" ) 8,52% /j iff tg aW \\\\ 10/1/13 1,392,012 Weiss Guys #11 GMAC \") 8.52% 10/1/13 494,680 Weiss Guys #10 GMAC \") /s ).\\\\ Itkel isg./ /e l 8.52% 10/1/13 1,648,434 Weiss Guys #1 GMAC e g. e 8.52% 10/1/13 439,583 Weiss Guys #5 Mortgage 8.52% FIX rek\\ 9/30/13 1,456,266 Weiss Guys #8 ICKV3 \\\\> Mortgage 8.52% 9/30/13 1,165,013 r ifga\u2018Ok& rte, ) Mortgage Pt 25bps 7/10/08 664,959 Mace \\132)1k ?re Mortgage Pt 25bps 4/30/05 294,849 Capital Leases Shammy Man Columbia Credit Company Capital Lease 14.50% 5/1/05 32,417 Colonial Bank One Inspection Machines 7.78% 7/12/07 105,974 Colonial Bank One Inspection Machines 7.75% 1/29/07 22,913 Total Debt & Capital"
+      },
+      {
+        "page": "163",
+        "text": "CONFIDENTIAL LEASED LOCATIONS - TRUCK WASHES Property Payment Schedule Lease &Oral on OPN 52405.5urdand Gizt MAN Pinto (3% of Cross Sacs or Slam- whichever 's greater) Casa Grande, AZ Lease 2 Brown Road Professional MO E. Brown Rd. 1113 1855 Highway 77 Holbrook. AZ 124 Ripley Street Labs Sleben, IN Saff.51/moflms9/30/fsl $1439.15 p/mo (0 1/ 1/ 2;01) Adjusted by CPI +3% of monthly receipts 'amass of A10/100 51,500 p/mo or 3% of gross yaks (whichever Is greater) PIOUS Highway 42 Northeast $500 p/mo Londort OH Leme 2 44,047.25 p/mo (as extended) Cunently on 2m1 5-year renewal option Option to renew for additional IA years and mat Two additional 5-year options Right of lint refusal to purchase"
+      },
+      {
+        "page": "164",
+        "text": "CONFIDENTIAL LEASED LOCATIONS -CAR WASHES Property Payment schedule West Chester $7.596A8 p/sno (01/1 / 2601): $7,97630 p/mo (011/1/2009 54375.12 p/mo M11/1/2002% $8,79388 p/mo (0)1/1/3)03% 5923337 p/mo (011/1/2004); $06 9525 P/Mo (011/1/2)20% 510180.01 p/mo (011/1/2006)r 5% rue p/yr (each November) 5617189 p/mo (01 /1 /2(01); $5.108.65 p/mo (03/1/2001); 55,65106 p/mo (123/1/2002): 55,90639 p/mo (03/1/ 3); $6186A0 p/mo (0 3 / 1 /2004% $4419.93 p/mo (0 )/l/2 ); 5474018 p/mo (0 3/1/2006); 4.5% ese p/yr (each March) shammy Shine -Braden $1,250130 p/mo through 4/1 / 2031: $1,300.00 p/mo (0 5/1 /3COM 6211260 rim. MS/I/MU $1,365.00 p/mo (05/1/2053); sumo p/mo (05/1/2014); 51,13000 p/mo (05/1/2015) Shammy Sine -Smyrna 31 4 22A0 Pim\u00b0 (01/1 /2001), 51,68730 p/mo (01/1/2002); $1,75179 p/mo MI/1/203); $1,824.98 p/mo MI/1/200A 51697.93 p/mo (01 /1 /2005); B197350 Pim\u00b0 (01/1/2006); 4% esc p/yr (each )anuary) Lease Expiration 11(3y ear option through 30/208 Right of first refusal to purchase 15 -year option through 2/2015 Rdght or first refusal to endwise One %year renewal option at MB nuirket value 15yar option through) / 2014 Right ot first refusal to purchase Colonial1M Equipment Lease 32,0300mo ,--\\ 3/2006 Purchase option for 5225,000 Colonial 07 Lease 1 513,Cal p/mo 3/2036 2 consecutive1%year options Lease 2 Purchase opNon or $1.201 - expires3/1/2036 $1503 p/mo 3/2606 2 consecutive10-year options Lease 3 Purchase option 55,000 p/mo 3/2006 2 consecutive 10-year options Purchase option Colonial 09 \u2022 56625 p/mo \\LI 7/1/2007 N/A Weiss Guys 1114 -Shammy Man 54030.03 p/mo turtil 2/28/X0% 7/31/2017 N/A 55,750.03 p/mo (03/1/2004); 5461100 rim\u00b0 (03/1/2009) 57404r0 p/mo BO 3/1/2011) Weiss Guys 015- White Glove 56(03 p/mo 6/30/2003 6-year options Coextend lease 1st option exercised - expires 6/30/ 20J8 Lease also Includes \"Percentage Rent\", based on sales volume - payable 'Mauch Weiss Guys 01 $1,324.41 p/mo elf 8/1/ 2D20; Expired: 7/31/ 20,u N/A 54,442.03 p/mo eft 8/1/ 2001 Extended Ice 7/31/2007"
+      },
+      {
+        "page": "165",
+        "text": "CONFIDENTIAL Mace (Truck Wash) Locations ($ in thousands) For the year ended December 31, Other Services (Clean Outs) Total Revenue % of Revenue Direct Overhead % of Revenue Gross Profit\" % of Revenue % of Revenue Operating Income \" % of Revenue Other Income \" % of Revenue % of Revenue Av . raying Wash Ticket To rioll/ Total Revenue Total Washed 2002 2003 2004 $1,981.7 $1,841.3 $1,697.4 123.1 148.6 163.9 $2,104.8 $1,989.9 $1,861.3 1,299.9 1,309.9 1,270.6 61.8% 65.8% 68.3% 326.9 324.3 325.5 15.5% 16.3% 17.5% 478.0 355. 265.2 $332.3 $210.7 $7.6 15.8% 10.6% 0.4% 81.4 84.2 94.3 250.9 126.4 (86.7) $5578:974% $3556:215% 33,737 50,935 48,620 (a) Presented before depredation and amortization expense. (b) Primarily rental income."
+      },
+      {
+        "page": "166",
+        "text": "CONFIDENTIAL Arizona Region ($ in thousands) For the year ended December 31, Other Services Lube & Other Services Total Revenue % of Revenue $7,608.3 $7,963.2 $8,799.4 $9,056.4 NA 4.7% 10.5% 2.9% 5,035.3 5,064.7 5,354.2 5,536.0 66.2% 63.6% 60.8% 61.1% Direct Overhead 694.3 669.8 680.3 728.2 % of Revenue 9.1% 8.4% 8.0% Gross Prone ) % of Revenue % of Revenue 1,878.7 Z228.7 2,792.1 Operating Income (\u00b0) 2,054.4 2,060.0 % of Revenue 23.3% 22.7% Other Income \" % of Revenue 144.1 235.7 120.1 EBITDA 3.4 $1,717.9 $2,290.1 $2,180.1 % of Revenue 18.7% 21.6% 26.0% 24.1% ID&A 432.8 440.6 (0 433.9 416.2 EDIT 940.6 1,277.4 1,856.1 1,763.9 % of =nue 12.4% 16.0% 21.1% /9.5% Avg. Paymg ash Ticket $10.45 $10.39 $10.22 $10.10 Avg. Wash Sz Detail Revenue $13.53 513.49 $15.04 $14.96 Total Payroll/Total Revenue 53.2% 51.2% 51.1% 51.5% Total Washed 515,999 551,376 547,798 565,966 (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Excludes write -down of assets of $952,313. Miztjking 67 mace"
+      },
+      {
+        "page": "167",
+        "text": "CONFIDENTIAL San Antonio (Texas) Region ($ in thousands) For the year ended December 31, 2001 Car Wash $1,596.7 Detail 961.1 Other Services 0.0 Lube & Other Services 371.2 Merchandise 79.2 Total Revenue % of Revenue Direct Overhead 191.8 % of Revenue 6.3% Gross Profit % of Revenue % of Revenue Operating Income is % of Revenue Other Income (b1 % of Revenue % of Revenue Other Data.\u2018_\u2022 $2,489.5 $2,368.1 1,636.6 1,670.7 6 $451.8 $241.2 $123.5 7.3% 18.1% 10.2% 6.0% 93.5 104.1 102.6 100.4 435.1 347.7 138.5 23.1 /4.2% 14.0% 5.8% 1.1% Avg. Paying- Wash Ticket $11.98 Avg. Wash & Detail Revenue $17.53 Total Payroll/Total Revenue 53.5% Total Washed 145,905 (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Adjusted for a Department of Labor settlement of $34,709. $11.42 $10.51 $9.84 $17.36 $16.55 $16.14 53.7% 56.7% 58.8% 119,343 116,845 103,995 MASON 66 mace"
+      },
+      {
+        "page": "168",
+        "text": "CONFIDENTIAL Lubbock (Texas) Region ($ in thousands) For the year ended December 31, Other Services Lube & Other Services Total Revenue % of Revenue 2002 2003 2004 $2,214.4 $1,749.1 $1,538.7 $1,277.2 568.9 497.9 512.3 506.7 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 884.5 893.4 1,199.7 1,616.4 267.2 252.5 260.9 284.6 $3,934.9 $3,393.0 $3,511.6 $3,684.8 NA -13.8% 3.5% 4.9% Direct Overhead 212.3 % of Revenue 5.4% % of Revenue % of Revenue 2,486.6 2,673.3 3,039.5 63.2% 67.9% 82.5% 175.1 8 .1 183.4 1,017.9 731.3 Operating Income (4 7 % of Revenue 19. Other Income \" % of Revenue % of Revenue 20.6% % of Pevenrre 15.9% $509.4 $435.8 Avg. Paying ash Ticket $12.72 $12.05 $12.11 $11.07 Avg. Wash & Detail Revenue $15.67 $15.25 $16.01 $15.13 Total Payroll/Total Revenue 44.9% 46.5% 49.5% 52.4% Total Washed 177,609 147,362 128,142 117,877 (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Adjusted for stolen property suit loss of $21,000. .naukthis- 65 mace"
+      },
+      {
+        "page": "169",
+        "text": "CONFIDENTIAL Genie (Texas) Region ($ in thousands) For the year ended December 31, Other Services Lube & Other Services Total Revenue % of Revenue Direct Overhead % of Revenue Gross Profit@ % of Revenue % of Revenue Operating Income (') % of Revenue Other Income lb' % of Revenue % of Revenue % ofiReveniw $2,721.0 $2,607.2 2,146.9 2,019.1 $6,024.1 $5,722.3 3,529.8 3,369.5 327.4 / 3413 $92.5 $1,749.0 $1,575.1 27.9% 29.0% 27.5% 215.0 155.0 166.5 1,677.5 1,593.9 1,408.6 24.8% 26.5% 24.6% Avg. Paying ash Ticket $11.18 $10.70 $10.64 $11.23 Avg. Wash & Detail Revenue $19.00 $18.57 $18.31 $19.58 Total Payroll/Total Revenue 45.7% 46.4% 46.2% 46.8% Total Washed 281,099 262,191 252,701 212,026 (a) Presented before depreciation and amortization expense. (b) Primarily rental income."
+      },
+      {
+        "page": "170",
+        "text": "CONFIDENTIAL Colonial (Texas) Region ($ in thousands) For the year ended December 31, Other Services Lube & Other Services Total Revenue % of Revenue 2002 2003 2004 $5,086.2 $4,280.3 $3,248.7 $3,138.3 1,774.3 1,561.8 2,025.6 1,616.4 38.6 76.2 61.9 52.2 3,579.0 3,551.3 3,601.1 3,012.5 222.5 144.4 138.7 194.2 204.4 186.4 191.6 162.5 $10,904.8 $9,800.4 $9,267.6 $8,176.0 NA -10.1% -5.4% -11.8% 6,982.8 6,469.4 6,400.6 0 5,418.7 0 64.0% 66.0% 69.1% 66.3% Direct Overhead 1,049.3 1,041.9 1,3419 1,079.6 % of Revenue 9.6% 10.6% /3.2% Gross Prof-104 2,872.7 2,289.1 1,677.7 % of Revenue 26.3% 23. 20.5% % of Revenue Operating Income w % of Revenue Other Income \u00b0 % of Revenue % of Revenue % of Revenue Avg. Paying ash Ticket Avg. Wash & Detail Revenue Total Payroll/Total Revenue Total Washed 78.9 101.8 68.4 $1,118.5 $1,028.2 1,262.7 714.9 638.6 $11.47 $10.06 $9.10 $10.41 $14.96 $13.50 $14.51 $14.80 49.9% 51.4% 57.3% 53.4% 458,726 432,637 363,484 321,357 (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Excludes write -down of assets of $129,403. (d) Excludes write -down of assets of $325,000. (e) Adjusted for accident claim of $258,943 in 2003 and $51,953 in 2004. (0 Adjusted for accident claim of $44,000. MASON 63 ace"
+      },
+      {
+        "page": "171",
+        "text": "CONFIDENTIAL ($ in thousands) For the year ended December 31, Other Services Lube & Other Services Total Revenue $5,588.0 % of Revenue Direct Overhead % of Revenue Gross Profit 0) % of Revenue % of Revenue Operating Income (4 % of Revenue Other Income (b) % of Revenue % of Revenue Avg. Paying Wash Ticket Avg. Wash & Detail Revenue Total Payroll/Total Revenue Total Washed $3,978.7 $3,740.1 $5,153.5 $4,812.9 2,585.5 2,469.1 741.8 <809:4 2,204.1 1,826. 1,450.8 1,228.8 1,185.1 ,876.1 $1,507.4 $1,235.0 33.6% 29.2% 25.7% 221.2 224.8 (9 196.2 1,654.9 1,282.5 1,038.8 987.1 $8.24 $8.69 $8.78 $9.72 $10.40 $10.38 39.1% 41.0% 43.1% 549,394 470,792 440,751 (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Excludes write -down of assets of $1,836,823."
+      },
+      {
+        "page": "172",
+        "text": "CONFIDENTIAL REGIONAL FINANCIAL SUMMARIES Florida Region ($ in thousands) For the year ended December 31, 2001 Car Wash $4,784.9 Detail 959.6 Other Services 0.0 Lube & Other Services 0.0 Merchandise 266.1 Total Revenue $6,010.6 $5,775.6 3,196.2 3,099.7 % of Revenue 55.3% 53.7% Total Overhead 327.2 322.8 % of Revenue 5.7% 5.6% Gross Profit 2,487.2 % of Revenue 43.1% % of Revenue Operating Income (al % of Revenue Other Income at % of Revenue EBITDA $2,106.1 % of Revent 36.5% EBIT 1,936.2 % of Revenue 3 33.5% Avg. Paying Wash Ticket $13.34 Avg. Wash & Detail Revenue $15.12 Total Payroll/Total Revenue 46.2% Total Washed 380,051 $4,505.3 $4,567.9 969.2 1,001.9 $5,759.7 $5,921.7 3,288.5 3,217.5 365.8 367.7 (e) 55.7 1,774.1 2,013.1 33.9% 30.8% 34.0% 44.8 43.6 71.9 62,000.5 $1,817.7 $2,084.9 34.6% 31.6% 35.2% 178.6 174.5 185.7 1,821.9 1,643.2 1,899.2 31.5% 28.5% 32.1% $13.41 $13.48 $14.24 $15.36 $15.57 $16.47 46.1% 48.6% 46.7% 359,319 351,638 338,223 Presented before depredation and amortization expense. Primarily rental income. Adjusted for extraordinary legal suit reserve of $100,000 at the Division's Venice location. MASON 61 mace"
+      },
+      {
+        "page": "173",
+        "text": "CONFIDENTIAL For the year ended December 31, ($ in thousands) East Car Wash $3,645.2 Detail 907.4 Other Services 129.8 Lube & Other Services 0.0 Merchandise 1163 Total Revenue $4,798.8 % of Total /2.3% Total COGS 2,607.9 % of Revenue 54.3% Direct Overhead 740.1 % of Revenue 15.4% Gross Profit\" 1,450.8 % of Revenue 30.2% % of Revenue 5.5% Operating Income\" 1,185.1 % of Revenue 24.7% Other Income \"' 3.4 % of Revenue 0.1% EBI1DA $1,188.5 % of Revenue 24,8% Avg. Paying Wash Ticket $9.48 Avg. Wash Fr Detail Revenue $1139 Total Payroll/Total Revenue 44.8% Total Washed 399,8 Lubbock TOTAL $1,277.2 $21,266.0 506.7 9,692.2 1,616.4 2,779.4 284.6 1,342.9 $5,921.7 $9,056.4 $2,068.2 $8,176.0 $5,192.2 $3,684.8 $38,898.1 15.2% 23.3% 5.3% 21.0% 13.3% 9.5% 100.0% 3,217.5 5,536.0 1,493.2 5,418.7 t 3,097.0 3,039.5 24,409.9 54.3% 61.1% 72.2% 66.3% 59.6% 82.5% 62.8% 216.4 1,079.6 2,380.8 2,792.1 358.6 40.2% 30.8% 17.3% 367.7 m 732.2 235 183.4 3,635.6 730.8 461.9 10,852.6 415.1 223.3 \"1 2,957.1 2,013.1 2,060.0 8 1,315.6 238.6 7,895.5 34.0% 22.7% 11.7% 25.3% 6.5% 20.3% (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Adjusted for accident claim of $51,953. (d) Adjusted for extraordinary legal suit reserve of $100,000. (e) Adjusted for accident claim of $44,000. (0 Adjusted for stolen property suit loss of $21,000. 123.5 $1,028.2 $1,345.6 $240.8 $8,191.7 6.0% 12.6% 25.9% 6.5% 21.1% 0 $9.84 $10.41 $11.23 $11.07 $10.87 $1436 $16.14 $14.80 $19.58 $15.13 $15.03 51.5% 58.8% 53.4% 46,8% 52.4% 50.6% 565,966 103,995 321,357 212,026 117,877 2059,252 MASON 60 ace"
+      },
+      {
+        "page": "174",
+        "text": "CONFIDENTIAL For the year ended December 31, ($ in thousands) Other Services Lube & Other Services Total Revenue %. of Revenue Direct Overhead % of Revenue Gross rrofitW % of Revenue % of Revenue Operating Income ot % of Revenue Other Income % of Revenue % of Revenue Avg. Paying Wash Ticket $8.78 Avg. Wash & Detail Revenue $10.38 Total Payroll/Total Revenue 43.1% 84 Total Washed 440, East Florida Arizona $3,740.1 $4,505.3 $5,357.0 834.1 969.2 2,883.2 141.5 0.0 0.0 0.0 0.0 169.6 0.0 0.0 171.9 97.1 285.2 217.7 $4,812.9 $5,759.7 $8,799.4 12.0% 14.3% 21.9% 2,469.1 3,288.5 5,354.2 51.3% 57.1% 60.8% 800.4 3313 680.3 1,543.3 2,139.9 2,764.9 32.1% 37.2% 31.4% 314.5 365.8 710.5 1,228.8 1,774.1 2,054.4 25.5% 30.8% 23.3% $1,235.0 $1,817.7 (a) Presented before depredation and amortization expense. (b) Primarily rental income. (c) Adjusted for accident claim of $258,943. San Antonio Colonial Genie $1,158.7 $3,248.7 $2,607.2 775.2 2,025.6 2,019.1 0.0 61.9 170.0 336.4 3,601.1 0.0 43.1 138.7 788.0 54.8 191.6 138.0 $2,368.1 $9,267.6 $5,722.3 5.9% 23.0% 14.2% 1,670.7 6,400.6 3,369.5 19.0% 693% 58.9% 223.5 1,111.9 341.3 474.0 75 011.5 1014.8 1,545.4 41.2 $1,118.5 $1,575.1 1022 $10.51 $9.10 $15.04 $16.55 $14.51 51.1% 56.7% 57.3% 547,798 116,845 363,484 Lubbock TOTAL $1,538.7 $22,155.7 512.3 10,018.8 1,199.7 2,341.3 260.9 1,245.3 $3,511.6 $40,241.6 2,673.3 25,225.8 186.1 3,674.8 652.2 11,341.0 221.0 3,054.4 431.2 8,286.6 $435.8 $8,713.3 $10.64 $12.11 $10.44 $18.31 $16.01 $14.62 46.2% 49.5% 50.4% 252,701 128,142 2,201,359 Thtt-shiient Biapking 59 mace"
+      },
+      {
+        "page": "175",
+        "text": "CONFIDENTIAL For the year ended December 31, (5 in thousands) East Florida Car Wash $3,978.7 $4,513.6 Detail 919.2 1,00-1.1 Other Services 163.0 0.0 Lube & Other Services 0.0 0.0 Fuel 0.0 0.0 Merchandise 92.7 257.9 Total Revenue $5,153.5 $5,775.6 % of Total 12.7% 14.2% Total COGS 2,585.5 3,099.7 % of Revenue 50.2% 53.7% Direct Overhead 741.8 322.8 % of Revenue 14.4% 5.6% Gross Profit 14 1,826.2 2,3532 % of Revenue 35.4% 40.7% SG&A 318.8 397.5 % of Revenue 6.2% 6.9% Operating Income\u00b0 1,507.4 1,955.7 % of Revenue 29.2% 33.9% Other Income e' 0.0 44.8 % of Revenue 0.0% 0.8% EBITDA $1,507.4 $2,000.5 % of Revenue 29.2% 34.6% EBIT 1,282.5 % of Revenue 24.9% Avg. Paying Wash Ticket 9 Avg. Wash & Detail Revenue Total Payroll/Total Revenue co a N... )15.36 Total Washed 470 07 359,319 $5,420.2 $1,297.0 2,017.2 774.7 (a) Presented before depreciation and amortization expense. (b) Primarily rental income. (c) Adjusted for a Department of Labor settlement of $34,709. (d) Excludes write -down of assets of $1,836,823. (e) Excludes write -down of assets of $952,313. (0 Excludes write -down of assets of $325,000. $7,963.2 $2,489.5 5,064.7 1,636.6 14 7998.7 685.7 Colonial Genie 54,280.3 $2,721.0 1,561.8 2,146.9 $9,800.4 $6,024.1 6,469.4 3,529.8 1,041.9 327.4 1,573.8 .9 1,717.2 19.8% 15.8% 28.5% 51.8 $1,631.8 $1,749.0 104.1 369.2 to 155.0 1,277.4 347.7 1,2627 1,593.9 16.0% 6.0% 12.9% 26.5% 551,376 119,343 432,637 262,191 $10.39 $11.42 $10.06 $13.49 $17.36 $13.50 51.2% 53.7% 51.4% $3,393.0 $40,599.2 2,486.6 24,872.3 175.1 3,445.8 731.3 12,281.0 225.1 3,016.1 5062 9,265.0 $509.4 $9,567.8 150.0 1,622.3 359.4 7,945.5 $12.05 510.63 $15.25 $14.03 147,362 2,343,020 MASON 58 ace"
+      },
+      {
+        "page": "176",
+        "text": "CONFIDENTIAL DETAILED FINANCIALS 2001 - 2004 For the year ended December 31, ($ in thousands) East Car Wash $4,423.1 Detail 918.0 Other Services 147.6 Lube Er Other 0.0 Merchandise 99.3 Total Revenue $5,588.0 % of Total 12.7% Total COGS 2,617.2 % of Revenue 46.8% Direct Overhead 766.7 % of Revenue 13.7% Gross Profit w 2,204.1 % of Revenue 39.4% % of Revenue 5.9% Operating Income \"i 1,873.5 % of Revenue 33.5% Other Income 2.6 % of Revenue 0.0% EBFIDA $1,876.1 % of Revenue 33.6% % of Revenue Avg. Paying Wash Ticket $824 Avg. Wash & Detail Revenue $9.72 Total Payroll/Total Revenue 39.1% Total Washed 549,394 Florida Arizona $4,784.9 $5,341.2 $1,596.7 959.6 1,642.7 961.1 0.0 286 5 371.2 0.0 115.8 50.1 266.1 222.1 79.2 $6,010.6 $7,608.3 $3,058.3 3,196.2 5,035.3 2,097.4 53.2% 66.2% 37.5% 327.2 6943 191.8 2,487.2 1,878.7 $1,373.4 $528.6 936.2 940.6 435.1 32.2% 12.4% 18% $13.34 $10.45 $11.98 $15.12 $13.53 $17.53 46.2% 53.2% 53.5% 380,051 515,999 145,905 (a) Presented before depredation and amortization expense. (b) Primarily rental income. (c) Excludes write -down of assets of $129,403. ' Genie Lubbock TOTAL $5,086.2 $3,048.2 $2,214.4 $26,494.7 1,774.3 2,291.5 568.9 9,116.1 38.6 248.0 0.0 434.2 3,579.0 0.0 0.0 4,236.7 222.5 1,058.3 884.5 2,331.1 204.4 130.1 2672 1,268.3 $10,904.8 $6,776.2 $3,934.9 $43,881.2 24.9% 15.4% 9.0% 100.0% 6,9 4,055.3 2,704.7 26,688.9 4.0 .8% 68.7% 60.8% 394.0 212.3 3,635.5 2,327.0 1,017,9 13,556.9 2 . % 34.3% 25.9% 30.9% 754.1 469.4 233.8 3,092.6 6.9% 6.9% 5.9% 7.0% 2,118.6 1,857.6 784.2 10,464.3 19.4% 27.4% 19.9% 23.8% 67.3 34.9 25.6 308.1 0.6% 0.5% 0.6% 0.7% $2,186.0 $1,892.5 $809.7 $10,772.5 20.0% 27.9% 20.6% 24.5% 314.1 to 215.0 185.1 1,631.8 1,871.9 1,677.5 624.6 9,140.7 17.2% 24.8% 15.9% 20.8% $11.47 $11.18 $12.72 $10.90 $14.96 $19.00 $15.67 $14.19 49.9% 452% 44.9% 47.5% 458,726 281,099 177,609 2,508,783"
+      },
+      {
+        "page": "177",
+        "text": "CONFIDENTIAL including reductions in payroll and related benefit costs, repairs and maintenance costs and certain other operating expenses. For the Year Ended December 31, 2002 Net revenue for the year ended December 31, 2002 was $40.6 million as compared to $43.9 million for the year ended December 31, 2001, a decrease of $3.3 million or 7.5%. The decrease in wash and detailing revenue was principally due to the departure from historic revenue levels within the Northeast region due to the unusual lack of snow and pollen in the first six months of 2002 and increased rainfall in the quarter ending December 31, 2002. The Company also experienced more challenging weather within the Texas region for the quarters ended September 30 and December 31, 2002. Car wash volume declined 6.6% in 2002 from 2001. In addition to these volume declines, the Company experienced a slight reduction in average wash and detailing revenues per car to $14.03 in 2002, from $14.19 per car in 2001. Despite management's continued focus on aggressively selling detailing and additional on-line car wash services, more aggressive coupon and discount promotions to encourage volfuirE eliuced \\the average revenue per s ee\\ car. The practice of providing a free wash to lube customers wr,dis ued during 2002, which .-,, resulted in decreased lube revenues, but improved overall site rni ,gin p rformance. EBITDA for the year ended December 31, 2002 was $9& ilfkn kSompared to $10.8 million for the year ended December 31, 2001, a decrease of $1.2 milli\u00b0 S\u2022er 1M% his decrease is largely the result of the ....1, decline in volume with relatively fixed overhead et :t\u2022 \u2022 't-os With only a slight decrease in average wash and detailing revenues per car in 2002 anThtbk i . ed emphasis on controlling direct labor and . other variable operating costs such as was e), N chemicals and supplies, car damages, uniform expense, and repairs and maintenance c4stfte\u00bc15Uviion experienced less than a 1% reduction in wash .,/ and detailing gross margins in 2002 a revenue despite the 6.6% volume decline noted above. sh, The direct wash and detailing labor es percent of car wash and detail revenues was not affected by the decline in volume because of Bette or\\cyntrol by management."
+      },
+      {
+        "page": "179",
+        "text": "Accrual Oasts Quick Quack, Ltd. #7 Balance Sheet As of December 31, 2004 Total Current Liabilities 250,343.27 Long Term Liabilities 2300 PUP 4103401 909,008.12 Total Long Turin Liabilities 909,008.12 Total Liabilities 1,159.35139 3050 4,0170.00 3100 - 507.363.79 3105 84,185.66 Net income (53,324 38) Total Equity 542,225.12 TOTAL uAsatrigs & EQUITY 1,701,576.51 SBDSBLEel2 sao.elosaN ssauIsna 25,4rj eis:II so 41 qaA"
+      },
+      {
+        "page": "180",
+        "text": "Accrual Basis Current Assets Checking/Savings Quick Quack, Ltd. #7 Balance Sheet As of December 31,2004 1000 . Academy - Cash 1010 \u2022 HUB - CC Acct 7057520 1090 \u2022 ANB - Payroll Total Checking/Savings 9,175.60 Other Current Assets 1220 \u2022 Petty Cash 4,000.00 1310 \u2022inventory - Auto Accessories 688.67 Total Other Current Assets 4,688.67 Total Current Assets 13,864,17 Fixed Assets 1500 \u2022 Equipment - Carnash 343,001.94 1510 \u2022 Building 1511 \u2022 Building 781,909.65 1612 \u2022 Building - Engineering 23,743.97 1513 Building - Architects 13285.13 Total 1510 \u2022 Building 818,938.65 1620 \u2022 Computer Equipment 25,414.54 1525 \u2022 Camera & Security Equipment 7,048.99 Improvements 8,266.81 1635 \u2022 Signs 11E63.07 1540 \u2022 Furniture & Fixtures 2.170.88 1600 \u2022 Land 400,000.00 Total Fixed Assets 1,616,504.88 Other Assets 1800 Prepaid expense 3,916.71 1900 \u2022 OrganizatiOnal Fees 68,088.39 1910 \u2022 Stan Up Costs 1,387.36 1915 Loan Foos 7,815.00 Total Other Assets 71.207.46 TOTAL ASSETS 1,701,576.51 UABILITIES & EQUITY Cummt Liabilities Accounts Payable 2000 \u2022 ACcounts Payable 243,988.13 Total Accounts Payable 243,988.13 Other Current Liabilities 2100 \u2022 Wages Payablo 6,349.82 2201 \u2022 Sales Tax Payable 5.52 Total Other Current Liabilities 8,355.14 S8898LEH2 saoJnosaN ssataisng 25-43j eLS:II SO LI clad"
+      },
+      {
+        "page": "181",
+        "text": "ACCruai Basis Quick Quack #6- University Balance Sheet Accounts Payable As of December 31, 2004 2000 Accounts Payable 78.139,57 Total Accounts Payable 78.139.57 Other Current Liabilities 2050 Contingent Liability 61,649.00 2100 \u2022 Wages Payable 5,789.66 2201 - Sales Tax Payable 3&69 Total Other Current Liabilities 67,477.35 Total Current Liabilities 145,616.92 Long Term Liabilities 2305 \u2022 NIP - n656960 968.941.35 Total Long Term Liabilities 968,941.35 Total Liabilities 1,114,5$.27 3050 \u2022 3A1740 3100- 269,438.88 3105 11,452.45 3106 24,889.07 3107 11,452.45 3110 44,779.03 3115 \u2022 14,926.32 Not income (44,089.05) Total Equity 338,667,54 TOTAL LIABILITIES & EQUITY 1,451,225.81 888913LE+PI3 sapanosael ssautsng 2.sind ets:TI so GT etai"
+      },
+      {
+        "page": "182",
+        "text": "Accrual Basis Current Assets Checking/Savings Quick Quack #6 - University Balance Sheet As of December 31, 2004 1000 \u2022 FUEI-Cese 060187283 1010 \u2022 CC-Horring 1090 \u2022 ANB - Payroll Total Checking/Savings Omer Current Assets 1220 Patty Cash 300.00 1310 \u2022 Inventory - Auto Accessories 544.77 1400 \u2022 AAR DIAR #2 1.352.34 Total Other Current Assets 2,207.11 Total Cen\u2022ent Assets 5.260.07 Fixed Assets 1500 \u2022 Equipment- Caneasb 325.45342 1505 - Equipment - Building 788.96 1510 - Building 1511 \u2022 Building 629.578.10 1512 \u2022 Building - Engineers 17,302.97 1513- Building -Architects 23.709.39 Total 1510 \u2022 Building 670,590.48 1520 \u2022 Computer Equipment 29$39.07 1525- Camera & Security Equipment 10,262.60 1535 \u2022 Signs 17.350.96 1540 \u2022 Furniture & FiXturos 0.00 1500- Land 330,000.00 1700 \u2022 AID - Equipment 0.00 1710 - A/13 \u2022 Building 0,00 1720 \u2022 ND - Computer Equip. 0.00 1740 \u2022 A/Er \u2022 Furniture & Fix 0.00 Total Fixed Assets 1,364,085.67 Other Asserts 1800 \u2022 Prepaid expanse 618,17 1810 - Utility Deposits 250.00 1950 \u2022 Prepaid Insurance 1,525.15 1900 \u2022 Organktational Fees 51,891,75 1915 \u2022 Loan Fees 7,595.00 1950 \u2022 AM Organization 0.00 1970' PIA Loan Fees 0.00 Total Other Assets 61,880.07 TOTAL ASSETS 1,451225.81 UltaILMES & EQUITY Current Liabilities BGB 9 at Et. I 2 saounosaN ssaulsng eggrE/ go LT qaj"
+      },
+      {
+        "page": "183",
+        "text": "Feb 17 05 11:58a First Business Resources 21437E16889 p\u2022 5 t,L-eostio's kthltsVmalnuMnituol t00ttt41rjosy 1994g eauCIBEI tpog(10 gt Tin lorent) )p1nt3 Wawa lle0.071,"
+      },
+      {
+        "page": "184",
+        "text": "Feb 17 05 11:58a First Business Resources 2143786888 SMPICIarl M0.1. soainagn *ma oom mos mMOInnawu Ian a\u2022MIPlerl raunts Inn IS*1.55.0L 40111Mon ammo ma0 tottu. CtekL uopaxil 11101-1101 MCI \u2022 91:G2 0E7S altleiensal *PPM S. 00ZZ Min impaled mom. 900 lanzgez mom awAect - oetZ 'cm's% mas t' ma AL gadoid . ogoz getIMIPTI iusintl aatil0 WSW= eicteford grainCOW $401. wet: ea 00- an: \u2022 01.0Z 01, 669. ta OD -dig (u) \u2022 603Z UYStVZ siergl\u2018d MUMMY \u2022 0:00Z Maid SlisKrav usimitpin WM 21* A111103 7 snentavn iterYOLOI. SLaSsy 1141.01. atttlaSC Woolf sota0 1410.1. W960 4&- mei nal - WV- Wet WOIXELL- uoiliEquESK)- WV - OM 0011Z1S sal l5u0licqueb0 \u2022 eves aown soesulen.em s9Dssiv alllo OTOSStt - xli IP etrituni - ant- ont It913611 - -0 1133 amosmo - av\u2022 an %Mot' Borgne - 07-0141 SCrOWELL- tacesetinb3 - artr. oaes 20o60.oz port- Mgt WV/VW sums 7 0niu404 \u2022 on SSTS it gatudintrjantimo \u2022 OZ91 tiessreas Walling \u2022 OM SirgOraC Insoalynte \u2022 on Slesslf Pend tiSy war* natoi. troonz siatiretimauna SAO Mot sopoomnsy may - kolunatui \u2022 ow, umo Armt \u2022 az' SionSLITO autpu2 1301340TIL oismossifiamoup tom VOW 'it AMP a* stv ;wigs \"melee PUS (2O 9# WI Venb Vint) OlmEl goln*If"
+      },
+      {
+        "page": "185",
+        "text": "Feb 17 05 11:58a First Business Resources 2143786829 p.7 Asumelmwrmwnwum to= 'IC icinrp eia0e9 HO vit 'Pri Vent) )1nult) Signa telusmt"
+      },
+      {
+        "page": "186",
+        "text": "Feb 17 05 11:58a First Business Resources 2143786889 p\u2022 8 91. Wale 9\u20229115PW11110.1. OVSGC61.6 scautren tat. awn WI nvaratTs- \u2022esentEllS\u2022 \u00b0La atailliki =al Own Z9WYSC B eiRIFFil law* ISA 2 Vadia EIX1/114:111XXxxxs .0410 mos Versi \u2022Firjed xX-1. =Pt \u2022 WM 9170114 010mixtlexitt ward \u2022 gozz MIS'S entiad sok% . Doty w ma 1. mead was aralata \u2022 OWE amigNell Xxvirolago traria marAnd \u00b0snort i:.3.1. 'rum candid giuntaar \u2022 am award apaorif sonnsien lauto MMO3 szturnavn tresesse SI_VaSII WW1 IteeLeSZ massymxm>micu dati xe1MIXNe10 - VM-0961 WSW:ZS taxa 1x10X5xPe820 0001 99Zeefell gainit Paid Mtn troWet- x1:1 It eriPx 13 siON \u2022 ant owsz- tuxustaidixq egg - Gry \u2022 ata9W10272- 4411nb3 aXxXxo* - an \u2022 OW. 05-13Lntr 5urP11611- WV \u2022 0141. 9:TOW9S1- luestexte3 - WV \u2022 OM 00-000772 Pan \u2022 son erazezz \u2022anati i ainuczna \u2022 as onto sseurmuctuu ens -mg; 131:ZZIOC6 sazifints Acriclosoci \u2022 am. enng &Vilna -OM glatiter/t V1suxlinb9 \u2022 0091. ulesfly poni wenta vaisv wean\u00b0 max elealtnimunD 2=170 Mal IllitrOssealy <Inv tscquesai \u2022 Om 54513 AXxcl \u2022 Csal\u2022 saw itnazn-aalno s8ISPaSeXuPP\u202210 Pica %env sueaus3 toot sic Amp sv zooqs asumee Oboes no tit 141 Vent, 'IVO ammo ren:catt"
+      },
+      {
+        "page": "187",
+        "text": "Feb 17 05 11:59a First Business Resources 2143786088 p\u2022 s 21472L'OSol- minceV S31.1111WaT 'haat Atrat? [min, 0091119orl Ia smnicmnumuememos soRNIcitri twos duel not Is Am jo sw mitre uo C# 1:41 5 13 Bilb aio!nt) 81Sea gOrtrXre"
+      },
+      {
+        "page": "188",
+        "text": "Accrual Basks QuickQuack,Ltd.#3on Quaker Balance Sheet As 01.14.31, VICW OvasidnglSeenps Tow Cher-lcinplSamags Accrximesnocewabia 1201 \u2022 ACCOUMS Receivable 2.321.86 Tata Accounts Receivable 2321.68 Caber CurrentAssals \u2022 1220 \u2022 Petty ClIsh 300.00 1310- Inventsy -Auto Access:win 403.81 Total Cesar CusrentAssets 703.81 Total Cunard Assets 56.320.34 1400 ' ESP/brae 322,602.81 MO \u2022 &atilt? 618.840.67 1\u20ac40 COMPS* , equIpbent 3495942 11330 Sibs Imixoescrtants 3.142.90 1510 -Funillurs S Rebus 27,907.20 1600 \u2022 lane 359,900.79 1700 - A037.8peposent -195.625.87 1710 - - SugaIng -4999291 1720 \u2022 AD - Compote Equip -24,307.13 1730 \u2022 AID - Sae lausevarnent -76732 1740 \u2022 - Frets= &RA -18.692.44 Total Maid Assets 1.085188.11 1000 \u2022 Prepaid expense 2935.80 19 00 \u2022 010anba0Orlat F. szia2.00 10115\u2022 Loan Fees 41.26628 1900 -AM Onpuanfion atsatal 1970 -ASA Loan Fen -442344 Total OtherAssala 55.183.81 TOTAL ASSETS 1.231.570.08 LIABILITIES & EQUITY Curcant tiabalese Accounts Payable 2)00 \u2022 Accounts Pflablet 4193 9 10 Total Accounts Payable 23.030.10 Otte Carnet Liabttates 2020 \u2022 Property Ts Payable 15452.93 21121-1MaaasPayabla 8.16425 2105- Payroll Taxes Parble 19828 ZaM -Saes Tex Payable 5.07 Total Other Currant LiathMlics 21,89123 Total Cron! Liabilities 44.92533 o \u2022cl BGEMBLE*T2 saounosaN ssauTsng ssuTA peg:ii go LT qaA"
+      },
+      {
+        "page": "189",
+        "text": "Accrual Oasis TOTAL i_IABIUMES ECtUrlY Quick Quack. Ltd. #2 on Amarillo Boulevard Balance Sheet AsaJWy31,2004 3 8200 Ideas -30,669.80 Total Equity -10.1337.08 it'd BBEISBLE5\u202212 saounosaa ssauIsng suj eSS:IT SO LT clai"
+      },
+      {
+        "page": "190",
+        "text": "Feb 17 05 12:00p First Business Resources 21437E16899 P. 12 entrKte AIIMPTI POOL tcos iate swirl wou. Burl Pa0.1. IrCZ96'9GL 41.4 St s giMAKIAll =AL fiu01 91:96672 gatallentl Wasz1311301 a sannsin stieuno Jamb mos eRSE4 =4 =PO- you Was garment mesa \u2022 unz *overt iteracicsiffAA - ODIZ 2:0U9'01. agcland seas gustiam - not sulurien moo 25\"010\u00a31. 01\u20ac1efrii 5211nOrtif 11901: sett wooldno Cte- ace 81.1119t AAAAArd SPAIODDy. woe amegta sp.010:0V arifigiqin AMMO .74.111D3 Slittrunvn 2ttirIA47 WSW W.1.01 WOOL'S OnsVallOtelol 611370'00- Ms\u00b0 dri MS Inv \u2022 ossi 00-000109 ctoa, dll PM \u2022 Ma LLIWERX1 AVARAVOCOAA MAI ETIgealr Xial It eurnmend - ON \u2022 Opa iosia- lusgsakku: aus- an . gui, CELL-0.6Z- -\u20ac1 ISM \u00a3a4wo3 - ON \u2022 Ileti\u2022 icasols- Buyarke-ary \u2022 Oka 01:67.4142-\u2022 icrigisd023 -ary \u2022 OW 00-96.0901 Pal \u2022 NU alla LP \u2022\u2022=3:4A it alfaitund \u2022 OWL 99'8907L irlaatlitudini rigs \u2022 an Watate wotudpibaaninduro \u2022 ign OuIPIPX1 \u2022 0191 itieusdnb3 \u2022 ter slosinnuauno mei szninqua 1a10 saw imps sopossecey craw - Exestsamq ctim. 'INES /Wad \u2022 0221 VonVlucantaano suutARStatippxo sassy smug,* tow le Alpe JO stf IONS GOUBf ea pahojnog owes:Iry uo -pn 'Venta3pint: sitcregramAAV"
+      },
+      {
+        "page": "191",
+        "text": "Acensal Bass Quick Quack, Ltd. #1 on Coulter Balance Sheet As of July 31.2004 Long Tonn LiabMiles 2202 'NS 699,171.32 Oda! LOuto Term Liatirstios _ 617.971.32 Tool LiabOlina 13.52,148.02 Total Equity TOTAL LIABILITIES & EMMY 764.731 .53 Bled GS898LE1712 sao-mosaN sseuTsna .asaId 400:21 SO LT clad"
+      },
+      {
+        "page": "192",
+        "text": "Accrual Rods Quick Quack, Ltd. di on Coulter Balance Sheet As of July 31,2001 Current Assets CbscienglSambsys 1000 \u2022 , \u201e1003 1010 - AAAAA iiit11112.. .. ma Total ChealtratSevInsa 2.600.65 Accounts Race4vablo 1201 \u2022 Accounts Rscalvable 12320 Total AccountsRecOlvable 12310 Other Cutemt Swots incs \u2022 Potty Casts 30000 7310 \u2022 Inventory -Judo Accassonss 440.43 Total Other Current Asses 740.43 Total tunent *seats rated Assets 1500- Essuprens 1510 \u2022 Bonding 329.23445 7620- CollIPAof EtpApatent 44835.70 1630 \u2022 Sits hapicivements 99.250.50 16411- FterdbanS %Ma c---_716,735.68 1700 \u2022 Equipment -.M4.974.5Y 1770- ND -13u9dIng -42501.54 1774 - All9 -Computes Equlp. -34,763.50 1790 \u2022 -See lavicansment 47.76042 1740 -.91D-Funalure&Fbc -55.766.60 Total Mal Assets 759.419.19 Othor Assets 1000- Organisational Fess 7,163.23 1915 \u2022 Lan Foss 2464.25 MO \u2022 AA -1399tetation '075.40 1570 -AM Loon Fess -154.19 Total Other Assets 2,49746 TOTAL 459E74 7(4.781.53 1JABILM6s &EQUflY Curare Llabilttles Accounts Payable 2400 \u2022 Accounts Payable 19.466.96 Tots) Amounts Payable 19i466.43 Odor Cann! La 2020 \u2022 Plessey TOXES Flyable 741441 =A \u2022 Ausuld Eupora 5,000.00 2100 \u2022 Moss Payable 2.472.02 2105 \u2022 Payaryll Tax Payable -731.70 2190 \u2022 Sala Tee Payable 5IL51 Total On Curtest LIEtbifilins 15,010.54 Tow Current LlablIttles 34.477.50 VI'd BGB913LEir1 2 saounosaN ssaulsng 25atj di0:2I so Li ciai"
+      },
+      {
+        "page": "193",
+        "text": "FIRST BUSINESS RESOURCES, INC. 8117 PRESTON ROAD. SUITE 300 DALLAS, TEXAS 75225 (214)363-7774 FAX (214)378-6899 WWW.FIRST-BIZ.COM FACSIMILE TRANSMITTAL SHEET Mike Shullln-gtn George IC Chamblee COMPANY. DATE. I l l lliRlIARY 17,2005 PAN NUMIIIIIt 203-972-9354 TUFA'. NO. OF PACiat INCLUDINC COYCIta pm mi.: NuMitlite QQ. Balance Sheets Dear Mr. Shaman: Attached are the balance sheets for QQ #1 through QQ #7. Paul wanted you to note the following. \u2022 QQ ft() market value for land is about $400.000. The amount allocated to land in the balance sheet was estitnated for loan purposes by the bank. a <Nit 7 market value of the land is about $500,000. The amount allocated to the land was an internal allocation from it larger parcel and was done for loan purposes for the bank \u2022 QQ 116 the category is shown as $0.00. The fir&l . is actually included in another category but Paul has not had time to have it mcategorized \u2022 QQ# 6 the contingent liability category is related to construction hinds being withheld as they relate to an ongoing dispute with the constructicm contractor over engineering issues \u2022 QQ # 7 Minor follow \u2022-up construction work continues and costs (signage etc.) may vary slightly. George Chamblee First UttainCSS RCoOtunns, Inc. is a Tens Real Estate Broker. ,'11)15 firm is not a CPA tinn. 2I'd 608981.E*I2 sapanosaN ssauTsma 2sJIA d10:21 SO LI qaJ"
+      },
+      {
+        "page": "194",
+        "text": "FOOTNOTES (Comparing March 31, 2004 to August 31,2004) Footnote 1 \u2014 Repair & Maintenance: Quick Quack #1 Coulter's repair and maintenance expense was reduced by 50%. The reduction was attributed to capital improvements verses ordinary repair and maintenance. Footnote 2 \u2014 Non-Recurring Management Fees: Management fees during this period included the salary of the General Partner and an industry consultant's fee. The consulting fee ended in March, 2004 and will not be a recurring fee. The General Partner's salary will not be a recurring expense post sale thus, the expense has been eliminated. Footnote 3 \u2014 Professional Fees: Quick Quack previously outsourced its accounting services. Quick Quack currently uses an in-house bookkeeper to provide general accounting services. Thus, professional fees have been reduced by Footnote 4 \u2014 Trademark and License Fee: Trademark and license fees are one time, non-recurring expenses and thus have been excluded. Footnote 5\u2014 Travel Expenses: The industry consultant was reimbursed for travel expenditures. The industry consultant provided services from April, 2003 to March, 2004. This expense was a one time, non-recurring expense and thus 100% of the travel expenses have been eliminated. Footnote 6 \u2014 Advertising: Television and telephone book coupon advertising accounted for 50% of the advertising expenses for this time period. This advertising did not provide the expected increase in sales and therefore this expense has been discontinued. Footnote 7 \u2014 Other Income: Other income as noted is not directly related to the operations of the business and thus it has been eliminated. Footnote 8 \u2014 Abnormal Weather Conditions: Supporting detail is included in Weather Related Observations. Footnote 9 \u2014 Cost Saving Opportunities: Supporting detail is included in Cost Saving Observations. First Business Resource; Inc. QQ Mkt blemannatmalaa111.31-04Vehmw3"
+      },
+      {
+        "page": "195",
+        "text": "Quick Quack #145 Adjusted EBITDA Analysis 12 Months Trailing - September 2003 - August 2004 (In Dollars) Coulter Mar QQ #2 Boulevard SICar QQ 43 Quaker 51Car QQ #4 Georgia SICar QQ #5 50th Sitar QQ 01-45 Car Count 65,883 55,988 119,075 77,570 81,382 389,898 % of Total CarCount 14% 14% 31% 20% 21% 1005 Adjusted EB111DA Analysis Total Income 483,836.93 8.66 527,006.59 9.41 1,101,541.32 9.25 675,412.89 8.71 758,973.02 9.33 3,546,770.75 9.10 Rebate Income 337.25 0.01 285.46 0.01 95.59 0.00 408.53 0.01 114.89 0.00 1,241.72 0.00 Cost of Goods Sold 91,380.31 1.64 97,754.19 1.75 130,663.11 1.10 104,026.47 1.34 116,241.66 1.43 540,065,74 1.39 Adjusted Operating Expenses 94,863.60 1.70 102,822.61 1.84 118,217.26 0.99 114,341.64 1.47 119,215.15 1.46 549,460.25 1.41 Salaries 177,699.04 3.18 186,722.55 3.34 262,272.39 2.20 230,876.93 2.98 210,049.76 2.58 1,067,620.67 2.74 Management Salary 8,353.67 0.15 8,228.21 0.15 8,312.70 0.07 8,343.90 0.11 8,098.44 0.10 41,336.92 0.11 (8) Adjustment for Abnormal Weather Conditions 24,638.36 0.44 26,529.65 0.47 36,252.60 0.30 34,870.32 0.45 24,262.78 0.30 146,553.71 0.38 Adjusted EB1TDA 136,515.92 2.44 158,294.15 2.83 618,424.05 5.19 253,102.80 3.26 329,745.69 4.05 1,498,082.60 3.84"
+      },
+      {
+        "page": "196",
+        "text": "Quick Quack #1-#5 Adjusted EBITDA Analysis 12 Months Trailing - September 2003 - August 2004 (In Dollars) Coulter $/Car QQ N2 Boulevard $1Car QQ N3 Quaker Mar QQ 1/4 Georgia =sr Q0 05 50th SICar Q0T 01- Total Interest Depreciation &Amortization 123 142,888.49 14 .861. 6 EBITDA 20358.99 0.37 50,490.35 0.90 428,716,78 3.60 116,165.99 1.50 193,819.29 2.38 809,951.40 2.08 Adjustments: Repairs 8. Maintenance 8,692.39 0.16 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8,692.39 0.02 (2) NonaecurrIng Management Fees 43,619.67 0.78 46,588.99 0.83 113,605.41 0.95 61738.34 0.80 76,229.52 0.94 341,781,93 0.88 (3) Adjusted Professional Fees 4 14,794.81 0.26 11,244.91 0.20 11,141.66 0.09 12.532,96 0.16 14,028.91 0.17 Wis 63,743.23 0.16 (4) NonaecUrring Trademark 8. License Fee 5,670.56 010 5,818.64 0.10 19,922.33 0.17 8,370.41 0.11 9.126.56 0.11 ,48908.50 0.13 (6) Non -Recurring Travel 157.52 0.00 157.52 0.00 157.51 0.00 2,538.27 0.03 157.51 0.00 3,168.33 i 0.01 (8) Non-RecwrIng Advertising 18,185.37 0.33 17,666.39 0.32 13,631.72 0.11 16,949.53 0.22 12,369.61 0.15 V1%78,802.61\" 0.20 (7) Other Income (1.75) (0.00) (202.30) (0.00) (5,1133.95) (0.00) (63.01) (0.00) (248.49) (0.00) 5,519.50) (0.00) \u2022 . ,553. 63 .170.38 (8) Adj. for Abnormal Weather Conditions 24,638.36 0.44 26,529.65 0.47 36,252.60 0.30 34,870.32 0.45 24,262.78 0.30 Total Adjustments 115,756.93 2.07 107,803.80 1.93 189,707.27 1.59 136,936.81 1.77 135,926.40 1.67 -686,131.20 1.76 Adjusted ESITDA 136,515.92 2.44 158,294.15 2.83 618,424.05 5.19 253,102.80 3.26 329,745.69 4.05 1.496,082.60 3.84 Footnotes: See Footnote and Observation Page"
+      },
+      {
+        "page": "197",
+        "text": "Quick Quack #145 Adjusted EBITDA Analysis 12 Months Trailing - September 2003 - August 2004 (In Dollars) Coulter $/Car QQ $2 Boulevard $/Car QQ $3 Quaker $/Car QQ $4 Georgia $/Car CIQ $5 50th $1Car QQ #145 6100 \u2022 Licenses and Permits 0.00 0.00 0.00 0.00 50.00 0.00 0.00 0.00 50.00 0.00 100.00 0.00 6110 \u2022 Miscellaneous 990.50 0.02 434.14 0.01 1,518.25 0.01 1,128.26 0.01 2,422.43 0.03 6,493.58 0.02 8115. Medical Expense 710.81 0.01 778.67 0.01 157.50 0.00 1,430.66 0.02 157.50 0.00 3,235.14 0.01 6120 \u2022 Office Supplies 3,123.49 0.06 3,357.32 0.06 2,668.76 0.02 2,945.86 0.04 2,503.18 0.03 14,598.61 0.04 6130 \u2022 Postage and Delivery 3,279.79 0.06 3,294.30 0.06 3,291.25 0.03 3,587.01 0.05 3,397.92 0.04 16,850.27 0.04 6135 \u2022 Mileage 1,483.80 0.03 1,519.80 0.03 1,480.30 0.01 1,485.82 0.02 1,543.88 0.02 7,513.60 0.02 6140 \u2022 Printing and Reproduction 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 (3) 6150 \u2022 Professional Fees 29,589.62 0.53 22,489.81 040 22,283.31 0.19 25,065.91 0.32 28,057.81 0.34 127,48646 0.33 (4) 6155 -Trademark and License Fee 5,670.56 0.10 5,818.64 0.10 19,922.33 0.17 8,37041 0.11 9,126.56 0.11 48,908.50 0.13 8160 \u2022 Rent 1565.98 0.03 2,018.87 0.04 154540 0.02 1,992.61 0.03 1,789.40 0.02 9,512.26 0.02 6170 \u2022 Land Lease Expense 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 (9) 6180 -Ad Valorem Taxes 11,85044 0.21 17,644.03 0.32 22,824.44 0.19 26,689.83 0.34 36,565.04 0.45 115,573.78 0.30 6190 \u2022 Telephone 3,362.04 0.06 3,346.69 0.06 4,341.50 034 3,202.88 0.04 3,843.41 0.05 18,096.52 0.05 (5) 6200 \u2022 Travel 157.52 0.00 157.52 0.00 157.51 0.00 2,538.27 0.03 157.51 0,00 3,168.33 0.01 6202. Meals &Entertainment 164.42 0.00 164.42 0.00 164.42 0.00 164.42 0.00 164.42 0.00 822.10 0.00 6205 \u2022 Employee Incentives 499.71 0.01 627.46 0.01 660.13 0.01 612.16 0.01 587.16 0.01 2,986.62 0.01 6210 \u2022 Electricity 21,951.40 0.39 25,032.31 045 27,590.88 0.23 16,497.84 0,21 33,003.78 0.41 124,076.21 0.32 6220 \u2022 Water 14,178.20 0.25 15,230.75 0.27 28,752.41 0.24 18,529.71 0.24 24,922.99 0.31 101,614.06 0.26 6230 \u2022 Gas 3,624.36 0.06 3,810.74 0.07 3,81546 0.03 6,123.94 0.08 1,333.50 0.02 18,708.00 0.05 6240 \u2022 Security 468.34 0.01 690.09 0.01 388.24 0.00 471.04 0.01 388.24 0.00 2,405.95 0.01 (3) 7000 \u2022 Advertising 36,370.74 0.65 35,332.78 0.63 27,263.43 0.23 33,899.05 0.44 24,739.22 0.30 157,605.22 0.40 7005 \u2022 Customer Promotions 1,335.67 0.02 1,335.6"
+      },
+      {
+        "page": "198",
+        "text": "Quick Quack #145 Adjusted EBITDA Analysis 12 Months Trailing - September 2003- August 2004 (In Dollars) % of Total Car Count Ordinary Income/Expense Coulter 5ICar QQ N2 Boulevard 5/Car 44 03 Quaker SICar 44 04 SICar Georgia 50th Mar 44 01-05 4000 \u2022 Wash Sales 5 4100 \u2022 Extra Service Sales 465,216.00 G. S 2.339,607.22 1,313,361.01 4150 \u2022 Armor All Service Sales 3,382.00 0.06 4,736.00 0.08 4346.00 0.04 4,854.00 0.06 3,626.00 0.04 21,444.00 0.05 4200 \u2022 Vacuum Sales-Vending 5.55 0.00 11,782.45 0.21 11.125.50 0.09 8,352 25 0.11 20,380.25 0.25 51,646.00 0.13 4250- Self Service Bay Sales 0.00 0.00 41,191.53 0.74 28,768.55 0.24 2,541 30 0.03 0.00 0.00 72,501.38 0.19 4300 \u2022 Debit Card Sales 67 0.32 1,99412 0.21 0,909.99 0.51 30,040.66 0.39 34 ,500.00 0.42 155,346.14 0.40 4400 Vending Machine Sales 2,729 01 0.05 3,335.01 0.06 2,2E16.11 0.02 3,145.50 0.04 3,689.43 0.05 15,185.06 0.04 4405 \u2022 Vending Commission 0.00 0.00 0.00 0.00 243.97 0.00 109.48 0.00 142.95 0.00 496.40 0.00 4450- Towel Sales 1519.01 0.03 2,689.65 0.05 2,670.36 0.02 2,702.82 0.03 2,818131 0.03 12,400.65 0.03 4460 \u2022 Sand Dollar Sales 1,465.20 0.03 4.028.36 0.07 4,005.28 0.03 4,272.50 0.06 2,720.75 0.03 16,500.09 0.04 4500 \u2022 Coupons Redeemed (54309.85) (0.97) (52.040.73) (0.93) (67,900.10) (0.57) (79,771.30) (1.03) (46,631.95) (0.57) (300,653.93) (0.77) 4510 \u2022 Fundraising Income 550.01 0.01 783.34 0.01 6,764.32 0.06 1,058.33 0.01 7,797.53 0.10 \\ 16,953.53 0.04 4600 \u2022 Debit Cards Redeemed -420,499.66) (0.37) 2,623.77) (0.23) 64,778.61) (0.54) 0,866.15) (0.40) (36,496.34) (0.45) '(165,264.53) (042) 4800 \u2022 Rebate 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 4900 \u2022 Cash Over/Short (54.61) (0.00) (326.04) -0.01 (613.93) -0.01 (1,784 50) -0.02 26.81 0.00 (2,752.27) -0.01 8000 \u2022 Interest Income 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8100 \u2022 Other Income 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 Total Income 483536.93 8.66 527,006.59 9.41 1,101,541.32 9.25 675,412.89 8.71 758,973.02 9.33 3,546,770.75 9.10 Cost of Goods Sold 5100 \u2022 Cost of Goods - VendingiTowels 3,966.36 0.07 4,457 59 0.08 4340.60 0.04 5,022 28 0.06 5,914.87 0.07 24,301 70 0.06 Total COGS 3,966.36 0_07 4,457.59 0.08 4940.60 0.04 5,022 28 0.06 5,914.87 0.07 24,301 70 0.06 Gross Profit 479,070.57 8.59 522,549.00 9.33 1,096,600.72 9.21 670,390 61 8.64 753,058.15 9.25 3,522,469.05 9.03 6000 Wages -"
+      },
+      {
+        "page": "199",
+        "text": "FOOTNOTES (Comparing March 31,2004 to August 31,2004) Footnote 1 \u2014 Repair & Maintenance: Quick Quack #1 Coulter's repair and maintenance expense was reduced by 50%. The reduction was attributed to capital improvements verses ordinary repair and maintenance. Footnote 2 \u2014 Non-Recurring Management Fees: Management fees during this period included the salary of the General Partner and an industry consultant's fee. The consulting fee ended in March, 2004 and will not be a recurring fee. The General Partner's salary will not be a recurring expense post sale thus, the expense has been eliminated. Footnote 3 \u2014 Professional Fees: Quick Quack previously outsourced its accounting services. Quick Quack currently uses an in-house bookkeeper to provide general accounting services. Thus, professional fees have been reduced by Footnote 4\u2014 Trademark and License Fee: Trademark and license fees are one time, non-recurring expenses and thus have been excluded. Footnote 5\u2014 Travel Expenses: The industry consultant was reimbursed for travel expenditures. The industry consultant provided services from April, 2003 to March, 2004. This expense was a one time, non-recurring expense and thus 100% of the travel expenses have been eliminated. Footnote 6 \u2014 Advertising: Television and telephone book coupon advertising accounted for 50% of the advertising expenses for this time period. This advertising did not provide the expected increase in sales and therefore this expense has been discontinued. Footnote 7 \u2014 Other Income: Other income as noted is not directly related to the operations of the business and thus it has been eliminated. Footnote 8 \u2014 Abnormal Weather Conditions: Supporting detail is included in Weather Related Observations. Footnote 9 \u2014 Cost Saving Opportunities: Supporting detail is included in Cost Saving Observations. First Business Resources, Inc. QQ Mkt ?dente rawbunSIza111-3 -114Vebrusel"
+      },
+      {
+        "page": "200",
+        "text": "Quick Quack #145 Adjusted EBITDA Analysis 12 Months Trailing - April 2003 - March 2004 (in Dollars) Coulter Mar 44 N2 Boulevard Mar 44 #3 Quaker Mar 44 #4 Georgia 5tCar QQ #5 60th SICar QQ #1-#5 Car Count 60,603 60,494 126,039 80,412 87,893 415,441 % \u00b0trots] Car Count 15% 15% 30% 19% 21% 100% Adjusted EBI7DA Analysis Total Income 516,672.02 8.53 563,983.86 9.32 1,136,276.30 9.02 705,753.68 8.76 795,494.19 9.05 3,718,180.05 8.95 Rebate Income 191.83 0.00 1,016.06 0.02 47.92 0.00 214.45 0.00 60.31 0.00 1,530.57 0.00 Cost of Goods Sold 88,242.21 1.46 102,684.59 1.70 119,035.31 0.94 99,560.64 1.24 114,353.60 1.30 523,884.35 1.26 Adjusted Operating Expenses 91,602.07 1.51 103,552.70 1.71 115,559.96 0.92 116,212.67 1.45 115,043.39 1.31 541,970.78 1.30 Salaries 168,616.36 2.78 183,503.81 3.03 245,111.42 1.94 228,035.74 2.84 2134,598.69 2.33 1,029,866.02 2.48 Management Salary 4,944.25 0.08 4,944.24 0.08 4,944.24 0.04 4,944.24 0.06 4,444.24 0.05 24,221.21 0.06 Adjusted EBITOA 163,458.96 2.70 170,314.59 2.82 651 673.30 5.17 257,206.84 3.20 357,114.58 4.06 1,599,7613.26 3.85"
+      },
+      {
+        "page": "201",
+        "text": "Quick Quack #145 Adjusted EBI7DA Analysis 12 Months Trailing - April 2003 - March 2004 (In Dollars) Coulter 6/Car QQ #2 Boulevard 6/Car 00 #3 Quaker SICar QQ #4 Georgia SICar 00 #6 60th SICar QQ #1-#5 Total Interest, Depreciation & Ainortization 102,994.61 1.70 135,965,26 2.2 167,393. EBITDA 49,465.33 0.82 64,625.58 1.07 451,915.43 3.59 127,488.41 1.59 214,972.72 2.45 908 467.47 2.19 Adjustments: (1) Repairs 8, Maintenance 8,837.09 0.15 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8,837.09 0.02 (2) Non -Recurring Management Fees 59,818.38 0.99 63,273.43 1.05 151,379.85 1.20 82,470.98 1.03 99 ,964.66 1.14 456,907.30 1.10 (3) Adjusted Professional Fees 11,809.59 0.19 12,591.54 0.21 11,727.83 0.09 12,286.45 0.15 15 ,023.75 0.17 63,439.14 0.15 (4) Non -Recurring Trademark 8. License Fee 6,636.25 0.11 6,250.20 0.10 21,872,52 0.17 8,387.91 0.10 9,056.70 0.10 52,203.58 0.13 (6) Non-Recurring Travel 6,783.61 0.11 4,894.06 0.08 4,769.05 0.04 7,274.81 0,09 4,788.21 0.05 28,509.74 0.07 (6) Nonaecurring Advertising 20,109.33 0.33 18,837.23 0.31 15,010.61 0.12 19,358.83 0.24 13,555.10 0.15 86,871.10 0.21 (7) Other Income (0,61) (0.00) (157.45) (0.00) (5,001.99) (0.04) (60.55) (0.00) (246.55) (0.00) (5,467.15) (0.01) Total Adjustments 113,993.63 1.88 105,689.01 1.75 199,757.87 1.58 129,718.43 1.61 142,141.86 1.62 691.300.79 1,66 Adjusted EBITDA 163,458.96 2.70 170,314.59 2.82 651,67330 5.17 257,206.84 3.20 357,114.58 4.06 1,599,768,26 3.85 Footnotes: See Footnote and Obsenration Page"
+      },
+      {
+        "page": "202",
+        "text": "Quick Quack #145 Adjusted EBITDA Analysis 12 Months Trailing - April 2003 - March 2004 (In Dollars) 44 N2 SICar Boulevard SICar 44 03 Quaker S/Car QQ #4 Georgia &tar 44 05 50th 5/Car QR 01-05 6100 \u2022 Licenses and Permits 140.00 0.00 140.00 0.00 50.00 0.00 140.00 0.00 50.00 0.00 520.00 0.00 6110 \u2022 Miscellaneous 1,028.83 0.02 475.61 0.01 1,527.64 0.01 1,206.71 0.02 593.51 0.01 4,832.30 0.01 6115. Medical Expense 202.66 0.00 241.73 0.00 0.00 0.00 842.68 0.01 0.00 0.00 1,287.07 0.00 6120 \u2022 Office Supplies 3505.05 0.05 3,223.53 0.05 2,713.78 0.02 3,650.09 0.05 2.484.65 0.03 15,377.10 0.04 6130 \u2022 Postage and Delivery 348168 0.06 3488.94 0.06 3,940.95 0.03 2,871.56 0.04 4,417.93 0.05 18,202.06 0.04 6135 \u2022 Mileage 1,01130 0.02 1,112.86 0.02 746.68 0.01 1,436.30 0.02 819.26 0.01 5,126.40 0.01 6140 \u2022 Printing and Reproduction 11.86 0.00 11.85 0.00 11.85 0.00 11.85 0.00 11.85 0.00 59,26 500 (3) 6150 \u2022 Professional Fees (4) 6155 -Trademark and License Fee 6170 \u2022 Land Lease Expense 0.00 0.00 0.00 050 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 (9) 6180 -Ad Valorem Taxes 6190 \u2022 Telephone (5) 6200 'Travel 8202. Meals &Entertainment 6205 \u2022 Employee Incentives 913.53 0.02 836.04 0.01 888.01 0.01 645.74 0.01 772.18 0.01 4,055.50 0.01 6210 \u2022 Electricity 22,006.87 0.36 27,056.28 0.45 28,953.95 0.23 15,700.08 0.20 32.928.10 0.37 126,645.28 0.30 6220 \u2022 Water 14,674.30 0.24 16,941.39 0.28 27,894.42 0.22 18,526.31 0.23 24 ,338.79 0.28 102,375.21 0.25 6230 \u2022 Gas 3,368.69 0.06 4,251.77 0.07 4,320.09 0.03 7,048.66 0.09 1,510.57 0.02 20,499.78 0.05 6240 \u2022 security 297.66 0.00 551.84 0.01 388.24 0.00 390.69 0.00 388.24 0.00 2,016.67 0.00 (6) 7000 \u2022 Advertising 7005 \u2022 Customer Promotions 7016 \u2022 Returned Checks 25.01 0.00 98.00 0.00 19.33 0.00 125.92 0.00 280,01 0.00 548.27 0.00 7020 \u2022 Bank Service Charges 583.40 0.01 432.25 0.01 939.90 0.01 426.25 0.01 1,273.37 0.01 3.655.17 0.01 7025\u2022 Credit Card Charges 2,719.51 504 1470,32 0.02 9,744.49 0.08 4,865.76 0.06 6,238.83 0.07 25538.91 0.06 7030 \u2022 Contract Labor 0.00 0,00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 (9) 7035 \u2022 Uniforms 7045 \u2022 Mystery Car Wash 7050. Travel -Advertising 718.25 0.01 507.87 0.01 507.87 0.00 507.89 0.01 507.87 0.01 2,749,75 0.01 Total Expense 463,925.07 7.66 496,453.44 8.21 686,075.38 5.44 574,906.05 7.15 575,315.32 6.55 2,796,675.26 6.73 Net Ordinaty income 49,272.89 0.81 63452.07 1.05 446,865.52 3.55 127,21341 1"
+      },
+      {
+        "page": "203",
+        "text": "Quick Quack #145 Adjusted EBITDA Analysis 12 Months Trailing - April 2003 - March 2004 (In Dollars) Coulter SICar 4462 Boulevard Mar 4463 Quaker SIC& QQ 64 Georgia 6/ Car 4465 60th Mar 4461-65 % of Total Car Count Ordinary Income/Expense 4000 \u2022 Wash Sales 363,029.67 5.99 362,732.55 6.00 756,031.04 6.00 482,527.98 6.00 528,058.20 6.01 2,492,379,44 6.00 4100 \u2022 Extra Service Sams 181,152.00 2.99 166,566.00 2.75 391,006.00 3.10 241,731.00 3.01 279,030.00 3.17 1,259,485.00 3.03 4150 \u2022 Armor All Service Sales 3,778.87 0.06 5,752.67 0.10 6,316.91 0.05 7,648.31 0.10 5,686.08 0.06 29,182.84 0.07 4200 \u2022 Vacuum Sales-Vending 1,191.20 0.02 18,200.50 0.30 11.831.50 0.09 16,980.50 0.21 22,313.73 0.25 70,517.43 0.17 4250 \u2022 Self Service Bay Sales 0.00 0.00 34,036.68 0.56 31,304.74 0.25 0.00 0.00 0.00 0.00 65,341.42 0.16 4300 \u2022 Debit Card Sales 18,622.00 0.31 10,260.85 0.17 56,547.86 0.45 29.943.93 0.37 31,165.93 0.35 146,540.57 0.35 4400 \u2022 vending Machine Sales 2,381.50 0.04 2,915.11 0.05 2,506.66 0.02 3.266.11 0.04 3,757.17 0.04 14,826.55 0.04 4405 \u2022 vending commission 55.58 0.00 76,85 0.00 140.55 0.00 119.61 0.00 141.04 0.00 533.63 0.00 4450 \u2022 Towel Sales 1,468.91 0.02 2,603.79 0.04 2,681.02 0.02 2,552.88 0.03 2,802.18 0.03 12,108.78 0.03 4460 \u2022 Sand Dollar Sales 1,375.87 0.02 3,780.21 0.06 4,764.14 0.04 3,824.79 0.05 3,495.51 0.04 17,240.52 0.04 4500 \u2022 Coupons Redeemed (36,830.95) (0.61) (34.746.57) (0.57) (68,811.37) (0.55) (51.843.59) (0.64) (52,771.90) (0.60) (245.004.38) (0,59) 4510 \u2022 Fundraising Income 4,923.34 0.08 4,768.33 0.08 6,544.99 0.05 928.33 0.01 6.253.19 0.07 23418.18 0.06 4600. Debit Cards Redeemed (23,856.55) (0.39) (13,061.34) (0.22) (64,438.30) (0.51) (32,069.62) (0.40) (34,999.99) (0.40) (168,425.80) (0.41) 4800 \u2022 Rebate 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 656.66 0.01 656.66 0.00 4900 \u2022 Cash Over/Short (619.42) (0.01) 98.23 0.00 (14944) 0.00 143.45 0.00 (100.58) 0.00 (627.76) 0.00 8000 \u2022 interest Income 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8100 \u2022 Other Income 0.00 0.00 0.00 0.00 0.08 0.00 0.00 0.00 6.97 0.00 6.97 0.00 Total Income 516,672.02 8.53 563,983.86 9.32 1,136,276.30 9.02 705,753.68 8.78 795,494.19 9.05 3,718,180.05 8.95 Cost of Goods Sold 5100 \u2022 Cost of Goods -Vending/Towels 3.474.06 0.06 4,078.35 0.07 3,33540 0.03 3,634.22 0.05 5,513.01 0.06 20,035.04 0.05 Total COGS 3,474.06 0.06 4,078.35 0.07 3,335,40 0.03 3,634."
+      },
+      {
+        "page": "204",
+        "text": "early termination penalty and purchased employee uniforms. Employees are issued a uniform and purchase their uniforms through a payroll deduction. The uniform increase is considered a one time > Salaries (major differences highlighted below) increased $37,754.65 or o Bonuses increased 13.8% or $19,686. The employee bonus program was changed. o Employee medical insurance increased $18,043 or 93%. A new medical insurance program was implemented. > Management Salary increased by $17,116 or 71%. New managers were hired for Quick Quack #6 and #7 and began their training programs prior to the opening of their respective locations. The Quick Quack 117 manager is still in training in Lubbock and will not transfer to Colorado Springs until the location opens in December. The cost to train these additional managers is distributed evenly to each of the Quick Quack #1-#5 properties thus resulting in a one time higher expense and a higher per car expense. Cost Saving Observations: Quick Quack has recently implemented several cost saving measures or operational changes that will financially benefit the company long term. These cost saving measures include: Expense Category Explanation Approximate Savings Dues, Fees and Subscriptions: Elimination of unnecessary items Uniform expenses Change from leased to owned Ad Valorem taxes 2004 -taxes versus Management Salary Elimination of 2 Total Potential Cost Savings $55,253 First Business Resource; Inc. QQ Mkt Monte raltuallas111-3-04Volmne2"
+      },
+      {
+        "page": "205",
+        "text": "> In Amarillo, in 2004, rainfall totals exceeded 2003 totals by 2.94 inches or > In Lubbock, in 2004 rainfall totals exceeded 2003 totals by 5.48 inches or > In Amarillo, in 2004, Total Income declined by approximately $103,000 due to the lost car wash days. > In Lubbock, in 2004, Total Income declined by approximately $69,000 due to the lost car wash days. > An adjustment of $146,554 (Total Income less direct Cost of Goods Sold) was made to Quick Quack's EBITDA to reflect this significant loss of Expense Observations: (Comparison of Trailing Twelve Months 3/31/04 to 8/31/04) > Costs of Goods Sold (differences highlighted below) increased 3.09%. o Wash Chemical expenses increased $18,154 or 15.6%. Armor All Chemical expenses decreased $22,520 or 57%. Wash Chemical expenses are expensed as of the date of purchase thus some of the increase is attributed to the timing of purchases and supplies on hand. Supplies for the newly opened QQ#6 were also purchased during this tim efram e. o Supply expenses increased $14,017 or 54.8%. Supply expenses are expensed as of the date of purchase thus some of the increase is attributed to the timing of purchases and supplies on hand. Supplies for the newly opened QQ#6 were also purchased during this tim efram e. o Grit Pit expenses increased $3,961 or 14.2%. Grit Pits are cleaned on an as needed basis thus, the timing and frequency can create minor fluctuations in this expense item. > Adjusted Operating Expenses (major differences highlighted below) increased $7,489 or 1.38%. o Dues, Fees and Subscriptions decreased $7,934 or 25%. Specific unnecessary items were eliminated. o Insurance expenses increased $4,423 or 6.7%. o Ad Valorem taxes are projected to be approximately $92,500 in 2004 representing a $23,075 decrease from August actuals. See Cost Savings Observations below. o Uniform expenses increased $7,128 or 95%. Quick Quack ended a \"uniform leasing agreement\" for its locations in Lubbock, paid an First Business Resources, Inc. QQ 1110ct Menterandinala4111-3 414Va bagel"
+      },
+      {
+        "page": "206",
+        "text": "Weather Related Observations: (April, 2003 thru August, 2003 versus April, 2004 thru August 2004) > The Panhandle region of Texas had an abnormally wet spring and summer in 2004 vs. the same period of time for 2003 (April thru August) and as compared to the longer term averages. drier Precipitation am Rain , 'ays Days Inch nInches n2003 2004 003 \",,2004 April AP 4L AKIO; 0T28 2.65 3 152 May % 1.46 0.1 2 June 13t 4.1:- 642/ 5.38 11 12 July Ltis8; 7 WA <,7-3'm1i: ot m' August \u2022 6 9 016 0.85 3;-- 1 Totals 131 .05 11.99 26:11 4 271 Days lost to rain A Days lost to threat of rain T2* Rain inches 2003 vs. 2004 2.94 April 8,- 8 1 2.96 \u2022 .8 -19' May 5 47. t: 221 -12 June I \u2022% 2'10 27 3.06 23,. 18 July ol :,,,m1 a Br 0 1.22 9 15 August .. lla 0.39 2.29. t ' 23 Totals ; ' 42 719 12.577 87 87 Days lost to rain 13 Days lost to threat of rain :0 v\u2022 . if Rain inches 2004 vs. 2003 5.48 > In Amarillo, in 2004, Quick Quack lost 16 car wash days to rain as compared to 2003. > In Amarillo, in 2004, cloud days that posed a threat of rain exceeded 2003 totals by 21 days. Five (or 25%) of cloud days were added to \"Days lost to Rain\" for a total of 21 Days Lost to Rain. > In Lubbock, in 2004, Quick Quack lost at least 13 car wash days to rain as compared to 2004. First Business Resources, Inc. QQ Pact Mensrasamnradn-3-04vidame2"
+      },
+      {
+        "page": "207",
+        "text": "FINANCIAL AND PROFORMA OBSERVATIONS Income Observations: (Comparison of Trailing Twelve Months 3/31/04 to 8/31/04) Quick Quack #145 Income Analysis Coulter Boulevard 0313604 Trailing Quick Quack #145 Consolidated Trailing 12 Months Income M8131104 Trailing Weather Observations Affecting Quick Quack Performance: \u2022 Quick Quack lost approximately $171,409 in Total Income due to an abnormally wet spring and summer. An adjustment of $146,554 (Total Income less direct Cost of Goods Sold) was made to Quick Quack's EBITDA to reflect this significant loss of income > A review of Quick Quack's consolidated trailing twelve months trailing performances indicated a steady and strong improvement in Income from YE 2002 through March 2004. The 4.61% decline in Total Income from March 31, 2004 until August 31, 2004 is directly related to a very abnormally wet spring and summer in the Panhandle region of Texas. First Business Resources, Inc. QQ Mkt Bleasernadamnaa111-3-040abame2"
+      },
+      {
+        "page": "208",
+        "text": "Quick Quack #145 Comparative Adjusted EBITDA Analysis 12 Months Trailing March 2004 versus August 2004 % of Total Car Count Coulter 5/Car CID #2 Boulevard S/Car CIO #3 Quaker SiCar OC) #4 Georgia 5/Car OD #5 50th 6/Car CIG#1-#5 Twelve Months Trailing 3131104 Adjusted EBITDA Analysis Total Income 516,672.02 8.53 563,983.86 9.32 1,136276.30 9.02 705j53.66 8.78 795,494.19 9.05 3,718,18005 8.95 Rebate Income 191.83 Om 1,016.06 0.02 47.92 0.00 214.45 0.03 60.31 0.00 1,530.57 0.00 Cost of Goods Sold - 88,242.21 1.46 102,684.59 1.70 119,035.31 0.94 99,568.64 1.24 114,353.60 1.30 523,88435 1.26 Adjusted Operating Expenses 91,602.07 1.51 103,552.70 1.71 115559.96 0.92 116212.67 1.45 115,043.39 1,31 541,970.79 1.30 Salaries 168516.36 2.78 1133,503.131 3.03 245,111.42 1.94 228.035.74 2.64 204.598.69 2.33 1,029,86602 2.48 Management Salary 4,944.25 0.08 4,944.24 0.08 4,944.24 0.04 4,944.24 0.06 4,444.24 0.03 24,221.21 0.06 Adjusted EBITDA 163,458.96 2.70 170,314.59 2.62 651,673.30 5.17 257,206.84 3.20 357,114.58 4.06 1,599,76826 3.85 Car Count 55,823 55,982 119,075 77,570 81,382 389,298 % of Total Car Count 14% 14% 37% 20% 21% 100% Twelve Months Trailing 8/31/04 Adjusted EBITDA Analysis Total Income 483,1336.93 8.66 527,006.59 9.41 1,101541.32 9.25 675,412.89 8.71 758,973.02 9.33 3,546,770.75 9.10 Rebate Income 337.25 0.01 285.46 0.01 95.59 0.00 408.53 0.01 114.89 0.00 1,241.72 0.00 Cost of Goods Sold 91,380.31 1.64 97,754.19 1.75 130,663.11 1.10 104,026.47 1.34 116,241.66 1.43 540,065.74 1.39 Adjusted Operating Expenses 94,863.60 1.70 102,822.61 1.84 118,217.26 0.99 114,341.64 1.47 119,215.15 146 54946026 1.41 Salaries 177.699.04 3.18 186,722.55 3.34 262,272.39 2.20 230,876.93 2.98 210,049.76 2.58 1,067,62067 2.74 Management Salm 8,353.67 0.15 8,228.21 0.15 8,312.70 0.07 8,343.90 0.11 8,098.44 0.10 41,336.92 0.11 (8) Plus Adjuslment for Abnormal Weather Conditions 2453E1.36 0.41 26523.65 0.44 36252.60 0.29 34,870.32 0.43 24262.78 0.28 146,553.71 0.35 Adjusted 2131TDA 136,515.92 2.44 158,294.14 2.83 618,424.05 5.19 253,102.80 3.26 329,745.68 4.85 1,496,082.59 3.84 Car Count (4,720) (4,506) (6,964) (2,842) (6,511) (M 543) % of Total Car Count -7.79% -7.45% -7.41% 43.15% Twelve Months Trailing 3/31104 vs. 8/31104 Adjusted EBITDA Analysis Total Income (32,835.09) 0.13 (36,977.27) 0.09 (34,734.98) 0.24 (30,340.79) (0.07) (36,521.17) 0.28 (171,409.30) 0.15 RebateIncome 145.4"
+      },
+      {
+        "page": "209",
+        "text": "Quick Quack #147 Adjusted August 31, 2004 EBITDA Summary & Proforma* (Reflects Adjustments for Weather Related Events)\" QQ #1 on Coulter $ 136,516 QQ #2 on Boulevard 158,294 QQ. #3 on Quaker 618,424 QQ #1 on Georgia 253,103 QQ #5 on 50th 329,746 Total QQ #145 Adjusted EBITDA $1,496,083 QQ #6 on University \u2014 Opened July, $ 291,425* QQ #7 on Austin Bluffs \u2014 Opening 618,424* December, 2004 Total QQ #647 Proforma EBITDA $ 909,849 Total Adjusted EBITDA Summary $2,405,932 and Proforma * Quick Quack #6 is newly opened and Quick Quack #7 will not be completed and opened until December, 2004. It is expected that the financial performance of Quick Quack #6 will approximate the average financial performance of Quick Quack #5, 50th and Quick Quack #4, Georgia. The financial performance of Quick Quack #7 is expected to be most similar to Quick Quack #3, Quaker. **Refer to Weather Related Observations in the Financial and Proforma Observations. First Business Resources, Inc. QQ Pat Memoranismriza111-3-04Velamel"
+      },
+      {
+        "page": "210",
+        "text": "First Business Resource; Inc. QQ Mkt ?deassmutanmAlas111-3-049ebozral"
+      },
+      {
+        "page": "211",
+        "text": "MECHANICAL DESCRIPTION: Equipment Type: Installation Date: CAPITAL IMPROVEMENTS: (Years 2000 \u2014 2003) Building & Equipment Upgrades: N/A FINANCIAL OVERVIEW***: Proforma EBITDA: ***To be completed in December 2004 Sonny's The Car Wash Factory Proposed December, 2004 First Business Resources Inc. QQ Mid PdasterantbmaThuill1-3-04Vebral"
+      },
+      {
+        "page": "212",
+        "text": "REAL ESTATE: Proposed Completion Date: December, 2004 Location: Southeast side of Austin Bluffs Parkway. One block southwest of Barnes Road and three blocks north of N. Academy Boulevard. Address: 4285 Austin Bluffs Parkway Colorado Springs, Colorado 80918 Neighborhood Description: Middle to upper middle income residential neighborhood. Austin Bluffs Parkway is a heavily commercialized and trafficked street. There is a new food store on north side of Austin Bluffs Parkway and many fast food restaurants and ancillary retail. Land Area*: 36,618 square feet Building Size*: 4,100 square feet\u2014estimated Traffic Counts**: 37,863 cars BM on Austin Bluffs Parkway as of Jarmgry 1998. 96,005 vehicles thru intersection of Austin Bluffs Parkway and N. Academy Blvd. 30,421 vehicles tluu 3 way intersection of Barnes Road and Austin Bluffs Parkway. Improvement Description: Main building has a decorative, ACME rough faced copperstone split-faced concrete block exterior with a cathedral style, forest green, 28 gauge, standing seam, metal roof on concrete pad. Car wash tunnel is open ended with floor to ceiling windows on exterior wall. Concrete/asphalt drives and paving. Austin Bluffs Parkway has one curb cut and has curbs and gutters. Secondary access to the site is available on south side of property. Site is attractively landscaped, with security lighting. Landscaped signage on Austin Bluffs Parkway. Self Serve Wash Bays: None Vacuum Stations: Seven * Public Appraisal Records All square footages are approximate ** Public City Records First Business Resources, Inc. QQ Mkt MemerazdtmiElnattl.3-04Verarae1"
+      },
+      {
+        "page": "213",
+        "text": "E LIMA St P.' (valley Re Quick Quack #7 4285 Austin Bluffs Colorado Springs, Colorado 80918 QUICK QUACK VIEW: Prototype Picture as QQ #7 is under construction LOCATION MAP: Chapel Fetd End ilk Mal ! Polk E11.31gd10 Clec Pulpit Rod r e riP Space ce, PPE FOLIC Diamond SO nd elm anG Golf GCCIAISe Ca- St coColoradollegt First Business Resources, Inc. QQ Mkt Menunandiutriaa111-31-04Velacsal"
+      },
+      {
+        "page": "214",
+        "text": "MECHANICAL DESCRIPTION: Equipment Type: Sonny's The Car Wash Factory Installation Date: July, 2004 CAPITAL IMPROVEMENTS: (Years 2000 \u2014 2003) Building & Equipment Upgrades: N/A FINANCIAL OVERVIEW: Proforma EBTIDA: ***Newly Opened First Business Resources, Inc. QQ DIU Monnerandettellax111.3414Vahmte1"
+      },
+      {
+        "page": "215",
+        "text": "REAL ESTATE: Opening Date: Neighborhood Description: Building Size*: Traffic Counts**: Improvement Description: Self Serve Bays: Vacuum Stations: * Public Appraisal Records ** Public City Records July, 28, 2004 Southeast corner of University Avenue and 80th Street Two blocks south of 82' 6 Street 2507 80th Street, Lubbock, Texas Middle class residential neighborhood. University Avenue and 82nd Street are both heavily commercialized and trafficked streets. New Sonic adjacent this site on south side. Square footage to be determined 4,100 square feet\u2014base building estimated 28,920 average vehicles N/S on University as of June 1, 2002 64,478 vehicles thru intersection of University Avenue and 82nd Street Main building has a decorative, ACME rough faced copperstone split-faced concrete block exterior with a cathedral style, forest green, 28 gauge, standing seam, metal roof on concrete pad. Car wash tunnel is open ended with floor to ceiling windows on exterior wall. Concrete drives and paving. University Avenue and 80th have one curb cut each and both have curbs and gutters. Site is attractively landscaped, with security lighting. Freestanding, lighted, billboard signage on University Avenue. Three stations under canopy All square footages are approximate First Business Resources, Inc. QQ Itfld blementailmallaut111-3-04Velzoseel"
+      },
+      {
+        "page": "216",
+        "text": "Quick Quack #6 25078? Street Lubbock, Texas 79423 QUICK QUACK VIEW: On the west side of University Avenue looking towards the LOCATION MAP: MAPWWEIST 74111.PI c. a- 85th St % \u2022-2 7, :a SS. St n 1.52 \u203a a 15- < s 93 r tit St it Siith st < W s U 69th St m .si s e 20-04 MapiQuest mm, In Ca 2004 CDT, Me First Business Resources, Inc. QQ Mkt Menw randuniFinal11-3.04Vo hunt I"
+      },
+      {
+        "page": "217",
+        "text": "MECHANICAL DESCRIPTION: Equipment Type: Installation Date . Hannah Car Wash Equipment November, 2002 CAPITAL IMPROVEMENTS: (Years 2000 \u2014 2003) Building & Equipment Upgrades: $6,161 FINANCIAL OVERVIEW: *** Adjusted EBITDA: $329,746 ***Trailing 12 months as of 8/31/04 First Business Resource; Inc. QQ Mkt Mematat4ttzerlaallt-3-04voisma1"
+      },
+      {
+        "page": "218",
+        "text": "REAL ESTATE: Opening Date: Neighborhood Description: Building Size*: Traffic Counts**: Improvement Description: Self Serve Wash Bays: Vacuum Stations: * Public Appraisal Records ** Public City Records November 18, 2002 Southwest quadrant of Flint Avenue and 50th Street. Midway between Indiana and University Avenues 3011 50th Street, Lubbock, Texas Established middle class residential neighborhood. 50th Street is a very heavily commercisli7ed and trafficked east/west street. There is a new Kwik Lube and Dry cleaners adjacent QQ on the east side and a new self storage \"U Store on the south side. 44,475 square feet 4,102 square feet---base building 1,964 square feet---canopy 36,130 average vehicles E/W on 50th as of June 19, Main building has a decorative, ACME rough faced copperstone split-faced concrete block exterior with a cathedral style, forest green, 28 gauge, standing seam, metal roof on concrete pad. Car wash tunnel is open ended with floor to ceiling windows on exterior wall. Concrete drives and paving. Site is accessed by private frontage road on west side. Both the private road and 50th Street have curbs and gutters. Site is attractively landscaped, with security lighting. Freestanding, lighted, billboard signage on 50th Street. None: Expansion land with utilities is available to the rear of the site Four under canopy All square footages are approximate First Business Resources, Inc. QQ Mkt Memarandsmnaid11-3-04Vabsitte1"
+      },
+      {
+        "page": "219",
+        "text": "Quick Quack 145 3011 50th Street Lubbock, Texas 79414 QUICK QUACK VIEW: On south side of 50th Street looking towards the southeast. LOCATION MAP: First Business Resouurces, Inc. QQ Mkt Ma tarivartaLLI I-3 44V\u2022lote I"
+      },
+      {
+        "page": "220",
+        "text": "MECHANICAL DESCRIPTION: Equipment Type: Installation Date: CAPITAL IMPROVEMENTS: (Years 2000 \u2014 2003) Building & Equipment Upgrades: $11,054 Land $222,000 FINANCIAL OVERVIEW: *** Adjusted EBITDA: $253,103 ***Trailing 12 months as of 8/31/04 Hannah Car Wash Equipment First Business Resources, Inc. QQ1Kkt Meseerandsoina1ll-3-04Vdame1"
+      },
+      {
+        "page": "221",
+        "text": "REAL ESTATE: Opening Date: Neighborhood Description: Building Size*: Traffic Counts**: Improvement Description: Self Serve Wash Bays: Vacuum Stations: * Public Appraisal Records ** Public City Records Southwest corner of S. Georgia and Dimiven Streets One block south of Woffin Avenue and two blocks south of Interstate 40. 2400 S. Georgia Street, Amarillo, Texas Middle to upper income residential neighborhood. The Woffin Village area is a long time established commercial and retail area of Amarillo. Fast food, strip retail, commercial development, big box retail, banking and all types of service business call this immediate area home. Georgia is a main north/south exit off of Interstate 40. 35,849 square feet 4,014 square feet---base building 1,958 square feet---canopy 29,925 average vehicles N/S on S. Georgia as of April 27, 2004 35,931 vehicles thru the intersection of Wallin Avenue and S. Georgia Main building has a decorative, ACME rough faced copperstone split-faced concrete block exterior with a cathedral style, forest green, 28 gauge, standing seam, metal roof on concrete pad. Car wash tunnel is open ended with floor to ceiling windows on exterior wall. Concrete drives and paving. S. Georgia has one curb cut and Duniven Street has two curb cuts. Each has curbs and gutters. Site is attractively landscaped, with security lighting. Freestanding, extra large, two sided, lighted, billboard signage on S. Georgia Three stations under canopy All square footages are approximate First Business Resources, Inc. QQ hod Mar xambuarbuall-3 4740elamel"
+      },
+      {
+        "page": "222",
+        "text": "Quick Quack #4 2400 S. Georgia Street Amarillo, Texas 79109 QUICK QUACK VIEW: On west side of S. Georgia Street looking towards the north. LOCATION MAP: First Business Resources, Inc. QQ Mitt Memaran4umFmalli-3.\u202204Vohuml"
+      },
+      {
+        "page": "223",
+        "text": "MECHANICAL DESCRIPTION: Equipment Type: Instollstion Date: CAPITAL IMPROVEMENTS: (Years 2000 \u2014 2003) Building & Equipment Upgrades: $16,545 FINANCIAL OVERVIEW: *** Adjusted EBITDA: ***Trailing 12 months as of 8/31/04 Hannah Car Wash October, 2001 First Business Resources, Inc. QQ Mkt Memnan4i2iThial11444Valamuel"
+      },
+      {
+        "page": "224",
+        "text": "REAL ESTATE: Opening Date: October 1, 2001 Location: East side of Qyaker Avenue, 2 blocks south of 82nd Address: 7811 Quaker Avenue, Lubbock, Texas Neighborhood Description: Established middle and upper class residential neighborhood. Quaker Avenue is a principal north/south thoroughfare and is a heavily trafficked street. Both Quaker and 82' d Street are well established commercial areas with a strong representation of retail, restaurants, and service Land Area*: 38,289 square feet Building Size*: 4,218 square feet---base building 1,264 square feet---wash bay 64 square feet---storage 1,470 square feet---canopy Traffic Counts\": 31,380 average vehicles N/S on Quaker as of June Improvement Description: Main building has a decorative, ACME rough faced copperstone split-faced concrete block exterior with a cathedral style, forest green, 28 gauge, standing seam, metal roof on concrete pad. Car wash tunnel is open ended with floor to ceiling windows on exterior wall. Concrete drives and paving. Quaker has two curb cuts each and curbs and gutters. Site is attractively landscaped, with security lighting. Freestanding, lighted, signage on Quaker. Self Serve Wash Bays: \u2014 Three self serve wash bays with canopy Vacuum Stations: Two * Public Appraisal Records All square footages are approximate ** Public City Records First Business Resource; Inc. QQ TOM Memstaatitarallla 414Ve bate 1"
+      },
+      {
+        "page": "225",
+        "text": "Quick Quack #3 7811 Quaker Avenue Lubbock, Texas 79424 QUICK QUACK VIEW: On east side of Quaker Avenue looking towards the southeast. LOCATION MAP: First Business Resources, Inc. QQ Mkt Idernazialftall1-3-041Volse1"
+      },
+      {
+        "page": "226",
+        "text": "MECHANICAL DESCRIPTION: Equipment Type: Installation Date: CAPITAL IMPROVEMENTS: (Years 2000 \u2014 2003) Building & Equipment Upgrades: $183,062 Land 8165,746 FINANCIAL OVERVIEW***: Adjusted EBITDA: $158,294 ***Trailing 12 months as of 8/31/04 Hannah Car Wash October, 2000 First Business Resource; Inc. QQ hat Manana4aaFins111-3424Valstrael"
+      },
+      {
+        "page": "227",
+        "text": "REAL ESTATE: Opening Date: Neighborhood Description: Building Size*: Traffic Counts**: Improvement Description: Self Serve Wash Bays: Vacuum Stations: * Public Appraisal Records ** Public City Records December 23, 2000 Northeast corner of E. Amarillo Boulevard and N. Garfield midway between Buchanan and Mirror 1001 E. Amarillo Boulevard, Amarillo, Texas Lower to middle income residential neighborhood. E. Amarillo Boulevard is a heavily commercialized and trafficked street. There are approximately 10 fast food restaurants and a new United Supermarket within 1/2 mile of QQ. New Sonic on east side. 44,840 square feet 3,776 square feet---base building 2,016 square feet---self serve wash bays 2,037 square feet---canopy 27,823 average vehicles E/W on Amarillo Blvd. As of September 2003 Main building has a decorative, ACME rough faced copperstone split-faced concrete block exterior with a cathedral style, forest green, 28 gauge, standing seam, metal roof on concrete pad. Concrete paving and drives. Car wash tunnel is open ended with floor to ceiling windows on exterior wall. Three ingress egress points on E. Amarillo Boulevard. N. Garfield and 9 Street have one curb cut each. All streets have curbs and gutters. Site is attractively and heavily landscaped, with security lighting. Freestanding, lighted, large billboard signage on Amarillo Boulevard. 4.-- Four wash bays with attached mechanical room. Six drying stations under canopy All square footages are approximate First Business Resources, Inc. QQ Mkt Bleamtasssinzollnall1-3-04Velingsel"
+      },
+      {
+        "page": "228",
+        "text": "Quick Quack #2 1001 E. Amarillo Boulevard Amarillo, Texas 79107 QUICK QUACK VIEW: On north side of Amarillo Boulevard looking towards the west. LOCATION MAP: NE 8th manila Etiv Mil First Business Resources, Inc. QQ MIS Mims indhoo\u2022Fiaudl 1- 3 -84V\u2022 hone I"
+      },
+      {
+        "page": "229",
+        "text": "MECHANICAL DESCRIPTION: Equipment Type: Hannah Car Wash Equipment Installation Date: November, 1999 CAPITAL IMPROVEMENTS: (Years 2000 \u2014 2003) Building & Equipment Upgrades: $199,170 FINANCIAL OVERVIEW***: Adjusted EBITDA: $136,516 ***Trailing 12 months as of 8/31/04 First Business Resources, Inc. QQ Mkt Dplementatusanna1l1-3-116Voluar I"
+      },
+      {
+        "page": "230",
+        "text": "REAL ESTATE: Opening Date: Neighborhood Description: Building Size*: Traffic Counts**: Improvement Description: S elf Serve Wash Bays: Vacuum Stations: * Public Appraisal Records ** Public City Records November 22, 1999 Northwest quadrant of Coulter and 45th Street. West side of Coulter approximately 1/4 block south of 4310 Coulter Street Amarillo, Texas High end residential neighborhood consisting of middle class to affluent homes. New Walinart, Lowes Home Improvement, Payless Shoe Store, and Wells Fargo Bank plus numerous fast food and ancillary retail within 'A mile of QQ. Phillips gas station, new Kwik Lube and Dry cleaners adjacent QQ on south side. Donut Stop and Reids plant nursery on north side. 29,577 square feet 3,360 square feet\u2014base building 27,544 vehicles N/S on Coulter as of July, 2004 43,875 vehicles tluu intersection of Coulter and 45th Main building has a decorative, ACME rough faced copperstone split-faced concrete block exterior with a cathedral style, forest green, 28 gauge, standing seam, metal roof on concrete pad. Car wash tunnel is open ended with floor to ceiling windows on exterior wall. Asphalt drives and paving. Coulter and Golden Pond have two curb cuts each and both have curbs and gutters. Site is attractively landscaped, with security lighting. Freestanding, lighted, billboard signage on Coulter with computer controlled display message. All square footages are approximate First Business Resources, Inc. QQ Mkt Menniadmalast111-3-04Vatame1"
+      },
+      {
+        "page": "231",
+        "text": "Quick Quack #1 4310 S. Coulter Amarillo, Texas 79109 QUICK QUACK VIEW: From Coulter looking towards the West. LOCATION MAP: First Business Resource; Inc. QQ Mkt lams antinuenr111-344Ve la I"
+      },
+      {
+        "page": "232",
+        "text": "First Business Resources, Inc. 22 Sad Meinotantl-3-04Vobroa1"
+      },
+      {
+        "page": "233",
+        "text": "Westgate Car Wash: Westgate Car Wash: Toot & Totum Express: Toot & Totum Express: Colorado Springs 34th & Coulter 26th & Georgia Hillside & Coulter 45th & Soncy Water Works Car Wash: 525 Nevada Hub Car Wash & Diner: 4460 Forrest Hill 7TH Wave Hand Wash: 2510 E. Boulder Full Service Wash Full Service Wash Express Exterior Express Exterior Full Service Wash Full Service Wash Full Service Wash The competing car washes listed above are considered to be the current major competitors to Quick Quack. The list is not intended to be \"all inclusive\" and the reader may classify the competition differently. For a list of all car washes listed in the phone book, please visit www.dexonline.com Type in car wash, City Name, State Name and then open the heading \"Car Wash and Polishing\". First Business Resources, Inc. Q2 Mid Pilemarandemanna111-3-04Vabzmel"
+      },
+      {
+        "page": "234",
+        "text": "\u2022 Due to recent droughts, many government entities have banned driveway washing (Professional Car washing & Detailing, > Business is growing. In 2001, the ICA reported that over half of all conveyor car wash businesses enjoyed an average yearly increase in wash volume of 15 > The car wash volume lives and dies, not by the economy like most businesses, but by the weather. Rain or snow clays are low-volume days. Depending on how heavy it rains or snows and the duration of the storm, most of the time carwashes are closed. After a weather event, the car wash is going to be busy. > Typical Franchise Costs: \u2022 Cash Investment: $350K - $500K \u2022 Total Investment: $1.6M - $2.3M \u2022 Minimum Net Worth: $1M \u2022 Franchise Fee: $75K \u2022 Royalty: 6% \u2022 Advertising: 4% (3% locally spent and controlled) \u2022 Average Number Of Employees: 4-5 \u2022 Passive Ownership: Possibly It typically takes 18 to 24 months to construct a car wash once a suitable site has been found. Local zoning prohibits car washes in most locations. Construction permits may be hard to obtain. Crystal Falls: Classic Car Wash: Hanna Car Wash: X-stream Autoclean: X-stream Autoclean: 7027 Quaker Ave. 7401 University Ave. 2808 50th Street 1912 Quaker Ave. 5523 W. 4 th St. W. Loop 289 82m1 Street Near Frankford 22 AIM MemanzattnatEtrud11-347417elamal Full Service Car Wash Full Service Car Wash Express/Detail Express/Detail Express Exterior Express Exterior First Business Resources, Inc."
+      },
+      {
+        "page": "235",
+        "text": "INDUSTRY OBSERVATIONS and COMPETITION INDUSTRY OBSERVATIONS > According to the 2000 U.S. Census, 138 million registered automobiles drive the roads of America today. Counting buses and large trucks, there are 230 million vehicles in all. > An estimated 75000 professional car washes exist in North America employing about 625,000 people. > Consumers spend more than $22.2 billion annually to have their vehicles professionally cleaned. > Research shows that 52% of American car owners wash their cars less than once a month and 15% never wash their cars. An estimated 37 million cars even smell because of interior garbage, according to a consumer survey conducted by the International Carwash Association (ICA). > Where Do Americans Wash Their Cars? (ICA, 2001) \u2022 43% Home Wash \u2022 18% Full-Service \u2022 12% Exterior \u2022 13% Stationary Automatic \u2022 14% Self-Service > The potential market of car washes increases daily due to the following: \u2022 The average car is more expensive and prices are on the rise. \u2022 There are more cars on the road. \u2022 People are keeping cars longer. Close to 40 percent of vehicles on the road are 10 years or older (ICA). \u2022 Approximately 43 percent of Americans primarily wash their cars at home (down from 48 percent in 1996), providing a larger potential customer base. \u2022 Government enforcement of laws concerning the environment and pollution is making motorists aware of the harmful effects of driveway washing (Professional Car washing & Detailing, First Business Resources, Inc. QQ11111 BlestonneltmaFin111-1-04V\u2022burie1"
+      },
+      {
+        "page": "236",
+        "text": "6AISce i 15 Uirtt = 4 5' 9 915 arra 6 1\"-- Lir dnft Li,. 34 Cr1 A- p, 4-rn 3 QQ Mkt Memorandureeinalli-3.04V0k0ne1 First Business Resources, Inc."
+      },
+      {
+        "page": "237",
+        "text": "Quick Quack car washes in their respective cities and each GM directly manages one location. Each GM reports to the Operations Manager. Maintenance Technician: The MT serves all of the locations and is responsible for general repair and maintenance of all the wash equipment Bookkeeper: Basic bookkeeping and other administrative duties. On-Site Manager: Responsible for on-site operations. Teller: Explains and sells the wash services to the customers. Teller collects all monies and processes all credit card charges. Prep Technician: Performs pre-wash detailing to the front and rear of the vehicle. ORGANIZATION, OWNERSHIP & GENERAL BUSINESS There are seven Quick Quack Limited partnerships identified as Quick Quack Limited # 1 through #7. Hours of Operation: Quick Quack's normal operating hours are: \u2022 Winter Hours: Monday through Saturday: 7 a.m. to 7 p.m. Sunday: 9 a.m. to 7 p.m. \u2022 Summer Hours: Monday through Saturday: 7 a.m. to 9 p.m. Sunday: 9 a.m. to 7 p.m. Employee Benefits: Employee benefits include a Company 401k plan (Company matches 50% of employee contribution with a maximum employee contribution of 6%), medical insurance assistance, and an employee vacation plan. First Business Resources, Inc. QQ1dIct MemoraiadomFbial21-3-04Vehune1"
+      },
+      {
+        "page": "238",
+        "text": "\u2022 The Quick Quack business model is proven. Expansion into other targeted and strategic cities is a goal of Quick Quack. Identified strategic cities include: *Midland, Texas *Abilene, Texas *Albuquerque, New Mexico * Odessa, Texas Colorado Springs, Colorado *Pueblo, Colorado \u2022 Acquisition of other car wash businesses that could either be easily converted to the Quick Quack model and/or expanded. For example, purchase an existing self serve open bay car wash with excess land to add a tunnel type express exterior car wash. \u2022 Market Quick Quack express car washes as franchise opportunities within established territories. Quick Quack Key Employee positions include; the Managing General Partner, the General Manager, two Assistant General Managers, one Maintenance Technician and one Bookkeeper. In addition, each car wash location has an On-site Manager, a Teller and one or two Prep Technicians. Quick Quack #7 will soon be completed and will be staffed at that time. Managing General Partner: On behalf of the MGP, Paul Fields manages and oversees the th y-to-thy operations of the business. All employees report to Mr. Fields. He is located in Colorado Springs, Colorado. Mr. Fields focuses on the strategic goals and new business initiatives of the Quick Quack entities with a primary emphasis on site location, development and construction of new Quick Quack locations. Operations Manager: The OM reports directly to the Managing General Partner and is responsible for the general oversight of all of Quick Quack's operations. The OM focuses on the marketing of Quick Quack and the management of all the existing car wash locations. He is intimately familiar with all operational and marketing aspects of Quick Quack. The OM is located in Amarillo, Texas. General Manager: There are two GMs. One GM is located in Amarillo and the other GM is located in Lubbock. Each provides managerial oversight for the three First Business Resources Inc. 22 Mkt memerandttselnal11-3-04Volmse1"
+      },
+      {
+        "page": "239",
+        "text": "http://ggreenstreet.com/images/projectphotos/QUICK%20QUACK%2OCAR%20WASH.... 12/20/2005"
+      },
+      {
+        "page": "240",
+        "text": "Marketing, Incentive, and Loyalty Programs: Quick Quack currently uses or has used a number of methods to attract new customers and to retain these customers for the long term. These methods include: \u2022 Media Advertising: Newspaper, television, radio and direct mail. \u2022 Billboard Signage: Both onsite and offsite billboard signage. \u2022 Quick Quack Club Card: Purchase a prepaid Club Card in any dollar amount o The Club Card works just like a debit card. o The Club Card has a monetary value and with each wash the account is debited by the value of the wash. o The Club Card is rechargeable thus the value of the account can be increased at any time by pre-purchasing more washes. o Convenience: Attendants scan your card and customers immediately proceed through the wash tunnel. o 10% more in dollar value with a minimum $25 pre-purchase and 15% more in dollar value with a pre-purchase $200 dollars or more. o Club Card members receive a free \"Super Shine\" wash on their birthday (with valid driver license). \u2022 Fundraising: Quick Quack encourages the various not for profit organizations in their community to use the services of Quick Quack for fundraising. Simply put, Quick Quack sells the Club Cards to the fundraising organization and splits the profits 50/50. Quick Quack gets the opportunity to attract new customers and the fundraising organization benefits equally. Growth and Expansion Opportunities New ownership will be able to further improve the business' sales growth performance by implementing one or more of several possible business strategies: 1) develop and open new Quick Quack express exterior car washes in strategic regional cities, 2) acquire other tunnel type car washes and convert them to the Quick Quack marketing theme and operations model and 3) create and sell Quick Quack \"Franchise Territories\". First Business Resources, Inc. 22 Mkt Atemsnantlinalaud114-040ehonel"
+      },
+      {
+        "page": "241",
+        "text": "Clear Coat Protectant: High tech foaming protectant. Rust Inhibitor: Prevents body rust by utilizing a premium rust inhibitor. Hot Polish: A foamy heat activated polish gets deep inside the \"pores\" of the vehicle's finish to clean and remove even the toughest road film. The polish followed by the Clear Coat Protectant adds a beautiful luster and shine to the vehicle's finish. Service Pricing: There are four exterior wash packages available to the customer from the simple \"Express Wash\" for $6.00 to \"The Best\" for $12.00. A customer may use the free vacuum stations to self clean their vehicle's interior. Ex . ress Underbothr Clear Polish Wheel Clear Coat Hot Rust Armor Rash Riau Coat foam Cleaner Protectant Polish kihibitor AIM Tires Sealer $12. till 1 1 Shine Air freshener TOWELS Individual Services Express Wash! 41 *2.00 240 $2.00 $6.00 First Business Resource; Inc. QQ Mkt Manonallsuallzia111-3-114Ve brain"
+      },
+      {
+        "page": "242",
+        "text": "COMPANY DESCRIPTION, MANAGEMENT & ORGANIZATION COMPANY DESCRIPTION Quick Quack operates seven theme oriented express exterior car washes in three cities; Amarillo, Texas (3), Lubbock, Texas (3) and Colorado Springs, Colorado (1). Quick Quack opened its first car wash in Amarillo in 1999 and is currently completing construction on its seventh facility in Colorado Springs, Colorado. The carwashes share a common building design and a central marketing theme which is based upon spotting Quackals. Quackals is the Quick Quack duck and is a registered trademark. Quackals was designed to entertain children and adults alike and makes getting your vehicle washed a fun and enjoyable experience. Located in each car wash tunnel is a unique 83-foot long mural of the Quick Quack pond. Customers try to locate Quackals as their car travels through the wash tunnel. Quackals is hiding and is always on the move, just like the customer. Services Offered To efficiently service its customers, Quick Quack offers several key competitive service advantages including: Express Wash: Complete soft cloth wash using the finest ph balanced suds. Foamy Presoak: Releases everyday dirt and grease. Spot Free Rinse: Double processed reverse osmosis water ensures no spotting. Air Dry: Automatic air dryer with 4 motors and 70-horse power, which gently lifts and rolls the water away. Wheel Cleaner: Cleans and removes brake dust, contaminants, and grease. Clear Coat Sealer: High tech product that quickly sheds water fast. Underbody Rinse: Undercarriage water jets clean away road dirt and grime. Polish Foam: Adds a shiny and durable protective finish to the washed vehicle. 4. First Business Resources, Inc. QQ Mkt MemoraztattmFbm11143-00Vehmtel"
+      },
+      {
+        "page": "243",
+        "text": "/, ,,amutv.inintuttlawnetttaPir bb \u2022aui gsaanosea sseutsna isau"
+      },
+      {
+        "page": "244",
+        "text": "BUSINESS PRICING CONSIDERATIONS Potential Buyers of Quick Quack should base their offering price on the following investment criteria: A) All seven Quick Quack express exterior car washes will be priced and sold as one package. B). Mr. Fields is willing to remain as a paid consultant to the business post closing for up to three months. His continued tenure with the business will insure an orderly transition of the business, and continued goodwill with the employees. Mr. Fields' compensation during the transition period is negotiable. C). Quick Quark is willing to negotiate a non-compete agreement. D). An all cash offer is preferred. The offering price, as of the date of closing, will exclude Quick Quack's cash accounts, long/short term bank debt and certain personal items. The offering price will include operating accounts receivable/psybc4nd all fixed assets. First Business Resources, Inc. QQ Mkt Pelaniato\u2022Plaalll.344Vebiri"
+      },
+      {
+        "page": "245",
+        "text": "Quick Quack uses a state of the art soft cloth wash and high pressure water system along with advanced cleaning agents. This system efficiently removes dirt, salt and other potentially dam aging contaminants from a vehicle's finish. These advanced wash systems are designed by such firms as Hanna-Sherman International and Sonny's The Car Wash Factory both recognized market leaders in the design, manufacturing and installation of today's latest car wash equipment Quick Quack is currently operated out of Mr. Paul Fields' office in Amarillo Texas (Mr. Fields runs several different types of businesses from this location). Quick Quack could be easily relocated to another city as all of the employees can utilize the onsite offices at each of the carwash locations to conduct their business. Quick Quack's five established car washes are currently generating an adjusted EBITDA of approximately $1,500,000. Quick Quack's sixth car wash (newly opened in Lubbock) and seventh car wash (to be opened in December in Colorado Springs) are expected to generate an additional $910,000 (proforma) in combined adjusted EBITDA. Quick Quack has an established infrastructure, a strong loyal customer base, and is positioned to continue its positive controlled growth into 2005 and beyond. New ownership will be able to further improve the Company's growth performance by implementing one or more of several possible business strategies: 1) develop and open new Quick Quack car washes in strategic regional cities, 2) acquire other tunnel type car washes and convert them to the Quick Quack marketing theme and operations model and 3) create and sell Quick Quack \"Franchise Territories. Quick Quack represents an excellent investment opportunity based upon its solid performance history, innovative marketing program, established employee infrastructure, and unlimited upside expansion potential. Whether you are a seasoned business investor or first time buyer, Quick Quack represents a fast growing, high quality, high return investment with an excellent reputation and proven track record. 42Q bat NtamsnuatunFlnall13.114valineral First Business Resource; Inc."
+      },
+      {
+        "page": "246",
+        "text": "EXECUTIVE SUMMARY Quick Quack\u00ae Express Car Wash (\"Quick Quack\") is a portfolio of seven express exterior car washes. Each car wash is owned by a separate limited partnership entity with a common general partner. For purposes of this Confidential Business Memorandum, the seven car wash entities will be treated and described as if they were a single company (\"Company\"). Quick Quack operates seven theme oriented express exterior car washes in three cities; Amarillo, Texas (3), Lubbock, Texas (3) and Colorado Springs, Colorado (1). Quick Quack opened its first car wash in Amarillo Texas in 1999 and is currently completing construction on its seventh facility in Colorado Springs, Colorado. Quick Quack's website is www.ouickouack.com. These recently constructed car washes have a common state-of\u2014the-art building design and share a central marketing theme predicated upon locating \"Quackals\" the Quick Quack duck. As their vehicle travels through the car wash tunnel, customers and their children are entertained as they attempt to locate Quackals on an eighty foot long painted mural. Please refer to the detailed description of each car wash in the Salient Facts & Description Section. Quick Quack is an established company with a well recognized brand name. The Company's reputation in Amarillo and Lubbock is \"first class\". Quick Quack is very proud of its recent financial and operational successes. These successes are attributed to an unwavering commitment to customer service. Each of the Quick Quack locations is an easily recognized address that is surrounded and supported by nationally known commercial retail and service enterprises. First Business Resource; Inc. QQ Mkt BanansadmillIniall-3-116Vehuna1"
+      },
+      {
+        "page": "247",
+        "text": "taing\u2022t130 111=Uttinenucazapi ppm bb 'Mg \"sea.mosaH ssaupng isam"
+      },
+      {
+        "page": "248",
+        "text": "QUICK QUACK\u00ae EXPRESS CAR WASHES Amarillo, Tam \u2022 Lubbock, Texas \u2022 Colorado Springs, Colorado CONFIDENTIAL BUSINESS MEMORANDUM TABLE OF' CONTENTS I. EXECUTIVE SUMMARY \u2022 Business Pricing Considerations II . COMPANY DESCRIPTION, MANAGEMENT & ORGANIZATION DI. INDUSTRY OBSERVATIONS & COMPETITION IV. SALIENT FACTS & DESCRIPTIONS QUICK QUACK #147 V. FINANCIAL INFORMATION? \u2022 Adjusted [BIT A Summary & Proforma (August 31, 2004) \u2022 Quick Quack #1-#5 Comparative Adjusted EBITDA Analysis (12 months trailing March 2004 versus 12 months trailing August 2004) \u2022 Financial & Proforma Observations \u2022 Quick Quack #1-45 Adjusted EBITDA Analysis (12 months trailing March 2004) \u2022 Quick Quack #1-#5 Adjusted EBITDA Analysis (12 months trailing August 2004) Additional information may be obtained from First Business Resources, Inc., the Seller's exclusive representative. First Business Resources, Inc. 8117 Preston Road, Suite 300 \u2022 Dallas, Texas 75225 (214) 363-7774 \u2022 Fax (214) 378-6899 www.first-biz.com \u2022 jc(th,first-biz.com \u2022 gc@first-biz.corn This finn is not a CPA firm. First Business Resource; Inc. QQ Mkt hirmaranaltostEln1114-04Vehamel"
+      },
+      {
+        "page": "249",
+        "text": "CONFIDENTIAL BUSINESS MEMORANDUM QUICK QUACK\u00ae EXPRESS CAR WASHES Seven Locations Serving Amarillo, Texas 4 Lubbock, Texas \u2022 Colorado Springs, Colorado Presented by: FIRST BUSINESS RESOURCES, INC. 8117 Preston Road, Suite 300 \u2022 Dallas, Texas 75225 (214) 363-7774 \u2022 Fax (214) 378-6899 www.first-biz.com \u2022 jc@first-biz.com This film is not a CPA \"firm. First Business Resources, Inc. QQ Mkt MenterandsmEliaa11144321Velizmil"
+      },
+      {
+        "page": "250",
+        "text": "constitute a representation that there has not been a change in the business or affairs of the Business since the date of preparation of the Memorandum. Owner(s) and FBR expressly reserve the right, at their sole discretion, to reject any or all expressions of interest or offers regarding the Business and/or terminate discussion with any party at any time with or without notice. Neither the Memorandum, nor any offer or inquiry made by an Acquiror reviewing the Memorandum, nor any negotiations or discussions among Owner(s), FBR or any such Acquiror, shall be deemed to create a binding contract between Owner(s) and such Acquiror. If Owner(s) accepts an offer made by any such Acquiror, it is expected that a written contract for the purchase of the Business will be negotiated between the parties. All legal rights and obligations between such Acquiror, on the one hand, will come into existence only when such a purchase contract is fully executed, delivered and approved by Owner(s) and its legal counsel, and any conditions to Owner's obligations there under has been satisfied or waived, and the legal rights and obligations of the parties shall at that time be only those which are set forth in the purchase contract and other documents specifically referred to in the purchase This Memorandum is the property of FBR, is furnished solely for the purpose of a review by an Acquiror of the Business, and is not to be used for any other purpose, and may be used only by parties approved by FBR. By accepting this Memorandum, the party in possession hereof agrees (i) to return it to FBR immediately upon request of FBR or Owner(s) and (ii) that this Memorandum and its contents are of a confidential nature and will be held and treated in the strictest confidence. No portion of this Memorandum may be copied or otherwise reproduced or disclosed to anyone without the prior written consent of FBR and The Acquiror is hereby advised to either have the abstract covering the real estate which is the subject of this report and contract be examined by an attorney of the Acquiror's own selection, and/or be furnished with or obtain a policy of title The terms and conditions set forth within the Disclaimer, Confidentiality Statement and Conditions apply to this Memorandum in its entirety. QQ Mkt 3limorawlumMuilll.3.08Volsa1 First Business Resources, Inc."
+      },
+      {
+        "page": "251",
+        "text": "This Confidential Business Memorandum (\"Memorandum\") was prepared by First Business Resources, Inc. (\"FBR\") and has been reviewed by the Owner(s) of the Business (\"Owner(s)\"). It contains selected information pertaining to the historical and current operations of the business and a description of the owned or leased real estate (\"Business\"). The Memorandum does not purport to be all-inclusive or to contain all of the information, which a prospective purchaser (\"Acquiror\") may In this Memorandum, certain documents, property descriptions, leases and other materials are described in summary form. The summaries do not purport to be complete nor, necessarily, accurate descriptions of the full agreements involved, nor do they constitute a legal analysis of such documents. Acquiror is expected to independently review all documents. Acquiror should not construe the contents of this Memorandum or any communication, whether written or oral, from FBR or the Owner(s), its founders, management, employees or agents as legal, tax, accounting or other expert advice. Each Acquiror should consult his own counsel, accountant, and other professional advisors as to legal, tax, accounting, and related matters concerning his investment and its suitability for him. The financial projections set forth in this Memorandum are provided for general reference purposes only and are based upon the assumptions stated herein and on other assumptions with regard to future events. These assumptions may not prove accurate and should not be relied upon to indicate actual results. In addition, the achievement of any financial projections may be affected by fluctuating economic conditions, competition and be dependent upon the occurrence of future events, which cannot be assured. Therefore, the actual results achieved may vary from the projections and such variation could be material. Acquiror should make his own projections, inspections and conclusions about the Business without reliance upon the material contained herein and conduct their own independent due diligence. Acquiror should prepare his own engineering and environmental inspections to determine the condition of the Business and the existence of any potentially hazardous material used in the construction or maintenance of the building or located at the site. This Memorandum is subject to errors, omissions, changes or withdrawal without "
+      },
+      {
+        "page": "253",
+        "text": "4 ,pd oi? 1 to y ta fr\u2018 a eftilsP\u2014 utth ' 1111,S1-11i1.111111 7 FIRST BUSINESS BUSINESS RESeURCES, INC. Acquisition & Divestitury Profrssiostals q.qcb1tLC,o -- 1-7 Cs, it is..nr, 6X Pim- ^ \"44 \u201c i t 7 8 07\" - ) 24I It c :11\u201814 clr-ar ts le IL Otto QQ BM Itmoznia1las111-3414Vasa1 First Business Resource* Inc."
+      },
+      {
+        "page": "254",
+        "text": "General Observations \u2022 Visited 15 sites across NC, GA and FL \u2022 Not offered Membership at any site \u2014 Only 1 time had attendant check in at XPT kiosk \u2022 High variability in quality of experience based on Most are well placed in the community \u2014 feel like rural areas or with lower density All of the car washes where clean and the grounds well All car washes had help wanted signs \u2014 looking for Was able to recognize site manager at each place \u2014 good they showed up on site. Anecdotal correlation between Chik-fil-A locations and Magnolia + other carwashes High level considerations \u2022 Older sites will require more CAPEX investment \u2022 Newer equipment will perform better Experience / add-ons / free stuff Add roofs to cover the vacuum/cleaning station \u2022 Add air to each vacuum/cleaning station for sites \u2022 Add more clean Micro-fiber cloth stations Training for attendants matters \u2014 saw variability \u2022 Digital marketing \u2014 customer acquisition \u2022 Create a more concise branding that is recognizable and visible from the road Improve the image of the older locations"
+      },
+      {
+        "page": "255",
+        "text": "RG's Customer Experience - KBFs Location! Easy access. Layout too. Sense of space driving around \u2014 easy and convenient Nice attendants Car came out clean and dry so I didn't have to do a bunch of added work LEDs \u2014 love them. Went through one without LEDs and was not as fun Nice smell of soap inside vehicle!!! A+++ Can see the soap foam! Felt it was \"cleaner\" Jet and rinse \u2014 feel car getting washed and thoroughly got rid of soap Freebies like air freshener, air, spray bottles Bathroom on location \u2014 A+++ having them No Pile Ups saved the day \u2014 knowing I'm protected from getting hit or hitting the guy across. Less the damage more the headache and waste of time"
+      },
+      {
+        "page": "256",
+        "text": "Go Study Suggestions Case Studies... \u2022 Site 9: Whistle Express \u2014 Tallahassee (32304): \u2014 Understand impact of Blue Wave opening \u2014 Understand if any seasonality from Community College \u2022 Site 2: Tidal Wave Auto Spa \u2014 Rocky Mount: \u2014 Impact Sam's down the road \u2022 Site 12: Whistle Express \u2014 Thomasville, GA: \u2014 Impact of opening a new location in Thomasville (US HVVY 19 location) \u2022 Wacky Wed Campaign on Whistle locations"
+      },
+      {
+        "page": "257",
+        "text": "Day 1 North Carolina Locations O (New Bern NC 285, O Greenville NC 278s9 O Greenville NC 27834 O WESLEYAN COL. NC 27804 misers NC 27893 \u2022 Airport tiled Raleigh, NC 0 Add destination Send directons to yOur PriOna via US -70 E 6 hr 30 min Explore Airport Blvd"
+      },
+      {
+        "page": "258",
+        "text": "Site 1: Wash Factory - Wilson Zip code Town Car Wash Name 27893 Wilson The Wash Factory - -- Great Location Great Visibility Immaculately kept 2640 Ward Blvd, Wilson, NC 27893 Ranking Stage Bright and exciting to go through Number of Stars Great Location Great Visibility Immaculately kept"
+      },
+      {
+        "page": "259",
+        "text": "Site 1: Wash Factory Wilson Large cleaning area with plenty of parking spaces Easy to navigate car wash and parking area. One directional car flow NP. 411111441 1.41. II . 117, 8 II) No air at vacuum & cleaning stations. Micro Fiber cleaning cloths available but not easily found"
+      },
+      {
+        "page": "260",
+        "text": "Site 1: Wash Factory Wilson Other notes \u2022 Ford, Toyota, Honda \u2014 several dealerships nearby. \u2022 Best Buy \u2014 Retail \u2022 Target near by on the way . Walnnart supermarket right next door \u2022 Need to drive past retail to hit carwash \u2022 Residential area, then retail . Nice clean tunnel . Clean equipment, no sign of rust or damage. \u2022 Manager on site \u2022 [A] location and site looked good \u2022 Gantry clean \u2014 clean overnight . B+ quality wash. Too wet after, lots of drying"
+      },
+      {
+        "page": "261",
+        "text": "Site 2: Tidal Wave Auto Spa Rocky Mount Zip code Town Car Wash Name 1615 Benvenue Rd, 27804 Rocky Mount Tidal Wave Auto Spa Rocky Mount, NC 27804 Local Competition \u2014 Sam's on the way to Tidal Wave but opposite direction. Better location and more convenient than Tidal Wave Red framed metal building instead of block construction Over all layout of property is tightly designed Number of Stars Car wash is tucked away and most be accessed through another retailers parking lot. One way in and out of parking/cleaning area makes it very difficulty to IPIIMIIngiatamma"
+      },
+      {
+        "page": "262",
+        "text": "Site 2: Tidal Wave Auto Space Rocky Mount Branding and advertising for car wash packages easy to read \u2014 but no digital pricing meny Equipment showed some rust and is made out of powder coated steel"
+      },
+      {
+        "page": "263",
+        "text": "Site 2: Tidal Wave Auto Space - Rocky Mount Angled parking spaces makes it very challenging to exit self cleaning aera Chemical room is relatively clean \u2014 could use some organization"
+      },
+      {
+        "page": "264",
+        "text": "Sam's - Competitor to Rocky Mount LCompetition is in a better location and is easier to find than Tidal Wave Easy flow of traffic through each stage of the car wash experience [It is a large property with more features and offers lower pricing."
+      },
+      {
+        "page": "265",
+        "text": "Site 2: Tidal Wave Auto Space Rocky Mount \u2022 One of lowest performers \u2022 Past a Sam's carwash \u2022 Access behind the building \u2022 Nice attendant \u2022 Cheaper end of town \u2022 Not main road \u2022 Sam's more attractive on way in \u2022 Angle parking lot for coming in, not out \u2022 Double way / in out vs one seamless traffic flowthrough way \u2022 Difficult get in, difficult park, difficult get out when cleaning car \u2022 Chemical room OK / clean \u2022 Better job cleaning, dryer than before despite ugly site \u2022 Smaller, older facility \u2022 Sam's next to gas station, easy in, easy out \u2022 Underperformance prob driven by location, proximity to Sam \u2014 need to test. \u2022 A clean car, Car wash itself B- hard to efficiently move flow of vehicles, One directional flow. Save on gas if you buy carwash. Cheaper wash too. 10 monthly pass, and 3 dollar less. Prices \u2022 Sams seems in a better location"
+      },
+      {
+        "page": "266",
+        "text": "Site 3: The Wave Car Wash/Pirates Cove Greenville Zip code Town Car Wash Name 27834 South Memorial The Wave Car Wash Not easily noticeable from the road 2612 S Memorial Dr, Greenville, NC 27834 Number of Reviews Consistent pricing"
+      },
+      {
+        "page": "267",
+        "text": "Site 3: The Wave Car Wash/Pirates Cove Greenville Long entering lane to accommodate peak traffic hours Easy flow of traffic through each stage of the car wash experience - Meticulously maintained Located on a busy four lane road"
+      },
+      {
+        "page": "268",
+        "text": "Site 3: The Wave Car Wash/Pirates Cove Greenville Branding and advertIsing for car wash packages easy to readS Clean displays. No digital pricing displays Clean Tunnel High ceilings"
+      },
+      {
+        "page": "269",
+        "text": "Site 3: The Wave Car Wash/Pirates Cove Greenville \u2022 4 competitors near by (Take5, Tommy Express and Sam Express) \u2022 Big location \u2014 very tall. \u2022 No roof coverage over vacuum. When its hot, and no shade have to clean car in sun. Would choose shade vs. no o Can dry car, no water spot when in shade \u2022 Needs branding, no branding. Name not on building. No mention brand outside \u2022 Big space. \u2022 Could expand \u2022 Big tunnel. Taken care off. \u2022 Tunnel well take care of. Clean location. \u2022 Lack of roof and branding not good. \u2022 Attendants slow \u2022 Placed on high traffic road. \u2022 Easy, convenient to drive through. Has restaurants near by"
+      },
+      {
+        "page": "270",
+        "text": "Competitor Tommy's, Greenville Competition is in a better location around large box retailers"
+      },
+      {
+        "page": "271",
+        "text": "Competitor - Tommy's, Greenville"
+      },
+      {
+        "page": "272",
+        "text": "Ugly in -bay - Greenville An example of a future location for potenna express col-wash or nom tunnel"
+      },
+      {
+        "page": "273",
+        "text": "Site 4: The Wave Express Greenville Car Wash Name Address 3201 E 10th St, The Wave Express Greenville, NC 27858 Ranking Number of Number of Reviews [ Located on a four-lane road surrounded by retail and residential"
+      },
+      {
+        "page": "274",
+        "text": "Site 4: The Wave Express Greenville"
+      },
+      {
+        "page": "275",
+        "text": "Site 4: The Wave Express Greenville 1 Pirates Cove \u2014 exterior branding said The Wave 1 Long entering lane to accommodate peak traffic hours"
+      },
+      {
+        "page": "276",
+        "text": "Site 4: The Wave Express Greenville Easy flow of traffic through each stage of the car wash experience Branding and advertising for car wash packages easy to read"
+      },
+      {
+        "page": "277",
+        "text": "Site 4: The Wave Express \u2014 Greenville Bright and exceeding to go through"
+      },
+      {
+        "page": "278",
+        "text": "Site 4: The Wave Express Greenville"
+      },
+      {
+        "page": "279",
+        "text": "Site 4: The Wave Express Greenville \u2022 4 competitors near by (Take5, Tommy Express and Sam Express) \u2022 Big location \u2014 very tall. \u2022 No roof coverage over vacuum. When its hot, and no shade have to clean car in sun. Would choose shade vs. no o Can dry car, no water spot when in shade \u2022 Needs branding, no branding. Name not on building. No mention brand outside \u2022 Big space. \u2022 Could expand \u2022 Big tunnel. Taken care off. \u2022 Tunnel well take care of. Clean location. \u2022 Lack of roof and branding not good. \u2022 Attendants slow \u2022 Placed on high traffic road. \u2022 Easy, convenient to drive through. Has restaurants near by"
+      },
+      {
+        "page": "280",
+        "text": "Site 5: Wave Wash 2 New Bern, NC 28562 Zip code Town 28562 New Bern Car Wash Name Address 2600 Dr. M.L.K. Jr Blvd, The Wave Car Wash New Bern, NC 28562 iip\" Close to highway and surrounded by large retail Busiest car wash of the day Ranking Stage 3 Less then 36 Month Number of Stars stwurE CM? WASH MIS 1111111k 4 Easy flow of traffic through each stage of the car wash experience"
+      },
+      {
+        "page": "281",
+        "text": "Site 5: Wave Wash 2 New Bern, NC 28562 Long entering lane to accommodate peak traffic hours"
+      },
+      {
+        "page": "282",
+        "text": "Site 5: Wave Wash 2 \u2014 New Bern, NC 28562"
+      },
+      {
+        "page": "283",
+        "text": "Site 5: Wave Wash 2 New Bern, NC 28562 Branding and advertising for car wash packages easy to read \u2022 a Mb int\u2022ii *an l\u2022 gliSIONINIINII\u2022111LS"
+      },
+      {
+        "page": "284",
+        "text": "Site 5: Wave Wash 2 New Bern, NC 28562 Large parking area with roofs"
+      },
+      {
+        "page": "285",
+        "text": "Site 5: Wave Wash 2 New Bern, NC 28562 \u2022 Lots of retail nearby (Lowes, HD) \u2022 85K income \u2022 No competition \u2022 A little bit on the outside \u2022 Good big site. But as ways out \u2022 Near hotel + rural suburbs \u2022 Our carwash nicer than the competitor \u2014 no reason why we can't win"
+      },
+      {
+        "page": "286",
+        "text": "Site 6: Splash -n-Dash Jacksonville Zip code Town Car Wash Name 28546 Jacksonville NC Splash-N-Dash Address Ranking Stage 4245 Western Blvd, Jacksonville, NC 28546 40 less then 36 Number of Stars Located on the outer side edge of retail area on four lane road"
+      },
+      {
+        "page": "287",
+        "text": "Site 6: Splash -n-Dash Jacksonville ONE LOW NI 0 MEE Mail CERAMIC SHIELD $44.99 souLun snot $24.99"
+      },
+      {
+        "page": "288",
+        "text": "Site 6: Splash -n-Dash Jacksonville All Lights and LEDs worked Branding and advertising for car wash packages easy to read"
+      },
+      {
+        "page": "289",
+        "text": "Competitor Green Clean"
+      },
+      {
+        "page": "290",
+        "text": "Site 7: The Riptide Kinston Zip code Town Car Wash Name 28504 Kinston Nc The Riptide Car Wash Kinston 4179 W Vernon Ave, Kinston, NC 28504 Hard to find branding does nothing to stick out Great location on busy four lane in hart of town"
+      },
+      {
+        "page": "291",
+        "text": "Site 7: The Riptide Kinston Attached to an oil change Feels converted old drive tthroughcar wash into an express"
+      },
+      {
+        "page": "292",
+        "text": "Site 7: The Riptide Kinston Small location Tight space for navigating vehicle"
+      },
+      {
+        "page": "293",
+        "text": "Add deMnatioP 5erd di\"ct\"\"\"' \" '\" gi via W Orange Ave A \"nlq rautno: Explore Tallah 00000 International Airport"
+      },
+      {
+        "page": "294",
+        "text": "Site 8: Whistle Express Tallahassee (32301) Zip code Town Car Wash Name 32301 Tallahassee Whistle Express Car Wash 2527 Apalachee Pkwy, Tallahassee, FL 32301 Branding is hard to see from road and is very boring Number of Reviews Looked like old with a fresh coat of paint"
+      },
+      {
+        "page": "295",
+        "text": "Site 8: Whistle Express Tallahassee (32301) Tunnel was clean but looked and felt warn Most LED lights didn't work ( Didn't feel great"
+      },
+      {
+        "page": "296",
+        "text": "Site 13: Whistle Express - 14431 US 19 South, Thomasville, GA 31792 Branding and advertising for car wash packages easy to read Bright and exciting to go through"
+      },
+      {
+        "page": "297",
+        "text": "Site 13: Whistle Express - 14431 US 19 South, Thomasville, GA 31792 Long entering lane to accommodate peak traffic hours Easy flow of traffic through each stage of the car wash experience"
+      },
+      {
+        "page": "298",
+        "text": "Site 13: Whistle Express - 14431 US 19 S Thomasville, GA 31792 Brand new and just opened"
+      },
+      {
+        "page": "299",
+        "text": "Site 12: Whistle Express Thomasville, GA \u2022 Marketing is bad cant find location \u2022 Hard to see \u2014 marketing opportunity \u2022 Next to an in bay. Empty"
+      },
+      {
+        "page": "300",
+        "text": "Site 12: Whistle Express Thomasville, C Easy flow of traffic through each stage of the car wash experience"
+      },
+      {
+        "page": "301",
+        "text": "Site 12: Whistle Express Thomasville, GA Zip code Town Car Wash Name Address 1411 E Jackson St, 31792 Thomasville Whistle Express Car Wash Thomasville, GA 31792 Branding is hard to see from road and is very boring Number of Reviews 1$11 WHISTLL\" EXPiziESS"
+      },
+      {
+        "page": "302",
+        "text": "Competitor Full service"
+      },
+      {
+        "page": "303",
+        "text": "Site 11: Whistle Express Tallahassee (32312) Easy flow of traffic through each stage of the car wash experience"
+      },
+      {
+        "page": "304",
+        "text": "Site 11: Whistle Express Tallahassee (32312) Super nice. Memorable attendant Branding and advertising for car wash packages easy to read"
+      },
+      {
+        "page": "305",
+        "text": "Site 11: Whistle Express Tallahassee (32312) Long entering lane to accommodate peak traffic hours"
+      },
+      {
+        "page": "306",
+        "text": "Site 11: Whistle Express Tallahassee (32312) Gas station and Walmart in the same retail center"
+      },
+      {
+        "page": "307",
+        "text": "Site 11: Whistle Express Tallahassee (32312) Zip code Town Car Wash Name Address 32312 Tallahassee Whistle Express Car Wash 2898 Kerry Forest Pkwy, Tallahassee, FL 32312 Ranking Number of Stars Great Location Great Visibility"
+      },
+      {
+        "page": "308",
+        "text": "Site 10: Whistle Express Tallahassee (32303) \u2022 Dark location \u2022 Can see calcium rust \u2022 Dark, limited LEDs \u2022 LEDs make you feel in dark tunnel \u2022 Awkward turn, layout not great"
+      },
+      {
+        "page": "309",
+        "text": "Site 10: Whistle Express Tallahassee (32303) User parked in the wrong side 3"
+      },
+      {
+        "page": "310",
+        "text": "Site 10: Whistle Express Tallahassee (32303) Overall layout of property is tightly designed One way in and out of parking/cleaning area makes it very difficulty to In peak hours half of the vacuum station can not be used do to being blocked by cars entering the car was"
+      },
+      {
+        "page": "311",
+        "text": "Site 10: Whistle Express Tallahassee (32303) Zip code Town Car Wash Name 32303 Tallahassee Whistle Express Car Wash Good location around retail + Quick lube 2324 N Monroe St FL 3, Tallahassee, FL 32303 Number of Number of Stars Reviews"
+      },
+      {
+        "page": "312",
+        "text": "Competitor Blue Wave Easy flow of traffic through each stage of the car wash experience"
+      },
+      {
+        "page": "313",
+        "text": "Competitor Blue Wave Competition is in a better location and is easier to find Located on a corner of two four lane roads I \u2022 Blue Water -> much better \u2022 Better quality wash. \u2022 Has overflow \u2022 Lots of signage \u2014 FREE Vacuum \u2022 Better wash quality [ \u2014Discounts"
+      }
+    ],
+    "evidence_rows": [
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "3",
+        "name": "Listing / Offering - 138-77 Queens Blvd, Jamaica, NY 11435",
+        "location": "138-77 Queens Blvd, Jamaica, NY 11435",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,400,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 138-77 Queens Blvd, Jamaica, NY 11435 I estimate 4000 subscribers at $37 in 2 years and Ebita of $900,000 Asking price $2,400,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "4",
+        "name": "Listing / Offering - West Nyack, NY 10994",
+        "location": "West Nyack, NY 10994",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,4000,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE I estimate in 2 years 4000 members at $33-and $1,000,000 plus of Asking $2,4000,000 Land 3 \u2022' Asking price $2,4000,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "6",
+        "name": "577W MAIN ST, NORWICH, CT 06360",
+        "location": "NORWICH, CT 06360",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,100,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE I estimate in 2 years 4000 subscribers at $33 and Ebita of $900,000 $1,100,000 Land Asking price $1,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "9",
+        "name": "230 FLANDERS RD, NIANTIC, CT 06357",
+        "location": "230 FLANDERS RD, NIANTIC, CT 06357",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,500,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 230 FLANDERS RD, NIANTIC, CT 06357 I estimate in 2 years 4000 subscribers at $33 and $900,000 in Ebita Asking price $1,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "11",
+        "name": "6 Farmingville Rd, Ridgefield, CT 06877",
+        "location": "6 Farmingville Rd, Ridgefield, CT 06877",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,100,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 6 Farmingville Rd, Ridgefield, CT 06877 I estimate in 2 years 3500 members at $38 and $1,100,000 plus of Asking price $2,100,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "12",
+        "name": "Listing / Offering - 25 Cross St, New Canaan, CT 06840",
+        "location": "25 Cross St, New Canaan, CT 06840",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,500,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 25 Cross St, New Canaan, CT 06840 After 2 years 3000 subscribers at $45 estimat 1 Ebitafi600,000 Asking price $2,500,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "23",
+        "name": "Listing / Offering - 610 E. Fordham Road, Bronx. NY",
+        "location": "610 E. Fordham Road, Bronx. NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$4000",
+        "ebitda": "",
+        "note": "Lovely car wash. Offered for sale by landlord. Landlord offers 21 years Car Wash, Property, Oil Change CAR WASH OPPORTUNITIES 4, Asking price $4000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "26",
+        "name": "All American Gas and Car Wash",
+        "location": "18736 Conneaut Lake Rd., Meadville, PA 76335",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$375,000",
+        "ebitda": "",
+        "note": "Well established All American Gas and Car Wash located at a busy intersection in Vernon Twp, 36 acres with lots of frontage on Conn. Lake Rd. All American Gas and Car Wash 18736 Conneaut Lake Rd., Meadville, PA 76335 (Crawford County) Asking price $375,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "59",
+        "name": "Listing / Offering - Fullerton, CA",
+        "location": "Fullerton, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$5,664,000",
+        "ebitda": "",
+        "note": "Fully Leased to Tommy's Express Car Wash Sale Price: $5,664,000 New Construction 2015 Asking price $5,664,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "75",
+        "name": "BlueWave Express Car Wash.",
+        "location": "League City, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$3,760,000",
+        "ebitda": "",
+        "note": "BlueWave Express Car Wash. Average daily traffic volume in 1-45 and FM 646 exceeds 88,000 $83,000 and League City's Asking price $3,760,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "86",
+        "name": "Listing / Offering - 110 Lake Harbour Drive Ridgeland, MS 39157",
+        "location": "110 Lake Harbour Drive Ridgeland, MS 39157",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$12.7",
+        "asking_price": "$5,014,860",
+        "ebitda": "",
+        "note": "years, totaling to $12.7 billion in industry revenue. four, five-year renewal options, and absolutely zero landlord responsibilities. Since Mister Car Wash began operations at this location in 2016, unit- Purchase Price $5,014,860 Asking price $5,014,860. Rev..."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "87",
+        "name": "Listing / Offering - 3510 Lakeland Drive Flowood, MS 39232",
+        "location": "3510 Lakeland Drive Flowood, MS 39232",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$12.7",
+        "asking_price": "$2,217,540",
+        "ebitda": "",
+        "note": "to $12.7 billion in industry revenue. Purchase Price $2,217,540 including 2.1 percent revenue growth over the next five years, totaling Asking price $2,217,540. Revenue $12.7."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "88",
+        "name": "Mister CAR WASH",
+        "location": "170 MLK Jr. Blvd. Monroe, GA 30655",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "16,550",
+        "revenue": "",
+        "asking_price": "$4,200,000",
+        "ebitda": "",
+        "note": "Traffic Count 16,550 VPD Purchase Price $4,200,000 Mister CAR WASH Asking price $4,200,000. Traffic 16,550."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "90",
+        "name": "Mister CAR WASH",
+        "location": "1035 Parkway Blvd Athens, GA 30606",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "27,000",
+        "revenue": "",
+        "asking_price": "$5,500,000",
+        "ebitda": "",
+        "note": "Traffic Count 27,000 VPD Purchase Price $5,500,000 Mister CAR WASH Asking price $5,500,000. Traffic 27,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "92",
+        "name": "Mister CAR WASH",
+        "location": "930 Peachtree Pkwy. Cumming, GA 30041",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "40,200",
+        "revenue": "",
+        "asking_price": "$5,000,000",
+        "ebitda": "",
+        "note": "Traffic Count 40,200 VPD Purchase Price $5,000,000 Mister CAR WASH Asking price $5,000,000. Traffic 40,200."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "8",
+        "name": "30 Perronette Dr. Bridgeport CT 06606",
+        "location": "30 Perronette Dr. Bridgeport CT 06606",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 30 Perronette Dr. Bridgeport CT 06606 Projected two years 4500 members $33 apiece 1.1mIlion plus ebita"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "10",
+        "name": "12 Farmington Ave, Bristol, CT 06010",
+        "location": "12 Farmington Ave, Bristol, CT 06010",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "PURCHASE PRICE 12 Farmington Ave, Bristol, CT 06010 projected two years 4000 members average $33 $900.000 plus ebita"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "27",
+        "name": "Listing / Offering - 18136 Conneaut Lake Rd. Meadville, PA 16335",
+        "location": "18136 Conneaut Lake Rd. Meadville, PA 16335",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "htle:/Avww.loopnet.comlistIng/19788012/18136-Conneaut-Lake-Rd-MeadvIlle-PA/ 5/23116, 10:05 PM Meadville, PA 16335 \u2022 2,280 SF \u2022 Industrial For Sale"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "60",
+        "name": "Green Forest Express Car Wash was built in 2016. It",
+        "location": "002-033 ABOUT 1010 N GAFFEY ST, SAN PEDRO, CA 90731",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Green Forest Express Car Wash was built in 2016. It * 30% increase in revenue between 2017 St 2018 ways to increase revenue and profits, Green Forest"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "62",
+        "name": "1010 N Gaffey St - San Pedro Express Carwash",
+        "location": "San Pedro, CA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1010 N Gaffey St - San Pedro Express Carwash 2,500 SF Specialty Building Offered at $3,650,000 at a 6.84% Cap Rate in San Pedro, CA"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "65",
+        "name": "1020 Dolsontown Rd - Splash Car Wash",
+        "location": "20 Locations Throughout Fairfield, CT and Upper Westchester, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 Splash Car Wash Operates 20 Locations \u2022 Diversified Income Stream with Car Wash and 1020 Dolsontown Rd - Splash Car Wash"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "68",
+        "name": "415 Norman Dr - International Car Wash Group",
+        "location": "Valdosta, GA",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "\u2022 The World's Largest Car Wash Company 415 Norman Dr - International Car Wash Group 2,840 SF Specialty Building Offered at $2,975,000 at a 6% Cap Rate in Valdosta, GA"
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "5",
+        "name": "Jiffy car wash Hartford",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$50,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE Jiffy car wash Hartford I estimate in 2 years 4000 subscribers at $25 and $600,000 in Ebita Asking price $50,000."
+      },
+      {
+        "type": "Listing / Offering",
+        "document": "Scanned Packet Documents.txt",
+        "page": "7",
+        "name": "Listing / Offering - Page 7",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$10,000",
+        "ebitda": "",
+        "note": "PURCHASE PRICE Projected two years 6000 members $33 each $1.4 million plus ebita Lease starts at $10,000 a month Asking price $10,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "55",
+        "name": "Traffic / Site Evidence - 4649 W ROSECRANS AVE, HAWTHORNE, CA 90250",
+        "location": "4649 W ROSECRANS AVE, HAWTHORNE, CA 90250",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "35,000",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "405, with daily traffic counts exceeding 35,000 cars volume, high profitability express car wash with land AWARD WINNING EXPRESS CARWASH WITH LAND Traffic 35,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "61",
+        "name": "IINVt I IV1t.INI JUMMAKT",
+        "location": "1010 N. Gaffey Street in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "35,000",
+        "revenue": "",
+        "asking_price": "$3,650,000",
+        "ebitda": "",
+        "note": "ramp, with daily traffic counts exceeding 35,000 potential for continued revenue and long-term EXPRESS CAR WASH IS STRICTLY PROHIBITED. Asking price $3,650,000. Traffic 35,000."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "64",
+        "name": "Traffic / Site Evidence - MIDDLETOWN, NY 10940",
+        "location": "MIDDLETOWN, NY 10940",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "18,300",
+        "revenue": "",
+        "asking_price": "$7,150,000",
+        "ebitda": "",
+        "note": "Property Sub-type Car Wash APN / Parcel ID 335600-004-000-0001- ABOUT 1020 DOLSONTOWN RD, MIDDLETOWN, NY 10940 vehicles into the area. There are more than 39,383 Asking price $7,150,000. Traffic 18,300."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "71",
+        "name": "The subject property is a corporately operated BlueWave Express Car Wash in the",
+        "location": "Harlingen,TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "97,000",
+        "revenue": "",
+        "asking_price": "$3,940,000",
+        "ebitda": "",
+        "note": "69-E, combined traffic counts near the site are in excess of 97,000 vehicles The subject property is a corporately operated BlueWave Express Car Wash in the Sale of the property includes all FF&E (tenant's equipment including conveyor car wash system). Asking..."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "280",
+        "name": "Traffic / Site Evidence - 2600 Dr. M.L.K. Jr Blvd, The Wave Car Wash New Bern, NC 285...",
+        "location": "2600 Dr. M.L.K. Jr Blvd, The Wave Car Wash New Bern, NC 28562",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "2600 Dr. M.L.K. Jr Blvd, The Wave Car Wash New Bern, NC 28562 Car Wash Name Address Busiest car wash of the day"
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "212",
+        "name": "REAL ESTATE:",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "37,863",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Traffic Counts**: 37,863 cars BM on Austin Bluffs Parkway as of seam, metal roof on concrete pad. Car wash tunnel Proposed Completion Date: December, 2004 Traffic 37,863."
+      },
+      {
+        "type": "Traffic / Site Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "224",
+        "name": "Traffic / Site Evidence - Page 224",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "31,380",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Traffic Counts\": 31,380 average vehicles N/S on Quaker as of June seam, metal roof on concrete pad. Car wash tunnel Opening Date: October 1, 2001 Traffic 31,380."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Packet Documents.txt",
+        "page": "2",
+        "name": "\u201eA 12/30/2020 Summary Report",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EASI Census 2010 Site Selection Reports & Analysis 101 Haag Avenue, Bellmawr, NJ 08031 \u201eA 12/30/2020 Summary Report"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Packet Documents.txt",
+        "page": "25",
+        "name": "MeatMarket Trends -Asking price index trends, sale price trends, asking rent trends",
+        "location": "167 Main St. 960 Chancery Lane Cotton Rd &Conneaut Lake Meadville, PA 16335",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "MeatMarket Trends -Asking price index trends, sale price trends, asking rent trends ettp://www.loopnetcomiListing/19788012/18136-Comieauttake-Rd-Meadville-PA/ 5/23/16, 10:05 PM For Sole. $195,000 For Sale \u2022 $159,900 For Sale. $156,900 Meadville, PA 16335"
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Packet Documents.txt",
+        "page": "34",
+        "name": "\u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source",
+        "location": "101 Haag Avenue, Bellmawr, NJ 08031",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "101 Haag Avenue, Bellmawr, NJ 08031 \u00a9 2020 Easy Analytic Software, Inc. Easy Analytic Software, Inc. (EASI) is the source All estimates are as of 4/1/2010 unless otherwise stated."
+      },
+      {
+        "type": "Demographic Support",
+        "document": "Scanned Packet Documents.txt",
+        "page": "235",
+        "name": "Demographic Support - 40 percent of vehicles on the road are 10 years or",
+        "location": "40 percent of vehicles on the road are 10 years or",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "conducted by the International Carwash Association (ICA). > An estimated 75000 professional car washes exist in North America employing about 625,000 people."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "13",
+        "name": "Trinity Car Wash",
+        "location": "639 Saw Mill River Rd Ardsley, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$800,000",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Trinity Car Wash Water & Sewer 15,000 Wash Supplies 15,000 Revenue $800,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "22",
+        "name": "Source Evidence - 576 Springfield Avenue, Newark, NJ",
+        "location": "576 Springfield Avenue, Newark, NJ",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$1,500,000",
+        "ebitda": "",
+        "note": "Car wash and lube claims $900,000 gross. Long lease or property. Car wash, property 8. 12 bay self serve. Could be full service. Car wash and property. Very excellent area. Huge office can be Asking price $1,500,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "24",
+        "name": "Source Evidence - 53 South Route 9W, W. Haverstraw, NY",
+        "location": "53 South Route 9W, W. Haverstraw, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$850,000",
+        "ebitda": "",
+        "note": "1 acre property. Carwash, Tube in nice area. Claims $550,000 in carwash and $380,000 in quick lube. Carwash and property. Oil change would make this place jump. Asking price $850,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "54",
+        "name": "INTERNATIONAL CAR WASH GROUP",
+        "location": "3406 Ross Clark Circle Dothan 1419 Waddell Drive Huntsville AL",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$702,748",
+        "ebitda": "",
+        "note": "\u2022 15 Norman Drive aldosta GA $170,489 6.00% $2,841,475 World's Largest Car Wash Operator, Washing More Professional Car Wash has Increased from 47% in Asking price $702,748."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "67",
+        "name": "Property Sub-type Car Wash",
+        "location": "2015 Property Sub-type Car Wash ABOUT 415 NORMAN DR, VALDOSTA, GA 31601",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "$2,975,000",
+        "ebitda": "",
+        "note": "rentable square feet and is situated on 2.00 acres. The subject Car Wash benefits from being well- Property Sub-type Car Wash Asking price $2,975,000."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "108",
+        "name": "Facility Data:",
+        "location": "1241 Ripley Street Lake Station, IN 46405",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$519.7",
+        "asking_price": "",
+        "ebitda": "$28.2",
+        "note": "Revenue: $519.7 EBITDA: $28.2 Volume: 11,712 Revenue $519.7. EBITDA $28.2."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "109",
+        "name": "Facility Data:",
+        "location": "1855 Keams Canyon Road Holbrook, AZ 86023",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$402.0",
+        "asking_price": "",
+        "ebitda": "$58.6",
+        "note": "Revenue: $418.1 Revenue: $402.0 Revenue: $374.9 Revenue $402.0. EBITDA $58.6."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "111",
+        "name": "CONFIDENTIAL",
+        "location": "7027 South Quaker Avenue Lubbock, TX 79424",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,598.1",
+        "asking_price": "",
+        "ebitda": "$95.5",
+        "note": "Revenue: $549.7 Revenue: $537.1 Revenue: $2,598.1 Revenue $2,598.1. EBITDA $95.5."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "113",
+        "name": "CONFIDENTIAL",
+        "location": "7320 Burnett Road Austin, TX 78757",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,658.9",
+        "asking_price": "",
+        "ebitda": "$476.7",
+        "note": "Revenue: $1,780.4 Revenue: $1,752.9 Revenue: $1,658.9 Revenue $1,658.9. EBITDA $476.7."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "115",
+        "name": "CONFIDENTIAL",
+        "location": "17931 Preston Road Dallas, TX 75252",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$557.9",
+        "asking_price": "",
+        "ebitda": "$7.9",
+        "note": "Revenue: $557.9 EBITDA: ($7.9) Volume: 31,260 Revenue $557.9. EBITDA $7.9."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "116",
+        "name": "CONFIDENTIAL",
+        "location": "1219 East Pioneer Parkway Arlington, TX 76010",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$816.8",
+        "asking_price": "",
+        "ebitda": "$89.2",
+        "note": "Revenue: $816.8 Revenue: $384.7 Revenue: $1,624.0 Revenue $816.8. EBITDA $89.2."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "117",
+        "name": "CONFIDENTIAL",
+        "location": "South Cooper Arlington, TX 76015",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$1,814.4",
+        "asking_price": "",
+        "ebitda": "$571.5",
+        "note": "Revenue: $879.3 Revenue: $1,814.4 Property Size: 9,605 sq. ft. EBITDA: $69.1 Property Size: 13,593 sq. ft. EBITDA: ($90.4) Revenue $1,814.4. EBITDA $571.5."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "118",
+        "name": "CONFIDENTIAL",
+        "location": "1219 East Pioneer Parkway o 3408 South Collins Dallas in",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$10,905k",
+        "asking_price": "",
+        "ebitda": "$2,186.0",
+        "note": "Total Revenue $10,905k8 EBITDA $2,186.0 Total Payroll/Total Revenue Revenue $10,905k. EBITDA $2,186.0."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "119",
+        "name": "CONFIDENTIAL",
+        "location": "6780 Bandera Road San Antonio, TX 78238",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$680.5",
+        "asking_price": "",
+        "ebitda": "$65.6",
+        "note": "Revenue: $680.5 Revenue: $580.2 Property Size: 12,813 sq. ft. EBITDA: $8.3 Property Size: 5,057 sq. ft. EBITDA: ($26.9) Revenue $680.5. EBITDA $65.6."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "121",
+        "name": "CONFIDENTIAL",
+        "location": "6605 West Chandler Blvd. Chandler, AZ 85226",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$705.2",
+        "asking_price": "",
+        "ebitda": "$131.6",
+        "note": "Revenue: $705.2 Revenue: $597.8 Property Size: 9,504 sq. ft. EBITDA: $172.4 Property Size: 4,940 sq. ft. EBITDA' $83 5 Revenue $705.2. EBITDA $131.6."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "122",
+        "name": "CONFIDENTIAL",
+        "location": "1266 North Arizona Avenue Chandler, AZ 85224",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$797.4",
+        "asking_price": "",
+        "ebitda": "$219.7",
+        "note": "Revenue: $950.6 Revenue: $884.0 Revenue: $797.4 Revenue $797.4. EBITDA $219.7."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "123",
+        "name": "CONFIDENTIAL",
+        "location": "1245 North Gilbert Road Gilbert, AZ 85234",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$848.4",
+        "asking_price": "",
+        "ebitda": "$193.8",
+        "note": "Revenue: $883.7 Revenue: $848.4 Property Size: 8,085 sq. ft. EBITDA: $304.8 Property Size: 8,022 sq. ft. EBITDA: $140.5 Revenue $848.4. EBITDA $193.8."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "125",
+        "name": "CONFIDENTIAL",
+        "location": "12330 South Cleveland Avenue Fort Myers, FL 33907",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,056.8",
+        "asking_price": "",
+        "ebitda": "$914.1",
+        "note": "Revenue: $2,056.8 Revenue: $1,051.2 EBITDA: $914.1 Revenue $2,056.8. EBITDA $914.1."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "126",
+        "name": "CONFIDENTIAL",
+        "location": "1555 N. Washington Blvd. Sarasota, FL 34936",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$465.5",
+        "asking_price": "",
+        "ebitda": "$74.0",
+        "note": "Revenue: $704.5 Revenue: $1,112.6 Property Size: 9,220 sq. ft. EBITDA: $74.0 Property Size: 5,835 sq. ft. EBITDA: $84.3 Revenue $465.5. EBITDA $74.0."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "128",
+        "name": "CONFIDENTIAL",
+        "location": "931 East Lancaster Avenue Bryn Mawr, PA 19010",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$850.6",
+        "asking_price": "",
+        "ebitda": "$115.9",
+        "note": "Property Size: 4,921 sq. ft. `- EBITDA: $4.5 Property Size: 3,139 sq. ft. -EBITDA: $115.9 Property Size: 4,354 sq. ft. -EBITDA: $223.2 -Lot Size: 26,250 sq. ft. \"...Revenue: $203.5 Revenue $850.6. EBITDA $115.9."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "129",
+        "name": "CONFIDENTIAL",
+        "location": "215 West Camden Avenue Moorestown, NJ 08057",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$110.6",
+        "asking_price": "",
+        "ebitda": "$26.7",
+        "note": "Property Size: 3,582 sq. ft. EBITDA: $7.7 Property Size: 2,040 sq. ft. EBITDA: $58.0 Property Size: 1,190 sq. ft. .....EBITDA: $26.7 Property Size: 5,012 sq. ft. - EBITDA: $317.1 Lot Size: 7,579 sq. ft. Revenue: $125.4 Lot Size: 14,362 sq. ft. Revenue: $148.6..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "130",
+        "name": "CONFIDENTIAL",
+        "location": "240 Dupont Highway Smyrna, DE 19977",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$177.3",
+        "asking_price": "",
+        "ebitda": "$53.8",
+        "note": "Revenue: $301.0 Revenue: $177.3 \u2014 Revenue: $175.7 Revenue $177.3. EBITDA $53.8."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "15",
+        "name": "Source Evidence - 1716 Gornto Rd, Valdosta, GA 31601",
+        "location": "1716 Gornto Rd, Valdosta, GA 31601",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name Branding and advertising for car wash 31601 Valdosta Whistle Express Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "18",
+        "name": "Source Evidence - 2235 N Ashley St, Valdosta, GA 31602",
+        "location": "2235 N Ashley St, Valdosta, GA 31602",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name 31602 31602 Whistle Express Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "28",
+        "name": "376 Bridgeport Ave.",
+        "location": "376 Bridgeport Ave. Shelton, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "SOO \\ 1\\ 16 \u20180,700"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "36",
+        "name": "65 Surrey Cir, Shirley, NY 11967",
+        "location": "65 Surrey Cir, Shirley, NY 11967",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "65 Surrey Cir, Shirley, NY 11967"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "42",
+        "name": "27 Connolly Pkwy, Hamden, CT 06514",
+        "location": "27 Connolly Pkwy, Hamden, CT 06514",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "27 Connolly Pkwy, Hamden, CT 06514 13\\1o\\2 2000\\ s\\ \\ b `L.,600"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "43",
+        "name": "791 Post Rd E, Westport, CT 06880",
+        "location": "791 Post Rd E, Westport, CT 06880",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "791 Post Rd E, Westport, CT 06880"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "44",
+        "name": "1123 Highland Ave, Cheshire, CT 06410",
+        "location": "1123 Highland Ave, Cheshire, CT 06410",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "1123 Highland Ave, Cheshire, CT 06410"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "47",
+        "name": "570 Bedford Road Bedford Hills, NY, 10507",
+        "location": "570 Bedford Road Bedford Hills, NY",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "570 Bedford Road Bedford Hills, NY, 10507"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "76",
+        "name": "Single -Tenant Zips Car Wash",
+        "location": "6231 Denton Highway Haltom City, TX",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zips Car Wash Zips Car Wash Single -Tenant Zips Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "77",
+        "name": "Single-Tenant Zips Car Wash",
+        "location": "7365 Kingston Pike Knoxville, TN",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zips Car Wash Zips Car Wash Zips Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "78",
+        "name": "Single-Tenant Zips Car Wash",
+        "location": "2900 Wade Hampton Boulevard Taylors, SC",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zips Car Wash Zips Car Wash Zips Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "141",
+        "name": "Top 20 Car Wash Operators by Number of Locations",
+        "location": "16 Splash LLC Stamford, CT",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "8 Original $2 Car Wash Livonia, MI 26 7 Oasis Car Wash Addison, TX 26 5 Mike's Express Car Wash Carmel, IN 29"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "154",
+        "name": "Minuteman Car Wash",
+        "location": "1600 Market Street, Philadelphia, PA 19103",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Suite 1210, 1600 Market Street, Philadelphia, PA 19103 Minuteman Car Wash Wednesday, March 16, 2005. Your Proposal must be submitted in written form and executed by an"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "157",
+        "name": "240 Dupont Highway \u2022 Smyrna, DE 19977 302-653-9190 Exterior Car Wash & Self Service V...",
+        "location": "795-5445 Exterior Car Wash & Self Service Vacuum 327 Burnt Mill Road - Voorhees, NJ 08043",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "327 Burnt Mill Road - Voorhees, NJ 08043 856-429-9523 Exterior Car Wash & Self Service Vacuum 215 West Camden Avenue- Moorestown. NJ 08057 856-231-1151 Exterior Car Wash & Self Service Vacuum Exterior Car Wash, Self Service Car Wash & Self Service 325 North W..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "163",
+        "name": "CONFIDENTIAL",
+        "location": "2 SIMS p/mo Ha ve Brown Road Professional MO",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "PIOUS Highway 42 Northeast $500 p/mo 51,500 p/mo or 3% of gross yaks (whichever Is greater) 44,047.25 p/mo (as extended)"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "258",
+        "name": "Source Evidence - 2640 Ward Blvd, Wilson, NC 27893",
+        "location": "2640 Ward Blvd, Wilson, NC 27893",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "266",
+        "name": "Site 3: The Wave Car Wash/Pirates Cove Greenville",
+        "location": "2612 S Memorial Dr, Greenville, NC 27834",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name Site 3: The Wave Car Wash/Pirates Cove Greenville 27834 South Memorial The Wave Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "273",
+        "name": "Source Evidence - 3201 E 10th St, The Wave Express Greenville, NC 27858",
+        "location": "3201 E 10th St, The Wave Express Greenville, NC 27858",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash Name Address 3201 E 10th St, The Wave Express Greenville, NC 27858"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "286",
+        "name": "Source Evidence - 4245 Western Blvd, Jacksonville, NC 28546",
+        "location": "4245 Western Blvd, Jacksonville, NC 28546",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "290",
+        "name": "Source Evidence - 4179 W Vernon Ave, Kinston, NC 28504",
+        "location": "4179 W Vernon Ave, Kinston, NC 28504",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name 28504 Kinston Nc The Riptide Car Wash Kinston"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "294",
+        "name": "Source Evidence - 2527 Apalachee Pkwy, Tallahassee, FL 32301",
+        "location": "2527 Apalachee Pkwy, Tallahassee, FL 32301",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name 32301 Tallahassee Whistle Express Car Wash"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "307",
+        "name": "Source Evidence - 2898 Kerry Forest Pkwy, Tallahassee, FL 32312",
+        "location": "2898 Kerry Forest Pkwy, Tallahassee, FL 32312",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name Address 32312 Tallahassee Whistle Express Car Wash 2898 Kerry Forest Pkwy,"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "311",
+        "name": "Source Evidence - 2324 N Monroe St, Tallahassee, FL 32303",
+        "location": "2324 N Monroe St, Tallahassee, FL 32303",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Zip code Town Car Wash Name 32303 Tallahassee Whistle Express Car Wash 2324 N Monroe St FL 3,"
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "94",
+        "name": "Northeast, Florida, and Texas regions. Overall car wash volumes declined 6.5% in 2004...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$15.03",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "average wash and detailing revenue per car to $14.62 in 2003, from $14.03 in 2002. This increase in and detailing revenue per car to $15.03 in 2004, from $14.62 in 2003. This increase in average wash and volume decline as mentioned above. Cost of revenue N\u2022Na..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "101",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$14.19",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Avg. Wash & Detail Revenue $14.19 $14.03 $14.62 $15.03 Total Revenue Total Payroll/Total Revenue 47.5% 48.0% 50.4% 50.6% Revenue $14.19."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "110",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,104.8",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Revenue $2,104.8 $1,989.9 $1,861.3 Total Payroll/Total Revenue % of Revenue Revenue $2,104.8."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "112",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$15.67",
+        "asking_price": "",
+        "ebitda": "$809.7",
+        "note": "EBITDA $809.7 $509.4 $435.8 $240.8 Avg. Wash & Detail Revenue $15.67 $15.25 $16.01 $15.13 Total Revenue Revenue $15.67. EBITDA $809.7."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "114",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$6,776.2",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Revenue $6,776.2 Total Payroll/Total Revenue Avg. Wash & Detail Revenue Revenue $6,776.2."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "120",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,489.5",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Revenue Total Payroll/Total Revenue % 53.7% I. of Revenue 25.1% 27.5% 20.0% 17.3% Revenue $2,489.5."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "127",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$6,010.6",
+        "asking_price": "",
+        "ebitda": "$2,106.1",
+        "note": "Total Revenue Total Payroll/Total Revenue Avg. Wash & Detail Revenue Revenue $6,010.6. EBITDA $2,106.1."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "131",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$9.72",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Avg. Wash & Detail Revenue $9.72 $10.40 $1038 $1139 Total Payroll/Total Revenue 39.1% 41.0% 43.1% 44.8% % of Revenue 33.6% 29.2% 25.7% 24.8% Revenue $9.72."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "146",
+        "name": "For the fiscal year ended December 31, 2004, the Division anticipates car wash relate...",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$10,772.5",
+        "asking_price": "",
+        "ebitda": "$8.2 m",
+        "note": "revenues are anticipated to total approximately4l.9 million with EBITDA above breakevert level. r Adverse weather conditions and a shift in corporate strategy have been the primary drivers of declining For the fiscal year ended December 31, 2004, the Division..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "148",
+        "name": "Source Evidence - Page 148",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$38.9 m",
+        "note": "generated total annual revenues and EBITDA of approximately $38.9 million and $8.2 million, exit the car wash business. Through December 2000f-th Com y completed seventeen acquisitions, ,.. ..07 resulting in it owning 56 car wash facilities and fiv ash,facili..."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "166",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$13.53",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "EBITDA 3.4 $1,717.9 $2,290.1 $2,180.1 Avg. Wash Sz Detail Revenue $13.53 513.49 $15.04 $14.96 Total Revenue Revenue $13.53."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "167",
+        "name": "Car Wash $1,596.7",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$3,058.3",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Car Wash $1,596.7 Avg. Wash & Detail Revenue $17.53 Total Revenue Revenue $3,058.3."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "168",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$15.67",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Avg. Wash & Detail Revenue $15.67 $15.25 $16.01 $15.13 Total Revenue Total Payroll/Total Revenue 44.9% 46.5% 49.5% 52.4% Revenue $15.67."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "169",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$19.00",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Avg. Wash & Detail Revenue $19.00 $18.57 $18.31 $19.58 Total Revenue Total Payroll/Total Revenue 45.7% 46.4% 46.2% 46.8% Revenue $19.00."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "171",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$5,588.0",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Revenue $5,588.0 Total Payroll/Total Revenue Avg. Wash & Detail Revenue Revenue $5,588.0."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "172",
+        "name": "Car Wash $4,784.9",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$2,106.1",
+        "asking_price": "",
+        "ebitda": "$2,106.1",
+        "note": "EBITDA $2,106.1 Car Wash $4,784.9 Avg. Wash & Detail Revenue $15.12 Revenue $2,106.1. EBITDA $2,106.1."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "173",
+        "name": "Car Wash $3,645.2",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$4,798.8",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Revenue $4,798.8 Car Wash $3,645.2 Avg. Wash Fr Detail Revenue $1139 Revenue $4,798.8."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "174",
+        "name": "CONFIDENTIAL",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$8.78",
+        "asking_price": "",
+        "ebitda": "$8.78",
+        "note": "Avg. Wash & Detail Revenue $10.38 Total Revenue Total Payroll/Total Revenue 43.1% 84 Revenue $8.78. EBITDA $8.78."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "175",
+        "name": "Car Wash $3,978.7 $4,513.6",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$5,153.5",
+        "asking_price": "",
+        "ebitda": "$1,507.4",
+        "note": "Total Revenue $5,153.5 $5,775.6 EBITDA $1,507.4 $2,000.5 Car Wash $3,978.7 $4,513.6 Revenue $5,153.5. EBITDA $1,507.4."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "176",
+        "name": "Car Wash $4,423.1",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "$5,588.0",
+        "asking_price": "",
+        "ebitda": "",
+        "note": "Total Revenue $5,588.0 Car Wash $4,423.1 Avg. Wash & Detail Revenue $9.72 Revenue $5,588.0."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "209",
+        "name": "Quick Quack #147",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$1,496,083",
+        "note": "Total QQ #647 Proforma EBITDA $ 909,849 Total QQ #145 Adjusted EBITDA $1,496,083 Total Adjusted EBITDA Summary $2,405,932 EBITDA $1,496,083."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "217",
+        "name": "Hannah Car Wash Equipment",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$329,746",
+        "note": "Adjusted EBITDA: $329,746 Hannah Car Wash Equipment November, 2002 EBITDA $329,746."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "220",
+        "name": "Hannah Car Wash Equipment",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$253,103",
+        "note": "Adjusted EBITDA: $253,103 Hannah Car Wash Equipment Land $222,000 EBITDA $253,103."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "226",
+        "name": "Hannah Car Wash",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$158,294",
+        "note": "Adjusted EBITDA: $158,294 Hannah Car Wash October, 2000 EBITDA $158,294."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "229",
+        "name": "Equipment Type: Hannah Car Wash Equipment",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$136,516",
+        "note": "Adjusted EBITDA: $136,516 Equipment Type: Hannah Car Wash Equipment Installation Date: November, 1999 EBITDA $136,516."
+      },
+      {
+        "type": "Source Evidence",
+        "document": "Scanned Packet Documents.txt",
+        "page": "245",
+        "name": "Source Evidence - Page 245",
+        "location": "",
+        "status": "",
+        "lot_size": "",
+        "traffic_count": "",
+        "revenue": "",
+        "asking_price": "",
+        "ebitda": "$1,500,000",
+        "note": "EBITDA of approximately $1,500,000. Quick Quack's sixth car wash (newly the onsite offices at each of the carwash locations to conduct their business. opened in Lubbock) and seventh car wash (to be opened in December in Colorado EBITDA $1,500,000."
       }
     ],
     "gallery_images": []

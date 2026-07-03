@@ -11,4 +11,5 @@ tools/ocr_carwash
 ocr-output/*_ocr.pdf
 ocr-output-test/
 outputs/*.png
+outputs/*.inspect.ndjson
 runtime-uploads/

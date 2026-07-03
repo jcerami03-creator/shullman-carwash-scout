@@ -702,6 +702,8 @@ def is_weak_title(title: str) -> bool:
         return True
     if any(phrase in lower for phrase in BAD_TITLE_PHRASES):
         return True
+    if re.search(r"\b(?:car wash opportunities|car wash and lube claims|zip code town|car wash name address|car wash name)$", lower):
+        return True
     if len(title) > 82:
         return True
     if re.search(r"(?:\b|\()\d{3}\)?[-.\s]+\d{3}[-.\s]+\d{4}\b", title):
@@ -786,6 +788,9 @@ def clean_title(title: str) -> str:
         return "Full Service Tunnel Car Wash"
     if "round rock car wash" in lower:
         return "Round Rock Car Wash"
+    if lower.endswith(" zip"):
+        title = re.sub(r"\s+zip\s*$", "", title, flags=re.I)
+        lower = title.lower()
     if "ril l:ohne" in lower:
         return "Tunnel Car Wash for Sale"
     if "whittier car wash" in lower:
@@ -920,6 +925,11 @@ def clean_market(market: str) -> str:
         market = re.sub(rf"\b{code.title()}\b", code, market)
         market = re.sub(rf",\s*{code.lower()}\b", f", {code}", market)
     market = re.sub(r"\bCO Springs\b", "Colorado Springs", market, flags=re.I)
+    market = re.sub(r"\b6605 W(?:est)? Chandler Blvd,\s*C Jer,\s*AZ\s+85226\b", "6605 West Chandler Blvd, Chandler, AZ 85226", market, flags=re.I)
+    market = re.sub(r"\b3110 E\.?\s*Route,\s*Denville\.?,\s*NJ\b", "3110 E Route 10, Denville, NJ", market, flags=re.I)
+    market = re.sub(r"\b53 South Route,\s*West Haverstraw,\s*NY\s+10993\b", "53 South Route 9W, West Haverstraw, NY 10993", market, flags=re.I)
+    market = re.sub(r"\b1615 Benvenue Rd,\s*27804\s+Rocky Mount\s+.*?,\s*NC\s+27804\b", "1615 Benvenue Rd, Rocky Mount, NC 27804", market, flags=re.I)
+    market = re.sub(r"\b32312\s+Tallahassee\s+.*?\s+2898 Kerry Forest Pkwy,\s*Tallahassee,\s*FL\s+32312\b", "2898 Kerry Forest Pkwy, Tallahassee, FL 32312", market, flags=re.I)
     return market.strip(" ,")
 
 
@@ -2445,6 +2455,9 @@ def record_from_page(path: Path, page_text: str, page_number: int, index: int) -
 def keep_record(record: dict[str, str]) -> bool:
     lower_text = f"{record.get('name', '')} {record.get('market', '')} {record.get('full_text', '')}".lower()
     is_structured = record.get("id", "").startswith("structured-")
+    market = clean_market(record.get("market", ""))
+    if re.search(r"\b3280 Sunrise Highway\b", market, re.I):
+        return False
     if not is_structured and "confidentiality notice" in lower_text and "available inventory" in lower_text:
         return False
     if not is_structured and "confidentiality agreement - non-disclosure" in lower_text:
@@ -2549,6 +2562,11 @@ def city_label_from_market(market: str) -> str:
 
 def operator_name_from_record_text(record: dict[str, str]) -> str:
     text = clean_text(record.get("full_text", ""))
+    site_title = re.search(r"\bSite\s+\d+\s*:\s*([^.\n]{5,90})", text, re.I)
+    if site_title:
+        name = clean_title(site_title.group(1))
+        if not is_weak_title(name):
+            return name
     known_as = re.search(r"\bknown as\s+([^.\n]{5,90})", text, re.I)
     if known_as:
         name = clean_title(known_as.group(1))
@@ -2566,6 +2584,8 @@ def needs_professional_name(record: dict[str, str]) -> bool:
     name = clean_line(record.get("name", ""))
     lower = name.lower()
     if is_weak_title(name):
+        return True
+    if re.search(r"\b(?:car wash opportunities|car wash and lube claims|zip code town|car wash name address|car wash name)\b", lower):
         return True
     if "/" in name:
         return True

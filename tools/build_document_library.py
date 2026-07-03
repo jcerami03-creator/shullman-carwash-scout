@@ -42,6 +42,11 @@ BAD_TITLE_BITS = re.compile(
     r"capture rate|standard in the car wash industry|car wash sector|brokers harmless|source of all updated estimates)\b",
     re.I,
 )
+BAD_EVIDENCE_TITLE_BITS = re.compile(
+    r"\b(?:car wash opportunities|investment summary|zip code town|car wash name address|"
+    r"pleased to offer|listing / offering|source evidence)\b",
+    re.I,
+)
 STREET_WORD_RE = re.compile(r"\b(?:street|st|road|rd|avenue|ave|highway|hwy|pike|lane|ln|drive|dr|boulevard|blvd|court|ct|way|parkway|pkwy|circle|cir|trail|terrace|place|pl|route|rt|us-|i-)\b", re.I)
 BAD_ADDRESS_BITS = re.compile(r"\b(?:cars|detailing|building and equipment|mile from|miles of the site|of \d+|page|bizbuysell|loopnet|google|yahoo|copyright|reserved)\b", re.I)
 BAD_LOCATION_BITS = re.compile(r"\b(?:miles?|site|criteria|representative|car wash|businesses|profit|income|spa, VA|clinic|source|updated estimates)\b", re.I)
@@ -110,6 +115,8 @@ def valid_address(value: str) -> bool:
     value = clean(value)
     if not value or BAD_ADDRESS_BITS.search(value):
         return False
+    if re.match(r"^0+\b", value) or re.search(r"\btotal\.", value, re.I):
+        return False
     if not STREET_WORD_RE.search(value):
         return False
     letters = sum(ch.isalpha() for ch in value)
@@ -117,10 +124,27 @@ def valid_address(value: str) -> bool:
     return letters >= 6 and digits >= 1
 
 
+def normalize_evidence_location(value: str) -> str:
+    value = clean(value)
+    if not value:
+        return ""
+    value = re.sub(r"\bHaverstrow\b", "Haverstraw", value, flags=re.I)
+    value = re.sub(r"\b(\d+\s+[A-Za-z0-9 .'-]+?)\.\s+([A-Za-z .'-]+)\.\s+([A-Z]{2})(?:\s+(\d{5}))?\b", lambda m: f"{m.group(1)}, {m.group(2)}, {m.group(3)}{f' {m.group(4)}' if m.group(4) else ''}", value)
+    glued = re.search(
+        r"^\d{5}\s+[A-Za-z .'-]+(?:\s+[A-Za-z&'/-]+){0,8}?\s+(?:Car\s*Wash|Auto\s*Spa|Express|Splash-N-Dash|Tidal\s*Wave|Whistle\s*Express)[^0-9]{0,40}(\d{1,6}\s+.+?,\s*[A-Z]{2}\s+\d{5})$",
+        value,
+        re.I,
+    )
+    if glued:
+        value = clean(glued.group(1))
+    value = re.sub(r"\b2324 N Monroe St FL 3,\s*Tallahassee,\s*FL\s+32303\b", "2324 N Monroe St, Tallahassee, FL 32303", value, flags=re.I)
+    return value
+
+
 def valid_addresses_from(text: str) -> list[str]:
     addresses = []
     for match in ADDRESS_RE.finditer(text):
-        address = clean(match.group(0))
+        address = normalize_evidence_location(match.group(0))
         if valid_address(address):
             addresses.append(address)
     return list(dict.fromkeys(addresses))
@@ -173,9 +197,11 @@ def best_document_title(lines: list[str], location: str, source: str, page_numbe
 
 def professional_title(value: str) -> bool:
     value = clean(value)
-    if not value or BAD_TITLE_BITS.search(value):
+    if not value or BAD_TITLE_BITS.search(value) or BAD_EVIDENCE_TITLE_BITS.search(value):
         return False
     if len(value) < 6 or len(value) > 92:
+        return False
+    if re.match(r"^\d", value) and not STREET_WORD_RE.search(value):
         return False
     if value[:1].islower():
         return False
