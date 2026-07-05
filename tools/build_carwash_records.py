@@ -14,7 +14,7 @@ PUBLIC_CARWASH_PATH = ROOT / "data" / "public_carwashes.json"
 
 STATE_RE = re.compile(r"\b([A-Z][a-zA-Z .'-]+,\s*(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)(?:\s+\d{5})?)\b")
 ADDRESS_RE = re.compile(
-    r"\b\d{1,6}(?:-\d{1,6})?\s+[A-Za-z0-9][A-Za-z0-9 .'/#-]{1,70}?\s+(?:Street|St|Road|Rd|Avenue|Ave|Highway|Hwy|Pike|Lane|Ln|Drive|Dr|Boulevard|Blvd|Court|Ct|Way|Parkway|Pkwy|Circle|Cir|Trail|Terrace|Place|Pl|Route|Rt|Expressway|Expy|Square|Sq)\b",
+    r"\b(?:\d{1,6}\s+(?:[NSEW]\s+)?(?:US\s+)?(?:Highway|Hwy|Route|Rt|Interstate)\s+\d+(?:\s*(?:N|S|E|W|NE|NW|SE|SW))?|\d{1,6}(?:-\d{1,6})?\s+[A-Za-z0-9][A-Za-z0-9 .'/#-]{1,70}?\s+(?:Street|St|Road|Rd|Avenue|Ave|Highway|Hwy|Interstate|Pike|Lane|Ln|Drive|Dr|Boulevard|Blvd|Court|Ct|Way|Parkway|Pkwy|Circle|Cir|Trail|Terrace|Place|Pl|Route|Rt|Expressway|Expy|Square|Sq))\b",
     re.I,
 )
 MONEY_RE = re.compile(r"\$\s?\d[\d,]*(?:\.\d+)?\s?(?:million|m|k)?", re.I)
@@ -142,6 +142,15 @@ OCR_REPLACEMENTS = [
     (r"\bCarwash\b", "Car Wash"),
     (r"\bAutoSpa\b", "Auto Spa"),
     (r"\bCO Springs\b", "Colorado Springs"),
+    (r",\s*IX\b", ", TX"),
+    (r"\b01-143140\b", "OH 43140"),
+    (r"\bWeslworth\b", "Westworth"),
+    (r"\bWestem\b", "Western"),
+    (r"\bCanielPack\b", "Camelback"),
+    (r"\bCanielpack\b", "Camelback"),
+    (r"\bTamtand\b", "Tamiami"),
+    (r"\bTandami\b", "Tamiami"),
+    (r"\bKeams Canyon\b", "Reams Canyon"),
     (r"\bN Federal Pkwy, Mike's Rae, CO\b", "N Federal Pkwy, Westminster, CO"),
     (r"\bLamar Ave Mesa\b", "Mesa"),
     (r"\bCircle Omaha\b", "Omaha"),
@@ -907,6 +916,7 @@ def clean_market(market: str) -> str:
     market = re.sub(r"^(?:19|20)\d{2}\s+(?=\d{2,6}\s)", "", market)
     market = re.sub(r"^0+\s+(?=\d{2,6}\s)", "", market)
     market = re.sub(r"^\d{1,3}\s+(?=\d{2,6}\s+[A-Za-z])", "", market)
+    market = re.sub(r"^\d{1,2}\s+(?=\d{2,6}[A-Za-z]?\b)", "", market)
     market = market.replace(" I ", " ")
     market = re.sub(r",\s*(?:Cap Rate|Owner Resides|User Car Wash Opportunity|Please See.*?|N Santiago Blvd|Rosemead Blvd|Mexico Road St)\s+in\s+", ", ", market, flags=re.I)
     market = re.sub(r",\s*Cassandra Chandler Birmingham,\s*AL\b", ", Birmingham, AL", market, flags=re.I)
@@ -916,6 +926,7 @@ def clean_market(market: str) -> str:
     market = re.sub(r",\s*([A-Za-z0-9 .'-]+)\s+\1\b", r", \1", market, flags=re.I)
     market = re.sub(r"\b([A-Za-z .'-]+),\s*\1,\s*", r"\1, ", market, flags=re.I)
     market = professional_title_case(market)
+    market = re.sub(r",\s*([A-Za-z .'-]+)\.,\s*", r", \1, ", market)
     for state_name, code in STATE_NAMES.items():
         market = re.sub(rf",\s*{re.escape(state_name.title())}\b", f", {code}", market)
         if market.strip().lower() == state_name:
@@ -930,6 +941,14 @@ def clean_market(market: str) -> str:
     market = re.sub(r"\b53 South Route,\s*West Haverstraw,\s*NY\s+10993\b", "53 South Route 9W, West Haverstraw, NY 10993", market, flags=re.I)
     market = re.sub(r"\b1615 Benvenue Rd,\s*27804\s+Rocky Mount\s+.*?,\s*NC\s+27804\b", "1615 Benvenue Rd, Rocky Mount, NC 27804", market, flags=re.I)
     market = re.sub(r"\b32312\s+Tallahassee\s+.*?\s+2898 Kerry Forest Pkwy,\s*Tallahassee,\s*FL\s+32312\b", "2898 Kerry Forest Pkwy, Tallahassee, FL 32312", market, flags=re.I)
+    market = re.sub(r"\b100E\.\s*Mcleroy\b", "100 E McLeroy", market, flags=re.I)
+    market = re.sub(r"\bWestem Avenue\b", "Western Avenue", market, flags=re.I)
+    market = re.sub(r"\b100 E Mcleroy\b", "100 E McLeroy", market, flags=re.I)
+    market = re.sub(r"\b6705 Westworth Boulevard,\s*Village,\s*TX\b", "6705 Westworth Boulevard, Westworth Village, TX", market, flags=re.I)
+    market = re.sub(r"\b1555 N\.?\s*Washington Blvd,\s*Sarasota,\s*FL\s+34936\b", "1555 N Washington Blvd, Sarasota, FL 34236", market, flags=re.I)
+    market = re.sub(r"\bMT\. Ephraim\b", "Mt. Ephraim", market, flags=re.I)
+    market = re.sub(r"\bMoncks Comer\b", "Moncks Corner", market, flags=re.I)
+    market = re.sub(r",\s*C\.\s*Cherry Hill,\s*NJ\b", ", Cherry Hill, NJ", market, flags=re.I)
     return market.strip(" ,")
 
 
@@ -1374,7 +1393,6 @@ def suspicious_market(market: str) -> bool:
             "property",
             "opportunity",
             "located",
-            "corner",
             "street corner",
             "hotel",
             "built",
@@ -1432,7 +1450,17 @@ def plausible_address(address: str) -> bool:
         return False
     if re.search(r"\b(?:po|p\.o\.)\s*box\b", lower):
         return False
-    return bool(re.search(r"\b(?:street|st|road|rd|avenue|ave|highway|hwy|pike|lane|ln|drive|dr|boulevard|blvd|court|ct|way|parkway|pkwy|circle|cir|route|rt)\b", lower))
+    return bool(re.search(r"\b(?:street|st|road|rd|avenue|ave|highway|hwy|interstate|pike|lane|ln|drive|dr|boulevard|blvd|court|ct|way|parkway|pkwy|circle|cir|route|rt)\b", lower))
+
+
+def complete_address_from_line(line: str, match: re.Match[str]) -> str:
+    address = clean_line(match.group(0))
+    address = re.sub(r"^\d{1,2}\s+(?=\d{2,6}\s)", "", address)
+    tail = line[match.end():]
+    suffix = re.match(r"\s+(\d{1,4}(?:\s+(?:N|S|E|W|NE|NW|SE|SW))?|North|South|East|West)\b", tail, re.I)
+    if suffix:
+        address = clean_line(f"{address} {suffix.group(1)}")
+    return address
 
 
 def candidate_name_near_address(lines: list[str], index: int, address: str) -> str:
@@ -1522,7 +1550,7 @@ def scanned_address_lead_records_from_page(path: Path, page: str, page_number: i
     seen: set[str] = set()
     for index, line in enumerate(lines):
         for match in ADDRESS_RE.finditer(line):
-            address = clean_line(match.group(0))
+            address = complete_address_from_line(line, match)
             if not plausible_address(address):
                 continue
             nearby = " ".join(lines[max(0, index - 8):index + 9])
@@ -1629,7 +1657,7 @@ def secondary_scanned_address_records_from_page(path: Path, page: str, page_numb
     seen: set[str] = set()
     for index, line in enumerate(lines):
         for match in ADDRESS_RE.finditer(line):
-            address = clean_line(match.group(0))
+            address = complete_address_from_line(line, match)
             if not plausible_address(address):
                 continue
             if re.search(r"\b101\s+Haag\b", address, re.I):
@@ -1715,6 +1743,147 @@ def secondary_scanned_address_records_from_page(path: Path, page: str, page_numb
     return records
 
 
+def portfolio_money_value(context: str, label: str) -> str:
+    match = re.search(rf"\b{label}\s*[:\-]?\s*\$?\(?(\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)\)?", context, re.I)
+    if not match:
+        return ""
+    value = float(match.group(1).replace(",", ""))
+    if value < 10_000:
+        value *= 1000
+    return format_money_short(value)
+
+
+def portfolio_number_value(context: str, label: str) -> str:
+    match = re.search(rf"\b{label}\s*[:\-]?\s*(\d{{1,3}}(?:,\d{{3}})*|\d{{4,6}})", context, re.I)
+    return match.group(1) if match else ""
+
+
+def portfolio_acres_from_context(context: str) -> str:
+    sqft = re.search(r"\bLot Size\s*[:\-]?\s*(\d{1,3}(?:,\d{3})*|\d{4,6})\s*sq", context, re.I)
+    if not sqft:
+        return "Est. 0.85"
+    acres = int(sqft.group(1).replace(",", "")) / 43560
+    return f"{acres:.2f}".rstrip("0").rstrip(".")
+
+
+def portfolio_title_from_context(lines: list[str], index: int, market: str, page: str) -> str:
+    brand_pattern = re.compile(
+        r"\b(?:Weiss Guys|Eager Beaver|Super Bright|Genie|Crystal Falls|Hanna|Colonial|Mace|Zips|BlueWave|Wash Factory|Tidal Wave|Whistle Express|Splash-N-Dash|Wave Express|Riptide)\b(?:\s*#?\d+)?",
+        re.I,
+    )
+    for candidate in reversed(lines[max(0, index - 9):index + 1]):
+        if re.search(r"map position|facility data|operating data|confidential", candidate, re.I):
+            continue
+        match = brand_pattern.search(candidate)
+        if match:
+            title = clean_title(match.group(0))
+            if "car wash" not in title.lower() and "auto spa" not in title.lower() and "truck wash" not in title.lower():
+                title = f"{title} Car Wash"
+            return title
+    city = city_label_from_market(market)
+    if re.search(r"\btruck wash(?:es)?\b", page, re.I):
+        return f"Mace Truck Wash - {city}" if city else "Mace Truck Wash"
+    return f"Portfolio Car Wash - {city}" if city else "Portfolio Car Wash"
+
+
+def portfolio_location_records_from_page(path: Path, page: str, page_number: int) -> list[dict[str, str]]:
+    if not re.search(r"\bCONFIDENTIAL\b", page, re.I):
+        return []
+    if not re.search(r"\b(?:Facility Data|Operating Data|Car and Truck Wash Division|Total Washed|EBITDA)\b", page, re.I):
+        return []
+
+    lines = cleaned_page_lines(page)
+    records: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for index, line in enumerate(lines):
+        for match in ADDRESS_RE.finditer(line):
+            address = complete_address_from_line(line, match)
+            address = re.sub(r"^\d{1,2}\s+(?=\d{2,6}\s)", "", address)
+            if not plausible_address(address):
+                continue
+            market = loose_address_city_state_from_context(lines, index, address)
+            if not has_specific_location(market):
+                continue
+            key = re.sub(r"\W+", "", market.lower())
+            if not key or key in seen:
+                continue
+            seen.add(key)
+
+            context = " ".join(lines[index:index + 22])
+            title = portfolio_title_from_context(lines, index, market, page)
+            sales = portfolio_money_value(context, "Revenue")
+            ebitda = portfolio_money_value(context, "EBITDA")
+            cars = portfolio_number_value(context, "Volume")
+            acres = portfolio_acres_from_context(context)
+            asking = portfolio_money_value(context, "Appraisal Value")
+            records.append(structured_record(
+                path,
+                page,
+                page_number,
+                len(records),
+                name=title,
+                market=market,
+                year=source_year(path),
+                asking_price=asking,
+                sales=sales,
+                ebitda=ebitda,
+                cars_per_year=cars,
+                acres=acres,
+                traffic_count=traffic_count_from_text(context),
+                note="Portfolio operating record extracted from the scanned packet. Revenue, EBITDA, volume, and lot size are pulled from the scanned operating data when visible.",
+            ))
+    return records
+
+
+def zips_comparable_records_from_page(path: Path, page: str, page_number: int) -> list[dict[str, str]]:
+    if not re.search(r"\bZips\s+Car\s+Wash\b", page, re.I):
+        return []
+    if not re.search(r"\b(?:Sales Comparables|On Market Comparables|Hanley Investment)\b", page, re.I):
+        return []
+    lines = cleaned_page_lines(page)
+    records: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for index, line in enumerate(lines):
+        for match in ADDRESS_RE.finditer(line):
+            address = complete_address_from_line(line, match)
+            if not plausible_address(address):
+                continue
+            market = loose_address_city_state_from_context(lines, index, address)
+            if not has_specific_location(market):
+                continue
+            key = re.sub(r"\W+", "", market.lower())
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            context = " ".join(lines[index:index + 5])
+            asking = likely_price(context)
+            seed = {
+                "name": "Zips Car Wash",
+                "market": market,
+                "asking_price": asking,
+                "sales": "",
+                "cars_per_year": "",
+                "acres": "Est. 0.85",
+            }
+            records.append(structured_record(
+                path,
+                page,
+                page_number,
+                len(records),
+                name="Zips Car Wash",
+                market=market,
+                year=source_year(path),
+                asking_price=asking,
+                sales=estimated_sales(seed),
+                ebitda=estimated_ebitda(seed),
+                cars_per_year="Not listed in file",
+                acres="Est. 0.85",
+                traffic_count=traffic_count_from_text(context),
+                note="Zips comparable row extracted from the scanned packet.",
+            ))
+    return records
+
+
 def proximity_location_records_from_page(path: Path, page: str, page_number: int) -> list[dict[str, str]]:
     lines = cleaned_page_lines(page)
     page_lower = page.lower()
@@ -1724,7 +1893,7 @@ def proximity_location_records_from_page(path: Path, page: str, page_number: int
     seen_markets: set[str] = set()
     for index, line in enumerate(lines):
         for match in ADDRESS_RE.finditer(line):
-            address = clean_line(match.group(0))
+            address = complete_address_from_line(line, match)
             if not plausible_address(address):
                 continue
             nearby = " ".join(lines[max(0, index - 5):index + 6])
@@ -2765,6 +2934,12 @@ def build() -> list[dict[str, str]]:
                 for fallback_address_record in fallback_address_records:
                     if keep_record(fallback_address_record):
                         records.append(fallback_address_record)
+            for portfolio_record in portfolio_location_records_from_page(path, page, page_number):
+                if keep_record(portfolio_record):
+                    records.append(portfolio_record)
+            for zips_record in zips_comparable_records_from_page(path, page, page_number):
+                if keep_record(zips_record):
+                    records.append(zips_record)
             if not is_relevant_page(page):
                 continue
             structured_records = structured_records_from_page(path, page, page_number)
