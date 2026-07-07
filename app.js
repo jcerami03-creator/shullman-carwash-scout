@@ -1444,22 +1444,145 @@ function closeModal() {
   if (!els.libraryModal || els.libraryModal.hidden) document.body.classList.remove("modal-open");
 }
 
-function documentForSource(source) {
-  const cleanSource = String(source || "").split("|")[0].trim();
-  if (!cleanSource) return null;
-  const pdfName = cleanSource.replace(/\.txt$/i, ".pdf").replace(/_ocr\.pdf$/i, ".pdf");
-  return documentLibrary.find((doc) => doc.file_name === pdfName || doc.title === pdfName.replace(/\.pdf$/i, "") || String(doc.text_url || "").endsWith(`/${cleanSource}`)) || null;
-}
-
 function recordPageNumber(record) {
   const match = String(record.page || "").match(/\d+/);
   return match ? match[0] : "";
 }
 
+function splitRecordList(value) {
+  return String(value || "")
+    .split("|")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function sourceToPdfName(source) {
+  return String(source || "")
+    .trim()
+    .replace(/\.txt$/i, ".pdf")
+    .replace(/_ocr\.pdf$/i, ".pdf");
+}
+
+function documentForSingleSource(source) {
+  const cleanSource = String(source || "").trim();
+  if (!cleanSource) return null;
+  const pdfName = sourceToPdfName(cleanSource);
+  const title = pdfName.replace(/\.pdf$/i, "");
+  return documentLibrary.find((doc) => doc.file_name === pdfName || doc.title === title || String(doc.text_url || "").endsWith(`/${cleanSource}`)) || null;
+}
+
+function normalizeSourceLookup(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function recordAddressSignals(record) {
+  const market = String(record.market || "");
+  const parts = market.split(",").map((part) => part.trim()).filter(Boolean);
+  const street = parts[0] || "";
+  const streetNumber = (street.match(/\b\d{1,6}\b/) || [])[0] || "";
+  const streetName = normalizeSourceLookup(street.replace(/^\d+\s*/, ""));
+  const city = normalizeSourceLookup(parts[1] || "");
+  const stateZip = normalizeSourceLookup(parts.slice(2).join(" "));
+  const zip = (market.match(/\b\d{5}(?:-\d{4})?\b/) || [])[0] || "";
+  const name = normalizeSourceLookup(record.name || "");
+  const fullMarket = normalizeSourceLookup(market);
+  return { fullMarket, street: normalizeSourceLookup(street), streetNumber, streetName, city, stateZip, zip, name };
+}
+
+function textForDocumentPage(doc, pageNumber = "") {
+  const targetPage = String(pageNumber || "").trim();
+  const includePage = (page) => !targetPage || String(page.page || "").trim() === targetPage;
+  const parts = [
+    doc.title,
+    doc.file_name,
+    ...(Array.isArray(doc.pages) ? doc.pages.filter(includePage).map((page) => [page.summary, ...(page.addresses || []), ...(page.terms || [])].join(" ")) : []),
+    ...(Array.isArray(doc.search_pages) ? doc.search_pages.filter(includePage).map((page) => page.text || "") : []),
+    ...(Array.isArray(doc.evidence_rows)
+      ? doc.evidence_rows
+          .filter((row) => !targetPage || String(row.page || "").trim() === targetPage)
+          .map((row) => `${row.type || ""} ${row.name || ""} ${row.location || ""} ${row.status || ""} ${row.note || ""}`)
+      : []),
+  ];
+  return normalizeSourceLookup(parts.join(" "));
+}
+
+function scoreDocumentPage(doc, pageNumber, record) {
+  const signals = recordAddressSignals(record);
+  const text = textForDocumentPage(doc, pageNumber);
+  if (!text) return 0;
+  let score = 0;
+  if (signals.fullMarket && text.includes(signals.fullMarket)) score += 120;
+  if (signals.street && text.includes(signals.street)) score += 90;
+  if (signals.streetNumber && text.includes(signals.streetNumber)) score += 25;
+  if (signals.streetName && text.includes(signals.streetName)) score += 40;
+  if (signals.city && text.includes(signals.city)) score += 20;
+  if (signals.zip && text.includes(signals.zip)) score += 35;
+  if (signals.name && signals.name.length > 6 && text.includes(signals.name)) score += 15;
+  return score;
+}
+
+function sourcePageCandidates(record) {
+  const sources = splitRecordList(record.source);
+  const pages = splitRecordList(record.page);
+  if (!sources.length) return [];
+  const seen = new Set();
+  return sources
+    .flatMap((source, index) => {
+      const doc = documentForSingleSource(source);
+      if (!doc) return [];
+      const pairedPage = String(pages[index] || "").match(/\d+/)?.[0] || "";
+      const pageOptions = [...new Set([pairedPage, ...pages.map((page) => String(page || "").match(/\d+/)?.[0] || "")].filter(Boolean))];
+      if (!pageOptions.length) pageOptions.push("");
+      return pageOptions
+        .map((page) => {
+          const key = `${doc.file_name || doc.title || source}:${page}`;
+          if (seen.has(key)) return null;
+          seen.add(key);
+          return { doc, page, score: scoreDocumentPage(doc, page, record) + 5 };
+        })
+        .filter(Boolean);
+    });
+}
+
+function bestLibraryPageForRecord(record) {
+  const signals = recordAddressSignals(record);
+  if (!signals.streetNumber && !signals.street && !signals.fullMarket) return null;
+  let best = null;
+  normalizedDocumentLibrary().forEach((doc) => {
+    const pageNumbers = new Set([
+      ...(doc.pages || []).map((page) => String(page.page || "")),
+      ...(doc.search_pages || []).map((page) => String(page.page || "")),
+      ...(doc.evidence_rows || []).map((row) => String(row.page || "")),
+    ].filter(Boolean));
+    if (!pageNumbers.size) pageNumbers.add("");
+    pageNumbers.forEach((page) => {
+      const score = scoreDocumentPage(doc, page, record);
+      if (score > 0 && (!best || score > best.score)) {
+        best = { doc, page, score };
+      }
+    });
+  });
+  return best;
+}
+
+function resolvedDocumentSource(record) {
+  const candidates = sourcePageCandidates(record).sort((a, b) => b.score - a.score);
+  const bestCandidate = candidates[0] || null;
+  const libraryMatch = bestLibraryPageForRecord(record);
+  if (libraryMatch && (!bestCandidate || libraryMatch.score > bestCandidate.score + 20)) return libraryMatch;
+  return bestCandidate || libraryMatch || null;
+}
+
 function sourceActionsHtml(record) {
-  const doc = documentForSource(record.source);
+  const sourceMatch = resolvedDocumentSource(record);
+  const doc = sourceMatch?.doc;
   if (!doc || !doc.pdf_url) return "";
-  const page = recordPageNumber(record);
+  const page = sourceMatch?.page || recordPageNumber(record);
   const pdfHref = encodeURI(doc.pdf_url);
   const pageHref = page ? `${pdfHref}#page=${encodeURIComponent(page)}` : pdfHref;
   const textHref = doc.text_url ? encodeURI(doc.text_url) : "";
