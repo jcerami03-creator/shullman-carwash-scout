@@ -14,7 +14,75 @@
           <span>Admin</span>
         </div>
         <h1>Add a New Wash</h1>
-        <p>Upload one screenshot, photo, or PDF. Scout saves it as a lead and keeps the file in the library.</p>
+        <p>Type an address, paste a link, or upload one screenshot. Scout saves the lead, researches what it can, and keeps the file in the library.</p>
+
+        <form id="manualRecordForm" class="upload-card manual-record-card primary-add-card">
+          <div class="section-heading">
+            <h2>Research Assistant</h2>
+            <span>Type address</span>
+          </div>
+          <div class="admin-field-grid easy-site-grid">
+            <label class="wide-field">
+              <span>Address or City / State</span>
+              <input id="manualMarket" name="market" type="text" placeholder="1555 N Washington Blvd, Sarasota, FL 34236" autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Site Name</span>
+              <input id="manualName" name="name" type="text" placeholder="Optional, if you know it" autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Listing Link</span>
+              <input id="manualResearchUrl" name="research_url" type="url" placeholder="Optional LoopNet, BizBuySell, Crexi, broker page, or website link" autocomplete="off" />
+            </label>
+            <label class="wide-field">
+              <span>Extra Info</span>
+              <textarea id="manualNote" name="note" placeholder="Paste anything you know: price, EBITDA, sales, traffic, phone, website, owner notes, or why this lead matters."></textarea>
+            </label>
+            <details class="nested-expander wide-field">
+              <summary>Optional numbers</summary>
+              <div class="admin-field-grid nested-grid">
+                <label>
+                  <span>State</span>
+                  <input id="manualState" name="state" type="text" placeholder="FL" maxlength="2" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Asking Price</span>
+                  <input id="manualAskingPrice" name="asking_price" type="text" placeholder="$2.4M" autocomplete="off" />
+                </label>
+                <label>
+                  <span>EBITDA</span>
+                  <input id="manualEbitda" name="ebitda" type="text" placeholder="$326K" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Acres</span>
+                  <input id="manualAcres" name="acres" type="text" placeholder="0.85" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Phone</span>
+                  <input id="manualPhone" name="phone" type="text" placeholder="(941) 613-5391" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Website</span>
+                  <input id="manualWebsite" name="website" type="url" placeholder="https://example.com" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Year</span>
+                  <input id="manualYear" name="year" type="text" placeholder="2026" inputmode="numeric" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Sales</span>
+                  <input id="manualSales" name="sales" type="text" placeholder="$1.8M" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Cars/Yr</span>
+                  <input id="manualCars" name="cars_per_year" type="text" placeholder="120,000" autocomplete="off" />
+                </label>
+              </div>
+            </details>
+          </div>
+          <button id="manualRecordButton" type="submit">Research and Add Site</button>
+          <p id="manualRecordStatus" class="upload-status">Type an address or paste a listing link, then press Research and Add Site.</p>
+        </form>
 
         <form id="screenshotLeadForm" class="upload-card screenshot-lead-card">
           <div class="section-heading">
@@ -28,8 +96,8 @@
           </label>
           <div class="admin-field-grid easy-site-grid">
             <label class="wide-field">
-              <span>Listing Link or Short Note</span>
-              <input id="screenshotLeadNote" type="text" placeholder="Optional: paste the listing link, city/state, or quick note" autocomplete="off" />
+              <span>Address, Listing Link, or Short Note</span>
+              <input id="screenshotLeadNote" type="text" placeholder="Optional: paste exact address, listing link, city/state, or quick note" autocomplete="off" />
             </label>
           </div>
           <button id="screenshotLeadButton" type="submit">Save Screenshot Lead</button>
@@ -54,76 +122,6 @@
           <button id="linkRecordButton" type="submit">Import Link</button>
           <p id="linkRecordStatus" class="upload-status">Paste a public listing link and Scout will save what it can read.</p>
         </form>
-
-        <details class="admin-expander">
-          <summary>
-            <span>Type Details Instead</span>
-            <small>Optional</small>
-          </summary>
-          <form id="manualRecordForm" class="upload-card manual-record-card">
-            <div class="admin-field-grid easy-site-grid">
-              <label class="wide-field">
-                <span>Name</span>
-                <input id="manualName" name="name" type="text" placeholder="AquaShine Express Car Wash" autocomplete="off" />
-              </label>
-              <label class="wide-field">
-                <span>Address / City / State</span>
-                <input id="manualMarket" name="market" type="text" placeholder="1555 N Washington Blvd, Sarasota, FL 34236" autocomplete="off" />
-              </label>
-              <label class="wide-field">
-                <span>Link</span>
-                <input id="manualResearchUrl" name="research_url" type="url" placeholder="Listing, broker page, or website link" autocomplete="off" />
-              </label>
-              <label class="wide-field">
-                <span>Notes</span>
-                <textarea id="manualNote" name="note" placeholder="Paste price, EBITDA, traffic count, phone, website, or anything useful."></textarea>
-              </label>
-              <details class="nested-expander wide-field">
-                <summary>Optional numbers</summary>
-                <div class="admin-field-grid nested-grid">
-                  <label>
-                    <span>State</span>
-                    <input id="manualState" name="state" type="text" placeholder="FL" maxlength="2" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>Asking Price</span>
-                    <input id="manualAskingPrice" name="asking_price" type="text" placeholder="$2.4M" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>EBITDA</span>
-                    <input id="manualEbitda" name="ebitda" type="text" placeholder="$326K" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>Acres</span>
-                    <input id="manualAcres" name="acres" type="text" placeholder="0.85" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>Phone</span>
-                    <input id="manualPhone" name="phone" type="text" placeholder="(941) 613-5391" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>Website</span>
-                    <input id="manualWebsite" name="website" type="url" placeholder="https://example.com" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>Year</span>
-                    <input id="manualYear" name="year" type="text" placeholder="2026" inputmode="numeric" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>Sales</span>
-                    <input id="manualSales" name="sales" type="text" placeholder="$1.8M" autocomplete="off" />
-                  </label>
-                  <label>
-                    <span>Cars/Yr</span>
-                    <input id="manualCars" name="cars_per_year" type="text" placeholder="120,000" autocomplete="off" />
-                  </label>
-                </div>
-              </details>
-            </div>
-            <button id="manualRecordButton" type="submit">Add Site</button>
-            <p id="manualRecordStatus" class="upload-status">Ready to add a typed site.</p>
-          </form>
-        </details>
 
         <details class="admin-expander">
           <summary>
@@ -156,6 +154,6 @@
       </section>
     </main>
 
-    <script src="admin.js?v=6"></script>
+    <script src="admin.js?v=7"></script>
   </body>
 </html>

@@ -151,7 +151,7 @@ enableDropZone({
   onFiles(files) {
     screenshotLeadFiles = files;
     if (screenshotLeadStatus && files.length) {
-      screenshotLeadStatus.textContent = `${fileSummary(files)} Add a link or note if you have one, then press Save Screenshot Lead.`;
+      screenshotLeadStatus.textContent = `${fileSummary(files)} Add an exact address or link if you have one, then press Save Screenshot Lead.`;
     }
   },
 });
@@ -295,13 +295,13 @@ if (manualRecordForm) {
       manualRecordStatus.textContent = "Add a name, address, URL, or note first.";
       return;
     }
-    record.source = "Admin Added Listing";
+    record.source = "Research Assistant";
     manualRecordButton.disabled = true;
-    manualRecordStatus.textContent = "Saving to Scout...";
+    manualRecordStatus.textContent = "Researching and adding site...";
     try {
       await postManualRecord(record);
       manualRecordForm.reset();
-      manualRecordStatus.textContent = "Saved. It will now appear in Scout search.";
+      manualRecordStatus.textContent = "Saved. Scout researched what it could and the nightly agent can keep filling missing fields.";
       await loadManualRecords();
     } catch (error) {
       manualRecordStatus.textContent = error.message || "Could not save record.";
