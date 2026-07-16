@@ -419,6 +419,7 @@ function cleanRecordPayload(payload) {
     "acres",
     "phone",
     "website",
+    "image_url",
     "research_url",
     "uploaded_url",
     "maps_url",
@@ -754,7 +755,7 @@ function inferRecordFromListingPage(url, html) {
     text,
     /\b\d{2,6}\s+[A-Za-z0-9 .'-]+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Drive|Dr|Lane|Ln|Highway|Hwy|Pike|Parkway|Pkwy|Way|Court|Ct|Circle|Cir|Trail|Trl|Place|Pl|Terrace|Ter|Turnpike|Tpke)\b[^,.\n]{0,90}(?:,\s*[A-Za-z .'-]+)?(?:,\s*(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b)?(?:\s+\d{5})?/i
   );
-  const name = cleanListingTitle(title) || firstMatch(text, /\b([A-Z][A-Za-z0-9 &'’-]{2,80}(?:Car Wash|Express Wash|Auto Spa|Wash Club|Wash Center))\b/i);
+  const name = cleanListingTitle(title) || firstMatch(text, /\b([A-Z][A-Za-z0-9 &'‚Äô-]{2,80}(?:Car Wash|Express Wash|Auto Spa|Wash Club|Wash Center))\b/i);
   const phone = firstMatch(text, /\(?\b\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b/);
   const acres = firstMatch(text, /\b([0-9]+(?:\.[0-9]+)?)\s*(?:acre|acres)\b/i);
   const carsPerYear =
