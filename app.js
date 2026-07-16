@@ -1652,7 +1652,7 @@ function sourceActionsHtml(record) {
   const textHref = doc.text_url ? encodeURI(doc.text_url) : "";
   return [
     `<a class="source-link" href="${escapeHtml(pageHref)}" target="_blank" rel="noreferrer">Open Source Page</a>`,
-    `<a class="source-link ghost-link" href="${escapeHtml(pdfHref)}" target="_blank" rel="noreferrer">Open Full PDF</a>`,
+    `<a class="source-link ghost-link" href="${escapeHtml(pageHref)}" target="_blank" rel="noreferrer">Open Full PDF</a>`,
     textHref ? `<a class="source-link ghost-link" href="${escapeHtml(textHref)}" target="_blank" rel="noreferrer">OCR Text</a>` : "",
   ]
     .filter(Boolean)
