@@ -48,32 +48,44 @@ function formObject(form) {
 async function postManualRecord(record) {
   const response = await fetch("/api/manual-records", {
     method: "POST",
+    credentials: "same-origin",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ record }),
   });
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(data.error || "Could not save record.");
+  const data = await readJsonResponse(response, "Could not save record.");
+  if (!response.ok) throw new Error(data.error || data.message || "Could not save record.");
   return data;
 }
 
 async function postLinkRecord(url, note) {
   const response = await fetch("/api/link-records", {
     method: "POST",
+    credentials: "same-origin",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ url, note }),
   });
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(data.error || "Could not import link.");
+  const data = await readJsonResponse(response, "Could not import link.");
+  if (!response.ok) throw new Error(data.error || data.message || "Could not import link.");
   return data;
 }
 
 async function uploadFiles(files) {
   const body = new FormData();
   files.forEach((file) => body.append("files", file));
-  const response = await fetch("/api/uploads", { method: "POST", body });
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(data.error || "Upload failed.");
+  const response = await fetch("/api/uploads", { method: "POST", body, credentials: "same-origin" });
+  const data = await readJsonResponse(response, "Upload failed.");
+  if (!response.ok) throw new Error(data.error || data.message || "Upload failed.");
   return Array.isArray(data.uploads) ? data.uploads : [];
+}
+
+async function readJsonResponse(response, fallbackMessage) {
+  const text = await response.text().catch(() => "");
+  if (!text) return {};
+  try {
+    return JSON.parse(text);
+  } catch {
+    return { error: text || `${fallbackMessage} (${response.status})` };
+  }
 }
 
 function fileSummary(files, singularLabel = "file") {

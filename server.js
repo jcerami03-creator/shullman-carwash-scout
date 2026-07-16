@@ -134,6 +134,15 @@ function writeUploadMetadata(items) {
   fs.writeFileSync(uploadMetaPath, JSON.stringify(items, null, 2), "utf8");
 }
 
+function uploadFailureMessage(error) {
+  const code = error && error.code ? ` ${error.code}` : "";
+  const message = error && error.message ? error.message : "unknown storage error";
+  if (["EACCES", "EROFS", "ENOENT", "ENOTDIR", "EPERM"].includes(error && error.code)) {
+    return `Upload storage is not writable${code}. Check Render disk setup and UPLOAD_DIR. Details: ${message}`;
+  }
+  return `Upload failed while saving the file${code}. Details: ${message}`;
+}
+
 async function redisCommand(args) {
   const response = await fetch(upstashUrl, {
     method: "POST",
@@ -1192,27 +1201,32 @@ function handleApiUploads(req, res) {
       return;
     }
 
-    ensureUploadRoot();
-    const metadata = readUploadMetadata();
-    const saved = files.map((file) => {
-      const original = cleanFilename(file.filename);
-      const storedName = `${new Date().toISOString().replace(/[:.]/g, "-")}-${original}`;
-      const target = path.join(uploadRoot, storedName);
-      fs.writeFileSync(target, file.data);
-      const item = {
-        id: storedName,
-        filename: original,
-        storedName,
-        mime: file.mime,
-        size: file.data.length,
-        uploadedAt: new Date().toISOString(),
-        title: original.replace(/\.[^.]+$/, ""),
-      };
-      metadata.unshift(item);
-      return uploadDocForFile(item);
-    });
-    writeUploadMetadata(metadata);
-    sendJson(res, 201, { uploads: saved });
+    try {
+      ensureUploadRoot();
+      const metadata = readUploadMetadata();
+      const saved = files.map((file) => {
+        const original = cleanFilename(file.filename);
+        const storedName = `${new Date().toISOString().replace(/[:.]/g, "-")}-${original}`;
+        const target = path.join(uploadRoot, storedName);
+        fs.writeFileSync(target, file.data);
+        const item = {
+          id: storedName,
+          filename: original,
+          storedName,
+          mime: file.mime,
+          size: file.data.length,
+          uploadedAt: new Date().toISOString(),
+          title: original.replace(/\.[^.]+$/, ""),
+        };
+        metadata.unshift(item);
+        return uploadDocForFile(item);
+      });
+      writeUploadMetadata(metadata);
+      sendJson(res, 201, { uploads: saved });
+    } catch (saveError) {
+      console.error("Upload save failed:", saveError);
+      sendJson(res, 500, { error: uploadFailureMessage(saveError) });
+    }
   });
   req.on("error", () => sendJson(res, 500, { error: "Upload failed." }));
 }
