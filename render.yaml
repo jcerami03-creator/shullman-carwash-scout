@@ -16,6 +16,12 @@ services:
         value: 0.0.0.0
       - key: UPLOAD_DIR
         value: /var/data/uploads
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_BUCKET
+        value: scout-uploads
       - key: SCOUT_PASSWORD
         sync: false
       - key: MAINTENANCE_SECRET

@@ -18,6 +18,11 @@ const uploadRoot = path.resolve(process.env.UPLOAD_DIR || path.join(root, "runti
 const uploadMetaPath = path.join(uploadRoot, "metadata.json");
 const manualRecordsPath = path.join(uploadRoot, "manual-records.json");
 const maxUploadBytes = Number(process.env.UPLOAD_MAX_BYTES || 100 * 1024 * 1024);
+const supabaseUrl = String(process.env.SUPABASE_URL || "").replace(/\/+$/, "");
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SECRET_KEY || "";
+const supabaseBucket = process.env.SUPABASE_BUCKET || "scout-uploads";
+const useSupabaseUploads = Boolean(supabaseUrl && supabaseServiceKey && supabaseBucket);
+const supabaseUploadMetaPath = "_scout/uploads-metadata.json";
 
 // --- Permanent storage (Upstash Redis REST) ---
 // When these env vars are set, manual records are saved to Upstash so they
@@ -134,9 +139,109 @@ function writeUploadMetadata(items) {
   fs.writeFileSync(uploadMetaPath, JSON.stringify(items, null, 2), "utf8");
 }
 
+function encodeSupabaseObjectPath(objectPath) {
+  return String(objectPath || "")
+    .split("/")
+    .map((part) => encodeURIComponent(part))
+    .join("/");
+}
+
+function supabaseStorageUrl(objectPath, publicFile = false) {
+  const route = publicFile ? "object/public" : "object";
+  return `${supabaseUrl}/storage/v1/${route}/${encodeURIComponent(supabaseBucket)}/${encodeSupabaseObjectPath(objectPath)}`;
+}
+
+function supabaseHeaders(contentType = "") {
+  const headers = {
+    apikey: supabaseServiceKey,
+    Authorization: `Bearer ${supabaseServiceKey}`,
+  };
+  if (contentType) headers["Content-Type"] = contentType;
+  return headers;
+}
+
+async function supabaseRequest(method, objectPath, options = {}) {
+  const response = await fetch(supabaseStorageUrl(objectPath), {
+    method,
+    headers: {
+      ...supabaseHeaders(options.contentType),
+      ...(options.upsert ? { "x-upsert": "true" } : {}),
+    },
+    body: options.body,
+  });
+  if (!response.ok) {
+    const detail = await response.text().catch(() => "");
+    throw new Error(`Supabase storage ${method} failed (${response.status}). ${detail}`);
+  }
+  return response;
+}
+
+async function readUploadMetadataAsync() {
+  if (!useSupabaseUploads) return readUploadMetadata();
+  try {
+    const response = await supabaseRequest("GET", supabaseUploadMetaPath);
+    const parsed = JSON.parse(await response.text());
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    if (/404|not found/i.test(error.message || "")) return [];
+    throw error;
+  }
+}
+
+async function writeUploadMetadataAsync(items) {
+  if (!useSupabaseUploads) {
+    writeUploadMetadata(items);
+    return;
+  }
+  await supabaseRequest("POST", supabaseUploadMetaPath, {
+    body: Buffer.from(JSON.stringify(items, null, 2)),
+    contentType: "application/json; charset=utf-8",
+    upsert: true,
+  });
+}
+
+async function saveUploadedFile(file) {
+  const original = cleanFilename(file.filename);
+  const storedName = `${new Date().toISOString().replace(/[:.]/g, "-")}-${original}`;
+  if (useSupabaseUploads) {
+    const objectPath = `uploads/${storedName}`;
+    await supabaseRequest("POST", objectPath, {
+      body: file.data,
+      contentType: file.mime || mimeTypes[path.extname(original).toLowerCase()] || "application/octet-stream",
+      upsert: true,
+    });
+    return {
+      id: storedName,
+      filename: original,
+      storedName,
+      storagePath: objectPath,
+      publicUrl: supabaseStorageUrl(objectPath, true),
+      mime: file.mime,
+      size: file.data.length,
+      uploadedAt: new Date().toISOString(),
+      title: original.replace(/\.[^.]+$/, ""),
+    };
+  }
+
+  const target = path.join(uploadRoot, storedName);
+  fs.writeFileSync(target, file.data);
+  return {
+    id: storedName,
+    filename: original,
+    storedName,
+    mime: file.mime,
+    size: file.data.length,
+    uploadedAt: new Date().toISOString(),
+    title: original.replace(/\.[^.]+$/, ""),
+  };
+}
+
 function uploadFailureMessage(error) {
   const code = error && error.code ? ` ${error.code}` : "";
   const message = error && error.message ? error.message : "unknown storage error";
+  if (/Supabase storage/i.test(message)) {
+    return `${message} Check SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, SUPABASE_BUCKET, and confirm the bucket exists.`;
+  }
   if (["EACCES", "EROFS", "ENOENT", "ENOTDIR", "EPERM"].includes(error && error.code)) {
     return `Upload storage is not writable${code}. Check Render disk setup and UPLOAD_DIR. Details: ${message}`;
   }
@@ -691,10 +796,15 @@ function responseText(payload) {
 async function extractRecordFromImage(record) {
   if (!openaiApiKey || !record.uploaded_url) return {};
   const filePath = localUploadPath(record.uploaded_url);
-  if (!filePath || !fs.existsSync(filePath)) return {};
-  const mime = mimeForFile(filePath);
-  if (!/^image\//i.test(mime)) return {};
-  const dataUrl = `data:${mime};base64,${fs.readFileSync(filePath).toString("base64")}`;
+  let imageUrl = "";
+  if (/^https?:\/\//i.test(record.uploaded_url)) {
+    imageUrl = record.uploaded_url;
+  } else {
+    if (!filePath || !fs.existsSync(filePath)) return {};
+    const mime = mimeForFile(filePath);
+    if (!/^image\//i.test(mime)) return {};
+    imageUrl = `data:${mime};base64,${fs.readFileSync(filePath).toString("base64")}`;
+  }
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
     headers: {
@@ -714,7 +824,7 @@ async function extractRecordFromImage(record) {
             },
             {
               type: "input_image",
-              image_url: dataUrl,
+              image_url: imageUrl,
               detail: "high",
             },
           ],
@@ -1110,7 +1220,7 @@ function cleanFilename(filename) {
 
 function uploadDocForFile(item) {
   const isImage = /^image\//i.test(item.mime || "") || /\.(?:png|jpe?g|webp)$/i.test(item.filename);
-  const url = `/uploads/${encodeURIComponent(item.storedName)}`;
+  const url = item.publicUrl || `/uploads/${encodeURIComponent(item.storedName)}`;
   return {
     title: item.title || item.filename,
     file_name: item.filename,
@@ -1167,8 +1277,9 @@ function parseMultipart(buffer, contentType) {
 
 function handleApiUploads(req, res) {
   if (req.method === "GET") {
-    const uploads = readUploadMetadata().map(uploadDocForFile);
-    sendJson(res, 200, { uploads });
+    readUploadMetadataAsync()
+      .then((metadata) => sendJson(res, 200, { uploads: metadata.map(uploadDocForFile), storage: useSupabaseUploads ? "supabase" : "local" }))
+      .catch((error) => sendJson(res, 500, { error: uploadFailureMessage(error) }));
     return;
   }
 
@@ -1187,7 +1298,7 @@ function handleApiUploads(req, res) {
     }
     chunks.push(chunk);
   });
-  req.on("end", () => {
+  req.on("end", async () => {
     if (total > maxUploadBytes) {
       sendJson(res, 413, { error: "Upload is too large." });
       return;
@@ -1202,27 +1313,16 @@ function handleApiUploads(req, res) {
     }
 
     try {
-      ensureUploadRoot();
-      const metadata = readUploadMetadata();
-      const saved = files.map((file) => {
-        const original = cleanFilename(file.filename);
-        const storedName = `${new Date().toISOString().replace(/[:.]/g, "-")}-${original}`;
-        const target = path.join(uploadRoot, storedName);
-        fs.writeFileSync(target, file.data);
-        const item = {
-          id: storedName,
-          filename: original,
-          storedName,
-          mime: file.mime,
-          size: file.data.length,
-          uploadedAt: new Date().toISOString(),
-          title: original.replace(/\.[^.]+$/, ""),
-        };
+      if (!useSupabaseUploads) ensureUploadRoot();
+      const metadata = await readUploadMetadataAsync();
+      const saved = [];
+      for (const file of files) {
+        const item = await saveUploadedFile(file);
         metadata.unshift(item);
-        return uploadDocForFile(item);
-      });
-      writeUploadMetadata(metadata);
-      sendJson(res, 201, { uploads: saved });
+        saved.push(uploadDocForFile(item));
+      }
+      await writeUploadMetadataAsync(metadata);
+      sendJson(res, 201, { uploads: saved, storage: useSupabaseUploads ? "supabase" : "local" });
     } catch (saveError) {
       console.error("Upload save failed:", saveError);
       sendJson(res, 500, { error: uploadFailureMessage(saveError) });
