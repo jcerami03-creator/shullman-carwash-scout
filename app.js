@@ -1511,6 +1511,54 @@ function textForDocumentPage(doc, pageNumber = "") {
   return normalizeSourceLookup(parts.join(" "));
 }
 
+function evidenceRowText(row) {
+  return normalizeSourceLookup(
+    [
+      row.type,
+      row.name,
+      row.location,
+      row.status,
+      row.lot_size,
+      row.traffic_count,
+      row.revenue,
+      row.asking_price,
+      row.ebitda,
+      row.note,
+    ].join(" ")
+  );
+}
+
+function stateMatchesEvidenceLocation(record, row) {
+  const recordState = normalizeSourceLookup(record.state || "");
+  const rowLocation = normalizeSourceLookup(row.location || "");
+  if (!recordState || !rowLocation) return false;
+  return rowLocation.split(" ").includes(recordState) || rowLocation.includes(recordState);
+}
+
+function scoreEvidenceRow(row, record) {
+  const signals = recordAddressSignals(record);
+  const text = evidenceRowText(row);
+  const rowName = normalizeSourceLookup(row.name || "");
+  const rowLocation = normalizeSourceLookup(row.location || "");
+  if (!text) return 0;
+
+  let score = 0;
+  if (signals.name && rowName && signals.name === rowName) score += 220;
+  else if (signals.name && rowName && (signals.name.includes(rowName) || rowName.includes(signals.name))) score += 110;
+
+  if (signals.fullMarket && rowLocation && signals.fullMarket === rowLocation) score += 220;
+  else if (signals.fullMarket && rowLocation && (signals.fullMarket.includes(rowLocation) || rowLocation.includes(signals.fullMarket))) score += 110;
+
+  if (signals.street && text.includes(signals.street)) score += 110;
+  if (signals.streetNumber && text.includes(signals.streetNumber)) score += 35;
+  if (signals.streetName && text.includes(signals.streetName)) score += 55;
+  if (signals.city && text.includes(signals.city)) score += 30;
+  if (signals.zip && text.includes(signals.zip)) score += 45;
+  if (stateMatchesEvidenceLocation(record, row)) score += 25;
+
+  return score;
+}
+
 function scoreDocumentPage(doc, pageNumber, record) {
   const signals = recordAddressSignals(record);
   const text = textForDocumentPage(doc, pageNumber);
@@ -1524,6 +1572,19 @@ function scoreDocumentPage(doc, pageNumber, record) {
   if (signals.zip && text.includes(signals.zip)) score += 35;
   if (signals.name && signals.name.length > 6 && text.includes(signals.name)) score += 15;
   return score;
+}
+
+function bestEvidenceRowForRecord(record) {
+  let best = null;
+  normalizedDocumentLibrary().forEach((doc) => {
+    (doc.evidence_rows || []).forEach((row) => {
+      const score = scoreEvidenceRow(row, record);
+      if (score > 0 && (!best || score > best.score)) {
+        best = { doc, page: String(row.page || ""), row, score };
+      }
+    });
+  });
+  return best;
 }
 
 function sourcePageCandidates(record) {
@@ -1571,10 +1632,13 @@ function bestLibraryPageForRecord(record) {
 }
 
 function resolvedDocumentSource(record) {
+  const evidenceMatch = bestEvidenceRowForRecord(record);
   const candidates = sourcePageCandidates(record).sort((a, b) => b.score - a.score);
   const bestCandidate = candidates[0] || null;
   const libraryMatch = bestLibraryPageForRecord(record);
+  if (evidenceMatch && evidenceMatch.score >= 120) return evidenceMatch;
   if (libraryMatch && (!bestCandidate || libraryMatch.score > bestCandidate.score + 20)) return libraryMatch;
+  if (evidenceMatch && (!bestCandidate || evidenceMatch.score > bestCandidate.score + 20)) return evidenceMatch;
   return bestCandidate || libraryMatch || null;
 }
 
