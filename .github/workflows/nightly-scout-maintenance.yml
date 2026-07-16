@@ -3,7 +3,8 @@ name: Nightly Scout Maintenance
 on:
   schedule:
     # GitHub uses UTC. These two runs cover 5:45 PM Eastern in daylight and standard time.
-    - cron: "45 21,22 * * *"
+    - cron: "45 21 * * *"
+    - cron: "45 22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -31,6 +32,7 @@ jobs:
           schedule = "${{ github.event.schedule }}"
           is_dst = bool(now.dst())
           should_run = (schedule == "45 21 * * *" and is_dst) or (schedule == "45 22 * * *" and not is_dst)
+          print(f"schedule={schedule} eastern_time={now.isoformat()} is_dst={is_dst}")
           print(f"RUN_MAINTENANCE={'true' if should_run else 'false'}")
           PY
 

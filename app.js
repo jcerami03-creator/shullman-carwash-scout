@@ -304,6 +304,8 @@ const sampleRows = [
 
 let records = [];
 let activeRecordId = null;
+let baseRecordCount = 0;
+let liveAddedRecordCount = 0;
 
 const els = {
   fileInput: document.getElementById("fileInput"),
@@ -951,8 +953,11 @@ function renderReadout(matches, query, market, year, maxAskingPrice) {
   }
 
   if (!query && !market && !year && !maxAskingPrice) {
+    const countSummary = liveAddedRecordCount
+      ? `${baseRecordCount.toLocaleString()} base records + ${liveAddedRecordCount.toLocaleString()} live-added records`
+      : `${records.length.toLocaleString()} screened records`;
     els.agentReadout.textContent =
-      `${records.length.toLocaleString()} screened records are loaded. Use the table filters or speak an acquisition thesis, then press Search.`;
+      `${countSummary} are loaded. Use the table filters or speak an acquisition thesis, then press Search.`;
     return;
   }
 
@@ -1716,6 +1721,7 @@ async function loadManualRecords() {
       });
     if (!additions.length) return;
     records = [...additions, ...records];
+    liveAddedRecordCount = additions.length;
     setupFilterOptions();
     saveRecords();
     updateStats();
@@ -2138,6 +2144,8 @@ function loadRecords() {
       saveRecords();
     }
   }
+  baseRecordCount = records.length;
+  liveAddedRecordCount = 0;
   setupFilterOptions();
   updateStats();
   runSearch();
