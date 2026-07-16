@@ -490,6 +490,7 @@ function standardizeRecord(raw, source, index) {
   const mapsUrl = pick(normalized, ["maps_url", "google_maps_url", "maps"]);
   const latitude = pick(normalized, ["latitude", "lat"]);
   const longitude = pick(normalized, ["longitude", "lon", "lng"]);
+  const imageUrl = pick(normalized, ["image_url", "photo_url", "image", "photo"]);
 
   const rawWithCanonical = {
     ...normalized,
@@ -557,6 +558,7 @@ function standardizeRecord(raw, source, index) {
     verificationStatus,
     publicSummary,
     website,
+    imageUrl,
     phone,
     sourceUrls,
     trafficCount,
@@ -1372,6 +1374,7 @@ function resultCardHtml(record, score) {
   const confidence = confidenceLabel(record);
   return `
     <button type="button" class="result-card${record.id === activeRecordId ? " is-active" : ""}" data-id="${escapeHtml(record.id)}">
+      ${record.imageUrl ? `<img class="result-photo" src="${escapeHtml(record.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin:0 0 10px;display:block;" />` : ""}
       <div class="opportunity-bar">
         <span>${escapeHtml(tier)}</span>
         <span>${escapeHtml(sourceLabel)}</span>
