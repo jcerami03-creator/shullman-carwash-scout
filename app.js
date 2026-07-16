@@ -1632,14 +1632,17 @@ function bestLibraryPageForRecord(record) {
 }
 
 function resolvedDocumentSource(record) {
+  const sourceScore = 35;
+  const strongLibraryScore = 60;
+  const strongEvidenceScore = 120;
   const evidenceMatch = bestEvidenceRowForRecord(record);
   const candidates = sourcePageCandidates(record).sort((a, b) => b.score - a.score);
   const bestCandidate = candidates[0] || null;
   const libraryMatch = bestLibraryPageForRecord(record);
-  if (evidenceMatch && evidenceMatch.score >= 120) return evidenceMatch;
-  if (libraryMatch && (!bestCandidate || libraryMatch.score > bestCandidate.score + 20)) return libraryMatch;
-  if (evidenceMatch && (!bestCandidate || evidenceMatch.score > bestCandidate.score + 20)) return evidenceMatch;
-  return bestCandidate || libraryMatch || null;
+  if (evidenceMatch && evidenceMatch.score >= strongEvidenceScore) return evidenceMatch;
+  if (libraryMatch && libraryMatch.score >= strongLibraryScore && (!bestCandidate || libraryMatch.score > bestCandidate.score + 20)) return libraryMatch;
+  if (bestCandidate && bestCandidate.score >= sourceScore) return bestCandidate;
+  return libraryMatch && libraryMatch.score >= strongLibraryScore ? libraryMatch : null;
 }
 
 function sourceActionsHtml(record) {
