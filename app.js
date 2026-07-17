@@ -304,6 +304,7 @@ const sampleRows = [
 
 let records = [];
 let activeRecordId = null;
+let agentOnly = false;
 let baseRecordCount = 0;
 let liveAddedRecordCount = 0;
 
@@ -905,11 +906,20 @@ function runSearch() {
     (token) => !["find", "show", "what", "which", "did", "the", "and", "with", "car", "wash", "washes"].includes(token)
   );
 
-  const matches = records
-    .map((record) => scoreRecord(record, queryTokens, selectedMarket, selectedYear, 0, criteria))
-    .filter(Boolean)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit);
+  let matches;
+  if (agentOnly) {
+    matches = records
+      .filter((record) => /email alert/i.test(record.source || ""))
+      .map((record) => scoreRecord(record, [], "", "", 0, {}))
+      .filter(Boolean)
+      .sort((a, b) => String(b.record.added_at || "").localeCompare(String(a.record.added_at || "")));
+  } else {
+    matches = records
+      .map((record) => scoreRecord(record, queryTokens, selectedMarket, selectedYear, 0, criteria))
+      .filter(Boolean)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, limit);
+  }
 
   renderResults(matches);
   renderReadout(matches, query, selectedMarket, selectedYear, 0);
@@ -2268,6 +2278,23 @@ if (introEnterBtn && scoutApp) {
   });
 }
 els.searchBtn.addEventListener("click", runSearch);
+
+(function setupAgentFilter() {
+  if (!els.resultCount || !els.resultCount.parentElement) return;
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.id = "agentFilterBtn";
+  btn.title = "Show only the car washes the agent added from your Crexi / BizBuySell email alerts";
+  btn.style.cssText = "margin-left:12px;padding:5px 14px;border-radius:999px;border:1px solid rgba(120,220,170,.55);background:transparent;color:inherit;cursor:pointer;font:inherit;font-size:13px;font-weight:600;vertical-align:middle;";
+  const paint = () => {
+    btn.textContent = agentOnly ? "Agent Finds \u2713" : "Agent Finds";
+    btn.style.background = agentOnly ? "rgba(60,200,130,.9)" : "transparent";
+    btn.style.color = agentOnly ? "#05231a" : "inherit";
+  };
+  btn.addEventListener("click", () => { agentOnly = !agentOnly; paint(); runSearch(); });
+  els.resultCount.parentElement.appendChild(btn);
+  paint();
+})();
 if (els.documentLibraryBtn) els.documentLibraryBtn.addEventListener("click", openLibrary);
 [els.yearInput, els.marketInput, els.addressInput, els.askingPriceInput, els.salesInput, els.ebitdaInput, els.carsInput, els.acresInput, els.noteInput].forEach((input) => {
   input.addEventListener("keydown", (event) => {
