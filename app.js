@@ -1,5 +1,6 @@
 const STORAGE_KEY = "shullmanCarWashKnowledge:v20";
 const importedRows = Array.isArray(window.CARWASH_IMPORTED_RECORDS) ? window.CARWASH_IMPORTED_RECORDS : [];
+const agentFindSnapshotOverrides = window.AGENT_FIND_SNAPSHOT_OVERRIDES || {};
 let documentLibrary = Array.isArray(window.CARWASH_DOCUMENT_LIBRARY) ? [...window.CARWASH_DOCUMENT_LIBRARY] : [];
 const STATE_NAME_TO_CODE = {
   alabama: "AL",
@@ -557,7 +558,7 @@ function standardizeRecord(raw, source, index) {
   };
 
   return {
-    id: `${source}-${Date.now()}-${index}-${Math.random().toString(16).slice(2)}`,
+    id: pick(normalized, ["id", "record_id"]) || `${source}-${Date.now()}-${index}-${Math.random().toString(16).slice(2)}`,
     name,
     year,
     market,
@@ -1832,6 +1833,12 @@ function recordIdentity(record) {
     .trim();
 }
 
+function applyAgentFindSnapshotOverride(item) {
+  const id = String(item?.id || item?.record_id || "");
+  const override = id ? agentFindSnapshotOverrides[id] : null;
+  return override ? { ...item, ...override } : item;
+}
+
 async function loadManualRecords() {
   try {
     const response = await fetch("/api/manual-records", { cache: "no-store" });
@@ -1841,7 +1848,7 @@ async function loadManualRecords() {
     if (!manualRows.length) return;
     const existing = new Set(records.map(recordIdentity));
     const additions = manualRows
-      .map((item, index) => standardizeRecord(item, item.source || "Admin Added Listing", index))
+      .map((item, index) => standardizeRecord(applyAgentFindSnapshotOverride(item), item.source || "Admin Added Listing", index))
       .filter((record) => {
         const key = recordIdentity(record);
         if (!key || existing.has(key)) return false;
