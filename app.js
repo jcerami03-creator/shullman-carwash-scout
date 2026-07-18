@@ -494,6 +494,8 @@ function standardizeRecord(raw, source, index) {
   const latitude = pick(normalized, ["latitude", "lat"]);
   const longitude = pick(normalized, ["longitude", "lon", "lng"]);
   const imageUrl = pick(normalized, ["image_url", "photo_url", "image", "photo"]);
+  const listingSnapshotUrl = pick(normalized, ["listing_snapshot_url", "snapshot_url", "page_screenshot_url"]);
+  const listingSnapshotStatus = pick(normalized, ["listing_snapshot_status", "snapshot_status"]);
 
   const rawWithCanonical = {
     ...normalized,
@@ -530,6 +532,8 @@ function standardizeRecord(raw, source, index) {
     maps_url: mapsUrl,
     latitude,
     longitude,
+    listing_snapshot_url: listingSnapshotUrl,
+    listing_snapshot_status: listingSnapshotStatus,
     full_text: fullText,
   };
 
@@ -561,7 +565,9 @@ function standardizeRecord(raw, source, index) {
     verificationStatus,
     publicSummary,
     website,
-    imageUrl,
+    imageUrl: imageUrl || listingSnapshotUrl,
+    listingSnapshotUrl,
+    listingSnapshotStatus,
     phone,
     sourceUrls,
     trafficCount,
@@ -896,6 +902,21 @@ function combinedSearchText(criteria) {
   return Object.values(criteria).filter(Boolean).join(" ");
 }
 
+function isAgentFindRecord(record) {
+  const text = [
+    record.source,
+    record.researchUrl,
+    record.sourceUrls,
+    record.listingSnapshotUrl,
+    record.publicSummary,
+    record.note,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  return /email alert|agent|crexi\.com|bizbuysell\.com|loopnet\.com|listing link|research assistant/.test(text);
+}
+
 function runSearch() {
   const criteria = getSearchCriteria();
   const query = combinedSearchText(criteria);
@@ -909,7 +930,7 @@ function runSearch() {
   let matches;
   if (agentOnly) {
     matches = records
-      .filter((record) => /email alert/i.test(record.source || ""))
+      .filter(isAgentFindRecord)
       .map((record) => scoreRecord(record, [], "", "", 0, {}))
       .filter(Boolean)
       .sort((a, b) => String(b.record.added_at || "").localeCompare(String(a.record.added_at || "")));
@@ -1026,6 +1047,7 @@ function selectRecord(id, rerender = true) {
   const executiveRead = buildExecutiveRead(record);
   const contactActions = contactActionsHtml(record);
   const sourceActions = sourceActionsHtml(record);
+  const snapshotUrl = usableAssetUrl(record.listingSnapshotUrl) ? record.listingSnapshotUrl : "";
   const websiteUrl = usableWebsiteUrl(record);
   const mapsUrl = mapsSearchUrl(record);
   const contactHeadline = record.phone || (websiteUrl ? cleanUrlLabel(websiteUrl) : "") || (mapsUrl ? "Exact map ready" : "Contact not listed");
@@ -1082,6 +1104,20 @@ function selectRecord(id, rerender = true) {
           </div>
         </section>
         <div class="detail-field-grid">${detailFields}</div>
+        ${
+          snapshotUrl
+            ? `<section class="listing-snapshot">
+                <div class="verified-info-head">
+                  <span>Saved Listing Snapshot</span>
+                  <strong>Preserved evidence</strong>
+                </div>
+                <a href="${escapeHtml(snapshotUrl)}" target="_blank" rel="noreferrer">
+                  <img src="${escapeHtml(snapshotUrl)}" alt="${escapeHtml(`${record.name || "Listing"} saved source snapshot`)}" loading="lazy" referrerpolicy="no-referrer" />
+                </a>
+                <p>${escapeHtml(record.listingSnapshotStatus || "Saved from the public listing source so the opportunity still has a visual record if the listing changes later.")}</p>
+              </section>`
+            : ""
+        }
         <section class="verified-info">
           <div class="verified-info-head">
             <span>Contact & Location</span>
@@ -1271,6 +1307,11 @@ function phoneHref(phone) {
   return String(phone || "").replace(/[^0-9+]/g, "");
 }
 
+function usableAssetUrl(value) {
+  const url = String(value || "").trim();
+  return /^https?:\/\//i.test(url) || url.startsWith("/uploads/");
+}
+
 function usableWebsiteUrl(record) {
   const url = String(record.website || "").trim();
   if (!/^https?:\/\//i.test(url)) return "";
@@ -1440,8 +1481,17 @@ function contactActionsHtml(record) {
   }
   const listingUrl = String(record.researchUrl || "").trim();
   if (/^https?:\/\//i.test(listingUrl)) {
-    const label = /bizbuysell\.com/i.test(listingUrl) ? "View on BizBuySell" : "View Listing";
+    const label = /bizbuysell\.com/i.test(listingUrl)
+      ? "View on BizBuySell"
+      : /crexi\.com/i.test(listingUrl)
+      ? "View on Crexi"
+      : /loopnet\.com/i.test(listingUrl)
+      ? "View on LoopNet"
+      : "View Listing";
     actions.push(`<a href="${escapeHtml(listingUrl)}" target="_blank" rel="noreferrer">${label}</a>`);
+  }
+  if (record.listingSnapshotUrl && usableAssetUrl(record.listingSnapshotUrl)) {
+    actions.push(`<a href="${escapeHtml(record.listingSnapshotUrl)}" target="_blank" rel="noreferrer">Saved Snapshot</a>`);
   }
   return actions.length ? actions.join("") : `<span class="contact-empty">Contact not listed</span>`;
 }

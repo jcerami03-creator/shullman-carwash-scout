@@ -54,6 +54,7 @@ Admin-added records can be enriched automatically when API keys are configured o
 - `TRAFFIC_API_URL`: optional traffic-count provider URL. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them.
 - `DEMOGRAPHICS_API_URL`: optional demographic provider URL for 1-mile, 3-mile, and 5-mile population rings. Use `{lat}`, `{lng}`, and `{address}` placeholders if your provider supports them. If this is not set, live maintenance falls back to public Census ACS/TIGER population estimates.
 - `MAINTENANCE_SECRET`: private token used by the nightly maintenance agent to update live admin records.
+- `LISTING_SCREENSHOT_API_URL`: optional screenshot provider URL for saving full-page listing screenshots. Use `{url}` as the listing URL placeholder. Without this, Scout still tries to save the public listing preview image when Crexi, BizBuySell, or LoopNet exposes one.
 
 Scout does not invent financials or traffic counts. EBITDA, asking price, sales, cars/year, and traffic are filled only when visible in the uploaded material or supplied by an approved data source. The 1/3/5-mile population fields can be filled from imported demographic pages or estimated from public Census ACS/TIGER block groups. Phone, website, Google Maps link, and coordinates can be filled from Google Places when an address is found.
 
@@ -69,6 +70,7 @@ What it does every night:
 - Audits duplicates, bad addresses, and missing core fields.
 - Calls the live Render site to re-check admin/Claude-added records.
 - Re-opens saved listing links when possible, so city-only Claude/email leads can be upgraded to street-address leads if the source page exposes the address.
+- Saves a listing snapshot/preview image for agent-added Crexi, BizBuySell, and LoopNet records when the source page or screenshot provider allows it.
 - Commits updates back to GitHub, which lets Render redeploy automatically.
 
 This works when your computer is closed because GitHub runs it in the cloud.

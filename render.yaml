@@ -26,3 +26,5 @@ services:
         sync: false
       - key: MAINTENANCE_SECRET
         sync: false
+      - key: LISTING_SCREENSHOT_API_URL
+        sync: false

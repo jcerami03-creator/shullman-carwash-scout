@@ -23,6 +23,7 @@ const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.
 const supabaseBucket = process.env.SUPABASE_BUCKET || "scout-uploads";
 const useSupabaseUploads = Boolean(supabaseUrl && supabaseServiceKey && supabaseBucket);
 const supabaseUploadMetaPath = "_scout/uploads-metadata.json";
+const listingScreenshotApiUrl = process.env.LISTING_SCREENSHOT_API_URL || "";
 
 // --- Permanent storage (Upstash Redis REST) ---
 // When these env vars are set, manual records are saved to Upstash so they
@@ -151,6 +152,11 @@ function supabaseStorageUrl(objectPath, publicFile = false) {
   return `${supabaseUrl}/storage/v1/${route}/${encodeURIComponent(supabaseBucket)}/${encodeSupabaseObjectPath(objectPath)}`;
 }
 
+function isListingSourceUrl(value) {
+  const url = String(value || "").toLowerCase();
+  return /(?:crexi|bizbuysell|loopnet|businessesforsale|showcase)\.com/.test(url);
+}
+
 function supabaseHeaders(contentType = "") {
   const headers = {
     apikey: supabaseServiceKey,
@@ -234,6 +240,24 @@ async function saveUploadedFile(file) {
     uploadedAt: new Date().toISOString(),
     title: original.replace(/\.[^.]+$/, ""),
   };
+}
+
+async function saveGeneratedUpload({ data, filename, mime, title, category, group }) {
+  const item = await saveUploadedFile({
+    data,
+    filename,
+    mime: mime || "application/octet-stream",
+  });
+  item.title = title || item.title;
+  item.category = category || item.category || "Listing Snapshots";
+  item.group = group || item.group || "Agent Listing Snapshots";
+  const metadata = await readUploadMetadataAsync();
+  const exists = metadata.some((entry) => entry.storagePath === item.storagePath || entry.storedName === item.storedName);
+  if (!exists) {
+    metadata.unshift(item);
+    await writeUploadMetadataAsync(metadata);
+  }
+  return item;
 }
 
 function uploadFailureMessage(error) {
@@ -420,6 +444,8 @@ function cleanRecordPayload(payload) {
     "phone",
     "website",
     "image_url",
+    "listing_snapshot_url",
+    "listing_snapshot_status",
     "research_url",
     "uploaded_url",
     "maps_url",
@@ -571,6 +597,113 @@ function cleanListingTitle(value) {
 function firstMatch(text, pattern) {
   const match = String(text || "").match(pattern);
   return match ? cleanText(match[1] || match[0], 500) : "";
+}
+
+function resolveUrlMaybe(baseUrl, value) {
+  const clean = cleanText(value, 2000);
+  if (!clean) return "";
+  try {
+    return new URL(clean, baseUrl).toString();
+  } catch {
+    return "";
+  }
+}
+
+function htmlImageUrl(html, baseUrl) {
+  const raw =
+    htmlMeta(html, "og:image") ||
+    htmlMeta(html, "og:image:url") ||
+    htmlMeta(html, "twitter:image") ||
+    htmlMeta(html, "twitter:image:src");
+  return resolveUrlMaybe(baseUrl, raw);
+}
+
+function extensionForMime(mime) {
+  const clean = String(mime || "").split(";")[0].trim().toLowerCase();
+  if (clean === "image/png") return ".png";
+  if (clean === "image/webp") return ".webp";
+  if (clean === "image/gif") return ".gif";
+  if (clean === "application/pdf") return ".pdf";
+  return ".jpg";
+}
+
+function snapshotBaseName(record, fallbackUrl) {
+  const raw = cleanText(record.name || record.market || fallbackUrl || "listing-snapshot", 120)
+    .replace(/https?:\/\//i, "")
+    .replace(/[^A-Za-z0-9._-]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  return raw || "listing-snapshot";
+}
+
+async function fetchBinaryAsset(url, expectedPattern = /image\/|application\/pdf/i) {
+  const response = await fetch(url, {
+    redirect: "follow",
+    headers: {
+      "User-Agent": "Mozilla/5.0 (compatible; ShullmanCarwashScout/1.0; +https://render.com)",
+      Accept: "image/avif,image/webp,image/png,image/jpeg,image/*,application/pdf;q=0.8,*/*;q=0.5",
+    },
+  });
+  if (!response.ok) throw new Error(`Snapshot asset returned ${response.status}.`);
+  const mime = response.headers.get("content-type") || "";
+  if (!expectedPattern.test(mime)) throw new Error("Snapshot asset was not an image/PDF.");
+  const buffer = Buffer.from(await response.arrayBuffer());
+  const maxSnapshotBytes = Number(process.env.LISTING_SNAPSHOT_MAX_BYTES || 10 * 1024 * 1024);
+  if (buffer.length > maxSnapshotBytes) throw new Error("Snapshot asset was too large.");
+  return { data: buffer, mime };
+}
+
+async function captureListingSnapshotFromHtml(record, listingUrl, html) {
+  if (!isListingSourceUrl(listingUrl) || !isMissingValue(record.listing_snapshot_url)) return {};
+
+  const imageUrl = htmlImageUrl(html, listingUrl);
+  if (!imageUrl) {
+    return { listing_snapshot_status: "No public listing image was exposed by the source page." };
+  }
+
+  try {
+    const asset = await fetchBinaryAsset(imageUrl);
+    const item = await saveGeneratedUpload({
+      data: asset.data,
+      filename: `${snapshotBaseName(record, listingUrl)}-listing-snapshot${extensionForMime(asset.mime)}`,
+      mime: asset.mime,
+      title: `${cleanText(record.name || record.market || "Listing", 90)} - Listing Snapshot`,
+      category: "Image Scans",
+      group: "Agent Listing Snapshots",
+    });
+    const url = item.publicUrl || `/uploads/${encodeURIComponent(item.storedName)}`;
+    return {
+      listing_snapshot_url: url,
+      image_url: isMissingValue(record.image_url) ? url : "",
+      listing_snapshot_status: "Saved source listing image",
+    };
+  } catch (error) {
+    return { listing_snapshot_status: error.message || "Could not save listing image." };
+  }
+}
+
+async function captureListingSnapshotViaService(record, listingUrl) {
+  if (!listingScreenshotApiUrl || !isListingSourceUrl(listingUrl) || !isMissingValue(record.listing_snapshot_url)) return {};
+  const url = listingScreenshotApiUrl.replace(/\{url\}/g, encodeURIComponent(listingUrl));
+  if (!/^https?:\/\//i.test(url)) return {};
+  try {
+    const asset = await fetchBinaryAsset(url);
+    const item = await saveGeneratedUpload({
+      data: asset.data,
+      filename: `${snapshotBaseName(record, listingUrl)}-page-screenshot${extensionForMime(asset.mime)}`,
+      mime: asset.mime,
+      title: `${cleanText(record.name || record.market || "Listing", 90)} - Page Screenshot`,
+      category: "Image Scans",
+      group: "Agent Listing Snapshots",
+    });
+    const savedUrl = item.publicUrl || `/uploads/${encodeURIComponent(item.storedName)}`;
+    return {
+      listing_snapshot_url: savedUrl,
+      image_url: isMissingValue(record.image_url) ? savedUrl : "",
+      listing_snapshot_status: "Saved source page screenshot",
+    };
+  } catch (error) {
+    return { listing_snapshot_status: error.message || "Could not save page screenshot." };
+  }
 }
 
 function normalizePopulationValue(value) {
@@ -969,6 +1102,7 @@ function needsListingRefresh(record) {
   return Boolean(
     normalizePublicUrl(record.research_url) &&
       (!extractAddressCandidate(record) ||
+        (isListingSourceUrl(record.research_url) && isMissingValue(record.listing_snapshot_url)) ||
         isMissingValue(record.maps_url) ||
         isMissingValue(record.latitude) ||
         isMissingValue(record.longitude) ||
@@ -1040,8 +1174,13 @@ function operatingEstimateFields(record) {
 async function refreshRecordFromListingUrl(record) {
   const url = normalizePublicUrl(record.research_url);
   if (!url || !needsListingRefresh(record)) return {};
+  const serviceSnapshot = await captureListingSnapshotViaService(record, url);
+  if (serviceSnapshot.listing_snapshot_url && !needsListingRefresh({ ...record, ...serviceSnapshot })) return serviceSnapshot;
   const html = await fetchListingHtml(url);
   const inferred = inferRecordFromListingPage(url, html);
+  const snapshotFields = serviceSnapshot.listing_snapshot_url
+    ? serviceSnapshot
+    : await captureListingSnapshotFromHtml({ ...record, ...inferred }, url, html);
   const mergedText = [inferred.full_text, record.full_text].filter(Boolean).join("\n\n");
   let aiFields = {};
   try {
@@ -1049,7 +1188,7 @@ async function refreshRecordFromListingUrl(record) {
   } catch {
     aiFields = {};
   }
-  return { ...inferred, ...aiFields };
+  return { ...inferred, ...aiFields, ...snapshotFields };
 }
 
 async function enrichRecord(record) {
@@ -1136,6 +1275,11 @@ function needsMaintenance(record) {
     isMissingValue(record.phone) ||
     isMissingValue(record.website) ||
     isMissingValue(record.traffic_count) ||
+    isMissingValue(record.sales) ||
+    isMissingValue(record.ebitda) ||
+    isMissingValue(record.cars_per_year) ||
+    isMissingValue(record.acres) ||
+    (isListingSourceUrl(record.research_url) && isMissingValue(record.listing_snapshot_url)) ||
     !hasCompleteDemographics(record)
   );
 }
@@ -1225,8 +1369,8 @@ function uploadDocForFile(item) {
   return {
     title: item.title || item.filename,
     file_name: item.filename,
-    category: isImage ? "Image Scans" : "Deal Records",
-    group: isImage ? "Admin Phone Uploads" : "Admin Uploaded Documents",
+    category: item.category || (isImage ? "Image Scans" : "Deal Records"),
+    group: item.group || (isImage ? "Admin Phone Uploads" : "Admin Uploaded Documents"),
     pdf_url: url,
     text_url: "",
     page_count: 1,
@@ -1239,8 +1383,11 @@ function uploadDocForFile(item) {
       ? [
           {
             page: "1",
-            group: "Admin Phone Uploads",
-            interpretation: "Image uploaded through the admin page. Review visually; OCR/AI extraction requires the processing worker.",
+            group: item.group || "Admin Phone Uploads",
+            interpretation:
+              item.group === "Agent Listing Snapshots"
+                ? "Saved listing image captured from the agent source link so the opportunity still has visual evidence if the public listing changes."
+                : "Image uploaded through the admin page. Review visually; OCR/AI extraction requires the processing worker.",
             image_url: url,
             pdf_page_url: url,
           },
