@@ -436,6 +436,23 @@ function pick(obj, keys) {
   return "";
 }
 
+function shouldReplaceWeakMarket(value) {
+  const clean = String(value || "").trim();
+  if (!clean) return true;
+  if (/^[A-Z]{2}$/i.test(clean)) return true;
+  if (/^(unknown|not provided|not listed|record \d+)$/i.test(clean)) return true;
+  return false;
+}
+
+function inferMarketFromListingTitle(title) {
+  const text = String(title || "").replace(/\s+/g, " ").trim();
+  const statePattern = "\\b(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\\b";
+  const afterDash = text.match(new RegExp(`[—-]\\s*([^—-]{2,80}?${statePattern})`, "i"));
+  if (afterDash) return afterDash[1].replace(/\barea\b/gi, "Area").trim();
+  const cityState = text.match(new RegExp(`\\b([A-Z][A-Za-z .'-]{2,60},\\s*${statePattern})\\b`));
+  return cityState ? cityState[1].trim() : "";
+}
+
 function standardizeRecord(raw, source, index) {
   const normalized = {};
   Object.entries(raw || {}).forEach(([key, value]) => {
@@ -443,14 +460,16 @@ function standardizeRecord(raw, source, index) {
   });
 
   const year = pick(normalized, ["year", "date", "decade"]);
-  const market = pick(normalized, ["market", "location", "city", "state", "region"]) || `Record ${index + 1}`;
+  const rawMarket = pick(normalized, ["market", "location", "city", "state", "region"]);
+  const name = pick(normalized, ["name", "title", "deal", "operator"]) || `${year || "Undated"} ${rawMarket || `Record ${index + 1}`}`;
+  const titleMarket = inferMarketFromListingTitle(name);
+  const market = shouldReplaceWeakMarket(rawMarket) && titleMarket ? titleMarket : rawMarket || titleMarket || `Record ${index + 1}`;
   const city = pick(normalized, ["city", "address_locality", "locality"]) || inferCityFromLocation(market);
   const state = normalizeState(pick(normalized, ["state", "state_code"])) || inferStateFromLocation(market);
   const askingPrice = pick(normalized, ["asking_price", "ask", "price", "estimated_asking_price"]);
   const sales = pick(normalized, ["sales", "revenue", "gross_sales", "annual_sales"]);
   const listedEbitda = pick(normalized, ["ebitda", "cash_flow", "earnings"]);
   const carsWk = pick(normalized, ["cars_per_year", "cars_year", "annual_cars", "cars_yr", "cars_wk", "cars_week", "cars_per_week", "cars"]);
-  const name = pick(normalized, ["name", "title", "deal", "operator"]) || `${year || "Undated"} ${market}`;
   const listedAcres = pick(normalized, ["acres", "acreage", "lot_size_acres"]);
   const acreageProfile = acreageRead(listedAcres, normalized, {
     name,
@@ -915,6 +934,53 @@ function isAgentFindRecord(record) {
     .join(" ")
     .toLowerCase();
   return /email alert|agent|crexi\.com|bizbuysell\.com|loopnet\.com|listing link|research assistant/.test(text);
+}
+
+function urlHost(value) {
+  try {
+    return new URL(String(value || "")).hostname.replace(/^www\./, "").toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+function isGenericStockImage(url) {
+  const host = urlHost(url);
+  return /(?:unsplash|pexels|pixabay|freepik|istockphoto|shutterstock|cloudinary)\./i.test(host);
+}
+
+function isListingEvidenceImage(record) {
+  const url = String(record.imageUrl || "").trim();
+  if (!url) return false;
+  if (record.listingSnapshotUrl && url === record.listingSnapshotUrl) return true;
+  if (url.startsWith("/uploads/")) return true;
+  const host = urlHost(url);
+  if (!host || isGenericStockImage(url)) return false;
+  return /(crexi|bizbuysell|loopnet|costar|showcase|broker|listing|images1)/i.test(host);
+}
+
+function recordVisualHtml(record) {
+  const agentFind = isAgentFindRecord(record);
+  const visualUrl = isListingEvidenceImage(record) ? record.imageUrl : "";
+  if (visualUrl) {
+    return `<img class="result-photo" src="${escapeHtml(visualUrl)}" alt="${escapeHtml(`${record.name || "Listing"} source image`)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'" />`;
+  }
+  if (!agentFind && record.imageUrl && !isGenericStockImage(record.imageUrl)) {
+    return `<img class="result-photo" src="${escapeHtml(record.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'" />`;
+  }
+  if (!agentFind) return "";
+
+  const mapsUrl = mapsSearchUrl(record);
+  const location = record.market || inferMarketFromListingTitle(record.name) || record.state || "Location needs address";
+  const status = mapsUrl ? "Google Maps ready" : "Exact address needed";
+  const source = /crexi/i.test(record.researchUrl || "") ? "Crexi" : /bizbuysell/i.test(record.researchUrl || "") ? "BizBuySell" : /loopnet/i.test(record.researchUrl || "") ? "LoopNet" : "Listing";
+  return `
+    <div class="result-map-panel">
+      <span>${escapeHtml(source)} lead</span>
+      <strong>${escapeHtml(location)}</strong>
+      <small>${escapeHtml(status)}</small>
+    </div>
+  `;
 }
 
 function runSearch() {
@@ -1430,7 +1496,7 @@ function resultCardHtml(record, score) {
   const confidence = confidenceLabel(record);
   return `
     <button type="button" class="result-card${record.id === activeRecordId ? " is-active" : ""}" data-id="${escapeHtml(record.id)}">
-      ${record.imageUrl ? `<img class="result-photo" src="${escapeHtml(record.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin:0 0 10px;display:block;" />` : ""}
+      ${recordVisualHtml(record)}
       <div class="opportunity-bar">
         <span>${escapeHtml(tier)}</span>
         <span>${escapeHtml(sourceLabel)}</span>

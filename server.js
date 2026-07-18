@@ -157,6 +157,19 @@ function isListingSourceUrl(value) {
   return /(?:crexi|bizbuysell|loopnet|businessesforsale|showcase)\.com/.test(url);
 }
 
+function urlHost(value) {
+  try {
+    return new URL(String(value || "")).hostname.replace(/^www\./, "").toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+function isGenericStockImageUrl(value) {
+  const host = urlHost(value);
+  return /(?:unsplash|pexels|pixabay|freepik|istockphoto|shutterstock|cloudinary)\./i.test(host);
+}
+
 function supabaseHeaders(contentType = "") {
   const headers = {
     apikey: supabaseServiceKey,
@@ -471,6 +484,11 @@ function cleanRecordPayload(payload) {
   const hasContent = Object.values(record).some(Boolean);
   if (!hasContent) return null;
   record.name = record.name || record.market || "New car wash listing";
+  const titleMarket = inferMarketFromListingTitle([record.name, record.note].filter(Boolean).join(" "));
+  if (titleMarket && shouldReplaceWeakMarket(record.market)) {
+    record.market = titleMarket;
+    record.state = record.state || extractState(titleMarket);
+  }
   record.source = record.source || "Admin Added Listing";
   record.added_at = new Date().toISOString();
   record.id = `manual-${Date.now()}-${Math.random().toString(16).slice(2)}`;
@@ -592,6 +610,23 @@ function cleanListingTitle(value) {
     .replace(/\bBusinesses?\s+For\s+Sale\b.*$/i, "")
     .replace(/\bCommercial\s+Real\s+Estate\b.*$/i, "")
     .trim();
+}
+
+function shouldReplaceWeakMarket(value) {
+  const clean = cleanText(value, 120);
+  if (!clean) return true;
+  if (/^[A-Z]{2}$/i.test(clean)) return true;
+  if (/^(unknown|not provided|not listed|record \d+)$/i.test(clean)) return true;
+  return false;
+}
+
+function inferMarketFromListingTitle(title) {
+  const text = cleanText(title, 300);
+  const statePattern = "\\b(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\\b";
+  const afterDash = text.match(new RegExp(`[—-]\\s*([^—-]{2,80}?${statePattern})`, "i"));
+  if (afterDash) return afterDash[1].replace(/\barea\b/gi, "Area").trim();
+  const cityState = text.match(new RegExp(`\\b([A-Z][A-Za-z .'-]{2,60},\\s*${statePattern})\\b`));
+  return cityState ? cityState[1].trim() : "";
 }
 
 function firstMatch(text, pattern) {
@@ -889,6 +924,7 @@ function inferRecordFromListingPage(url, html) {
     /\b\d{2,6}\s+[A-Za-z0-9 .'-]+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Drive|Dr|Lane|Ln|Highway|Hwy|Pike|Parkway|Pkwy|Way|Court|Ct|Circle|Cir|Trail|Trl|Place|Pl|Terrace|Ter|Turnpike|Tpke)\b[^,.\n]{0,90}(?:,\s*[A-Za-z .'-]+)?(?:,\s*(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b)?(?:\s+\d{5})?/i
   );
   const name = cleanListingTitle(title) || firstMatch(text, /\b([A-Z][A-Za-z0-9 &'‚Äô-]{2,80}(?:Car Wash|Express Wash|Auto Spa|Wash Club|Wash Center))\b/i);
+  const titleMarket = inferMarketFromListingTitle([title, name, description].filter(Boolean).join(" "));
   const phone = firstMatch(text, /\(?\b\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b/);
   const acres = firstMatch(text, /\b([0-9]+(?:\.[0-9]+)?)\s*(?:acre|acres)\b/i);
   const carsPerYear =
@@ -897,11 +933,12 @@ function inferRecordFromListingPage(url, html) {
   const trafficCount =
     firstMatch(text, /\b(?:traffic|AADT|ADT|vehicles per day|VPD|daily traffic|traffic count|traffic volume)[^0-9]{0,90}([0-9][0-9,]{2,})\b/i) ||
     firstMatch(text, /\b([0-9][0-9,]{2,})\s*(?:VPD|AADT|ADT|vehicles per day|cars per day|daily vehicles)\b/i);
-  const state = extractState(address || text);
+  const market = address || titleMarket;
+  const state = extractState(market || text);
   const demographics = extractDemographicsFromText(text);
   return {
     name: name || "Imported car wash listing",
-    market: address,
+    market,
     state,
     asking_price: extractMoneyNear(text, "asking price|list price|price|sale price|asking") || "",
     sales: extractMoneyNear(text, "sales|revenue|gross sales|gross revenue") || "",
@@ -1194,6 +1231,16 @@ async function refreshRecordFromListingUrl(record) {
 async function enrichRecord(record) {
   const enriched = { ...record };
   const notes = [];
+  const titleMarket = inferMarketFromListingTitle([enriched.name, enriched.note, enriched.full_text].filter(Boolean).join(" "));
+  if (titleMarket && shouldReplaceWeakMarket(enriched.market)) {
+    enriched.market = titleMarket;
+    enriched.state = enriched.state || extractState(titleMarket);
+    notes.push("market cleanup");
+  }
+  if (isListingSourceUrl(enriched.research_url) && isGenericStockImageUrl(enriched.image_url) && isMissingValue(enriched.listing_snapshot_url)) {
+    enriched.image_url = "";
+    notes.push("removed stock image");
+  }
   try {
     const listingFields = await refreshRecordFromListingUrl(enriched);
     if (Object.keys(listingFields).length) {
