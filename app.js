@@ -1000,7 +1000,12 @@ function runSearch() {
       .filter(isAgentFindRecord)
       .map((record) => scoreRecord(record, [], "", "", 0, {}))
       .filter(Boolean)
-      .sort((a, b) => String(b.record.added_at || "").localeCompare(String(a.record.added_at || "")));
+      .sort((a, b) => {
+        const aHasSnapshot = isListingEvidenceImage(a.record) ? 1 : 0;
+        const bHasSnapshot = isListingEvidenceImage(b.record) ? 1 : 0;
+        if (aHasSnapshot !== bHasSnapshot) return bHasSnapshot - aHasSnapshot;
+        return String(b.record.added_at || "").localeCompare(String(a.record.added_at || ""));
+      });
   } else {
     matches = records
       .map((record) => scoreRecord(record, queryTokens, selectedMarket, selectedYear, 0, criteria))
