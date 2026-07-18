@@ -922,18 +922,31 @@ function combinedSearchText(criteria) {
 }
 
 function isAgentFindRecord(record) {
+  const id = String(record.id || "");
+  if (/^(manual|admin|agent)-/i.test(id)) return true;
+
   const text = [
     record.source,
-    record.researchUrl,
-    record.sourceUrls,
-    record.listingSnapshotUrl,
+    record.sourceType,
+    record.source_type,
+    record.importSource,
+    record.import_source,
+    record.addedBy,
+    record.added_by,
+    record.addedAt,
+    record.added_at,
     record.publicSummary,
     record.note,
   ]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
-  return /email alert|agent|crexi\.com|bizbuysell\.com|loopnet\.com|listing link|research assistant/.test(text);
+
+  if (/auto[- ]?imported|email alert|agent added|admin added|manual added|new listing|listing link|research assistant|claude/i.test(text)) {
+    return true;
+  }
+
+  return /(crexi|bizbuysell|loopnet)/i.test(text) && /(email alert|auto[- ]?imported|agent|admin|manual|new lead|listing link)/i.test(text);
 }
 
 function urlHost(value) {
@@ -961,26 +974,13 @@ function isListingEvidenceImage(record) {
 
 function recordVisualHtml(record) {
   const agentFind = isAgentFindRecord(record);
+  if (!agentFind) return "";
+
   const visualUrl = isListingEvidenceImage(record) ? record.imageUrl : "";
   if (visualUrl) {
     return `<img class="result-photo" src="${escapeHtml(visualUrl)}" alt="${escapeHtml(`${record.name || "Listing"} source image`)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'" />`;
   }
-  if (!agentFind && record.imageUrl && !isGenericStockImage(record.imageUrl)) {
-    return `<img class="result-photo" src="${escapeHtml(record.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'" />`;
-  }
-  if (!agentFind) return "";
-
-  const mapsUrl = mapsSearchUrl(record);
-  const location = record.market || inferMarketFromListingTitle(record.name) || record.state || "Location needs address";
-  const status = mapsUrl ? "Google Maps ready" : "Exact address needed";
-  const source = /crexi/i.test(record.researchUrl || "") ? "Crexi" : /bizbuysell/i.test(record.researchUrl || "") ? "BizBuySell" : /loopnet/i.test(record.researchUrl || "") ? "LoopNet" : "Listing";
-  return `
-    <div class="result-map-panel">
-      <span>${escapeHtml(source)} lead</span>
-      <strong>${escapeHtml(location)}</strong>
-      <small>${escapeHtml(status)}</small>
-    </div>
-  `;
+  return "";
 }
 
 function runSearch() {

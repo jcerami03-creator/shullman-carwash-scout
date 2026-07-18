@@ -461,50 +461,6 @@ textarea {
   background: #eef5f2;
 }
 
-.result-map-panel {
-  display: grid;
-  align-content: end;
-  min-height: 230px;
-  aspect-ratio: 16 / 9;
-  margin: 0 0 10px;
-  padding: 20px;
-  overflow: hidden;
-  border: 1px solid #b9d7cc;
-  border-radius: 10px;
-  background:
-    radial-gradient(circle at 22% 24%, rgba(46, 190, 154, 0.2), transparent 28%),
-    linear-gradient(90deg, rgba(20, 95, 76, 0.18) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(20, 95, 76, 0.14) 1px, transparent 1px),
-    linear-gradient(135deg, #f8fcfa, #e8f3ef);
-  background-size: auto, 42px 42px, 42px 42px, auto;
-}
-
-.result-map-panel span {
-  width: fit-content;
-  margin-bottom: 8px;
-  padding: 5px 9px;
-  border-radius: 999px;
-  color: #fff;
-  background: var(--green);
-  font-size: 11px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.result-map-panel strong {
-  max-width: 82%;
-  color: var(--ink);
-  font-size: 22px;
-  line-height: 1.05;
-}
-
-.result-map-panel small {
-  margin-top: 8px;
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 800;
-}
-
 .opportunity-bar,
 .memo-strip {
   display: flex;
