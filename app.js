@@ -519,9 +519,7 @@ function standardizeRecord(raw, source, index) {
   const listingSnapshotUrl = pick(normalized, ["listing_snapshot_url", "snapshot_url", "page_screenshot_url"]);
   const listingSnapshotStatus = pick(normalized, ["listing_snapshot_status", "snapshot_status"]);
   const addedAt = pick(normalized, ["added_at", "added_date", "date_added", "created_at", "created", "imported_at"]);
-  const sourceListedAt =
-    pick(normalized, ["source_listed_at", "source_added_at", "listing_added_at", "listing_date", "date_listed", "listed_date", "email_alert_date"]) ||
-    inferSourceListingDate([note, publicSummary, externalResearch, excerpt, fullText].filter(Boolean).join(" "));
+  const sourceListedAt = pick(normalized, ["source_listed_at", "listing_date", "date_listed", "listed_date"]);
 
   const rawWithCanonical = {
     ...normalized,
@@ -1048,15 +1046,6 @@ function formatAddedDate(record) {
   return formatTimestamp(recordAddedTimestamp(record));
 }
 
-function inferSourceListingDate(text) {
-  const value = String(text || "");
-  const iso = value.match(/\b(20\d{2}-\d{2}-\d{2})\b/);
-  if (iso) return iso[1];
-  const slash = value.match(/\b(1[0-2]|0?[1-9])\/([0-3]?\d)\/(20\d{2})\b/);
-  if (slash) return `${slash[3]}-${String(slash[1]).padStart(2, "0")}-${String(slash[2]).padStart(2, "0")}`;
-  return "";
-}
-
 function formatSourceListingDate(record) {
   return formatTimestamp(timestampFromValue(record.sourceListedAt || record.source_listed_at || record.raw?.source_listed_at));
 }
@@ -1276,7 +1265,7 @@ function selectRecord(id, rerender = true) {
               <strong>${escapeHtml(addedDate || "Not saved in record")}</strong>
             </div>
             <div>
-              <span>Date added on ${escapeHtml(sourceName)}</span>
+              <span>Date listed on ${escapeHtml(sourceName)}</span>
               <strong>${escapeHtml(sourceListingDate || `Not provided by ${sourceName}`)}</strong>
             </div>
           </section>`
@@ -1649,9 +1638,9 @@ function resultCardHtml(record, score) {
       </div>
       ${
         isAgentListing
-          ? `<div class="agent-card-dates">
+            ? `<div class="agent-card-dates">
               <span><b>Date added to site</b>${escapeHtml(addedDate || "Not saved in record")}</span>
-              <span><b>Date added on ${escapeHtml(sourceName)}</b>${escapeHtml(sourceListingDate || `Not provided by ${sourceName}`)}</span>
+              <span><b>Date listed on ${escapeHtml(sourceName)}</b>${escapeHtml(sourceListingDate || `Not provided by ${sourceName}`)}</span>
             </div>`
           : ""
       }
