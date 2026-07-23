@@ -1036,7 +1036,7 @@ function formatAddedDate(record) {
 }
 
 function sourceModeLabel() {
-  if (sourceMode === "crexi") return "Crexi Listings";
+  if (sourceMode === "crexi") return "Crexi Agent Finds";
   if (sourceMode === "agent") return "Agent Finds";
   return "Screened Opportunities";
 }
