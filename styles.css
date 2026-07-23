@@ -387,6 +387,45 @@ textarea {
   min-height: 56px;
 }
 
+.source-filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.source-filter-tabs button {
+  min-height: 40px;
+  border: 1px solid #c6d7ce;
+  border-radius: 999px;
+  padding: 0 16px;
+  color: var(--green-dark);
+  background: #f5faf7;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0;
+  cursor: pointer;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.source-filter-tabs button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(31, 106, 85, 0.45);
+  box-shadow: 0 8px 18px rgba(19, 34, 28, 0.08);
+}
+
+.source-filter-tabs button.is-active {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--green), #19a789);
+  box-shadow: 0 10px 22px rgba(31, 106, 85, 0.18);
+}
+
 .filters-row {
   display: grid;
   grid-template-columns: 1.15fr 0.75fr 1fr 110px;
@@ -487,6 +526,13 @@ textarea {
   color: #fff;
   border-color: var(--green);
   background: var(--green);
+}
+
+.opportunity-bar span.added-date-pill,
+.memo-strip span.added-date-pill {
+  color: #7c5312;
+  border-color: #e7c76b;
+  background: #fff8df;
 }
 
 .result-title {

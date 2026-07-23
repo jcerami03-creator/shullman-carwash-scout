@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Shullman Car Wash Knowledge Base</title>
-    <link rel="stylesheet" href="styles.css?v=41" />
+    <link rel="stylesheet" href="styles.css?v=42" />
   </head>
   <body>
     <section class="cinematic-intro" aria-label="Shullman Car Wash Scout introduction">
@@ -101,6 +101,11 @@
                 <button id="searchBtn" type="button">Search</button>
               </div>
             </div>
+            <div id="sourceFilterTabs" class="source-filter-tabs" aria-label="Listing source filters">
+              <button type="button" class="is-active" data-source-filter="all">All Records</button>
+              <button type="button" data-source-filter="agent">Agent Finds</button>
+              <button type="button" data-source-filter="crexi">Crexi Listings</button>
+            </div>
           </div>
 
           <section class="results-list" aria-label="Search results">
@@ -145,6 +150,6 @@
     <script src="generated/carwash_records.js?v=45"></script>
     <script src="generated/document_library.js?v=10"></script>
     <script src="generated/agent_find_overrides.js?v=1"></script>
-    <script src="app.js?v=75"></script>
+    <script src="app.js?v=76"></script>
   </body>
 </html>

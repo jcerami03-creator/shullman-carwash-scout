@@ -306,6 +306,7 @@ const sampleRows = [
 let records = [];
 let activeRecordId = null;
 let agentOnly = false;
+let sourceMode = "all";
 let baseRecordCount = 0;
 let liveAddedRecordCount = 0;
 
@@ -344,6 +345,7 @@ const els = {
   closeLibraryBtn: document.getElementById("closeLibraryBtn"),
   libraryContent: document.getElementById("libraryContent"),
   voiceStatus: document.getElementById("voiceStatus"),
+  sourceFilterTabs: document.getElementById("sourceFilterTabs"),
 };
 
 function normalizeKey(key) {
@@ -516,6 +518,7 @@ function standardizeRecord(raw, source, index) {
   const imageUrl = pick(normalized, ["image_url", "photo_url", "image", "photo"]);
   const listingSnapshotUrl = pick(normalized, ["listing_snapshot_url", "snapshot_url", "page_screenshot_url"]);
   const listingSnapshotStatus = pick(normalized, ["listing_snapshot_status", "snapshot_status"]);
+  const addedAt = pick(normalized, ["added_at", "added_date", "date_added", "created_at", "created", "imported_at"]);
 
   const rawWithCanonical = {
     ...normalized,
@@ -554,6 +557,7 @@ function standardizeRecord(raw, source, index) {
     longitude,
     listing_snapshot_url: listingSnapshotUrl,
     listing_snapshot_status: listingSnapshotStatus,
+    added_at: addedAt,
     full_text: fullText,
   };
 
@@ -588,6 +592,7 @@ function standardizeRecord(raw, source, index) {
     imageUrl: imageUrl || listingSnapshotUrl,
     listingSnapshotUrl,
     listingSnapshotStatus,
+    addedAt,
     phone,
     sourceUrls,
     trafficCount,
@@ -950,6 +955,32 @@ function isAgentFindRecord(record) {
   return /(crexi|bizbuysell|loopnet)/i.test(text) && /(email alert|auto[- ]?imported|agent|admin|manual|new lead|listing link)/i.test(text);
 }
 
+function isCrexiRecord(record) {
+  const text = [
+    record.source,
+    record.sourceUrls,
+    record.researchUrl,
+    record.importSource,
+    record.import_source,
+    record.addedBy,
+    record.added_by,
+    record.publicSummary,
+    record.externalResearch,
+    record.note,
+    record.fullText,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  return text.includes("crexi");
+}
+
+function matchesSourceMode(record) {
+  if (sourceMode === "crexi") return isCrexiRecord(record);
+  if (sourceMode === "agent") return isAgentFindRecord(record);
+  return true;
+}
+
 function urlHost(value) {
   try {
     return new URL(String(value || "")).hostname.replace(/^www\./, "").toLowerCase();
@@ -984,6 +1015,32 @@ function recordVisualHtml(record) {
   return "";
 }
 
+function recordAddedTimestamp(record) {
+  const direct = record.addedAt || record.added_at || record.raw?.added_at || record.raw?.date_added || "";
+  const parsed = Date.parse(direct);
+  if (Number.isFinite(parsed)) return parsed;
+  const idMatch = String(record.id || "").match(/^manual-(\d{10,})-/);
+  if (!idMatch) return 0;
+  const idTime = Number(idMatch[1]);
+  return Number.isFinite(idTime) ? idTime : 0;
+}
+
+function formatAddedDate(record) {
+  const timestamp = recordAddedTimestamp(record);
+  if (!timestamp) return "";
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date(timestamp));
+}
+
+function sourceModeLabel() {
+  if (sourceMode === "crexi") return "Crexi Listings";
+  if (sourceMode === "agent") return "Agent Finds";
+  return "Screened Opportunities";
+}
+
 function runSearch() {
   const criteria = getSearchCriteria();
   const query = combinedSearchText(criteria);
@@ -995,16 +1052,17 @@ function runSearch() {
   );
 
   let matches;
-  if (agentOnly) {
+  if (sourceMode !== "all" || agentOnly) {
     matches = records
-      .filter(isAgentFindRecord)
-      .map((record) => scoreRecord(record, [], "", "", 0, {}))
+      .filter(matchesSourceMode)
+      .map((record) => scoreRecord(record, queryTokens, selectedMarket, selectedYear, 0, criteria))
       .filter(Boolean)
       .sort((a, b) => {
+        if (a.score !== b.score) return b.score - a.score;
         const aHasSnapshot = isListingEvidenceImage(a.record) ? 1 : 0;
         const bHasSnapshot = isListingEvidenceImage(b.record) ? 1 : 0;
         if (aHasSnapshot !== bHasSnapshot) return bHasSnapshot - aHasSnapshot;
-        return String(b.record.added_at || "").localeCompare(String(a.record.added_at || ""));
+        return recordAddedTimestamp(b.record) - recordAddedTimestamp(a.record);
       });
   } else {
     matches = records
@@ -1057,6 +1115,14 @@ function renderReadout(matches, query, market, year, maxAskingPrice) {
     return;
   }
 
+  if (sourceMode !== "all") {
+    const label = sourceModeLabel();
+    els.agentReadout.textContent = matches.length
+      ? `${matches.length.toLocaleString()} ${label.toLowerCase()} shown. Use the same search boxes to narrow by state, city, address, price, EBITDA, or note.`
+      : `No ${label.toLowerCase()} matched. Broaden the search boxes or switch back to All Records.`;
+    return;
+  }
+
   if (!query && !market && !year && !maxAskingPrice) {
     const countSummary = liveAddedRecordCount
       ? `${baseRecordCount.toLocaleString()} base records + ${liveAddedRecordCount.toLocaleString()} live-added records`
@@ -1085,6 +1151,8 @@ function selectRecord(id, rerender = true) {
   activeRecordId = id;
   const record = records.find((item) => item.id === id);
   if (!record) return;
+  const addedDate = formatAddedDate(record);
+  const showAddedDate = Boolean(addedDate && (isAgentFindRecord(record) || isCrexiRecord(record)));
 
   const demographicSummary = [
     record.population1Mile ? `1-mile ${record.population1Mile}` : "1-mile not available",
@@ -1097,6 +1165,7 @@ function selectRecord(id, rerender = true) {
 
   const detailFields = [
     ["Year", metricValue(record.year)],
+    showAddedDate ? ["Added to Scout", addedDate] : null,
     ["Market", metricValue(record.market)],
     ["Asking Price", metricValue(record.askingPrice, "money")],
     ["Sales", metricValue(record.sales, "money")],
@@ -1106,6 +1175,7 @@ function selectRecord(id, rerender = true) {
     ["Acres", metricValue(record.acres)],
     ["Demographic Support", demographicSummary],
   ]
+    .filter(Boolean)
     .map(
       ([label, value]) => `
         <div class="detail-field${label === "Demographic Support" ? " is-note" : ""}">
@@ -1145,6 +1215,7 @@ function selectRecord(id, rerender = true) {
           <span>${escapeHtml(tier)}</span>
           <span>${escapeHtml(sourceLabel)}</span>
           <span>${escapeHtml(confidence)}</span>
+          ${showAddedDate ? `<span>Added ${escapeHtml(addedDate)}</span>` : ""}
         </div>
         <div class="detail-title">${escapeHtml(record.name || "Car Wash Opportunity")}</div>
         <p>${escapeHtml([record.market, record.state, record.year || "Undated"].filter(Boolean).join(" | ") || "Location needs verification")}</p>
@@ -1236,6 +1307,8 @@ function buildScoutInsight(record) {
   if (record.market) facts.push(record.market);
   if (record.state) facts.push(`State: ${record.state}`);
   if (record.phone) facts.push(`Phone: ${record.phone}`);
+  const addedDate = formatAddedDate(record);
+  if (addedDate && (isAgentFindRecord(record) || isCrexiRecord(record))) facts.push(`Added: ${addedDate}`);
   const websiteUrl = usableWebsiteUrl(record);
   if (websiteUrl) facts.push(cleanUrlLabel(websiteUrl));
   if (record.askingPrice) facts.push(`Ask: ${formatMoneyShort(record.askingPrice)}`);
@@ -1457,8 +1530,10 @@ function compactRecordText(record, score) {
 }
 
 function recordSourceLabel(record) {
+  if (isCrexiRecord(record)) return "Crexi listing";
   if (String(record.id || "").startsWith("public-map-")) return "Public support";
   if (/scanned|ocr|document|bin/i.test(record.source || "")) return "Scanned paperwork";
+  if (isAgentFindRecord(record)) return "Agent find";
   return "Imported record";
 }
 
@@ -1500,6 +1575,7 @@ function resultCardHtml(record, score) {
   const tier = investmentTier(record, score);
   const sourceLabel = recordSourceLabel(record);
   const confidence = confidenceLabel(record);
+  const addedDate = formatAddedDate(record);
   return `
     <button type="button" class="result-card${record.id === activeRecordId ? " is-active" : ""}" data-id="${escapeHtml(record.id)}">
       ${recordVisualHtml(record)}
@@ -1507,6 +1583,7 @@ function resultCardHtml(record, score) {
         <span>${escapeHtml(tier)}</span>
         <span>${escapeHtml(sourceLabel)}</span>
         <span>${escapeHtml(confidence)}</span>
+        ${addedDate && (isAgentFindRecord(record) || isCrexiRecord(record)) ? `<span class="added-date-pill">Added ${escapeHtml(addedDate)}</span>` : ""}
       </div>
       <div class="result-title">
         <span>
@@ -2408,6 +2485,28 @@ if (introEnterBtn && scoutApp) {
 els.searchBtn.addEventListener("click", runSearch);
 
 (function setupAgentFilter() {
+  const paintTabs = () => {
+    if (!els.sourceFilterTabs) return;
+    els.sourceFilterTabs.querySelectorAll("button[data-source-filter]").forEach((button) => {
+      const isActive = button.dataset.sourceFilter === sourceMode;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  };
+
+  if (els.sourceFilterTabs) {
+    els.sourceFilterTabs.querySelectorAll("button[data-source-filter]").forEach((button) => {
+      button.addEventListener("click", () => {
+        sourceMode = button.dataset.sourceFilter || "all";
+        agentOnly = sourceMode !== "all";
+        paintTabs();
+        runSearch();
+      });
+    });
+    paintTabs();
+    return;
+  }
+
   if (!els.resultCount || !els.resultCount.parentElement) return;
   const btn = document.createElement("button");
   btn.type = "button";
@@ -2419,7 +2518,12 @@ els.searchBtn.addEventListener("click", runSearch);
     btn.style.background = agentOnly ? "rgba(60,200,130,.9)" : "transparent";
     btn.style.color = agentOnly ? "#05231a" : "inherit";
   };
-  btn.addEventListener("click", () => { agentOnly = !agentOnly; paint(); runSearch(); });
+  btn.addEventListener("click", () => {
+    agentOnly = !agentOnly;
+    sourceMode = agentOnly ? "agent" : "all";
+    paint();
+    runSearch();
+  });
   els.resultCount.parentElement.appendChild(btn);
   paint();
 })();
