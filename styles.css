@@ -535,6 +535,50 @@ textarea {
   background: #fff8df;
 }
 
+.agent-card-dates {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.agent-card-dates span,
+.agent-date-panel div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+  border: 1px solid #d9c681;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fffaf0;
+  color: #16241f;
+}
+
+.agent-card-dates b,
+.agent-date-panel span {
+  color: #705218;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.agent-card-dates span {
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.agent-date-panel {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0 0 16px;
+}
+
+.agent-date-panel strong {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 .result-title {
   display: flex;
   gap: 12px;
@@ -1898,6 +1942,11 @@ textarea {
 
   .deal-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .agent-card-dates,
+  .agent-date-panel {
+    grid-template-columns: 1fr;
   }
 
   .detail-layout {

@@ -519,6 +519,9 @@ function standardizeRecord(raw, source, index) {
   const listingSnapshotUrl = pick(normalized, ["listing_snapshot_url", "snapshot_url", "page_screenshot_url"]);
   const listingSnapshotStatus = pick(normalized, ["listing_snapshot_status", "snapshot_status"]);
   const addedAt = pick(normalized, ["added_at", "added_date", "date_added", "created_at", "created", "imported_at"]);
+  const sourceListedAt =
+    pick(normalized, ["source_listed_at", "source_added_at", "listing_added_at", "listing_date", "date_listed", "listed_date", "email_alert_date"]) ||
+    inferSourceListingDate([note, publicSummary, externalResearch, excerpt, fullText].filter(Boolean).join(" "));
 
   const rawWithCanonical = {
     ...normalized,
@@ -558,6 +561,7 @@ function standardizeRecord(raw, source, index) {
     listing_snapshot_url: listingSnapshotUrl,
     listing_snapshot_status: listingSnapshotStatus,
     added_at: addedAt,
+    source_listed_at: sourceListedAt,
     full_text: fullText,
   };
 
@@ -593,6 +597,7 @@ function standardizeRecord(raw, source, index) {
     listingSnapshotUrl,
     listingSnapshotStatus,
     addedAt,
+    sourceListedAt,
     phone,
     sourceUrls,
     trafficCount,
@@ -1025,14 +1030,53 @@ function recordAddedTimestamp(record) {
   return Number.isFinite(idTime) ? idTime : 0;
 }
 
-function formatAddedDate(record) {
-  const timestamp = recordAddedTimestamp(record);
+function timestampFromValue(value) {
+  const parsed = Date.parse(String(value || "").trim());
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
+function formatTimestamp(timestamp) {
   if (!timestamp) return "";
   return new Intl.DateTimeFormat("en-US", {
     month: "short",
     day: "numeric",
     year: "numeric",
   }).format(new Date(timestamp));
+}
+
+function formatAddedDate(record) {
+  return formatTimestamp(recordAddedTimestamp(record));
+}
+
+function inferSourceListingDate(text) {
+  const value = String(text || "");
+  const iso = value.match(/\b(20\d{2}-\d{2}-\d{2})\b/);
+  if (iso) return iso[1];
+  const slash = value.match(/\b(1[0-2]|0?[1-9])\/([0-3]?\d)\/(20\d{2})\b/);
+  if (slash) return `${slash[3]}-${String(slash[1]).padStart(2, "0")}-${String(slash[2]).padStart(2, "0")}`;
+  return "";
+}
+
+function formatSourceListingDate(record) {
+  return formatTimestamp(timestampFromValue(record.sourceListedAt || record.source_listed_at || record.raw?.source_listed_at));
+}
+
+function listingSourceName(record) {
+  const text = [
+    record.source,
+    record.sourceUrls,
+    record.researchUrl,
+    record.publicSummary,
+    record.externalResearch,
+    record.note,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  if (text.includes("crexi")) return "Crexi";
+  if (text.includes("bizbuysell")) return "BizBuySell";
+  if (text.includes("loopnet")) return "LoopNet";
+  return "Listing source";
 }
 
 function sourceModeLabel() {
@@ -1152,7 +1196,10 @@ function selectRecord(id, rerender = true) {
   const record = records.find((item) => item.id === id);
   if (!record) return;
   const addedDate = formatAddedDate(record);
-  const showAddedDate = Boolean(addedDate && (isAgentFindRecord(record) || isCrexiRecord(record)));
+  const sourceListingDate = formatSourceListingDate(record);
+  const isAgentListing = isAgentFindRecord(record);
+  const sourceName = listingSourceName(record);
+  const showAddedDate = Boolean(isAgentListing);
 
   const demographicSummary = [
     record.population1Mile ? `1-mile ${record.population1Mile}` : "1-mile not available",
@@ -1165,7 +1212,6 @@ function selectRecord(id, rerender = true) {
 
   const detailFields = [
     ["Year", metricValue(record.year)],
-    showAddedDate ? ["Added to Scout", addedDate] : null,
     ["Market", metricValue(record.market)],
     ["Asking Price", metricValue(record.askingPrice, "money")],
     ["Sales", metricValue(record.sales, "money")],
@@ -1222,6 +1268,20 @@ function selectRecord(id, rerender = true) {
       </div>
       ${record.askingPrice ? `<div class="price-box"><span>Asking</span><strong>${escapeHtml(formatMoneyShort(record.askingPrice))}</strong></div>` : ""}
     </div>
+    ${
+      showAddedDate
+        ? `<section class="agent-date-panel" aria-label="Agent listing dates">
+            <div>
+              <span>Date added to site</span>
+              <strong>${escapeHtml(addedDate || "Not saved in record")}</strong>
+            </div>
+            <div>
+              <span>Date added on ${escapeHtml(sourceName)}</span>
+              <strong>${escapeHtml(sourceListingDate || `Not provided by ${sourceName}`)}</strong>
+            </div>
+          </section>`
+        : ""
+    }
     <div class="detail-layout">
       <div class="deal-report">
         <section class="executive-read">
@@ -1576,6 +1636,9 @@ function resultCardHtml(record, score) {
   const sourceLabel = recordSourceLabel(record);
   const confidence = confidenceLabel(record);
   const addedDate = formatAddedDate(record);
+  const isAgentListing = isAgentFindRecord(record);
+  const sourceName = listingSourceName(record);
+  const sourceListingDate = formatSourceListingDate(record);
   return `
     <button type="button" class="result-card${record.id === activeRecordId ? " is-active" : ""}" data-id="${escapeHtml(record.id)}">
       ${recordVisualHtml(record)}
@@ -1583,8 +1646,15 @@ function resultCardHtml(record, score) {
         <span>${escapeHtml(tier)}</span>
         <span>${escapeHtml(sourceLabel)}</span>
         <span>${escapeHtml(confidence)}</span>
-        ${addedDate && (isAgentFindRecord(record) || isCrexiRecord(record)) ? `<span class="added-date-pill">Added ${escapeHtml(addedDate)}</span>` : ""}
       </div>
+      ${
+        isAgentListing
+          ? `<div class="agent-card-dates">
+              <span><b>Date added to site</b>${escapeHtml(addedDate || "Not saved in record")}</span>
+              <span><b>Date added on ${escapeHtml(sourceName)}</b>${escapeHtml(sourceListingDate || `Not provided by ${sourceName}`)}</span>
+            </div>`
+          : ""
+      }
       <div class="result-title">
         <span>
           <strong>${escapeHtml(record.name || "Car Wash Opportunity")}</strong>
