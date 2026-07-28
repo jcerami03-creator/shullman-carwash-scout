@@ -34,6 +34,7 @@ const usePersistentStore = Boolean(upstashUrl && upstashToken);
 const manualRecordsKey = process.env.MANUAL_RECORDS_KEY || "manual-records";
 let manualRecordsCache = [];
 let censusPopulationCache = null;
+let censusIncomeCache = null;
 const censusGeocodeCache = new Map();
 const censusRingCache = new Map();
 const placeGeocodeCache = new Map();
@@ -410,6 +411,10 @@ function hasCompleteDemographics(record) {
   return ["population_1_mile", "population_3_mile", "population_5_mile"].every((key) => !isMissingValue(record[key]));
 }
 
+function hasCompleteIncome(record) {
+  return ["median_income_1_mile", "median_income_3_mile", "median_income_5_mile"].every((key) => !isMissingValue(record[key]));
+}
+
 function moneyToNumber(value) {
   const raw = cleanText(value, 120).toLowerCase().replace(/,/g, "");
   const match = raw.match(/([0-9]+(?:\.[0-9]+)?)\s*(mm|m|million|k|thousand)?/);
@@ -469,6 +474,10 @@ function cleanRecordPayload(payload) {
     "population_3_mile",
     "population_5_mile",
     "demographics_source",
+    "median_income_1_mile",
+    "median_income_3_mile",
+    "median_income_5_mile",
+    "income_source",
     "note",
     "source",
     "full_text",
@@ -746,6 +755,11 @@ function normalizePopulationValue(value) {
   return clean ? Number(clean).toLocaleString() : "";
 }
 
+function normalizeIncomeValue(value) {
+  const amount = moneyToNumber(value) || Number(String(value || "").replace(/[^\d.-]/g, ""));
+  return Number.isFinite(amount) && amount > 0 ? `$${Math.round(amount).toLocaleString()}` : "";
+}
+
 async function censusGeocode(address) {
   const cleanAddress = cleanText(address, 500);
   if (!cleanAddress) return null;
@@ -804,6 +818,37 @@ async function censusPopulationMap() {
   return out;
 }
 
+async function censusIncomeMap() {
+  if (censusIncomeCache) return censusIncomeCache;
+  const url = `https://www2.census.gov/programs-surveys/acs/summary_file/${censusAcsYear}/table-based-SF/data/5YRData/acsdt5y${censusAcsYear}-b19013.dat`;
+  const response = await fetch(url, { headers: { "User-Agent": "ShullmanCarwashScout/1.0" } });
+  if (!response.ok) throw new Error(`ACS ${censusAcsYear} income table failed (${response.status}).`);
+  const text = await response.text();
+  const out = new Map();
+  text.split(/\r?\n/).slice(1).forEach((line) => {
+    const [geoid, income] = line.split("|");
+    if (!geoid || !geoid.startsWith("1500000US")) return;
+    const value = Number(income);
+    if (Number.isFinite(value) && value > 0) out.set(geoid.replace("1500000US", ""), value);
+  });
+  censusIncomeCache = out;
+  return out;
+}
+
+function weightedIncomeForGeoids(geoids, populationByBlockGroup, incomeByBlockGroup) {
+  let weightedTotal = 0;
+  let weightTotal = 0;
+  geoids.forEach((geoid) => {
+    const income = incomeByBlockGroup.get(geoid);
+    if (!Number.isFinite(income) || income <= 0) return;
+    const population = populationByBlockGroup.get(geoid);
+    const weight = Number.isFinite(population) && population > 0 ? population : 1;
+    weightedTotal += income * weight;
+    weightTotal += weight;
+  });
+  return weightTotal ? Math.round(weightedTotal / weightTotal) : 0;
+}
+
 async function censusBlockGroupsNear(lat, lon, miles) {
   const key = `${censusAcsYear}:${Number(lat).toFixed(6)},${Number(lon).toFixed(6)}:${miles}`;
   if (censusRingCache.has(key)) return censusRingCache.get(key);
@@ -827,7 +872,7 @@ async function censusBlockGroupsNear(lat, lon, miles) {
 }
 
 async function lookupCensusDemographics(record) {
-  if (hasCompleteDemographics(record)) return {};
+  if (hasCompleteDemographics(record) && hasCompleteIncome(record)) return {};
   const exactAddress = extractAddressCandidate(record);
   const address = exactAddress || record.market;
   let lat = Number(record.latitude);
@@ -842,18 +887,28 @@ async function lookupCensusDemographics(record) {
     approximate = Boolean(geo.approximate || !exactAddress);
   }
   const populationByBlockGroup = await censusPopulationMap();
+  const incomeByBlockGroup = await censusIncomeMap();
   const values = {};
   for (const miles of [1, 3, 5]) {
     const geoids = await censusBlockGroupsNear(lat, lon, miles);
     const total = geoids.reduce((sum, geoid) => sum + (populationByBlockGroup.get(geoid) || 0), 0);
-    if (total) values[`population_${miles}_mile`] = Number(total).toLocaleString();
+    if (total && isMissingValue(record[`population_${miles}_mile`])) values[`population_${miles}_mile`] = Number(total).toLocaleString();
+    const income = weightedIncomeForGeoids(geoids, populationByBlockGroup, incomeByBlockGroup);
+    if (income && isMissingValue(record[`median_income_${miles}_mile`])) values[`median_income_${miles}_mile`] = normalizeIncomeValue(income);
   }
   if (!Object.keys(values).length) return {};
   return {
     ...values,
     demographics_source: approximate
-      ? `Estimated from Census ACS ${censusAcsYear} block groups around city/market center; street address needed for exact rings`
-      : `Estimated from Census ACS ${censusAcsYear} block groups within radius`,
+      ? values.population_1_mile || values.population_3_mile || values.population_5_mile
+        ? `Estimated from Census ACS ${censusAcsYear} block groups around city/market center; street address needed for exact rings`
+        : record.demographics_source
+      : values.population_1_mile || values.population_3_mile || values.population_5_mile
+      ? `Estimated from Census ACS ${censusAcsYear} block groups within radius`
+      : record.demographics_source,
+    income_source: approximate
+      ? `Estimated from Census ACS ${censusAcsYear} median household income around city/market center; street address needed for exact rings`
+      : `Estimated from Census ACS ${censusAcsYear} median household income within radius`,
     latitude: String(lat),
     longitude: String(lon),
   };
@@ -991,7 +1046,7 @@ async function extractRecordFromImage(record) {
             {
               type: "input_text",
               text:
-                "Read this car wash listing screenshot/photo. Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, population_1_mile, population_3_mile, population_5_mile, demographics_source, note. Use null for missing fields. Do not guess financial numbers or demographics.",
+                "Read this car wash listing screenshot/photo. Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, population_1_mile, population_3_mile, population_5_mile, demographics_source, median_income_1_mile, median_income_3_mile, median_income_5_mile, income_source, note. Use null for missing fields. Do not guess financial numbers or demographics.",
             },
             {
               type: "input_image",
@@ -1006,7 +1061,7 @@ async function extractRecordFromImage(record) {
   if (!response.ok) throw new Error(`Image analysis failed (${response.status}).`);
   const payload = await response.json();
   const parsed = parseJsonFromText(responseText(payload));
-  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "population_1_mile", "population_3_mile", "population_5_mile", "demographics_source", "note"];
+  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "population_1_mile", "population_3_mile", "population_5_mile", "demographics_source", "median_income_1_mile", "median_income_3_mile", "median_income_5_mile", "income_source", "note"];
   return Object.fromEntries(allowed.map((key) => [key, parsed[key]]).filter(([, value]) => value));
 }
 
@@ -1028,7 +1083,7 @@ async function extractRecordFromText(text, sourceUrl) {
               type: "input_text",
               text:
                 `Extract a car wash listing from this public listing page text. Source URL: ${sourceUrl}\n` +
-                "Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, population_1_mile, population_3_mile, population_5_mile, demographics_source, note. Use null for missing fields. Do not guess financial numbers or demographics.\n\n" +
+                "Return only JSON with these keys when visible: name, market, state, asking_price, sales, ebitda, cars_per_year, acres, phone, website, traffic_count, population_1_mile, population_3_mile, population_5_mile, demographics_source, median_income_1_mile, median_income_3_mile, median_income_5_mile, income_source, note. Use null for missing fields. Do not guess financial numbers or demographics.\n\n" +
                 cleanText(text, 30000),
             },
           ],
@@ -1038,7 +1093,7 @@ async function extractRecordFromText(text, sourceUrl) {
   });
   if (!response.ok) throw new Error(`Listing analysis failed (${response.status}).`);
   const parsed = parseJsonFromText(responseText(await response.json()));
-  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "population_1_mile", "population_3_mile", "population_5_mile", "demographics_source", "note"];
+  const allowed = ["name", "market", "state", "asking_price", "sales", "ebitda", "cars_per_year", "acres", "phone", "website", "traffic_count", "population_1_mile", "population_3_mile", "population_5_mile", "demographics_source", "median_income_1_mile", "median_income_3_mile", "median_income_5_mile", "income_source", "note"];
   return Object.fromEntries(allowed.map((key) => [key, parsed[key]]).filter(([, value]) => value));
 }
 
@@ -1107,7 +1162,7 @@ async function lookupTrafficCount(record) {
 }
 
 async function lookupDemographics(record) {
-  if (hasCompleteDemographics(record)) return {};
+  if (hasCompleteDemographics(record) && hasCompleteIncome(record)) return {};
   const address = record.market || extractAddressCandidate(record);
   if (demographicsApiUrl) {
     const url = demographicsApiUrl
@@ -1121,15 +1176,31 @@ async function lookupDemographics(record) {
       const one = data.population_1_mile || data.pop_1_mile || data.one_mile_population || data["1_mile_population"] || "";
       const three = data.population_3_mile || data.pop_3_mile || data.three_mile_population || data["3_mile_population"] || "";
       const five = data.population_5_mile || data.pop_5_mile || data.five_mile_population || data["5_mile_population"] || "";
+      const incomeOne = data.median_income_1_mile || data.income_1_mile || data.median_household_income_1_mile || "";
+      const incomeThree = data.median_income_3_mile || data.income_3_mile || data.median_household_income_3_mile || "";
+      const incomeFive = data.median_income_5_mile || data.income_5_mile || data.median_household_income_5_mile || "";
       const source = data.demographics_source || data.source_url || data.source || "";
+      const incomeSource = data.income_source || data.median_income_source || source;
       const values = {
         population_1_mile: normalizePopulationValue(one),
         population_3_mile: normalizePopulationValue(three),
         population_5_mile: normalizePopulationValue(five),
         demographics_source: source || "Demographics provider",
+        median_income_1_mile: normalizeIncomeValue(incomeOne),
+        median_income_3_mile: normalizeIncomeValue(incomeThree),
+        median_income_5_mile: normalizeIncomeValue(incomeFive),
+        income_source: incomeSource || "Demographics provider",
         source_urls: [record.source_urls, data.source_url].filter(Boolean).join(" | "),
       };
-      if (values.population_1_mile || values.population_3_mile || values.population_5_mile) return values;
+      if (
+        values.population_1_mile ||
+        values.population_3_mile ||
+        values.population_5_mile ||
+        values.median_income_1_mile ||
+        values.median_income_3_mile ||
+        values.median_income_5_mile
+      )
+        return values;
     }
   }
   return lookupCensusDemographics(record);
@@ -1327,7 +1398,8 @@ function needsMaintenance(record) {
     isMissingValue(record.cars_per_year) ||
     isMissingValue(record.acres) ||
     (isListingSourceUrl(record.research_url) && isMissingValue(record.listing_snapshot_url)) ||
-    !hasCompleteDemographics(record)
+    !hasCompleteDemographics(record) ||
+    !hasCompleteIncome(record)
   );
 }
 

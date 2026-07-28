@@ -834,6 +834,110 @@ textarea {
   font-weight: 650;
 }
 
+.market-intel-panel {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.market-intel-card {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fcf9 100%);
+}
+
+.market-intel-card p {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.market-intel-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.market-intel-metrics div {
+  min-width: 0;
+  padding: 10px;
+  border-right: 1px solid var(--line);
+}
+
+.market-intel-metrics div:last-child {
+  border-right: 0;
+}
+
+.market-intel-metrics span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.market-intel-metrics strong {
+  display: block;
+  margin-top: 5px;
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.competition-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.competition-groups {
+  display: grid;
+  gap: 12px;
+  max-height: 260px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.competition-group {
+  display: grid;
+  gap: 4px;
+}
+
+.competition-group > span {
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.competition-group p {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.competition-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-top: 1px solid rgba(180, 202, 193, 0.65);
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.competition-list li span {
+  flex: 0 0 auto;
+  color: var(--muted);
+}
+
 .metric-tile {
   padding: 14px;
   border: 1px solid var(--line);
@@ -1945,7 +2049,8 @@ textarea {
   }
 
   .agent-card-dates,
-  .agent-date-panel {
+  .agent-date-panel,
+  .market-intel-panel {
     grid-template-columns: 1fr;
   }
 
@@ -1967,9 +2072,19 @@ textarea {
   .executive-read,
   .detail-field-grid,
   .verified-info-grid,
+  .market-intel-metrics,
   .layer-grid,
   .field-grid {
     grid-template-columns: 1fr;
+  }
+
+  .market-intel-metrics div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .market-intel-metrics div:last-child {
+    border-bottom: 0;
   }
 }
 

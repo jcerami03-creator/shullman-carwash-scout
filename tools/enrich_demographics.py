@@ -17,6 +17,7 @@ RECORDS_PATH = ROOT / "generated" / "carwash_records.js"
 CACHE_PATH = ROOT / "cache" / "demographics_cache.json"
 ACS_YEAR = "2024"
 ACS_POPULATION_CACHE_KEY = f"block_groups_{ACS_YEAR}"
+ACS_INCOME_CACHE_KEY = f"block_groups_income_{ACS_YEAR}"
 
 STATE_FIPS = {
     "AL": "01", "AK": "02", "AZ": "04", "AR": "05", "CA": "06", "CO": "08", "CT": "09",
@@ -58,6 +59,11 @@ def save_cache(cache):
 def clean_number(value):
     digits = re.sub(r"[^\d]", "", str(value or ""))
     return f"{int(digits):,}" if digits else ""
+
+
+def clean_income(value):
+    digits = re.sub(r"[^\d]", "", str(value or ""))
+    return f"${int(digits):,}" if digits else ""
 
 
 def scanned_population(record):
@@ -151,6 +157,44 @@ def get_population_map(cache):
     return out
 
 
+def get_income_map(cache):
+    if ACS_INCOME_CACHE_KEY in cache["acs"]:
+        return cache["acs"][ACS_INCOME_CACHE_KEY]
+    url = f"https://www2.census.gov/programs-surveys/acs/summary_file/{ACS_YEAR}/table-based-SF/data/5YRData/acsdt5y{ACS_YEAR}-b19013.dat"
+    response = requests.get(url, timeout=120)
+    response.raise_for_status()
+    out = {}
+    for line in response.text.splitlines()[1:]:
+      parts = line.split("|")
+      if len(parts) < 2:
+          continue
+      geoid, income = parts[0], parts[1]
+      if not geoid.startswith("1500000US"):
+          continue
+      try:
+          value = int(float(income))
+          if value > 0:
+              out[geoid.replace("1500000US", "", 1)] = value
+      except ValueError:
+          pass
+    cache["acs"][ACS_INCOME_CACHE_KEY] = out
+    save_cache(cache)
+    return out
+
+
+def weighted_income(geoids, population_by_bg, income_by_bg):
+    weighted_total = 0
+    weight_total = 0
+    for geoid in geoids:
+        income = income_by_bg.get(geoid)
+        if not income:
+            continue
+        population = population_by_bg.get(geoid) or 1
+        weighted_total += income * population
+        weight_total += population
+    return round(weighted_total / weight_total) if weight_total else 0
+
+
 def block_groups_near(lat, lon, miles, cache):
     ring_key = f"{ACS_YEAR}:{lat:.6f},{lon:.6f}:{miles}"
     if ring_key in cache["rings"]:
@@ -195,14 +239,23 @@ def estimate_ring_populations(record, cache):
     population_by_bg = get_population_map(cache)
     if not population_by_bg:
         return {}
+    income_by_bg = get_income_map(cache)
     values = {}
     for miles in (1, 3, 5):
         geoids = block_groups_near(geo["lat"], geo["lon"], miles, cache)
         total = sum(population_by_bg.get(geoid, 0) for geoid in geoids)
         if total:
             values[f"population_{miles}_mile"] = f"{int(total):,}"
+        income = weighted_income(geoids, population_by_bg, income_by_bg)
+        if income:
+            values[f"median_income_{miles}_mile"] = clean_income(income)
     if values:
-        values["demographics_source"] = f"Estimated from Census ACS {ACS_YEAR} block groups within radius"
+        if any(key.startswith("population_") for key in values):
+            values["demographics_source"] = f"Estimated from Census ACS {ACS_YEAR} block groups within radius"
+        if any(key.startswith("median_income_") for key in values):
+            values["income_source"] = f"Estimated from Census ACS {ACS_YEAR} median household income within radius"
+        values["latitude"] = str(geo["lat"])
+        values["longitude"] = str(geo["lon"])
     return values
 
 
@@ -222,28 +275,45 @@ def median(values):
 def fill_modeled_fallbacks(records):
     by_state = {}
     national = {1: [], 3: [], 5: []}
+    income_by_state = {}
+    income_national = {1: [], 3: [], 5: []}
     for record in records:
         state = str(record.get("state") or "").upper()
         if not state:
             continue
         by_state.setdefault(state, {1: [], 3: [], 5: []})
+        income_by_state.setdefault(state, {1: [], 3: [], 5: []})
         for miles in (1, 3, 5):
             value = int_value(record.get(f"population_{miles}_mile"))
             if value:
                 by_state[state][miles].append(value)
                 national[miles].append(value)
+            income = int_value(record.get(f"median_income_{miles}_mile"))
+            if income:
+                income_by_state[state][miles].append(income)
+                income_national[miles].append(income)
 
     national_medians = {miles: median(values) for miles, values in national.items()}
+    income_national_medians = {miles: median(values) for miles, values in income_national.items()}
     filled = 0
     for record in records:
-        if record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile"):
+        has_pop = record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile")
+        has_income = record.get("median_income_1_mile") and record.get("median_income_3_mile") and record.get("median_income_5_mile")
+        if has_pop and has_income:
             continue
         state = str(record.get("state") or "").upper()
         state_values = by_state.get(state) or {}
-        for miles in (1, 3, 5):
-            value = median(state_values.get(miles, [])) or national_medians[miles]
-            record[f"population_{miles}_mile"] = f"{int(value):,}" if value else "Not available"
-        record["demographics_source"] = "Modeled state fallback from available Scout Census/TIGER records; verify with a demographic report"
+        income_state_values = income_by_state.get(state) or {}
+        if not has_pop:
+            for miles in (1, 3, 5):
+                value = median(state_values.get(miles, [])) or national_medians[miles]
+                record[f"population_{miles}_mile"] = f"{int(value):,}" if value else "Not available"
+            record["demographics_source"] = "Modeled state fallback from available Scout Census/TIGER records; verify with a demographic report"
+        if not has_income:
+            for miles in (1, 3, 5):
+                value = median(income_state_values.get(miles, [])) or income_national_medians[miles]
+                record[f"median_income_{miles}_mile"] = clean_income(value) if value else "Not available"
+            record["income_source"] = "Modeled state fallback from available Scout Census income records; verify with a demographic report"
         filled += 1
     return filled
 
@@ -257,24 +327,33 @@ def main(limit=None):
 
     for record in records:
         source = str(record.get("demographics_source") or "")
-        has_all = record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile")
-        if has_all and f"ACS {ACS_YEAR}" in source:
+        income_source = str(record.get("income_source") or "")
+        has_all_population = record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile")
+        has_all_income = record.get("median_income_1_mile") and record.get("median_income_3_mile") and record.get("median_income_5_mile")
+        if has_all_population and has_all_income and f"ACS {ACS_YEAR}" in source and f"ACS {ACS_YEAR}" in income_source:
             continue
-        for key in ["population_1_mile", "population_3_mile", "population_5_mile", "demographics_source"]:
-            record.pop(key, None)
+        if not (has_all_population and f"ACS {ACS_YEAR}" in source):
+            for key in ["population_1_mile", "population_3_mile", "population_5_mile", "demographics_source"]:
+                record.pop(key, None)
+        if not (has_all_income and f"ACS {ACS_YEAR}" in income_source):
+            for key in ["median_income_1_mile", "median_income_3_mile", "median_income_5_mile", "income_source"]:
+                record.pop(key, None)
 
     geocode_batch(records, cache)
 
     processed = 0
     for record in records:
         source = str(record.get("demographics_source") or "")
-        if record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile") and f"ACS {ACS_YEAR}" in source:
+        income_source = str(record.get("income_source") or "")
+        has_all_population = record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile")
+        has_all_income = record.get("median_income_1_mile") and record.get("median_income_3_mile") and record.get("median_income_5_mile")
+        if has_all_population and has_all_income and f"ACS {ACS_YEAR}" in source and f"ACS {ACS_YEAR}" in income_source:
             estimated += 1
             continue
-        if record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile") and source.startswith("Scanned EASI"):
+        if has_all_population and has_all_income and source.startswith("Scanned EASI"):
             scanned_fallback += 1
             continue
-        if record.get("population_1_mile") and record.get("population_3_mile") and record.get("population_5_mile") and source.startswith("Modeled state fallback"):
+        if has_all_population and has_all_income and source.startswith("Modeled state fallback"):
             continue
         if limit and processed >= limit:
             break

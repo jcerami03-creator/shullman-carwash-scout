@@ -512,6 +512,10 @@ function standardizeRecord(raw, source, index) {
   const population3Mile = pick(normalized, ["population_3_mile", "pop_3_mile", "three_mile_population", "3_mile_population"]) || populationFallback.population3Mile;
   const population5Mile = pick(normalized, ["population_5_mile", "pop_5_mile", "five_mile_population", "5_mile_population"]) || populationFallback.population5Mile;
   const demographicsSource = pick(normalized, ["demographics_source", "demographic_source", "population_source"]) || populationFallback.demographicsSource;
+  const medianIncome1Mile = pick(normalized, ["median_income_1_mile", "income_1_mile", "median_household_income_1_mile", "household_income_1_mile"]);
+  const medianIncome3Mile = pick(normalized, ["median_income_3_mile", "income_3_mile", "median_household_income_3_mile", "household_income_3_mile"]);
+  const medianIncome5Mile = pick(normalized, ["median_income_5_mile", "income_5_mile", "median_household_income_5_mile", "household_income_5_mile"]);
+  const incomeSource = pick(normalized, ["income_source", "median_income_source", "household_income_source"]);
   const mapsUrl = pick(normalized, ["maps_url", "google_maps_url", "maps"]);
   const latitude = pick(normalized, ["latitude", "lat"]);
   const longitude = pick(normalized, ["longitude", "lon", "lng"]);
@@ -553,6 +557,10 @@ function standardizeRecord(raw, source, index) {
     population_3_mile: population3Mile,
     population_5_mile: population5Mile,
     demographics_source: demographicsSource,
+    median_income_1_mile: medianIncome1Mile,
+    median_income_3_mile: medianIncome3Mile,
+    median_income_5_mile: medianIncome5Mile,
+    income_source: incomeSource,
     maps_url: mapsUrl,
     latitude,
     longitude,
@@ -603,6 +611,10 @@ function standardizeRecord(raw, source, index) {
     population3Mile,
     population5Mile,
     demographicsSource,
+    medianIncome1Mile,
+    medianIncome3Mile,
+    medianIncome5Mile,
+    incomeSource,
     mapsUrl,
     latitude,
     longitude,
@@ -739,11 +751,181 @@ function formatMoneyShort(value) {
   return `$${number}`;
 }
 
+function formatIncome(value) {
+  const number = moneyToNumber(value) || numericValue(value);
+  if (!number) return "Not provided";
+  return `$${Math.round(number).toLocaleString()}`;
+}
+
+function incomeField(record, miles) {
+  return {
+    1: record?.medianIncome1Mile,
+    3: record?.medianIncome3Mile,
+    5: record?.medianIncome5Mile,
+  }[miles];
+}
+
+function modeledIncomeForRadius(record, miles) {
+  const sameState = records
+    .filter((candidate) => candidate.id !== record.id && candidate.state && candidate.state === record.state)
+    .map((candidate) => numericValue(incomeField(candidate, miles)))
+    .filter(Boolean)
+    .sort((a, b) => a - b);
+  const allValues = records
+    .filter((candidate) => candidate.id !== record.id)
+    .map((candidate) => numericValue(incomeField(candidate, miles)))
+    .filter(Boolean)
+    .sort((a, b) => a - b);
+  const values = sameState.length ? sameState : allValues;
+  if (!values.length) return "";
+  const midpoint = Math.floor(values.length / 2);
+  return values.length % 2 ? values[midpoint] : Math.round((values[midpoint - 1] + values[midpoint]) / 2);
+}
+
+function displayIncomeForRadius(record, miles) {
+  const direct = incomeField(record, miles);
+  if (direct) return formatIncome(direct);
+  const modeled = modeledIncomeForRadius(record, miles);
+  return modeled ? `Est. ${formatIncome(modeled)}` : "Not provided";
+}
+
 function metricValue(value, type = "text") {
   if (!value || value === "-") return "Not provided";
   if (type === "money" && /est|approx|~/i.test(String(value))) return `Est. ${formatMoneyShort(value)}`;
   const formatted = type === "money" ? formatMoneyShort(value) : value;
   return formatted && formatted !== "-" ? formatted : "Not provided";
+}
+
+function coordinatePair(record) {
+  const lat = Number(record?.latitude);
+  const lon = Number(record?.longitude);
+  return Number.isFinite(lat) && Number.isFinite(lon) ? { lat, lon } : null;
+}
+
+function distanceMiles(from, to) {
+  const earthMiles = 3958.7613;
+  const toRad = (degrees) => (degrees * Math.PI) / 180;
+  const dLat = toRad(to.lat - from.lat);
+  const dLon = toRad(to.lon - from.lon);
+  const lat1 = toRad(from.lat);
+  const lat2 = toRad(to.lat);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
+  return earthMiles * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function recordCompetitionKey(record) {
+  return [record.name, record.market, record.state]
+    .filter(Boolean)
+    .join("|")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function nearbyCompetition(record, miles) {
+  const here = coordinatePair(record);
+  if (!here) return { count: null, items: [] };
+  const currentKey = recordCompetitionKey(record);
+  const seen = new Set();
+  const items = records
+    .filter((candidate) => candidate.id !== record.id)
+    .map((candidate) => {
+      const there = coordinatePair(candidate);
+      if (!there) return null;
+      const key = recordCompetitionKey(candidate);
+      if (!key || key === currentKey || seen.has(key)) return null;
+      const distance = distanceMiles(here, there);
+      if (distance > miles) return null;
+      seen.add(key);
+      return {
+        name: candidate.name || candidate.market || "Car wash",
+        market: candidate.market || "",
+        distance,
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.distance - b.distance);
+  return { count: items.length, items };
+}
+
+function competitionBandItems(rows, minMiles, maxMiles) {
+  const row = rows.find((item) => item.miles === maxMiles);
+  if (!row || !row.items.length) return [];
+  return row.items.filter((item) => item.distance > minMiles && item.distance <= maxMiles);
+}
+
+function competitionListHtml(rows) {
+  const groups = [
+    { label: "Within 1 mile", items: competitionBandItems(rows, 0, 1) },
+    { label: "1-3 miles", items: competitionBandItems(rows, 1, 3) },
+    { label: "3-5 miles", items: competitionBandItems(rows, 3, 5) },
+  ];
+  const hasItems = groups.some((group) => group.items.length);
+  if (!hasItems) return `<p>No nearby Scout car wash matches inside 5 miles.</p>`;
+  return `
+    <div class="competition-groups">
+      ${groups
+        .map(
+          (group) => `
+            <div class="competition-group">
+              <span>${escapeHtml(group.label)}</span>
+              ${
+                group.items.length
+                  ? `<ul class="competition-list">${group.items
+                      .map((item) => `<li>${escapeHtml(item.name)} <span>${escapeHtml(item.distance.toFixed(1))} mi</span></li>`)
+                      .join("")}</ul>`
+                  : `<p>No matches</p>`
+              }
+            </div>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function marketIntelHtml(record) {
+  const incomeRows = [
+    ["1-mile", displayIncomeForRadius(record, 1)],
+    ["3-mile", displayIncomeForRadius(record, 3)],
+    ["5-mile", displayIncomeForRadius(record, 5)],
+  ];
+  const competitionRows = [1, 3, 5].map((miles) => {
+    const result = nearbyCompetition(record, miles);
+    const label = `${miles}-mile`;
+    const value = result.count == null ? "Needs coordinates" : `${result.count} nearby`;
+    return { miles, label, value, count: result.count, items: result.items };
+  });
+
+  return `
+    <section class="market-intel-panel" aria-label="Local income and competition">
+      <div class="market-intel-card">
+        <div class="verified-info-head">
+          <span>Household Income</span>
+          <strong>Median HH income</strong>
+        </div>
+        <div class="market-intel-metrics">
+          ${incomeRows
+            .map(([label, value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`)
+            .join("")}
+        </div>
+      </div>
+      <div class="market-intel-card">
+        <div class="verified-info-head">
+          <span>Competition</span>
+          <strong>Nearby car washes</strong>
+        </div>
+        <div class="market-intel-metrics">
+          ${competitionRows
+            .map((row) => `<div><span>${escapeHtml(row.label)}</span><strong>${escapeHtml(row.value)}</strong></div>`)
+            .join("")}
+        </div>
+        ${competitionRows.some((row) => row.count == null) ? `<p>Add coordinates to show exact competitors.</p>` : competitionListHtml(competitionRows)}
+      </div>
+    </section>
+  `;
 }
 
 function tokenize(text) {
@@ -1194,7 +1376,6 @@ function selectRecord(id, rerender = true) {
     record.population1Mile ? `1-mile ${record.population1Mile}` : "1-mile not available",
     record.population3Mile ? `3-mile ${record.population3Mile}` : "3-mile not available",
     record.population5Mile ? `5-mile ${record.population5Mile}` : "5-mile not available",
-    record.demographicsSource ? `Source: ${record.demographicsSource}` : "",
   ]
     .filter(Boolean)
     .join(" | ");
@@ -1222,6 +1403,7 @@ function selectRecord(id, rerender = true) {
     .join("");
   const scoutInsight = buildScoutInsight(record);
   const executiveRead = buildExecutiveRead(record);
+  const marketIntel = marketIntelHtml(record);
   const contactActions = contactActionsHtml(record);
   const sourceActions = sourceActionsHtml(record);
   const snapshotUrl = usableAssetUrl(record.listingSnapshotUrl) ? record.listingSnapshotUrl : "";
@@ -1296,6 +1478,7 @@ function selectRecord(id, rerender = true) {
           </div>
         </section>
         <div class="detail-field-grid">${detailFields}</div>
+        ${marketIntel}
         ${
           snapshotUrl
             ? `<section class="listing-snapshot">
@@ -1369,6 +1552,10 @@ function buildScoutInsight(record) {
   if (record.carsWk) facts.push(`Cars/Yr: ${record.carsWk}`);
   if (record.trafficCount) facts.push(record.trafficCount);
   if (record.population1Mile) facts.push(`1-mi pop: ${record.population1Mile}`);
+  const oneMileIncome = displayIncomeForRadius(record, 1);
+  if (oneMileIncome && oneMileIncome !== "Not provided") facts.push(`1-mi income: ${oneMileIncome}`);
+  const oneMileCompetition = nearbyCompetition(record, 1);
+  if (oneMileCompetition.count != null) facts.push(`1-mi comps: ${oneMileCompetition.count}`);
   if (record.population3Mile) facts.push(`3-mi pop: ${record.population3Mile}`);
   if (record.population5Mile) facts.push(`5-mi pop: ${record.population5Mile}`);
 
