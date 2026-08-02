@@ -842,6 +842,8 @@ function nearbyCompetition(record, miles) {
       return {
         name: candidate.name || candidate.market || "Car wash",
         market: candidate.market || "",
+        lat: there.lat,
+        lon: there.lon,
         distance,
       };
     })
@@ -926,6 +928,98 @@ function marketIntelHtml(record) {
       </div>
     </section>
   `;
+}
+
+function locationMapHtml(record) {
+  const here = coordinatePair(record);
+  const mapsUrl = mapsSearchUrl(record);
+  if (!here) {
+    return `
+      <section class="location-map-panel">
+        <div class="verified-info-head">
+          <span>Location Map</span>
+          <strong>Coordinates needed</strong>
+        </div>
+        <div class="map-empty-state">
+          <strong>${escapeHtml(displayValue(record.market))}</strong>
+          <p>Add an exact street address or coordinates to show the interactive competitor map.</p>
+          ${mapsUrl ? `<a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noreferrer">Open Maps</a>` : ""}
+        </div>
+      </section>
+    `;
+  }
+  return `
+    <section class="location-map-panel" aria-label="Interactive location map">
+      <div class="verified-info-head">
+        <span>Location Map</span>
+        <strong>Interactive radius view</strong>
+      </div>
+      <div class="scout-map-shell">
+        <div id="recordMap" class="scout-map" aria-label="Interactive map for ${escapeHtml(record.name || record.market || "car wash")}"></div>
+      </div>
+      <div class="map-chip-row">
+        <span>Site pin</span>
+        <span>1-mile ring</span>
+        <span>3-mile ring</span>
+        <span>5-mile ring</span>
+        ${mapsUrl ? `<a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noreferrer">Open in Google Maps</a>` : ""}
+      </div>
+    </section>
+  `;
+}
+
+function initLocationMap(record) {
+  const target = document.getElementById("recordMap");
+  const here = coordinatePair(record);
+  if (!target || !here || !window.L) return;
+
+  const map = window.L.map(target, {
+    scrollWheelZoom: false,
+    zoomControl: true,
+  }).setView([here.lat, here.lon], 13);
+
+  window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+
+  const siteName = record.name || record.market || "Selected car wash";
+  const siteMarker = window.L.marker([here.lat, here.lon]).addTo(map);
+  siteMarker.bindPopup(`<strong>${escapeHtml(siteName)}</strong><br>${escapeHtml(record.market || "")}`);
+
+  const ringStyles = [
+    { miles: 1, color: "#11966f", fillOpacity: 0.08 },
+    { miles: 3, color: "#2f77b4", fillOpacity: 0.045 },
+    { miles: 5, color: "#c89633", fillOpacity: 0.025 },
+  ];
+  const radiusCircles = ringStyles.map((style) =>
+    window.L.circle([here.lat, here.lon], {
+        radius: style.miles * 1609.344,
+        color: style.color,
+        weight: style.miles === 1 ? 2 : 1,
+        fillColor: style.color,
+        fillOpacity: style.fillOpacity,
+      }).addTo(map)
+  );
+  const fiveMileCircle = radiusCircles[radiusCircles.length - 1];
+
+  nearbyCompetition(record, 5).items.forEach((item) => {
+    if (!Number.isFinite(item.lat) || !Number.isFinite(item.lon)) return;
+    window.L.circleMarker([item.lat, item.lon], {
+      radius: 7,
+      color: "#0c4c3d",
+      weight: 2,
+      fillColor: "#2dd4a3",
+      fillOpacity: 0.88,
+    })
+      .addTo(map)
+      .bindPopup(`<strong>${escapeHtml(item.name)}</strong><br>${escapeHtml(item.distance.toFixed(1))} miles away`);
+  });
+
+  if (fiveMileCircle) {
+    map.fitBounds(fiveMileCircle.getBounds(), { padding: [18, 18] });
+  }
+  setTimeout(() => map.invalidateSize(), 80);
 }
 
 function tokenize(text) {
@@ -1406,6 +1500,7 @@ function selectRecord(id, rerender = true) {
   const marketIntel = marketIntelHtml(record);
   const contactActions = contactActionsHtml(record);
   const sourceActions = sourceActionsHtml(record);
+  const locationMap = locationMapHtml(record);
   const snapshotUrl = usableAssetUrl(record.listingSnapshotUrl) ? record.listingSnapshotUrl : "";
   const websiteUrl = usableWebsiteUrl(record);
   const mapsUrl = mapsSearchUrl(record);
@@ -1479,6 +1574,7 @@ function selectRecord(id, rerender = true) {
         </section>
         <div class="detail-field-grid">${detailFields}</div>
         ${marketIntel}
+        ${locationMap}
         ${
           snapshotUrl
             ? `<section class="listing-snapshot">
@@ -1530,6 +1626,7 @@ function selectRecord(id, rerender = true) {
   `;
   els.recordModal.hidden = false;
   document.body.classList.add("modal-open");
+  initLocationMap(record);
 
   if (rerender) runSearch();
 }

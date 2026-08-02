@@ -938,6 +938,101 @@ textarea {
   color: var(--muted);
 }
 
+.location-map-panel {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #b9d5ca;
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(245, 251, 248, 0.96)),
+    radial-gradient(circle at 20% 15%, rgba(45, 212, 163, 0.18), transparent 34%);
+  box-shadow: 0 14px 34px rgba(16, 55, 45, 0.08);
+}
+
+.scout-map-shell {
+  padding: 9px;
+  border: 1px solid rgba(13, 89, 70, 0.22);
+  border-radius: 8px;
+  background:
+    linear-gradient(rgba(14, 80, 63, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 80, 63, 0.08) 1px, transparent 1px),
+    #f8fcfa;
+  background-size: 28px 28px;
+}
+
+.scout-map {
+  width: 100%;
+  height: min(48vh, 430px);
+  min-height: 320px;
+  overflow: hidden;
+  border: 1px solid rgba(13, 89, 70, 0.24);
+  border-radius: 8px;
+  background: #e8f2ee;
+}
+
+.scout-map .leaflet-control-attribution {
+  font-size: 10px;
+}
+
+.map-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.map-chip-row span,
+.map-chip-row a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 6px 10px;
+  border: 1px solid rgba(13, 89, 70, 0.18);
+  border-radius: 999px;
+  color: var(--green-dark);
+  background: #edf5f1;
+  font-size: 12px;
+  font-weight: 850;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.map-chip-row a {
+  margin-left: auto;
+  color: #fff;
+  background: var(--green);
+}
+
+.map-empty-state {
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+  border: 1px dashed rgba(13, 89, 70, 0.28);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.map-empty-state strong {
+  color: var(--ink);
+  font-size: 19px;
+}
+
+.map-empty-state p {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.map-empty-state a {
+  width: fit-content;
+  padding: 9px 12px;
+  border-radius: 8px;
+  color: #fff;
+  background: var(--green);
+  font-weight: 850;
+  text-decoration: none;
+}
+
 .metric-tile {
   padding: 14px;
   border: 1px solid var(--line);
@@ -2085,6 +2180,17 @@ textarea {
 
   .market-intel-metrics div:last-child {
     border-bottom: 0;
+  }
+
+  .map-chip-row a {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .scout-map {
+    height: 340px;
+    min-height: 280px;
   }
 }
 
